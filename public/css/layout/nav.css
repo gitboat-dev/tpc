@@ -261,10 +261,6 @@ nav.nav_right ul.header-menu .has-children ul.a_sub_menu > li:not(.navrecycled){
 	header .header-top{
 		display: none;
 	}
-    header .header-body.slide{
-        right: 250px !important;
-        transition: right 2.5s;
-    }
 	header .header-body .header_main{
 		display: block;
 	}
