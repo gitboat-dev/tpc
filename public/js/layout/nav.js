@@ -20,6 +20,7 @@ jQuery(document).ready(function($){
 		var burger = $(this).children('.burger-menu'),
 			wrapper = $('div.wrapper'),
 			html_body = jQuery('html,body'),
+            header_body = jQuery('header#header .header-body'),
 			nav_right = jQuery('nav.nav_right');
 		burger.toggleClass('change');
 		wrapper.toggleClass('open');
@@ -35,6 +36,9 @@ jQuery(document).ready(function($){
 						right: "0",
 					},250);
 				});
+                header_body.animate({
+					right: "+=250px",
+				},250);
 			}else{
 				nav_right.animate({
 					right: "-=250px",
@@ -48,6 +52,9 @@ jQuery(document).ready(function($){
 					wrapper.removeAttr('style');
 					html_body.removeAttr('style');
 				});
+                header_body.animate({
+					right: "0",
+				},250);
 			}
 		}
 	});
