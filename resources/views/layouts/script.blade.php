@@ -9,4 +9,4 @@
 {{-- <script src="/assets/custom/js/custom.js"></script> --}}
 
 <script src="/js/layout/contact-tools.min.js"></script>
-<script src="/js/layout/nav.min.js"></script>
+<script src="/js/layout/nav.min.js?v={{ time() }}"></script>
