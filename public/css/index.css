@@ -176,7 +176,7 @@ span.highlight{
 #home .section-three .r1 .col3 .content_1 > .img_block1,
 #home .section-three .r1 .col4 .content_1 > .img_block1{
 	max-width: 45%;
-	margin-left: 0; 
+	margin-left: 0;
 }
 
 	/*-------------------------------------End Section Three-------------------------------------*/
@@ -374,7 +374,7 @@ span.highlight{
 	padding-right: 0;
 	max-height: var(--secSixContBox);
 	width: 100%;
-	overflow: hidden; 
+	overflow: hidden;
 }
 
 	/*-------------------------------------End Section Six-------------------------------------*/
@@ -478,7 +478,7 @@ span.highlight{
 #home .section-eight .r1 .col1 .content_1{
 	position: relative;
 	margin: auto;
-	padding: 40px 20px;
+	padding: 60px 20px 40px 20px;
 }
 
 
@@ -489,7 +489,7 @@ span.highlight{
 }
 #home .section-eight .r1 .col1 .img_block1{
 	display: flex;
-	margin: auto; 
+	margin: auto;
 }
 #home .section-eight .r1 .col1 .col1_1 .img_block1 picture{
 	margin-right: 0;
@@ -683,7 +683,7 @@ span.highlight{
 	}
 	#home .section-six .r1 .col1 .content_1{
 		border: none;
-		padding: 0 35px; 
+		padding: 0 35px;
 	}
 	#home .section-six .r1 div.top-line{
 		top: 0;
