@@ -116,7 +116,6 @@ function adjust_header(){
 	var header = jQuery('header#header .header-body .header_main'),
 		m_menu = jQuery('header#header .header-body .logo .m-menu-block .m-menu'),
 		height_header = header.outerHeight();
-        console.log(height_header);
 	if(jQuery( window ).width() <= 991){
 		m_menu.css({'min-height':height_header+'px'});
 	}else{
