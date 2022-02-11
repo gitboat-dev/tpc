@@ -1,0 +1,27 @@
+body .wrapper{
+  display: flex;
+  position: relative;
+  max-width: 1920px;
+  margin: auto;
+  z-index: 999;
+  background-color: var(--msBgDark);
+}
+.block_login{
+	margin: auto;
+}
+.block_login .login-header{
+	color: var(--msBgDarkOpacity);
+	text-align: center;
+	font-weight: 600;
+	margin-bottom: 35px;
+}
+.block_login .login-content{
+	padding: 40px 40px 40px 40px;
+	border-radius: 5px;
+	background-color: var(--msBgLight);
+}
+.block_login .login-content .subtitle{
+	margin-bottom: 20px;
+	font-weight: 600;
+	color: #999;
+}

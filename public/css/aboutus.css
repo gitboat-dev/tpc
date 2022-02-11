@@ -1,0 +1,1485 @@
+	/*1585 at use desktop*/
+/*========================= Start setting ============================*/
+	body {
+		font-family: 'Sen', sans-serif !important;
+		--bggreen:#40ad74;
+		--bgblack:#202731;
+		--bgblackopacity:#202731ed;
+		--pt: 165px;
+		--ptleft:105px;
+		--ptright:105px;
+	}
+	#about{
+		padding: 0px 54px;
+		margin-bottom: -26px;
+		background-color: var(--bggreen);
+		max-width: 1920px;
+	}
+	#about .img-fluid {
+	    max-width: 100%;
+	    height: auto;
+	}
+	#about h2{
+		font-family: 'Sen', sans-serif !important;
+		line-height: 50px;
+    	font-size: 56px;
+    	font-weight: 500;
+	}
+	#about .text-align-justify{
+		/*text-align:justify;*/
+	}
+	#about .p-0{
+		padding: 0px;
+	}
+	#about .header{
+		font-size: 32px;
+	}
+	#about .paragraph{
+		font-size: 23px;
+    	line-height: 28px;
+	}
+	#about .align-items-center {
+	    align-items: center!important;
+	}
+	#about .bg-white{
+	    background-color: #fff;
+	}
+	#about .bg-black{
+		background-color: #202731;
+	}
+	#about .row-custom {
+	    display: table;
+	}
+
+	#about .row-custom [class*="col-"] {
+	    float: none;
+	    display: table-cell;
+	    vertical-align: top;
+	}
+	#about .d-mobile-none{
+		display: block;
+	}
+	#about .d-mobile-show{
+		display: none;
+	}
+/*========================= End setting ============================*/
+
+/*========================= Start section-one ============================*/
+	#about .section-one{
+		background-color: var(--bgblack);
+    	padding: 30px var(--pt) 10px var(--pt);
+	}
+	#about .section-one .logo{
+		width: 120px;
+		display: block;
+		margin: auto;
+	}
+	#about .section-one .box-content-header {
+	    padding: 20px 0px 30px 0px;
+	}
+	#about .section-one h2,#about .section-one p{
+		color: #fff;
+	}
+	#about .section-one p{
+		text-align: center;
+	}
+/*========================= End section-one ============================*/
+
+
+/*========================= Start section-two ============================*/
+	#about .section-two{
+		background-color: var(--bgblack);
+	}
+	
+	#about .section-two .ab-img{
+		width: 100%;
+		height: 350px;
+	}
+	#about .section-two .banner{
+		position: relative;
+	    height: 350px;
+	    width: 100%;
+	    overflow: hidden;
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	}
+	#about .section-two .banner video{
+	    position: absolute;
+	    object-fit: cover;
+	    width: 100%;
+	    height: 350px;
+	    object-fit: fill;
+	}
+	/*#about .section-two .banner .content{
+		width: 100%;
+	    position: absolute;
+	    top: 0;
+	    height: 350px;
+	}*/
+	#about .section-two figure {
+	 /* display: -ms-flex;
+	  display: -webkit-flex;
+	  display: flex;
+	  height: 350px;*/
+	 	position: absolute;
+    	top: 34%;
+    	left: 42%;
+	}
+
+	#about .section-two figure button[name="play"] {
+	  width: 120px;
+	  height: 120px;
+	  background: var(--bgblack);
+	  border: none;
+	  border-radius: 100%;
+	  margin: auto;
+	  cursor: pointer;
+	}
+	#about .section-two figure button[name="play"]:focus {
+	  outline: 0;
+	  border: 1px solid hsl(210, 58%, 69%);
+	  box-shadow: 0 0 0 3px hsla(210, 76%, 57%, 0.5);
+	}
+
+	#about .section-two figure button[name="play"]::after {
+	    content: '';
+	    display: inline-block;
+	    position: relative;
+	    top: 3px;
+	    left: 12px;
+	    border-style: solid;
+	    border-width: 43px 0 43px 53px;
+	    border-color: transparent transparent transparent var(--bggreen);
+	}
+/*========================= End section-two ============================*/
+
+/*========================= Start section-three ============================*/
+	#about .section-three{
+		background-color: white;
+    	padding: 50px var(--pt) 30px var(--pt);
+	}
+	#about .section-three p{
+		text-align: center;
+	}
+/*========================= End section-three ============================*/
+
+/*========================= Start section-four ============================*/
+	#about .section-four{
+		background-color: #fff;
+	}
+	#about .section-four .box-content-left{
+		background-color: var(--bgblack);
+		padding: 137px 170px;
+		/*display: flex;*/
+	}
+	#about .section-four .box-content-left img{
+		display: block;
+		margin: auto;
+
+	}
+	#about .section-four .box-content-right{
+		padding: 137px 0px 90px 0px;
+	}
+	#about .section-four .box-content-aria{
+	    padding: 0px var(--ptright) 0px var(--ptleft);
+	    width: 100%;
+	}
+	#about .section-four .box-content-header{
+		position: relative;
+		margin-bottom: 116px;
+	}
+	#about .section-four .box-circle{
+		position: absolute;
+		top: 0;
+	    right: 0;
+	}
+	#about .section-four .box-circle div{
+		width: 30px;
+	    height: 30px;
+	    background-color: var(--bggreen);
+	    border-radius: 50%;
+	    margin: 0px 0px 8px 0px;
+	}
+	#about .section-four p{
+	    padding: 0px var(--ptright) 0px var(--ptleft);
+    }
+    #about .section-four .box-circle-two{
+		position: absolute;
+	    bottom: 0;
+	    right: var(--ptright);
+	    top: 88%;
+    }
+    #about .section-four .box-circle-two td div{
+		width: 30px;
+	    height: 30px;
+	    background-color: var(--bggreen);
+	    border-radius: 50%;
+	    margin-left: 27px;
+   	 	margin-bottom: 27px;
+	}
+/*========================= End section-four ============================*/
+
+
+/*========================= Start section-five ============================*/
+	#about .section-five{
+		padding-bottom: 34px;
+		background-color: #fff;
+	}
+	#about .section-five .box-left{
+		padding: 115px 160px 30px var(--pt);
+	}
+	#about .section-five .box-right{
+		padding: 115px var(--ptright) 50px 300px;
+		position: relative;
+	}
+	#about .section-five h2{
+		margin-bottom: 70px;
+	}
+	#about .section-five .paragraph{
+		margin-bottom: 30px;
+	}
+	#about .section-five .box-left img{
+		margin-top: 46px;
+	}
+	#about .section-five .oeko-tex{
+		width: 400px;
+		display: block;
+		margin: auto;
+	}
+	#about .section-five .box-right .backgrount-center{
+		position: absolute;
+	    background-color: var(--bgblack);
+	    width: 200px;
+	    height: 100%;
+	    top: 0;
+	    left: 0;
+	}
+	#about .section-five .box-right .img-backgrount-center{
+		position: absolute;
+	    z-index: 1;
+    	/*top: 72px;*/
+    	top: 10%;
+    	left: -50px;
+	}
+	#about .section-five .box-right img{
+		width: 180px;
+		margin: auto;
+		display: block;
+		margin-bottom: 94px;
+	}
+/*========================= End section-five ============================*/
+	
+/*========================= Start section-six ============================*/
+	#about .section-six{
+		position: relative;
+		background-color: #fff;
+	}
+	#about .section-six .box-left {
+	    padding: 150px 0px 64px var(--pt);
+	}
+	#about .section-six .box-right {
+		display: block;
+	    width: 220px;
+	    top: 80px;
+	    position: absolute;
+	    right: var(--ptright);
+	}
+	#about .section-six .content{
+		position: absolute;
+    	/*bottom: 7%;*/
+    	bottom: 0;
+	}
+	#about .section-six h2,#about .section-six p{
+		color: white;
+	}
+	#about .section-six h2{
+		font-size: 64px;
+		margin-bottom: 56px;
+	}
+	#about .section-six ul {
+		position: relative;
+		list-style: none;
+		margin-left: 0;
+		padding-left: 0;
+	}
+	#about .section-six .box-left ul li:nth-child(1):before{
+		content: ".";
+		color: var(--bggreen);
+	    position: absolute;
+	    top: -45px;
+   	 	left: -65px;
+	    font-size: 200px;
+	}
+	#about .section-six .box-right ul li:nth-child(1):before{
+		content: ".";
+		color: var(--bggreen);
+	    position: absolute;
+	    top: -55px;
+   	 	left: -65px;
+	    font-size: 200px;
+	}
+	#about .section-six .box-right ul li:nth-child(2):before {
+		content: ".";
+		color: var(--bggreen);
+	    position: absolute;
+	    top: 0px;
+	    left: -65px;
+	    font-size: 200px;
+	}
+	#about .section-six .box-right ul li:nth-child(1) p{
+		margin-bottom: 0px;
+	}
+/*========================= End section-six ============================*/    
+
+/*========================= Start section-seven ============================*/
+
+	#about .section-seven{
+		background-color: #fff;
+		border-bottom: 10px solid var(--bgblack);
+	}
+	#about .section-seven p.paragraph{
+		font-size: 20px;
+	}
+	#about .section-seven img.circle {
+	  	border-radius: 50%;
+	  	display: block;
+	  	margin: auto;
+	    margin-bottom: 20px;
+	}
+	
+	#about .section-seven .card:nth-child(1) {
+	    padding: 33px 30px 0px 30px;
+	}
+	#about .section-seven .card:nth-child(2) {
+	    padding: 33px 30px 40px 30px;
+	}
+	#about .section-seven .card ul {
+	  list-style-type: none;
+	  padding-left: 1em;
+	}
+	#about .section-seven .card ul li:nth-child(1){
+		list-style: disc;
+		font-weight: bold;
+	}
+	#about .section-seven .card ul li:nth-child(1) p,#about .section-seven .card ul li:nth-child(2) p{
+		margin-bottom: 0px;
+	}
+	#about .section-seven .card ul li:nth-child(2):before {
+	  content: "–";
+	  position: absolute;
+	  margin-left: -1em;
+	  font-weight: bold;
+	}
+	#about .section-seven .custom-heigth{
+		margin-bottom: 84px!important;
+	}
+	#about .section-seven .our-mission{
+		background-color: var(--bgblack);
+		padding: 62px 79px;
+		position: relative;
+	}
+	#about .section-seven .our-mission h2{
+		margin-bottom: 62px;
+		color: white;
+	}
+	#about .section-seven .our-mission p{
+		margin-bottom: 15px;
+		color: white;
+	}
+	#about .section-seven .our-mission .box-circle-two{
+		position: absolute;
+	    bottom: 0;
+	    left: 20px;
+	    top: 90%;
+    }
+    #about .section-seven .our-mission .box-circle-two td div{
+		width: 30px;
+	    height: 30px;
+	    background-color: var(--bggreen);
+	    border-radius: 50%;
+	    margin-left: 12px;
+   	 	margin-bottom: 13px;
+	}
+
+/*========================= End section-seven ============================*/   
+
+/*========================= Start section-eight ============================*/
+	#about .section-eight{
+		background-color: #fff;
+		position: relative;
+		height: 108px;
+	}
+	#about .section-eight .box-circle-two{
+		position: absolute;
+	    bottom: 0;
+	    left: var(--pt);
+	    top: 48%;
+    }
+    #about .section-eight .box-circle-two td div{
+		width: 30px;
+	    height: 30px;
+	    background-color: var(--bggreen);
+	    border-radius: 50%;
+	    margin-left: 13px;
+   	 	margin-bottom: 13px;
+	}
+	#about .section-eight .box-circle-two td:nth-child(1) div{
+		margin-left: 0;
+	}
+/*========================= End section-eight ============================*/   
+
+/*========================= Start section-nine ============================*/
+	#about .section-nine{
+		background-color: #fff;
+		padding-bottom: 46px;
+	}
+/*========================= End section-nine ============================*/  
+
+/*========================= Start section-ten ============================*/
+	#about .section-ten{
+		background-color: var(--bgblack);
+		border-bottom: 10px solid var(--bgblack);
+		padding-right: 63px;
+	}
+	#about .section-ten .box-content .box-left:nth-child(1){
+		padding: 40px 60px 60px var(--pt);
+	}
+	#about .section-ten .box-content .box-left:nth-child(2){
+		padding: 95px 60px 60px var(--pt);
+	}
+	#about .section-ten .box-content .box-left.bg-black p{
+		color: #fff;
+	}
+	#about .section-ten .box-bg-p{
+		margin-top: 47px;
+	}
+	#about .section-ten .box-bg-p-cus{
+		padding-left: 15px;
+	}
+	#about .section-ten .box-content-right .box-bg-p{
+		margin-top: 0;
+	}
+	#about .section-ten .box-bg-p .box-left:nth-child(1),
+	#about .section-ten .box-bg-p .box-left:nth-child(2),
+	#about .section-ten .box-bg-p .box-left:nth-child(3),
+	#about .section-ten .box-bg-p .box-left:nth-child(4),
+	#about .section-ten .box-bg-p .box-left:nth-child(5),
+	#about .section-ten .box-bg-p .box-left:nth-child(6){
+		padding: 40px 73px 20px 105px;
+	}
+
+	#about .section-ten .box-content .box-right:nth-child(1),
+	#about .section-ten .box-content .box-right:nth-child(4),
+	#about .section-ten .box-content .box-right:nth-child(6){
+		padding: 0px 94px 40px var(--ptright);
+	}
+	#about .section-ten .box-content .box-right:nth-child(2),
+	#about .section-ten .box-content .box-right:nth-child(3),
+	#about .section-ten .box-content .box-right:nth-child(5),
+	#about .section-ten .box-content .box-right:nth-child(7),
+	#about .section-ten .box-content .box-right:nth-child(8),
+	#about .section-ten .box-content .box-right:nth-child(9),
+	#about .section-ten .box-content .box-right:nth-child(10){
+		padding: 0px 94px 40px var(--ptright);
+	}
+	#about .section-ten ul {
+	    position: relative;
+	    list-style: none;
+	    margin-left: 0;
+	    padding-left: 0em;
+	}
+	#about .section-ten ul li:before {
+	    content: ".";
+	    color: var(--bggreen);
+	    position: absolute;
+	    top: -55px;
+	    left: -55px;
+	    font-size: 200px;
+	}
+
+/*========================= End section-ten ============================*/   
+
+/*========================= Start section-eleven ============================*/
+	#about .section-eleven{
+		padding: 80px 54px 80px 95px;
+		background-color: #fff;
+	}
+	#about .section-eleven .box-card-left{
+		padding-right: 32px;
+	}
+	#about .section-eleven .box-card-center{
+		padding-left: 29px;
+		padding-right: 29px;
+	}
+	#about .section-eleven .box-card-right{
+		margin-left: 32px;
+		position: relative;
+		height: 117px;
+	}
+	#about .section-eleven .box-card-left h2{
+		font-size: 70px;
+	    line-height: 65px;
+	}
+	#about .section-eleven .box-card-left p{
+	    margin-top: 90px;
+	}
+
+	#about .section-eleven .box-circle-two{
+		position: absolute;
+	    bottom: 0;
+	    left: 0;
+    }
+    #about .section-eleven .box-circle-two td div{
+		width: 30px;
+	    height: 30px;
+	    background-color: var(--bggreen);
+	    border-radius: 50%;
+	    margin-left: 13px;
+	}
+	#about .section-eleven .box-circle-two td:nth-child(1) div{
+		margin-left: 0;
+	}
+	#about .section-eleven .box-card-right-content p{
+		margin-top: 64px;
+		margin-bottom: 64px;
+	}
+	
+/*========================= End section-eleven ============================*/  
+
+/*========================= Start section-twelve ============================*/
+	#about .section-twelve{
+		background-color: #fff;
+		padding-bottom: 30px;
+	}	
+	#about .section-twelve .box-right-aria{
+		padding: 50px 90px 0px 90px;
+	}
+	#about .section-twelve .box-right-content h2{
+		font-size: 28px;
+    	line-height: 24px;
+	}
+
+	#about .section-twelve .box-right-content{
+		position: relative;
+    }
+	#about .section-twelve .box-circle-two{
+		position: absolute;
+	    top: -30px;
+    	right: 0;
+    }
+    #about .section-twelve .box-circle-two td div{
+		width: 30px;
+	    height: 30px;
+	    background-color: var(--bggreen);
+	    border-radius: 50%;
+	    margin-left: 13px;
+	}
+	#about .section-twelve .box-circle-two td:nth-child(1) div{
+		margin-left: 0;
+	}
+	#about .section-twelve .box-content-aria-custom{
+		padding: 50px 30px 0px 90px;
+	}
+	#about .section-twelve .box-right-img-center{
+		position: absolute;
+	    top: -100px;
+	    right: 43%;
+	    z-index: 1;
+	}
+/*========================= End section-twelve ============================*/  
+
+/******************** Responsive ********************/
+
+@media (min-width: 1900px) {
+	/*========================= Start setting ============================*/
+		#about h2{
+			font-family: unset;
+			line-height: 54px;
+	    	font-size: 60px;
+		}
+		
+		#about .paragraph{
+			font-size: 30px;
+	    	line-height: 36px;
+		}
+	/*========================= End setting ============================*/
+
+	/*========================= Start section-one ============================*/
+		#about .section-one .logo {
+	    	width: 180px;
+		}
+	/*========================= End section-one ============================*/	
+	/*========================= Start section-four ============================*/
+		#about .section-four .box-circle-two{
+			top: 100%;
+		}
+	/*========================= End section-four ============================*/	
+
+	/*========================= Start section-five ============================*/
+		#about .section-five .box-right .img-backgrount-center {
+		    top: 13%;
+		}
+	/*========================= End section-five ============================*/	
+
+	/*========================= Start section-six ============================*/
+		#about .section-six img{
+			width: 100%;
+		}
+		#about .section-six .box-right {
+		    display: block;
+		    width: 350px;
+		    top: 90px;
+		}
+	/*========================= End section-six ============================*/
+
+	/*========================= Start section-seven ============================*/
+		#about .section-eleven .box-card-center {
+		    padding-left: 51px;
+		    padding-right: 51px;
+		}
+		#about .section-seven .our-mission .box-circle-two{
+			top: 92%;
+		}
+		#about .section-seven .custom-heigth{
+			margin-bottom: 72px!important;
+		}
+	/*========================= End section-seven ============================*/
+
+
+	/*========================= Start section-twelve ============================*/
+		#about .section-twelve .box-right-img-center{
+			right: 45%;
+		}
+		#about .section-twelve .box-right-aria {
+		    padding: 145px 90px 0px 90px;
+		}
+	/*========================= End section-twelve ============================*/
+}
+@media only screen and (min-width: 1200px) and (max-width: 1499px){
+	/*========================= Start setting ============================*/
+	    body {
+		    --pt: 100px;
+		    --ptleft: 100px;
+		    --ptright: 100px;
+		}
+		#about h2{
+			font-family: unset;
+			line-height: 44px;
+	    	font-size: 50px;
+		}
+		
+		#about .paragraph{
+			font-size: 18px;
+    		line-height: 26px;
+		}
+
+	/*========================= End setting ============================*/
+
+	
+	
+	
+	
+	/*========================= Start section-two ============================*/
+		#about .section-four .box-circle-two {
+		    top: 90%;
+		}
+	/*========================= End section-two ============================*/
+
+	/*========================= Start section-four ============================*/
+		/*#about .section-four .box-circle-two {
+		    top: 91%;
+		}*/
+		#about .section-four .box-content-left {
+		    padding: 107px 100px;
+		}
+	/*========================= End section-four ============================*/
+
+	/*========================= Start section-five ============================*/
+		#about .section-five .box-right .backgrount-center{
+			width: 160px;
+		}
+		#about .section-five .box-right {
+		    padding: 115px var(--ptright) 50px 250px;
+		}
+		#about .section-five .box-right .img-backgrount-center {
+    		top: 7%;
+    	}
+	/*========================= End section-five ============================*/
+
+	/*========================= Start section-seven ============================*/
+	
+		#about .section-seven .custom-heigth {
+		    margin-bottom: 78px!important;
+		}
+		#about .section-seven .our-mission {
+		    padding: 33px 49px;
+		}
+		#about .section-seven p.paragraph {
+		    font-size: 16px;
+		    line-height: 24px;
+		}
+		#about .section-seven .our-mission h2 {
+		    margin-bottom: 20px;
+		    color: white;
+		}
+		#about .section-seven img.circle {
+		    width: 80px;
+		}
+		#about .section-seven .our-mission .box-circle-two {
+		    left: 50px;
+		    top: 82%;
+		}
+	/*========================= End section-seven ============================*/
+
+	/*========================= Start section-ten ============================*/
+
+	/*========================= End section-ten ============================*/
+
+	/*========================= Start section-eleven ============================*/
+		#about .section-eleven .box-card-center {
+		    padding-left: 14px;
+		    padding-right: 14px;
+		}
+	/*========================= End section-eleven ============================*/
+	
+
+	/*========================= Start section-twelve ============================*/
+		#about .section-twelve .box-right-aria{
+			padding: 40px 90px 0px 90px;
+		}
+		#about .section-twelve .box-right-img-center {
+		    right: 42%;
+		}
+
+	/*========================= End section-twelve ============================*/
+}
+
+@media only screen and (min-width: 768px) {
+	#about .section-six .content {
+	    top: 0;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+	/*orientation:portrait*/
+	/*========================= Start setting ============================*/
+		body {
+		    --pt: 45px;
+		    --ptleft: 45px;
+		    --ptright: 45px;
+		}
+		#about {
+		    padding: 0px 34px;
+		}
+		#about h2 {
+		    line-height: 52px;
+		    font-size: 46px;
+		}
+		#about .paragraph {
+		    font-size: 18px;
+		    line-height: 24px;
+		}
+		#about  .d-mobile-none{
+			display: none!important
+		}
+		#about  .d-mobile-show{
+			display: block;
+		}
+
+	/*========================= End setting ============================*/
+
+	/*========================= Start section-two ============================*/
+		#about .section-two .ab-img,
+		#about .section-two .banner,
+		#about .section-two .banner video,
+		#about .section-two .banner .content,
+		#about .section-two figure {
+		  height: 200px;
+		}
+		#about .section-two figure button[name="play"] {
+		    width: 80px;
+		    height: 80px;
+		}
+		#about .section-two figure button[name="play"]::after {
+		    top: 3px;
+		    left: 6px;
+		    border-width: 23px 0 23px 33px;
+		}
+	/*========================= End section-two ============================*/
+
+
+	/*========================= Start section-four ============================*/
+		#about .section-four .box-content-left {
+		    padding: 50px 60px;
+		}
+		#about .section-four .box-content-right {
+		    padding: 30px 0px 30px 0px;
+		}
+		#about .section-four .box-content-header {
+		    position: relative;
+		    margin-bottom: 30px;
+		}
+		#about .section-four .box-circle-two td div {
+		    width: 20px;
+		    height: 20px;
+		    margin-left: 15px;
+		    margin-bottom: 15px;
+		}
+		#about .section-four .box-circle-two {
+		    top: 95%;
+		}
+	/*========================= End section-four ============================*/
+
+	/*========================= Start section-five ============================*/
+		#about .section-five .box-right .backgrount-center {
+		    width: 150px;
+		}
+		#about .section-five .box-right {
+		    padding: 50px var(--ptright) 50px var(--ptleft);
+		}
+		#about .section-five .box-right .img-backgrount-center {
+	   	 	top: 5%;
+	   	}
+	   	#about .section-five .box-left {
+		    padding: 15px 58px 30px var(--pt);
+		}
+		#about .section-five h2 {
+		    margin-bottom: 30px;
+		}
+		#about .section-five .box-right img{
+			display: none;
+		}
+	/*========================= End section-five ============================*/
+
+	/*========================= Start section-six ============================*/
+		#about .section-six .content {
+		    /*top: 0;*/
+		}
+		#about .section-six h2 {
+		    font-size: 34px;
+		    margin-bottom: 0px;
+		}
+		#about .section-six .paragraph {
+		    font-size: 16px;
+		    line-height: 24px;
+		}
+		#about .section-six ul {
+		    margin-left: 50px;
+		}
+		#about .section-six .box-right ul {
+		    margin-left: 140px;
+		}
+		#about .section-six .box-right {
+		    width: 100%;
+		    top: 0px;
+		}
+		#about .section-six .box-left {
+		    padding: 30px 0px 30px var(--pt);
+		}
+	/*========================= End section-six ============================*/
+
+	/*========================= Start section-seven ============================*/
+		#about .section-seven .card:nth-child(1) {
+		    padding: 30px 20px;
+		    width: 50%;
+		    float: left;
+		}
+		#about .section-seven .card:nth-child(2) {
+		    padding: 30px 20px;
+		    width: 50%;
+		    float: left;
+		}
+		#about .section-seven .our-mission {
+		    padding: 62px 20px;
+		}
+		#about .section-seven .our-mission img{
+			display: block;
+			margin: auto;
+		}
+		#about .section-seven .our-mission h2 {
+		    margin-bottom: 30px;
+		}
+		#about .section-seven .our-mission h2,#about .section-seven .our-mission p {
+		    text-align: center;
+		}
+		#about .section-seven p.paragraph {
+		    font-size: 16px;
+		}
+		#about .section-seven .our-mission .box-circle-two {
+		    left: 10px;
+		    top: 93%;
+		}
+		#about .section-seven .custom-heigth {
+		    margin-bottom: 30px!important;
+		}
+	/*========================= End section-seven ============================*/
+
+	/*========================= Start section-ten ============================*/
+		#about .section-ten {
+		    padding-right: 0px;
+		}
+		#about .section-ten ul li:before {
+		    top: -45px;
+		    left: -40px;
+		    font-size: 150px;
+		}
+		#about .section-ten .box-content .box-right:nth-child(1),
+		#about .section-ten .box-content .box-right:nth-child(4),
+		#about .section-ten .box-content .box-right:nth-child(6) {
+		     padding: 0px 15px 20px 30px;
+		}
+		#about .section-ten .box-content .box-right:nth-child(2),
+		#about .section-ten .box-content .box-right:nth-child(3),
+		#about .section-ten .box-content .box-right:nth-child(5),
+		#about .section-ten .box-content .box-right:nth-child(7),
+		#about .section-ten .box-content .box-right:nth-child(8),
+		#about .section-ten .box-content .box-right:nth-child(9),
+		#about .section-ten .box-content .box-right:nth-child(10){
+			padding: 0px 15px 20px 35px;
+		}
+		#about .section-ten .box-content .box-left:nth-child(1) {
+		    padding: 30px 30px 30px var(--pt);
+		}
+		#about .section-ten .box-content .box-left:nth-child(2) {
+		    padding: 30px 30px 30px var(--pt);
+		}
+		#about .section-ten .box-bg-p .box-left:nth-child(1),
+		#about .section-ten .box-bg-p .box-left:nth-child(2),
+		#about .section-ten .box-bg-p .box-left:nth-child(3),
+		#about .section-ten .box-bg-p .box-left:nth-child(4),
+		#about .section-ten .box-bg-p .box-left:nth-child(5),
+		#about .section-ten .box-bg-p .box-left:nth-child(6){
+		    padding: 30px 30px 20px 45px;
+		}
+
+	/*========================= End section-ten ============================*/
+
+	/*========================= Start section-eleven ============================*/
+		#about .section-eleven .row-custom [class*="col-"] {
+		    float: left;
+		    display: block;
+		    vertical-align: unset;
+		}
+		#about .section-eleven {
+		    padding: 80px 20px 80px 20px;
+		}
+		#about .section-eleven .box-card-left h2 {
+		    font-size: 36px;
+    		line-height: 24px;
+		}
+		#about .section-eleven .box-card-center {
+		    padding-left: 0px;
+		    padding-right: 0px;
+		}
+		#about .section-eleven .box-card-right-content p {
+		    margin-top: 30px;
+		    margin-bottom: 30px;
+		}
+		#about .section-eleven .box-card-left {
+		    padding-right: 0px;
+		}
+		#about .section-eleven .box-card-left p {
+		    margin-top: 30px;
+		}
+		#about .section-eleven .box-card-right {
+		    height: 50px;
+		}
+
+	/*========================= End section-eleven ============================*/
+
+	/*========================= Start section-twelve ============================*/
+		#about .section-twelve .box-right-aria {
+		    padding: 30px 30px 0px 30px;
+		}
+		#about .section-twelve .box-right-content h2 {
+		    font-size: 24px;
+		    line-height: 24px;
+		}
+		#about .section-twelve .box-content-aria-custom {
+		    padding: 50px 30px 0px 30px;
+		}
+		#about .section-twelve .box-right-img-center {
+		    display: none;
+		}
+		#about .section-twelve .box-circle-two {
+		    top: -15px;
+		}
+	/*========================= End section-twelve ============================*/
+}
+@media only screen and (min-width: 1024px){ 
+	/*ipadแนวนอน*/
+	#about .section-six .content {
+		/*top: 10%;*/
+		top:unset;
+	}
+}
+@media only screen and (max-width: 767px) {
+	/*========================= Start setting ============================*/
+		body {
+			--pt:0px;
+			--ptleft:15px;
+			--ptright:15px;
+		}
+		#about{
+			/*padding: 0px 15px;*/
+			padding: 0px;
+			background-color: var(--bggreen);
+		}
+		#about h2 {
+		    font-family: unset;
+		    line-height: 24px;
+		    font-size: 32px;
+		}
+		
+		#about .paragraph{
+			font-size: 18px;
+	    	line-height: inherit;
+		}
+		#about .d-mobile-none{
+			display: none!important;
+		}
+		#about .d-mobile-show{
+			display: block;
+		}
+		#about .row-custom {
+		    display: table;
+		}
+		#about .row-custom [class*="col-"] {
+		    float: unset;
+		    display: block;
+		    vertical-align: unset;
+		}
+	/*========================= End setting ============================*/
+
+	/*========================= Start section-two ============================*/
+		#about .section-two .ab-img,
+		#about .section-two .banner,
+		#about .section-two .banner video,
+		#about .section-two .banner .content,
+		#about .section-two figure {
+		  height: 267px;
+		}
+
+
+
+		/*#about .section-two .ab-img {
+		    height: auto;
+		}*/
+		#about .section-two figure button[name="play"] {
+		    width: 80px;
+		    height: 80px;
+		}
+		#about .section-two figure button[name="play"]::after {
+		    top: 3px;
+		    left: 6px;
+		    border-width: 23px 0 23px 33px;
+		}
+	/*========================= End section-two ============================*/
+
+	/*========================= Start section-four ============================*/
+		#about .section-four .box-content-left {
+		    padding: 0px;
+		}
+		/*#about .section-four .box-content-right img {
+		    margin-top: 30px;
+		    margin-bottom: 30px;
+		}*/
+		#about .section-four .box-circle div {
+		    width: 15px;
+		    height: 15px;
+		    margin: 0px 0px 10px 0px;
+		}
+		#about .section-four .box-circle-two {
+		    top: 100%;
+		}
+		#about .section-four .box-circle-two td div {
+		    width: 15px;
+		    height: 15px;
+		    margin-left: 10px;
+		    margin-bottom: 10px;
+		}
+		#about .section-four .box-content-header {
+		    margin-bottom: 0px;
+		}
+		#about .section-four .box-content-right {
+		    padding: 30px 0px 30px 0px;
+		}
+	/*========================= End section-four ============================*/
+
+	/*========================= Start section-five ============================*/
+		#about .section-five .box-left {
+		    padding: 15px 15px 15px 15px;
+		}
+		#about .section-five h2 {
+			margin-top: 30px;
+		    margin-bottom: 30px;
+		}
+		#about .section-five .paragraph {
+		    margin-bottom: 15px;
+		}
+		#about .section-five .box-left img {
+		    margin-top: 30px;
+		    margin-left: auto;
+		    margin-right: auto;
+		    display: block;
+		}
+		#about .section-five .box-right {
+		    padding: 15px 15px 15px 15px;
+		}
+		#about .section-five .box-right img {
+		    margin-bottom: 30px;
+		}
+		#about .section-five {
+		    padding-bottom: 0px;
+		}
+	/*========================= End section-five ============================*/
+
+	/*========================= Start section-six ============================*/
+		#about .section-six img{
+			width: 100%;
+		}
+		#about .section-six .content {
+		    position: absolute;
+		    bottom: 0;
+		}
+		#about .section-six .box-left,#about .section-six .box-right {
+		    padding-left: 15px;
+   			margin-top: -20px;
+		}
+		#about .section-six .box-left ul li:nth-child(1):before, 
+		#about .section-six .box-right ul li:nth-child(1):before {
+		    display: none;
+		}
+		#about .section-six h2 {
+		    font-size: 44px;
+		    margin-bottom: 30px;
+		    text-align: left;
+		    line-height: 44px;
+		}
+		#about .section-six .box-right {
+		    display: block;
+		    width: auto;
+		    top: unset;
+		    position: unset;
+		    right: unset;
+		}
+	/*========================= End section-six ============================*/		
+
+	/*========================= Start section-seven ============================*/
+		#about .section-seven .card:nth-child(1) {
+		    padding: 33px 15px 0px 15px;
+		}
+		#about .section-seven .card:nth-child(2) {
+		    padding: 33px 15px 30px 15px;
+		}
+		#about .section-seven .our-mission h2 {
+		    margin-bottom: 30px;
+		}
+		#about .section-seven .our-mission {
+		    padding: 30px 15px;
+		    position: unset;
+		}
+		#about .section-seven .our-mission .box-circle-two {
+		    top: 81%;
+		}
+		#about .section-seven .custom-heigth {
+		    margin-bottom: 0px!important;
+		}
+	/*========================= End section-seven ============================*/
+
+	/*========================= Start section-eight ============================*/
+		#about .section-eight {
+		    height: 50px;
+		}
+		#about .section-eight .box-circle-two td:nth-child(1) div {
+		    margin-left: 15px;
+		}
+		#about .section-eight .box-circle-two td div {
+		    width: 15px;
+		    height: 15px;
+		    background-color: var(--bggreen);
+		    border-radius: 50%;
+		    margin-left: 13px;
+		    margin-bottom: 0px;
+		}
+		#about .section-eight .box-circle-two {
+		    top: 36%;
+		}
+	/*========================= End section-eight ============================*/
+
+	/*========================= Start section-nine ============================*/
+		#about .section-nine {
+		    padding-bottom: 30px;
+		}
+	/*========================= End section-nine ============================*/
+
+	/*========================= Start section-ten ============================*/
+		#about .section-ten {
+		    padding-right: 0px;
+		    background-color: #fff;
+		}
+		#about .section-ten .box-content .box-left:nth-child(1) {
+		    padding: 0px 15px 15px 15px;
+		}
+		#about .section-ten ul li:before {
+		    display: none;
+		}
+		#about .section-ten .box-content .box-left:nth-child(2) {
+		    padding: 30px 15px 15px 15px;
+		}
+		#about .section-ten .box-content .box-bg-p .box-left:nth-child(2) {
+		    padding: 0px 15px 15px 15px;
+		}
+		#about .section-ten .box-bg-p {
+		    margin-top: 30px;
+		}
+		#about .section-ten .box-bg-p-cus {
+		    padding-left: 15px;
+		    padding-right: 15px;
+		}
+		#about .section-ten-child .box-bg-p .box-left:nth-child(1) {
+		    padding: 0px 15px 0px 0px;
+		}
+		#about .section-ten .box-bg-p .box-left:nth-child(2),
+		#about .section-ten .box-bg-p .box-left:nth-child(3),
+		#about .section-ten .box-bg-p .box-left:nth-child(4),
+		#about .section-ten .box-bg-p .box-left:nth-child(5),
+		#about .section-ten .box-bg-p .box-left:nth-child(6) {
+		    padding: 0px 15px 15px 15px;
+		}
+
+		#about .section-ten .box-content .box-right:nth-child(1),
+		#about .section-ten .box-content .box-right:nth-child(2),
+		#about .section-ten .box-content .box-right:nth-child(3),
+		#about .section-ten .box-content .box-right:nth-child(5),
+		#about .section-ten .box-content .box-right:nth-child(7),
+		#about .section-ten .box-content .box-right:nth-child(8),
+		#about .section-ten .box-content .box-right:nth-child(9),
+		#about .section-ten .box-content .box-right:nth-child(10) {
+		    padding: 0px 15px 15px var(--ptright);
+		}
+
+		#about .section-ten .box-content .box-right:nth-child(1),
+		#about .section-ten .box-content .box-right:nth-child(4),
+		#about .section-ten .box-content .box-right:nth-child(6) {
+		    padding: 0px 15px 40px var(--ptright);
+		}
+
+	/*========================= End section-ten ============================*/
+
+	/*========================= Start section-eleven ============================*/
+		#about .section-eleven {
+		    padding: 30px 0px 15px 0px;
+		}
+		#about .section-eleven .box-card-left h2 {
+		    font-size: 52px;
+		    line-height: 40px;
+		}
+		#about .section-eleven .box-card-left p {
+		    margin-top: 30px;
+		}
+		#about .section-eleven .box-card-left {
+		    padding-right: 0px;
+		}
+		#about .section-eleven .box-card-center {
+		    padding-left: 0px;
+		    padding-right: 0px;
+		}
+		#about .section-eleven .box-card-right {
+		    height: 30px;
+		}
+		#about .section-eleven .box-circle-two td div {
+		    width: 15px;
+		    height: 15px;
+		}
+		#about .section-eleven .box-card-right-content {
+		    margin-left: 0px;
+		}
+		#about .section-eleven .box-card-right-content p {
+		    margin-top: 30px;
+		    margin-bottom: 30px;
+		}
+	/*========================= End section-eleven ============================*/
+
+	/*========================= Start section-twelve ============================*/
+		#about .section-twelve .box-right-aria {
+		    padding: 30px 0px 0px 0px;
+		}
+		#about .section-twelve .box-right-img-center {
+		    display: none;
+		}
+		#about .section-twelve .box-content-aria-custom {
+		    padding: 30px 0px 0px 0px;
+		}
+		#about .section-twelve .box-circle-two td div {
+		    width: 15px;
+		    height: 15px;
+		    margin-top: 10px;
+		}
+	/*========================= End section-twelve ============================*/
+}
+@media only screen and (max-width: 540px) {
+	/*Surface Duo*/
+	/*========================= Start section-six ============================*/  
+		#about .section-six img{
+			width: 100%;
+    		height: 60vh;
+		}
+		#about .section-six .box-left, #about .section-six .box-right {
+		    margin-top: 0px;
+    		padding-right: 15px;
+    		padding-bottom: 0px;
+    		padding-top: 0px;
+		}
+	/*========================= End section-six ============================*/  
+}
+@media only screen and (max-width: 414px) {
+	/*Iphone 6/7/8 plus*/
+	/*========================= Start section-six ============================*/ 
+		#about .section-six img {
+		    height: auto;
+		} 
+		#about .section-six .box-left, #about .section-six .box-right {
+		    margin-top: 120px;
+		    padding-right: 35px;
+		    padding-bottom: 0px;
+		    padding-top: 0px;
+		}
+	/*========================= End section-six ============================*/  
+}
+@media only screen and (max-width: 411px) {
+	/*Pixel 2*/
+	/*========================= Start section-six ============================*/  
+		#about .section-six img {
+		    height: auto;
+		}
+		#about .section-six .box-left, #about .section-six .box-right {
+			margin-top: 0px;
+    		padding-right: 35px;
+    		padding-bottom: 0px;
+    		padding-top: 90px;
+		}
+	/*========================= End section-six ============================*/  
+}
+@media only screen and (max-width: 375px) {
+	/*
+	Iphone 6/7/8
+	Iphone X
+	*/
+	/*========================= Start section-six ============================*/  
+		#about .section-six img {
+		    height: auto;
+		}
+		#about .section-six .box-left, #about .section-six .box-right {
+		    padding-right: 10px;
+		    margin-top: 90px;
+		    padding-top: 0px;
+		}
+	/*========================= End section-six ============================*/  
+}
+@media only screen and (max-width: 360px) {
+	/*Moto G4*/
+	/*========================= Start section-six ============================*/  
+		#about .section-six img {
+		    height: auto;
+		}
+		#about .section-six .box-left, #about .section-six .box-right {
+		    margin-top: 0px;
+		    padding-right: 15px;
+		    padding-bottom: 0px;
+		    padding-top: 0px;
+		}
+	/*========================= End section-six ============================*/  
+}
+@media only screen and (max-width: 320px) {
+	/*Iphone5/se*/
+	/*========================= Start Setting ============================*/  
+		#about h2 {
+		    font-family: unset;
+		    line-height: 16px;
+		    font-size: 24px;
+		}
+		#about .paragraph {
+		    font-size: 14px;
+		    line-height: inherit;
+		}
+	/*========================= End Setting ============================*/  
+
+	/*========================= Start section-six ============================*/
+		#about .section-six img {
+		    height: auto;
+		}  
+		#about .section-six .box-left, #about .section-six .box-right {
+		    margin-top: 0px;
+		    padding-right: 10px;
+		    padding-bottom: 0px;
+		    padding-top: 0px;
+		}
+	/*========================= End section-six ============================*/  
+
+	/*========================= Start section-seven ============================*/  
+		#about .section-seven .our-mission .box-circle-two {
+		    top: 79%;
+		    left: 15px;
+		}
+	/*========================= End section-seven ============================*/  
+
+	/*========================= Start section-eleven ============================*/  
+	#about .section-eleven .box-card-left h2 {
+	    font-size: 48px;
+	    line-height: 38px;
+	}
+	/*========================= End section-eleven ============================*/  
+
+	/*========================= Start section-twelve ============================*/  
+	#about .section-twelve .box-right-content h2 {
+	    font-size: 18px;
+	    line-height: 0px;
+	}
+	/*========================= End section-twelve ============================*/  
+}
+@media only screen and (max-width: 280px) {
+	/*Galaxy Fold*/
+	/*========================= Start Setting ============================*/  
+		#about h2 {
+		    line-height: 16px;
+		    font-size: 24px!important;
+		}
+		#about .paragraph {
+		    font-size: 11px!important;
+		    line-height: 18px!important;
+		}
+	/*========================= End Setting ============================*/  
+
+	/*========================= Start section-six ============================*/ 
+		#about .section-six img {
+		    height: auto;
+		} 
+		#about .section-six .box-left, #about .section-six .box-right {
+		    margin-top: 0px;
+		    padding-right: 10px;
+		    padding-bottom: 0px;
+		    padding-top: 120px;
+		}
+	/*========================= End section-six ============================*/  
+
+	/*========================= Start section-seven ============================*/  
+		#about .section-seven .our-mission .box-circle-two {
+		    top: 82%;
+		}
+		#about .section-seven .our-mission .box-circle-two td div {
+		    width: 20px;
+		    height: 20px;
+		    margin-left: 8px;
+		    margin-bottom: 8px;
+		}
+	/*========================= End section-seven ============================*/  
+
+	/*========================= Start section-eleven ============================*/  
+		#about .section-eleven .box-card-left h2 {
+		    font-size: 48px;
+		    line-height: 18px;
+		}
+	/*========================= End section-eleven ============================*/  
+}

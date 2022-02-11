@@ -1,0 +1,125 @@
+body .sidenav {
+  color: var(--msBgLight);
+  height: 100%;
+  width: 50px;
+  position: relative;
+  float: left;
+  /*z-index: 1000;*/
+  z-index: 99;
+  top: 0;
+  left: 0;
+  background-color: var(--msBgDarkHard);
+  transition: width 0.5s;
+}
+body.sidebar-open .sidenav{
+  width: 250px;
+  transition: width 0.5s;
+}
+body.sidebar-open .sidenav .side-body{
+  height: 100%;
+}
+body .content{
+  margin-left: 50px;
+  transition: margin-left 0.5s;
+}
+body.sidebar-open .content{
+  margin-left: 250px;
+  overflow: hidden;
+  transition: margin-left 0.5s;
+}
+.sidenav .side-body > ul.side-menu > li.treeview{
+  list-style: none;
+  position: relative;
+  cursor: pointer;
+}
+.sidenav .side-body > ul.side-menu > li.treeview > div.treeview-title-block::after{
+  content: "\f104";
+  font-family: "FontAwesome";
+  float: right;
+  -webkit-transition: -webkit-transform 0.2s ease-in;
+}
+.sidenav .side-body > ul.side-menu > li.treeview > div.treeview-title-block.active::after{
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  -webkit-transition: -webkit-transform 0.2s ease-in;
+}
+body.sidebar-close .sidenav .side-body > ul.side-menu > li.treeview > div.treeview-title-block::after{
+  display: none;
+}
+.sidenav .side-body > ul.side-menu > li.treeview > div.treeview-title-block{
+  background-color: var(--msBgDarkHard);
+  padding: 10px 15px 10px 15px;
+}
+.sidenav .side-body > ul.side-menu > li.treeview > div.treeview-title-block.active{
+  background-color: var(--msBg);
+}
+.sidenav .side-body > ul.side-menu > li.treeview > div.treeview-title-block:hover{
+  background-color: var(--msBg);
+}
+.sidenav .side-body > ul.side-menu > li.treeview > div.treeview-title-block > div.treeview-icon{
+  display: inline-block;
+  padding: 3px;
+}
+body.sidebar-close .sidenav .side-body > ul.side-menu > li.treeview > div.treeview-title-block > div.treeview-title{
+  display: none;
+}
+body.sidebar-open .sidenav .side-body > ul.side-menu > li.treeview > div.treeview-title-block > div.treeview-title{
+  display: inline-block;
+  padding: 3px;
+}
+.sidenav .side-body > ul.side-menu > li.treeview > ul.treeview-menu{
+  padding: 0 5px;
+}
+body.sidebar-close .sidenav .side-body > ul.side-menu > li.treeview > ul.treeview-menu{
+  display: none;
+}
+body.sidebar-open .sidenav .side-body > ul.side-menu > li.treeview > ul.treeview-menu{
+  display: none;
+}
+body.sidebar-open .sidenav .side-body > ul.side-menu > li.treeview > ul.treeview-menu.active{
+  display: block;
+}
+body.sidebar-close .sidenav .side-body > ul.side-menu > li.treeview:hover > ul.treeview-menu{
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 50px;
+  background-color: var(--msBgDark);
+  width: 200px;
+}
+body.sidebar-open .sidenav .side-body > ul.side-menu > li.treeview > ul.treeview-menu > li.title{
+  display: none;
+}
+body.sidebar-close .sidenav .side-body > ul.side-menu > li.treeview > ul.treeview-menu > li.title{
+  display: block;
+  background-color: var(--msBg);
+  padding: 13px 5px 13px 15px;
+}
+.sidenav .side-body > ul.side-menu > li.treeview > ul.treeview-menu > li.treeview-item{
+  list-style: none;
+  background-color: var(--msBgDarkSoft);
+  padding: 5px 10px 5px 15px;
+}
+.sidenav .side-body > ul.side-menu > li.treeview > ul.treeview-menu > li.treeview-item > a::before{
+  content: "\f10c";
+  font-family: "FontAwesome";
+  margin-right: 5px;
+}
+.sidenav .side-body > ul.side-menu > li.treeview > ul.treeview-menu > li.treeview-item > a{
+  color: var(--msBgLight);
+}
+.sidenav .side-body > ul.side-menu > li.treeview > ul.treeview-menu > li.treeview-item > a:hover,
+.sidenav .side-body > ul.side-menu > li.treeview > ul.treeview-menu > li.treeview-item > a.active{
+  color: var(--msBg);
+  text-decoration: none;
+}
+@media only screen and (max-width: 768px){
+  body .sidenav {
+    width: 0px;
+    overflow-x: hidden;
+  }
+  body .content{
+    margin-left: 0px;
+    transition: margin-left 0.5s;
+  }
+}

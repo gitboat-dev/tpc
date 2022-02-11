@@ -1,0 +1,24 @@
+body footer{
+	background-color: #e2e2e9;
+	color: #74788d;
+	max-height: 50px;
+	padding: 13px 20px;
+}
+footer .f-content{
+	position: relative;
+}
+footer .f-content div.fc-left,
+footer .f-content div.fc-right{
+	display: inline-block;
+}
+footer .f-content div.fc-left a{
+	text-decoration: none;
+}
+footer .f-content div.fc-right{
+	float: right;
+}
+@media only screen and (max-width: 991px){
+	footer .f-content .r1 .col2{
+		display: none;
+	}
+}

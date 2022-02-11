@@ -1,0 +1,501 @@
+body {
+
+}
+span.highlight{
+	color: var(--msBg);
+	font-weight: 600;
+	word-wrap: break-word;
+}
+div.ref_link_block{
+	padding: 0;
+}
+span.ref_link{
+	color: var(--msBg);
+	font-size: 12px;
+	word-wrap: break-word;
+}
+span.ref_link.cnon{
+	color:unset;
+}
+.bg-white{
+	background-color: var(--msBgLight);
+}
+.bg-black{
+	background-color: var(--msBgDark);
+	color: #fff;
+}
+.bg-green{
+	background-color: var(--msBg);
+	color: #fff;
+}
+.bg-gray{
+	background-color: #F2F2F2;
+}
+#cce {
+	padding: 0px 54px;
+    background-color: var(--msBg);
+    font-size: 20px;
+	font-weight: 500;
+	line-height: 30px;
+	max-width: 1920px;
+}
+#cce img{
+	width: 100%;
+}
+#cce_bg{
+	background-color: var(--msBgDark);
+}
+#cce .p-0{
+	padding: 0;
+}
+#cce .m-0{
+	margin: 0;
+}
+#cce h2{
+	font-size: 43px;
+	font-weight: 500;
+	color: var(--msBg);
+}
+#cce h3{
+	font-size: 30px;
+}
+
+	/*-------------------------------------End Setting All-------------------------------------*/
+
+#cce .section-one{
+	margin-bottom: 20px;
+}
+
+	/*-------------------------------------End Section One-------------------------------------*/
+
+#cce .section-two{
+	margin-bottom: 40px;
+}
+#cce .section-two .r1 .col1,
+#cce .section-two .r1 .col2{
+	display: flex;
+	position: relative;
+}
+#cce .section-two .r1 .col1 .content_block{
+	margin: auto;
+	position: relative;
+	padding: 20px;
+}
+#cce .section-two .r1 .col1 .content_block .col1-2{
+	display: flex;
+	position: relative;
+}
+#cce .section-two .r1 .col1 .content_block .col1-2 .img_block1{
+	margin: auto;
+}
+#cce .section-two .r1 .col2 .content_block{
+	margin: auto;
+	position: relative;
+	padding: 20px;
+	max-width: 85%;
+}
+#cce .section-two .r1 .col2 .content_block::after{
+	content: " ";
+	position: absolute;
+	left: 20%;
+	bottom: 0;
+	height: 5px;
+	width: 60%;
+	background-color: var(--msBg);
+}
+#cce .section-two .r1 .col2 .content_block .col2-2 .content_1 p{
+	margin: 10% 0;
+}
+
+
+	/*-------------------------------------End Section Two-------------------------------------*/
+
+#cce .section-three{
+	margin-bottom: 40px;
+}
+#cce .section-three .r1 .col1{
+	display: flex;
+	position: relative;
+	padding: 20px;
+}
+#cce .section-three .r1 .col1 h2{
+	margin: auto;
+	text-align: center;
+}
+#cce .section-three .r1 .col2{
+	display: flex;
+	position: relative;
+	padding: 20px;
+}
+#cce .section-three .r1 .col2::after{
+	content: " ";
+	position: absolute;
+	top: 20%;
+	right: 15px;
+	height: 60%;
+	width: 6px;
+	background-color: var(--msBg);
+}
+#cce .section-three .r1 .col2 .content_block{
+	margin: auto;
+	max-width: 90%;
+}
+#cce .section-three .r1 .col3{
+	display: flex;
+	position: relative;
+	padding: 20px;
+	padding-right: 40px; 
+}
+#cce .section-three .r1 .col3 .img_block1{
+	margin: auto;
+	width: 100%;
+}
+
+	/*-------------------------------------End Section Three-------------------------------------*/
+
+#cce .section-four{
+	margin-bottom: 40px;
+}
+#cce .section-four .r1 .col1,
+#cce .section-four .r1 .col2,
+#cce .section-four .r1 .col3,
+#cce .section-four .r1 .col4{
+	display: flex;
+	position: relative;
+	padding: 20px;
+}
+#cce .section-four .r1 .col3::after{
+	content: " ";
+	position: absolute;
+	bottom: 0;
+	left: 30%;
+	width: 40%;
+	height: 6px;
+	background-color: var(--msBg);
+}
+#cce .section-four .r1 .col1 .content_1{
+	margin: auto;
+	text-align: center;
+	padding: 0 25px;
+}
+#cce .section-four .r1 .col2 .content_1{
+	margin: auto;
+	max-width: 85%;
+}
+#cce .section-four .r1 .col4 .content_1{
+	margin: auto;
+}
+#cce .section-four .r1 .col3 .img_block1{
+	margin: auto;
+}
+
+	/*-------------------------------------End Section Four-------------------------------------*/
+
+#cce .section-five{
+	position: relative;
+	margin-bottom: 50px;
+}
+#cce .section-five::after{
+	content: " ";
+	position: absolute;
+	bottom: -30px;
+	left: 40%;
+	width: 20%;
+	height: 6px;
+	background-color: var(--msBg);
+}
+#cce .section-five .r1 .col1{
+	position: relative;
+	padding: 20px 60px;
+}
+#cce .section-five .r1 .col2 .col2-1{
+	position: relative;
+	padding: 20px
+}
+#cce .section-five .r1 .col2 .col2-2{
+	display: flex;
+	position: relative;
+	padding: 20px
+}
+#cce .section-five .r1 .col2 .col2-1::after{
+	content: " ";
+	position: absolute;
+	right: 0;
+	top: 15%;
+	height: 70%;
+	width: 6px;
+	background-color: var(--msBg);
+}
+#cce .section-five .r1 .col2 .col2-1 .img_block1{
+	padding: 0 40px;
+}
+#cce .section-five .r1 .col2 .col2-2 .content_1{
+	margin: auto;
+}
+#cce .section-five .r1 .col3 .col3-1{
+	display: flex;
+	position: relative;
+	padding: 20px;
+}
+#cce .section-five .r1 .col3 .col3-2{
+	position: relative;
+	padding: 20px;
+	padding-right: 0;
+}
+#cce .section-five .r1 .col3 .col3-1 .content_1{
+	margin: auto;
+	max-width: 85%;
+}
+#cce .section-five .r1 .col3 .col3-1::before{
+	content: " ";
+	position: absolute;
+	top: 20px;
+	left: 20%;
+	width: 60%;
+	height: 6px;
+	background-color: var(--msBg); 
+}
+
+	/*-------------------------------------End Section Five-------------------------------------*/
+
+#cce .section-six{
+	margin-bottom: 40px;
+}
+#cce .section-six .r1 .col1,
+#cce .section-six .r1 .col2{
+	display: flex;
+	position: relative;
+	padding: 20px;
+}
+#cce .section-six .r1 .col2::after{
+	content: " ";
+	position: absolute;
+	left: 35%;
+	bottom: 0;
+	width: 30%;
+	height: 6px;
+	background-color: var(--msBg);
+}
+#cce .section-six .r1 .col1 .content_1{
+	margin: auto;
+	margin-top: 0;
+	max-width: 85%;
+}
+#cce .section-six .r1 .col1 .content_1 h2{
+	margin-bottom: 60px;
+}
+#cce .section-six .r1 .col1 .content_1 .img_block1{
+	display: flex;
+}
+#cce .section-six .r1 .col2 .content_1{
+	margin: auto;
+	max-width: 85%;
+}
+#cce .section-six .r1 .col2 .content_1 .img_block1{
+	display: flex;
+}
+
+	/*-------------------------------------End Section Six-------------------------------------*/
+
+#cce .section-seven .r1 .col1{
+	display: flex;
+	position: relative;
+	padding: 20px 20px 40px 20px;
+}
+#cce .section-seven .r1 .col1 .content_1{
+	margin: auto;
+}
+#cce .section-seven .r1 .col1 .content_1 p{
+	text-align: center;
+	padding: 20px 26px;
+}
+#cce .section-seven .r1 .col1 .content_1 .img_block1{
+	display: flex;
+}
+
+	/*-------------------------------------End Section Seven-------------------------------------*/
+
+@media only screen and (max-width: 1368px){
+	#cce .section-five .r1 .col3 .col3-1::before{
+		top: 5px;
+	}
+
+	/*-------------------------------------End Section Five-------------------------------------*/
+}
+@media only screen and (max-width: 1024px){
+	#cce .section-two .r1 .col2 .content_block{
+		max-width: unset;
+	}
+
+	/*-------------------------------------End Section Two-------------------------------------*/
+
+	#cce .section-three .r1 .col2 .content_block .img_block1{
+		display: none;
+	}
+
+	/*-------------------------------------End Section Three-------------------------------------*/
+
+	#cce .section-five .r1 .col3 .col3-1::before{
+		top: 0;
+	}
+
+	/*-------------------------------------End Section Five-------------------------------------*/
+}
+
+@media only screen and (max-width: 991px){
+	#cce .section-two{
+		margin-bottom: 30px;
+	}
+
+	/*-------------------------------------End Section Two-------------------------------------*/
+
+	#cce .section-three{
+		margin-bottom: unset;
+	}
+	#cce .section-three .r1 .col2{
+		padding: 20px 20px 0 20px;
+	}
+	#cce .section-three .r1 .col1{
+		padding: 0 20px 20px 20px;
+	}
+	#cce .section-three .r1 .col2::after{
+		display: none;
+	}
+	#cce .section-three .r1 .col3{
+		padding: 0; 
+	}
+	#cce .section-three .r1 .col2 .content_block{
+		max-width: unset;
+	}
+
+	/*-------------------------------------End Section Three-------------------------------------*/
+
+	#cce .section-four{
+		margin-bottom: unset;
+	}
+	#cce .section-four .r1 .col1{
+		padding: 0 20px 20px 20px;
+	}
+	#cce .section-four .r1 .col2{
+		padding: 20px 20px 0 20px;
+	}
+	#cce .section-four .r1 .col4{
+		padding: 0 20px 20px 20px;
+	}
+	#cce .section-four .r1 .col3::after{
+		display: none;
+	}
+	#cce .section-four .r1 .col1 .content_1{
+		text-align: unset;
+		padding: 0;
+	}
+	#cce .section-four .r1 .col2 .content_1{
+		max-width: unset;
+	}
+	#cce .section-four .r1 .col4::after{
+		content: " ";
+		position: absolute;
+		bottom: 0;
+		left: 20%;
+		width: 60%;
+		height: 6px;
+		background-color: var(--msBg);
+	}
+
+	/*-------------------------------------End Section Four-------------------------------------*/
+
+	#cce .section-five{
+		margin-bottom: unset;
+	}
+	#cce .section-five::after{
+		bottom: 0;
+		left: 20%;
+		width: 60%;
+	}
+	#cce .section-five .r1 .col1{
+		padding: 20px;
+	}
+	#cce .section-five .r1 .col2 .col2-1,
+	#cce .section-five .r1 .col3 .col3-2{
+		display: unset;
+		padding: 0;
+	}
+	#cce .section-five .r1 .col2 .col2-1 .img_block1{
+		padding: unset;
+	}
+	#cce .section-five .r1 .col3 .col3-1 .content_1{
+		max-width: unset;
+	}
+	#cce .section-five .r1 .col2 .col2-1::after,
+	#cce .section-five .r1 .col3 .col3-1::before{
+		display: none;
+	}
+
+	/*-------------------------------------End Section Five-------------------------------------*/
+
+	#cce .section-six{
+		margin-bottom: unset;
+	}
+	#cce .section-six .r1 .col2::after{
+		left: 20%;
+		width: 60%;
+	}
+	#cce .section-six .r1 .col1 .content_1{
+		max-width: unset;
+		margin-top: unset;
+	}
+	#cce .section-six .r1 .col2 .content_1{
+		max-width: unset;
+	}
+
+	/*-------------------------------------End Section Six-------------------------------------*/
+
+	#cce .section-seven .r1 .col1{
+		padding: 20px;
+	}
+	#cce .section-seven .r1 .col1 .content_1 p{
+		padding: 20px 0;
+	}
+
+	/*-------------------------------------End Section Seven-------------------------------------*/
+
+}
+
+@media only screen and (max-width: 768px){
+	div.ref_link_block{
+		padding: 0 20px;
+	}
+	span.ref_link{
+		font-size: 8px;
+	}
+	#cce {
+		padding: 0;
+		font-size: 18px;
+		line-height: 23px;
+	}
+	#cce h2{
+		font-size: 48px;
+		font-weight: 500;
+		line-height: 50px;
+		color: var(--msBg);
+	}
+
+	/*-------------------------------------End Setting All-------------------------------------*/
+
+
+	#cce .section-two .r1 .col1 .content_block .col1-1{
+		margin-bottom: 20px;
+	}
+	#cce .section-two .r1 .col2 .content_block{
+		padding: 20px;
+	}
+
+	/*-------------------------------------End Section Two-------------------------------------*/
+
+	#cce .section-three .r1 .col1 h2{
+		text-align: unset;
+	}
+
+	/*-------------------------------------End Section Three-------------------------------------*/
+
+}

@@ -1,0 +1,280 @@
+body {
+	
+}
+span.highlight{
+	color: var(--msBg);
+	font-weight: 600;
+	word-wrap: break-word;
+}
+.bg-white{
+	background-color: var(--msBgLight);
+	color: #000;
+}
+.bg-black{
+	background-color: var(--msBgDark);
+	color: #fff;
+}
+.bg-green{
+	background-color: var(--msBg);
+	color: #fff;
+}
+.bg-gray{
+	background-color: #F2F2F2;
+}
+#contact {
+	padding: 0px 54px;
+    background-color: var(--msBg);
+    font-size: 20px;
+	font-weight: 500;
+	line-height: 30px;
+	max-width: 1920px;
+}
+#contact img{
+	width: 100%;
+}
+#contact_bg{
+	background-color: var(--msBgLight);
+}
+#contact .p-0{
+	padding: 0;
+}
+#contact .m-0{
+	margin: 0;
+}
+
+	/*-------------------------------------End Setting All-------------------------------------*/
+
+#contact .section-two{
+	padding: 60px 20px
+}
+#contact .section-two .r0 .col0 h2{
+	color: var(--msBgLight);
+	font-weight: normal;
+	text-align: center;
+	margin-bottom: 60px;
+}
+#contact .section-two .r1 .block,
+#contact .section-two .r2 .block{
+	display: flex;
+	position: relative;
+}
+#contact .section-two .r1 .block .col1,
+#contact .section-two .r2 .block .col2{
+	margin: auto;
+	position: relative;
+}
+#contact .section-two .r1 .block .col1 > div[class^="col-"],
+#contact .section-two .r2 .block .col2 > div[class^="col-"]{
+	display: flex;
+	position: relative;
+}
+#contact .section-two .r1 .block .col1 > div[class^="col-"]:not(:last-child)::after{
+	content: " ";
+	position: absolute;
+	top: 15%;
+	right: 0;
+	width: 3px;
+	height: 70%;
+	background-color: var(--msBgLight);
+}
+#contact .section-two .r1 .block .col1 > div[class^="col-"] .content_block,
+#contact .section-two .r2 .block .col2 > div[class^="col-"] .content_block{
+	margin: auto;
+	position: relative;
+}
+#contact .section-two .r1 .block .col1 > div[class^="col-"] .content_block .img_block1,
+#contact .section-two .r2 .block .col2 > div[class^="col-"] .content_block .img_block1{
+	display: flex;
+	position: relative;
+}
+#contact .section-two .r1 .block .col1 > div[class^="col-"] .content_block .content_1,
+#contact .section-two .r2 .block .col2 > div[class^="col-"] .content_block .content_1{
+	padding: 20px;
+	text-align: center
+}
+#contact .section-two .r1 .block .col1 > div[class^="col-"] .content_block .content_1 a{
+	background-color: var(--msBg);
+	color: var(--msBgDark);
+	padding: 2.5px 10px;
+	font-size: 14px;
+	font-weight: 700;
+	border-top: 0.5px solid #ccc;
+	border-left: 0.5px solid #999;
+	border-right: none;
+	border-bottom: none;
+}
+#contact .section-two .r1 .block .col1 > div[class^="col-"] .content_block .content_1 h3,
+#contact .section-two .r2 .block .col2 > div[class^="col-"] .content_block .content_1 h3{
+	color: var(--msBg);
+}
+#contact .section-two .r2 .block .col2 .col2-1 .content_block .content_1 p a,
+#contact .section-two .r2 .block .col2 .col2-2 .content_block .content_1 p a{
+	color: var(--msBgLight);
+}
+
+	/*-------------------------------------End Section two-------------------------------------*/
+
+#contact .section-three .r1 .col1{
+	display: flex;
+	position: relative;
+}
+#contact .section-three .r1 .col1 .col1-1{
+	margin: auto;
+}
+#contact .section-three .r1 .col1 .col1-1{
+	background-color: var(--msBg);
+	padding: 30px;
+	position: absolute;
+    z-index: 99;
+    left: 29.166666665%;
+}
+#contact .section-three .r1 .col1 .col1-1 .content_block .form-group > input,
+#contact .section-three .r1 .col1 .col1-1 .content_block .form-group > select{
+	height: 50px !important;
+	color: var(--msBgDark);
+	background-color: var(--msBgLight);
+}
+#contact .section-three .r1 .col1 .col1-1 .content_block .form-group > textarea{
+	height: 200px !important;
+	color: var(--msBgDark);
+	background-color: var(--msBgLight);
+}
+#contact .section-three .r1 .col1 .col1-1 .content_block h1,
+#contact .section-three .r1 .col1 .col1-1 .content_block h2,
+#contact .section-three .r1 .col1 .col1-1 .content_block h3{
+	text-align: center;
+	font-weight: normal;
+	margin-bottom: 30px;
+}
+#contact .section-three .r1 .col1 .col1-1 .content_block h2 span{
+	font-size: 36px;
+	color: var(--msBgLight);
+}
+#contact .section-three .r1 .col1 .col1-1 .content_block .bt-contact{
+	background-color: var(--msBgDark);
+    width: 44.44444447%;
+    color: var(--msBgLight);
+    padding: 8px 20px;
+    font-size: 15px;
+    border: 1px solid var(--msBgDark);
+}
+#contact .section-three .r1 .col1 .col1-1 .content_block .bt-contact:hover{
+	background-color: #282f3e;
+	border: 1px solid #282f3e;
+}	
+
+	/*-------------------------------------End Section three-------------------------------------*/
+
+#contact .section-four .r1 .col1{
+	display: flex;
+	position: relative;
+	padding: 20px;
+}
+#contact .section-four .r1 .col1 .col1-1 .contact_logo > .col1,
+#contact .section-four .r1 .col1 .col1-1 .contact_logo > .col2{
+	display: flex;
+	position: relative;
+}
+#contact .section-four .r1 .col1 .col1-1 .contact_logo .col1 .content_1{
+	margin: auto;
+	margin-right: 0;
+}
+#contact .section-four .r1 .col1 .col1-1 .contact_logo .col1 .content_1 h2{
+	font-size: 43px;
+	line-height: 100%;
+	font-weight: normal;
+}
+#contact .section-four .r1 .col1 .col1-1 .contact_logo > .col2 .img_block1{
+	margin: auto;
+	margin-left: 0;
+}
+
+	/*-------------------------------------End Section four-------------------------------------*/
+
+@media only screen and (max-width: 1115px){
+	#contact .section-three .r1 .col1{
+		display: unset;
+	}
+	#contact .section-three .r1 .col1 .col1-1{
+		width: 100%;
+		padding: 20px 0;
+     	position: unset; 
+     	z-index: unset; 
+     	left: unset;
+	}
+	
+	/*-------------------------------------End Section three-------------------------------------*/
+}
+
+@media only screen and (max-width: 991px){
+	body {
+		
+	}
+
+	/*-------------------------------------End Setting All-------------------------------------*/
+
+	#contact .section-two .r0 .col0 h2{
+		margin-bottom: unset;
+	}
+	#contact .section-two .r1 .block .col1 > div[class^="col-"]:not(:last-child)::after,
+	#contact .section-two .r1 .block .col1 > div[class^="col-"]::after{
+		content: " ";
+		position: absolute;
+		top: unset;
+		right: unset;
+		left: 20%;
+		bottom: 0;
+		width: 60%;
+		height: 3px;
+		background-color: var(--msBgLight);
+	}
+
+	/*-------------------------------------End Section two-------------------------------------*/
+	
+	#contact .section-three .r1 .col1 .col1-1{
+		width: unset;
+	}
+	
+	/*-------------------------------------End Section three-------------------------------------*/
+}
+
+@media only screen and (max-width: 768px){
+	#contact {
+		padding: 0;
+	}
+
+	/*-------------------------------------End Setting All---------------------------------------*/
+
+}
+
+@media only screen and (max-width: 541px){
+	#contact .section-four .r1 .col1 .col1-1 .contact_logo .col1 .content_1 h2{
+		font-size: 33px;
+	}
+
+	/*-------------------------------------End Section Five-------------------------------------*/
+}
+
+@media only screen and (max-width: 468px){
+	#contact .section-two .r0 .col0 h2{
+		font-size: 30px;
+	}
+
+	/*-------------------------------------End Section Two-------------------------------------*/
+}
+
+@media only screen and (max-width: 441px){
+	#contact .section-four .r1 .col1 .col1-1 .contact_logo .col1 .content_1 h2{
+		font-size: 23px;
+	}
+
+	/*-------------------------------------End Section Five-------------------------------------*/
+}
+
+@media only screen and (max-width: 280px){
+	#contact .section-two .r0 .col0 h2{
+		font-size: 22px;
+	}
+
+	/*-------------------------------------End Section Two-------------------------------------*/
+}

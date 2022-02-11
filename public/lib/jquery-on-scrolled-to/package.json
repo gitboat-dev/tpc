@@ -1,0 +1,57 @@
+{
+  "_from": "jquery-on-scrolled-to",
+  "_id": "jquery-on-scrolled-to@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-fkvvzV/5eZtODQMvECifv6i0JGaaO2nbrpJnWzDebbqFeYPSCeSqMmwSVP2YUrsCxxgtUQkbWRjq6ffdvqaF+Q==",
+  "_location": "/jquery-on-scrolled-to",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "jquery-on-scrolled-to",
+    "name": "jquery-on-scrolled-to",
+    "escapedName": "jquery-on-scrolled-to",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/jquery-on-scrolled-to/-/jquery-on-scrolled-to-1.0.0.tgz",
+  "_shasum": "7c3b45374f09a58a6570969c7c5791798fc25413",
+  "_spec": "jquery-on-scrolled-to",
+  "_where": "D:\\Panya.l\\MyProject\\xampp\\htdocs\\Project\\taladphapim\\web",
+  "author": {
+    "name": "wowpress-host",
+    "url": "https://wowpress.host"
+  },
+  "bugs": {
+    "url": "https://github.com/wowpress-host/jquery-on-scrolled-to"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "jQuery plugin to execute code when specific element becomes visible. I.e. when it reaches viewport, visitor scrolls to it or window resized so that element becomes visible.",
+  "devDependencies": {},
+  "homepage": "https://wowpress.host/plugins/jquery-on-scrolled-to/",
+  "keywords": [
+    "jquery-plugin",
+    "ecosystem:jquery",
+    "scroll",
+    "viewport",
+    "visible",
+    "on-scrolled-to"
+  ],
+  "license": "MIT",
+  "main": "on-scrolled-to.min.js",
+  "name": "jquery-on-scrolled-to",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wowpress-host/jquery-on-scrolled-to.git"
+  },
+  "scripts": {
+    "test": "echo 'n/a'"
+  },
+  "version": "1.0.0"
+}

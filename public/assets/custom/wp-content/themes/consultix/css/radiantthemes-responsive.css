@@ -1,0 +1,386 @@
+﻿/* LARGE DESKTOP PART */
+@media screen and (min-width:1200px){
+}
+
+
+/* DESKTOP PART */
+@media screen and (min-width:992px) and (max-width:1199px){
+}
+
+/* IPAD PRO */
+@media screen and (min-width:1024px) and (max-width:1380px){
+	/*body,html{overflow-x: hidden !important;}*/
+	.ipro-margin-top0{ margin-top: 0px !important; }
+	.ipro-marginleft45{margin-left: 45px !important;}
+
+}
+
+/* TABLET LANDSCAPE PART */
+@media screen and (min-width:768px) and (max-width:991px){
+body,html{overflow-x: hidden !important;}
+.ipad-left0{left: 0% !important;}
+.ipad-right0{right: 0% !important;}
+.ipad-margin-top0{ margin-top: 0px !important; }
+.ipad-margin-top10{margin-top: 10px !important;}
+.ipad-height400{height: 400px !important;}
+.ipad-marginleft45{margin-left: 45px !important;}
+.ipad-font25{font-size: 25px !important;}
+.ipad-marginleft0{margin-left: 0% !important;}
+
+ .header_main .responsive-nav i {
+    font-size: 35px;
+    color: #2d2d2d !important;
+    line-height: 35px;
+    cursor: pointer;
+}
+
+
+	/*--------------------------------------------------------------
+	# Event Page
+	--------------------------------------------------------------*/
+
+	/*--------------------------------------------------------------
+	# Event List View Page
+	--------------------------------------------------------------*/
+
+	.radiantthemes-event-list-item > .row{
+		display:block;
+	}
+
+	.radiantthemes-event-list-item-pic,
+	.radiantthemes-event-list-item-data,
+	.radiantthemes-event-list-item-button{
+		max-width:initial;
+	}
+
+	.radiantthemes-event-list-item-pic{
+		position:static;
+		background-image:initial;
+	}
+
+}
+
+/* TABLET PROTRAIT PART */
+@media screen and (min-width:480px) and (max-width:767px){
+body,html{overflow-x: hidden !important;}
+
+	/*--------------------------------------------------------------
+	# Shop Page
+	--------------------------------------------------------------*/
+
+	/*--------------------------------------------------------------
+	# Product Listing Page
+	--------------------------------------------------------------*/
+
+	.woocommerce ul.products li.product.rt-shop-column-3,
+	.woocommerce ul.products li.product.rt-shop-column-4{
+		width:50%;
+	}
+
+	/*--------------------------------------------------------------
+	# Cart Page
+	--------------------------------------------------------------*/
+
+	.woocommerce input.input-text[name=coupon_code]{
+		width:50% !important;
+	}
+
+	/*--------------------------------------------------------------
+	# Event Page
+	--------------------------------------------------------------*/
+
+	/*--------------------------------------------------------------
+	# Event List View Page
+	--------------------------------------------------------------*/
+
+	.radiantthemes-event-list-item > .row{
+		display:block;
+	}
+
+	.radiantthemes-event-list-item-pic,
+	.radiantthemes-event-list-item-data,
+	.radiantthemes-event-list-item-button{
+		max-width:initial;
+	}
+
+	.radiantthemes-event-list-item-pic{
+		position:static;
+		background-image:initial;
+	}
+
+	/*--------------------------------------------------------------
+	# 404 Error Page
+	--------------------------------------------------------------*/
+
+	.wraper_error_main > .container{
+		padding-top:80px !important;
+		padding-bottom:90px !important;
+	}
+
+}
+
+/* SMART PHONE LANDSCAPE PART */
+@media screen and (min-width:300px) and (max-width:479px){
+	.woocommerce #content div.product div.images, .woocommerce div.product div.images, .woocommerce-page #content div.product div.images, .woocommerce-page div.product div.images {
+    float: none !important;
+    width: 100% !important;
+  
+}
+@media screen and (min-width:320px) and (max-width:479px){
+body,html{overflow-x: hidden !important;}
+#mb-head-blue{ font-size: 20px !important; }
+#mb-head-p{font-size: 14px !important;line-height: 5px !important;}
+.mb-top50{top: 20%; }
+#mb-pad0{padding: 0px;}
+#mb-pad20{padding: 20px !important;}
+#mb-left{text-align: left;}
+.mb-center{text-align: center !important;}
+#h20w{font-size: 20px !important;}
+#secgreen{padding-left: 10px !important; padding-right: 10px !important;}
+.mb-margin-l0{margin-left:0px !important;}
+.mb-font18{font-size: 18px !important;}
+#footer-contract{background-color: #dddddd}
+#footer-contract:hover{color: black !important;}
+.mb-margin-left8{margin-left: 0% !important;}
+.mb-height{height: auto !important;}
+.mb-font24{font-size: 20px !important;}
+.mb-margin-top30{ margin-top: 30px !important; }
+.mb-margin-t-50{margin-top: -50px;}
+.element-one .clients-item > .holder .pic { display: inline-block;}
+.mb-margin-bt50{margin-bottom: 50px !important;}
+.mb-margin-top70{margin-top: 70px;}
+.mb-fontsize25{font-size: 35px !important;}
+.mb-logo{width: 150px !important; margin-top: 12px !important;}
+.mb-100vh{height: 100vh;}
+.mb-padding5{padding-right: 5px !important;padding-left: 5px !important;}
+.mb-font12{font-size: 14px;}
+.mb-margin-l0{margin-left: 0px;}
+.mb-textalign{text-align: left !important;}
+.mb-bt-50{margin-bottom: -50px;}
+.seoproname{font-size: 18px !important;}
+.h2seo{font-size: 18px !important;font-family: 'Lato', sans-serif !important;}
+
+
+.radiantthemes-timeline.element-one > .radiantthemes-timeline-item > .radiantthemes-timeline-item-data-right:before{
+    right:0 !important;
+}
+.radiantthemes-timeline.element-one > .radiantthemes-timeline-item > .radiantthemes-timeline-item-data-right:after{
+    right:7px !important;
+}
+.radiantthemes-timeline.element-one > .radiantthemes-timeline-item > .radiantthemes-timeline-item-data:after{
+    height:calc(70% - -20px)!important;
+}
+
+.woocommerce #content div.product div.images, .woocommerce div.product div.images, .woocommerce-page #content div.product div.images, .woocommerce-page div.product div.images {
+    float: none;
+    width: 100% !important;
+  
+}
+
+.woocommerce #content div.product div.summary, .woocommerce div.product div.summary, .woocommerce-page #content div.product div.summary, .woocommerce-page div.product div.summary {
+	margin-top: 15px;
+	float: none;
+	width: 100% !important;
+}
+
+
+
+
+	/*--------------------------------------------------------------
+	# Gallery Columns
+	--------------------------------------------------------------*/
+
+	.gallery-item,
+	.gallery-columns-1 .gallery-item,
+	.gallery-columns-2 .gallery-item,
+	.gallery-columns-3 .gallery-item,
+	.gallery-columns-4 .gallery-item{
+		width:100%;
+		max-width:initial;
+	}
+
+	/*--------------------------------------------------------------
+	# Shop Page
+	--------------------------------------------------------------*/
+
+	/*--------------------------------------------------------------
+	# Product Listing Page
+	--------------------------------------------------------------*/
+
+	.woocommerce .woocommerce-products-header,
+	.woocommerce .woocommerce-result-count,
+	.woocommerce .woocommerce-ordering{
+		width:100%;
+		text-align:center;
+	}
+
+	.woocommerce ul.products li.product.rt-shop-column-3,
+	.woocommerce ul.products li.product.rt-shop-column-4{
+		width:100%;
+	}
+
+	/*--------------------------------------------------------------
+	# Cart Page
+	--------------------------------------------------------------*/
+
+	.woocommerce input.input-text[name=coupon_code]{
+		width:100% !important;
+		margin:0px 0px 7px 0px !important;
+	}
+
+	.woocommerce input.button[name=apply_coupon]{
+		width:100% !important;
+	}
+
+	/*--------------------------------------------------------------
+	# Checkout Page
+	--------------------------------------------------------------*/
+
+	.woocommerce form #customer_details,
+	.woocommerce form #order_review_heading,
+	.woocommerce form #order_review{
+		width:100%;
+	}
+
+	/*--------------------------------------------------------------
+	# Event Page
+	--------------------------------------------------------------*/
+
+	/*--------------------------------------------------------------
+	# Event List View Page
+	--------------------------------------------------------------*/
+
+	.radiantthemes-event-list-item > .row{
+		display:block;
+	}
+
+	.radiantthemes-event-list-item-pic,
+	.radiantthemes-event-list-item-data,
+	.radiantthemes-event-list-item-button{
+		max-width:initial;
+	}
+
+	.radiantthemes-event-list-item-pic{
+		position:static;
+		background-image:initial;
+	}
+
+	/*--------------------------------------------------------------
+	# 404 Error Page
+	--------------------------------------------------------------*/
+
+	.wraper_error_main > .container{
+		padding-top:50px !important;
+		padding-bottom:60px !important;
+	}
+
+	.error_main p{
+		display:block;
+		margin-top:0;
+	}
+
+}
+
+/* SMART PHONE PROTRAIT PART */
+@media screen and (max-width:320px){
+body,html{overflow-x: hidden !important;}
+#mb-head-blue{ font-size: 20px !important; }
+.pc-height660{height: auto !important;}
+#mb-pad0{padding: 0px !important;}
+#mb-head-p{font-size: 14px !important;line-height: 5px !important;}
+#secgreen{padding-left: 0px !important; padding-right: 0px !important; }
+.mb-bt-50{margin-bottom: -50px;}
+	/*--------------------------------------------------------------
+	# Gallery Columns
+	--------------------------------------------------------------*/
+
+	.gallery-item,
+	.gallery-columns-1 .gallery-item,
+	.gallery-columns-2 .gallery-item,
+	.gallery-columns-3 .gallery-item,
+	.gallery-columns-4 .gallery-item{
+		width:100%;
+		max-width:initial;
+	}
+
+	/*--------------------------------------------------------------
+	# Shop Page
+	--------------------------------------------------------------*/
+
+	/*--------------------------------------------------------------
+	# Product Listing Page
+	--------------------------------------------------------------*/
+
+	.woocommerce .woocommerce-products-header,
+	.woocommerce .woocommerce-result-count,
+	.woocommerce .woocommerce-ordering{
+		width:100%;
+		text-align:center;
+	}
+
+	.woocommerce ul.products li.product.rt-shop-column-3,
+	.woocommerce ul.products li.product.rt-shop-column-4{
+		width:100%;
+	}
+
+	/*--------------------------------------------------------------
+	# Cart Page
+	--------------------------------------------------------------*/
+
+	.woocommerce input.input-text[name=coupon_code]{
+		width:100% !important;
+		margin:0px 0px 7px 0px !important;
+	}
+
+	.woocommerce input.button[name=apply_coupon]{
+		width:100% !important;
+	}
+
+	/*--------------------------------------------------------------
+	# Checkout Page
+	--------------------------------------------------------------*/
+
+	.woocommerce form #customer_details,
+	.woocommerce form #order_review_heading,
+	.woocommerce form #order_review{
+		width:100%;
+	}
+
+	/*--------------------------------------------------------------
+	# Event Page
+	--------------------------------------------------------------*/
+
+	/*--------------------------------------------------------------
+	# Event List View Page
+	--------------------------------------------------------------*/
+
+	.radiantthemes-event-list-item > .row{
+		display:block;
+	}
+
+	.radiantthemes-event-list-item-pic,
+	.radiantthemes-event-list-item-data,
+	.radiantthemes-event-list-item-button{
+		max-width:initial;
+	}
+
+	.radiantthemes-event-list-item-pic{
+		position:static;
+		background-image:initial;
+	}
+
+	/*--------------------------------------------------------------
+	# 404 Error Page
+	--------------------------------------------------------------*/
+
+	.wraper_error_main > .container{
+		padding-top:50px !important;
+		padding-bottom:60px !important;
+	}
+
+	.error_main p{
+		display:block;
+		margin-top:0;
+	}
+
+}

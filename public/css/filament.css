@@ -1,0 +1,814 @@
+body {
+	/*--secTwoContBox:710px;*/
+	--secTwoContBox:650px;
+	--secThreeContBox:500px;
+	--secFourContBox:760px;
+	--secFiveContBox:420px;
+	--secSevenContBox:505px;
+	--secEightContBox:330px;
+}
+span.highlight{
+	color: var(--msBg);
+	font-weight: 600;
+	word-wrap: break-word;
+}
+p.highlight{
+	color: var(--msBg);
+}
+.bg-white{
+	background-color: var(--msBgLight);
+}
+.bg-black{
+	background-color: var(--msBgDark);
+	color: #fff;
+}
+.bg-green{
+	background-color: var(--msBg);
+	color: #fff;
+}
+#filament {
+	padding: 0px 54px;
+    background-color: var(--msBg);
+    font-size: 18px;
+	font-weight: 500;
+	line-height: 23px;
+	max-width: 1920px;
+}
+#filament img{
+	width: 100%;
+}
+#filament_bg{
+	background-color: var(--msBgLight);
+}
+#filament .p-0{
+	padding: 0;
+}
+#filament .m-0{
+	margin: 0;
+}
+
+	/*-------------------------------------End Setting All-------------------------------------*/
+
+#filament .section-one{
+
+}
+
+	/*-------------------------------------End Section One-------------------------------------*/
+
+#filament .section-two .r1 .col1 .content_1{
+	text-align: center;
+	display: flex;
+	min-height: 200px;
+}
+#filament .section-two .r1 .col1 .content_1 p{
+	padding: 10px;
+	margin: auto;
+}
+#filament .section-two .r1 .col1 .img_block1{
+	padding: 40px;
+	padding-bottom: 0;
+}
+#filament .section-two .r1 .col1 .img_block1 img{
+	border: 25px solid #fff;
+	border-bottom: none;
+}
+#filament .section-two .r1 .col2{
+	display: flex;
+	min-height: var(--secTwoContBox);
+}
+#filament .section-two .r1 .col2 .content_1{
+	margin: auto;
+}
+#filament .section-two .r1 .col2 .content_1 p.p1{
+	padding: 25px 20px;
+}
+#filament .section-two .r1 .col2 .content_1 p.p2{
+	text-align: right;
+	padding: 25px 20px;
+}
+
+	/*-------------------------------------End Section Two-------------------------------------*/
+
+#filament .section-three .r1 .col1 h2{
+	text-align: center;
+	padding: 30px 10px 0 10px;
+}
+#filament .section-three .r1 .col1 .r2 .col1{
+	display: flex;
+	position: relative;
+}
+#filament .section-three .r1 .col1 .r2 .col1 .img_block1{
+	margin: auto;
+	margin-left: 0;
+	margin-top: 50px;
+}
+#filament .section-three .r1 .col1 .r2 .col1 .img_block1 img{
+	border: 30px solid #fff;
+	border-left: none;
+}
+#filament .section-three .r1 .col1 .r2 .col1{
+	min-height: calc(var(--secThreeContBox) - 45px);
+}
+#filament .section-three .r1 .col1 .r2 .col2{
+	display: flex;
+	min-height: calc(var(--secThreeContBox) - 45px);
+}
+#filament .section-three .r1 .col1 .r2 .col2 .content_1{
+	margin: auto;
+}
+#filament .section-three .r1 .col1 .r2 .col2 .content_1 p{
+	padding: 20px;
+}
+#filament .section-three .r1 .col1 .r2 .col2 .content_1 .img_block2{
+	max-width: 40%;
+}
+#filament .section-three .r1 > .col2{
+	display: flex;
+	min-height: var(--secThreeContBox);
+	background:url('/assets/images/filament/desktop/Pre-Oriented-Yarn-or-POY-Filament-Process-Polyester-Thaipolyester-3.webp') no-repeat;
+	background-size: 100% auto;
+	background-position: center top;
+	color: #fff;
+}
+#filament .section-three .r1 > .col2 .content_1{
+	padding: 20px 30px 20px 20px;
+}
+#filament .section-three .r1 > .col2 .content_1::after{
+	content: " ";
+	position: absolute;
+	right: 0;
+	top: 50px;
+	width: 20px;
+	height: 80%;
+	background-color: #fff;
+}
+#filament .section-three .r1 .col2 .content_1{
+	margin: auto;
+}
+#filament .section-three .box-five-dot-bottom{
+	position: absolute;
+	bottom: 20px;
+	left: 40%;
+}
+#filament .section-three .box-five-dot-bottom li{
+	display: inline-block;
+}
+#filament .section-three .box-five-dot-bottom li > div{
+	width: 15px;
+    height: 15px;
+    background-color: var(--msBg);
+    margin-bottom: 10px;
+    display: block;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+
+	/*-------------------------------------End Section Three-------------------------------------*/
+
+#filament .section-four{
+	border-top: 20px solid #fff;
+	border-left: 40px solid #fff;
+	border-right: 40px solid #fff;
+	border-bottom: 20px solid #fff;
+}
+#filament .section-four .r1 .col1{
+	min-height: var(--secFourContBox);
+}
+#filament .section-four .r1 .col1 h2{
+	background: var(--msBg);
+    color: #fff;
+    padding: 8px;
+    position: relative;
+}
+#filament .section-four .r1 .col1 h2::before{
+	content: " ";
+	position: absolute;
+	top: 0;
+	left: -40px;
+	width: 20px;
+	height: calc(100% + 100px);
+	background-color: var(--msBgDark);
+	z-index: 99;
+}
+#filament .section-four .r1 .col1 .img_block1{
+	position: relative;
+	display: flex;
+}
+#filament .section-four .r1 .col1 .img_block1::before{
+	content: " ";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100px;
+	background-color: var(--msBg);
+}
+#filament .section-four .r1 .col1 .img_block1 img{
+	margin: auto;
+	position: relative;
+}
+#filament .section-four .r1 .col2{
+	display: flex;
+	min-height: var(--secFourContBox);
+}
+#filament .section-four .r1 .col2 .content_1{
+	margin: auto;
+}
+#filament .section-four .r1 .col2 .content_1 p{
+	padding: 10px 20px;
+}
+#filament .section-four .r1 .col3{
+	display: flex;
+}
+#filament .section-four .r1 .col3 .img_block1{
+	margin: auto;
+	border-bottom: 100px solid var(--msBgDark);
+}
+#filament .section-four .r1 .col3 .img_block1::before{
+	content: " ";
+	position: absolute;
+	right: -40px;
+	top: 0;
+	width: 30px;
+	height: 100%;
+	background-color: var(--msBgDark);
+}
+#filament .section-four .r1 .col3 .img_block1 img{
+	position: relative;
+	margin-bottom: 20px;
+}
+#filament .section-four .box-five-dot-bottom{
+	position: absolute;
+	margin-top: 40px; 
+	left: 30%;
+}
+#filament .section-four .box-five-dot-bottom li{
+	display: inline-block;
+}
+#filament .section-four .box-five-dot-bottom li > div{
+	width: 15px;
+    height: 15px;
+    background-color: var(--msBg);
+    margin-bottom: 10px;
+    display: block;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+	/*-------------------------------------End Section Four-------------------------------------*/
+
+#filament .section-five{
+	border: 20px solid #fff;
+}
+#filament .section-five .r1 .col1{
+	background-color: #fff;
+	display: flex;
+	min-height: var(--secFiveContBox);
+	font-size: 13px;
+	position: relative;
+}
+#filament .section-five .r1 .col1::before{
+	content: " ";
+	position: absolute;
+	top: 0;
+	left: -20px;
+	width: 20px;
+	height: 100%;
+	background-color: var(--msBgDark);
+}
+#filament .section-five .r1 .col2{
+	display: flex;
+	min-height: var(--secFiveContBox);
+	font-size: 13px;
+}
+#filament .section-five .r1 .col3{
+	display: flex;
+	background-color: var(--msBgDark);
+	color: #fff;
+	min-height: var(--secFiveContBox);
+	font-size: 13px;
+}
+#filament .section-five .r1 .col1 .content_1{
+	margin: auto;
+	padding: 0 20px;
+}
+#filament .section-five .r1 .col1 .content_1 .img_group{
+	text-align: center;
+	padding: 20px 0;
+}
+#filament .section-five .r1 .col1 .content_1 .img_group > div[class^="img_block"]{
+	display: inline-block;
+	max-width: 40%;
+}
+#filament .section-five .r1 .col3 .content_1{
+	margin: auto;
+	padding: 20px;
+}
+#filament .section-five .r1 .col3 .content_1 .img_group{
+	text-align: center;
+	padding: 20px 0;
+}
+#filament .section-five .r1 .col3 .content_1 .img_group > div[class^="img_block"]{
+	display: inline-block;
+	max-width: 40%;
+}
+#filament .section-five .r1 .col2 .img_block1{
+	position: relative;
+	z-index: 99;
+	margin: auto;
+}
+#filament .section-five .r1 .col2 .img_block1 img{
+	max-height: var(--secFiveContBox);
+}
+#filament .section-five .r1 .col2::before{
+	content: " ";
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 50%;
+	height: 100%;
+	background-color: #fff;
+	z-index: 97;
+}
+#filament .section-five .r1 .col2::after{
+	content: " ";
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 50%;
+	height: 100%;
+	background-color: var(--msBgDark);
+	z-index: 97;
+}
+
+
+	/*-------------------------------------End Section Five-------------------------------------*/
+
+#filament .section-six{
+	border-left: 20px solid #fff;
+}
+#filament .section-six .r1 .col1{
+	position: relative;
+}
+#filament .section-six .r1 .col1 h2{
+	color: #fff;
+	text-align: center;
+	padding: 20px 0;
+}
+#filament .section-six .r1 .col1 .img_block1{
+	display: flex;
+	text-align: center;
+}
+#filament .section-six .r1 .col1 .img_block1 img{
+	margin: auto;
+	width: 80%;
+}
+#filament .section-six .r1 .col2{
+	border-top: 20px solid var(--msBgDark);
+	border-bottom: 20px solid var(--msBgDark);
+	background-color: #fff;
+	color: #000;
+	display: flex;
+}
+#filament .section-six .r1 .col2 .content_1{
+	margin: auto;
+	padding: 20px 40px;
+	position: relative;
+}
+#filament .section-six .r1 .col2 .content_1::after{
+	content: " ";
+	position: absolute;
+	top: 40px;
+	right: 0;
+	width: 20px;
+	height: calc(100% - 100px);
+	background-color: var(--msBgDark);
+}
+#filament .section-six .box-five-dot-bottom{
+	position: absolute;
+	bottom: 30%;
+	right: 20px;
+}
+#filament .section-six .box-five-dot-bottom li{
+	display: block;
+}
+#filament .section-six .box-five-dot-bottom li > div{
+	width: 15px;
+    height: 15px;
+    background-color: var(--msBg);
+    margin-bottom: 10px;
+    display: block;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+
+	/*-------------------------------------End Section Six-------------------------------------*/
+
+#filament .section-seven .r1 > .col1{
+	border-left: 50px solid var(--msBg);
+	position: relative;
+	min-height: var(--secSevenContBox);
+}
+#filament .section-seven .r1 > .col1::before{
+	content: " ";
+	position: absolute;
+	top: 0;
+	left: -50px;
+	width: 20px;
+	height: 100%;
+	background-color: #fff;
+}
+#filament .section-seven .r1 .col1 .img_group{
+	text-align: center;
+}
+#filament .section-seven .r1 .col1 div[class^="img_block"]{
+	display: flex;
+	text-align: center;
+}
+#filament .section-seven .r1 .col1 div[class^="img_block"] img{
+	max-width: 75%;
+}
+#filament .section-seven .r1 .col2 .r2{
+	background:url('/assets/images/filament/desktop/Drawn-Textured-Yarn-or-DTY-process-Polyester-Thaipolyester1.webp');
+	background-size: 100% auto;
+	background-position: center top;
+}
+#filament .section-seven .r1 .col2 .r2 > .col1,
+#filament .section-seven .r1 .col2 .r2 > .col2{
+	display: flex;
+	min-height: var(--secSevenContBox);
+}
+#filament .section-seven .r1 .col2 .r2 .col1 .content_1{
+	margin: auto;
+}
+#filament .section-seven .r1 .col2 .r2 .col1 p{
+	padding: 20px;
+}
+#filament .section-seven .r1 .col2 .r2 .col2 div[class^="img_block"]{
+	display: flex;
+	text-align: center;
+}
+#filament .section-seven .r1 .col2 .r2 .col2 div[class^="img_block"] img{
+	max-width: 75%;
+}
+#filament .section-seven .r1 .col2 .r2 > .col2 > .img_group{
+	margin: auto;
+	position: relative;
+}
+#filament .section-seven .r1 .col2 .r2 > .col2::after{
+	content: " ";
+	position: absolute;
+	right: 0;
+	top: 160px;
+	width: 20px;
+	height: 50%;
+	background-color: #fff;
+}
+
+	/*-------------------------------------End Section Seven-------------------------------------*/
+
+#filament .section-eight .r1 > .col1{
+	display: flex;
+	border-left: 20px solid var(--msBgDark);
+	border-right: 20px solid var(--msBgDark);
+	padding: 20px;
+}
+#filament .section-eight .r1 > .col1 > .content_1{
+	margin: auto;
+	text-align: center;
+}
+#filament .section-eight .r1 > .col1 > .content_1 > h2{
+	color: #fff;
+}
+#filament .section-eight .r1 > .col1 > .content_1 > p{
+	color: #000;
+}
+#filament .section-eight .r1 > .col2{
+	display: none;
+}
+#filament .section-eight .r1 > .col3{
+	margin-bottom: 20px;
+}
+#filament .section-eight .r1 > .col3 > .r2 > .col2{
+	padding: 20px;
+	padding-bottom: 0;
+	font-size: 12px;
+	min-height: var(--secEightContBox);
+}
+#filament .section-eight .r1 > .col3 > .r2 > .col2 > p{
+	margin-bottom: 10px;
+}
+#filament .section-eight .r1 > .col3 > .r2 > .col2 > p.p2{
+	text-align: center;
+}
+#filament .section-eight .r1 > .col3 > .r2 > .col2 > .col2-1,
+#filament .section-eight .r1 > .col3 > .r2 > .col2 > .col2-2{
+	display: flex;
+}
+#filament .section-eight .r1 > .col3 > .r2 > .col2 > .col2-1 > p,
+#filament .section-eight .r1 > .col3 > .r2 > .col2 > .col2-2 > p{
+	margin: auto;
+}
+#filament .section-eight .r1 > .col3 > .r2 > .col1{
+	min-height: var(--secEightContBox);
+	background:url('/assets/images/filament/desktop/Twisted-yarn-Polyester-Thaipolyester-1.webp') no-repeat;
+	background-size: 100% auto;
+	background-position: center top;
+}
+#filament .section-eight .r1 > .col3 > .r2 > .col3{
+	min-height: var(--secEightContBox);
+	background:url('/assets/images/filament/desktop/Twisted-yarn-Polyester-Thaipolyester-2.webp') no-repeat;
+	background-size: 100% auto;
+	background-position: center top;
+}
+#filament .section-eight .r1 > .col4{
+	display: none;
+	border-left: 25px solid var(--msBgDark);
+	border-right: 25px solid var(--msBgDark);
+	margin-bottom: 20px;
+}
+#filament .section-eight .r1 > .col4 > .img_block1{
+	padding: 0 10px;
+}
+
+	/*-------------------------------------End Section Eight-------------------------------------*/
+
+@media only screen and (min-width: 1024px){
+	body {
+		/*--secThreeContBox:630px;*/
+		--secThreeContBox:600px;
+		--secFiveContBox:468px;
+	}
+
+	/*-------------------------------------End Setting All-------------------------------------*/
+}
+
+@media only screen and (max-width: 768px){
+	body {
+		--secTwoContBox:unset;
+		--secThreeContBox:unset;
+		--secFourContBox:unset;
+		--secFiveContBox:unset;
+		--secSevenContBox:unset;
+		--secEightContBox:unset;
+	}
+	#filament {
+	    padding: 0px;
+	}
+
+		/*-------------------------------------End Setting All-------------------------------------*/
+
+	#filament .section-one{
+
+	}
+
+		/*-------------------------------------End Section One-------------------------------------*/
+
+	#filament .section-two .r1 .col1 .content_1{
+		min-height: unset;
+	}
+	#filament .section-two .r1 .col1 .img_block1{
+		padding: 0;
+	}
+	#filament .section-two .r1 .col1 .img_block1 img{
+		border: none;
+	}
+	#filament .section-two .r1 .col2 .content_1 p{
+		/*padding: 10px;*/
+	}
+
+		/*-------------------------------------End Section Two-------------------------------------*/
+
+	#filament .section-three .r1 .col1 .r2 .col1 .img_block1 img{
+		border: none;
+	}
+	#filament .section-three .r1 > .col2{
+		background:url('/assets/images/filament/mobile/Pre-Oriented-Yarn-or-POY-Filament-Process-Polyester-Thaipolyester-2.webp') no-repeat;
+		background-size: 100% auto;
+		background-position: center top;
+		color: #fff;
+	}
+	#filament .section-three .r1 .col1 .r2 .col2 .content_1 p{
+		/*padding: 10px;*/
+	}
+	#filament .section-three .r1 > .col2 .content_1{
+		/*padding: 10px;*/
+	}
+	#filament .section-three .r1 > .col2 .content_1::after{
+		display: none;
+	}
+	#filament .section-three .box-five-dot-bottom{
+		display: none;
+	}
+
+		/*-------------------------------------End Section Three-------------------------------------*/
+
+	#filament .section-four{
+		border: none;
+	}
+	#filament .section-four .r1 .col1{
+		position: relative;
+	}
+	#filament .section-four .r1 .col1 h2{
+		border-left: 30px solid #fff;
+		border-right: 30px solid #fff;
+	}
+	#filament .section-four .r1 .col1 h2::before{
+		width: 30px
+	}
+	#filament .section-four .r1 .col1 .img_block1{
+		border-left: 30px solid #fff;
+		border-right: 30px solid #fff;
+	}
+	#filament .section-four .r1 .col1 .img_block1 img{
+		padding: 0 20px 0 20px;
+	}
+	#filament .section-four .box-five-dot-bottom{
+		display: none;
+	}
+	#filament .section-four .r1 .col3 .img_block1{
+		border: none;
+		border-left: 20px solid var(--msBgDark);
+		border-right: 20px solid var(--msBgDark);
+		border-bottom: 20px solid #fff;	
+	}
+	#filament .section-four .r1 .col3 .img_block1::before{
+		display: none;
+	}
+	#filament .section-four .r1 .col3 .img_block1::after{
+		content: " ";
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: 20px;
+		background-color: #fff;
+	}
+	#filament .section-four .r1 .col3 .img_block1 img{
+		padding: 0 10px;
+		margin-bottom: unset;
+	}
+
+		/*-------------------------------------End Section Four-------------------------------------*/
+
+	#filament .section-five{
+		border: none;
+	}
+	#filament .section-five .r1 .col1{
+		background-color: var(--msBgDark);
+		color: #fff;
+		padding-top: 20px;
+	}
+	#filament .section-five .r1 .col1,
+	#filament .section-five .r1 .col2,
+	#filament .section-five .r1 .col3{
+		font-size: unset;
+	}
+	#filament .section-five .r1 .col1::before{
+		display: none;
+	}
+	#filament .section-five .r1 .col3{
+		background-color: var(--msBg);
+		color: unset;
+	}
+	#filament .section-five .r1 .col2{
+		display: block;
+	}
+	#filament .section-five .r1 .col2::before{
+		display: none;
+	}
+	#filament .section-five .r1 .col2 > .img_block1::before{
+		content: " ";
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 50%;
+		background-color: var(--msBgDark);
+		z-index: 97;
+	}
+	#filament .section-five .r1 .col2::after{
+		display: none;
+	}
+	#filament .section-five .r1 .col2 > .img_block1::after{
+		content: " ";
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		height: 50%;
+		background-color: var(--msBg);
+		z-index: 97;
+	}
+	#filament .section-five .r1 .col1 .content_1 .img_group > div[class^="img_block"],
+	#filament .section-five .r1 .col3 .content_1 .img_group > div[class^="img_block"]{
+		max-width: unset;
+	}
+	#filament .section-five .r1 .col2 .img_block1 img{
+		position: relative;
+		z-index: 98;
+	}
+
+		/*-------------------------------------End Section Five-------------------------------------*/
+
+	#filament .section-six{
+		border:none;
+	}
+	#filament .section-six .r1 .col1 h2{
+		display: none;
+	}
+	#filament .section-six .r1 .col1 .img_block1 img{
+		margin: auto;
+		width: 100%;
+	}
+	#filament .section-six .r1 .col2{
+		border:none;
+	}
+	#filament .section-six .r1 .col2 .content_1{
+		padding: 20px;
+		padding-bottom: 0;
+	}
+	#filament .section-six .r1 .col2 .content_1::after{
+		display: none;
+	}
+	#filament .section-six .box-five-dot-bottom{
+		display: none;
+	}
+
+		/*-------------------------------------End Section Six-------------------------------------*/
+
+	#filament .section-seven .r1 > .col1{
+		border: none;
+		border-left: 20px solid var(--msBg); 
+		border-right: 20px solid var(--msBg); 
+	}
+	#filament .section-seven .r1 > .col1::before{
+		display: none;
+	}
+	#filament .section-seven .r1 .col1{
+		padding: 20px 0;
+	}
+	#filament .section-seven .r1 .col1 div[class^="img_block"]{
+		display: inline-block;
+	}
+	#filament .section-seven .r1 .col2 .r2 > .col2::after{
+		display: none;
+	}
+	#filament .section-seven .r1 .col2 .r2 .col2 div[class^="img_block"]{
+		display: inline-block;
+		max-width: 45%;
+	    text-align: end;
+	}
+	#filament .section-seven .r1 .col1 div[class^="img_block"] img{
+		max-width: 100%;
+	}
+	#filament .section-seven .r1 .col2 .r2 .col2 div[class^="img_block"] img{
+		max-width: 100%;
+	}
+	#filament .section-seven .r1 .col2 .r2 .col2 > .img_group{
+		margin-bottom: 30px;
+		text-align: center;
+	}
+	#filament .section-seven .r1 .col2 .r2{
+		background:url('/assets/images/filament/mobile/Drawn-Textured-Yarn-or-DTY-process-Polyester-Thaipolyester1.webp');
+		background-size: 100% auto;
+		background-position: center top;
+	}
+
+
+		/*-------------------------------------End Section Seven-------------------------------------*/
+
+	#filament .section-eight .r1 > .col1{
+		border:none;
+	}
+	#filament .section-eight .r1 > .col2{
+		display: block;
+	}
+	#filament .section-eight .r1 > .col2 > .img_block1{
+		padding: 20px;
+	}
+	#filament .section-eight .r1 > .col3 > .r2 > .col2{
+		font-size: unset;
+		padding-bottom: 20px;
+	}
+	#filament .section-eight .r1 > .col3 > .r2 > .col2 > p.p2{
+		text-align: left;
+	}
+	#filament .section-eight .r1 > .col3 > .r2 > .col1{
+		display: none;
+	}
+	#filament .section-eight .r1 > .col3 > .r2 > .col3{
+		display: none;
+	}
+	#filament .section-eight .r1 > .col3 > .r2 > .col2 > .col2-1 > p,
+	#filament .section-eight .r1 > .col3 > .r2 > .col2 > .col2-2 > p{
+		margin: unset;
+	}
+	#filament .section-eight .r1 > .col4{
+		display: block;
+	}
+
+		/*-------------------------------------End Section Eight-------------------------------------*/
+}

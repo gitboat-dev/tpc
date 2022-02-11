@@ -1,0 +1,531 @@
+body {
+	--secOneContBox:800px;
+}
+span.highlight{
+	color: var(--msBg);
+	font-weight: 600;
+	word-wrap: break-word;
+}
+.bg-white{
+	background-color: var(--msBgLight);
+	color: #000;
+}
+.bg-black{
+	background-color: var(--msBgDark);
+	color: #fff;
+}
+.bg-green{
+	background-color: var(--msBg);
+	color: #fff;
+}
+.bg-gray{
+	background-color: #F2F2F2;
+}
+#ty {
+	padding: 0px 54px;
+    background-color: var(--msBg);
+    font-size: 20px;
+	font-weight: 500;
+	line-height: 30px;
+	max-width: 1920px;
+}
+#ty img{
+	width: 100%;
+}
+#ty_bg{
+	background-color: var(--msBgLight);
+}
+#ty .p-0{
+	padding: 0;
+}
+#ty .m-0{
+	margin: 0;
+}
+#ty h2{
+	font-size: 33px;
+}
+#ty h3{
+	font-size: 30px;
+}
+
+	/*-------------------------------------End Setting All-------------------------------------*/
+
+#ty .section-one{
+	position: relative;
+}
+#ty .section-one .r1 .col1{
+	display: flex;
+	position: relative;
+	padding: 20px;
+	min-height: var(--secOneContBox);
+}
+#ty .section-one .r1 .col1 h1.section-one-title{
+	margin: auto;
+	margin-right: 0;
+	color: #fff;
+	text-align: right;
+	font-size: 10vw;
+	text-shadow: 10px -6px 2px var(--msBg);
+}
+#ty .section-one .r1 .col2{
+	display: flex;
+	position: relative;
+	padding: 20px;
+	min-height: var(--secOneContBox);
+}
+#ty .section-one .r1 .col2::before{
+	content: " ";
+	position: absolute;
+	left: 5%;
+	top: 240px;
+	height: calc(100% - 480px);
+	width: 15px;
+	background-color: var(--msBg);
+}
+#ty .section-one .r1 .col2 .content_1{
+	position: relative;
+	margin: auto;
+	padding-right: 25%;
+	padding-left: 10%;
+}
+#ty .section-one .r1 div.line-t{
+	position: absolute;
+	width: 59%;
+	height: 15px;
+	background-color: var(--msBg);
+	right: 8%;
+	top: 80px;
+}
+#ty .section-one .r1 div.line-t::before{
+	content: " ";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 15px;
+	height: 1200%;
+	background-color: var(--msBg);
+}
+#ty .section-one .r1 div.line-b{
+	position: absolute;
+	width: 59%;
+	height: 15px;
+	background-color: var(--msBg);
+	right: 8%;
+	bottom: 80px;
+}
+#ty .section-one .r1 div.line-b::before{
+	content: " ";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 15px;
+	height: 1000%;
+	background-color: var(--msBg);
+}
+#ty .section-one .r1 div.line-r{
+	position: absolute;
+	width: 15px;
+	height: calc(100% - 160px);
+	background-color: var(--msBg);
+	right: 8%;
+	top: 80px;
+}
+
+	/*-------------------------------------End Section one-------------------------------------*/
+
+#ty .section-two .r1 .col1{
+	display: flex;
+	position: relative;
+	padding: 20px;
+}
+#ty .section-two .r1 .col1::after{
+	content: " ";
+	position: absolute;
+	top: 25%;
+	right: 20px;
+	width: 15px;
+	height: 50%;
+	background-color: var(--msBg);
+}
+#ty .section-two .r1 .col1 h2.section-two-title{
+	color: var(--msBg);
+	font-size: 83px;
+	font-weight: 500;
+	line-height: 80px;
+	margin: auto;
+}
+#ty .section-two .r1 .col2,
+#ty .section-two .r1 .col3{
+	display: flex;
+	position: relative;
+	padding: 20px;
+}
+#ty .section-two .r1 .col2 .content_1,
+#ty .section-two .r1 .col3 .content_1{
+	margin: auto;
+}
+
+	/*-------------------------------------End Section two-------------------------------------*/
+
+#ty .section-three{
+	padding: 15px 90px 90px 90px;
+	position: relative;
+}
+#ty .section-three .line-t{
+	position: absolute;
+	top: 45px;
+	left: 33.33333333%;
+	width: calc(66.66666667% - 45px);
+	height: 15px;
+	background-color: var(--msBg);
+}
+#ty .section-three .line-r{
+	position: absolute;
+	right: 45px;
+	top: 45px;
+	width: 15px;
+	height: calc(100% - 90px);
+	background-color: var(--msBg);
+}
+#ty .section-three .line-b{
+	position: absolute;
+	bottom: 45px;
+	right: 45px;
+	width: calc(100% - 95px);
+	height: 15px;
+	background-color: var(--msBg);
+}
+#ty .section-three .line-l{
+	position: absolute;
+	left: 45px;
+	bottom: 45px;
+	width: 15px;
+	height: 42.5%;
+	background-color: var(--msBg);
+}
+#ty .section-three .r1 .col1{
+	position: relative;
+}
+#ty .section-three .r1 .col1 .img_block1{
+	margin-left: -75px;
+}
+#ty .section-three .r1 .col2{
+	display: flex;
+	position: relative;
+	padding: 20px;
+}
+#ty .section-three .r1 .col2 .content_1{
+	margin: auto;
+}
+#ty .section-three .r1 .col2 .content_1 h2.section-three-title{
+	font-size: 83px;
+	line-height: 100%;
+	font-weight: 500;
+}
+#ty .section-three .r1 .col3{
+	display: flex;
+	position: relative;
+}
+#ty .section-three .r1 .col3 .content_1{
+	margin: auto;
+	padding: 20px;
+	text-align: center;
+}
+
+	/*-------------------------------------End Section three-------------------------------------*/
+
+#ty .section-four .r1 .col1{
+	display: flex;
+	position: relative;
+	padding: 20px;
+}	
+#ty .section-four .r1 .col1 .content_block{
+	margin: auto;
+}
+#ty .section-four .r1 .col1 .content_block .col1-1{
+	position: relative;
+	margin-bottom: 60px;
+}
+#ty .section-four .r1 .col1 .content_block .col1-1 h2.section-four-title{
+	background-color: var(--msBgDark);
+	color: var(--msBg);
+	padding: 20px 20px 20px 40px;
+	font-size: 53px;
+	font-weight: 500;
+	position: absolute;
+	top: 0;
+    left: -20px;
+    width: 120%;
+    z-index: 99;
+}
+#ty .section-four .r1 .col1 .content_block .col1-1 h2.section-four-title small{
+	color: var(--msBg);
+}
+#ty .section-four .r1 .col2{
+	position: relative;
+}	
+#ty .section-four .r1 .col2 .img_block1{
+	margin: auto;
+	margin-top: 0;
+}
+#ty .section-four .r1 .col3{
+	display: flex;
+	position: relative;
+	padding: 20px;
+}
+#ty .section-four .r1 .col3 .content_1{
+	margin: auto;
+}
+
+	/*-------------------------------------End Section four-------------------------------------*/
+#ty .section-five{
+	padding: 40px;
+	position: relative;
+}
+#ty .section-five::before{
+	content: " ";
+	position: absolute;
+	top: 70px;
+	left: 40px;
+	width: calc(100% - 80px);
+	height: 10px;
+	background-color: #000;
+}
+#ty .section-five::after{
+	content: " ";
+	position: absolute;
+	bottom: 40px;
+	left: 40px;
+	width: calc(100% - 80px);
+	height: 10px;
+	background-color: #000;
+}
+#ty .section-five div.line-l{
+	position: absolute;
+	top: 70px;
+	left: 40px;
+	height: calc(100% - 120px);
+	width: 10px;
+	background-color: #000;
+}
+#ty .section-five div.line-r{
+	position: absolute;
+	bottom: 40px;
+	right: 40px;
+	height: calc(100% - 120px);
+	width: 10px;
+	background-color: #000;
+}
+#ty .section-five .r1 .col1 h2.section-five-title{
+	color: var(--msBg);
+	font-size: 53px;
+	line-height: 50px;
+	font-weight: 500;
+	background-color: #fff;
+	padding: 0 10px;
+	float: right;
+	margin-right: 60px;
+}
+
+#ty .section-five .r1 .col2,
+#ty .section-five .r1 .col3{
+	display: flex;
+	position: relative;
+	padding: 25px;
+}
+#ty .section-five .r1 .col2 .content_1,
+#ty .section-five .r1 .col3 .img_block1{
+	margin: auto;
+}
+#ty .section-five .r1 .col3 .img_block1{
+	max-width: 90%;
+}
+
+	/*-------------------------------------End Section five-------------------------------------*/
+
+@media only screen and (min-width: 1920px){
+	#ty .section-one .r1 .col1 h1.section-one-title{
+		font-size: 200px;
+		line-height: 50%;
+	}
+
+	/*-------------------------------------End Section one-------------------------------------*/
+}
+@media only screen and (max-width: 1920px){
+	#ty .section-one .r1 .col1 h1.section-one-title{
+		font-size: 10vw;
+		line-height: 50%;
+	}
+
+	/*-------------------------------------End Section one-------------------------------------*/
+}
+@media only screen and (max-width: 1328px){
+	#ty .section-three .line-t,
+	#ty .section-three .line-r,
+	#ty .section-three .line-b,
+	#ty .section-three .line-l{
+		display: none;
+	}
+	#ty .section-three{
+		padding: unset;
+	}
+	#ty .section-three .r1 .col1 .img_block1{
+		margin-left: unset;
+	}
+
+	/*-------------------------------------End Section three-------------------------------------*/
+}
+@media only screen and (max-width: 1024px){
+	#ty .section-two .r1 .col1 h2.section-two-title{
+		font-size: 53px;
+	}
+
+	/*-------------------------------------End Section two-------------------------------------*/
+
+	#ty .section-three .r1 .col2 .content_1 h2.section-three-title{
+		font-size: 63px;
+	}
+
+	/*-------------------------------------End Section three-------------------------------------*/
+
+	#ty .section-four .r1 .col1{
+		padding: unset;
+	}
+	#ty .section-four .r1 .col1 .content_block .col1-1{
+		padding: unset;
+		margin-bottom: unset;
+	}
+	#ty .section-four .r1 .col1 .content_block .col1-1 h2.section-four-title{
+		position: unset;
+		width: 100%;
+		padding: 20px;
+	}
+
+	/*-------------------------------------End Section four-------------------------------------*/
+}
+@media only screen and (max-width: 991px){
+	body {
+		--secOneContBox: 300px;
+	}
+
+	/*-------------------------------------End Setting All-------------------------------------*/
+
+	#ty .section-one .r1 .col1 h1.section-one-title{
+		font-size: 14vw;
+	}
+	#ty .section-one .r1 .col2 .content_1{
+		padding-right: unset;
+	}
+	#ty .section-one .r1 div.line-t,
+	#ty .section-one .r1 div.line-r,
+	#ty .section-one .r1 div.line-b{
+		display: none;
+	}
+
+	/*-------------------------------------End Section one-------------------------------------*/
+
+	#ty .section-two .r1 .col1{
+		margin-bottom: 20px;
+	}
+	#ty .section-two .r1 .col1::after{
+		content: " ";
+		position: absolute;
+		right: 20px;
+		top: unset;
+		bottom: -20px;
+		width: 50%;
+		height: 8px;
+		background-color: var(--msBg);
+	}
+	#ty .section-two .r1 .col1 h2.section-two-title{
+		margin-left: 0;
+	}
+
+	/*-------------------------------------End Section two-------------------------------------*/
+
+	#ty .section-three .r1 .col2{
+		display: unset;
+	}
+	#ty .section-three .r1 .col3 .content_1{
+		text-align: unset;
+	}
+
+	/*-------------------------------------End Section three-------------------------------------*/
+
+	#ty .section-five{
+		padding: 0;
+	}
+	#ty .section-five .r1 .col2,
+	#ty .section-five .r1 .col3{
+		padding: 20px;
+	}
+	#ty .section-five::before,
+	#ty .section-five::after,
+	#ty .section-five div.line-l,
+	#ty .section-five div.line-r{
+		display: none;
+	}
+	#ty .section-five .r1 .col1 h2.section-five-title{
+		font-size: 53px;
+		line-height: 50px;
+		padding: 20px 20px 0;
+		float: unset;
+		margin-right: unset;
+	}
+	#ty .section-five .r1 .col3{
+		padding: 0 20px 20px;
+	}
+	#ty .section-five .r1 .col3 .img_block1{
+		max-width: unset;
+	}
+
+	/*-------------------------------------End Section five-------------------------------------*/
+}
+
+@media only screen and (max-width: 768px){
+	body {
+		--secOneContBox: 280px;
+	}
+	#ty {
+		padding: 0;
+	}
+
+	/*-------------------------------------End Setting All-------------------------------------*/
+
+	#ty .section-one .r1 .col1 h1.section-one-title{
+		font-size: 20vw;
+	}
+	#ty .section-one .r1 .col2{
+		padding: unset;
+		padding-right: 10px;
+	}
+	#ty .section-one .r1 .col2 .content_1{
+		padding-left: 20%;
+	}
+	#ty .section-one .r1 .col2 .content_1::before{
+		content: " ";
+		position: absolute;
+		left: 15%;
+		top: 0;
+		width: 8px;
+		height: calc(100% - 20px);
+		background-color: var(--msBg);
+	}
+
+	/*-------------------------------------End Section one-------------------------------------*/
+}
+
+@media only screen and (max-width: 548px){
+	#ty .section-one .r1 .col1 h1.section-one-title{
+		font-size: 23vw;
+	}
+
+	/*-------------------------------------End Section one-------------------------------------*/
+
+	#ty .section-two .r1 .col1 h2.section-two-title{
+		font-size: 57px;
+		line-height: 60px;
+	}
+
+	/*-------------------------------------End Section two-------------------------------------*/
+}
