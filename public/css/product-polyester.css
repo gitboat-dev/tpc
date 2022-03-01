@@ -1,5 +1,5 @@
 body {
-	
+
 }
 span.highlight{
 	color: var(--msBg);
@@ -40,6 +40,18 @@ span.highlight{
 #prod_poly .m-0{
 	margin: 0;
 }
+#prod_poly .ml-0{
+	margin-left: 0;
+}
+#prod_poly .mr-0{
+	margin-right: 0;
+}
+#prod_poly .mt-0{
+	margin-top: 0;
+}
+#prod_poly .mb-0{
+	margin-bottom: 0;
+}
 
 	/*-------------------------------------End Setting All-------------------------------------*/
 
@@ -52,6 +64,8 @@ span.highlight{
 }
 #prod_poly .section-two .r1{
 	padding: 0 4px;
+    display: flex;
+    flex-wrap: wrap;
 }
 #prod_poly .section-two .r1 > div[class^="col-"]{
 	padding: 8px 4px;
@@ -64,7 +78,7 @@ span.highlight{
 	#prod_poly{
 		padding: 0;
 	}
-	
+
 	/*-------------------------------------End Setting All-------------------------------------*/
 
 	#prod_poly .section-two{

@@ -20,7 +20,7 @@
 			<div class="section-two">
 				<div class="container-fluid">
 					<div class="row m-0 r1 bg-gray">
-						<div class="col-xs-6 col-sm-6 col-md-4 p-0 col1">
+						<div class="col-xs-6 col-sm-6 col-md-3 p-0 col1">
 							<a href="{{ route('product.psf') }}" title="Polyester Staple Fiber">
 								<div class="img_block1">
 									<picture>
@@ -30,7 +30,7 @@
 						    	</div>
 							</a>
 						</div>
-						<div class="col-xs-6 col-sm-6 col-md-4 p-0 col1">
+						<div class="col-xs-6 col-sm-6 col-md-3 p-0 col2">
 							<a href="{{ route('product.filament') }}" title="Filament Yarn">
 								<div class="img_block1">
 									<picture>
@@ -40,7 +40,7 @@
 						    	</div>
 							</a>
 						</div>
-						<div class="col-xs-6 col-sm-6 col-md-4 p-0 col1">
+						<div class="col-xs-6 col-sm-6 col-md-3 p-0 col3">
 							<a href="{{ route('product.poy') }}" title="Partially Oriented Yarn">
 								<div class="img_block1">
 									<picture>
@@ -50,7 +50,7 @@
 						    	</div>
 							</a>
 						</div>
-						<div class="col-xs-6 col-sm-6 col-md-4 p-0 col3">
+						<div class="col-xs-6 col-sm-6 col-md-3 p-0 col4">
 							<a href="{{ route('product.fdy') }}" title="Fully Drawn Yarn">
 								<div class="img_block1">
 									<picture>
@@ -60,7 +60,7 @@
 						    	</div>
 							</a>
 						</div>
-						<div class="col-xs-6 col-sm-6 col-md-4 p-0 col2">
+						<div class="col-xs-6 col-sm-6 col-md-3 p-0 col5">
 							<a href="{{ route('product.dty') }}" title="Draw Textured Yarn">
 								<div class="img_block1">
 									<picture>
@@ -70,7 +70,7 @@
 						    	</div>
 							</a>
 						</div>
-						<div class="col-xs-6 col-sm-6 col-md-4 p-0 col7">
+						<div class="col-xs-6 col-sm-6 col-md-3 p-0 col6">
 							<a href="{{ route('product.twisted-yarn') }}" title="Twist Yarn">
 								<div class="img_block1">
 									<picture>
@@ -80,7 +80,7 @@
 						    	</div>
 							</a>
 						</div>
-						<div class="col-xs-6 col-sm-6 col-md-4 p-0 col4">
+						<div class="col-xs-6 col-sm-6 col-md-3 p-0 col7">
 							<a href="{{ route('product.monofilament') }}" title="Monofilament">
 								<div class="img_block1">
 									<picture>
@@ -90,27 +90,7 @@
 						    	</div>
 							</a>
 						</div>
-						{{-- <div class="col-xs-6 col-sm-6 col-md-4 p-0 col6">
-							<a href="{!!url('/ring-spun')!!}" title="Ring Spun">
-								<div class="img_block1">
-									<picture>
-										<source srcset="/assets/images/product/mobile/Ring-Spun-Product-Thaipolyester.webp" alt="Ring Spun" media="(max-width: 640px)" loading="lazy">
-										<img src="/assets/images/product/desktop/Ring-Spun-Product-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Ring Spun" loading="lazy">
-							        </picture>
-						    	</div>
-							</a>
-						</div> --}}
-						{{-- <div class="col-xs-6 col-sm-6 col-md-4 p-0 col5">
-							<a href="{!!url('/open-end')!!}" title="Open End">
-								<div class="img_block1">
-									<picture>
-										<source srcset="/assets/images/product/mobile/Open-End-Product-Thaipolyester.webp" alt="Open End" media="(max-width: 640px)" loading="lazy">
-										<img src="/assets/images/product/desktop/Open-End-Product-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Open End" loading="lazy">
-							        </picture>
-						    	</div>
-							</a>
-						</div> --}}
-						<div class="col-xs-6 col-sm-6 col-md-4 p-0 col8">
+						<div class="col-xs-6 col-sm-6 col-md-3 p-0 col8">
 							<a href="{!!url('/dope-dyed')!!}" title="Dope Dyed">
 								<div class="img_block1">
 									<picture>
@@ -120,12 +100,32 @@
 						    	</div>
 							</a>
 						</div>
-						<div class="col-xs-6 col-sm-6 col-md-4 p-0 col8">
+						<div class="col-xs-6 col-sm-6 col-md-3 p-0 col9 mr-0">
 							<a href="{{ route('product.spun-yarn') }}" title="Spun Yarn">
 								<div class="img_block1">
 									<picture>
 										<source srcset="/assets/images/product/mobile/Spun-Yarn-Polyester-Thaipolyester.webp?v={{ time() }}" alt="Spun Yarn Polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
 										<img src="/assets/images/product/desktop/Spun-Yarn-Polyester-Thaipolyester.webp?v={{ time() }}" width="900" height="350" class="img-fluid ab-img" alt="Spun Yarn Polyester Thaipolyester" loading="lazy">
+							        </picture>
+						    	</div>
+							</a>
+						</div>
+                        <div class="col-xs-6 col-sm-6 col-md-3 p-0 col10 m-0">
+							<a href="{!!url('/ring-spun')!!}" title="Ring Spun">
+								<div class="img_block1">
+									<picture>
+										<source srcset="/assets/images/product/mobile/Ring-Spun-Yarn-Polyester-Thaipolyester.webp" alt="Ring Spun" media="(max-width: 640px)" loading="lazy">
+										<img src="/assets/images/product/desktop/Ring-Spun-Yarn-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Ring Spun" loading="lazy">
+							        </picture>
+						    	</div>
+							</a>
+						</div>
+						<div class="col-xs-6 col-sm-6 col-md-3 p-0 col11 ml-0">
+							<a href="{!!url('/open-end')!!}" title="Open End">
+								<div class="img_block1">
+									<picture>
+										<source srcset="/assets/images/product/mobile/OE-Open-End-Spun-Yarn-Polyester-Thaipolyester.webp" alt="Open End" media="(max-width: 640px)" loading="lazy">
+										<img src="/assets/images/product/desktop/OE-Open-End-Spun-Yarn-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Open End" loading="lazy">
 							        </picture>
 						    	</div>
 							</a>
