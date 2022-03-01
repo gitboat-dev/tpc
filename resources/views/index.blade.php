@@ -285,10 +285,10 @@
 				</div>
 				<div class="row m-0 r2">
 					<div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
-						<a title="map office thai polyester" href="/assets/images/home/desktop/map-Thaipolyester-customer.webp" data-fancybox="gallery" data-thumbnail-src="/assets/images/home/desktop/map-Thaipolyester-customer.webp">
+						<a title="map office thai polyester" href="\assets\images\home\desktop\Web-Home-Map-thaipolyester.webp" data-fancybox="gallery" data-thumbnail-src="/assets/images/home/desktop/map-Thaipolyester-customer.webp">
 							<picture>
-								<source srcset="/assets/images/home/mobile/map-Thaipolyester-customer.webp" alt="map Thaipolyester customer" loading="lazy" media="(max-width: 640px)">
-								<img src="/assets/images/home/desktop/map-Thaipolyester-customer.webp" width="900" height="350" class="img-fluid ab-img" alt="map Thaipolyester customer" loading="lazy">
+								<source srcset="\assets\images\home\desktop\Web-Home-Map-thaipolyester.webp" alt="map Thaipolyester customer" loading="lazy" media="(max-width: 640px)">
+								<img src="\assets\images\home\desktop\Web-Home-Map-thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="map Thaipolyester customer" loading="lazy">
 							</picture>
 						</a>
 					</div>
