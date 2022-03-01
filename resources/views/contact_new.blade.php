@@ -45,7 +45,7 @@
 											Rd., Samaedum, Bangkuntien,
 											Bangkok 10150 Thailand
 										</p>
-										<a title="Map Head Office Thai Polyester" href="/assets/custom/images/contact/TPC%20samaedum.webp" data-fancybox="gallery" data-thumbnail-src="/assets/custom/images/contact/TPC%20samaedum.webp">
+										<a title="Map Head Office Thai Polyester" href="/assets/images/contact/TPC Map-02.webp" data-fancybox="gallery" data-thumbnail-src="/assets/images/contact/TPC Map-02.webp">
 											Map
 										</a>
 									</div>
@@ -60,7 +60,7 @@
 											(Ban Nong Phai Kaeo), Ban Bung,
 											Chonburi 20220 Thailand
 										</p>
-										<a title="Map Factory Thai Polyester" href="/assets/custom/images/contact/TPC%20chonburi.webp?v={{ time() }}" data-fancybox="gallery" data-thumbnail-src="/assets/custom/images/contact/TPC%20chonburi.webp?v={{ time() }}">
+										<a title="Map Factory Thai Polyester" href="/assets/images/contact/TPC Map-03.webp" data-fancybox="gallery" data-thumbnail-src="/assets/images/contact/TPC Map-03.webp">
 											Map
 										</a>
 									</div>
@@ -76,7 +76,7 @@
 											Khaerai, Kratumban,
 											Samutsakorn 74110 Thailand
 										</p>
-										<a title="Map Sale Office Office Thai Polyester" href="/assets/custom/images/contact/TPC%20phojae.webp" data-fancybox="gallery" data-thumbnail-src="/assets/custom/images/contact/TPC%20phojae.webp">
+										<a title="Map Sale Office Office Thai Polyester" href="/assets/images/contact/TPC Map-01.webp" data-fancybox="gallery" data-thumbnail-src="/assets/images/contact/TPC Map-01.webp">
 											Map
 										</a>
 									</div>
@@ -182,7 +182,7 @@
 							<div class="img_block1">
 								<picture>
 									<source srcset="/assets/images/contact/mobile/Map-Contact-TPC.webp" alt="Map Contact TPC JPG" media="(max-width: 640px)" loading="lazy">
-									<img src="/assets/images/contact/desktop/Map-Contact-TPC-JPG.webp" width="900" height="350" class="img-fluid ab-img" alt="Map Contact TPC JPG" loading="lazy">
+									<img src="/assets/images/contact/desktop/Map-Contact-TPC.webp" width="900" height="350" class="img-fluid ab-img" alt="Map Contact TPC JPG" loading="lazy">
 						        </picture>
 						    </div>
 						</div>
