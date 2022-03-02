@@ -89,72 +89,16 @@ p.highlight{
 
 	/*-------------------------------------End Section Two-------------------------------------*/
 
-#filament .section-three .r1 .col1 h2{
-	text-align: center;
-	padding: 30px 10px 0 10px;
+#filament .section-three .box-five-dot-top{
+    position: absolute;
+	top: calc(50% - 31px);
+    left: calc(50% - 57px);
 }
-#filament .section-three .r1 .col1 .r2 .col1{
-	display: flex;
-	position: relative;
+#filament .section-three .box-five-dot-top li{
+    display: inline-block;
 }
-#filament .section-three .r1 .col1 .r2 .col1 .img_block1{
-	margin: auto;
-	margin-left: 0;
-	margin-top: 50px;
-}
-#filament .section-three .r1 .col1 .r2 .col1 .img_block1 img{
-	border: 30px solid #fff;
-	border-left: none;
-}
-#filament .section-three .r1 .col1 .r2 .col1{
-	min-height: calc(var(--secThreeContBox) - 45px);
-}
-#filament .section-three .r1 .col1 .r2 .col2{
-	display: flex;
-	min-height: calc(var(--secThreeContBox) - 45px);
-}
-#filament .section-three .r1 .col1 .r2 .col2 .content_1{
-	margin: auto;
-}
-#filament .section-three .r1 .col1 .r2 .col2 .content_1 p{
-	padding: 20px;
-}
-#filament .section-three .r1 .col1 .r2 .col2 .content_1 .img_block2{
-	max-width: 40%;
-}
-#filament .section-three .r1 > .col2{
-	display: flex;
-	min-height: var(--secThreeContBox);
-	background:url('/assets/images/filament/desktop/Pre-Oriented-Yarn-or-POY-Filament-Process-Polyester-Thaipolyester-3.webp') no-repeat;
-	background-size: 100% auto;
-	background-position: center top;
-	color: #fff;
-}
-#filament .section-three .r1 > .col2 .content_1{
-	padding: 20px 30px 20px 20px;
-}
-#filament .section-three .r1 > .col2 .content_1::after{
-	content: " ";
-	position: absolute;
-	right: 0;
-	top: 50px;
-	width: 20px;
-	height: 80%;
-	background-color: #fff;
-}
-#filament .section-three .r1 .col2 .content_1{
-	margin: auto;
-}
-#filament .section-three .box-five-dot-bottom{
-	position: absolute;
-	bottom: 20px;
-	left: 40%;
-}
-#filament .section-three .box-five-dot-bottom li{
-	display: inline-block;
-}
-#filament .section-three .box-five-dot-bottom li > div{
-	width: 15px;
+#filament .section-three .box-five-dot-top li div{
+    width: 15px;
     height: 15px;
     background-color: var(--msBg);
     margin-bottom: 10px;
@@ -162,7 +106,39 @@ p.highlight{
     border-radius: 50%;
     margin-right: 5px;
 }
-
+#filament .section-three .r1 .col1 h2{
+    padding: 30px 10px 0 20px;
+}
+#filament .section-three .r1 .col1,
+#filament .section-three .r1 .col2,
+#filament .section-three .r1 .col1 .col1-1,
+#filament .section-three .r1 .col1 .col1-2,
+#filament .section-three .r1 .col1 .col1-3{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+#filament .section-three .r1 .col2{
+    padding: 20px 30px 20px 20px;
+    background:url('/assets/images/filament/desktop/Pre-Oriented-Yarn-or-POY-Filament-Process-Polyester-Thaipolyester-3.webp') no-repeat;
+	background-size: 100% 150%;
+	background-position: center top;
+}
+#filament .section-three .r1 .col2 .content_1{
+    margin-top: 75px;
+}
+#filament .section-three .r1 .col1 .col1-1{
+    padding: 30px 0px 20px 20px;
+}
+#filament .section-three .r1 .col1 .col1-1 .img_block1{
+    margin: 0;
+}
+#filament .section-three .r1 .col1 .col1-3{
+    padding: 20px;
+}
+#filament .section-three .image_block .img_block1{
+    max-width: 250px;
+}
 
 	/*-------------------------------------End Section Three-------------------------------------*/
 
@@ -240,7 +216,7 @@ p.highlight{
 }
 #filament .section-four .box-five-dot-bottom{
 	position: absolute;
-	margin-top: 40px; 
+	margin-top: 40px;
 	left: 30%;
 }
 #filament .section-four .box-five-dot-bottom li{
@@ -545,6 +521,24 @@ p.highlight{
 	/*-------------------------------------End Setting All-------------------------------------*/
 }
 
+@media only screen and (max-width: 991px){
+    #filament .section-three .box-five-dot-top{
+       display: none;
+    }
+    #filament .section-three .r1 .col2 .content_1{
+        margin-top: unset;
+    }
+    #filament .section-three .r1 .col1 .col1-1{
+        padding: unset;
+        padding-top: 20px;
+    }
+    /* #filament .section-three .image_block .img_block1{
+        max-width: 200px;
+    } */
+
+        /*-------------------------------------End Section Three-------------------------------------*/
+}
+
 @media only screen and (max-width: 768px){
 	body {
 		--secTwoContBox:unset;
@@ -588,7 +582,6 @@ p.highlight{
 		background:url('/assets/images/filament/mobile/Pre-Oriented-Yarn-or-POY-Filament-Process-Polyester-Thaipolyester-2.webp') no-repeat;
 		background-size: 100% auto;
 		background-position: center top;
-		color: #fff;
 	}
 	#filament .section-three .r1 .col1 .r2 .col2 .content_1 p{
 		/*padding: 10px;*/
@@ -632,7 +625,7 @@ p.highlight{
 		border: none;
 		border-left: 20px solid var(--msBgDark);
 		border-right: 20px solid var(--msBgDark);
-		border-bottom: 20px solid #fff;	
+		border-bottom: 20px solid #fff;
 	}
 	#filament .section-four .r1 .col3 .img_block1::before{
 		display: none;
@@ -741,8 +734,8 @@ p.highlight{
 
 	#filament .section-seven .r1 > .col1{
 		border: none;
-		border-left: 20px solid var(--msBg); 
-		border-right: 20px solid var(--msBg); 
+		border-left: 20px solid var(--msBg);
+		border-right: 20px solid var(--msBg);
 	}
 	#filament .section-seven .r1 > .col1::before{
 		display: none;

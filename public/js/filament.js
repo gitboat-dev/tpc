@@ -1,9 +1,25 @@
 jQuery(document).ready(function($){
+    secthree();
 	secfive();
 	$(window).resize(function(event) {
+        secthree();
 		secfive();
 	});
 });
+function secthree(){
+    console.log(jQuery(window).width());
+    let block1 = jQuery('#filament .section-three .r1 .col1 .col1-2'),
+        block2 = jQuery('#filament .section-three .r1 .col1 .col1-3'),
+        block3 = jQuery('#filament .section-three .r1 .col2'),
+        minheight = jQuery(block2).outerHeight();
+    if(jQuery(window).width() <= 991){
+        jQuery(block1).removeAttr('style');
+        block2.find('.image_block').append(block3.find('.image_block .img_block1'));
+    }else{
+        jQuery(block1).css({'min-height':minheight+'px'});
+        block3.find('.image_block').append(block2.find('.image_block .img_block1'));
+    }
+}
 function secfive(){
 	var block1 = jQuery('.section-five > .r1 > .col1 > .content_1'),
 		block2 = jQuery('.section-five > .r1 > .col3 > .content_1'),

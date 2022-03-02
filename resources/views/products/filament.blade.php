@@ -52,7 +52,8 @@
 					</div>
 				</div>
 			</div>
-			<div class="section-three bg-black">
+
+			{{-- <div class="section-three bg-black">
 				<div class="row m-0 r1">
 					<div class="col-xs-12 col-sm-12 col-md-8 p-0 bg-black col1">
 						<h2 class="m-0"><span class="highlight">Pre-Oriented Yarn or POY</span></h2>
@@ -117,7 +118,80 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> --}}
+
+            <div class="section-three bg-black">
+                <div class="row m-0 r1">
+					<div class="col-xs-12 col-sm-12 col-md-8 p-0 bg-black col1">
+                        <h2 class="m-0"><span class="highlight">Pre-Oriented Yarn or POY</span></h2>
+                        <div class="row m-0 r1-1">
+                            <div class="col-xs-12 col-sm-12 col-md-12 p-0 col1-1">
+                                <div class="img_block1">
+									<picture>
+										<source srcset="/assets/images/filament/mobile/Pre-Oriented-Yarn-or-POY-process-filament-Polyester-Thaipolyester.webp" alt="Pre Oriented Yarn or POY process filament Polyester Thaipolyester" loading="lazy" media="(max-width: 640px)">
+										<img src="/assets/images/filament/desktop/Pre-Oriented-Yarn-or-POY-process-filament-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Pre Oriented Yarn or POY process filament Polyester Thaipolyester" loading="lazy">
+							        </picture>
+								</div>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-6 p-0 col1-2">
+                                <ul class="box-five-dot-top">
+									<li><div></div></li>
+									<li><div></div></li>
+									<li><div></div></li>
+									<li><div></div></li>
+									<li><div></div></li>
+								</ul>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-6 p-0 col1-3">
+                                <div class="content_1">
+									<p class="p1 highlight">
+										&nbsp;&nbsp;&nbsp;Pre-Oriented Yarn or POY is a straight
+										orientation. It is not distorted and is used as a
+										raw material for the production of stretch fibers
+										such as Drawn Textured Yarn (DTY). POY has been
+										used as an important raw material in the knitting
+										and weaving industry.
+									</p>
+                                    <div class="image_block"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-4 p-0 col2">
+                        <div class="content_1">
+							<p class="p1">
+								&nbsp;&nbsp;&nbsp;Furthermore, Thai Polyester Co., Ltd. has been
+								concerned on environmental issue. Therefore,
+								recycled of Partially Oriented Yarn (POY) has
+								been manufactured. Recycled POY is primarily
+								used in texturizing to make textured yarn which is
+								also commonly known as recycled polyester
+								Drawn Textured Yarn (DTY). Also, recycled POY is
+								presented in semi dull, raw white, and dope dyed
+								Black. Our company is able to produce recycled
+								POY with high quality of these following
+								specifications denier
+							</p>
+							<p class="p2">
+								• Recycled POY 85-36<br>
+								• Recycled POY 125-36, 125-72, 125-144<br>
+								• Recycled POY 165-36, 165-48<br>
+								• Recycled POY 260-48, 260-96, 260-144, 260-288<br>
+								• Recycled POY 500-96
+							</p>
+                            <div class="image_block">
+                                <div class="img_block1">
+                                    <picture>
+                                        <source srcset="/assets/images/filament/mobile/Pre-Oriented-Yarn-or-POY-Filament-Polyester-Thaipolyester.webp" alt="Pre Oriented Yarn or POY Filament Polyester Thaipolyester" loading="lazy" media="(max-width: 640px)">
+                                        <img src="/assets/images/filament/desktop/Pre-Oriented-Yarn-or-POY-Filament-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Pre Oriented Yarn or POY Filament Polyester Thaipolyester" loading="lazy">
+                                    </picture>
+                                </div>
+                            </div>
+						</div>
+                    </div>
+                </div>
+            </div>
+
 			<div class="section-four">
 				<div class="row m-0 r1">
 					<div class="col-xs-12 col-sm-12 col-md-4 p-0 col1">
