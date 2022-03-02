@@ -52,7 +52,6 @@
 					</div>
 				</div>
 			</div>
-
 			{{-- <div class="section-three bg-black">
 				<div class="row m-0 r1">
 					<div class="col-xs-12 col-sm-12 col-md-8 p-0 bg-black col1">
@@ -119,7 +118,6 @@
 					</div>
 				</div>
 			</div> --}}
-
             <div class="section-three bg-black">
                 <div class="row m-0 r1">
 					<div class="col-xs-12 col-sm-12 col-md-8 p-0 bg-black col1">
@@ -191,7 +189,6 @@
                     </div>
                 </div>
             </div>
-
 			<div class="section-four">
 				<div class="row m-0 r1">
 					<div class="col-xs-12 col-sm-12 col-md-4 p-0 col1">

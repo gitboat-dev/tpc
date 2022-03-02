@@ -124,6 +124,15 @@ p.highlight{
 	background-size: 100% 150%;
 	background-position: center top;
 }
+#filament .section-three .r1 .col2::after{
+    content: " ";
+    position: absolute;
+    right: 0;
+    top: 25%;
+    width: 20px;
+    height: 50%;
+    background-color: #fff;
+}
 #filament .section-three .r1 .col2 .content_1{
     margin-top: 75px;
 }
@@ -532,9 +541,9 @@ p.highlight{
         padding: unset;
         padding-top: 20px;
     }
-    /* #filament .section-three .image_block .img_block1{
-        max-width: 200px;
-    } */
+    #filament .section-three .r1 .col2::after{
+        display: none;
+    }
 
         /*-------------------------------------End Section Three-------------------------------------*/
 }

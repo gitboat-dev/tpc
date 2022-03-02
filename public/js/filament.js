@@ -7,7 +7,6 @@ jQuery(document).ready(function($){
 	});
 });
 function secthree(){
-    console.log(jQuery(window).width());
     let block1 = jQuery('#filament .section-three .r1 .col1 .col1-2'),
         block2 = jQuery('#filament .section-three .r1 .col1 .col1-3'),
         block3 = jQuery('#filament .section-three .r1 .col2'),
