@@ -73,6 +73,20 @@ span.highlight{
 
 	/*-------------------------------------End Section Two-------------------------------------*/
 
+@media only screen and (max-width: 991px){
+    #prod_poly .ml-0{
+        margin-left: auto;
+    }
+    #prod_poly .mr-0{
+        margin-right: auto;
+    }
+    #prod_poly .mt-0{
+        margin-top: auto;
+    }
+    #prod_poly .mb-0{
+        margin-bottom: auto;
+    }
+}
 
 @media only screen and (max-width: 768px){
 	#prod_poly{
