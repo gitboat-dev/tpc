@@ -1,0 +1,51 @@
+body {
+	--secSixContBox:900px;
+	--secSixSubContBox:450px;
+}
+span.highlight{
+	color: var(--msBg);
+	font-weight: 600;
+	word-wrap: break-word;
+}
+.bg-white{
+	background-color: var(--msBgLight);
+}
+.bg-black{
+	background-color: var(--msBgDark);
+	color: #fff;
+}
+.bg-green{
+	background-color: var(--msBg);
+	color: #fff;
+}
+.bg-gray{
+	background-color: #F2F2F2;
+}
+#ring {
+	padding: 0px 54px;
+    background-color: var(--msBg);
+    font-size: 20px;
+	font-weight: 500;
+	line-height: 30px;
+	max-width: 1920px;
+}
+#ring img{
+	width: 100%;
+}
+#ring_bg{
+	background-color: var(--msBgLight);
+}
+#ring .p-0{
+	padding: 0;
+}
+#ring .m-0{
+	margin: 0;
+}
+#ring h2{
+	font-size: 33px;
+}
+#ring h3{
+	font-size: 30px;
+}
+
+	/*-------------------------------------End Setting All-------------------------------------*/
