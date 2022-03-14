@@ -21,7 +21,7 @@
 							</a>
 						</li>
 						<li class="twitter">
-							<a title="linkedin thai polyester" href="https://www.linkedin.com/company/thai-polyester-co-ltd/" target=&quot;_blank&quot;>
+							<a title="linkedin thai polyester" href="https://www.linkedin.com/company/thai-polyester-co-ltd-thailand" target=&quot;_blank&quot;>
 								<i class="fa fa-linkedin"></i>
 							</a>
 						</li>
