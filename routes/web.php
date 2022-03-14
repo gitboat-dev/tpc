@@ -206,16 +206,16 @@ Route::get('/open-end', function () {
 
 	return view('oe', $data);
 });
-Route::get('/ring-spun', function () {
-	$chkie = new Func_controller;
-	$data['chkie'] = $chkie->chk();
-	$data['des'] = 'Ring spun yarn is made by twisting and thinning the polyester strands to make a very fine, strong, soft rope of polyester fibers';
-	$data['key'] = 'Ring Spun, Standard Ring Spun, best Ring Spun, Produce cheap Ring Spun';
-	$data['title'] = 'Ring Spun | Thai Polyester CO., LTD';
-	$data['active_product'] = 'activemenu';
+// Route::get('/ring-spun', function () {
+// 	$chkie = new Func_controller;
+// 	$data['chkie'] = $chkie->chk();
+// 	$data['des'] = 'Ring spun yarn is made by twisting and thinning the polyester strands to make a very fine, strong, soft rope of polyester fibers';
+// 	$data['key'] = 'Ring Spun, Standard Ring Spun, best Ring Spun, Produce cheap Ring Spun';
+// 	$data['title'] = 'Ring Spun | Thai Polyester CO., LTD';
+// 	$data['active_product'] = 'activemenu';
 
-	return view('ring', $data);
-});
+// 	return view('ring', $data);
+// });
 Route::get('/twist-yarn', function () {
 	$chkie = new Func_controller;
 	$data['chkie'] = $chkie->chk();
@@ -413,6 +413,17 @@ Route::group(['prefix' => 'product', 'as' => 'product.'], function () {
 		return view('products.twisted-yarn', $data);
 	})->name('twisted-yarn');
 	Route::get('/monofilament', 'MonofilamentController@index')->name('monofilament');
+    Route::get('/ring-spun',function(){
+        $chkie = new Func_controller;
+		$data['chkie'] = $chkie->chk();
+		$agent = new Agent();
+        $data['des'] = 'Ring spun yarn is made by twisting and thinning the polyester strands to make a very fine, strong, soft rope of polyester fibers';
+		$data['key'] = 'Ring Spun, Standard Ring Spun, best Ring Spun, Produce cheap Ring Spun';
+		$data['title'] = 'Ring Spun | Thai Polyester CO., LTD';
+		$data['active_product'] = 'activemenu';
+		$data['chkmobile'] = $agent->isMobile() ? $agent->isMobile() : ($agent->isTablet() ? $agent->isTablet() : false);
+		return view('products.ring-spun', $data);
+    })->name('ring-spun');
 });
 
 //sendemail
