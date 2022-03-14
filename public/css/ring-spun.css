@@ -64,6 +64,32 @@ h2.text-white{
     background-image:url('/assets/images/ring-spun/desktop/Ring-Spun-Process-Thaipolyester.webp');
     background-size:100% 100%;
     min-height: var(--secTwoContBox);
+    display: flex;
+    position: relative;
+}
+#ring .section-two .r1{
+    margin: auto;
+    margin-bottom: 0px;
+}
+#ring .section-two .r1 .col1,
+#ring .section-two .r1 .col2{
+    position: relative;
+}
+#ring .section-two .r1 .col1 .content_1,
+#ring .section-two .r1 .col2 .content_1{
+    padding: 0 20px 20px 20px;
+    min-height: calc(var(--secTwoContBox) / 2);
+    display: flex;
+    position: relative;
+}
+#ring .section-two .r1 .col1 .content_1 h2{
+    margin: auto;
+    margin-bottom: 100px;
+    text-align: right;
+    max-width: 70%;
+}
+#ring .section-two .r1 .col2 .content_1 .content_group{
+    margin: auto;
 }
 
     /*-------------------------------------End Section Two-------------------------------------*/
@@ -72,6 +98,21 @@ h2.text-white{
     background-image:url('/assets/images/ring-spun/desktop/Ring-Spun-Process-Thaipolyester-1.webp');
     background-size:100% 100%;
     min-height: var(--secThreeContBox);
+}
+#ring .section-three .r1 .col1{
+    display: flex;
+    position: relative;
+    min-height: calc(var(--secThreeContBox) / 2);
+}
+#ring .section-three .r1 .col1 .content_1{
+    max-width: 66.66666667%;
+    margin-right: 0px;
+    padding: 20px;
+    display: flex;
+    position: relative;
+}
+#ring .section-three .r1 .col1 .content_1 p.p1{
+    margin: auto;
 }
 
     /*-------------------------------------End Section Three-------------------------------------*/
@@ -106,7 +147,6 @@ h2.text-white{
     max-width: 1100px;
 }
 #ring .section-five .r1 .col1 .content_1 ul.data-lists{
-    font-size: 16px;
     width: fit-content;
     margin: auto;
 }
@@ -162,9 +202,36 @@ h2.text-white{
 @media only screen and (max-width: 991px){
     #ring {
 		padding: 0;
+        font-size: 16px;
 	}
+    #ring h2{
+        font-size: 33px;
+    }
+    #ring h3{
+        font-size: 30px;
+    }
 
     /*-------------------------------------End Setting All-------------------------------------*/
+
+    #ring .section-two .r1 .col1 .content_1,
+    #ring .section-two .r1 .col2 .content_1{
+        min-height: unset;
+    }
+    #ring .section-two .r1 .col1 .content_1 h2{
+        margin-bottom: unset;
+        max-width: unset;
+    }
+
+    /*-------------------------------------End Section Two-------------------------------------*/
+
+    #ring .section-three .r1 .col1 .content_1{
+        max-width: unset;
+    }
+    #ring .section-three .r1 .col1 .content_1 p.p1{
+        margin: unset;
+    }
+
+    /*-------------------------------------End Section Three-------------------------------------*/
 
     #ring .section-seven .r1 .col1 .content_1{
         max-width: unset;
@@ -195,6 +262,12 @@ h2.text-white{
 
     #ring .section-two{
         background-image:url('/assets/images/ring-spun/mobile/Ring-Spun-Process-Thaipolyester.webp');
+    }
+    #ring .section-two .r1 .col2 .content_1 .content_group p.p1{
+        width: fit-content;
+        margin: auto;
+        margin-right: 5%;
+        margin-bottom: 10px;
     }
 
     /*-------------------------------------End Section Two-------------------------------------*/

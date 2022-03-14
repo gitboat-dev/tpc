@@ -21,20 +21,49 @@
             <div class="section-two bg-black">
                 <div class="row m-0 r1">
                     <div class="col-xs-12 col-sm-12 col-md-8 p-0 col1">
-                        111
+                        <div class="content_1">
+                            <h2 class="text-white">
+                                The basic requirements and functions
+                                of a ring spinning frame are:
+                            </h2>
+                        </div>
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-4 p-0 col1">
-                        222
+                    <div class="col-xs-12 col-sm-12 col-md-4 p-0 col2">
+                        <div class="content_1">
+                            <div class="content_group">
+                                <p class="p1">
+                                    a) Fiber supply<br>
+                                    b) Drafting<br>
+                                    c) Twisting<br>
+                                    d) Package winding<br>
+                                </p>
+                                <p class="p2">
+                                    Polyester ring spun yarn supply, usually in the
+                                    form of roving and having a hank range from
+                                    approximately 0.40 to 5.0, is drawn into the
+                                    drafting system by the rotation of the back rolls.
+                                    In the drafting zone, the weight per unit length
+                                    of the input roving is reduced because the surface
+                                    speed of the front drafting rolls is greater than
+                                    that of the back rolls. Normal ring frame drafts
+                                    range up to about 30.
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="section-three bg-black">
                 <div class="row m-0 r1">
-                    <div class="col-xs-12 col-sm-12 col-md-8 p-0 col1">
-                        111
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-4 p-0 col1">
-                        222
+                    <div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
+                        <div class="content_1">
+                            <p class="p1">
+                                The front rolls deliver a continuous cohesive stream of fibers, which must be twisted immediately into yarn.
+                                This transformation is accomplished by the interactions of the spindle, ring and traveler. The rotation of the spindle
+                                causes twist to be inserted into the stream of fibers delivered by the front rolls. By passing the yarn under the traveler,
+                                winding is accomplished.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -206,16 +206,16 @@ Route::get('/open-end', function () {
 
 	return view('oe', $data);
 });
-// Route::get('/ring-spun', function () {
-// 	$chkie = new Func_controller;
-// 	$data['chkie'] = $chkie->chk();
-// 	$data['des'] = 'Ring spun yarn is made by twisting and thinning the polyester strands to make a very fine, strong, soft rope of polyester fibers';
-// 	$data['key'] = 'Ring Spun, Standard Ring Spun, best Ring Spun, Produce cheap Ring Spun';
-// 	$data['title'] = 'Ring Spun | Thai Polyester CO., LTD';
-// 	$data['active_product'] = 'activemenu';
+Route::get('/ring-spun', function () {
+	$chkie = new Func_controller;
+	$data['chkie'] = $chkie->chk();
+	$data['des'] = 'Ring spun yarn is made by twisting and thinning the polyester strands to make a very fine, strong, soft rope of polyester fibers';
+	$data['key'] = 'Ring Spun, Standard Ring Spun, best Ring Spun, Produce cheap Ring Spun';
+	$data['title'] = 'Ring Spun | Thai Polyester CO., LTD';
+	$data['active_product'] = 'activemenu';
 
-// 	return view('ring', $data);
-// });
+	return view('ring', $data);
+});
 Route::get('/twist-yarn', function () {
 	$chkie = new Func_controller;
 	$data['chkie'] = $chkie->chk();
