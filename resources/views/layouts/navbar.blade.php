@@ -114,6 +114,11 @@
 												Spun yarn
 											</a>
 										</li>
+                                        <li>
+											<a title="Ring spun" href="{{ route('product.ring-spun') }}">
+												Ring spun
+											</a>
+										</li>
 									</ul>
 								</li>
 								<li class="navrecycled">
