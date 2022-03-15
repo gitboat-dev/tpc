@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Func_controller;
 
 class landingPageController extends Controller {
-    public function index(){
+    public function page1(){
         $chkie = new Func_controller;
         $data = [
             'chkie' => $chkie->chk(),
@@ -15,5 +15,6 @@ class landingPageController extends Controller {
             'des' => '',
             'key' => '',
         ];
+        return view('landing.page.page1',$data);
     }
 }
