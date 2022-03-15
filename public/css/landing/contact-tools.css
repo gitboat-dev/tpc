@@ -1,0 +1,114 @@
+body > .contact-tools,
+body > .contact-tools > .tools-box{
+	position: fixed;
+    right: 15px;
+    bottom: 80px;
+    width: 50px;
+    height: 50px;
+    z-index: 99;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+}
+body > .contact-tools{
+	background-color: transparent;
+}
+body > .contact-tools > span.contact-icon:hover,
+body > .contact-tools.open > span.contact-icon:hover{
+    box-shadow: inset 0 0 4px 2px #ffff66;
+    border-radius: 100%;
+}
+body > .contact-tools > span.contact-icon{
+    background:url(/assets/custom/images/contact-tools/ICON-contact-1.webp) no-repeat center center;
+	width: 50px;
+    height: 50px;
+	margin: auto;
+	position: relative;
+	z-index: 99;
+    background-size: 68px 65px;
+	transition: all .3s ease-in-out;
+	-webkit-transition: all .3s ease-in-out;
+}
+body > .contact-tools.important > .tools-box{
+	background-color: rgba(0, 116, 255);
+	animation: salesdesk-widget-one 1000ms linear infinite;
+}
+@keyframes salesdesk-widget-one{
+	0%{
+		-webkit-transform:scale(0);
+		transform:scale(0);
+		opacity:1;
+	}50%{
+		opacity:.9;
+	}100%{
+		-webkit-transform:scale(1.5);
+		transform:scale(1.5);
+		opacity:0;
+	}
+}
+body > .contact-tools.open > span.contact-icon{
+    background:url(/assets/custom/images/contact-tools/ICON-close1.webp) no-repeat center center;
+    background-size: 68px 65px;
+	transition: all .3s ease-in-out;
+	-webkit-transition: all .3s ease-in-out;
+}
+body > .contact-tools.important.open > .tools-box{
+	animation:unset;
+	background-color:transparent;
+}
+body > .contact-tools > ul.contact-lists,
+body > .contact-tools.important > ul.contact-lists{
+	opacity: 0;
+    right: 0;
+	bottom: -200px;
+	width: fit-content;
+    height: fit-content;
+    position: fixed;
+	text-align: center;
+    z-index: 98;
+	transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+}
+body > .contact-tools.open > ul.contact-lists{
+	opacity: 1;
+	position: fixed;
+    right: 0;
+    bottom: 140px;
+    width: fit-content;
+    height: fit-content;
+    z-index: 99;
+    text-align: center;
+    display: block;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+}
+body > .contact-tools > ul.contact-lists > li{
+    opacity: 0;
+	transition: all .1s ease-in-out;
+    -webkit-transition: all .1s ease-in-out;
+}
+body > .contact-tools.open > ul.contact-lists > li{
+    opacity: 1;
+	transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+}
+body > .contact-tools .drawer-msg{
+    position: fixed;
+    bottom: 100px;
+    right: 50px;
+}
+body > .contact-tools .drawer-msg .close-widget::before{
+    content: "\f00d";
+    font-family: "FontAwesome";
+    position: absolute;
+    top: 11.5px;
+    right: 21.5px;
+    color: #777;
+    cursor: pointer;
+    font-size: 8px;
+}
+
+
