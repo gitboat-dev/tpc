@@ -9,11 +9,13 @@ span.highlight{
 	font-weight: 600;
 	word-wrap: break-word;
 }
-h2.text-green{
+h2.text-green,
+h3.text-green{
     color: var(--msBg);
     font-weight: normal;
 }
-h2.text-white{
+h2.text-white,
+h3.text-white{
     color: var(--msBgLight);
     font-weight: normal;
 }
@@ -52,14 +54,14 @@ h2.text-white{
 	margin: 0;
 }
 #ring h2{
-	font-size: 30px;
+	font-size: 50px;
     font-weight: normal;
-    line-height: 33px;
+    line-height: 60px;
 }
 #ring h3{
-	font-size: 27px;
+	font-size: 40px;
     font-weight: normal;
-    line-height: 30px;
+    line-height: 57px;
 }
 
 	/*-------------------------------------End Setting All-------------------------------------*/
@@ -90,7 +92,7 @@ h2.text-white{
     margin: auto;
     margin-bottom: 100px;
     text-align: right;
-    max-width: 70%;
+    max-width: 86%;
 }
 #ring .section-two .r1 .col1 .content_1 h2.mb{
     display: none;
@@ -150,9 +152,8 @@ h2.text-white{
     margin: auto;
     padding: 15px;
 }
-#ring .section-five .r1 .col1 .content_1 > h2{
-    /* max-width: 1100px; */
-    max-width: 900px;
+#ring .section-five .r1 .col1 .content_1 > h3{
+    max-width: 1150px;
 }
 #ring .section-five .r1 .col1 .content_1 ul.data-lists{
     width: fit-content;
@@ -258,6 +259,16 @@ h2.text-white{
 @media only screen and (max-width: 768px){
     body {
         --secSevenContBox:607px;
+    }
+    #ring h2{
+        font-size: 30px;
+        font-weight: normal;
+        line-height: 33px;
+    }
+    #ring h3{
+        font-size: 27px;
+        font-weight: normal;
+        line-height: 30px;
     }
 
     /*-------------------------------------End Setting All-------------------------------------*/

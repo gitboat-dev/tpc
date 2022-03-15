@@ -94,8 +94,8 @@
                 <div class="row m-0 r1">
                     <div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
                         <div class="content_1">
-                            <h2 class="text-white">Limitations: Mechanically speaking, the production of a ring
-                                frame is limited by excesses in one or more of the following:</h2>
+                            <h3 class="text-white">Limitations: Mechanically speaking, the production of a ring
+                                frame is limited by excesses in one or more of the following:</h3>
                             <ul class="data-lists">
                                 <li>a) Spindle speed</li>
                                 <li>b) Front roll speed</li>
