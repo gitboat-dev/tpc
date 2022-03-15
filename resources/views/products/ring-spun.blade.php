@@ -22,9 +22,13 @@
                 <div class="row m-0 r1">
                     <div class="col-xs-12 col-sm-12 col-md-8 p-0 col1">
                         <div class="content_1">
-                            <h2 class="text-white">
+                            <h2 class="text-white dt">
                                 The basic requirements and functions
                                 of a ring spinning frame are:
+                            </h2>
+                            <h2 class="text-white mb">
+                                The basic<br>requirements<br>and functions<br>
+                                of a ring spinning<br>frame are:
                             </h2>
                         </div>
                     </div>
