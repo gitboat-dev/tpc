@@ -111,7 +111,7 @@
 							</a>
 						</div>
                         <div class="col-xs-6 col-sm-6 col-md-3 p-0 col10 m-0">
-							<a href="{!!url('/ring-spun')!!}" title="Ring Spun">
+							<a href="{{ route('product.ring-spun') }}" title="Ring Spun">
 								<div class="img_block1">
 									<picture>
 										<source srcset="/assets/images/product/mobile/Ring-Spun-Yarn-Polyester-Thaipolyester.webp" alt="Ring Spun" media="(max-width: 640px)" loading="lazy">
