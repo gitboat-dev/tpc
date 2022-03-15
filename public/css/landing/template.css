@@ -51,6 +51,105 @@ body {
   -moz-transition: opacity .24s ease-in-out;
   transition: opacity .24s ease-in-out;
 }
+.theme-hl{
+    color: var(--msBg);
+	word-wrap: break-word;
+}
+.green-hl{
+    color: hsl(132deg 87% 36%);
+	word-wrap: break-word;
+}
+.red-hl{
+    color: hsl(354deg 53% 61%);
+    word-wrap: break-word;
+}
+.yellow-hl{
+    color: hsl(56deg 91% 65%);
+    word-wrap: break-word;
+}
+.bg-white{
+	background-color: var(--msBgLight);
+    color: var(--msBgDark);
+}
+.bg-black{
+	background-color: var(--msBgDark);
+	color: var(--msBgLight);
+}
+.bg-green{
+	background-color: var(--msBg);
+	color: var(--msBgLight);
+}
+.bg-gray{
+	background-color: #F2F2F2;
+    color: var(--msBgDark);
+}
+#landing{
+    font-size: 16px;
+	font-weight: normal;
+	line-height: 20px;
+	max-width: 1920px;
+}
+#landing h1{
+	font-size: 60px;
+    font-weight: normal;
+    line-height: 70px;
+}
+#landing h2{
+	font-size: 50px;
+    font-weight: normal;
+    line-height: 60px;
+}
+#landing .d-flex{
+    display: flex !important;
+}
+#landing .d-inline{
+    display: inline !important;
+}
+#landing .d-inline-b{
+    display: inline-block !important;
+}
+#landing .pos-r{
+    position: relative !important;
+}
+#landing .pos-ab{
+    position: absolute !important;
+}
+#landing .m-auto{
+    margin: auto !important;
+}
+#landing .m-0{
+    margin: 0 !important;
+}
+#landing .ml-0{
+    margin-left: 0 !important;
+}
+#landing .mr-0{
+    margin-right: 0 !important;
+}
+#landing .mt-0{
+    margin-top: 0 !important;
+}
+#landing .mb-0{
+    margin-bottom: 0 !important;
+}
+#landing .p-0{
+    padding: 0 !important;
+}
+#landing .p-0{
+    padding: 0 !important;
+}
+#landing .pl-0{
+    padding-left: 0 !important;
+}
+#landing .pr-0{
+    padding-right: 0 !important;
+}
+#landing .pt-0{
+    padding-top: 0 !important;
+}
+#landing .pb-0{
+    padding-bottom: 0 !important;
+}
 @media (min-width: 1400px){
 	.container{
 		width: calc(1370px - 100px) !important;
@@ -70,4 +169,15 @@ body {
 	.container{
 		width: calc(1920px - 100px) !important;
 	}
+}
+@media only screen and (max-width: 768px){
+    #landing h1{
+        font-size: 40px;
+        font-weight: normal;
+        line-height: 46px;
+    }
+    #landing h2{
+        font-size: 30px;
+        line-height: 36px;
+    }
 }
