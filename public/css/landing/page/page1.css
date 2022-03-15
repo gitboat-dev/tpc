@@ -1,3 +1,103 @@
 body {
 
 }
+
+/* End Setting All */
+
+#sec2 .r1 .content_block{
+    max-width: calc(100% - 300px);
+    font-size: 30px;
+    line-height: 40px;
+}
+#sec2 .r1 .content_block .content_group{
+    padding: 100px 20px;
+}
+#sec2 .r1 .content_block .content_group .p1{
+    margin-bottom: 30px;
+}
+
+/* End Sec2 */
+
+#sec4 .r1 h2{
+    font-size: 40px;
+    line-height: 50px;
+    padding: 40px 20px;
+}
+#sec4 .r1 h2 > label{
+    font-size: 50px;
+    line-height: 65px;
+}
+#sec4 .r1 .content_block{
+    padding: 0 100px;
+}
+#sec4 .r1 .content_block .img_block:not(:last-child){
+    margin-bottom: 30px;
+}
+
+/* End Sec4 */
+
+#sec5 > ul{
+    padding: 30px 100px;
+}
+
+/* End Sec5 */
+
+#sec6 .r1 .col1 .content_block,
+#sec6 .r1 .col2 .content_block{
+    padding: 40px 20px;
+}
+#sec6 .r1 .col1 .content_block h2{
+    font-size: 65px;
+    line-height: 80px;
+}
+#sec6 .r1 .col2 .content_block .p1{
+    font-size: 30px;
+    line-height: 40px;
+}
+
+/* End Sec6 */
+
+@media only screen and (max-width: 768px){
+    #sec2 .r1 .content_block{
+        max-width: unset;
+        text-align: center;
+    }
+
+    /* End Sec2 */
+
+    #sec4 .r1 .content_block{
+        padding: 0;
+    }
+
+    /* End Sec4 */
+
+    #sec5 > ul{
+        padding: 20px 0;
+    }
+
+    /* End Sec5 */
+
+    #sec6 .r1 .col1 .content_block,
+    #sec6 .r1 .col2 .content_block{
+        padding: 20px;
+    }
+
+    /* End Sec6 */
+}
+
+@media only screen and (min-width: 992px){
+    #sec3 .r1 .col-md-6-5{
+        width: 55.8% !important;
+    }
+    #sec3 .r1 .col-md-5-5{
+        width: 44.2% !important;
+    }
+
+    /* End Sec3 */
+
+    #sec5 .row .col-md-1-5{
+        width: 12.5% !important;
+    }
+
+    /* End Sec5 */
+}
