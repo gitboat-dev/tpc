@@ -56,6 +56,12 @@ class RouteServiceProvider extends ServiceProvider {
 		], function ($router) {
 			require base_path('routes/backend.php');
 		});
+        Route::group([
+			'middleware' => 'web',
+			'namespace' => $this->namespace,
+		], function ($router) {
+			require base_path('routes/landing.php');
+		});
 		Route::group([
 			'middleware' => 'images',
 			'namespace' => $this->namespace,
