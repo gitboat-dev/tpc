@@ -6,8 +6,8 @@
 @section('content')
 <div id="landing">
     <section class="sec1">
-        <div class="row r1">
-            <div class="class=col-xs-12 col-sm-12 col-md-12">
+        <div class="row r1 m-0">
+            <div class="class=col-xs-12 col-sm-12 col-md-12 p-0">
                 <div class="img_block">
                     <picture>
                         <source srcset="\assets\images\ring-spun\mobile\Head-Ring-Spun-Thaipolyester.webp" alt="Ring Spun Thaipolyester" media="(max-width: 640px)">
