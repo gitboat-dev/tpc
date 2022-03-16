@@ -82,7 +82,7 @@ body {
 	color: var(--msBgLight);
 }
 .bg-gray{
-	background-color: #F2F2F2;
+    background-color: hsl(240deg 7% 94%);
     color: var(--msBgDark);
 }
 #landing{
