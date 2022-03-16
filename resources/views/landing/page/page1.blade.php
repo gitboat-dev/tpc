@@ -187,8 +187,221 @@
                     </p>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-12 p-0"></div>
+            <div class="col-xs-12 col-sm-12 col-md-12 p-0 col3">
+                <div class="content_block d-flex pos-r">
+                    <a href="#" title="Get Free Samples" class="text-center m-auto">GET FREE Samples</a>
+                </div>
+            </div>
         </div>
+    </section>
+    <section id="sec7">
+        <div class="row r1 m-0">
+            <div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
+                <div class="content_block d-flex pos-r">
+                    <h2 class="text-center m-auto">
+                        Two reasons why you can compete in the<br>
+                        market with our service…
+                    </h2>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 p-0 col2">
+                <div class="content_block d-flex pos-r">
+                    <h2 class="red-hl text-center m-auto">
+                        <span class="circle">1</span> 30% Higher profit
+                    </h2>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 p-0 col3">
+                <div class="content_block d-flex pos-r">
+                    <p class="p1 text-center m-auto">
+                        We own a spinning mill and a knitting mill; that’s why the price is under our control. Also, the<br>
+                        experience taught us that the more manufacturers invested with the right supplier, the more<br>
+                        profitable they could gain.
+                    </p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 p-0 col4">
+                <div class="content_block d-flex pos-r">
+                    <h2 class="red-hl text-center m-auto">
+                        <span class="circle">2</span> We're top 3 in Thailand
+                    </h2>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 p-0 col5">
+                <div class="content_block d-flex pos-r">
+                    <p class="p1 text-center m-auto">
+                        With our 80 years of experience, we can help you figure out solutions!<br>
+                        We are certified by Intertek, GRS, and OEKO-tex standards.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="sec8">
+        <div class="row r1 m-0">
+            <div class="col-xs-12 col-sm-12 col-md-12 p-0">
+                <div class="content_block pos-r">
+                    <picture>
+                        <source srcset="\assets\images\landing\page1\mobile\Certificate-of-Registration-thaipolyester.webp" alt="Certificate of Registration thaipolyester" media="(max-width: 640px)">
+                        <img src="\assets\images\landing\page1\desktop\Certificate-of-Registration-thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Certificate of Registration thaipolyester">
+                    </picture>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="sec9" class="bg-black">
+        <div class="row r1 m-0">
+            <div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
+                <div class="content_block d-flex pos-r">
+                    <h2 class="green-hl ml-0">
+                        3 things will cause you to lose more money<br>
+                        and waste more time if you trust the wrong supplier
+                    </h2>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 p-0 col2">
+                <div class="content_block d-flex pos-r">
+                    <div class="content_group ml-0">
+                        <p class="p1">
+                            <label class="green-hl">1. Disappointed in results</label> - When those unsatisfactory defects ruin your expectations.<br>
+                            <label class="green-hl">2. You don't have the right supplier</label> - No one knows when investing in the wrong supplier.<br>
+                            <label class="green-hl">3. Long lead-time</label> - can cause many damages, so where does that leave you?
+                            The issues above will vanish because of our German technology!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="sec10">
+        <div class="row r1 m-0">
+            <div class="col-xs-12 col-sm-12 col-md-12 p-0">
+                <div class="content_block d-flex pos-r">
+                    <h2 class="red-hl text-center m-auto">
+                        With Thai Polyester Company (TPC), you’ll get
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="sec11">
+        <ul class="row m-0">
+            <li class="col-xs-12 col-sm-12 col-md-3">
+                <div class="img_block">
+                    <picture>
+                        <source srcset="\assets\images\landing\page1\desktop\A-reasonable-price-Thai-polyester.webp" alt="A reasonable price Thai polyester" media="(max-width: 640px)">
+                        <img src="\assets\images\landing\page1\desktop\A-reasonable-price-Thai-polyester.webp" width="900" height="350" class="img-fluid ab-img" alt="A reasonable price Thai polyester">
+                    </picture>
+                </div>
+            </li>
+            <li class="col-xs-12 col-sm-12 col-md-3">
+                <div class="img_block">
+                    <picture>
+                        <source srcset="\assets\images\landing\page1\mobile\A-Shorter-lead-time-Thai-polyester.webp" alt="A Shorter lead time Thai polyesterr" media="(max-width: 640px)">
+                        <img src="\assets\images\landing\page1\desktop\A-Shorter-lead-time-Thai-polyester.webp" width="900" height="350" class="img-fluid ab-img" alt="A Shorter lead time Thai polyesterr">
+                    </picture>
+                </div>
+            </li>
+            <li class="col-xs-12 col-sm-12 col-md-3">
+                <div class="img_block">
+                    <picture>
+                        <source srcset="\assets\images\landing\page1\mobile\A-wide-range-of-product-Thai-polyester.webp" alt="A wide range of product Thai polyester" media="(max-width: 640px)">
+                        <img src="\assets\images\landing\page1\desktop\A-wide-range-of-product-Thai-polyester.webp" width="900" height="350" class="img-fluid ab-img" alt="A wide range of product Thai polyester">
+                    </picture>
+                </div>
+            </li>
+            <li class="col-xs-12 col-sm-12 col-md-3">
+                <div class="img_block">
+                    <picture>
+                        <source srcset="\assets\images\landing\page1\mobile\No-more-supply-shortages-Thai-polyester.webp" alt="No more supply shortages Thai polyester" media="(max-width: 640px)">
+                        <img src="\assets\images\landing\page1\desktop\No-more-supply-shortages-Thai-polyester.webp" width="900" height="350" class="img-fluid ab-img" alt="No more supply shortages Thai polyester">
+                    </picture>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <section id="sec12">
+        <div class="row r1 m-0">
+            <div class="col-xs-12 col-sm-12 col-md-12 p-0">
+                <div class="content_block d-flex pos-r">
+                    <h2 class="text-center m-auto">
+                        Read what our customers have to say about us:
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="sec13">
+        <ul class="row r1 m-0 d-flex">
+            <li class="col-xs-12 col-sm-12 col-md-6">
+                <div class="img_block">
+                    <picture>
+                        <source srcset="\assets\images\landing\page1\mobile\Review-landing-page-TPC-1.webp" alt="Review" media="(max-width: 640px)">
+                        <img src="\assets\images\landing\page1\desktop\Review-landing-page-TPC-1.webp" width="900" height="350" class="img-fluid ab-img" alt="Review">
+                    </picture>
+                </div>
+            </li>
+            <li class="col-xs-12 col-sm-12 col-md-6">
+                <div class="img_block">
+                    <picture>
+                        <source srcset="\assets\images\landing\page1\mobile\Review-landing-page-TPC-2.webp" alt="Review" media="(max-width: 640px)">
+                        <img src="\assets\images\landing\page1\desktop\Review-landing-page-TPC-2.webp" width="900" height="350" class="img-fluid ab-img" alt="Review">
+                    </picture>
+                </div>
+            </li>
+            <li class="col-xs-12 col-sm-12 col-md-6">
+                <div class="img_block">
+                    <picture>
+                        <source srcset="\assets\images\landing\page1\mobile\Review-landing-page-TPC-3.webp" alt="Review" media="(max-width: 640px)">
+                        <img src="\assets\images\landing\page1\desktop\Review-landing-page-TPC-3.webp" width="900" height="350" class="img-fluid ab-img" alt="Review">
+                    </picture>
+                </div>
+            </li>
+            <li class="col-xs-12 col-sm-12 col-md-6">
+                <div class="img_block">
+                    <picture>
+                        <source srcset="\assets\images\landing\page1\mobile\Review-landing-page-TPC-4.webp" alt="Review" media="(max-width: 640px)">
+                        <img src="\assets\images\landing\page1\desktop\Review-landing-page-TPC-4.webp" width="900" height="350" class="img-fluid ab-img" alt="Review">
+                    </picture>
+                </div>
+            </li>
+            <li class="col-xs-12 col-sm-12 col-md-6">
+                <div class="img_block">
+                    <picture>
+                        <source srcset="\assets\images\landing\page1\mobile\Review-landing-page-TPC-5.webp" alt="Review" media="(max-width: 640px)">
+                        <img src="\assets\images\landing\page1\desktop\Review-landing-page-TPC-5.webp" width="900" height="350" class="img-fluid ab-img" alt="Review">
+                    </picture>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <section id="sec14">
+        <div class="row r1 m-0">
+            <div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
+                <div class="content_block d-flex pos-r">
+                    <h2 class="text-center m-auto">
+                        THIS MAY BE THE MOST IMPORTANT<br>
+                        DECISION YOU EVER MAKE
+                    </h2>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 p-0 col2">
+                <div class="content_block pos-r">
+                    <p class="p1">
+                        Even after everything you have read about TPC, you may still be on the fence.<br>
+                        At this point, you can go in 1 of 2 directions.<br>
+                        <label class="theme-hl">1. You can try our product as a sample for FREE!</label><br>
+                        <label class="theme-hl">2. You can ignore this offer and continue dealing with the problems above …</label><br>
+                        The choice is clear.<br>
+                        If you don't want to face with the above issues, give it a try, and you'll see how you can get a 30%<br>
+                        higher profit!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="sec15" class="bg-black">
+
     </section>
 </div>
 @endsection

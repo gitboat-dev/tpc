@@ -1,6 +1,16 @@
 body {
 
 }
+.circle{
+    max-height: 80px;
+    max-width: 80px;
+    padding: 0 20px;
+    border: 3px solid var(--msBg);
+    border-radius: 50%;
+    color: var(--msBgDark);
+    font-weight: 600;
+    text-align: center;
+}
 
 /* End Setting All */
 
@@ -28,7 +38,8 @@ body {
     line-height: 65px;
 }
 #sec4 .r1 .content_block{
-    padding: 0 100px;
+    padding: 0 150px;
+    /* padding: 0 100px; */
 }
 #sec4 .r1 .content_block .img_block:not(:last-child){
     margin-bottom: 30px;
@@ -37,13 +48,15 @@ body {
 /* End Sec4 */
 
 #sec5 > ul{
-    padding: 30px 100px;
+    padding: 30px 150px;
+    /* padding: 30px 100px; */
 }
 
 /* End Sec5 */
 
 #sec6 .r1 .col1 .content_block,
-#sec6 .r1 .col2 .content_block{
+#sec6 .r1 .col2 .content_block,
+#sec6 .r1 .col3 .content_block{
     padding: 40px 20px;
 }
 #sec6 .r1 .col1 .content_block h2{
@@ -54,19 +67,171 @@ body {
     font-size: 30px;
     line-height: 40px;
 }
+#sec6 .r1 .col3 .content_block a{
+    font-size: 30px;
+    line-height: 40px;
+    color: var(--msBgDark);
+    background-color: var(--msBg);
+    padding: 15px 20px;
+    transition: all 0.1s;
+}
+#sec6 .r1 .col3 .content_block a:hover{
+    color: var(--msBgLight);
+    box-shadow: 2px 2px 4px var(--msBgDark);
+    transition: all 0.1s;
+}
 
 /* End Sec6 */
 
+#sec7 .r1 .col1 .content_block,
+#sec7 .r1 .col2 .content_block,
+#sec7 .r1 .col3 .content_block,
+#sec7 .r1 .col4 .content_block,
+#sec7 .r1 .col5 .content_block{
+    padding: 40px 20px;
+}
+#sec7 .r1 .col1 .content_block h2,
+#sec7 .r1 .col2 .content_block h2,
+#sec7 .r1 .col4 .content_block h2{
+    font-size: 65px;
+    line-height: 80px;
+}
+#sec7 .r1 .col3 .content_block .p1,
+#sec7 .r1 .col5 .content_block .p1{
+    font-size: 30px;
+    line-height: 40px;
+}
+
+/* End Sec7 */
+
+#sec8 .r1 .content_block{
+    /* padding: 60px 100px; */
+    padding: 60px 150px;
+}
+
+/* End Sec8 */
+
+#sec9 .r1 .col1 .content_block,
+#sec9 .r1 .col2 .content_block{
+    padding: 30px 125px;
+}
+#sec9 .r1 .col1 .content_block h2,
+#sec9 .r1 .col2 .content_block .content_group{
+    max-width: calc(100% - 100px);
+}
+#sec9 .r1 .col1 .content_block h2{
+    font-size: 60px;
+    line-height: 80px;
+}
+#sec9 .r1 .col2 .content_block .content_group .p1{
+    font-size: 30px;
+    line-height: 60px;
+}
+
+/* End Sec9 */
+
+#sec10 .r1 .content_block{
+    padding: 60px 20px 40px 20px;
+}
+#sec10 .r1 .content_block h2{
+    font-size: 65px;
+    line-height: 80px;
+}
+
+/* End Sec10 */
+
+#sec11 > ul{
+    padding: 30px 150px;
+    /* padding: 30px 100px; */
+}
+
+/* End Sec11 */
+
+#sec12 .r1 .content_block{
+    padding: 40px 20px;
+}
+#sec12 .r1 .content_block h2{
+    font-size: 65px;
+    line-height: 80px;
+}
+
+/* End Sec12 */
+
+#sec13 > ul{
+    padding: 30px 150px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#sec13 > ul > li{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* End Sec13 */
+
+#sec14 .r1 .col1 .content_block,
+#sec14 .r1 .col2 .content_block{
+    padding: 30px 125px;
+}
+#sec14 .r1 .col1 .content_block h2{
+    font-size: 65px;
+    line-height: 80px;
+}
+#sec14 .r1 .col2 .content_block .p1{
+    font-size: 30px;
+    line-height: 60px;
+}
+
+@media only screen and (max-width: 991px){
+    #sec2 .r1 .content_block {
+        max-width: calc(100% - 50px);
+    }
+
+    /* End Sec2 */
+
+    #sec9 .r1 .col1 .content_block,
+    #sec9 .r1 .col2 .content_block {
+        padding: 30px 50px;
+    }
+
+    /* End Sec9 */
+
+    #sec14 .r1 .col1 .content_block,
+    #sec14 .r1 .col2 .content_block{
+        padding: 30px 50px;
+    }
+
+    /* End Sec14 */
+}
+
 @media only screen and (max-width: 768px){
+    .circle{
+        padding: 0 10px;
+    }
+
+    /* End Setting All */
+
     #sec2 .r1 .content_block{
         max-width: unset;
         text-align: center;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    #sec2 .r1 .content_block .content_group {
+        padding: 50px 20px;
     }
 
     /* End Sec2 */
 
     #sec4 .r1 .content_block{
         padding: 0;
+    }
+    #sec4 .r1 h2 {
+        font-size: 25px;
+        padding: 20px;
+    }
+    #sec4 .r1 h2 > label{
+        font-size: 30px;
     }
 
     /* End Sec4 */
@@ -78,11 +243,116 @@ body {
     /* End Sec5 */
 
     #sec6 .r1 .col1 .content_block,
-    #sec6 .r1 .col2 .content_block{
+    #sec6 .r1 .col2 .content_block,
+    #sec6 .r1 .col3 .content_block{
         padding: 20px;
+    }
+    #sec6 .r1 .col1 .content_block h2 {
+        font-size: 30px;
+        line-height: 32px;
+    }
+    #sec6 .r1 .col2 .content_block .p1 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    #sec6 .r1 .col3 .content_block a{
+        font-size: 20px;
+        padding: 10px 15px;
     }
 
     /* End Sec6 */
+
+    #sec7 .r1 .col1 .content_block,
+    #sec7 .r1 .col2 .content_block,
+    #sec7 .r1 .col3 .content_block,
+    #sec7 .r1 .col4 .content_block,
+    #sec7 .r1 .col5 .content_block{
+        padding: 20px;
+    }
+    #sec7 .r1 .col1 .content_block h2,
+    #sec7 .r1 .col2 .content_block h2,
+    #sec7 .r1 .col4 .content_block h2{
+        font-size: 30px;
+        line-height: 32px;
+    }
+    #sec7 .r1 .col3 .content_block .p1,
+    #sec7 .r1 .col5 .content_block .p1{
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    /* End Sec7 */
+
+    #sec8 .r1 .content_block{
+        padding: 30px 0;
+    }
+
+    /* End Sec8 */
+
+    #sec9 .r1 .col1 .content_block,
+    #sec9 .r1 .col2 .content_block {
+        padding: 15px 20px;
+    }
+    #sec9 .r1 .col1 .content_block h2, #sec9 .r1 .col2 .content_block .content_group {
+        max-width: unset;
+    }
+    #sec9 .r1 .col1 .content_block h2{
+        font-size: 30px;
+        line-height: 32px;
+    }
+    #sec9 .r1 .col2 .content_block .content_group .p1{
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    /* End Sec9 */
+
+    #sec10 .r1 .content_block{
+        padding: 20px;
+    }
+    #sec10 .r1 .content_block h2{
+        font-size: 30px;
+        line-height: 32px;
+    }
+
+    /* End Sec10 */
+
+    #sec11 > ul{
+        padding: 30px 20px;
+    }
+
+    /* End Sec11 */
+
+    #sec12 .r1 .content_block{
+        padding: 20px;
+    }
+    #sec12 .r1 .content_block h2{
+        font-size: 30px;
+        line-height: 32px;
+    }
+
+    /* End Sec12 */
+
+    #sec13 > ul{
+        padding: 0px 0px 30px;
+    }
+
+    /* End Sec13 */
+
+    #sec14 .r1 .col1 .content_block,
+    #sec14 .r1 .col2 .content_block{
+        padding: 15px 20px;
+    }
+    #sec14 .r1 .col1 .content_block h2{
+        font-size: 30px;
+        line-height: 32px;
+    }
+    #sec14 .r1 .col2 .content_block .p1{
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    /* End Sec14 */
 }
 
 @media only screen and (min-width: 992px){
