@@ -46,7 +46,7 @@
             <div class="col-xs-12 col-sm-12 col-md-5-5 p-0 col1">
                 <div class="row r1-1 m-0">
                     <div class="col-md-12 p-0 col1-1">
-                        <div class="content_block">
+                        <div class="content_block d-flex">
                             <div class="img_block wow @if($chkmo) animate__fadeInRightBig @else animate__backInLeft @endif">
                                 <picture>
                                     <source srcset="\assets\images\landing\page1\mobile\Ring-Spun-Process-Lindingpage-Thaipolyester.webp" alt="Ring Spun Process Thaipolyester" media="(max-width: 640px)" loading="lazy">
@@ -56,7 +56,7 @@
                         </div>
                     </div>
                     <div class="col-md-12 p-0 col1-2">
-                        <div class="content_block">
+                        <div class="content_block d-flex">
                             <div class="img_block wow @if($chkmo) animate__fadeInLeftBig @else animate__backInRight @endif">
                                 <picture>
                                     <source srcset="\assets\images\landing\page1\mobile\landing-page-Product-Draw-textured-yarn-Thai-Polyester-TPC-1.webp" alt="Product Draw textured yarn Thai Polyester TPC" media="(max-width: 640px)" loading="lazy">
@@ -68,7 +68,7 @@
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6-5 p-0 col2">
-                <div class="content_block">
+                <div class="content_block d-flex">
                     <div class="img_block wow @if($chkmo) animate__fadeInRightBig @else animate__backInDown @endif">
                         <picture>
                             <source srcset="\assets\images\landing\page1\mobile\landing-page-Product-Draw-textured-yarn-Thai-Polyester-TPC.webp" alt="Product Draw textured yarn Thai Polyester TPC" media="(max-width: 640px)" loading="lazy">
