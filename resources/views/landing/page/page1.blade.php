@@ -10,7 +10,7 @@
         <div class="row r1 m-0">
             <div class="col-xs-12 col-sm-12 col-md-12 p-0">
                 <div class="content_block">
-                    <div class="img_block wow animate__fadeInDown">
+                    <div class="img_block wow @if($chkmo) animate__fadeInLeftBig @else animate__fadeInDown @endif">
                         <picture>
                             <source srcset="\assets\images\landing\page1\mobile\Head-Landingpage-Thaipolyester.webp" alt="Landingpage Thaipolyester" media="(max-width: 640px)" loading="lazy">
                             <img src="\assets\images\landing\page1\desktop\Head-Landingpage-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Landingpage Thaipolyester" loading="lazy">
@@ -47,7 +47,7 @@
                 <div class="row r1-1 m-0">
                     <div class="col-md-12 p-0 col1-1">
                         <div class="content_block">
-                            <div class="img_block wow animate__backInLeft">
+                            <div class="img_block wow @if($chkmo) animate__fadeInRightBig @else animate__backInLeft @endif">
                                 <picture>
                                     <source srcset="\assets\images\landing\page1\mobile\Ring-Spun-Process-Lindingpage-Thaipolyester.webp" alt="Ring Spun Process Thaipolyester" media="(max-width: 640px)" loading="lazy">
                                     <img src="\assets\images\landing\page1\desktop\Ring-Spun-Process-Lindingpage-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Ring Spun Process Thaipolyester" loading="lazy">
@@ -57,7 +57,7 @@
                     </div>
                     <div class="col-md-12 p-0 col1-2">
                         <div class="content_block">
-                            <div class="img_block wow animate__backInRight">
+                            <div class="img_block wow @if($chkmo) animate__fadeInLeftBig @else animate__backInRight @endif">
                                 <picture>
                                     <source srcset="\assets\images\landing\page1\mobile\landing-page-Product-Draw-textured-yarn-Thai-Polyester-TPC-1.webp" alt="Product Draw textured yarn Thai Polyester TPC" media="(max-width: 640px)" loading="lazy">
                                     <img src="\assets\images\landing\page1\desktop\landing-page-Product-Draw-textured-yarn-Thai-Polyester-TPC-1.webp" width="900" height="350" class="img-fluid ab-img" alt="Product Draw textured yarn Thai Polyester TPC" loading="lazy">
@@ -69,7 +69,7 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6-5 p-0 col2">
                 <div class="content_block">
-                    <div class="img_block wow animate__backInDown">
+                    <div class="img_block wow @if($chkmo) animate__fadeInRightBig @else animate__backInDown @endif">
                         <picture>
                             <source srcset="\assets\images\landing\page1\mobile\landing-page-Product-Draw-textured-yarn-Thai-Polyester-TPC.webp" alt="Product Draw textured yarn Thai Polyester TPC" media="(max-width: 640px)" loading="lazy">
                             <img src="\assets\images\landing\page1\desktop\landing-page-Product-Draw-textured-yarn-Thai-Polyester-TPC.webp" width="900" height="350" class="img-fluid ab-img" alt="Product Draw textured yarn Thai Polyester TPC" loading="lazy">
@@ -88,7 +88,7 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 p-0">
                 <div class="content_block">
-                    <div class="img_block wow animate__backInUp">
+                    <div class="img_block wow @if($chkmo) animate__fadeInUpBig @else animate__backInUp @endif">
                         <picture>
                             <source srcset="\assets\images\landing\page1\mobile\Filament-Yarn-landing-page-TPC-Thaipolyester.webp" alt="Filament Yarn TPC Thaipolyester" media="(max-width: 640px)" loading="lazy">
                             <img src="\assets\images\landing\page1\desktop\Filament-Yarn-landing-page-TPC-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Filament Yarn TPC Thaipolyester" loading="lazy">
@@ -96,7 +96,7 @@
                     </div>
                 </div>
                 <div class="content_block">
-                    <div class="img_block wow animate__backInUp">
+                    <div class="img_block wow @if($chkmo) animate__fadeInUpBig @else animate__backInUp @endif">
                         <picture>
                             <source srcset="\assets\images\landing\page1\mobile\Spun-Yarn-landing-page-TPC-Thaipolyester.webp" alt="Spun Yarn TPC Thaipolyester" media="(max-width: 640px)" loading="lazy">
                             <img src="\assets\images\landing\page1\desktop\Spun-Yarn-landing-page-TPC-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Spun Yarn TPC Thaipolyester" loading="lazy">
@@ -104,7 +104,7 @@
                     </div>
                 </div>
                 <div class="content_block">
-                    <div class="img_block wow animate__backInUp">
+                    <div class="img_block wow @if($chkmo) animate__fadeInUpBig @else animate__backInUp @endif">
                         <picture>
                             <source srcset="\assets\images\landing\page1\mobile\Polyester-Staple-Fiber-landing-page-TPC-Thaipolyester.webp" alt="Polyester Staple Fiber TPC Thaipolyester" media="(max-width: 640px)" loading="lazy">
                             <img src="\assets\images\landing\page1\desktop\Polyester-Staple-Fiber-landing-page-TPC-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Polyester Staple Fiber TPC Thaipolyester" loading="lazy">
@@ -118,7 +118,7 @@
         <ul class="row m-0">
             <li class="col-xs-3 col-sm-3 col-md-1-5 p-0">
                 <div class="content_block">
-                    <div class="img_block wow animate__fadeInLeftBig">
+                    <div class="img_block wow @if($chkmo) animate__fadeInRightBig @else animate__fadeInLeftBig" @endif>
                         <picture>
                             <source srcset="\assets\images\landing\page1\mobile\Polyester-Partially-Oriented-Yarn-landing-page-TPC-Thaipolyester.webp" alt="Polyester Partially Oriented Yarn TPC Thaipolyester" media="(max-width: 640px)" loading="lazy">
                             <img src="\assets\images\landing\page1\desktop\Polyester-Partially-Oriented-Yarn-landing-page-TPC-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Polyester Partially Oriented Yarn TPC Thaipolyester" loading="lazy">
@@ -128,7 +128,7 @@
             </li>
             <li class="col-xs-3 col-sm-3 col-md-1-5 p-0">
                 <div class="content_block">
-                    <div class="img_block wow animate__fadeInLeftBig" data-wow-delay="0.2s">
+                    <div class="img_block wow @if($chkmo) animate__fadeInRightBig @else animate__fadeInLeftBig @endif" data-wow-delay="0.1s">
                         <picture>
                             <source srcset="\assets\images\landing\page1\mobile\Draw-textured-Yarn-landing-page-TPC-Thaipolyester.webp" alt="Draw textured Yarn TPC Thaipolyester" media="(max-width: 640px)" loading="lazy">
                             <img src="\assets\images\landing\page1\desktop\Draw-textured-Yarn-landing-page-TPC-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Draw textured Yarn TPC Thaipolyester" loading="lazy">
@@ -138,7 +138,7 @@
             </li>
             <li class="col-xs-3 col-sm-3 col-md-1-5 p-0">
                 <div class="content_block">
-                    <div class="img_block wow animate__fadeInLeftBig" data-wow-delay="0.4s">
+                    <div class="img_block wow @if($chkmo) animate__fadeInRightBig @else animate__fadeInLeftBig @endif" data-wow-delay="0.2s">
                         <picture>
                             <source srcset="\assets\images\landing\page1\desktop\Fully-Drawn-Yarn-Dope-Dyed-Black-landing-page-TPC-Thaipolyester.webp" alt="Fully Drawn Yarn Dope Dyed Black TPC Thaipolyester" media="(max-width: 640px)" loading="lazy">
                             <img src="\assets\images\landing\page1\desktop\Fully-Drawn-Yarn-Dope-Dyed-Black-landing-page-TPC-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Fully Drawn Yarn Dope Dyed Black TPC Thaipolyester" loading="lazy">
@@ -148,7 +148,7 @@
             </li>
             <li class="col-xs-3 col-sm-3 col-md-1-5 p-0">
                 <div class="content_block">
-                    <div class="img_block wow animate__fadeInLeftBig" data-wow-delay="0.6s">
+                    <div class="img_block wow @if($chkmo) animate__fadeInRightBig @else animate__fadeInLeftBig @endif" data-wow-delay="0.3s">
                         <picture>
                             <source srcset="\assets\images\landing\page1\mobile\Twisting-Yarn-landing-page-Raw-white-TPC-Thaipolyester.webp" alt="Twisting Yarn Raw white TPC Thaipolyester" media="(max-width: 640px)" loading="lazy">
                             <img src="\assets\images\landing\page1\desktop\Twisting-Yarn-landing-page-Raw-white-TPC-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Twisting Yarn Raw white TPC Thaipolyester" loading="lazy">
@@ -158,7 +158,7 @@
             </li>
             <li class="col-xs-3 col-sm-3 col-md-1-5 p-0">
                 <div class="content_block">
-                    <div class="img_block wow animate__fadeInLeftBig" data-wow-delay="0.8s">
+                    <div class="img_block wow animate__fadeInLeftBig" data-wow-delay="0.4s">
                         <picture>
                             <source srcset="\assets\images\landing\page1\mobile\Twisting-Yarn-landing-page-Dope-Dyed-Black-TPC-Thaipolyester.webp" alt="Twisting Yarn Dope Dyed Black TPC Thaipolyester" media="(max-width: 640px)" loading="lazy">
                             <img src="\assets\images\landing\page1\desktop\Twisting-Yarn-landing-page-Dope-Dyed-Black-TPC-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Twisting Yarn Dope Dyed Black TPC Thaipolyester" loading="lazy">
@@ -168,7 +168,7 @@
             </li>
             <li class="col-xs-3 col-sm-3 col-md-1-5 p-0">
                 <div class="content_block">
-                    <div class="img_block wow animate__fadeInLeftBig" data-wow-delay="1s">
+                    <div class="img_block wow animate__fadeInLeftBig" data-wow-delay="0.5s">
                         <picture>
                             <source srcset="\assets\images\landing\page1\mobile\Ring-Spun-Yarn-landing-page-Raw-white-TPC-Thaipolyester.webp" alt="Ring Spun Yarn Raw white TPC Thaipolyester" media="(max-width: 640px)" loading="lazy">
                             <img src="\assets\images\landing\page1\desktop\Ring-Spun-Yarn-landing-page-Raw-white-TPC-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Ring Spun Yarn Raw white TPC Thaipolyester" loading="lazy">
@@ -178,7 +178,7 @@
             </li>
             <li class="col-xs-3 col-sm-3 col-md-1-5 p-0">
                 <div class="content_block">
-                    <div class="img_block wow animate__fadeInLeftBig" data-wow-delay="1.2s">
+                    <div class="img_block wow animate__fadeInLeftBig" data-wow-delay="0.6s">
                         <picture>
                             <source srcset="\assets\images\landing\page1\mobile\Open-End-Spun-Yarn-landing-page-Dope-Dyed-Black-TPC-Thaipolyester.webp" alt="Open End Spun Yarn Dope Dyed Black TPC Thaipolyester" media="(max-width: 640px)" loading="lazy">
                             <img src="\assets\images\landing\page1\desktop\Open-End-Spun-Yarn-landing-page-Dope-Dyed-Black-TPC-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Open End Spun Yarn Dope Dyed Black TPC Thaipolyester" loading="lazy">
@@ -188,7 +188,7 @@
             </li>
             <li class="col-xs-3 col-sm-3 col-md-1-5 p-0">
                 <div class="content_block">
-                    <div class="img_block wow animate__fadeInLeftBig" data-wow-delay="1.4s">
+                    <div class="img_block wow animate__fadeInLeftBig" data-wow-delay="0.7s">
                         <picture>
                             <source srcset="\assets\images\landing\page1\mobile\Polyester-Staple-Fiber-landing-page-Raw-white-TPC-Thaipolyester.webp" alt="Polyester Staple Fiber Raw white TPC Thaipolyester" media="(max-width: 640px)" loading="lazy">
                             <img src="\assets\images\landing\page1\desktop\Polyester-Staple-Fiber-landing-page-Raw-white-TPC-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Polyester Staple Fiber Raw white TPC Thaipolyester" loading="lazy">
@@ -219,7 +219,7 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 p-0 col3">
                 <div class="content_block d-flex pos-r">
-                    <a href="#" title="Get Free Samples" class="text-center m-auto wow animate__bounce">GET FREE Samples</a>
+                    <a href="#sec15" id="get_free" title="Get Free Samples" class="text-center m-auto wow animate__bounce">GET FREE Samples</a>
                 </div>
             </div>
         </div>
@@ -271,7 +271,7 @@
         <div class="row r1 m-0">
             <div class="col-xs-12 col-sm-12 col-md-12 p-0">
                 <div class="content_block pos-r">
-                    <div class="img_block wow animate__fadeInTopLeft">
+                    <div class="img_block wow @if($chkmo) animate__fadeInRightBig @else animate__fadeInTopLeft @endif">
                         <picture>
                             <source srcset="\assets\images\landing\page1\mobile\Certificate-of-Registration-thaipolyester.webp" alt="Certificate of Registration thaipolyester" media="(max-width: 640px)" loading="lazy">
                             <img src="\assets\images\landing\page1\desktop\Certificate-of-Registration-thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Certificate of Registration thaipolyester" loading="lazy">
@@ -320,7 +320,7 @@
         <ul class="row m-0">
             <li class="col-xs-12 col-sm-12 col-md-3">
                 <div class="content_block pos-r">
-                    <div class="img_block wow animate__flipInX">
+                    <div class="img_block wow @if($chkmo) animate__backInUp @else animate__flipInX @endif">
                         <picture>
                             <source srcset="\assets\images\landing\page1\desktop\A-reasonable-price-Thai-polyester.webp" alt="A reasonable price Thai polyester" media="(max-width: 640px)" loading="lazy">
                             <img src="\assets\images\landing\page1\desktop\A-reasonable-price-Thai-polyester.webp" width="900" height="350" class="img-fluid ab-img" alt="A reasonable price Thai polyester" loading="lazy">
@@ -330,7 +330,7 @@
             </li>
             <li class="col-xs-12 col-sm-12 col-md-3">
                 <div class="content_block pos-r">
-                    <div class="img_block wow animate__flipInX" data-wow-delay="0.2s">
+                    <div class="img_block wow @if($chkmo) animate__backInUp @else animate__flipInX @endif" data-wow-delay="0.2s">
                         <picture>
                             <source srcset="\assets\images\landing\page1\mobile\A-Shorter-lead-time-Thai-polyester.webp" alt="A Shorter lead time Thai polyesterr" media="(max-width: 640px)" loading="lazy">
                             <img src="\assets\images\landing\page1\desktop\A-Shorter-lead-time-Thai-polyester.webp" width="900" height="350" class="img-fluid ab-img" alt="A Shorter lead time Thai polyesterr" loading="lazy">
@@ -340,7 +340,7 @@
             </li>
             <li class="col-xs-12 col-sm-12 col-md-3">
                 <div class="content_block pos-r">
-                    <div class="img_block wow animate__flipInX" data-wow-delay="0.4s">
+                    <div class="img_block wow @if($chkmo) animate__backInUp @else animate__flipInX @endif" data-wow-delay="0.4s">
                         <picture>
                             <source srcset="\assets\images\landing\page1\mobile\A-wide-range-of-product-Thai-polyester.webp" alt="A wide range of product Thai polyester" media="(max-width: 640px)" loading="lazy">
                             <img src="\assets\images\landing\page1\desktop\A-wide-range-of-product-Thai-polyester.webp" width="900" height="350" class="img-fluid ab-img" alt="A wide range of product Thai polyester" loading="lazy">
@@ -350,7 +350,7 @@
             </li>
             <li class="col-xs-12 col-sm-12 col-md-3">
                 <div class="content_block pos-r">
-                    <div class="img_block wow animate__flipInX" data-wow-delay="0.6s">
+                    <div class="img_block wow @if($chkmo) animate__backInUp @else animate__flipInX @endif" data-wow-delay="0.6s">
                         <picture>
                             <source srcset="\assets\images\landing\page1\mobile\No-more-supply-shortages-Thai-polyester.webp" alt="No more supply shortages Thai polyester" media="(max-width: 640px)" loading="lazy">
                             <img src="\assets\images\landing\page1\desktop\No-more-supply-shortages-Thai-polyester.webp" width="900" height="350" class="img-fluid ab-img" alt="No more supply shortages Thai polyester" loading="lazy">
@@ -375,7 +375,7 @@
         <ul class="row r1 m-0 d-flex">
             <li class="col-xs-12 col-sm-12 col-md-6">
                 <div class="content_block pos-r">
-                    <div class="img_block wow animate__bounceInUp">
+                    <div class="img_block wow @if($chkmo) animate__fadeInRightBig @else animate__bounceInUp @endif">
                         <picture>
                             <source srcset="\assets\images\landing\page1\mobile\Review-landing-page-TPC-1.webp" alt="Review" media="(max-width: 640px)" loading="lazy">
                             <img src="\assets\images\landing\page1\desktop\Review-landing-page-TPC-1.webp" width="900" height="350" class="img-fluid ab-img" alt="Review" loading="lazy">
@@ -385,7 +385,7 @@
             </li>
             <li class="col-xs-12 col-sm-12 col-md-6">
                 <div class="content_block pos-r">
-                    <div class="img_block wow animate__bounceInUp" data-wow-delay="0.2s">
+                    <div class="img_block wow @if($chkmo) animate__fadeInLeftBig @else animate__bounceInUp @endif" @if(!$chkmo) data-wow-delay="0.1s" @endif>
                         <picture>
                             <source srcset="\assets\images\landing\page1\mobile\Review-landing-page-TPC-2.webp" alt="Review" media="(max-width: 640px)" loading="lazy">
                             <img src="\assets\images\landing\page1\desktop\Review-landing-page-TPC-2.webp" width="900" height="350" class="img-fluid ab-img" alt="Review" loading="lazy">
@@ -395,7 +395,7 @@
             </li>
             <li class="col-xs-12 col-sm-12 col-md-6">
                 <div class="content_block pos-r">
-                    <div class="img_block wow animate__bounceInUp" data-wow-delay="0.4s">
+                    <div class="img_block wow @if($chkmo) animate__fadeInRightBig @else animate__bounceInUp @endif" @if(!$chkmo) data-wow-delay="0.2s" @endif>
                         <picture>
                             <source srcset="\assets\images\landing\page1\mobile\Review-landing-page-TPC-3.webp" alt="Review" media="(max-width: 640px)" loading="lazy">
                             <img src="\assets\images\landing\page1\desktop\Review-landing-page-TPC-3.webp" width="900" height="350" class="img-fluid ab-img" alt="Review" loading="lazy">
@@ -405,7 +405,7 @@
             </li>
             <li class="col-xs-12 col-sm-12 col-md-6">
                 <div class="content_block pos-r">
-                    <div class="img_block wow animate__bounceInUp" data-wow-delay="0.6s">
+                    <div class="img_block wow @if($chkmo) animate__fadeInLeftBig @else animate__bounceInUp @endif" @if(!$chkmo) data-wow-delay="0.3s" @endif>
                         <picture>
                             <source srcset="\assets\images\landing\page1\mobile\Review-landing-page-TPC-4.webp" alt="Review" media="(max-width: 640px)" loading="lazy">
                             <img src="\assets\images\landing\page1\desktop\Review-landing-page-TPC-4.webp" width="900" height="350" class="img-fluid ab-img" alt="Review" loading="lazy">
@@ -415,7 +415,7 @@
             </li>
             <li class="col-xs-12 col-sm-12 col-md-6">
                 <div class="content_block pos-r">
-                    <div class="img_block wow animate__bounceInUp" data-wow-delay="0.8s">
+                    <div class="img_block wow @if($chkmo) animate__fadeInRightBig @else animate__bounceInUp @endif" @if(!$chkmo) data-wow-delay="0.4s" @endif>
                         <picture>
                             <source srcset="\assets\images\landing\page1\mobile\Review-landing-page-TPC-5.webp" alt="Review" media="(max-width: 640px)" loading="lazy">
                             <img src="\assets\images\landing\page1\desktop\Review-landing-page-TPC-5.webp" width="900" height="350" class="img-fluid ab-img" alt="Review" loading="lazy">
