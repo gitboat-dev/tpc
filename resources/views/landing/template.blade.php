@@ -35,6 +35,7 @@
 </head>
 <body>
     @yield('content')
+    @include('landing.scrollup')
     @include('landing.contact_tools')
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTG33WM"

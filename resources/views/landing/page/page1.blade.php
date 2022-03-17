@@ -484,7 +484,7 @@
                                 <div id="res" class="res"></div>
                             </div>
                             <div class="form-group col-xs-12 col-sm-12 col-md-12 text-center">
-                                <button type="button" id="submitcontract2" class="bt-contact">SEND</button>
+                                <button type="button" id="submitcontract" class="bt-contact">SEND</button>
                             </div>
                         </form>
                     </div>
