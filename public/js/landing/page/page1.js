@@ -75,13 +75,17 @@ function checkData(f){
 		error = error + 1;
 		name.next('span.name').text('Please enter your name.');
 	}
-	if(company.val() == "" || company.val() == 0){
-		error = error + 1;
-		company.next('span.company').text('Please enter your company.');
-	}
-	if((email.val() == "" || email.val() == 0) && !isMail(email.val())){
+	// if(company.val() == "" || company.val() == 0){
+	// 	error = error + 1;
+	// 	company.next('span.company').text('Please enter your company.');
+	// }
+    if((email.val() == "" || email.val() == 0) && !isMail(email.val())){
 		error = error + 1;
 		email.next('span.email').text('Please enter your email.');
+	}
+	if(phone.val() == "" || phone.val() == 0){
+		error = error + 1;
+		phone.next('span.phone').text('Please enter your phone.');
 	}
 	if(message.val() == "" || message.val() == 0){
 		error = error + 1;

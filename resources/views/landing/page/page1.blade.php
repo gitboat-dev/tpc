@@ -473,7 +473,7 @@
                                 <span class="text-danger email mb-font12"></span>
                             </div>
                             <div class="form-group col-xs-6 col-sm-6 col-md-6">
-                                <input type="text" class="form-control" name="phone" id="phone" placeholder="PHONE">
+                                <input type="text" class="form-control" name="phone" id="phone" placeholder="PHONE*">
                                 <span class="text-danger phone mb-font12"></span>
                             </div>
                             <div class="form-group col-xs-12 col-sm-12 col-md-12">
