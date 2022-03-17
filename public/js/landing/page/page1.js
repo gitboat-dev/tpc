@@ -3,12 +3,12 @@ let inqbg="TPC",
 	inqRequest="inquiry-request",
 	inqhas="xyz";
 $(document).ready(function(){
-    $('#get_free').click(function(event){
-        event.preventDefault();
-        $('html, body').animate({
-            scrollTop: $($(this).attr('href')).offset().top + 370
-        }, 1000);
-    });
+    // $('#get_free').click(function(event){
+    //     event.preventDefault();
+    //     $('html, body').animate({
+    //         scrollTop: $($(this).attr('href')).offset().top + 370
+    //     }, 1000);
+    // });
     $('#submitcontract').on('click',function(){
 		var f = $('#contact-form'),
 	    	res = f.find('#res'),
