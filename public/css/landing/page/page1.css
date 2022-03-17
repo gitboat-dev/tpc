@@ -38,7 +38,7 @@
     padding: 0 150px;
     /* padding: 0 100px; */
 }
-#sec4 .r1 .content_block .img_block:not(:last-child){
+#sec4 .r1 .content_block:not(:last-child){
     margin-bottom: 30px;
 }
 
