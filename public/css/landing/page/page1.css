@@ -275,9 +275,11 @@
     font-size: 16px;
     color: var(--msBgDark);
     font-weight: 600;
+    transition: all 0.2s;
 }
 #sec16 .r2 .content_block a:hover{
     color: var(--msBg);
+    transition: all 0.2s;
 }
 #sec16 .r2 .content_block p,
 #sec16 .r3 .content_block p{
