@@ -1,3 +1,6 @@
+:root{
+    --secOneContBox: 911px;
+}
 .circle{
     max-height: 80px;
     max-width: 80px;
@@ -10,6 +13,42 @@
 }
 
 /* End Setting All */
+
+#sec1{
+    background-image: url(/assets/images/landing/page1/desktop/new-image/Head-Landingpage-Thaipolyester.webp);
+    background-size: 100% 100%;
+    min-height: var(--secOneContBox);
+    /* display: flex; */
+    position: relative;
+}
+#sec1 .r1 .content_block{
+    min-height: var(--secOneContBox);
+}
+#sec1 .r1 .content_block .content_group{
+    margin-top: 40px !important;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    width: 100%;
+}
+#sec1 .r1 .content_block .p1{
+    font-size: 65px;
+    line-height: 78px;
+    font-weight: 600;
+    color: var(--msBgDark);
+}
+#sec1 .r1 .content_block .p2{
+    font-size: 180px;
+    line-height: 155px;
+    font-weight: 600;
+}
+#sec1 .r1 .content_block .p3{
+    font-size: 65px;
+    line-height: 78px;
+    font-weight: 600;
+    color: var(--msBgDark);
+}
+
+/* End Sec1 */
 
 #sec2 .r1 .content_block{
     max-width: calc(100% - 300px);
@@ -36,17 +75,17 @@
 }
 #sec4 .r1 .content_block{
     padding: 0 150px;
-    /* padding: 0 100px; */
-}
-#sec4 .r1 .content_block:not(:last-child){
     margin-bottom: 30px;
 }
+/* #sec4 .r1 .content_block:not(:last-child){
+    margin-bottom: 30px;
+} */
 
 #sec4 .r1 .content_block table{
     width: 100%;
     table-layout:fixed;
 }
-#sec4 .r1 .content_block table, th{
+#sec4 .r1 .content_block table th{
     background-color: var(--msBg);
     border: 2px solid var(--msBgDark);
     border-collapse: collapse;
@@ -56,7 +95,7 @@
     height: 40px;
     padding: 5px;
 }
-#sec4 .r1 .content_block table, td{
+#sec4 .r1 .content_block table td{
     background-color: var(--msBgLight);
     border: 2px solid var(--msBgDark);
     border-collapse: collapse;
@@ -68,6 +107,52 @@
 }
 
 /* End Sec4 */
+
+#sec4-1 .r1 .content_block table{
+    width: 100%;
+    table-layout:fixed;
+}
+#sec4-1 .r1 .content_block table th{
+    background-color: var(--msBg);
+    border: 2px solid var(--msBgLight);
+    border-collapse: collapse;
+    color: var(--msBgLight);
+    word-wrap: break-word;
+    text-align: center;
+    height: 40px;
+    padding: 5px;
+}
+#sec4-1 .r1 .content_block table td{
+    background-color: var(--msBgDark);
+    border: 2px solid var(--msBgLight);
+    border-collapse: collapse;
+    color: var(--msBgGreen);
+    word-wrap: break-word;
+    text-align: center;
+    height: 30px;
+    padding: 5px;
+}
+#sec4-1 .r1 .content_block{
+    padding: 0px 150px;
+    margin-bottom: 30px;
+}
+#sec4-1 .r1 .content_block h2{
+    font-size: 150px;
+    padding: 40px 20px 10px 20px;
+}
+#sec4-1 .r1 .content_block h3{
+    font-size: 65px;
+}
+#sec4-1 .r1 .content_block .p1{
+    font-size: 30px;
+    line-height: 40px;
+}
+#sec4-1 .td-white{
+    background-color: var(--msBgLight) !important;
+    color: var(--msBgDark) !important;
+}
+
+/* End Sec4-1 */
 
 #sec5 > ul{
     padding: 30px 150px;
@@ -380,11 +465,36 @@
 }
 
 @media only screen and (max-width: 768px){
+    :root{
+        --secOneContBox: 471px;
+    }
     .circle{
         padding: 0 10px;
     }
 
     /* End Setting All */
+
+    #sec1{
+        background-image: url(/assets/images/landing/page1/mobile/new-image/Head-Landingpage-Thaipolyester.webp);
+    }
+    #sec1 .r1 .content_block .p1{
+        font-size: 30px;
+        line-height: 32px;
+    }
+    #sec1 .r1 .content_block .p2{
+        font-size: 85px;
+        line-height: 80px;
+    }
+    #sec1 .r1 .content_block .p3{
+        font-size: 30px;
+        line-height: 32px;
+    }
+    #sec1 .r1 .content_block .content_group{
+        min-height: var(--secOneContBox);
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    /* End Sec1 */
 
     #sec2 .r1 .content_block{
         max-width: unset;
@@ -408,14 +518,34 @@
     #sec4 .r1 h2 > label{
         font-size: 30px;
     }
-
-    #sec4 .r1 .content_block table, td{
+    #sec4 .r1 .content_block table td{
         padding: 2px;
         font-size: 9.6px;
         line-height: 12px;
     }
 
     /* End Sec4 */
+
+    #sec4-1 .r1 .content_block{
+        padding: 0;
+    }
+    #sec4-1 .r1 .content_block h2{
+        font-size: 100px;
+    }
+    #sec4-1 .r1 .content_block h3{
+        font-size: 30px;
+    }
+    #sec4-1 .r1 .content_block .p1{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    #sec4-1 .r1 .content_block table td{
+        padding: 2px;
+        font-size: 9.6px;
+        line-height: 12px;
+    }
+
+    /* End Sec4-1 */
 
     #sec5 > ul{
         padding: 20px 0;

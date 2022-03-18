@@ -1,13 +1,71 @@
 :root{
-  --msBg:hsl(149deg 46% 46%);
+  /* --msBg:hsl(149deg 46% 46%);
   --msBgDark:hsl(220deg 22% 16%);
+  --msBgDarkOpacity:#202731ed;
+  --msBgLight:#fff; */
+  --msBg: #3db072;
+  --msBgGreen:#00ff2a;
+  --msBgRed:#bc1e2d;
+  --msBgDark:#202731;
   --msBgDarkOpacity:#202731ed;
   --msBgLight:#fff;
 }
+* {
+    margin: 0 auto;
+    text-decoration: none!important;
+    outline: 0!important;
+}
+img {
+    /* width: auto; */
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border: 0;
+}
+ol, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #1bb086;
+  border-radius: 10px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0f8261;
+}
+body {
+  font-family: 'Sen',sans-serif;
+  line-height: 25px;
+  font-weight: 400;
+  font-style: normal;
+  color: #171616;
+  font-size: 18px;
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: opacity .24s ease-in-out;
+  -moz-transition: opacity .24s ease-in-out;
+  transition: opacity .24s ease-in-out;
+  overflow-x:hidden;
+  position: relative;
+}
+
+/* Thank popup */
+
 .thank-open{
     overflow: hidden;
 }
-
 body.thank-open .thank{
     overflow-x: hidden;
     overflow-y: auto;
@@ -88,68 +146,18 @@ body.thank-open .thank{
     transition: all 0.2s;
 }
 
+/* Thank popup */
 
-
-* {
-    margin: 0 auto;
-    text-decoration: none!important;
-    outline: 0!important;
-}
-img {
-    /* width: auto; */
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    border: 0;
-}
-ol, ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-/* width */
-::-webkit-scrollbar {
-  width: 15px;
-}
-/* Track */
-::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey;
-  border-radius: 10px;
-}
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #1bb086;
-  border-radius: 10px;
-}
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #0f8261;
-}
-body {
-  font-family: 'Sen',sans-serif;
-  line-height: 25px;
-  font-weight: 400;
-  font-style: normal;
-  color: #171616;
-  font-size: 18px;
-  opacity: 1;
-  visibility: visible;
-  -webkit-transition: opacity .24s ease-in-out;
-  -moz-transition: opacity .24s ease-in-out;
-  transition: opacity .24s ease-in-out;
-  overflow-x:hidden;
-  position: relative;
-}
 .theme-hl{
     color: var(--msBg);
 	word-wrap: break-word;
 }
 .green-hl{
-    color: hsl(132deg 87% 36%);
+    color: var(--msBgGreen);
 	word-wrap: break-word;
 }
 .red-hl{
-    color: hsl(354deg 53% 61%);
+    color: var(--msBgRed);
     word-wrap: break-word;
 }
 .yellow-hl{

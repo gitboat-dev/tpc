@@ -48,12 +48,14 @@
     <section id="sec1">
         <div class="row r1 m-0">
             <div class="col-xs-12 col-sm-12 col-md-12 p-0">
-                <div class="content_block">
-                    <div class="img_block wow @if($chkmo) animate__fadeInDown @else animate__pulse @endif">
-                        <picture>
-                            <source srcset="\assets\images\landing\page1\mobile\Head-Landingpage-Thaipolyester.webp" alt="Landingpage Thaipolyester" media="(max-width: 640px)" loading="lazy">
-                            <img src="\assets\images\landing\page1\desktop\Head-Landingpage-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Landingpage Thaipolyester" loading="lazy">
-                        </picture>
+                <div class="content_block d-flex pos-r">
+                    <div class="content_group m-auto text-center">
+                        <p class="p1 wow animate__fadeInUpBig">Growing your sales by</p>
+                        <p class="p2 red-hl wow animate__bounceInUp">30%</p>
+                        <p class="p3 wow animate__fadeInUpBig">
+                            with our high-efficiency polyester yarn and<br>
+                            a modern German system
+                        </p>
                     </div>
                 </div>
             </div>
@@ -117,42 +119,6 @@
                 </div>
             </div>
     </section>
-    {{-- <section id="sec4">
-        <div class="row r1 m-0">
-            <div class="col-xs-12 col-sm-12 col-md-12 p-0">
-                <h2 class="text-center">
-                    <label class="theme-hl">100% POLYESTER YARN</label><br>
-                    PRODUCT LIST
-                </h2>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-12 p-0">
-                <div class="content_block">
-                    <div class="img_block wow @if($chkmo) animate__fadeInUpBig @else animate__backInUp @endif">
-                        <picture>
-                            <source srcset="\assets\images\landing\page1\mobile\Filament-Yarn-landing-page-TPC-Thaipolyester.webp" alt="Filament Yarn TPC Thaipolyester" media="(max-width: 640px)" loading="lazy">
-                            <img src="\assets\images\landing\page1\desktop\Filament-Yarn-landing-page-TPC-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Filament Yarn TPC Thaipolyester" loading="lazy">
-                        </picture>
-                    </div>
-                </div>
-                <div class="content_block">
-                    <div class="img_block wow @if($chkmo) animate__fadeInUpBig @else animate__backInUp @endif">
-                        <picture>
-                            <source srcset="\assets\images\landing\page1\mobile\Spun-Yarn-landing-page-TPC-Thaipolyester.webp" alt="Spun Yarn TPC Thaipolyester" media="(max-width: 640px)" loading="lazy">
-                            <img src="\assets\images\landing\page1\desktop\Spun-Yarn-landing-page-TPC-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Spun Yarn TPC Thaipolyester" loading="lazy">
-                        </picture>
-                    </div>
-                </div>
-                <div class="content_block">
-                    <div class="img_block wow @if($chkmo) animate__fadeInUpBig @else animate__backInUp @endif">
-                        <picture>
-                            <source srcset="\assets\images\landing\page1\mobile\Polyester-Staple-Fiber-landing-page-TPC-Thaipolyester.webp" alt="Polyester Staple Fiber TPC Thaipolyester" media="(max-width: 640px)" loading="lazy">
-                            <img src="\assets\images\landing\page1\desktop\Polyester-Staple-Fiber-landing-page-TPC-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Polyester Staple Fiber TPC Thaipolyester" loading="lazy">
-                        </picture>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> --}}
     <section id="sec4">
         <div class="row r1 m-0">
             <div class="col-xs-12 col-sm-12 col-md-12 p-0">
@@ -312,7 +278,7 @@
                         </tr>
                     </table>
                 </div>
-                <div class="content_block">
+                {{-- <div class="content_block">
                     <table class="wow @if($chkmo) animate__fadeInUpBig @else animate__backInUp @endif">
                         <thead>
                             <tr>
@@ -337,6 +303,65 @@
                             </tr>
                         </tbody>
                     </table>
+                </div> --}}
+            </div>
+        </div>
+    </section>
+    <section id="sec4-1" class="bg-black">
+        <div class="row r1 m-0">
+            <div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
+                <div class="content_block d-flex pos-r">
+                    <div class="content_group m-auto text-center">
+                        <h2 class="green-hl">“PSF”</h2>
+                        <h3 class="green-hl">Recommended item</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 p-0 col2">
+                <div class="content_block">
+                    <table class="wow @if($chkmo) animate__fadeInUpBig @else animate__backInUp @endif">
+                        <thead>
+                            <tr>
+                                <th width="21.5%">YARN TYPE</td>
+                                <th width="21.5%">DENIER</td>
+                                <th width="22%">CUT<br> LENGTH<br> (MM)</td>
+                                <th width="17.5%">TYPE</td>
+                                <th width="17.5%">COLOR</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td rowspan="2" class="fw-600">PSF<br>Virgin</td>
+                                <td class="td-white fw-600">1.0,1.2</td>
+                                <td rowspan="2">32,38,44,<br>51</td>
+                                <td rowspan="2">Virgin</td>
+                                <td>RW</td>
+                            </tr>
+                            <tr>
+                                <td>1.4</td>
+                                <td>DDB</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2" class="fw-600">PSF<br>Recycled</td>
+                                <td class="td-white fw-600">*1.2*</td>
+                                <td rowspan="2">32,38,44,<br>51</td>
+                                <td rowspan="2">Recycled</td>
+                                <td>RW</td>
+                            </tr>
+                            <tr>
+                                <td>1.4</td>
+                                <td>DDB</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 p-0 col3">
+                <div class="content_block d-flex pos-r">
+                    <p class="p1 m-auto text-center">
+                        Our high-quality product can produce premium yarn grades and we are trusted by spinning mills all
+                        over the world.
+                    </p>
                 </div>
             </div>
         </div>
@@ -346,80 +371,96 @@
             <li class="col-xs-3 col-sm-3 col-md-1-5 p-0">
                 <div class="content_block">
                     <div class="img_block wow @if($chkmo) animate__backInUp @else animate__fadeInLeftBig" @endif>
-                        <picture>
-                            <source srcset="\assets\images\landing\page1\mobile\Polyester-Partially-Oriented-Yarn-landing-page-TPC-Thaipolyester.webp" alt="Polyester Partially Oriented Yarn TPC Thaipolyester" media="(max-width: 640px)" loading="lazy">
-                            <img src="\assets\images\landing\page1\desktop\Polyester-Partially-Oriented-Yarn-landing-page-TPC-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Polyester Partially Oriented Yarn TPC Thaipolyester" loading="lazy">
-                        </picture>
+                        <a href="{{ route('product.psf') }}" title="PSF Polyester Staple Fiber" target="_blank">
+                            <picture>
+                                <source srcset="\assets\images\landing\page1\mobile\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester.webp" alt="Polyester Partially Oriented Yarn TPC Thaipolyester" media="(max-width: 640px)" loading="lazy">
+                                <img src="\assets\images\landing\page1\desktop\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester.webp" alt="PSF Polyester Staple Fiber Thaipolyester" loading="lazy">
+                            </picture>
+                        </a>
                     </div>
                 </div>
             </li>
             <li class="col-xs-3 col-sm-3 col-md-1-5 p-0">
                 <div class="content_block">
                     <div class="img_block wow @if($chkmo) animate__backInUp @else animate__fadeInLeftBig @endif" data-wow-delay="0.1s">
-                        <picture>
-                            <source srcset="\assets\images\landing\page1\mobile\Draw-textured-Yarn-landing-page-TPC-Thaipolyester.webp" alt="Draw textured Yarn TPC Thaipolyester" media="(max-width: 640px)" loading="lazy">
-                            <img src="\assets\images\landing\page1\desktop\Draw-textured-Yarn-landing-page-TPC-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Draw textured Yarn TPC Thaipolyester" loading="lazy">
-                        </picture>
+                        <a href="{{ route('product.dty') }}" title="DTY Draw Textured Yarn Polyester" target="_blank">
+                            <picture>
+                                <source srcset="\assets\images\landing\page1\mobile\new-image\DTY-Draw-Textured-Yarn-Polyester-Thaipolyester.webp" alt="DTY Draw Textured Yarn Polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
+                                <img src="\assets\images\landing\page1\desktop\new-image\DTY-Draw-Textured-Yarn-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="DTY Draw Textured Yarn Polyester Thaipolyester" loading="lazy">
+                            </picture>
+                        </a>
                     </div>
                 </div>
             </li>
             <li class="col-xs-3 col-sm-3 col-md-1-5 p-0">
                 <div class="content_block">
                     <div class="img_block wow @if($chkmo) animate__backInUp @else animate__fadeInLeftBig @endif" data-wow-delay="0.2s">
-                        <picture>
-                            <source srcset="\assets\images\landing\page1\desktop\Fully-Drawn-Yarn-Dope-Dyed-Black-landing-page-TPC-Thaipolyester.webp" alt="Fully Drawn Yarn Dope Dyed Black TPC Thaipolyester" media="(max-width: 640px)" loading="lazy">
-                            <img src="\assets\images\landing\page1\desktop\Fully-Drawn-Yarn-Dope-Dyed-Black-landing-page-TPC-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Fully Drawn Yarn Dope Dyed Black TPC Thaipolyester" loading="lazy">
-                        </picture>
+                        <a href="{{ route('product.poy') }}" title="POY Partially Oriented Yarn Polyester" target="_blank">
+                            <picture>
+                                <source srcset="\assets\images\landing\page1\mobile\new-image\POY-Partially-Oriented-Yarn-Polyester-Thaipolyester.webp" alt="POY Partially Oriented Yarn Polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
+                                <img src="\assets\images\landing\page1\desktop\new-image\POY-Partially-Oriented-Yarn-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="POY Partially Oriented Yarn Polyester Thaipolyester" loading="lazy">
+                            </picture>
+                        </a>
                     </div>
                 </div>
             </li>
             <li class="col-xs-3 col-sm-3 col-md-1-5 p-0">
                 <div class="content_block">
                     <div class="img_block wow @if($chkmo) animate__backInUp @else animate__fadeInLeftBig @endif" data-wow-delay="0.3s">
-                        <picture>
-                            <source srcset="\assets\images\landing\page1\mobile\Twisting-Yarn-landing-page-Raw-white-TPC-Thaipolyester.webp" alt="Twisting Yarn Raw white TPC Thaipolyester" media="(max-width: 640px)" loading="lazy">
-                            <img src="\assets\images\landing\page1\desktop\Twisting-Yarn-landing-page-Raw-white-TPC-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Twisting Yarn Raw white TPC Thaipolyester" loading="lazy">
-                        </picture>
+                        <a href="{{ route('product.fdy') }}" title="FDY Fully Drawn Yarn Polyester" target="_blank">
+                            <picture>
+                                <source srcset="\assets\images\landing\page1\mobile\new-image\FDY-Fully-Drawn-Yarn-Polyester-Thaipolyester.webp" alt="FDY Fully Drawn Yarn Polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
+                                <img src="\assets\images\landing\page1\desktop\new-image\FDY-Fully-Drawn-Yarn-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="FDY Fully Drawn Yarn Polyester Thaipolyester" loading="lazy">
+                            </picture>
+                        </a>
                     </div>
                 </div>
             </li>
             <li class="col-xs-3 col-sm-3 col-md-1-5 p-0">
                 <div class="content_block">
                     <div class="img_block wow @if($chkmo) animate__backInUp @else animate__fadeInLeftBig @endif" data-wow-delay="0.4s">
-                        <picture>
-                            <source srcset="\assets\images\landing\page1\mobile\Twisting-Yarn-landing-page-Dope-Dyed-Black-TPC-Thaipolyester.webp" alt="Twisting Yarn Dope Dyed Black TPC Thaipolyester" media="(max-width: 640px)" loading="lazy">
-                            <img src="\assets\images\landing\page1\desktop\Twisting-Yarn-landing-page-Dope-Dyed-Black-TPC-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Twisting Yarn Dope Dyed Black TPC Thaipolyester" loading="lazy">
-                        </picture>
+                        <a href="{{ route('product.twisted-yarn') }}" title="Twist Yarn DTY polyester" target="_blank">
+                            <picture>
+                                <source srcset="\assets\images\landing\page1\mobile\new-image\Twist-Yarn-DTY-polyester-Thaipolyester.webp" alt="Twist Yarn DTY polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
+                                <img src="\assets\images\landing\page1\desktop\new-image\Twist-Yarn-DTY-polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Twist Yarn DTY polyester Thaipolyester" loading="lazy">
+                            </picture>
+                        </a>
                     </div>
                 </div>
             </li>
             <li class="col-xs-3 col-sm-3 col-md-1-5 p-0">
                 <div class="content_block">
                     <div class="img_block wow @if($chkmo) animate__backInUp @else animate__fadeInLeftBig @endif" data-wow-delay="0.5s">
-                        <picture>
-                            <source srcset="\assets\images\landing\page1\mobile\Ring-Spun-Yarn-landing-page-Raw-white-TPC-Thaipolyester.webp" alt="Ring Spun Yarn Raw white TPC Thaipolyester" media="(max-width: 640px)" loading="lazy">
-                            <img src="\assets\images\landing\page1\desktop\Ring-Spun-Yarn-landing-page-Raw-white-TPC-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Ring Spun Yarn Raw white TPC Thaipolyester" loading="lazy">
-                        </picture>
+                        <a href="{{ route('product.twisted-yarn') }}" title="Twist Yarn FDY polyester" target="_blank">
+                            <picture>
+                                <source srcset="\assets\images\landing\page1\mobile\new-image\Twist-Yarn-FDY-polyester-Thaipolyester.webp" alt="Twist Yarn FDY polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
+                                <img src="\assets\images\landing\page1\desktop\new-image\Twist-Yarn-FDY-polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Twist Yarn FDY polyester Thaipolyester" loading="lazy">
+                            </picture>
+                        </a>
                     </div>
                 </div>
             </li>
             <li class="col-xs-3 col-sm-3 col-md-1-5 p-0">
                 <div class="content_block">
                     <div class="img_block wow @if($chkmo) animate__backInUp @else animate__fadeInLeftBig @endif" data-wow-delay="0.6s">
-                        <picture>
-                            <source srcset="\assets\images\landing\page1\mobile\Open-End-Spun-Yarn-landing-page-Dope-Dyed-Black-TPC-Thaipolyester.webp" alt="Open End Spun Yarn Dope Dyed Black TPC Thaipolyester" media="(max-width: 640px)" loading="lazy">
-                            <img src="\assets\images\landing\page1\desktop\Open-End-Spun-Yarn-landing-page-Dope-Dyed-Black-TPC-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Open End Spun Yarn Dope Dyed Black TPC Thaipolyester" loading="lazy">
-                        </picture>
+                        <a title="#" title="OE Open End Spun Yarn Polyester" target="_blank">
+                            <picture>
+                                <source srcset="\assets\images\landing\page1\mobile\new-image\OE-Open-End-Spun-Yarn-Polyester-Thaipolyester.webp" alt="OE Open End Spun Yarn Polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
+                                <img src="\assets\images\landing\page1\desktop\new-image\OE-Open-End-Spun-Yarn-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="OE Open End Spun Yarn Polyester Thaipolyester" loading="lazy">
+                            </picture>
+                        </a>
                     </div>
                 </div>
             </li>
             <li class="col-xs-3 col-sm-3 col-md-1-5 p-0">
                 <div class="content_block">
                     <div class="img_block wow @if($chkmo) animate__backInUp @else animate__fadeInLeftBig @endif" data-wow-delay="0.7s">
-                        <picture>
-                            <source srcset="\assets\images\landing\page1\mobile\Polyester-Staple-Fiber-landing-page-Raw-white-TPC-Thaipolyester.webp" alt="Polyester Staple Fiber Raw white TPC Thaipolyester" media="(max-width: 640px)" loading="lazy">
-                            <img src="\assets\images\landing\page1\desktop\Polyester-Staple-Fiber-landing-page-Raw-white-TPC-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Polyester Staple Fiber Raw white TPC Thaipolyester" loading="lazy">
-                        </picture>
+                        <a href="{{ route('product.ring-spun') }}" title="Ring Spun Yarn Polyester" target="_blank">
+                            <picture>
+                                <source srcset="\assets\images\landing\page1\mobile\new-image\Ring-Spun-Yarn-Polyester-Thaipolyester.webp" alt="Ring Spun Yarn Polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
+                                <img src="\assets\images\landing\page1\desktop\new-image\Ring-Spun-Yarn-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Ring Spun Yarn Polyester Thaipolyester" loading="lazy">
+                            </picture>
+                        </a>
                     </div>
                 </div>
             </li>
