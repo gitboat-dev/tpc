@@ -33,7 +33,7 @@
     ' browser. such as " goole chrome browser or Firefox browser " !!! ');}
     </script>
 </head>
-<body class="thank-open">
+<body>
     @yield('content')
     @include('landing.scrollup')
     @include('landing.contact_tools')
