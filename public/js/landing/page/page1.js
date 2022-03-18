@@ -9,6 +9,9 @@ $(document).ready(function(){
     //         scrollTop: $($(this).attr('href')).offset().top + 370
     //     }, 1000);
     // });
+    $('.thank .thank-close').click(function(){
+        $('body').removeClass('thank-open');
+    });
     $('#submitcontract').on('click',function(){
 		var f = $('#contact-form'),
 	    	res = f.find('#res'),
@@ -44,7 +47,7 @@ $(document).ready(function(){
                                         f.resetForm();
                                         btn.html(btnMsg);
                                         c(15,res.find('.alert'));
-
+                                        thank_you();
                                     }else if(ea.status == 'error'){
                                         msg = '<div class="alert alert-danger"><strong>Error!</strong> '+ea.message+'</div>';
                                         res.html(msg);
@@ -61,7 +64,9 @@ $(document).ready(function(){
 		}
 	});
 });
-
+function thank_you(){
+    $('body').addClass('thank-open');
+}
 function checkData(f){
 	var name = f.find('#name'),
 		company = f.find('#company'),
