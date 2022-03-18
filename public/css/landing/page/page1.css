@@ -299,9 +299,11 @@
 
 /* End Sec16 */
 
-#sec17 .r1 .col1 .content_block,
-#sec17 .r1 .col2 .content_block{
+#sec17 .r1 .col1 .content_block{
     padding: 0px 125px;
+}
+#sec17 .r1 .col2 .content_block{
+    padding: 0px 125px 20px;
 }
 #sec17 .r1 .col1 .content_block h2{
     font-size: 34px;
@@ -456,7 +458,10 @@
     /* End Sec10 */
 
     #sec11 > ul{
-        padding: 30px 20px;
+        padding: 30px 40px;
+    }
+    #sec11 > ul li{
+        margin-bottom: 15px;
     }
 
     /* End Sec11 */
