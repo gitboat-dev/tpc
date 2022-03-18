@@ -271,6 +271,14 @@
     font-size: 25px;
     font-weight: 600;
 }
+#sec16 .r2 .content_block a{
+    font-size: 16px;
+    color: var(--msBgDark);
+    font-weight: 600;
+}
+#sec16 .r2 .content_block a:hover{
+    color: var(--msBg);
+}
 #sec16 .r2 .content_block p,
 #sec16 .r3 .content_block p{
     font-size: 16px;
