@@ -78,7 +78,7 @@
                 </div>
             </div>
     </section>
-    <section id="sec4">
+    {{-- <section id="sec4">
         <div class="row r1 m-0">
             <div class="col-xs-12 col-sm-12 col-md-12 p-0">
                 <h2 class="text-center">
@@ -110,6 +110,194 @@
                             <img src="\assets\images\landing\page1\desktop\Polyester-Staple-Fiber-landing-page-TPC-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Polyester Staple Fiber TPC Thaipolyester" loading="lazy">
                         </picture>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section> --}}
+    <section id="sec4">
+        <div class="row r1 m-0">
+            <div class="col-xs-12 col-sm-12 col-md-12 p-0">
+                <h2 class="text-center m-0">
+                    <label class="theme-hl">100% POLYESTER YARN</label><br>
+                    PRODUCT LIST
+                </h2>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 p-0">
+                <div class="content_block">
+                    <table class="wow @if($chkmo) animate__fadeInUpBig @else animate__backInUp @endif">
+                        <thead>
+                            <tr>
+                                <th width="25%">YARN TYPE</td>
+                                <th width="25%">D/F</td>
+                                <th width="10%">LUSTER</td>
+                                <th width="20%">TYPE</td>
+                                <th width="20%">COLOR</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td rowspan="5" class="fw-600">Partially Oriented Yarn<br>(POY)</td>
+                                <td>85/36</td>
+                                <td rowspan="5">SD</td>
+                                <td rowspan="5">Virgin & Recycled</td>
+                                <td rowspan="5">RW,DDB</td>
+                            </tr>
+                            <tr>
+                                <td>125/36,125/72,125/144</td>
+                            </tr>
+                            <tr>
+                                <td>165/36, 165/48</td>
+                            </tr>
+                            <tr>
+                                <td>260/48,260/96,260/144,260/288</td>
+                            </tr>
+                            <tr>
+                                <td>500/96</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="4" class="fw-600">Draw Textured Yarn<br>(DTY)</td>
+                                <td>75/36,75/72,75/144</td>
+                                <td rowspan="4">SD</td>
+                                <td rowspan="4">Virgin & Recycled</td>
+                                <td rowspan="4">RW,DDB,DYED YARN</td>
+                            </tr>
+                            <tr>
+                                <td>100/36,100/48,100/96</td>
+                            </tr>
+                            <tr>
+                                <td>150/48,150/96,150/144,150/288</td>
+                            </tr>
+                            <tr>
+                                <td>300/96</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="6" class="fw-600">Fully Drawn Yarn<br>(FDY)</td>
+                                <td>40/18,50/18</td>
+                                <td rowspan="6">SD,TBR</td>
+                                <td rowspan="6">Virgin & Recycled</td>
+                                <td rowspan="6">RW,DDB</td>
+                            </tr>
+                            <tr>
+                                <td>75/36,75/72</td>
+                            </tr>
+                            <tr>
+                                <td>100/36</td>
+                            </tr>
+                            <tr>
+                                <td>150/48,150/96,150/144</td>
+                            </tr>
+                            <tr>
+                                <td>300/96</td>
+                            </tr>
+                            <tr>
+                                <td>200/10,300/10</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="5" class="fw-600">Twisted Yarn<br>(DTY)</td>
+                                <td>75/36/1 (Low - High Twisted)</td>
+                                <td rowspan="5">SD</td>
+                                <td rowspan="5">Virgin & Recycled</td>
+                                <td rowspan="5">RW,DDB,DYED YARN</td>
+                            </tr>
+                            <tr>
+                                <td>100/48/1 (Low - High Twisted)</td>
+                            </tr>
+                            <tr>
+                                <td>150/36/1 (Low - High Twisted)</td>
+                            </tr>
+                            <tr>
+                                <td>150/36/2 (Low - High Twisted)</td>
+                            </tr>
+                            <tr>
+                                <td>150/48/1 (Low - High Twisted)</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="3" class="fw-600">Twisted Yarn<br>(FDY)</td>
+                                <td>75/36/1 (Low - High Twisted)</td>
+                                <td rowspan="3">SD,TBR</td>
+                                <td rowspan="3">Virgin & Recycled</td>
+                                <td rowspan="3">RW,DDB,DYED YARN</td>
+                            </tr>
+                            <tr>
+                                <td>100/36/1 (Low - High Twisted)</td>
+                            </tr>
+                            <tr>
+                                <td>150/48/1 (Low - High Twisted)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="content_block">
+                    <table class="wow @if($chkmo) animate__fadeInUpBig @else animate__backInUp @endif">
+                        <tr>
+                            <th width="25%">YARN TYPE</td>
+                            <th width="25%">NE</td>
+                            <th width="10%">LUSTER</td>
+                            <th width="20%">TYPE</td>
+                            <th width="20%">COLOR</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="4" class="fw-600">OE SPUN</td>
+                            <td>10/1,12/1,14/1</td>
+                            <td rowspan="4">SD</td>
+                            <td rowspan="4">Virgin & Recycled</td>
+                            <td rowspan="4">RW,DDB,MELANGE,DYED YARN</td>
+                        </tr>
+                        <tr>
+                            <td>18/1,20/1</td>
+                        </tr>
+                        <tr>
+                            <td>10/2</td>
+                        </tr>
+                        <tr>
+                            <td>20/2</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="5" class="fw-600">RING SPUN</td>
+                            <td>18/1,20/1</td>
+                            <td rowspan="5">SD</td>
+                            <td rowspan="5">Virgin & Recycled</td>
+                            <td rowspan="5">RW,DDB,MELANGE,DYED YARN</td>
+                        </tr>
+                        <tr>
+                            <td>18/1,30/1,32/1</td>
+                        </tr>
+                        <tr>
+                            <td>10/2</td>
+                        </tr>
+                        <tr>
+                            <td>20/2</td>
+                        </tr>
+                        <tr>
+                            <td>30/2</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="content_block">
+                    <table class="wow @if($chkmo) animate__fadeInUpBig @else animate__backInUp @endif">
+                        <thead>
+                            <tr>
+                                <th width="25%">YARN TYPE</td>
+                                <th width="25%">DENIER</td>
+                                <th width="10%">CUT<br> LENGTH<br> (MM)</td>
+                                <th width="20%">TYPE</td>
+                                <th width="20%">COLOR</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td rowspan="2" class="fw-600">PSF</td>
+                                <td>1.0,1.2</td>
+                                <td rowspan="2">32,38,44,51</td>
+                                <td rowspan="2">Virgin & Recycled</td>
+                                <td>RW</td>
+                            </tr>
+                            <tr>
+                                <td>1.4</td>
+                                <td>DDB</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
