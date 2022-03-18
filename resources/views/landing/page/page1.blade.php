@@ -1,7 +1,7 @@
 @extends('landing.template')
 @section('style')
     <link rel="stylesheet preload" href="/lib/animate/animate.min.css" as="style" crossorigin>
-    <link rel="preload stylesheet" href="/css/landing/page/page1.css" as="style" crossorigin>
+    <link rel="preload stylesheet" href="/css/landing/page/page1.css?v={{ time() }}" as="style" crossorigin>
     <link rel="stylesheet" id="fancybox-css" href="{!!asset('/assets/custom/wp-content/plugins/radiantthemes-addons/assets/css/jquery.fancybox.min.css?ver=4.9.11')!!}" type="text/css" media="all">
 @endsection
 @section('content')
@@ -127,11 +127,11 @@
                     <table class="wow @if($chkmo) animate__fadeInUpBig @else animate__backInUp @endif">
                         <thead>
                             <tr>
-                                <th width="25%">YARN TYPE</td>
-                                <th width="25%">D/F</td>
-                                <th width="10%">LUSTER</td>
-                                <th width="20%">TYPE</td>
-                                <th width="20%">COLOR</td>
+                                <th width="23.5%">YARN TYPE</td>
+                                <th width="23.5%">D/F</td>
+                                <th width="15%">LUSTER</td>
+                                <th width="19%">TYPE</td>
+                                <th width="19%">COLOR</td>
                             </tr>
                         </thead>
                         <tbody>
@@ -159,7 +159,7 @@
                                 <td>75/36,75/72,75/144</td>
                                 <td rowspan="4">SD</td>
                                 <td rowspan="4">Virgin & Recycled</td>
-                                <td rowspan="4">RW,DDB,DYED YARN</td>
+                                <td rowspan="4">RW,DDB,<br>DYED YARN</td>
                             </tr>
                             <tr>
                                 <td>100/36,100/48,100/96</td>
@@ -197,7 +197,7 @@
                                 <td>75/36/1 (Low - High Twisted)</td>
                                 <td rowspan="5">SD</td>
                                 <td rowspan="5">Virgin & Recycled</td>
-                                <td rowspan="5">RW,DDB,DYED YARN</td>
+                                <td rowspan="5">RW,DDB,<br>DYED YARN</td>
                             </tr>
                             <tr>
                                 <td>100/48/1 (Low - High Twisted)</td>
@@ -216,7 +216,7 @@
                                 <td>75/36/1 (Low - High Twisted)</td>
                                 <td rowspan="3">SD,TBR</td>
                                 <td rowspan="3">Virgin & Recycled</td>
-                                <td rowspan="3">RW,DDB,DYED YARN</td>
+                                <td rowspan="3">RW,DDB,<br>DYED YARN</td>
                             </tr>
                             <tr>
                                 <td>100/36/1 (Low - High Twisted)</td>
@@ -230,18 +230,18 @@
                 <div class="content_block">
                     <table class="wow @if($chkmo) animate__fadeInUpBig @else animate__backInUp @endif">
                         <tr>
-                            <th width="25%">YARN TYPE</td>
-                            <th width="25%">NE</td>
-                            <th width="10%">LUSTER</td>
-                            <th width="20%">TYPE</td>
-                            <th width="20%">COLOR</td>
+                            <th width="23.5%">YARN TYPE</td>
+                            <th width="23.5%">NE</td>
+                            <th width="15%">LUSTER</td>
+                            <th width="19%">TYPE</td>
+                            <th width="19%">COLOR</td>
                         </tr>
                         <tr>
                             <td rowspan="4" class="fw-600">OE SPUN</td>
                             <td>10/1,12/1,14/1</td>
                             <td rowspan="4">SD</td>
                             <td rowspan="4">Virgin & Recycled</td>
-                            <td rowspan="4">RW,DDB,MELANGE,DYED YARN</td>
+                            <td rowspan="4">RW,DDB,<br>MELANGE,<br>DYED YARN</td>
                         </tr>
                         <tr>
                             <td>18/1,20/1</td>
@@ -257,7 +257,7 @@
                             <td>18/1,20/1</td>
                             <td rowspan="5">SD</td>
                             <td rowspan="5">Virgin & Recycled</td>
-                            <td rowspan="5">RW,DDB,MELANGE,DYED YARN</td>
+                            <td rowspan="5">RW,DDB,<br>MELANGE,<br>DYED YARN</td>
                         </tr>
                         <tr>
                             <td>18/1,30/1,32/1</td>
@@ -277,18 +277,18 @@
                     <table class="wow @if($chkmo) animate__fadeInUpBig @else animate__backInUp @endif">
                         <thead>
                             <tr>
-                                <th width="25%">YARN TYPE</td>
-                                <th width="25%">DENIER</td>
-                                <th width="10%">CUT<br> LENGTH<br> (MM)</td>
-                                <th width="20%">TYPE</td>
-                                <th width="20%">COLOR</td>
+                                <th width="23.5%">YARN TYPE</td>
+                                <th width="23.5%">DENIER</td>
+                                <th width="15%">CUT<br> LENGTH<br> (MM)</td>
+                                <th width="19%">TYPE</td>
+                                <th width="19%">COLOR</td>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
                                 <td rowspan="2" class="fw-600">PSF</td>
                                 <td>1.0,1.2</td>
-                                <td rowspan="2">32,38,44,51</td>
+                                <td rowspan="2">32,38,44,<br>51</td>
                                 <td rowspan="2">Virgin & Recycled</td>
                                 <td>RW</td>
                             </tr>
