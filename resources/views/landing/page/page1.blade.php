@@ -364,6 +364,132 @@
                     </p>
                 </div>
             </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col4 psf-image">
+                <div class="col-xs-12 col-sm-12 col-md-4-5 p-0">
+                    <ul class="row m-0 p-0">
+                        <li class="col-xs-6 col-sm-6 col-md-6 p-0">
+                            <div class="img_block wow @if($chkmo) animate__flipInX @else animate__flipInY @endif">
+                                <picture>
+                                    <source srcset="\assets\images\landing\page1\mobile\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-White.webp" alt="PSF Polyester Staple Fiber Thaipolyester White" media="(max-width: 640px)" loading="lazy">
+                                    <img src="\assets\images\landing\page1\desktop\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-White.webp" width="900" height="350" class="img-fluid ab-img" alt="PSF Polyester Staple Fiber Thaipolyester White" loading="lazy">
+                                </picture>
+                            </div>
+                        </li>
+                        <li class="col-xs-6 col-sm-6 col-md-6 p-0">
+                            <div class="img_block wow @if($chkmo) animate__flipInX @else animate__flipInY @endif">
+                                <picture>
+                                    <source srcset="\assets\images\landing\page1\mobile\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-Black.webp" alt="PSF Polyester Staple Fiber Thaipolyester Black" media="(max-width: 640px)" loading="lazy">
+                                    <img src="\assets\images\landing\page1\desktop\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-Black.webp" width="900" height="350" class="img-fluid ab-img" alt="PSF Polyester Staple Fiber Thaipolyester Black" loading="lazy">
+                                </picture>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-3-75 p-0">
+                    <ul class="row m-0 p-0">
+                        <li class="col-xs-4 col-sm-4 col-md-4 p-0">
+                            <div class="img_block wow @if($chkmo) animate__flipInX @else animate__flipInY @endif">
+                                <picture>
+                                    <source srcset="\assets\images\landing\page1\mobile\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-Grey.webp" alt="PSF Polyester Staple Fiber Thaipolyester Grey" media="(max-width: 640px)" loading="lazy">
+                                    <img src="\assets\images\landing\page1\desktop\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-Grey.webp" width="900" height="350" class="img-fluid ab-img" alt="PSF Polyester Staple Fiber Thaipolyester Grey" loading="lazy">
+                                </picture>
+                            </div>
+                        </li>
+                        <li class="col-xs-4 col-sm-4 col-md-4 p-0">
+                            <div class="img_block wow @if($chkmo) animate__flipInX @else animate__flipInY @endif">
+                                <picture>
+                                    <source srcset="\assets\images\landing\page1\mobile\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-Light-Grey.webp" alt="PSF Polyester Staple Fiber Thaipolyester Light Grey" media="(max-width: 640px)" loading="lazy">
+                                    <img src="\assets\images\landing\page1\desktop\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-Light-Grey.webp" width="900" height="350" class="img-fluid ab-img" alt="PSF Polyester Staple Fiber Thaipolyester Light Grey" loading="lazy">
+                                </picture>
+                            </div>
+                        </li>
+                        <li class="col-xs-4 col-sm-4 col-md-4 p-0">
+                            <div class="img_block wow @if($chkmo) animate__flipInX @else animate__flipInY @endif">
+                                <picture>
+                                    <source srcset="\assets\images\landing\page1\mobile\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-Brown.webp" alt="PSF Polyester Staple Fiber Thaipolyester Brown" media="(max-width: 640px)" loading="lazy">
+                                    <img src="\assets\images\landing\page1\desktop\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-Brown.webp" width="900" height="350" class="img-fluid ab-img" alt="PSF Polyester Staple Fiber Thaipolyester Brown" loading="lazy">
+                                </picture>
+                            </div>
+                        </li>
+                        <li class="col-xs-4 col-sm-4 col-md-4 p-0">
+                            <div class="img_block wow @if($chkmo) animate__flipInX @else animate__flipInY @endif">
+                                <picture>
+                                    <source srcset="\assets\images\landing\page1\desktop\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-sea-blue-3.webp" alt="PSF Polyester Staple Fiber Thaipolyester sea blue" media="(max-width: 640px)" loading="lazy">
+                                    <img src="\assets\images\landing\page1\desktop\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-sea-blue-3.webp" width="900" height="350" class="img-fluid ab-img" alt="PSF Polyester Staple Fiber Thaipolyester sea blue" loading="lazy">
+                                </picture>
+                            </div>
+                        </li>
+                        <li class="col-xs-4 col-sm-4 col-md-4 p-0">
+                            <div class="img_block wow @if($chkmo) animate__flipInX @else animate__flipInY @endif">
+                                <picture>
+                                    <source srcset="\assets\images\landing\page1\mobile\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-sea-blue-2.webp" alt="PSF Polyester Staple Fiber Thaipolyester sea blue" media="(max-width: 640px)" loading="lazy">
+                                    <img src="\assets\images\landing\page1\desktop\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-sea-blue-2.webp" width="900" height="350" class="img-fluid ab-img" alt="PSF Polyester Staple Fiber Thaipolyester sea blue" loading="lazy">
+                                </picture>
+                            </div>
+                        </li>
+                        <li class="col-xs-4 col-sm-4 col-md-4 p-0">
+                            <div class="img_block wow @if($chkmo) animate__flipInX @else animate__flipInY @endif">
+                                <picture>
+                                    <source srcset="\assets\images\landing\page1\mobile\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-sea-blue-1.webp" alt="PSF Polyester Staple Fiber Thaipolyester sea blue" media="(max-width: 640px)" loading="lazy">
+                                    <img src="\assets\images\landing\page1\desktop\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-sea-blue-1.webp" width="900" height="350" class="img-fluid ab-img" alt="PSF Polyester Staple Fiber Thaipolyester sea blue" loading="lazy">
+                                </picture>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-3-75 p-0">
+                    <ul class="row m-0 p-0">
+                        <li class="col-xs-4 col-sm-4 col-md-4 p-0">
+                            <div class="img_block wow @if($chkmo) animate__flipInX @else animate__flipInY @endif">
+                                <picture>
+                                    <source srcset="\assets\images\landing\page1\mobile\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-magenta.webp" alt="PSF Polyester Staple Fiber Thaipolyester magenta" media="(max-width: 640px)" loading="lazy">
+                                    <img src="\assets\images\landing\page1\desktop\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-magenta.webp" width="900" height="350" class="img-fluid ab-img" alt="PSF Polyester Staple Fiber Thaipolyester magenta" loading="lazy">
+                                </picture>
+                            </div>
+                        </li>
+                        <li class="col-xs-4 col-sm-4 col-md-4 p-0">
+                            <div class="img_block wow @if($chkmo) animate__flipInX @else animate__flipInY @endif">
+                                <picture>
+                                    <source srcset="\assets\images\landing\page1\mobile\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-Orenge.webp" alt="PSF Polyester Staple Fiber Thaipolyester Orenge" media="(max-width: 640px)" loading="lazy">
+                                    <img src="\assets\images\landing\page1\desktop\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-Orenge.webp" width="900" height="350" class="img-fluid ab-img" alt="PSF Polyester Staple Fiber Thaipolyester Orenge" loading="lazy">
+                                </picture>
+                            </div>
+                        </li>
+                        <li class="col-xs-4 col-sm-4 col-md-4 p-0">
+                            <div class="img_block wow @if($chkmo) animate__flipInX @else animate__flipInY @endif">
+                                <picture>
+                                    <source srcset="\assets\images\landing\page1\mobile\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-Pink.webp" alt="PSF Polyester Staple Fiber Thaipolyester Pink" media="(max-width: 640px)" loading="lazy">
+                                    <img src="\assets\images\landing\page1\desktop\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-Pink.webp" width="900" height="350" class="img-fluid ab-img" alt="PSF Polyester Staple Fiber Thaipolyester Pink" loading="lazy">
+                                </picture>
+                            </div>
+                        </li>
+                        <li class="col-xs-4 col-sm-4 col-md-4 p-0">
+                            <div class="img_block wow @if($chkmo) animate__flipInX @else animate__flipInY @endif">
+                                <picture>
+                                    <source srcset="\assets\images\landing\page1\mobile\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-blue.webp" alt="PSF Polyester Staple Fiber Thaipolyester blue" media="(max-width: 640px)" loading="lazy">
+                                    <img src="\assets\images\landing\page1\desktop\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-blue.webp" width="900" height="350" class="img-fluid ab-img" alt="PSF Polyester Staple Fiber Thaipolyester blue" loading="lazy">
+                                </picture>
+                            </div>
+                        </li>
+                        <li class="col-xs-4 col-sm-4 col-md-4 p-0">
+                            <div class="img_block wow @if($chkmo) animate__flipInX @else animate__flipInY @endif">
+                                <picture>
+                                    <source srcset="\assets\images\landing\page1\mobile\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-sea-blue.webp" alt="PSF Polyester Staple Fiber Thaipolyester sea blue" media="(max-width: 640px)" loading="lazy">
+                                    <img src="\assets\images\landing\page1\desktop\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-sea-blue.webp" width="900" height="350" class="img-fluid ab-img" alt="PSF Polyester Staple Fiber Thaipolyester sea blue" loading="lazy">
+                                </picture>
+                            </div>
+                        </li>
+                        <li class="col-xs-4 col-sm-4 col-md-4 p-0">
+                            <div class="img_block wow @if($chkmo) animate__flipInX @else animate__flipInY @endif">
+                                <picture>
+                                    <source srcset="\assets\images\landing\page1\mobile\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-Green.webp" alt="PSF Polyester Staple Fiber Thaipolyester Green" media="(max-width: 640px)" loading="lazy">
+                                    <img src="\assets\images\landing\page1\desktop\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-Green.webp" width="900" height="350" class="img-fluid ab-img" alt="PSF Polyester Staple Fiber Thaipolyester Green" loading="lazy">
+                                </picture>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </section>
     <section id="sec5">
