@@ -14,6 +14,13 @@
     <meta name="description" content="@if(isset($des)){{$des}}@endif">
     <meta name="keywords" content="@if(isset($key)){{$key}}@endif">
     <meta name="author" content="TCP">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.jongstit.com/th">
+    <meta property="og:title" content="@if(isset($title)){{$title}}@endif">
+    <meta property="og:image" content="@yield('og-image')">
+    <meta property="og:image:type" content="image/webp">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
     <link rel="shortcut icon" href="{{ asset('assets/custom/images/home/Logo-01.webp')}}">
 
     <!-- Google Tag Manager -->

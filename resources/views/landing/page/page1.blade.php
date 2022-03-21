@@ -4,6 +4,7 @@
     <link rel="preload stylesheet" href="/css/landing/page/page1.min.css?v={{ time() }}" as="style" crossorigin>
     <link rel="stylesheet" id="fancybox-css" href="{!!asset('/assets/custom/wp-content/plugins/radiantthemes-addons/assets/css/jquery.fancybox.min.css?ver=4.9.11')!!}" type="text/css" media="all">
 @endsection
+@section('og-image','')
 @section('content')
 <div id="landing" class="thank-open">
     <div class="thank" >
@@ -557,7 +558,7 @@
             <li class="col-xs-3 col-sm-3 col-md-1-5 p-0">
                 <div class="content_block">
                     <div class="img_block wow @if($chkmo) animate__backInUp @else animate__fadeInLeftBig @endif" data-wow-delay="0.6s">
-                        <a title="#" title="OE Open End Spun Yarn Polyester" target="_blank">
+                        <a href="{!!url('/open-end')!!}" title="OE Open End Spun Yarn Polyester" target="_blank">
                             <picture>
                                 <source srcset="\assets\images\landing\page1\mobile\new-image\OE-Open-End-Spun-Yarn-Polyester-Thaipolyester.webp" alt="OE Open End Spun Yarn Polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
                                 <img src="\assets\images\landing\page1\desktop\new-image\OE-Open-End-Spun-Yarn-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="OE Open End Spun Yarn Polyester Thaipolyester" loading="lazy">
