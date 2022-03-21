@@ -278,42 +278,30 @@
                         </tr>
                     </table>
                 </div>
-                {{-- <div class="content_block">
-                    <table class="wow @if($chkmo) animate__fadeInUpBig @else animate__backInUp @endif">
-                        <thead>
-                            <tr>
-                                <th width="23.5%">YARN TYPE</td>
-                                <th width="23.5%">DENIER</td>
-                                <th width="15%">CUT<br> LENGTH<br> (MM)</td>
-                                <th width="19%">TYPE</td>
-                                <th width="19%">COLOR</td>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td rowspan="2" class="fw-600">PSF</td>
-                                <td>1.0,1.2</td>
-                                <td rowspan="2">32,38,44,<br>51</td>
-                                <td rowspan="2">Virgin & Recycled</td>
-                                <td>RW</td>
-                            </tr>
-                            <tr>
-                                <td>1.4</td>
-                                <td>DDB</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div> --}}
             </div>
         </div>
     </section>
-    <section id="sec4-1" class="bg-black">
+    <section id="sec5" class="bg-black">
         <div class="row r1 m-0">
             <div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
                 <div class="content_block d-flex pos-r">
                     <div class="content_group m-auto text-center">
                         <h2 class="green-hl">“PSF”</h2>
-                        <h3 class="green-hl">Recommended item</h3>
+                        <h3 class="green-hl">
+                            <div class="img_block d-inline-b">
+                                <picture>
+                                    <source srcset="\assets\images\landing\page1\mobile\new-image\star-Icon.webp" alt="Recommended item" media="(max-width: 640px)" loading="lazy">
+                                    <img src="\assets\images\landing\page1\desktop\new-image\star-Icon.webp" width="900" height="350" class="img-fluid ab-img" alt="Recommended item" loading="lazy">
+                                </picture>
+                            </div>
+                            Recommended item
+                            <div class="img_block d-inline-b">
+                                <picture>
+                                    <source srcset="\assets\images\landing\page1\mobile\new-image\star-Icon.webp" alt="Recommended item" media="(max-width: 640px)" loading="lazy">
+                                    <img src="\assets\images\landing\page1\desktop\new-image\star-Icon.webp" width="900" height="350" class="img-fluid ab-img" alt="Recommended item" loading="lazy">
+                                </picture>
+                            </div>
+                        </h3>
                     </div>
                 </div>
             </div>
@@ -492,7 +480,7 @@
             </div>
         </div>
     </section>
-    <section id="sec5">
+    <section id="sec6">
         <ul class="row m-0">
             <li class="col-xs-3 col-sm-3 col-md-1-5 p-0">
                 <div class="content_block">
@@ -592,7 +580,7 @@
             </li>
         </ul>
     </section>
-    <section id="sec6">
+    <section id="sec7">
         <div class="row r1 m-0">
             <div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
                 <div class="content_block d-flex pos-r">
@@ -613,12 +601,12 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 p-0 col3">
                 <div class="content_block d-flex pos-r">
-                    <a href="#sec15" id="get_free" title="Get Free Samples" class="text-center m-auto wow animate__bounce">GET FREE Samples</a>
+                    <a href="#sec16" id="get_free" title="Get Free Samples" class="text-center m-auto wow animate__bounce">GET FREE Samples</a>
                 </div>
             </div>
         </div>
     </section>
-    <section id="sec7">
+    <section id="sec8">
         <div class="row r1 m-0">
             <div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
                 <div class="content_block d-flex pos-r">
@@ -661,7 +649,7 @@
             </div>
         </div>
     </section>
-    <section id="sec8">
+    <section id="sec9">
         <div class="row r1 m-0">
             <div class="col-xs-12 col-sm-12 col-md-12 p-0">
                 <div class="content_block pos-r">
@@ -675,7 +663,7 @@
             </div>
         </div>
     </section>
-    <section id="sec9" class="bg-black">
+    <section id="sec10" class="bg-black">
         <div class="row r1 m-0">
             <div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
                 <div class="content_block d-flex pos-r">
@@ -699,7 +687,7 @@
             </div>
         </div>
     </section>
-    <section id="sec10">
+    <section id="sec11">
         <div class="row r1 m-0">
             <div class="col-xs-12 col-sm-12 col-md-12 p-0">
                 <div class="content_block d-flex pos-r">
@@ -710,7 +698,7 @@
             </div>
         </div>
     </section>
-    <section id="sec11">
+    <section id="sec12">
         <ul class="row m-0">
             <li class="col-xs-12 col-sm-12 col-md-3">
                 <div class="content_block pos-r">
@@ -754,7 +742,7 @@
             </li>
         </ul>
     </section>
-    <section id="sec12">
+    <section id="sec13">
         <div class="row r1 m-0">
             <div class="col-xs-12 col-sm-12 col-md-12 p-0">
                 <div class="content_block d-flex pos-r">
@@ -765,7 +753,7 @@
             </div>
         </div>
     </section>
-    <section id="sec13">
+    <section id="sec14">
         <ul class="row r1 m-0 d-flex">
             <li class="col-xs-12 col-sm-12 col-md-6">
                 <div class="content_block pos-r">
@@ -819,7 +807,7 @@
             </li>
         </ul>
     </section>
-    <section id="sec14">
+    <section id="sec15">
         <div class="row r1 m-0">
             <div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
                 <div class="content_block d-flex pos-r">
@@ -844,7 +832,7 @@
             </div>
         </div>
     </section>
-    <section id="sec15" class="bg-black">
+    <section id="sec16" class="bg-black">
         <div class="row r1 m-0">
             <div class="col-xs-12 col-sm-12 col-md-12 p-0">
                 <div class="content_block d-flex pos-r">
@@ -886,7 +874,7 @@
             </div>
         </div>
     </section>
-    <section id="sec16" class="bg-gray">
+    <section id="sec17" class="bg-gray">
         <div class="row r1 m-0">
             <div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
                 <div class="content_block d-flex pos-r">
@@ -1043,7 +1031,7 @@
             </div>
         </div>
     </section>
-    <section id="sec17" class="bg-gray">
+    <section id="sec18" class="bg-gray">
         <div class="row r1 m-0">
             <div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
                 <div class="content_block d-flex pos-r">
