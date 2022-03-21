@@ -129,8 +129,14 @@
     height: 30px;
     padding: 5px;
 }
+#sec5 .r1 .content_block table td.psf-font-1{
+    font-size: 22px !important;
+}
+#sec5 .r1 .content_block table td.psf-font-2{
+    font-size: 20px !important;
+}
 #sec5 .r1 .content_block{
-    padding: 0px 150px;
+    padding: 30px 150px 0px;
     margin-bottom: 30px;
 }
 #sec5 .r1 .content_block h2{
@@ -565,6 +571,12 @@
     #sec5 .r1 .psf-image{
         padding: 30px 30px;
     }
+    #sec5 .r1 .content_block table td.psf-font-1{
+        font-size: 17px !important;
+    }
+    #sec5 .r1 .content_block table td.psf-font-2{
+        font-size: 16px !important;
+    }
 
     /* End Sec5 */
 
@@ -758,7 +770,14 @@
 
     /* End Sec18 */
 }
-
+@media only screen and (max-width: 330px){
+    #sec5 .r1 .content_block table td.psf-font-1{
+        font-size: 12.6px !important;
+    }
+    #sec5 .r1 .content_block table td.psf-font-2{
+        font-size: 10.6px !important;
+    }
+}
 @media only screen and (min-width: 992px){
     #sec3 .r1 .col-md-6-5{
         width: 55.8% !important;
