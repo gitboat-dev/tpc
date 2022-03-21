@@ -4,7 +4,7 @@
     <link rel="preload stylesheet" href="/css/landing/page/page1.min.css?v={{ time() }}" as="style" crossorigin>
     <link rel="stylesheet" id="fancybox-css" href="{!!asset('/assets/custom/wp-content/plugins/radiantthemes-addons/assets/css/jquery.fancybox.min.css?ver=4.9.11')!!}" type="text/css" media="all">
 @endsection
-@section('og-image','')
+@section('og-image','\assets\images\landing\page1\og-image\og-image.jpg')
 @section('content')
 <div id="landing" class="thank-open">
     <div class="thank" >
@@ -51,8 +51,8 @@
             <div class="col-xs-12 col-sm-12 col-md-12 p-0">
                 <div class="content_block d-flex pos-r">
                     <div class="content_group m-auto text-center">
-                        <p class="p1 wow animate__fadeInUpBig">Growing your sales by</p>
-                        <p class="p2 red-hl wow animate__bounceInUp">30%</p>
+                        <p class="p1 wow animate__fadeIn">Growing your sales by</p>
+                        <p class="p2 red-hl wow animate__bounceIn">30%</p>
                         <p class="p3 wow animate__fadeInUpBig">
                             with our high-efficiency polyester yarn and<br>
                             a modern German system
@@ -67,14 +67,14 @@
             <div class="col-xs-12 col-sm-12 col-md-12 p-0">
                 <div class="content_block d-flex pos-r">
                     <div class="content_group m-auto">
-                        <p class="p1">
+                        <p class="p1 wow @if($chkmo) animate__fadeInUpBig @else animate__backInRight @endif">
                             To achieve that, you need to have an expert system in the production process that
                             produces superior products! Because of the high technology used in our production line,
                             <label class="green-hl">your defective rate will be reduced.</label> Our ready-to-ship stock can <label class="green-hl">save you a lot of time.</label>
                             And typically, the superiority of having a GRS certificate to guarantee that your product
                             is genuinely recycled can <label class="green-hl">add more value to your product and is trusted globally.</label>
                         </p>
-                        <p class="p2 text-center">
+                        <p class="p2 text-center wow @if($chkmo) animate__fadeInUpBig @else animate__backInLeft @endif">
                             These explain why we are specialized in the textile industry,<br>
                             with expertise in POLYESTER.
                         </p>
@@ -123,7 +123,7 @@
     <section id="sec4">
         <div class="row r1 m-0">
             <div class="col-xs-12 col-sm-12 col-md-12 p-0">
-                <h2 class="text-center m-0">
+                <h2 class="text-center m-0 wow @if($chkmo) animate__fadeInUpBig @else animate__pulse @endif">
                     <label class="theme-hl">100% POLYESTER YARN</label><br>
                     PRODUCT LIST
                 </h2>
@@ -387,8 +387,8 @@
             <div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
                 <div class="content_block d-flex pos-r">
                     <div class="content_group m-auto text-center">
-                        <h2 class="green-hl">“PSF”</h2>
-                        <h3 class="green-hl">
+                        <h2 class="green-hl wow @if($chkmo) animate__fadeInUpBig @else animate__heartBeat @endif">“PSF”</h2>
+                        <h3 class="green-hl wow @if($chkmo) animate__fadeInUpBig @else animate__lightSpeedInLeft @endif">
                             <div class="img_block d-inline-b">
                                 <picture>
                                     <source srcset="\assets\images\landing\page1\mobile\new-image\star-Icon.webp" alt="Recommended item" media="(max-width: 640px)" loading="lazy">
@@ -447,7 +447,7 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 p-0 col3">
                 <div class="content_block d-flex pos-r">
-                    <p class="p1 m-auto text-center">
+                    <p class="p1 m-auto text-center wow @if($chkmo) animate__fadeInUpBig @else animate__fadeIn @endif">
                         Our high-quality product can produce premium yarn grades and we are trusted by spinning mills all
                         over the world.
                     </p>
@@ -585,7 +585,7 @@
         <div class="row r1 m-0">
             <div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
                 <div class="content_block d-flex pos-r">
-                    <h2 class="theme-hl text-center m-auto">
+                    <h2 class="theme-hl text-center m-auto wow @if($chkmo) animate__fadeInUpBig @else animate__zoomIn @endif">
                         Why not go with the right supplier?<br>
                         Who is always ready to provide you with<br>
                         superior products and services!
@@ -594,7 +594,7 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 p-0 col2">
                 <div class="content_block d-flex pos-r">
-                    <p class="p1 text-center m-auto">
+                    <p class="p1 text-center m-auto wow @if($chkmo) animate__fadeInUpBig @else animate__zoomIn @endif">
                         You will have no risks using our products; the only risk you’d have is not choosing us.<br>
                         So don’t let your competitor get a better opportunity.
                     </p>
@@ -611,7 +611,7 @@
         <div class="row r1 m-0">
             <div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
                 <div class="content_block d-flex pos-r">
-                    <h2 class="text-center m-auto">
+                    <h2 class="text-center m-auto wow @if($chkmo) animate__fadeInUpBig @else animate__zoomIn @endif">
                         Two reasons why you can compete in the<br>
                         market with our service…
                     </h2>
@@ -619,14 +619,14 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 p-0 col2">
                 <div class="content_block d-flex pos-r">
-                    <h2 class="red-hl text-center m-auto">
+                    <h2 class="red-hl text-center m-auto wow @if($chkmo) animate__fadeInUpBig @else animate__lightSpeedInLeft @endif">
                         <span class="circle">1</span> 30% Higher profit
                     </h2>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 p-0 col3">
                 <div class="content_block d-flex pos-r">
-                    <p class="p1 text-center m-auto">
+                    <p class="p1 text-center m-auto wow @if($chkmo) animate__fadeInUpBig @else animate__zoomIn @endif">
                         We own a spinning mill and a knitting mill; that’s why the price is under our control. Also, the<br>
                         experience taught us that the more manufacturers invested with the right supplier, the more<br>
                         profitable they could gain.
@@ -635,14 +635,14 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 p-0 col4">
                 <div class="content_block d-flex pos-r">
-                    <h2 class="red-hl text-center m-auto">
+                    <h2 class="red-hl text-center m-auto wow @if($chkmo) animate__fadeInUpBig @else animate__lightSpeedInLeft @endif">
                         <span class="circle">2</span> We're top 3 in Thailand
                     </h2>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 p-0 col5">
                 <div class="content_block d-flex pos-r">
-                    <p class="p1 text-center m-auto">
+                    <p class="p1 text-center m-auto wow @if($chkmo) animate__fadeInUpBig @else animate__zoomIn @endif">
                         With our 80 years of experience, we can help you figure out solutions!<br>
                         We are certified by Intertek, GRS, and OEKO-tex standards.
                     </p>
@@ -702,7 +702,7 @@
         <div class="row r1 m-0">
             <div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
                 <div class="content_block d-flex pos-r">
-                    <h2 class="green-hl ml-0">
+                    <h2 class="green-hl ml-0 wow @if($chkmo) animate__fadeInUpBig @else animate__bounceInDown @endif">
                         3 things will cause you to lose more money<br>
                         and waste more time if you trust the wrong supplier
                     </h2>
@@ -711,7 +711,7 @@
             <div class="col-xs-12 col-sm-12 col-md-12 p-0 col2">
                 <div class="content_block d-flex pos-r">
                     <div class="content_group ml-0">
-                        <p class="p1">
+                        <p class="p1 wow @if($chkmo) animate__fadeInUpBig @else animate__lightSpeedInLeft @endif">
                             <label class="green-hl">1. Disappointed in results</label> - When those unsatisfactory defects ruin your expectations.<br>
                             <label class="green-hl">2. You don't have the right supplier</label> - No one knows when investing in the wrong supplier.<br>
                             <label class="green-hl">3. Long lead-time</label> - can cause many damages, so where does that leave you?
@@ -726,7 +726,7 @@
         <div class="row r1 m-0">
             <div class="col-xs-12 col-sm-12 col-md-12 p-0">
                 <div class="content_block d-flex pos-r">
-                    <h2 class="red-hl text-center m-auto">
+                    <h2 class="red-hl text-center m-auto wow @if($chkmo) animate__fadeInUpBig @else animate__zoomInLeft @endif">
                         With Thai Polyester Company (TPC), you’ll get
                     </h2>
                 </div>
@@ -781,7 +781,7 @@
         <div class="row r1 m-0">
             <div class="col-xs-12 col-sm-12 col-md-12 p-0">
                 <div class="content_block d-flex pos-r">
-                    <h2 class="text-center m-auto">
+                    <h2 class="text-center m-auto wow @if($chkmo) animate__fadeInUpBig @else animate__zoomInRight @endif">
                         Read what our customers have to say about us:
                     </h2>
                 </div>
@@ -846,7 +846,7 @@
         <div class="row r1 m-0">
             <div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
                 <div class="content_block d-flex pos-r">
-                    <h2 class="text-center m-auto">
+                    <h2 class="text-center m-auto wow @if($chkmo) animate__fadeInUpBig @else animate__zoomIn @endif">
                         THIS MAY BE THE MOST IMPORTANT<br>
                         DECISION YOU EVER MAKE
                     </h2>
@@ -854,7 +854,7 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 p-0 col2">
                 <div class="content_block pos-r">
-                    <p class="p1">
+                    <p class="p1 wow @if($chkmo) animate__fadeInUpBig @else animate__lightSpeedInLeft @endif">
                         Even after everything you have read about TPC, you may still be on the fence.<br>
                         At this point, you can go in 1 of 2 directions.<br>
                         <label class="theme-hl">1. You can try our product as a sample for FREE!</label><br>
@@ -871,7 +871,7 @@
         <div class="row r1 m-0">
             <div class="col-xs-12 col-sm-12 col-md-12 p-0">
                 <div class="content_block d-flex pos-r">
-                    <div class="content_group m-auto">
+                    <div class="content_group m-auto wow @if($chkmo) animate__flipInY @else animate__flipInY @endif">
                         <h2 class="theme-hl text-center">
                             Get FREE SAMPLE<br>
                             Now!
@@ -913,7 +913,7 @@
         <div class="row r1 m-0">
             <div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
                 <div class="content_block d-flex pos-r">
-                    <h2 class="text-center">
+                    <h2 class="text-center wow @if($chkmo) animate__fadeInUpBig @else animate__zoomIn @endif">
                         <i>Get in touch with us !</i>
                     </h2>
                 </div>
@@ -922,7 +922,7 @@
         <div class="row r2 m-0">
             <div class="col-xs-12 col-sm-12 col-md-3 p-0 col1">
                 <div class="content_block d-flex pos-r">
-                    <div class="content_group">
+                    <div class="content_group wow @if($chkmo) animate__fadeInUpBig @else animate__zoomIn @endif">
                         <div class="img_block">
                             <picture>
                                 <source srcset="\assets\images\landing\page1\mobile\Icon-landing-page-TPC-Thai-Polyester-Phone.webp" alt="Phone" media="(max-width: 640px)" loading="lazy">
@@ -939,7 +939,7 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-3 p-0 col2">
                 <div class="content_block d-flex pos-r">
-                    <div class="content_group">
+                    <div class="content_group wow @if($chkmo) animate__fadeInUpBig @else animate__zoomIn @endif">
                         <div class="img_block">
                             <picture>
                                 <source srcset="\assets\images\landing\page1\mobile\Icon-landing-page-TPC-Thai-Polyester-Email.webp" alt="Email" media="(max-width: 640px)" loading="lazy">
@@ -956,7 +956,7 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-3 p-0 col3">
                 <div class="content_block d-flex pos-r">
-                    <div class="content_group">
+                    <div class="content_group wow @if($chkmo) animate__fadeInUpBig @else animate__zoomIn @endif">
                         <div class="img_block">
                             <picture>
                                 <source srcset="\assets\images\landing\page1\mobile\Icon-landing-page-TPC-Thai-Polyester-Website.webp" alt="Website" media="(max-width: 640px)" loading="lazy">
@@ -973,7 +973,7 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-3 p-0 col4">
                 <div class="content_block d-flex pos-r">
-                    <div class="content_group">
+                    <div class="content_group wow @if($chkmo) animate__fadeInUpBig @else animate__zoomIn @endif">
                         <div class="img_block">
                             <picture>
                                 <source srcset="\assets\images\landing\page1\mobile\Icon-landing-page-TPC-Thai-Polyester-Whatsapp.webp" alt="Whatsapp" media="(max-width: 640px)" loading="lazy">
@@ -992,7 +992,7 @@
         <div class="row r3 m-0">
             <div class="col-xs-12 col-sm-12 col-md-3 p-0 col1">
                 <div class="content_block d-flex pos-r">
-                    <div class="content_group">
+                    <div class="content_group wow @if($chkmo) animate__fadeInUpBig @else animate__zoomIn @endif">
                         <div class="img_block">
                             <picture>
                                 <source srcset="\assets\images\landing\page1\mobile\Icon-landing-page-TPC-Thai-Polyester-Address.webp" alt="Address" media="(max-width: 640px)" loading="lazy">
@@ -1005,7 +1005,7 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-3 p-0 col2">
                 <div class="content_block d-flex pos-r">
-                    <div class="content_group">
+                    <div class="content_group wow @if($chkmo) animate__fadeInUpBig @else animate__zoomIn @endif">
                         <h3 class="theme-hl text-center">Head Office :</h3>
                         <p class="text-center">
                             470 Bangkuntien-Chaitaley<br>
@@ -1022,7 +1022,7 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-3 p-0 col3">
                 <div class="content_block d-flex pos-r">
-                    <div class="content_group">
+                    <div class="content_group wow @if($chkmo) animate__fadeInUpBig @else animate__zoomIn @endif">
                         <h3 class="theme-hl text-center">Factory :</h3>
                         <p class="text-center">
                             888 Moo1, Highway 331 Km.65<br>
@@ -1039,7 +1039,7 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-3 p-0 col4">
                 <div class="content_block d-flex pos-r">
-                    <div class="content_group">
+                    <div class="content_group wow @if($chkmo) animate__fadeInUpBig @else animate__zoomIn @endif">
                         <h3 class="theme-hl text-center">Sales Office :</h3>
                         <p class="text-center">
                             Jongstit Park 99 Moo1,<br>
@@ -1059,7 +1059,7 @@
         <div class="row r4 m-0">
             <div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
                 <div class="content_block d-flex pos-r">
-                    <p class="p1 text-center m-auto">
+                    <p class="p1 text-center m-auto wow @if($chkmo) animate__bounce @else animate__bounce @endif">
                         copyr ight c 2019 Thai polyes ter Co. ,Ltd. Al l r ight s reserved.
                     </p>
                 </div>
@@ -1070,14 +1070,14 @@
         <div class="row r1 m-0">
             <div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
                 <div class="content_block d-flex pos-r">
-                    <h2 class="text-center">
+                    <h2 class="text-center wow @if($chkmo) animate__bounce @else animate__bounce @endif">
                         About US
                     </h2>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 p-0 col2">
                 <div class="content_block d-flex pos-r">
-                    <p class="p1 m-auto">
+                    <p class="p1 m-auto wow @if($chkmo) animate__backInLeft @else animate__backInLeft @endif">
                         Thai Polyester Company (TPC) was founded in 2001. We are a vertically integrated fiber polyester
                         manufacturer with a total capacity of 316,800 tons per year, utilizing innovative technology
                         worldwide. TPC is a registered company specializing in polyester yarn, fiber, and filament. We
