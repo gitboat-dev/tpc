@@ -980,7 +980,7 @@
                             Bangkok 10150 Thailand
                         </p>
                         <div class="text-center">
-                            <a class="a-map" title="Map Head Office Thai Polyester" href="/assets/images/contact/TPC Map-02.webp" data-fancybox="gallery" data-thumbnail-src="/assets/images/contact/TPC Map-02.webp">
+                            <a class="a-map" title="Map Head Office Thai Polyester" href="/assets/images/contact/TPC Map-02.webp?v={{time()}}" data-fancybox="gallery" data-thumbnail-src="/assets/images/contact/TPC Map-02.webp?v={{time()}}">
                                 Map
                             </a>
                         </div>
@@ -997,7 +997,7 @@
                             Chonburi 20220 Thailand
                         </p>
                         <div class="text-center">
-                            <a class="a-map" title="Map Factory Thai Polyester" href="/assets/images/contact/TPC Map-03.webp" data-fancybox="gallery" data-thumbnail-src="/assets/images/contact/TPC Map-03.webp">
+                            <a class="a-map" title="Map Factory Thai Polyester" href="/assets/images/contact/TPC Map-03.webp?v={{time()}}" data-fancybox="gallery" data-thumbnail-src="/assets/images/contact/TPC Map-03.webp?v={{time()}}">
                                 Map
                             </a>
                         </div>
@@ -1015,7 +1015,7 @@
                             Samutsakorn 74110 Thailand
                         </p>
                         <div class="text-center">
-                            <a class="a-map" title="Map Sale Office Office Thai Polyester" href="/assets/images/contact/TPC Map-01.webp" data-fancybox="gallery" data-thumbnail-src="/assets/images/contact/TPC Map-01.webp">
+                            <a class="a-map" title="Map Sale Office Office Thai Polyester" href="/assets/images/contact/TPC Map-01.webp?v={{time()}}" data-fancybox="gallery" data-thumbnail-src="/assets/images/contact/TPC Map-01.webp?v={{time()}}">
                                 Map
                             </a>
                         </div>
