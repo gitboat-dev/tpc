@@ -1065,5 +1065,5 @@
         wow.init();
     </script>
     <script src="/assets/custom/wp-content/plugins/radiantthemes-addons/assets/js/jquery.fancybox.min.js?v={{ time() }}"></script>
-    <script src="/js/landing/page/page1.min.js"></script>
+    <script src="/js/landing/page/page1.min.js?v={{ time() }}"></script>
 @endsection
