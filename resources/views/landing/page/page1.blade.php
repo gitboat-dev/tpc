@@ -6,7 +6,7 @@
 @endsection
 @section('og-image','\assets\images\landing\page1\og-image\og-image.webp')
 @section('content')
-<div id="landing" class="thank-open">
+<div id="landing">
     <div class="thank" >
         <div class="thank-dialog">
             <div class="thank-content">
