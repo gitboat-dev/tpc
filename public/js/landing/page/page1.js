@@ -65,7 +65,7 @@ $(document).ready(function(){
 	});
 });
 function thank_you(){
-    $('body').addClass('thank-open');
+    window.location.href = "/landing/thank-you";
 }
 function checkData(f){
 	var name = f.find('#name'),
