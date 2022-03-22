@@ -20,7 +20,7 @@ class landingPageController extends Controller {
         ];
         return view('landing.page.page1',$data);
     }
-    public function thank_you(){
+    public function thank_you1(){
         $chkie = new Func_controller;
         $agent = new Agent();
         $data = [
@@ -30,6 +30,6 @@ class landingPageController extends Controller {
             'key' => "High-Quality Polyester Yarn and Fiber,Competitive price,Get FREE Sample",
             'chkmo' => $data['chkmobile'] = $agent->isMobile() ? $agent->isMobile() : ($agent->isTablet() ? $agent->isTablet() : false),
         ];
-        return view('landing.thank-you.thank',$data);
+        return view('landing.thank-you.thank1',$data);
     }
 }
