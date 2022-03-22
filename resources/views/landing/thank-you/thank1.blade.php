@@ -2,7 +2,6 @@
 @section('style')
     <link rel="stylesheet preload" href="/lib/animate/animate.min.css" as="style" crossorigin>
     <link rel="preload stylesheet" href="/css/landing/thank-you/thank1.min.css?v={{ time() }}" as="style" crossorigin>
-    <link rel="stylesheet" id="fancybox-css" href="{!!asset('/assets/custom/wp-content/plugins/radiantthemes-addons/assets/css/jquery.fancybox.min.css?ver=4.9.11')!!}" type="text/css" media="all">
 @endsection
 @section('og-image','\assets\images\landing\page1\og-image\og-image.webp')
 @section('content')
