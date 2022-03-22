@@ -1,9 +1,9 @@
-@extends('layouts.template')
+@extends('thank-you.layouts.template')
 @section('style')
     <link rel="stylesheet preload" href="/lib/animate/animate.min.css" as="style" crossorigin>
     <link rel="preload stylesheet" href="/css/thank-you/thank1.min.css?v={{ time() }}" as="style" crossorigin>
 @endsection
-{{-- @section('og-image','\assets\images\landing\page1\og-image\og-image.webp') --}}
+@section('og-image','\assets\images\landing\page1\og-image\og-image.webp')
 @section('content')
 <div id="landing">
     <div class="thank wow animate__zoomIn">

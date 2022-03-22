@@ -314,6 +314,18 @@ Route::get('/recycled-ring-spun', function () {
 });
 // end สินค้า Recycled
 
+Route::get('/thank-you', function () {
+    $chkie = new Func_controller;
+    $agent = new Agent();
+    $data = [
+        'chkie' => $chkie->chk(),
+        'title' => "Thank you!",
+        'des' => "Your submission has been received.",
+        'key' => "High-Quality Polyester Yarn and Fiber,Competitive price,Get FREE Sample",
+        'chkmo' => $data['chkmobile'] = $agent->isMobile() ? $agent->isMobile() : ($agent->isTablet() ? $agent->isTablet() : false),
+    ];
+    return view('thank-you.thank1',$data);
+});
 Route::group(['prefix' => 'blog', 'as' => 'blog.'], function () {
 	Route::get('/', 'frontend\blog\blogController@index');
 	Route::get('/{slug}', 'frontend\blog\blogController@blog');
