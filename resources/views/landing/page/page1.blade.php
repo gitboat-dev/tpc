@@ -67,7 +67,7 @@
             <div class="col-xs-12 col-sm-12 col-md-12 p-0">
                 <div class="content_block d-flex pos-r">
                     <div class="content_group m-auto">
-                        <p class="p1 wow @if($chkmo) animate__fadeInUpBig @else animate__backInRight @endif">
+                        <p class="p1 wow @if($chkmo) animate__fadeInUpBig @else animate__backInRight @endif" data-wow-delay="0.2s">
                             To achieve that, you need to have an expert system in the production process that
                             produces superior products! Because of the high technology used in our production line,
                             <label class="green-hl">your defective rate will be reduced.</label> Our ready-to-ship stock can <label class="green-hl">save you a lot of time.</label>
@@ -655,44 +655,54 @@
             <div class="content_block pos-r d-flex">
                 <div class="col-xs-6 col-sm-6 col-md-4-25 p-0 col1">
                     <div class="img_block wow @if($chkmo) animate__bounceInUp @else animate__flipInY @endif d-flex">
-                        <picture>
-                            <source srcset="\assets\images\landing\page1\mobile\new-image\intertek-Certificate-of-Registration-thaipolyester.webp" alt="intertek Certificate of Registration thaipolyester" media="(max-width: 640px)" loading="lazy">
-                            <img src="\assets\images\landing\page1\desktop\new-image\intertek-Certificate-of-Registration-thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="intertek Certificate of Registration thaipolyester" loading="lazy">
-                        </picture>
+                        <a title="intertek Certificate of Registration thaipolyester" href="\assets\images\landing\page1\desktop\new-image\intertek-Certificate-of-Registration-thaipolyester.webp" data-fancybox="gallery" data-thumbnail-src="\assets\images\landing\page1\desktop\new-image\intertek-Certificate-of-Registration-thaipolyester.webp">
+                            <picture>
+                                <source srcset="\assets\images\landing\page1\mobile\new-image\intertek-Certificate-of-Registration-thaipolyester.webp" alt="intertek Certificate of Registration thaipolyester" media="(max-width: 640px)" loading="lazy">
+                                <img src="\assets\images\landing\page1\desktop\new-image\intertek-Certificate-of-Registration-thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="intertek Certificate of Registration thaipolyester" loading="lazy">
+                            </picture>
+                        </a>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-3-5 p-0 col2">
                     <div class="col-xs-4 col-sm-4 col-md-12 p-0">
                         <div class="img_block wow @if($chkmo) animate__bounceInUp @else animate__flipInX @endif d-flex">
-                            <picture>
-                                <source srcset="\assets\images\landing\page1\mobile\new-image\Global-Recycled-standard-100-Recycled-Polyester-Thaipolyester.webp" alt="Global Recycled standard 100%Recycled Polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
-                                <img src="\assets\images\landing\page1\desktop\new-image\Global-Recycled-standard-100-Recycled-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Global Recycled standard 100%Recycled Polyester Thaipolyester" loading="lazy">
-                            </picture>
+                            <a title="Global Recycled standard 100%Recycled Polyester Thaipolyester" href="\assets\images\landing\page1\desktop\new-image\Global-Recycled-standard-100-Recycled-Polyester-Thaipolyester.webp" data-fancybox="gallery" data-thumbnail-src="\assets\images\landing\page1\desktop\new-image\Global-Recycled-standard-100-Recycled-Polyester-Thaipolyester.webp">
+                                <picture>
+                                    <source srcset="\assets\images\landing\page1\mobile\new-image\Global-Recycled-standard-100-Recycled-Polyester-Thaipolyester.webp" alt="Global Recycled standard 100%Recycled Polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
+                                    <img src="\assets\images\landing\page1\desktop\new-image\Global-Recycled-standard-100-Recycled-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Global Recycled standard 100%Recycled Polyester Thaipolyester" loading="lazy">
+                                </picture>
+                            </a>
                         </div>
                     </div>
                     <div class="col-xs-4 col-sm-4 col-md-12 p-0">
                         <div class="img_block wow @if($chkmo) animate__bounceInUp @else animate__flipInX @endif d-flex">
-                            <picture>
-                                <source srcset="\assets\images\landing\page1\mobile\new-image\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" media="(max-width: 640px)" loading="lazy">
-                                <img src="\assets\images\landing\page1\desktop\new-image\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" loading="lazy">
-                            </picture>
+                            <a title="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" href="\assets\images\landing\page1\desktop\new-image\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp" data-fancybox="gallery" data-thumbnail-src="\assets\images\landing\page1\desktop\new-image\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp">
+                                <picture>
+                                    <source srcset="\assets\images\landing\page1\mobile\new-image\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" media="(max-width: 640px)" loading="lazy">
+                                    <img src="\assets\images\landing\page1\desktop\new-image\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" loading="lazy">
+                                </picture>
+                            </a>
                         </div>
                     </div>
                     <div class="col-xs-4 col-sm-4 col-md-12 p-0">
                         <div class="img_block wow @if($chkmo) animate__bounceInUp @else animate__flipInX @endif d-flex">
-                            <picture>
-                                <source srcset="\assets\images\landing\page1\mobile\new-image\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" media="(max-width: 640px)" loading="lazy">
-                                <img src="\assets\images\landing\page1\desktop\new-image\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp" width="900" height="350" class="img-fluid ab-img" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" loading="lazy">
-                            </picture>
+                            <a title="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" href="\assets\images\landing\page1\desktop\new-image\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp" data-fancybox="gallery" data-thumbnail-src="\assets\images\landing\page1\desktop\new-image\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp">
+                                <picture>
+                                    <source srcset="\assets\images\landing\page1\mobile\new-image\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" media="(max-width: 640px)" loading="lazy">
+                                    <img src="\assets\images\landing\page1\desktop\new-image\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp" width="900" height="350" class="img-fluid ab-img" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" loading="lazy">
+                                </picture>
+                            </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-4-25 p-0 col3">
                     <div class="img_block wow @if($chkmo) animate__bounceInUp @else animate__flipInY @endif d-flex">
-                        <picture>
-                            <source srcset="\assets\images\landing\page1\mobile\new-image\Green-industry-Activty-Thaipolyester.webp" alt="intertek Certificate of Registration thaipolyester" media="(max-width: 640px)" loading="lazy">
-                            <img src="\assets\images\landing\page1\desktop\new-image\Green-industry-Activty-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="intertek Certificate of Registration thaipolyester" loading="lazy">
-                        </picture>
+                        <a title="Green industry Activty Thaipolyester" href="\assets\images\landing\page1\desktop\new-image\Green-industry-Activty-Thaipolyester.webp" data-fancybox="gallery" data-thumbnail-src="\assets\images\landing\page1\desktop\new-image\Green-industry-Activty-Thaipolyester.webp">
+                            <picture>
+                                <source srcset="\assets\images\landing\page1\mobile\new-image\Green-industry-Activty-Thaipolyester.webp" alt="Green industry Activty Thaipolyester" media="(max-width: 640px)" loading="lazy">
+                                <img src="\assets\images\landing\page1\desktop\new-image\Green-industry-Activty-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Green industry Activty Thaipolyester" loading="lazy">
+                            </picture>
+                        </a>
                     </div>
                 </div>
             </div>
