@@ -301,7 +301,7 @@ function secten(){
 }
 
 function thank_you(){
-    window.location.href = "/landing/thank-you";
+    window.location.href = "/thank-you";
 }
 function checkData(f){
 	var name = f.find('#name'),
