@@ -45,7 +45,7 @@
 											Rd., Samaedum, Bangkuntien,
 											Bangkok 10150 Thailand
 										</p>
-										<a title="Map Head Office Thai Polyester" href="/assets/images/contact/TPC Map-02.webp" data-fancybox="gallery" data-thumbnail-src="/assets/images/contact/TPC Map-02.webp">
+										<a title="Map Head Office Thai Polyester" href="/assets/images/contact/TPC Map-02.webp?v={{ time() }}" data-fancybox="gallery" data-thumbnail-src="/assets/images/contact/TPC Map-02.webp?v={{ time() }}">
 											Map
 										</a>
 									</div>
@@ -60,7 +60,7 @@
 											(Ban Nong Phai Kaeo), Ban Bung,
 											Chonburi 20220 Thailand
 										</p>
-										<a title="Map Factory Thai Polyester" href="/assets/images/contact/TPC Map-03.webp" data-fancybox="gallery" data-thumbnail-src="/assets/images/contact/TPC Map-03.webp">
+										<a title="Map Factory Thai Polyester" href="/assets/images/contact/TPC Map-03.webp?v={{ time() }}" data-fancybox="gallery" data-thumbnail-src="/assets/images/contact/TPC Map-03.webp?v={{ time() }}">
 											Map
 										</a>
 									</div>
@@ -76,7 +76,7 @@
 											Khaerai, Kratumban,
 											Samutsakorn 74110 Thailand
 										</p>
-										<a title="Map Sale Office Office Thai Polyester" href="/assets/images/contact/TPC Map-01.webp" data-fancybox="gallery" data-thumbnail-src="/assets/images/contact/TPC Map-01.webp">
+										<a title="Map Sale Office Office Thai Polyester" href="/assets/images/contact/TPC Map-01.webp?v={{ time() }}" data-fancybox="gallery" data-thumbnail-src="/assets/images/contact/TPC Map-01.webp?v={{ time() }}">
 											Map
 										</a>
 									</div>

@@ -4,8 +4,8 @@
 	<link rel="preload stylesheet" id="fancybox-css" href="{!!asset('/assets/custom/wp-content/plugins/radiantthemes-addons/assets/css/jquery.fancybox.min.css?ver=4.9.11')!!}" type="text/css" as="style" media="all" crossorigin>
 @endsection
 @section('content')
-	<h1 style="display: none;">Thai Polyester</h1>
-	<h2 style="display: none;">we are leading polyester yarn recycling Manufacturer</h2>
+	<h1 style="display: none;">Thai Polyester Company (TPC)</h1>
+	<h2 style="display: none;">We are a leading polyester yarn manufacturer in Thailand.</h2>
 	<div id="home">
 		<div id="home_bg">
 			<div class="section-one">
@@ -26,10 +26,10 @@
 						<div class="content_1">
 							<h2>Our Company</h2>
 							<p class="p1">
-								Thai Polyester Company has been established in 2001. We are full integration of fiber polyester manufacturer with total
-								capacity 316,800 tons a years achieved thereby of the innovative technology in globe.
+								Thai Polyester Company was established in 2001.
+                                We are full integration of fiber polyester manufacturer with a total<br> capacity of 350,000 tons annually,
+                                achieved thereby of the innovative technology in the globe.
 							</p>
-						</div>
 					</div>
 				</div>
 			</div>
@@ -53,17 +53,14 @@
 					<div class="col-xs-12 col-sm-12 col-md-4 p-0 col2">
 						<div class="content_1">
 							<p class="p1">
-								Thai polyester is a registered company
-								specializing in polyester yarn both fiber and
-								filament. We export polyester yarn to many
-								countries. An engineering plant of our production
-								phases has successive through Zimmer AG
-								Germany. Regard to filament and textured yarn is
-								developed with the latest generation of
-								application on German operation, Barmag
-								take-up. TPC, we landed on 3.2 Million Sq.m at
-								Ban Bung, Chonburi, far from Laemchabang Port
-								within 2 hours.
+								Thai Polyester Company (TPC) is a registered company
+                                specializing in fiber and filament polyester yarn.
+                                We export polyester yarn to many countries. An engineering
+                                plant of our production phases has successive through Zimmer AG Germany.
+                                Concerning filament and the textured yarn is developed
+                                with the latest generation of application on German operation,
+                                Barmag take-up. TPC, we landed on 3.2 Million Sq.m. at Ban Bung,
+                                Chonburi, far from Laemchabang Port, within 2 hours.
 							</p>
 							<div class="btn-block">
 								<a href="{!!url('/about')!!}" title="About Us">
