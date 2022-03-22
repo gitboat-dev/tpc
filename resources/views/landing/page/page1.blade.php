@@ -6,7 +6,7 @@
 @endsection
 @section('og-image','\assets\images\landing\page1\og-image\og-image.webp')
 @section('content')
-<div id="landing">
+<div id="landing" class="thank-open">
     <div class="thank" >
         <div class="thank-dialog">
             <div class="thank-content">
@@ -67,14 +67,14 @@
             <div class="col-xs-12 col-sm-12 col-md-12 p-0">
                 <div class="content_block d-flex pos-r">
                     <div class="content_group m-auto">
-                        <p class="p1 wow @if($chkmo) animate__fadeInUpBig @else animate__backInRight @endif" data-wow-delay="0.2s">
+                        <p class="p1">
                             To achieve that, you need to have an expert system in the production process that
                             produces superior products! Because of the high technology used in our production line,
                             <label class="green-hl">your defective rate will be reduced.</label> Our ready-to-ship stock can <label class="green-hl">save you a lot of time.</label>
                             And typically, the superiority of having a GRS certificate to guarantee that your product
                             is genuinely recycled can <label class="green-hl">add more value to your product and is trusted globally.</label>
                         </p>
-                        <p class="p2 text-center wow @if($chkmo) animate__fadeInUpBig @else animate__backInLeft @endif">
+                        <p class="p2 text-center">
                             These explain why we are specialized in the textile industry,<br>
                             with expertise in POLYESTER.
                         </p>
@@ -89,7 +89,7 @@
                 <div class="row r1-1 m-0">
                     <div class="col-md-12 p-0 col1-1">
                         <div class="content_block">
-                            <div class="img_block wow @if($chkmo) animate__fadeInUpBig @else animate__backInLeft @endif">
+                            <div class="img_block">
                                 <picture>
                                     <source srcset="\assets\images\landing\page1\mobile\Ring-Spun-Process-Lindingpage-Thaipolyester.webp" alt="Ring Spun Process Thaipolyester" media="(max-width: 640px)" loading="lazy">
                                     <img src="\assets\images\landing\page1\desktop\Ring-Spun-Process-Lindingpage-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Ring Spun Process Thaipolyester" loading="lazy">
@@ -99,7 +99,7 @@
                     </div>
                     <div class="col-md-12 p-0 col1-2">
                         <div class="content_block">
-                            <div class="img_block wow @if($chkmo) animate__fadeInUpBig @else animate__backInRight @endif">
+                            <div class="img_block">
                                 <picture>
                                     <source srcset="\assets\images\landing\page1\mobile\landing-page-Product-Draw-textured-yarn-Thai-Polyester-TPC-1.webp" alt="Product Draw textured yarn Thai Polyester TPC" media="(max-width: 640px)" loading="lazy">
                                     <img src="\assets\images\landing\page1\desktop\landing-page-Product-Draw-textured-yarn-Thai-Polyester-TPC-1.webp" width="900" height="350" class="img-fluid ab-img" alt="Product Draw textured yarn Thai Polyester TPC" loading="lazy">
@@ -111,7 +111,7 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6-5 p-0 col2">
                 <div class="content_block">
-                    <div class="img_block wow @if($chkmo) animate__fadeInUpBig @else animate__backInDown @endif">
+                    <div class="img_block">
                         <picture>
                             <source srcset="\assets\images\landing\page1\mobile\landing-page-Product-Draw-textured-yarn-Thai-Polyester-TPC.webp" alt="Product Draw textured yarn Thai Polyester TPC" media="(max-width: 640px)" loading="lazy">
                             <img src="\assets\images\landing\page1\desktop\landing-page-Product-Draw-textured-yarn-Thai-Polyester-TPC.webp" width="900" height="350" class="img-fluid ab-img" alt="Product Draw textured yarn Thai Polyester TPC" loading="lazy">
@@ -123,14 +123,14 @@
     <section id="sec4">
         <div class="row r1 m-0">
             <div class="col-xs-12 col-sm-12 col-md-12 p-0">
-                <h2 class="text-center m-0 wow @if($chkmo) animate__fadeInUpBig @else animate__pulse @endif">
+                <h2 class="text-center m-0">
                     <label class="theme-hl">100% POLYESTER YARN</label><br>
                     PRODUCT LIST
                 </h2>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 p-0">
                 <div class="content_block">
-                    <table class="wow @if($chkmo) animate__fadeInUpBig @else animate__backInUp @endif">
+                    <table>
                         <thead>
                             <tr>
                                 <th width="23.5%">YARN TYPE</td>
@@ -234,7 +234,7 @@
                     </table>
                 </div>
                 <div class="content_block">
-                    <table class="wow @if($chkmo) animate__fadeInUpBig @else animate__backInUp @endif">
+                    <table>
                         <tr>
                             <th width="23.5%">YARN TYPE</td>
                             <th width="23.5%">NE</td>
@@ -286,7 +286,7 @@
         <ul class="row m-0">
             <li class="col-xs-3 col-sm-3 col-md-1-5 p-0">
                 <div class="content_block">
-                    <div class="img_block wow @if($chkmo) animate__backInUp @else animate__fadeInLeftBig" @endif>
+                    <div class="img_block">
                         <a href="{{ route('product.psf') }}" title="PSF Polyester Staple Fiber" target="_blank">
                             <picture>
                                 <source srcset="\assets\images\landing\page1\mobile\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester.webp" alt="Polyester Partially Oriented Yarn TPC Thaipolyester" media="(max-width: 640px)" loading="lazy">
@@ -298,7 +298,7 @@
             </li>
             <li class="col-xs-3 col-sm-3 col-md-1-5 p-0">
                 <div class="content_block">
-                    <div class="img_block wow @if($chkmo) animate__backInUp @else animate__fadeInLeftBig @endif" data-wow-delay="0.1s">
+                    <div class="img_block">
                         <a href="{{ route('product.dty') }}" title="DTY Draw Textured Yarn Polyester" target="_blank">
                             <picture>
                                 <source srcset="\assets\images\landing\page1\mobile\new-image\DTY-Draw-Textured-Yarn-Polyester-Thaipolyester.webp" alt="DTY Draw Textured Yarn Polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
@@ -310,7 +310,7 @@
             </li>
             <li class="col-xs-3 col-sm-3 col-md-1-5 p-0">
                 <div class="content_block">
-                    <div class="img_block wow @if($chkmo) animate__backInUp @else animate__fadeInLeftBig @endif" data-wow-delay="0.2s">
+                    <div class="img_block">
                         <a href="{{ route('product.poy') }}" title="POY Partially Oriented Yarn Polyester" target="_blank">
                             <picture>
                                 <source srcset="\assets\images\landing\page1\mobile\new-image\POY-Partially-Oriented-Yarn-Polyester-Thaipolyester.webp" alt="POY Partially Oriented Yarn Polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
@@ -322,7 +322,7 @@
             </li>
             <li class="col-xs-3 col-sm-3 col-md-1-5 p-0">
                 <div class="content_block">
-                    <div class="img_block wow @if($chkmo) animate__backInUp @else animate__fadeInLeftBig @endif" data-wow-delay="0.3s">
+                    <div class="img_block">
                         <a href="{{ route('product.fdy') }}" title="FDY Fully Drawn Yarn Polyester" target="_blank">
                             <picture>
                                 <source srcset="\assets\images\landing\page1\mobile\new-image\FDY-Fully-Drawn-Yarn-Polyester-Thaipolyester.webp" alt="FDY Fully Drawn Yarn Polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
@@ -334,7 +334,7 @@
             </li>
             <li class="col-xs-3 col-sm-3 col-md-1-5 p-0">
                 <div class="content_block">
-                    <div class="img_block wow @if($chkmo) animate__backInUp @else animate__fadeInLeftBig @endif" data-wow-delay="0.4s">
+                    <div class="img_block">
                         <a href="{{ route('product.twisted-yarn') }}" title="Twist Yarn DTY polyester" target="_blank">
                             <picture>
                                 <source srcset="\assets\images\landing\page1\mobile\new-image\Twist-Yarn-DTY-polyester-Thaipolyester.webp" alt="Twist Yarn DTY polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
@@ -346,7 +346,7 @@
             </li>
             <li class="col-xs-3 col-sm-3 col-md-1-5 p-0">
                 <div class="content_block">
-                    <div class="img_block wow @if($chkmo) animate__backInUp @else animate__fadeInLeftBig @endif" data-wow-delay="0.5s">
+                    <div class="img_block">
                         <a href="{{ route('product.twisted-yarn') }}" title="Twist Yarn FDY polyester" target="_blank">
                             <picture>
                                 <source srcset="\assets\images\landing\page1\mobile\new-image\Twist-Yarn-FDY-polyester-Thaipolyester.webp" alt="Twist Yarn FDY polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
@@ -358,7 +358,7 @@
             </li>
             <li class="col-xs-3 col-sm-3 col-md-1-5 p-0">
                 <div class="content_block">
-                    <div class="img_block wow @if($chkmo) animate__backInUp @else animate__fadeInLeftBig @endif" data-wow-delay="0.6s">
+                    <div class="img_block">
                         <a href="{!!url('/open-end')!!}" title="OE Open End Spun Yarn Polyester" target="_blank">
                             <picture>
                                 <source srcset="\assets\images\landing\page1\mobile\new-image\OE-Open-End-Spun-Yarn-Polyester-Thaipolyester.webp" alt="OE Open End Spun Yarn Polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
@@ -370,7 +370,7 @@
             </li>
             <li class="col-xs-3 col-sm-3 col-md-1-5 p-0">
                 <div class="content_block">
-                    <div class="img_block wow @if($chkmo) animate__backInUp @else animate__fadeInLeftBig @endif" data-wow-delay="0.7s">
+                    <div class="img_block">
                         <a href="{{ route('product.ring-spun') }}" title="Ring Spun Yarn Polyester" target="_blank">
                             <picture>
                                 <source srcset="\assets\images\landing\page1\mobile\new-image\Ring-Spun-Yarn-Polyester-Thaipolyester.webp" alt="Ring Spun Yarn Polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
@@ -387,8 +387,8 @@
             <div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
                 <div class="content_block d-flex pos-r">
                     <div class="content_group m-auto text-center">
-                        <h2 class="green-hl wow @if($chkmo) animate__fadeInUpBig @else animate__heartBeat @endif">“PSF”</h2>
-                        <h3 class="green-hl wow @if($chkmo) animate__fadeInUpBig @else animate__lightSpeedInLeft @endif">
+                        <h2 class="green-hl">“PSF”</h2>
+                        <h3 class="green-hl">
                             <div class="img_block d-inline-b">
                                 <picture>
                                     <source srcset="\assets\images\landing\page1\mobile\new-image\star-Icon.webp" alt="Recommended item" media="(max-width: 640px)" loading="lazy">
@@ -408,7 +408,7 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 p-0 col2">
                 <div class="content_block">
-                    <table class="wow @if($chkmo) animate__fadeInUpBig @else animate__backInUp @endif">
+                    <table>
                         <thead>
                             <tr>
                                 <th width="21.5%">YARN TYPE</td>
@@ -447,7 +447,7 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 p-0 col3">
                 <div class="content_block d-flex pos-r">
-                    <p class="p1 m-auto text-center wow @if($chkmo) animate__fadeInUpBig @else animate__fadeIn @endif">
+                    <p class="p1 m-auto text-center">
                         Our high-quality product can produce premium yarn grades and we are trusted by spinning mills all
                         over the world.
                     </p>
@@ -457,7 +457,7 @@
                 <div class="col-xs-12 col-sm-12 col-md-4-5 p-0">
                     <ul class="row m-0 p-0">
                         <li class="col-xs-6 col-sm-6 col-md-6 p-0">
-                            <div class="img_block wow @if($chkmo) animate__flipInX @else animate__flipInY @endif">
+                            <div class="img_block">
                                 <picture>
                                     <source srcset="\assets\images\landing\page1\mobile\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-White.webp" alt="PSF Polyester Staple Fiber Thaipolyester White" media="(max-width: 640px)" loading="lazy">
                                     <img src="\assets\images\landing\page1\desktop\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-White.webp" width="900" height="350" class="img-fluid ab-img" alt="PSF Polyester Staple Fiber Thaipolyester White" loading="lazy">
@@ -465,7 +465,7 @@
                             </div>
                         </li>
                         <li class="col-xs-6 col-sm-6 col-md-6 p-0">
-                            <div class="img_block wow @if($chkmo) animate__flipInX @else animate__flipInY @endif">
+                            <div class="img_block">
                                 <picture>
                                     <source srcset="\assets\images\landing\page1\mobile\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-Black.webp" alt="PSF Polyester Staple Fiber Thaipolyester Black" media="(max-width: 640px)" loading="lazy">
                                     <img src="\assets\images\landing\page1\desktop\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-Black.webp" width="900" height="350" class="img-fluid ab-img" alt="PSF Polyester Staple Fiber Thaipolyester Black" loading="lazy">
@@ -477,7 +477,7 @@
                 <div class="col-xs-12 col-sm-12 col-md-3-75 p-0">
                     <ul class="row m-0 p-0">
                         <li class="col-xs-4 col-sm-4 col-md-4 p-0">
-                            <div class="img_block wow @if($chkmo) animate__flipInX @else animate__flipInY @endif">
+                            <div class="img_block">
                                 <picture>
                                     <source srcset="\assets\images\landing\page1\mobile\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-Grey.webp" alt="PSF Polyester Staple Fiber Thaipolyester Grey" media="(max-width: 640px)" loading="lazy">
                                     <img src="\assets\images\landing\page1\desktop\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-Grey.webp" width="900" height="350" class="img-fluid ab-img" alt="PSF Polyester Staple Fiber Thaipolyester Grey" loading="lazy">
@@ -485,7 +485,7 @@
                             </div>
                         </li>
                         <li class="col-xs-4 col-sm-4 col-md-4 p-0">
-                            <div class="img_block wow @if($chkmo) animate__flipInX @else animate__flipInY @endif">
+                            <div class="img_block">
                                 <picture>
                                     <source srcset="\assets\images\landing\page1\mobile\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-Light-Grey.webp" alt="PSF Polyester Staple Fiber Thaipolyester Light Grey" media="(max-width: 640px)" loading="lazy">
                                     <img src="\assets\images\landing\page1\desktop\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-Light-Grey.webp" width="900" height="350" class="img-fluid ab-img" alt="PSF Polyester Staple Fiber Thaipolyester Light Grey" loading="lazy">
@@ -493,7 +493,7 @@
                             </div>
                         </li>
                         <li class="col-xs-4 col-sm-4 col-md-4 p-0">
-                            <div class="img_block wow @if($chkmo) animate__flipInX @else animate__flipInY @endif">
+                            <div class="img_block">
                                 <picture>
                                     <source srcset="\assets\images\landing\page1\mobile\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-Brown.webp" alt="PSF Polyester Staple Fiber Thaipolyester Brown" media="(max-width: 640px)" loading="lazy">
                                     <img src="\assets\images\landing\page1\desktop\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-Brown.webp" width="900" height="350" class="img-fluid ab-img" alt="PSF Polyester Staple Fiber Thaipolyester Brown" loading="lazy">
@@ -501,7 +501,7 @@
                             </div>
                         </li>
                         <li class="col-xs-4 col-sm-4 col-md-4 p-0">
-                            <div class="img_block wow @if($chkmo) animate__flipInX @else animate__flipInY @endif">
+                            <div class="img_block">
                                 <picture>
                                     <source srcset="\assets\images\landing\page1\desktop\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-sea-blue-3.webp" alt="PSF Polyester Staple Fiber Thaipolyester sea blue" media="(max-width: 640px)" loading="lazy">
                                     <img src="\assets\images\landing\page1\desktop\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-sea-blue-3.webp" width="900" height="350" class="img-fluid ab-img" alt="PSF Polyester Staple Fiber Thaipolyester sea blue" loading="lazy">
@@ -509,7 +509,7 @@
                             </div>
                         </li>
                         <li class="col-xs-4 col-sm-4 col-md-4 p-0">
-                            <div class="img_block wow @if($chkmo) animate__flipInX @else animate__flipInY @endif">
+                            <div class="img_block">
                                 <picture>
                                     <source srcset="\assets\images\landing\page1\mobile\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-sea-blue-2.webp" alt="PSF Polyester Staple Fiber Thaipolyester sea blue" media="(max-width: 640px)" loading="lazy">
                                     <img src="\assets\images\landing\page1\desktop\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-sea-blue-2.webp" width="900" height="350" class="img-fluid ab-img" alt="PSF Polyester Staple Fiber Thaipolyester sea blue" loading="lazy">
@@ -517,7 +517,7 @@
                             </div>
                         </li>
                         <li class="col-xs-4 col-sm-4 col-md-4 p-0">
-                            <div class="img_block wow @if($chkmo) animate__flipInX @else animate__flipInY @endif">
+                            <div class="img_block">
                                 <picture>
                                     <source srcset="\assets\images\landing\page1\mobile\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-sea-blue-1.webp" alt="PSF Polyester Staple Fiber Thaipolyester sea blue" media="(max-width: 640px)" loading="lazy">
                                     <img src="\assets\images\landing\page1\desktop\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-sea-blue-1.webp" width="900" height="350" class="img-fluid ab-img" alt="PSF Polyester Staple Fiber Thaipolyester sea blue" loading="lazy">
@@ -529,7 +529,7 @@
                 <div class="col-xs-12 col-sm-12 col-md-3-75 p-0">
                     <ul class="row m-0 p-0">
                         <li class="col-xs-4 col-sm-4 col-md-4 p-0">
-                            <div class="img_block wow @if($chkmo) animate__flipInX @else animate__flipInY @endif">
+                            <div class="img_block">
                                 <picture>
                                     <source srcset="\assets\images\landing\page1\mobile\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-magenta.webp" alt="PSF Polyester Staple Fiber Thaipolyester magenta" media="(max-width: 640px)" loading="lazy">
                                     <img src="\assets\images\landing\page1\desktop\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-magenta.webp" width="900" height="350" class="img-fluid ab-img" alt="PSF Polyester Staple Fiber Thaipolyester magenta" loading="lazy">
@@ -537,7 +537,7 @@
                             </div>
                         </li>
                         <li class="col-xs-4 col-sm-4 col-md-4 p-0">
-                            <div class="img_block wow @if($chkmo) animate__flipInX @else animate__flipInY @endif">
+                            <div class="img_block">
                                 <picture>
                                     <source srcset="\assets\images\landing\page1\mobile\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-Orenge.webp" alt="PSF Polyester Staple Fiber Thaipolyester Orenge" media="(max-width: 640px)" loading="lazy">
                                     <img src="\assets\images\landing\page1\desktop\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-Orenge.webp" width="900" height="350" class="img-fluid ab-img" alt="PSF Polyester Staple Fiber Thaipolyester Orenge" loading="lazy">
@@ -545,7 +545,7 @@
                             </div>
                         </li>
                         <li class="col-xs-4 col-sm-4 col-md-4 p-0">
-                            <div class="img_block wow @if($chkmo) animate__flipInX @else animate__flipInY @endif">
+                            <div class="img_block">
                                 <picture>
                                     <source srcset="\assets\images\landing\page1\mobile\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-Pink.webp" alt="PSF Polyester Staple Fiber Thaipolyester Pink" media="(max-width: 640px)" loading="lazy">
                                     <img src="\assets\images\landing\page1\desktop\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-Pink.webp" width="900" height="350" class="img-fluid ab-img" alt="PSF Polyester Staple Fiber Thaipolyester Pink" loading="lazy">
@@ -553,7 +553,7 @@
                             </div>
                         </li>
                         <li class="col-xs-4 col-sm-4 col-md-4 p-0">
-                            <div class="img_block wow @if($chkmo) animate__flipInX @else animate__flipInY @endif">
+                            <div class="img_block">
                                 <picture>
                                     <source srcset="\assets\images\landing\page1\mobile\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-blue.webp" alt="PSF Polyester Staple Fiber Thaipolyester blue" media="(max-width: 640px)" loading="lazy">
                                     <img src="\assets\images\landing\page1\desktop\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-blue.webp" width="900" height="350" class="img-fluid ab-img" alt="PSF Polyester Staple Fiber Thaipolyester blue" loading="lazy">
@@ -561,7 +561,7 @@
                             </div>
                         </li>
                         <li class="col-xs-4 col-sm-4 col-md-4 p-0">
-                            <div class="img_block wow @if($chkmo) animate__flipInX @else animate__flipInY @endif">
+                            <div class="img_block">
                                 <picture>
                                     <source srcset="\assets\images\landing\page1\mobile\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-sea-blue.webp" alt="PSF Polyester Staple Fiber Thaipolyester sea blue" media="(max-width: 640px)" loading="lazy">
                                     <img src="\assets\images\landing\page1\desktop\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-sea-blue.webp" width="900" height="350" class="img-fluid ab-img" alt="PSF Polyester Staple Fiber Thaipolyester sea blue" loading="lazy">
@@ -569,7 +569,7 @@
                             </div>
                         </li>
                         <li class="col-xs-4 col-sm-4 col-md-4 p-0">
-                            <div class="img_block wow @if($chkmo) animate__flipInX @else animate__flipInY @endif">
+                            <div class="img_block">
                                 <picture>
                                     <source srcset="\assets\images\landing\page1\mobile\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-Green.webp" alt="PSF Polyester Staple Fiber Thaipolyester Green" media="(max-width: 640px)" loading="lazy">
                                     <img src="\assets\images\landing\page1\desktop\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-Green.webp" width="900" height="350" class="img-fluid ab-img" alt="PSF Polyester Staple Fiber Thaipolyester Green" loading="lazy">
@@ -585,7 +585,7 @@
         <div class="row r1 m-0">
             <div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
                 <div class="content_block d-flex pos-r">
-                    <h2 class="theme-hl text-center m-auto wow @if($chkmo) animate__fadeInUpBig @else animate__zoomIn @endif">
+                    <h2 class="theme-hl text-center m-auto">
                         Why not go with the right supplier?<br>
                         Who is always ready to provide you with<br>
                         superior products and services!
@@ -594,7 +594,7 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 p-0 col2">
                 <div class="content_block d-flex pos-r">
-                    <p class="p1 text-center m-auto wow @if($chkmo) animate__fadeInUpBig @else animate__zoomIn @endif">
+                    <p class="p1 text-center m-auto">
                         You will have no risks using our products; the only risk you’d have is not choosing us.<br>
                         So don’t let your competitor get a better opportunity.
                     </p>
@@ -602,7 +602,7 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 p-0 col3">
                 <div class="content_block d-flex pos-r">
-                    <a href="#sec16" id="get_free" title="Get Free Samples" class="text-center m-auto wow animate__bounce">GET FREE Samples</a>
+                    <a href="#sec16" id="get_free" title="Get Free Samples" class="text-center m-auto">GET FREE Samples</a>
                 </div>
             </div>
         </div>
@@ -611,7 +611,7 @@
         <div class="row r1 m-0">
             <div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
                 <div class="content_block d-flex pos-r">
-                    <h2 class="text-center m-auto wow @if($chkmo) animate__fadeInUpBig @else animate__zoomIn @endif">
+                    <h2 class="text-center m-auto">
                         Two reasons why you can compete in the<br>
                         market with our service…
                     </h2>
@@ -619,14 +619,14 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 p-0 col2">
                 <div class="content_block d-flex pos-r">
-                    <h2 class="red-hl text-center m-auto wow @if($chkmo) animate__fadeInUpBig @else animate__lightSpeedInLeft @endif">
+                    <h2 class="red-hl text-center m-auto">
                         <span class="circle">1</span> 30% Higher profit
                     </h2>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 p-0 col3">
                 <div class="content_block d-flex pos-r">
-                    <p class="p1 text-center m-auto wow @if($chkmo) animate__fadeInUpBig @else animate__zoomIn @endif">
+                    <p class="p1 text-center m-auto">
                         We own a spinning mill and a knitting mill; that’s why the price is under our control. Also, the<br>
                         experience taught us that the more manufacturers invested with the right supplier, the more<br>
                         profitable they could gain.
@@ -635,14 +635,14 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 p-0 col4">
                 <div class="content_block d-flex pos-r">
-                    <h2 class="red-hl text-center m-auto wow @if($chkmo) animate__fadeInUpBig @else animate__lightSpeedInLeft @endif">
+                    <h2 class="red-hl text-center m-auto">
                         <span class="circle">2</span> We're top 3 in Thailand
                     </h2>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 p-0 col5">
                 <div class="content_block d-flex pos-r">
-                    <p class="p1 text-center m-auto wow @if($chkmo) animate__fadeInUpBig @else animate__zoomIn @endif">
+                    <p class="p1 text-center m-auto">
                         With our 80 years of experience, we can help you figure out solutions!<br>
                         We are certified by Intertek, GRS, and OEKO-tex standards.
                     </p>
@@ -654,55 +654,45 @@
         <div class="row r1 m-0">
             <div class="content_block pos-r d-flex">
                 <div class="col-xs-6 col-sm-6 col-md-4-25 p-0 col1">
-                    <div class="img_block wow @if($chkmo) animate__bounceInUp @else animate__flipInY @endif d-flex">
-                        <a title="intertek Certificate of Registration thaipolyester" href="\assets\images\landing\page1\desktop\new-image\intertek-Certificate-of-Registration-thaipolyester.webp" data-fancybox="gallery" data-thumbnail-src="\assets\images\landing\page1\desktop\new-image\intertek-Certificate-of-Registration-thaipolyester.webp">
-                            <picture>
-                                <source srcset="\assets\images\landing\page1\mobile\new-image\intertek-Certificate-of-Registration-thaipolyester.webp" alt="intertek Certificate of Registration thaipolyester" media="(max-width: 640px)" loading="lazy">
-                                <img src="\assets\images\landing\page1\desktop\new-image\intertek-Certificate-of-Registration-thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="intertek Certificate of Registration thaipolyester" loading="lazy">
-                            </picture>
-                        </a>
+                    <div class="img_block d-flex">
+                        <picture>
+                            <source srcset="\assets\images\landing\page1\mobile\new-image\intertek-Certificate-of-Registration-thaipolyester.webp" alt="intertek Certificate of Registration thaipolyester" media="(max-width: 640px)" loading="lazy">
+                            <img src="\assets\images\landing\page1\desktop\new-image\intertek-Certificate-of-Registration-thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="intertek Certificate of Registration thaipolyester" loading="lazy">
+                        </picture>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-3-5 p-0 col2">
                     <div class="col-xs-4 col-sm-4 col-md-12 p-0">
-                        <div class="img_block wow @if($chkmo) animate__bounceInUp @else animate__flipInX @endif d-flex">
-                            <a title="Global Recycled standard 100%Recycled Polyester Thaipolyester" href="\assets\images\landing\page1\desktop\new-image\Global-Recycled-standard-100-Recycled-Polyester-Thaipolyester.webp" data-fancybox="gallery" data-thumbnail-src="\assets\images\landing\page1\desktop\new-image\Global-Recycled-standard-100-Recycled-Polyester-Thaipolyester.webp">
-                                <picture>
-                                    <source srcset="\assets\images\landing\page1\mobile\new-image\Global-Recycled-standard-100-Recycled-Polyester-Thaipolyester.webp" alt="Global Recycled standard 100%Recycled Polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
-                                    <img src="\assets\images\landing\page1\desktop\new-image\Global-Recycled-standard-100-Recycled-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Global Recycled standard 100%Recycled Polyester Thaipolyester" loading="lazy">
-                                </picture>
-                            </a>
+                        <div class="img_block d-flex">
+                            <picture>
+                                <source srcset="\assets\images\landing\page1\mobile\new-image\Global-Recycled-standard-100-Recycled-Polyester-Thaipolyester.webp" alt="Global Recycled standard 100%Recycled Polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
+                                <img src="\assets\images\landing\page1\desktop\new-image\Global-Recycled-standard-100-Recycled-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Global Recycled standard 100%Recycled Polyester Thaipolyester" loading="lazy">
+                            </picture>
                         </div>
                     </div>
                     <div class="col-xs-4 col-sm-4 col-md-12 p-0">
-                        <div class="img_block wow @if($chkmo) animate__bounceInUp @else animate__flipInX @endif d-flex">
-                            <a title="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" href="\assets\images\landing\page1\desktop\new-image\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp" data-fancybox="gallery" data-thumbnail-src="\assets\images\landing\page1\desktop\new-image\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp">
-                                <picture>
-                                    <source srcset="\assets\images\landing\page1\mobile\new-image\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" media="(max-width: 640px)" loading="lazy">
-                                    <img src="\assets\images\landing\page1\desktop\new-image\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" loading="lazy">
-                                </picture>
-                            </a>
+                        <div class="img_block d-flex">
+                            <picture>
+                                <source srcset="\assets\images\landing\page1\mobile\new-image\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" media="(max-width: 640px)" loading="lazy">
+                                <img src="\assets\images\landing\page1\desktop\new-image\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" loading="lazy">
+                            </picture>
                         </div>
                     </div>
                     <div class="col-xs-4 col-sm-4 col-md-12 p-0">
-                        <div class="img_block wow @if($chkmo) animate__bounceInUp @else animate__flipInX @endif d-flex">
-                            <a title="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" href="\assets\images\landing\page1\desktop\new-image\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp" data-fancybox="gallery" data-thumbnail-src="\assets\images\landing\page1\desktop\new-image\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp">
-                                <picture>
-                                    <source srcset="\assets\images\landing\page1\mobile\new-image\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" media="(max-width: 640px)" loading="lazy">
-                                    <img src="\assets\images\landing\page1\desktop\new-image\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp" width="900" height="350" class="img-fluid ab-img" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" loading="lazy">
-                                </picture>
-                            </a>
+                        <div class="img_block d-flex">
+                            <picture>
+                                <source srcset="\assets\images\landing\page1\mobile\new-image\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" media="(max-width: 640px)" loading="lazy">
+                                <img src="\assets\images\landing\page1\desktop\new-image\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp" width="900" height="350" class="img-fluid ab-img" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" loading="lazy">
+                            </picture>
                         </div>
                     </div>
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-4-25 p-0 col3">
-                    <div class="img_block wow @if($chkmo) animate__bounceInUp @else animate__flipInY @endif d-flex">
-                        <a title="Green industry Activty Thaipolyester" href="\assets\images\landing\page1\desktop\new-image\Green-industry-Activty-Thaipolyester.webp" data-fancybox="gallery" data-thumbnail-src="\assets\images\landing\page1\desktop\new-image\Green-industry-Activty-Thaipolyester.webp">
-                            <picture>
-                                <source srcset="\assets\images\landing\page1\mobile\new-image\Green-industry-Activty-Thaipolyester.webp" alt="Green industry Activty Thaipolyester" media="(max-width: 640px)" loading="lazy">
-                                <img src="\assets\images\landing\page1\desktop\new-image\Green-industry-Activty-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Green industry Activty Thaipolyester" loading="lazy">
-                            </picture>
-                        </a>
+                    <div class="img_block d-flex">
+                        <picture>
+                            <source srcset="\assets\images\landing\page1\mobile\new-image\Green-industry-Activty-Thaipolyester.webp" alt="intertek Certificate of Registration thaipolyester" media="(max-width: 640px)" loading="lazy">
+                            <img src="\assets\images\landing\page1\desktop\new-image\Green-industry-Activty-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="intertek Certificate of Registration thaipolyester" loading="lazy">
+                        </picture>
                     </div>
                 </div>
             </div>
@@ -712,7 +702,7 @@
         <div class="row r1 m-0">
             <div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
                 <div class="content_block d-flex pos-r">
-                    <h2 class="green-hl ml-0 wow @if($chkmo) animate__fadeInUpBig @else animate__bounceInDown @endif">
+                    <h2 class="green-hl ml-0">
                         3 things will cause you to lose more money<br>
                         and waste more time if you trust the wrong supplier
                     </h2>
@@ -721,7 +711,7 @@
             <div class="col-xs-12 col-sm-12 col-md-12 p-0 col2">
                 <div class="content_block d-flex pos-r">
                     <div class="content_group ml-0">
-                        <p class="p1 wow @if($chkmo) animate__fadeInUpBig @else animate__lightSpeedInLeft @endif">
+                        <p class="p1">
                             <label class="green-hl">1. Disappointed in results</label> - When those unsatisfactory defects ruin your expectations.<br>
                             <label class="green-hl">2. You don't have the right supplier</label> - No one knows when investing in the wrong supplier.<br>
                             <label class="green-hl">3. Long lead-time</label> - can cause many damages, so where does that leave you?
@@ -791,7 +781,7 @@
         <div class="row r1 m-0">
             <div class="col-xs-12 col-sm-12 col-md-12 p-0">
                 <div class="content_block d-flex pos-r">
-                    <h2 class="text-center m-auto wow @if($chkmo) animate__fadeInUpBig @else animate__zoomInRight @endif">
+                    <h2 class="text-center m-auto">
                         Read what our customers have to say about us:
                     </h2>
                 </div>
@@ -802,7 +792,7 @@
         <ul class="row r1 m-0 d-flex">
             <li class="col-xs-12 col-sm-12 col-md-6">
                 <div class="content_block pos-r">
-                    <div class="img_block wow @if($chkmo) animate__bounceInUp @else animate__bounceInUp @endif">
+                    <div class="img_block">
                         <picture>
                             <source srcset="\assets\images\landing\page1\mobile\Review-landing-page-TPC-1.webp" alt="Review" media="(max-width: 640px)" loading="lazy">
                             <img src="\assets\images\landing\page1\desktop\Review-landing-page-TPC-1.webp" width="900" height="350" class="img-fluid ab-img" alt="Review" loading="lazy">
@@ -812,7 +802,7 @@
             </li>
             <li class="col-xs-12 col-sm-12 col-md-6">
                 <div class="content_block pos-r">
-                    <div class="img_block wow @if($chkmo) animate__bounceInUp @else animate__bounceInUp @endif" @if(!$chkmo) data-wow-delay="0.1s" @endif>
+                    <div class="img_block">
                         <picture>
                             <source srcset="\assets\images\landing\page1\mobile\Review-landing-page-TPC-2.webp" alt="Review" media="(max-width: 640px)" loading="lazy">
                             <img src="\assets\images\landing\page1\desktop\Review-landing-page-TPC-2.webp" width="900" height="350" class="img-fluid ab-img" alt="Review" loading="lazy">
@@ -822,7 +812,7 @@
             </li>
             <li class="col-xs-12 col-sm-12 col-md-6">
                 <div class="content_block pos-r">
-                    <div class="img_block wow @if($chkmo) animate__bounceInUp @else animate__bounceInUp @endif" @if(!$chkmo) data-wow-delay="0.2s" @endif>
+                    <div class="img_block">
                         <picture>
                             <source srcset="\assets\images\landing\page1\mobile\Review-landing-page-TPC-3.webp" alt="Review" media="(max-width: 640px)" loading="lazy">
                             <img src="\assets\images\landing\page1\desktop\Review-landing-page-TPC-3.webp" width="900" height="350" class="img-fluid ab-img" alt="Review" loading="lazy">
@@ -832,7 +822,7 @@
             </li>
             <li class="col-xs-12 col-sm-12 col-md-6">
                 <div class="content_block pos-r">
-                    <div class="img_block wow @if($chkmo) animate__bounceInUp @else animate__bounceInUp @endif" @if(!$chkmo) data-wow-delay="0.3s" @endif>
+                    <div class="img_block">
                         <picture>
                             <source srcset="\assets\images\landing\page1\mobile\Review-landing-page-TPC-4.webp" alt="Review" media="(max-width: 640px)" loading="lazy">
                             <img src="\assets\images\landing\page1\desktop\Review-landing-page-TPC-4.webp" width="900" height="350" class="img-fluid ab-img" alt="Review" loading="lazy">
@@ -842,7 +832,7 @@
             </li>
             <li class="col-xs-12 col-sm-12 col-md-6">
                 <div class="content_block pos-r">
-                    <div class="img_block wow @if($chkmo) animate__bounceInUp @else animate__bounceInUp @endif" @if(!$chkmo) data-wow-delay="0.4s" @endif>
+                    <div class="img_block">
                         <picture>
                             <source srcset="\assets\images\landing\page1\mobile\Review-landing-page-TPC-5.webp" alt="Review" media="(max-width: 640px)" loading="lazy">
                             <img src="\assets\images\landing\page1\desktop\Review-landing-page-TPC-5.webp" width="900" height="350" class="img-fluid ab-img" alt="Review" loading="lazy">
@@ -856,7 +846,7 @@
         <div class="row r1 m-0">
             <div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
                 <div class="content_block d-flex pos-r">
-                    <h2 class="text-center m-auto wow @if($chkmo) animate__fadeInUpBig @else animate__zoomIn @endif">
+                    <h2 class="text-center m-auto">
                         THIS MAY BE THE MOST IMPORTANT<br>
                         DECISION YOU EVER MAKE
                     </h2>
@@ -864,7 +854,7 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 p-0 col2">
                 <div class="content_block pos-r">
-                    <p class="p1 wow @if($chkmo) animate__fadeInUpBig @else animate__lightSpeedInLeft @endif">
+                    <p class="p1">
                         Even after everything you have read about TPC, you may still be on the fence.<br>
                         At this point, you can go in 1 of 2 directions.<br>
                         <label class="theme-hl">1. You can try our product as a sample for FREE!</label><br>
@@ -881,7 +871,7 @@
         <div class="row r1 m-0">
             <div class="col-xs-12 col-sm-12 col-md-12 p-0">
                 <div class="content_block d-flex pos-r">
-                    <div class="content_group m-auto wow @if($chkmo) animate__flipInY @else animate__flipInY @endif">
+                    <div class="content_group m-auto">
                         <h2 class="theme-hl text-center">
                             Get FREE SAMPLE<br>
                             Now!
@@ -923,7 +913,7 @@
         <div class="row r1 m-0">
             <div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
                 <div class="content_block d-flex pos-r">
-                    <h2 class="text-center wow @if($chkmo) animate__fadeInUpBig @else animate__zoomIn @endif">
+                    <h2 class="text-center">
                         <i>Get in touch with us !</i>
                     </h2>
                 </div>
@@ -932,7 +922,7 @@
         <div class="row r2 m-0">
             <div class="col-xs-12 col-sm-12 col-md-3 p-0 col1">
                 <div class="content_block d-flex pos-r">
-                    <div class="content_group wow @if($chkmo) animate__fadeInUpBig @else animate__zoomIn @endif">
+                    <div class="content_group">
                         <div class="img_block">
                             <picture>
                                 <source srcset="\assets\images\landing\page1\mobile\Icon-landing-page-TPC-Thai-Polyester-Phone.webp" alt="Phone" media="(max-width: 640px)" loading="lazy">
@@ -943,13 +933,12 @@
                         <div>
                             <a href="tel:+6634852371">+66 34 852371 to 2</a>
                         </div>
-                        {{-- <p class="text-center">+66 34 852371 to 2</p> --}}
                     </div>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-3 p-0 col2">
                 <div class="content_block d-flex pos-r">
-                    <div class="content_group wow @if($chkmo) animate__fadeInUpBig @else animate__zoomIn @endif">
+                    <div class="content_group">
                         <div class="img_block">
                             <picture>
                                 <source srcset="\assets\images\landing\page1\mobile\Icon-landing-page-TPC-Thai-Polyester-Email.webp" alt="Email" media="(max-width: 640px)" loading="lazy">
@@ -960,13 +949,12 @@
                         <div>
                             <a href="mailto:support@thaipolyester.com">support@thaipolyester.com</a>
                         </div>
-                        {{-- <p class="text-center">support@thaipolyester.com</p> --}}
                     </div>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-3 p-0 col3">
                 <div class="content_block d-flex pos-r">
-                    <div class="content_group wow @if($chkmo) animate__fadeInUpBig @else animate__zoomIn @endif">
+                    <div class="content_group">
                         <div class="img_block">
                             <picture>
                                 <source srcset="\assets\images\landing\page1\mobile\Icon-landing-page-TPC-Thai-Polyester-Website.webp" alt="Website" media="(max-width: 640px)" loading="lazy">
@@ -977,13 +965,12 @@
                         <div>
                             <a href="/" target="_blank">www.thaipolyester.com</a>
                         </div>
-                        {{-- <p class="text-center">www.thaipolyester.com</p> --}}
                     </div>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-3 p-0 col4">
                 <div class="content_block d-flex pos-r">
-                    <div class="content_group wow @if($chkmo) animate__fadeInUpBig @else animate__zoomIn @endif">
+                    <div class="content_group">
                         <div class="img_block">
                             <picture>
                                 <source srcset="\assets\images\landing\page1\mobile\Icon-landing-page-TPC-Thai-Polyester-Whatsapp.webp" alt="Whatsapp" media="(max-width: 640px)" loading="lazy">
@@ -994,7 +981,6 @@
                         <div>
                             <a href="https://api.whatsapp.com/send/?phone=66639021369&text&app_absent=0" target="_blank">+66 63 902 1369</a>
                         </div>
-                        {{-- <p class="text-center">+66 63 902 1369</p> --}}
                     </div>
                 </div>
             </div>
@@ -1002,7 +988,7 @@
         <div class="row r3 m-0">
             <div class="col-xs-12 col-sm-12 col-md-3 p-0 col1">
                 <div class="content_block d-flex pos-r">
-                    <div class="content_group wow @if($chkmo) animate__fadeInUpBig @else animate__zoomIn @endif">
+                    <div class="content_group">
                         <div class="img_block">
                             <picture>
                                 <source srcset="\assets\images\landing\page1\mobile\Icon-landing-page-TPC-Thai-Polyester-Address.webp" alt="Address" media="(max-width: 640px)" loading="lazy">
@@ -1015,7 +1001,7 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-3 p-0 col2">
                 <div class="content_block d-flex pos-r">
-                    <div class="content_group wow @if($chkmo) animate__fadeInUpBig @else animate__zoomIn @endif">
+                    <div class="content_group">
                         <h3 class="theme-hl text-center">Head Office :</h3>
                         <p class="text-center">
                             470 Bangkuntien-Chaitaley<br>
@@ -1032,7 +1018,7 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-3 p-0 col3">
                 <div class="content_block d-flex pos-r">
-                    <div class="content_group wow @if($chkmo) animate__fadeInUpBig @else animate__zoomIn @endif">
+                    <div class="content_group">
                         <h3 class="theme-hl text-center">Factory :</h3>
                         <p class="text-center">
                             888 Moo1, Highway 331 Km.65<br>
@@ -1049,7 +1035,7 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-3 p-0 col4">
                 <div class="content_block d-flex pos-r">
-                    <div class="content_group wow @if($chkmo) animate__fadeInUpBig @else animate__zoomIn @endif">
+                    <div class="content_group">
                         <h3 class="theme-hl text-center">Sales Office :</h3>
                         <p class="text-center">
                             Jongstit Park 99 Moo1,<br>
@@ -1069,7 +1055,7 @@
         <div class="row r4 m-0">
             <div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
                 <div class="content_block d-flex pos-r">
-                    <p class="p1 text-center m-auto wow @if($chkmo) animate__bounce @else animate__bounce @endif">
+                    <p class="p1 text-center m-auto">
                         copyr ight c 2019 Thai polyes ter Co. ,Ltd. Al l r ight s reserved.
                     </p>
                 </div>
@@ -1080,14 +1066,14 @@
         <div class="row r1 m-0">
             <div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
                 <div class="content_block d-flex pos-r">
-                    <h2 class="text-center wow @if($chkmo) animate__bounce @else animate__bounce @endif">
+                    <h2 class="text-center">
                         About US
                     </h2>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 p-0 col2">
                 <div class="content_block d-flex pos-r">
-                    <p class="p1 m-auto wow @if($chkmo) animate__backInLeft @else animate__backInLeft @endif">
+                    <p class="p1 m-auto">
                         Thai Polyester Company (TPC) was founded in 2001. We are a vertically integrated fiber polyester
                         manufacturer with a total capacity of 316,800 tons per year, utilizing innovative technology
                         worldwide. TPC is a registered company specializing in polyester yarn, fiber, and filament. We
