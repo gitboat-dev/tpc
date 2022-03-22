@@ -1,6 +1,6 @@
 /* Thank popup */
 
-.thank-open{
+/* .thank-open{
     overflow: hidden;
 }
 body.thank-open .thank{
@@ -9,21 +9,21 @@ body.thank-open .thank{
     display: block;
     opacity: 1;
     transition: all 0.3s;
-}
+} */
 .thank{
     position: fixed;
-    top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    z-index: 1050;
-    /* display: none; */
-    overflow: hidden;
     -webkit-overflow-scrolling: touch;
     outline: 0;
-    background: rgba(0,0,0,0.8);
-    opacity: 0;
     transition: all 0.3s;
+    top: 0;
+    /* z-index: 1050; */
+    /* display: none; */
+    /* overflow: hidden; */
+    /* background: rgba(0,0,0,0.8); */
+    /* opacity: 0; */
 }
 .thank .thank-dialog{
     max-width: 645px;
@@ -64,10 +64,14 @@ body.thank-open .thank{
     z-index: 999;
     width: 100%;
 }
-.thank .thank-content .thank-footer .thank-close{
+.thank .thank-content .thank-footer .mt-50{
+    margin: auto !important;
+    margin-top: 50px !important;
+}
+/* .thank .thank-content .thank-footer .thank-close{
     margin: 10px 0 40px;
     cursor: pointer;
-}
+} */
 .thank .thank-content .thank-footer .thank-web a{
     font-size: 30px;
     padding: 15px 20px;
