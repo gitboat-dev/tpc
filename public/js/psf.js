@@ -1,3 +1,7 @@
+let inqbg="TPC",
+	inqKey="13bcbc8d49ee223937c008c63bd235f3",
+	inqRequest="inquiry-request",
+	inqhas="xyz";
 jQuery(document).ready(function($){
 	var video1 =$('#video1')[0],
 		btn_play1 = $('#btn-video1');
