@@ -6,46 +6,7 @@
 @endsection
 @section('og-image','\assets\images\landing\page1\og-image\og-image.webp')
 @section('content')
-<div id="landing" class="thank-open">
-    <div class="thank" >
-        <div class="thank-dialog">
-            <div class="thank-content">
-                <div class="thank-header">
-                    <div class="thank-icon">
-                        <div class="img_block">
-                            <picture>
-                                <source srcset="\assets\images\landing\page1\thank-you\mobile\mark-succeed.webp" alt="Thank you" media="(max-width: 640px)" loading="lazy">
-                                <img src="\assets\images\landing\page1\thank-you\desktop\mark-succeed.webp" width="900" height="350" class="img-fluid ab-img" alt="Thank you" loading="lazy">
-                            </picture>
-                        </div>
-                    </div>
-                </div>
-                <div class="thank-body d-flex">
-                    <div class="thank-group mb-0">
-                        <h3 class="thank-title">Thank you!</h3>
-                        <p class="thank-desc">Your submission has been received.</p>
-                    </div>
-                </div>
-                <div class="thank-footer d-flex">
-                    <div class="thank-group m-auto">
-                        <div class="thank-close">
-                            <div class="img_block d-flex">
-                                <picture>
-                                    <source srcset="\assets\images\landing\page1\thank-you\mobile\mark-close.webp" alt="Thank you" media="(max-width: 640px)" loading="lazy">
-                                    <img src="\assets\images\landing\page1\thank-you\desktop\mark-close.webp" width="900" height="350" class="img-fluid ab-img" alt="Thank you" loading="lazy">
-                                </picture>
-                            </div>
-                        </div>
-                        <div class="thank-web text-center">
-                            <a href="/" title="Thai polyester">
-                                go to website
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<div id="landing">
     <section id="sec1">
         <div class="row r1 m-0">
             <div class="col-xs-12 col-sm-12 col-md-12 p-0">
@@ -422,7 +383,7 @@
                             <tr>
                                 <td rowspan="2" class="fw-600">PSF<br>Virgin</td>
                                 <td class="td-white fw-600 psf-font-1">*1.0,1.2*</td>
-                                <td rowspan="2">32,38,44,<br>51</td>
+                                <td rowspan="2">32,38,44,51</td>
                                 <td rowspan="2">Virgin</td>
                                 <td>RW</td>
                             </tr>
@@ -433,7 +394,7 @@
                             <tr>
                                 <td rowspan="2" class="fw-600">PSF<br>Recycled</td>
                                 <td class="td-white fw-600 psf-font-1">*1.2*</td>
-                                <td rowspan="2">32,38,44,<br>51</td>
+                                <td rowspan="2">32,38,44,51</td>
                                 <td rowspan="2">Recycled</td>
                                 <td>RW</td>
                             </tr>
