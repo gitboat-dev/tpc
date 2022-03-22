@@ -135,8 +135,6 @@ function secfive(){
 		minheight1 = jQuery(row2).outerHeight();
 	jQuery(row1).css({'min-height':minheight1+'px'});
 }
-
-
 function thank_you(){
     window.location.href = "/thank-you";
 }
