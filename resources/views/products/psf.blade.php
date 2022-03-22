@@ -640,7 +640,7 @@
                 <div class="row m-0 r1">
                     <div class="col-xs-12 col-sm-12 col-md-12 p-0">
                         <h3 class="text_green text-center">
-                            how we can help your business grow!
+                            We can help your business grow!
                         </h3>
                         <h2 class="text_green text-center">
                             <span class="text_light">Be Our Success</span><br>
