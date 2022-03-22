@@ -589,13 +589,50 @@
 					<div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
 						<h2>E. Polyester Staple Fiber (PSF) Product which TPC provide</h2>
 					</div>
-					<div class="col-xs-12 col-sm-12 col-md-12 p-0 col2">
+					{{-- <div class="col-xs-12 col-sm-12 col-md-12 p-0 col2">
 						<div class="img_block1">
 							<picture>
 								<source srcset="/assets/images/psf-new/mobile/Polyester-Staple-Fiber-%28PSF%29-Product-which-Thaipolyester-provide.webp" alt="Polyester Staple Fiber (PSF) Product which Thaipolyester provide" media="(max-width: 640px)" loading="lazy">
 								<img src="/assets/images/psf-new/desktop/Polyester-Staple-Fiber-%28PSF%29-Product-which-Thaipolyester-provide.webp" width="900" height="350" class="img-fluid ab-img" alt="Polyester Staple Fiber (PSF) Product which Thaipolyester provide" loading="lazy">
 					        </picture>
 					    </div>
+					</div> --}}
+                    <div class="col-xs-12 col-sm-12 col-md-12 p-0 col2">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th width="21.5%">YARN TYPE</td>
+                                    <th width="21.5%">DENIER</td>
+                                    <th width="22%">CUT<br> LENGTH<br> (MM)</td>
+                                    <th width="17.5%">TYPE</td>
+                                    <th width="17.5%">COLOR</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td rowspan="2" class="fw-600">PSF<br>Virgin</td>
+                                    <td class="td-back fw-600 psf-font-1">*1.0,1.2*</td>
+                                    <td rowspan="2">32,38,44,51</td>
+                                    <td rowspan="2">Virgin</td>
+                                    <td>RW</td>
+                                </tr>
+                                <tr>
+                                    <td class="psf-font-2">1.4</td>
+                                    <td>DDB</td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="2" class="fw-600">PSF<br>Recycled</td>
+                                    <td class="td-back fw-600 psf-font-1">*1.2*</td>
+                                    <td rowspan="2">32,38,44,51</td>
+                                    <td rowspan="2">Recycled</td>
+                                    <td>RW</td>
+                                </tr>
+                                <tr>
+                                    <td class="psf-font-2">1.4</td>
+                                    <td>DDB</td>
+                                </tr>
+                            </tbody>
+                        </table>
 					</div>
 				</div>
 			</div>

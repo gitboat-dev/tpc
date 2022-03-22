@@ -727,9 +727,49 @@ span.highlight{
 #psf .section-eleven .r1 .col2{
 	display: flex;
 	position: relative;
+    padding: 20px 75px;
 }
 #psf .section-eleven .r1 .col2 .img_block1{
 	margin: auto;
+}
+
+#psf .section-eleven .r1 .col2 table{
+    width: 100%;
+    table-layout:fixed;
+    font-size: 16px;
+}
+#psf .section-eleven .r1 .col2 table th{
+    background-color: var(--msBg);
+    border: 2px solid var(--msBgDark);
+    border-collapse: collapse;
+    color: var(--msBgLight);
+    word-wrap: break-word;
+    text-align: center;
+    height: 40px;
+    padding: 5px;
+}
+#psf .section-eleven .r1 .col2 table td{
+    /* background-color: var(--msBgDark); */
+    border: 2px solid var(--msBgDark);
+    border-collapse: collapse;
+    color: var(--msBg);
+    word-wrap: break-word;
+    text-align: center;
+    height: 30px;
+    padding: 5px;
+}
+#psf .section-eleven .r1 .col2 table td.psf-font-1{
+    font-size: 22px !important;
+}
+#psf .section-eleven .r1 .col2 table td.psf-font-2{
+    font-size: 20px !important;
+}
+#psf .section-eleven .td-back{
+    background-color: var(--msBgLight) !important;
+    color: var(--msBgDark) !important;
+}
+#psf .section-eleven .fw-600{
+    font-weight: 600 !important;
 }
 
 	/*-------------------------------------End Section Eleven-------------------------------------*/
@@ -1151,6 +1191,35 @@ span.highlight{
         line-height: 35px;
         padding: 5px 15px;
     }
+    #psf .section-eleven .r1 .col2{
+        padding: 20px 0px;
+    }
+    #psf .section-eleven .r1 .col2 table{
+        padding: 2px;
+        font-size: 11px;
+        line-height: 12px;
+    }
+    #psf .section-eleven .r1 .col2 table td.psf-font-1{
+        font-size: 16px !important;
+    }
+    #psf .section-eleven .r1 .col2 table td.psf-font-2{
+        font-size: 15px !important;
+    }
 
     /*-------------------------------------End Section Twelve-------------------------------------*/
+}
+@media only screen and (max-width: 330px){
+    #psf .section-eleven .r1 .col2 table{
+        padding: 2px;
+        font-size: 11px;
+        line-height: 12px;
+    }
+    #psf .section-eleven .r1 .col2 table td.psf-font-1{
+        font-size: 11.6px !important;
+    }
+    #psf .section-eleven .r1 .col2 table td.psf-font-2{
+        font-size: 10.6px !important;
+    }
+
+    /*-------------------------------------End Section Eleven-------------------------------------*/
 }
