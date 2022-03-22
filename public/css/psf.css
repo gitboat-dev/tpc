@@ -295,7 +295,7 @@ span.highlight{
 }
 #psf .section-six .r1 .col2 .contents,
 #psf .section-six .r1 .col3 .contents{
-	margin: auto; 
+	margin: auto;
 }
 #psf .section-six .r1 .col1 .content_block,
 #psf .section-six .r1 .col2 .content_block,
@@ -462,7 +462,7 @@ span.highlight{
 	bottom: 0;
 }
 #psf .section-seven .r1 .col2 .col2-2 .content_1{
-	padding: 20px; 
+	padding: 20px;
 	padding-left: calc(23.66666665% + 20px);
 	background-color: #fff;
 	color: #000;
@@ -484,7 +484,7 @@ span.highlight{
 #psf .section-seven .r1 .col2 .col1-3 .content_1,
 #psf .section-seven .r1 .col2 .col2-3 .content_1{
 	padding: 0 20px;
-	margin: auto; 
+	margin: auto;
 }
 #psf .section-seven .r1 .col2 .col1-3 .content_1 h4{
 	color: var(--msBg);
@@ -642,7 +642,7 @@ span.highlight{
 }
 #psf .section-nine .r1 .col2{
 	border: 70px solid var(--msBgDark);
-	border-right-width: 40px; 
+	border-right-width: 40px;
 	border-left: none;
 }
 #psf .section-nine .r1 .col2::after{
@@ -739,6 +739,78 @@ span.highlight{
 }
 
 	/*-------------------------------------End Section Eleven-------------------------------------*/
+
+#psf .section-twelve{
+    padding: 20px;
+}
+#psf .section-twelve .text_green{
+    color: var(--msBg);
+    font-weight: normal;
+}
+#psf .section-twelve .text_light{
+    color: var(--msBgLight);
+    font-weight: normal;
+}
+#psf .section-twelve .r1 .content-block{
+    display: flex;
+    position: relative;
+}
+#psf .section-twelve .r1 .content-block > .content-group{
+    margin: auto;
+    max-width:645px;
+    border: 2px solid var(--msBgLight);
+    padding: 20px;
+}
+#psf .section-twelve .r1 .content-block > .content-group > h1{
+    font-size: 55px;
+    line-height: 65px;
+    margin-bottom: 30px;
+}
+#psf .section-twelve #contact-form input,
+#psf .section-twelve #contact-form textarea{
+    background-color: var(--msBgDark);
+    border-top: 2px solid var(--msBgDark);
+    border-left: 2px solid var(--msBgDark);
+    border-right: 2px solid var(--msBgDark);
+    border-bottom: 2px solid var(--msBgLight);
+    color: var(--msBg);
+    font-size: 16px;
+    line-height: 20px;
+}
+#psf .section-twelve #contact-form input::placeholder,
+#psf .section-twelve #contact-form textarea::placeholder{
+    color: var(--msBg);
+    opacity: 1;
+}
+#psf .section-twelve #contact-form input:-ms-input-placeholder,
+#psf .section-twelve #contact-form textarea:-ms-input-placeholder{
+    color: var(--msBg);
+    opacity: 1;
+}
+#psf .section-twelve #contact-form input::-ms-input-placeholder,
+#psf .section-twelve #contact-form textarea::-ms-input-placeholder{
+    color: var(--msBg);
+    opacity: 1;
+}
+#psf .section-twelve #contact-form textarea{
+    resize: vertical;
+}
+#psf .section-twelve #contact-form input{
+    min-height: 35px;
+}
+#psf .section-twelve #contact-form .bt-contact{
+    font-size: 25px;
+    line-height: 35px;
+    color: var(--msBgDark);
+    background-color: var(--msBg);
+    border: none;
+    margin-top: 20px;
+    padding: 10px 20px;
+    transition: all 0.2s;
+}
+
+/*-------------------------------------End Section Twelve-------------------------------------*/
+
 
 @media only screen and (max-width: 1348px){
 	#psf .section-four .r1 .col3 .content_1 img{
@@ -872,10 +944,10 @@ span.highlight{
 		display: none;
 	}
 	#psf .section-seven .r1 .col1 .col1-1{
-		padding: 0; 
+		padding: 0;
 	}
 	#psf .section-seven .r1 .col1 .col1-1 .content_1{
-		padding: 20px; 
+		padding: 20px;
 		margin-left: 0;
 	}
 	#psf .section-seven .r1 .col1 .col1-1 .content_1 h3{
@@ -1067,4 +1139,19 @@ span.highlight{
 	}
 
 	/*-------------------------------------End Section Eleven-------------------------------------*/
+
+    #psf .section-twelve .r1 .content-block > .content-group{
+        padding: 0px;
+    }
+    #psf .section-twelve .r1 .content-block > .content-group > h1{
+        font-size: 30px;
+        line-height: 32px;
+    }
+    #psf .section-twelve #contact-form .bt-contact{
+        font-size: 16px;
+        line-height: 35px;
+        padding: 5px 15px;
+    }
+
+    /*-------------------------------------End Section Twelve-------------------------------------*/
 }

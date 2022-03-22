@@ -599,6 +599,60 @@
 					</div>
 				</div>
 			</div>
+            <div class="section-twelve bg-black">
+                <div class="row m-0 r1">
+                    <div class="col-xs-12 col-sm-12 col-md-12 p-0">
+                        <h3 class="text_green text-center">
+                            how we can help your business grow!
+                        </h3>
+                        <h2 class="text_green text-center">
+                            <span class="text_light">Be Our Success</span><br>
+                            Partner
+                        </h2>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 p-0">
+                        <div class="content-block">
+                            <div class="content-group">
+                                <h1 class="text_green text-center">CONTACT US</h1>
+                                <form id="contact-form" data-request="contact" autocomplete="off">
+									<div class="form-group col-xs-12 col-sm-12 col-md-12">
+							            <input type="text" class="form-control" name="name" id="name" placeholder="NAME*">
+							            <span class="text-danger name mb-font12"></span>
+									</div>
+									{{-- <div class="form-group col-xs-6 col-sm-6 col-md-6">
+							            <input type="text" class="form-control" name="lastname" id="lastname" placeholder="LAST NAME">
+							            <span class="text-danger lastname mb-font12"></span>
+									</div> --}}
+									<div class="form-group col-xs-12 col-sm-12 col-md-12">
+								        <input type="text" class="form-control" name="company" id="company" placeholder="COMPANY">
+								        <span class="text-danger company mb-font12"></span>
+									</div>
+                                    <div class="form-group col-xs-6 col-sm-6 col-md-6">
+							            <input type="email" class="form-control" name="email" id="email" placeholder="EMAIL*">
+							            <span class="text-danger email mb-font12"></span>
+									</div>
+									<div class="form-group col-xs-6 col-sm-6 col-md-6">
+								        <input type="text" class="form-control" name="phone" id="phone" placeholder="PHONE*">
+								        <span class="text-danger phone mb-font12"></span>
+									</div>
+									<div class="form-group col-xs-12 col-sm-12 col-md-12">
+		            					<textarea class="form-control" name="message" id="message" placeholder="MESSAGE" rows="5"></textarea>
+		            					<span class="text-danger message mb-font12"></span>
+									</div>
+									<div class="col-xs-12 col-sm-12 col-md-12">
+										<div id="res" class="res"></div>
+									</div>
+									<div class="form-group col-xs-12 col-sm-12 col-md-12 text-center btn-block">
+										<button type="button" id="submitcontract" class="bt-contact">
+											SEND
+										</button>
+									</div>
+								</form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 		</div>
 	</div>
 @endsection
