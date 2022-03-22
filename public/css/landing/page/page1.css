@@ -11,6 +11,16 @@
     font-weight: 600;
     text-align: center;
 }
+.animate_flashing1:not(:hover){
+    animation-name: flashing1;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+}
+.animate_flashing2{
+    animation-name: flashing2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
 
 /* End Setting All */
 
@@ -811,4 +821,32 @@
     }
 
     /* End Sec9 */
+}
+@keyframes flashing1 {
+    0%   {
+        color: var(--msBgDark);
+    }
+    25%  {
+        color: var(--msBgLight);
+    }
+    100% {
+        color: var(--msBgDark);
+    }
+}
+@keyframes flashing2 {
+    0%   {
+        color: var(--msBgGreen);
+    }
+    25%  {
+        color: red;
+    }
+    50%  {
+        color: var(--msBgGreen);
+    }
+    75%  {
+        color: red;
+    }
+    100% {
+        color: var(--msBgGreen);
+    }
 }

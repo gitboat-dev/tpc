@@ -387,7 +387,7 @@
             <div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
                 <div class="content_block d-flex pos-r">
                     <div class="content_group m-auto text-center">
-                        <h2 class="green-hl">“PSF”</h2>
+                        <h2 class="green-hl animate_flashing2">“PSF”</h2>
                         <h3 class="green-hl">
                             <div class="img_block d-inline-b">
                                 <picture>
@@ -602,7 +602,7 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 p-0 col3">
                 <div class="content_block d-flex pos-r">
-                    <a href="#sec16" id="get_free" title="Get Free Samples" class="text-center m-auto">GET FREE Samples</a>
+                    <a href="#sec16" id="get_free" title="Get Free Samples" class="text-center m-auto animate_flashing1">GET FREE Samples</a>
                 </div>
             </div>
         </div>
