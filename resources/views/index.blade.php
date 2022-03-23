@@ -4,8 +4,6 @@
 	<link rel="preload stylesheet" id="fancybox-css" href="{!!asset('/assets/custom/wp-content/plugins/radiantthemes-addons/assets/css/jquery.fancybox.min.css?ver=4.9.11')!!}" type="text/css" as="style" media="all" crossorigin>
 @endsection
 @section('content')
-	{{-- <h1 style="display: none;">Thai Polyester Company (TPC)</h1> --}}
-	{{-- <h2 style="display: none;">We are a leading polyester yarn manufacturer in Thailand.</h2> --}}
 	<div id="home">
 		<div id="home_bg">
 			<div class="section-one">
