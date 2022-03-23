@@ -64,7 +64,6 @@ span.highlight{
 }
 #home .section-one .r1 .col1 .banner-title-block > .title-group{
     padding: 20px;
-    max-width: 45%;
     min-width: 45%;
 }
 #home .section-one .r1 .col1:hover .banner-title-block > .title-group{
