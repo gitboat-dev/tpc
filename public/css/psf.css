@@ -850,6 +850,13 @@ span.highlight{
 
 /*-------------------------------------End Section Twelve-------------------------------------*/
 
+@media only screen and (max-width: 1478px){
+    #psf .section-nine .r1 .col1 ul.box-ten-dot-bottom{
+        display: none;
+    }
+
+    /*-------------------------------------End Section Nine-------------------------------------*/
+}
 
 @media only screen and (max-width: 1348px){
 	#psf .section-four .r1 .col3 .content_1 img{
