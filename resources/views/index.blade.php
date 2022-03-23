@@ -26,8 +26,8 @@
 						<div class="content_1">
 							<h2>Our Company</h2>
 							<p class="p1">
-								Thai Polyester Company was established in 2001. We are full integration of fiber polyester manufacturer with a total capacity of 350,000 tons
-                                annually, achieved thereby of the innovative technology in the globe.
+								Thai Polyester Company was established in 2001. We are full integration of fiber polyester manufacturer
+                                with a total capacity of 350,000 tons annually, achieved thereby of the innovative technology in the globe.
 							</p>
 						</div>
 					</div>
@@ -56,10 +56,11 @@
                                 Thai Polyester Company (TPC) is a registered company
                                 specializing in fiber and filament polyester yarn.
                                 We export polyester yarn to many countries.
-                                An engineering plant of our production phases
-                                has successive through Zimmer AG Germany.
+                                An engineering plant of our production phases has
+                                successive through Zimmer AG Germany.
                                 Concerning filament and the textured yarn is developed
-                                with the latest generation of application on German operation, Barmag take-up.
+                                with the latest generation of application
+                                on German operation, Barmag take-up.
                                 TPC, we landed on 3.2 Million Sq.m. at Ban Bung, Chonburi,
                                 far from Laemchabang Port, within 2 hours.
 							</p>
@@ -102,8 +103,8 @@
 							</div>
 							<h4>JONG STIT</h4>
 							<p class="p1">
-								Jong Stit Co.,Ltd. is a leading textile entrepreneur based in Thailand.
-                                JS group is corporate in vertical integration of textile manufacturers leveraging 100% polyester.
+								Jong Stit Co.,Ltd. is a leading textile entrepreneur based in Thailand. JS group is corporate
+                                in vertical integration of textile manufacturers leveraging 100% polyester.
 							</p>
 							<div class="img_block1">
 								<picture>
@@ -120,8 +121,8 @@
 							</div>
 							<h4>FASHION HOMETEX</h4>
 							<p class="p1">
-								We are the largest home textile supplier in Thailand, an affiliate of Jong Stit Co.,Ltd.
-                                We are distributing innovative products to bring your comforts to meet our quality.
+								We are the largest home textile supplier in Thailand, an affiliate of Jong Stit Co.,Ltd. We are
+                                distributing innovative products to bring your comforts to meet our quality.
 							</p>
 							<div class="img_block1">
 								<picture>
@@ -152,8 +153,9 @@
 					<div class="col-xs-12 col-sm-12 col-md-12 p-0 col3">
 						<div class="content_1">
 							<p class="p1">
-                                For this reason, Thai Polyester limited company (TPC), the <span class="highlight">leading recycled polyester yarn and fiber manufacturer</span> in Thailand, seriously concerned about the environmental problems to
-                                protect the ecosystem and the environment for decades.
+                                For this reason, Thai Polyester limited company (TPC), the <span class="highlight">leading recycled polyester yarn
+                                and fiber manufacturer</span> in Thailand, seriously concerned about the environmental problems
+                                to protect the ecosystem and the environment for decades.
 							</p>
 							<a href="{!!url('/recycled-products')!!}" title="Recycled Products">...Continue reading</a>
 						</div>
@@ -208,11 +210,9 @@
     				<div class="content1_1">
     					<h2>Filament</h2>
 	                	<p class="p1">
-                            Thai polyester Co., Ltd., the leading
-                            polyester yarn supplier based in Thailand,
-                            has 84,000 tons of polyester filament
-                            production yearly. TPC manufactures four
-                            categories of polyester filament yarn which are;<br>
+                            Thai polyester Co., Ltd., the leading polyester yarn supplier based in Thailand, has 84,000
+                            tons of polyester filament production yearly. TPC manufactures four categories of polyester
+                            filament yarn which are;<br>
 							• Pre-Oriented Yarn (POY)<br>
 							• Fully Drawn Yarn (FDY)<br>
 							• Drawn Textured Yarn (DTY)<br>
@@ -229,14 +229,11 @@
 						<div class="content_1">
 							<h2>Spun yarn</h2>
 							<p class="p1">
-                                Thai Polyester Co., Ltd. is a professional
-                                <span class="highlight">100% polyester fibers and yarns manufacturer</span> in
-                                Thailand. We are also the biggest 100% polyester spun yarn manufacturer
-                                in Thailand. Thai Polyester provides considerable quantities of
-                                <span class="highlight">polyester ring-spun yarn</span> and
-                                <span class="highlight">polyester OE spun yarn</span> to
-                                the local customers and exports to thread suppliers, knitting,
-                                and weaving manufacturers worldwide every year.
+                                Thai Polyester Co., Ltd. is a professional <span class="highlight">100% polyester fibers and yarns manufacturer</span> in
+                                Thailand. We are also the biggest 100% polyester spun yarn manufacturer in Thailand.
+                                Thai Polyester provides considerable quantities of <span class="highlight">polyester ring-spun yarn</span> and
+                                <span class="highlight">polyester OE spun yarn</span> to the local customers and exports to thread suppliers, knitting, and
+                                weaving manufacturers worldwide every year.
 							</p>
 							<a href="{{ route('product.spun-yarn') }}" title="Spun yarn">...Continue reading</a>
 						</div>
@@ -268,7 +265,9 @@
 					<div class="col-xs-12 col-sm-12 col-md-8 p-0 bg-green col2">
 						<div class="content_1">
 							<p class="p1 m-0">
-								With our 20 years of experience as a one-stop service polyester yarn and fiber manufacturer in Thailand, we have supplied customers in various industries located in more than 70 countries around the world.
+                                With our 20 years of experience as a one-stop service polyester yarn and fiber manufacturer
+                                in Thailand, we have supplied customers in various industries located in more than 70
+                                countries around the world.
 							</p>
 						</div>
 					</div>
