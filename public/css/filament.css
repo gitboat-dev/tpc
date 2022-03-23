@@ -49,12 +49,6 @@ p.highlight{
 
 	/*-------------------------------------End Setting All-------------------------------------*/
 
-#filament .section-one{
-
-}
-
-	/*-------------------------------------End Section One-------------------------------------*/
-
 #filament .section-two .r1 .col1 .content_1{
 	text-align: center;
 	display: flex;
@@ -81,6 +75,7 @@ p.highlight{
 }
 #filament .section-two .r1 .col2 .content_1 p.p1{
 	padding: 25px 20px;
+    text-indent: 30px;
 }
 #filament .section-two .r1 .col2 .content_1 p.p2{
 	text-align: right;
@@ -118,6 +113,9 @@ p.highlight{
     display: flex;
     flex-direction: column;
 }
+#filament .section-three .r1 .col1 .col1-3 .content_1 p.p1{
+    text-indent: 30px;
+}
 #filament .section-three .r1 .col2{
     padding: 20px 30px 20px 20px;
     background:url('/assets/images/filament/desktop/Pre-Oriented-Yarn-or-POY-Filament-Process-Polyester-Thaipolyester-3.webp') no-repeat;
@@ -135,6 +133,9 @@ p.highlight{
 }
 #filament .section-three .r1 .col2 .content_1{
     margin-top: 75px;
+}
+#filament .section-three .r1 .col2 .content_1 p.p1{
+    text-indent: 30px;
 }
 #filament .section-three .r1 .col1 .col1-1{
     padding: 30px 0px 20px 20px;
@@ -202,6 +203,7 @@ p.highlight{
 }
 #filament .section-four .r1 .col2 .content_1 p{
 	padding: 10px 20px;
+    text-indent: 30px;
 }
 #filament .section-four .r1 .col3{
 	display: flex;
@@ -277,6 +279,9 @@ p.highlight{
 #filament .section-five .r1 .col1 .content_1{
 	margin: auto;
 	padding: 0 20px;
+}
+#filament .section-five .r1 .col1 .content_1 p.p1{
+    text-indent: 30px;
 }
 #filament .section-five .r1 .col1 .content_1 .img_group{
 	text-align: center;
@@ -431,6 +436,9 @@ p.highlight{
 #filament .section-seven .r1 .col2 .r2 .col1 p{
 	padding: 20px;
 }
+#filament .section-seven .r1 .col2 .r2 .col1 p.p1{
+    text-indent: 30px;
+}
 #filament .section-seven .r1 .col2 .r2 .col2 div[class^="img_block"]{
 	display: flex;
 	text-align: center;
@@ -563,12 +571,6 @@ p.highlight{
 
 		/*-------------------------------------End Setting All-------------------------------------*/
 
-	#filament .section-one{
-
-	}
-
-		/*-------------------------------------End Section One-------------------------------------*/
-
 	#filament .section-two .r1 .col1 .content_1{
 		min-height: unset;
 	}
@@ -578,9 +580,7 @@ p.highlight{
 	#filament .section-two .r1 .col1 .img_block1 img{
 		border: none;
 	}
-	#filament .section-two .r1 .col2 .content_1 p{
-		/*padding: 10px;*/
-	}
+
 
 		/*-------------------------------------End Section Two-------------------------------------*/
 
@@ -591,12 +591,6 @@ p.highlight{
 		background:url('/assets/images/filament/mobile/Pre-Oriented-Yarn-or-POY-Filament-Process-Polyester-Thaipolyester-2.webp') no-repeat;
 		background-size: 100% auto;
 		background-position: center top;
-	}
-	#filament .section-three .r1 .col1 .r2 .col2 .content_1 p{
-		/*padding: 10px;*/
-	}
-	#filament .section-three .r1 > .col2 .content_1{
-		/*padding: 10px;*/
 	}
 	#filament .section-three .r1 > .col2 .content_1::after{
 		display: none;
