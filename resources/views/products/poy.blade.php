@@ -52,10 +52,15 @@
 					<div class="col-xs-12 col-sm-12 col-md-12 p-0 col2">
 						<div class="content_1">
 							<p class="p1 m-0">
-								Polyester Partially Oriented Yarn (POY) is produced from the melting and extrusion of the polyester chip or flake, made directly from PTA and MEG by using spinning and take-up process
-								and mainly used in texturizing to make textured yarn (DTY). During the spinning process the filaments are stretched or drawn up to five times of their original size to orient the polymer
-								to meet the desired evenness, strength, shrinkage, and elongation properties. Therefore, the term partially oriented yarn refers to multi-filament that is only partially stretched. POY is
-								generally lower tenacity and less uniform than fully oriented yarn (FOY). Additional, POY can also be used in draw warping for weaving and warp knitting of fabrics.
+                                Polyester Partially Oriented Yarn (POY) is produced from the melting and extrusion of the
+                                polyester chip or flake, made directly from PTA and MEG by using spinning and take-up
+                                process and used primarily in texturizing to make textured yarn (DTY). The filaments are
+                                stretched or drawn up to five times their original size during the spinning process to orient
+                                the polymer to meet the desired evenness, strength, shrinkage, and elongation properties.
+                                Therefore, the term partially oriented yarn refers to multi-filament that is only partially
+                                stretched. As a result, POY is generally had lower tenacity and less uniform than fully
+                                oriented yarn (FOY). Additionally, POY can also use in draw warping for weaving and warp
+                                knitted fabrics.
 							</p>
 						</div>
 					</div>
@@ -74,12 +79,9 @@
 				    		<div class="sub_content1">
 				    			<h2>HOW MANY LUSTERS?</h2>
 								<p class="p1 m-0">
-									POY yarn is available in different luster, for
-									example, semi-dull POY, full dull and bright POY.
-									The bright POY has the shininess in itself due to
-									the cross-sections in the filaments. The fabric
-									which is made from bright POY also has the
-									bright luster.
+                                    POY yarn is available in different luster, for example, semi-dull POY, full dull and bright POY.
+                                    The bright POY has shininess due to the filaments' cross-sections. The fabric is made from
+                                    bright POY also has a bright luster.
 								</p>
 				    		</div>
 						</div>
@@ -95,14 +97,10 @@
 				    		<div class="sub_content1">
 					    		<h2>HOW MANY COLORS?</h2>
 								<p class="p1 m-0">
-									Polyester POY yarn is mainly available in raw
-									white color and also available in various different
-									colors. POY is usually colored by the Dope Dyed
-									technology as it is more efficient and the yarn
-									gets evenly colored at each and every part. Color
-									master-batch is mixed with the raw material to
-									make the dope dyed POY. Dope dyed POY yarn
-									can be used to make the Dope Dyed DTY yarn.
+                                    Polyester POY is mainly available in raw white color and various colors. The Dope-Dyed
+                                    technology has much more efficient when colors on POY and the yarn gets evenly colored at
+                                    every part. Color master-batch is mixed with the raw material to make the dope-dyed POY.
+                                    Dope-dyed POY can be used to make the Dope Dyed DTY yarn.
 								</p>
 							</div>
 						</div>
@@ -130,13 +128,11 @@
 					<div class="col-xs-12 col-sm-12 col-md-4 p-0 col2">
 						<div class="content_1">
 							<p class="p1 m-0">
-								Recycled polyester partially oriented yarn is made
-								from recycled polyester, often called R-Pet, which
-								is made from recycled plastic bottles. It is a great
-								way to divert plastic waste from our landfills. The
-								production of recycled polyester requires fewer
-								resources than new fibers and generates fewer
-								CO2 emissions.
+                                Recycled Polyester Partially Oriented Yarn is made
+                                from R-Pet and recycled plastic bottles. It is such a great way
+                                to divert plastic waste from landfills. In addition,
+                                the production of recycled polyester requires fewer resources
+                                than new fibers and generates fewer CO2 emissions.
 							</p>
 						</div>
 					</div>
@@ -153,9 +149,11 @@
 					<div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
 						<div class="content_1">
 							<p class="p1 ">
-								There are 2 ways to recycle polyester. Firstly, for mechanical recycling, plastic is melted to make new yarn. This process can be done a few times before the fiber loses its quality.
-								Secondly, chemical recycling involves breaking down the plastic molecules and reforming them into yarn. This process maintains the quality of the original fiber and allows the material
-								to be recycled infinitely, but it is more expensive than the first process.
+                                There are 2 ways to recycle polyester. Firstly, for mechanical recycling, plastic is melted to
+                                make new yarns. This process can be done a few times before the fiber loses its quality.
+                                Secondly, chemical recycling involves breaking down the plastic molecules and reforming
+                                them into yarn. This process maintains the quality of the original fiber and allows the
+                                material to be recycled infinitely, but it is more expensive than the first process.
 							</p>
 						</div>
 					</div>
