@@ -22,7 +22,7 @@
                         <div class="banner-title-block d-flex">
                             <div class="title-group mr-0 d-flex">
                                 <div class="banner-title m-auto">
-                                    <h1>Thai Polyester Company (TPC)</h1>
+                                    <h1>Thai Polyester <br>Company (TPC)</h1>
                                     <h2>We are a leading polyester yarn<br> manufacturer in Thailand.</h2>
                                 </div>
                             </div>
