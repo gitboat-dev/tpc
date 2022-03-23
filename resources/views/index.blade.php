@@ -11,12 +11,12 @@
 					<div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
 						<div class="img_block1">
 							<picture>
-								<source srcset="/assets/images/home/mobile/Head-Home-Thaipolyester.webp" alt="Head Home Thaipolyester" media="(max-width: 640px)">
-								<img src="/assets/images/home/desktop/Head-Home-Thaipolyester-1.webp" width="900" height="350" class="img-fluid ab-img img1" alt="Head Home Thaipolyester">
+								<source srcset="/assets/images/home/mobile/Head-Home-Thaipolyester.webp?v={{time()}}" alt="Head Home Thaipolyester" media="(max-width: 640px)">
+								<img src="/assets/images/home/desktop/Head-Home-Thaipolyester-1.webp?v={{time()}}" width="900" height="350" class="img-fluid ab-img img1" alt="Head Home Thaipolyester">
 					        </picture>
 					        <picture>
-								<source srcset="/assets/images/home/mobile/Head-Home-Thaipolyester.webp" alt="Head Home Thaipolyester" media="(max-width: 640px)">
-								<img src="/assets/images/home/desktop/Head-Home-Thaipolyester-2.webp" width="900" height="350" class="img-fluid ab-img img2" alt="Head Home Thaipolyester">
+								<source srcset="/assets/images/home/mobile/Head-Home-Thaipolyester.webp?v={{time()}}" alt="Head Home Thaipolyester" media="(max-width: 640px)">
+								<img src="/assets/images/home/desktop/Head-Home-Thaipolyester-2.webp?v={{time()}}" width="900" height="350" class="img-fluid ab-img img2" alt="Head Home Thaipolyester">
 					        </picture>
 				    	</div>
                         <div class="banner-title-block d-flex">

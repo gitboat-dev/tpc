@@ -71,13 +71,13 @@ span.highlight{
 }
 #home .section-one .r1 .col1 .banner-title-block > .title-group h1{
     color: var(--msBgLight);
-    font-size: 40px;
+    font-size: 60px;
     line-height: 55px;
     text-align: right;
 }
 #home .section-one .r1 .col1 .banner-title-block > .title-group h2{
     color: var(--msBgLight);
-    font-size: 30px;
+    font-size: 40px;
     line-height: 45px;
     font-weight: normal;
     text-align: right;
