@@ -97,6 +97,12 @@ body {
 	font-weight: normal;
 	max-width: 1920px;
 }
+#tpc img{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border: 0;
+}
 #tpc > #tpc-bg{
     background-color: var(--msBgLight);
 }
