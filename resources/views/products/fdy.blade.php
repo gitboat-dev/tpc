@@ -31,17 +31,13 @@
 					<div class="col-xs-12 col-sm-12 col-md-5 p-0 col2">
 						<div class="content_1">
 							<p class="p1">
-								Fully Drawn Yarn, in the other words FDY, and it is also
-								known as Spin Draw Yarn or SDY. FDY has<br>
-								difference kind of technique that can be produced in various ways
-								of applications in order to make suitable FDY yarn for several end
-								used. Moreover, Fully Drawn Yarn (FDY) is a kind of highly drawn
-								polyester filament yarn, which can be used to make high strength
-								fabrics and textiles. FDY is primarily used as weft and weaves for
-								making fabrics. Furthermore, FDY can be knitted and woven with
-								any other filament yarn, and most of these manufacturers use FDY
-								to make fabric of different varieties, such as Home Furnishing Fabrics,
-								Fashion Fabrics, Denim, Terry Towel and others.
+                                Fully Drawn Yarn or FDY is also known as Spin Draw Yarn or SDY. FDY has<br> a different technique that
+                                can produce in various applications to make suitable FDY yarn for several end-users. Moreover, Fully
+                                Drawn Yarn (FDY) is a highly drawn polyester filament yarn that can be used to make high-strength
+                                fabrics and textiles. FDY is primarily used as weft and weaves for making fabrics. Furthermore, FDY
+                                can be knitted and woven with any other filament yarn. Most of these manufacturers use FDY to
+                                make the fabric of different varieties, such as Home Furnishing Fabrics, Fashion Fabrics, Denim, Terry
+                                Towel and others.
 							</p>
 						</div>
 					</div>
@@ -58,20 +54,13 @@
 						</div>
 						<div class="content_1">
 							<p class="p1">
-								Additional, Fully Drawn Yarn (FDY) is suitable for
-								twisting in warp and weave. Most manufacturers
-								use twisted FDY yarn to make polyester
-								embroidery thread, and it is mostly used in
-								sewing. Furthermore, Fully Drawn Yarn (FDY) can
-								be made in two luster including Semi-dull (SD)
-								and Trilobal Bright (TBR). FDY yarn of trilobal
-								bright luster is generally used in making curtains,
-								bed sheets, and carpets. Apart of two above three
-								lusters, FDY is also available in raw white as well as
-								dope dyed. Usually, Dope Dyed FDY yarn can be
-								utilized to make the colored of fabric directly
-								instead of creating the fabric with FDY raw white
-								initially and followed by dyeing it.
+                                Additionally, Fully Drawn Yarn (FDY) is suitable for twisting in warp and weave. Most manufacturers
+                                use twisted FDY to make polyester embroidery thread, and it is mostly used in sewing. Furthermore,
+                                Fully Drawn Yarn (FDY) can be made in 2 lusters, including Semi-dull (SD) and Trilobal Bright (TBR).
+                                FDY yarn of trilobal bright luster is generally used in making curtains, bedsheets, and carpets. Apart
+                                from the above 3 lusters, FDY is also available in raw white and dope dyed. FDY Dope-Dyed can
+                                usually be utilized to make the colored fabric directly instead of initially creating the fabric with FDY
+                                raw white and then dyeing it.
 							</p>
 						</div>
 					</div>
@@ -90,14 +79,15 @@
 						</div>
 						<div class="content_1">
 							<p class="p1">
-								Beside this, Thai Polyester Co., Ltd is not only
-								producing virgin Fully Drawn Yarn (FDY), but our
-								firm has manufactured recycled FDY yarn. Recycled
-								Fully Drawn Yarn and virgin (FDY) can be used in
-								the same function, such as making fabric and
-								home furnishing. In addition, Recycled FDY yarn
-								can be provided in semi dull, TBR, raw white,
-								dope dyed black, and dope dyed color.
+                                Besides, Thai Polyester Co., Ltd is not only
+                                producing virgin Fully Drawn Yarn (FDY), but
+                                we manufactured recycled FDY. Therefore,
+                                recycled Fully Drawn Yarn and virgin (FDY)
+                                can be used in the same function, such as
+                                making fabric and home furnishing.
+                                In addition, Recycled FDY yarn can be provided
+                                in semi-dull, TBR, raw white, dope dyed
+                                black, and dope dyed color.
 							</p>
 						</div>
 					</div>
@@ -123,15 +113,10 @@
 						</div>
 						<div class="content_1">
 							<p class="p1">
-								Thai Polyester is the leading yarn manufacturer
-								and textile industry in Thailand. Our company
-								completes with professional of research and
-								development team and an innovation for
-								high-quality polyester textured yarn. Therefore,
-								our FDY are able to support very best in both
-								weaving and knitting textile manufacturers as
-								Thai Polyester is the leading supplier of FDY yarn to
-								worldwide.
+                                Thai Polyester Company (TPC) is the leading yarn manufacturer in the textile industry in Thailand.
+                                The company completes with a professional research and development team and innovation for
+                                high-quality polyester textured yarn. Therefore, our FDY supports best in weaving and knitting textile
+                                manufacturers as Thai Polyester is the leading supplier of FDY worldwide.
 							</p>
 						</div>
 					</div>
@@ -149,13 +134,12 @@
 						</div>
 						<div class="content_1">
 							<p class="p1">
-								Thai Polyester is a major exporter of textured yarns including Fully Drawn Yarn (FDY) from Thailand, and our
-								company also exports FDY globally, including Europe, America, Malaysia, India, Indonesia, Africa, and the
-								Middle-East.
+                                We are a major exporter of textured yarns and Fully Drawn Yarn (FDY). Our company also exports
+                                FDY globally to Europe, America, Africa, Middle East, Malaysia, India and Indonesia.
 							</p>
 							<p class="p2">
-								Consequently, our company has ability to provide and support both virgin and recycled Fully Drawn Yarn (FDY) with
-								high - quality of these following specifications denier.
+                                Consequently, our company provides both virgin and recycled Fully Drawn Yarn (FDY) with high-quality
+                                of these following specifications denier:
 							</p>
 						</div>
 					</div>
@@ -174,11 +158,10 @@
 					<div class="col-xs-12 col-sm-12 col-md-4 p-0 col2">
 						<div class="content_1">
 							<p class="p1">
-								Virgin Fully Drawn Yarn (FDY)<br>
-								• Semi dull: 40/18, 50/18, 75/36, 75/72, 100/36,
-								150/48, 150/96, 150/144<br>
-								• Trilobal bright: 75/36, 100/36, 150/48, 300/96<br>
-								• Mother Yarn: 200/10, 300/10<br>
+                                Virgin Fully Drawn Yarn (FDY)<br>
+                                • Semi dull: 40/18, 50/18, 75/36, 75/72, 100/36, 150/48, 150/96, 150/144<br>
+                                • Trilobal bright: 75/36, 100/36, 150/48, 300/96<br>
+                                • Mother Yarn: 200/10, 300/10
 							</p>
 						</div>
 					</div>
@@ -189,11 +172,11 @@
 					<div class="col-xs-12 col-sm-12 col-md-4 p-0 col1">
 						<div class="content_1">
 							<p class="p1">
-								Recycled Draw Fully Drawn Yarn (FDY)<br>
-								• Recycled FDY 75/36, 75/72<br>
-								• Recycled FDY 100/36, 150/48, 150/96, 150/144<br>
-								• Recycled FDY 300/96<br>
-								• Recycled FDY mother yarn 200/10, 300/10<br>
+                                Recycled Fully Drawn Yarn (FDY)<br>
+                                • Recycled FDY 75/36, 75/72<br>
+                                • Recycled FDY 100/36, 150/48, 150/96, 150/144<br>
+                                • Recycled FDY 300/96<br>
+                                • Recycled FDY mother yarn 200/10, 300/10
 							</p>
 						</div>
 					</div>
