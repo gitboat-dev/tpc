@@ -1,3 +1,6 @@
+:root{
+    --secFourContBox: 200px;
+}
 
 /* End Setting All */
 
@@ -50,6 +53,75 @@
 
 /* End Sec2 */
 
+#sec3{
+    padding: 20px 20px 30px;
+}
+#sec3 .r1 .content-block > .content-group {
+    margin: auto;
+    max-width: 645px;
+    border: 2px solid var(--msBgLight);
+    padding: 20px;
+}
+#sec3 .r1 .content-block > .content-group > h1 {
+    font-size: 55px;
+    line-height: 65px;
+    margin-bottom: 30px;
+}
+#sec3 #contact-form input {
+    min-height: 35px;
+}
+#sec3 #contact-form textarea {
+    resize: vertical;
+}
+#sec3 #contact-form input,
+#sec3 #contact-form textarea{
+    background-color: var(--msBgDark);
+    border-top: 2px solid var(--msBgDark);
+    border-left: 2px solid var(--msBgDark);
+    border-right: 2px solid var(--msBgDark);
+    border-bottom: 2px solid var(--msBgLight);
+    color: var(--msBg);
+    font-size: 16px;
+    line-height: 20px;
+}
+#sec3 #contact-form input::placeholder,
+#sec3 #contact-form textarea::placeholder{
+    color: var(--msBg);
+    opacity: 1;
+}
+#sec3 #contact-form input:-ms-input-placeholder,
+#sec3 #contact-form textarea:-ms-input-placeholder{
+    color: var(--msBg);
+    opacity: 1;
+}
+#sec3 #contact-form input::-ms-input-placeholder,
+#sec3 #contact-form textarea::-ms-input-placeholder{
+    color: var(--msBg);
+    opacity: 1;
+}
+#sec3 #contact-form .bt-contact{
+    font-size: 25px;
+    line-height: 35px;
+    color: var(--msBgDark);
+    background-color: var(--msBg);
+    border: none;
+    margin-top: 30px;
+    padding: 10px 120px;
+    transition: all 0.2s;
+}
+#sec3 #contact-form .bt-contact:hover{
+    color: var(--msBgLight);
+    box-shadow: 0px 0px 3px var(--msBgLight);
+    transition: all 0.2s;
+}
+
+/* End Sec3 */
+
+#sec4 .r1 .col1,
+#sec4 .r1 .col2{
+    min-height: var(--secFourContBox);
+}
+
 
 @media (max-width: 768px){
     #sec2 .r1 .content_block h2{
@@ -63,13 +135,28 @@
         content: " ";
         position: absolute;
         bottom: 0;
-        left: 25%;
-        width: 50%;
+        left: 30%;
+        width: 40%;
         height: 2px;
         background-color: var(--msBgDark);
     }
 
     /* End Sec2 */
+
+    #sec3 .r1 .content-block > .content-group > h1 {
+        font-size: 30px;
+        line-height: 32px;
+    }
+    #sec3 .r1 .content-block > .content-group {
+        padding: 0;
+    }
+    #sec3 #contact-form .bt-contact {
+        font-size: 16px;
+        line-height: 35px;
+        padding: 5px 15px;
+    }
+
+    /* End Sec3 */
 }
 
 @media (min-width: 991px){

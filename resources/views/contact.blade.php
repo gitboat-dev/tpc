@@ -181,23 +181,84 @@
             <section id="sec3" class="bg-black">
                 <div class="row m-0 r1">
                     <div class="col-xs-12 col-sm-12 col-md-12 p-0">
-                        {{-- <div class="content_block d-flex pos-r"> --}}
-                            <h3 class="theme-hl text-center">
+                        <div class="content_block pos-r">
+                            <h3 class="theme-hl text-center fw-n">
                                 We can help your business grow!
                             </h3>
-                            <h2 class="theme-hl text-center">
-                                <span class="text_light">Be Our Success</span><br>
+                            <h2 class="theme-hl text-center fw-n">
+                                <span class="white-hl">Be Our Success</span><br>
                                 Partner
                             </h2>
-                        {{-- </div> --}}
+                        </div>
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-12 p-0"></div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 p-0">
+                        <div class="content-block d-flex">
+                            <div class="content-group">
+                                <h1 class="theme-hl text-center fw-n">CONTACT US</h1>
+                                <form id="contact-form" data-request="contact" autocomplete="off">
+									<div class="form-group col-xs-12 col-sm-12 col-md-12">
+							            <input type="text" class="form-control" name="name" id="name" placeholder="NAME*">
+							            <span class="text-danger name mb-font12"></span>
+									</div>
+									<div class="form-group col-xs-12 col-sm-12 col-md-12">
+								        <input type="text" class="form-control" name="company" id="company" placeholder="COMPANY">
+								        <span class="text-danger company mb-font12"></span>
+									</div>
+                                    <div class="form-group col-xs-6 col-sm-6 col-md-6">
+							            <input type="email" class="form-control" name="email" id="email" placeholder="EMAIL*">
+							            <span class="text-danger email mb-font12"></span>
+									</div>
+									<div class="form-group col-xs-6 col-sm-6 col-md-6">
+								        <input type="text" class="form-control" name="phone" id="phone" placeholder="PHONE*">
+								        <span class="text-danger phone mb-font12"></span>
+									</div>
+									<div class="form-group col-xs-12 col-sm-12 col-md-12">
+		            					<textarea class="form-control" name="message" id="message" placeholder="MESSAGE" rows="5"></textarea>
+		            					<span class="text-danger message mb-font12"></span>
+									</div>
+									<div class="col-xs-12 col-sm-12 col-md-12">
+										<div id="res" class="res"></div>
+									</div>
+									<div class="form-group col-xs-12 col-sm-12 col-md-12 text-center btn-block">
+										<button type="button" id="submitcontract" class="bt-contact">
+											SEND
+										</button>
+									</div>
+								</form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="sec4">
+                <div class="row m-0 r1">
+                    <div class="col-xs-12 col-sm-12 col-md-12 p-0">
+                        <div class="content_block d-flex pos-r">
+                            <div class="content-group">
+                                <div class="col-xs-6 col-sm-6 col-md-6 d-flex col1">
+                                    <h3 class="m-auto">
+                                        LET'S<br>
+                                        GROW<br>
+                                        TOGETHER
+                                    </h3>
+                                </div>
+                                <div class="col-xs-6 col-sm-6 col-md-6 d-flex col2">
+                                    <div class="img_block m-auto">
+                                        <picture>
+                                            <source srcset="\assets\images\contact\mobile\Let-is-Grow-Together-Contact-TPC.webp" alt="Let is Grow Together Contact" media="(max-width: 640px)">
+                                            <img src="\assets\images\contact\desktop\Let-is-Grow-Together-Contact-TPC.webp" width="900" height="350" class="img-fluid" alt="Let is Grow Together Contact">
+                                        </picture>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
         </div>
     </div>
 @endsection
 @section('custom-script')
-	<script src="/js/contac.js?v={{time()}}"></script>
+	<script src="/js/contact.js?v={{time()}}"></script>
 	<script src="/assets/custom/wp-content/plugins/radiantthemes-addons/assets/js/jquery.fancybox.min.js?v={{ time() }}"></script>
 @endsection
