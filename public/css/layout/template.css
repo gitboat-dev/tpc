@@ -1,6 +1,12 @@
 :root{
-  --msBg:hsl(149deg 46% 46%);
+  /* --msBg:hsl(149deg 46% 46%);
   --msBgDark:hsl(220deg 22% 16%);
+  --msBgDarkOpacity:#202731ed;
+  --msBgLight:#fff; */
+  --msBg: #3db072;
+  --msBgGreen:#00ff2a;
+  --msBgRed:#bc1e2d;
+  --msBgDark:#202731;
   --msBgDarkOpacity:#202731ed;
   --msBgLight:#fff;
 }
@@ -26,17 +32,17 @@ ol, ul {
 }
 /* Track */
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey; 
+  box-shadow: inset 0 0 5px grey;
   border-radius: 10px;
 }
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #1bb086; 
+  background: #1bb086;
   border-radius: 10px;
 }
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #0f8261; 
+  background: #0f8261;
 }
 body {
   font-family: 'Sen',sans-serif;
