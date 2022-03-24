@@ -178,6 +178,22 @@
                     </div>
                 </div>
             </section>
+            <section id="sec3" class="bg-black">
+                <div class="row m-0 r1">
+                    <div class="col-xs-12 col-sm-12 col-md-12 p-0">
+                        {{-- <div class="content_block d-flex pos-r"> --}}
+                            <h3 class="theme-hl text-center">
+                                We can help your business grow!
+                            </h3>
+                            <h2 class="theme-hl text-center">
+                                <span class="text_light">Be Our Success</span><br>
+                                Partner
+                            </h2>
+                        {{-- </div> --}}
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 p-0"></div>
+                </div>
+            </section>
         </div>
     </div>
 @endsection
