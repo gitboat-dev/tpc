@@ -122,6 +122,7 @@
     min-height: var(--secFourContBox);
 }
 
+/* End Sec4 */
 
 @media (max-width: 768px){
     #sec2 .r1 .content_block h2{
