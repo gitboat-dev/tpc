@@ -21,12 +21,8 @@
 							<div class="col-xs-12 col-sm-12 col-md-12 p-0 bg-white col1-1">
 								<div class="content_1">
 									<p class="p1">
-										Monofilament yarn is also known as a single
-										filament of synthetic fiber. Monofilament yarn is
-										made by melting and mixing of various polymers.
-										Beside this, monofilament yarn can be also
-										produced by direct spinning or by splitting Mother
-										Yarn.
+                                        Monofilament yarn is also known as a single filament of synthetic fiber. It's made by melting
+                                        and mixing various polymers. It can also produce by direct spinning or splitting Mother Yarn.
 									</p>
 								</div>
 							</div>
@@ -61,13 +57,10 @@
 							<div class="col-xs-12 col-sm-12 col-md-12 p-0 bg-white col2-3">
 								<div class="content_1">
 									<p class="p1">
-										Monofilament yarn is physically powerful enough
-										to be functional without being twisted with other
-										filaments into a yarn. For this reason,
-										monofilament yarn does not accommodate the
-										weaving braiding of the tightest and most
-										efficient of all woven fabrics in the textile
-										industry.
+                                        Monofilament yarn is physically powerful enough to function without being twisted with
+                                        other filaments into yarns. For this reason, monofilament yarn does not accommodate the
+                                        weaving braiding of the tightest and most efficient of all woven fabrics in the textile
+                                        industry.
 									</p>
 								</div>
 							</div>
@@ -76,20 +69,13 @@
 					<div class="col-xs-12 col-sm-12 col-md-4 p-0 col3">
 						<div class="content_1">
 							<p class="p1">
-								The monofilament yarns have high strength,
-								durability, and chemical resistance. The feeling of
-								monofilament yarn is very soft touch. Moreover,
-								polyester monofilament yarn is mostly used for
-								knitting and weaving in many applications, such
-								as, apparels, home-textiles, and webbings. Also,
-								monofilament yarns are generally used for
-								producing fabrics for particularly purposes
-								including monofilament yarn filtration fabric and
-								metal wire fabrics for architectural decoration.
-								Furthermore, other industries, excluding textile
-								industry, are able to utilize monofilament yarn in
-								various usages, for example, construction of
-								brushes, fishing line, and automotive.
+                                The monofilament yarn has high strength, durability, and chemical resistance. In addition,
+                                it's very soft to the touch and mostly used for knitting and weaving in many applications,
+                                such as apparel, home textiles, and webbings. Monofilament yarn is generally produced for
+                                particular purposes, including monofilament yarn filtration fabric and metal wire fabrics for
+                                architectural decoration. Furthermore, other industries, excluding the textile industry, can
+                                utilize monofilament yarn in various usages, such as the construction of brushes, fishing line,
+                                and automobiles.
 							</p>
 						</div>
 					</div>
@@ -108,9 +94,11 @@
 					<div class="col-xs-12 col-sm-12 col-md-12 p-0 col2">
 						<div class="content_1">
 							<p class="p1">
-								Thai Polyester Company is the leading yarn manufacturer and textile industry in Thailand. Our company completes with professional of research and development team and
-								an innovation for high-quality polyester textured yarn. Our firm is able to supply the best quality polyester monofilament yarns from our manufacturers and suppliers in Asia, Europe,
-								America, and Arabian countries.
+                                Thai Polyester Company (TPC) is the leading yarn manufacturer in the textile industry in
+                                Thailand. The company completes with a professional research and development team and
+                                innovation for high-quality polyester textured yarn. As a result, our firm supplies the best
+                                quality polyester monofilament yarns from our manufacturers and suppliers in Asia, Europe,
+                                America, and Arabian countries.
 							</p>
 						</div>
 					</div>
@@ -122,12 +110,7 @@
 						<div class="content_block">
 							<div class="content_1">
 								<p class="p1">
-									Additional, Thai Polyester is not only producing
-									virgin monofilament yarn, but also our firm has
-									manufactured recycled monofilament yarn.
-									Recycled monofilament yarn can be used in the
-									same function, such as, home-textiles and
-									webbings.
+                                    Also, recycled monofilament yarn can be used in the same function, such as home-textiles and webbings.
 								</p>
 							</div>
 							<div class="img_block1">
@@ -154,13 +137,10 @@
 						    </div>
 							<div class="content_1">
 								<p class="p1">
-									Consequently, our company has ability to provide
-									and support both virgin and recycle
-									monofilament yarn with high - quality and
-									containing the categories and available in 20D/1,
-									30D/1 for raw white both virgin and recycled. In
-									addition, monofilament yarn can be provided
-									only in semi dull.
+                                    Consequently, our company provides both virgin and recycled monofilament yarn with high-quality.
+                                    Recycled monofilament yarn can be used in the same function, such as home-textiles
+                                    and webbings. Containing the categories and available in 20D/1, 30D/1 for raw white
+                                    both virgin and recycled. In addition, monofilament yarn can be provided only in semi-dull.
 								</p>
 							</div>
 						</div>
@@ -169,7 +149,7 @@
 						<div class="content_block">
 							<div class="content_1">
 								<p class="p1 text-center">
-									If you are looking for the best quality of monofilament yarn which produce in Thailand, please contact us for more information.
+                                    If you are looking for the best quality monofilament yarn produce in Thailand, don't hesitate to contact us for more information.
 								</p>
 							</div>
 						</div>
