@@ -19,8 +19,9 @@
 					<div class="col-xs-12 col-sm-12 col-md-12 p-0 col2">
 						<div class="content_1">
 							<p class="p1">
-								Draw textured yarn, in the other words DTY, is one type of filament yarn with soft crimp, high bulk and texture with a soft cottony feel and high durability. Drawn Textures Yarn
-								(DTY) yarn is acquired when Polyester (POY) is simultaneously twisted & drawn.
+                                Drawn Textured Yarn or DTY is a filament yarn with soft crimp, high bulky textured, soft
+                                cottony feel, and high durability. Drawn Textured Yarn (DTY) is acquired when Polyester
+                                (POY) is simultaneously twisted & drawn.
 							</p>
 						</div>
 					</div>
@@ -32,18 +33,12 @@
 						<div class="line-top"></div>
 						<div class="content_1">
 							<p class="p1">
-								Moreover, Draw textured yarn (DTY) has
-								difference kind of technique that can be produced
-								in numerous ways of applications in order to
-								make suitable DTY yarn for several end uses.
-								Therefore, DTY is wildly used for weaving and
-								knitting, and most of these manufacturers use
-								DTY for fabric end uses, such as making clothes,
-								home furnishings, seat covers, outer/inner
-								garments, bags, and many other uses.
-								Furthermore, Draw textured yarn (DTY) can be
-								made in different colors in semi dull, raw white,
-								dope dyed black and dope dyed colors.
+                                Moreover, Drawn textured Yarn (DTY) has a different technique that produces numerous
+                                applications to make suitable DTY for various end-uses. Therefore, DTY is widely used for
+                                weaving and knitting. In addition, most manufacturers use DTY for fabric and end uses, such
+                                as clothes, home furnishings, seat covers, outer/inner garments, bags, etc. Furthermore,
+                                Drawn textured yarn (DTY) can be in different colors in semi-dull, raw white, dope dyed
+                                black and dope-dyed colors.
 							</p>
 						</div>
 					</div>
@@ -74,8 +69,9 @@
 					<div class="col-xs-12 col-sm-12 col-md-12 p-0 col2">
 						<div class="content_1">
 							<p class="p1">
-								Additionally, Draw textured yarn (DTY) can be completed with various combinations of Intermingle points that can be identified as three difference types, which are
-								<span class="highlight">Non-Intermingle (NIM), Semi-Intermingle (SIM)</span>, and <span class="highlight">High-Intermingle (HIM)</span>.
+                                In addition, Drawn textured yarn (DTY) can complete with various combinations of
+                                intermingling points that can be identified as 3 different types there are <span class="highlight">Non-Intermingle
+                                (NIM), Semi-Intermingle (SIM)</span>, and <span class="highlight">High-Intermingle (HIM)</span>.
 							</p>
 						</div>
 					</div>
@@ -88,14 +84,14 @@
 							<div class="col-xs-6 col-sm-6 col-md-12 p-0 col1-1">
 								<div class="content_1">
 									<p class="p1">
-										Beside this, Thai Polyester is not only producing
-										virgin Draw textured yarn (DTY), but our firm has
-										manufactured recycled DTY yarn. Recycle Draw
-										textured yarn can be used as same as virgin DTY,
-										such as making fabric and home furnishing. In
-										addition, Recycled DTY yarn can be provided in
-										semi dull, raw white, dope dye black, and dope
-										dye color.
+                                        Besides this, TPC is producing both
+                                        virgin and recycled Drawn textured
+                                        yarn (DTY). Recycled Draw textured
+                                        yarn can be used as same as a virgin
+                                        one, such as fabric and home
+                                        furnishing. In addition, Recycled DTY
+                                        yarn can be provided in semi-dull, raw
+                                        white, dope dye black, and dope dye color.
 									</p>
 								</div>
 							</div>
@@ -122,8 +118,9 @@
 							<div class="col-xs-12 col-sm-12 col-md-12 p-0 col2-2">
 								<div class="content_1">
 									<p class="p1">
-										Thai Polyester Company has been established in 2001. We are full integration of fiber polyester manufacturer with total
-										capacity 316,800 tons a years achieved thereby of the innovative technology in globe.
+                                        Thai Polyester Company (TPC) was established in 2001. We are full integration of fiber
+                                        polyester manufacturer with a total capacity of 350,000 tons annually, achieved thereby of
+                                        the innovative technology in the globe.
 									</p>
 								</div>
 							</div>
@@ -149,17 +146,13 @@
 						<div class="line-top"></div>
 						<div class="content_1">
 							<p class="p1">
-								Thai Polyester is a major exporter of textured
-								yarns including Draw textured yarn (DTY) from
-								Thailand, and our company also exports DTY
-								globally which are Europe, Americas, Malaysia,
-								India, Indonesia, Africa, and the Middle-East.
+                                TPC is a major exporter of textured yarns, including Drawn textured yarn (DTY). Our
+                                company also exports FDY globally to Europe, America, Africa, the Middle East, Malaysia,
+                                India and Indonesia.
 							</p>
 							<p class="p2">
-								Consequently, our company has ability to
-								provide and support both virgin and recycle Draw
-								texture yarn (DTY) with high - quality of these
-								following specifications denier.
+                                Consequently, our company provides both virgin and recycled Drawn textured yarn (DTY)
+                                with high-quality of these following specifications denier:
 							</p>
 						</div>
 						<div class="line-bottom"></div>
@@ -170,13 +163,13 @@
 				<div class="row m-0 r1">
 					<div class="col-xs-12 col-sm-12 col-md-4 p-0 col1">
 						<div class="content_1">
-							<h2>Virgin Draw textured yarn (DTY)</h2>
-							<p class="p1">
-								• DTY 75-36, 75-72, 75-144<br>
-								• DTY 100-36, 100-48, 100-96<br>
-								• DTY 150-48, 150-96, 150-144, 150-288<br>
-								• DTY 300-96
-							</p>
+                            <h2>Virgin Drawn textured yarn (DTY)</h2>
+                            <p class="p1">
+                                • DTY 75-36, 75-72, 75-144<br>
+                                • DTY 100-36, 100-48, 100-96<br>
+                                • DTY 150-48, 150-96, 150-144, 150-288<br>
+                                • DTY 300-96
+                            </p>
 						</div>
 					</div>
 					<div class="col-xs-12 col-sm-12 col-md-8 p-0 col2">
@@ -201,13 +194,13 @@
 					</div>
 					<div class="col-xs-12 col-sm-12 col-md-4 p-0 col2">
 						<div class="content_1">
-							<h2>Recycle Draw textured yarn (DTY)</h2>
-							<p class="p1">
-								• Recycled DTY 75-36, 75-72, 75-144<br>
-								• Recycled DTY 100-36, 100-48<br>
-								• Recycled DTY 150-48, 150-96, 150-144, 150-288<br>
-								• Recycled DTY 300-96
-							</p>
+                            <h2>Recycled Drawn textured yarn (DTY)</h2>
+                            <p class="p1">
+                                • Recycled DTY 75-36, 75-72, 75-144<br>
+                                • Recycled DTY 100-36, 100-48<br>
+                                • Recycled DTY 150-48, 150-96, 150-144, 150-288<br>
+                                • Recycled DTY 300-96
+                            </p>
 						</div>
 					</div>
 				</div>
