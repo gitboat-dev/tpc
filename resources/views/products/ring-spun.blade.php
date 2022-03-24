@@ -23,12 +23,10 @@
                     <div class="col-xs-12 col-sm-12 col-md-8 p-0 col1">
                         <div class="content_1">
                             <h2 class="text-white dt">
-                                The basic requirements and functions
-                                of a ring spinning frame are:
+                                The basic requirements and functions of a ring spinning frame are:
                             </h2>
                             <h2 class="text-white mb">
-                                The basic<br>requirements<br>and functions<br>
-                                of a ring spinning<br>frame are:
+                                The basic<br>requirements<br>and functions<br>of a ring spinning<br>frame are:
                             </h2>
                         </div>
                     </div>
@@ -42,15 +40,11 @@
                                     d) Package winding<br>
                                 </p>
                                 <p class="p2">
-                                    Polyester ring spun yarn supply, usually in the
-                                    form of roving and having a hank range from
-                                    approximately 0.40 to 5.0, is drawn into the
-                                    drafting system by the rotation of the back rolls.
-                                    In the drafting zone, the weight per unit length
-                                    of the input roving is reduced because the surface
-                                    speed of the front drafting rolls is greater than
-                                    that of the back rolls. Normal ring frame drafts
-                                    range up to about 30.
+                                    Polyester ring-spun yarn supply, usually in the form of roving and having a hank range from
+                                    approximately 0.40 to 5.0, is drawn into the drafting system by the rotation of the back rolls.
+                                    In the drafting zone, the weight per unit length of the input roving is reduced because the
+                                    surface speed of the front drafting rolls is greater than that of the back rolls. Regular ring
+                                    frame drafts range up to about 30.
                                 </p>
                             </div>
                         </div>
@@ -62,10 +56,11 @@
                     <div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
                         <div class="content_1">
                             <p class="p1">
-                                The front rolls deliver a continuous cohesive stream of fibers, which must be twisted immediately into yarn.
-                                This transformation is accomplished by the interactions of the spindle, ring and traveler. The rotation of the spindle
-                                causes twist to be inserted into the stream of fibers delivered by the front rolls. By passing the yarn under the traveler,
-                                winding is accomplished.
+                                The front rolls deliver a continuous cohesive stream of fibers, which must be twisted
+                                immediately into yarn. This transformation is accomplished by the spindle, ring and traveler
+                                interactions. The rotation of the spindle causes a twist inserted into the stream of fibers
+                                delivered by the front rolls. By passing the yarn under the traveler, the winding is
+                                accomplished.
                             </p>
                         </div>
                     </div>
@@ -75,16 +70,19 @@
                 <div class="row m-0 r1">
                     <div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
                         <div class="content_1">
-                            <h2 class="text-green">The spindle serves three functions:</h2>
+                            <h2 class="text-green">The spindle serves 3 functions: </h2>
                             <p class="p1">
                                 First, it provides a location to wind a package;
                             </p>
                             <p class="p2">
-                                Secondly, by rotating the yarn package, the spindle causes twist to be inserted into the strand of yarn being formed at the nip of the front rolls;
+                                Secondly, by rotating the yarn package, the spindle causes twist to be inserted into the
+                                strand of yarn being formed at the nip of the front rolls;
                             </p>
                             <p class="p3">
-                                Thirdly, the rotation of the package causes the yarn to pull the traveler around the ring, providing a method of not only transmitting twist derived from the spindle, but also a guide to
-                                change the direction of yarn travel so that it approaches the yarn package tangentially, and thus can be wound onto the package.
+                                Thirdly, the rotation of the package causes the yarn to pull the traveler around the ring.
+                                It does not only provide a method of transmitting twist derived from the spindle but also a
+                                guide to change the direction of yarn travel so that it approaches the yarn package
+                                tangentially, thus being wound onto the package.
                             </p>
                         </div>
                     </div>
@@ -94,8 +92,10 @@
                 <div class="row m-0 r1">
                     <div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
                         <div class="content_1">
-                            <h3 class="text-white">Limitations: Mechanically speaking, the production of a ring
-                                frame is limited by excesses in one or more of the following:</h3>
+                            <h3 class="text-white">
+                                <b>Limitations:</b> Mechanically speaking, the production of a ring frame is limited by excesses in
+                                one or more of the following:
+                            </h3>
                             <ul class="data-lists">
                                 <li>a) Spindle speed</li>
                                 <li>b) Front roll speed</li>
@@ -111,9 +111,11 @@
                     <div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
                         <div class="content_1">
                             <p class="p1">
-                                Economic limitations on ring spinning are related to power consumption and package size. Power requirements to rotate the package are more significant than insert twists only.
-                                In addition, the package size is limited since it must be enclosed in the yarn balloon. Finally, for very coarse yarn counts, frame down-time for doffing must be considered since it
-                                increases as coarser yarns are spun.
+                                Economic limitations on ring spinning are related to power consumption and package size.
+                                Power requirements to rotate the package are more significant than insert twists only.
+                                In addition, the package size is limited since it must be enclosed in the yarn balloon. Finally,
+                                coarse yarn counts and frame down-time doffing must be considered since it increases as
+                                coarser yarns are spun.
                             </p>
                         </div>
                     </div>
@@ -124,10 +126,9 @@
                     <div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
                         <div class="content_1">
                             <p class="p1">
-                                Spun yarn luster<br>
-                                Luster refers to the degree of light reflected from<br>
-                                the surface of a fiber or the degree of gloss or<br>
-                                sheen that the fiber possesses.<br>
+                                <b>Spun yarn luster</b><br>
+                                Luster refers to the light degree reflected from<br>
+                                surfaces of a fiber, the gloss degree or sheen that fiber possesses.<br>
                                 - Full dull<br>
                                 - Semi-dull
                             </p>
