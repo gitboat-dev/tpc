@@ -18,6 +18,6 @@ class ContactNewController extends Controller {
 		$data['ncode'] = $ajaxEncode->getEncode();
 		$data['countries'] = $ip2location->countries();
 
-		return view('contact_new', $data);
+		return view('contact', $data);
 	}
 }

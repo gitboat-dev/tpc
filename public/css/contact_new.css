@@ -1,5 +1,5 @@
 body {
-	
+
 }
 span.highlight{
 	color: var(--msBg);
@@ -161,7 +161,7 @@ span.highlight{
 #contact .section-three .r1 .col1 .col1-1 .content_block .bt-contact:hover{
 	background-color: #282f3e;
 	border: 1px solid #282f3e;
-}	
+}
 
 	/*-------------------------------------End Section three-------------------------------------*/
 
@@ -198,17 +198,17 @@ span.highlight{
 	#contact .section-three .r1 .col1 .col1-1{
 		width: 100%;
 		padding: 20px 0;
-     	position: unset; 
-     	z-index: unset; 
+     	position: unset;
+     	z-index: unset;
      	left: unset;
 	}
-	
+
 	/*-------------------------------------End Section three-------------------------------------*/
 }
 
 @media only screen and (max-width: 991px){
 	body {
-		
+
 	}
 
 	/*-------------------------------------End Setting All-------------------------------------*/
@@ -230,11 +230,11 @@ span.highlight{
 	}
 
 	/*-------------------------------------End Section two-------------------------------------*/
-	
+
 	#contact .section-three .r1 .col1 .col1-1{
 		width: unset;
 	}
-	
+
 	/*-------------------------------------End Section three-------------------------------------*/
 }
 
