@@ -16,6 +16,11 @@
                                     <img src="\assets\images\contact\desktop\Head-Contact-TPC.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Contact TPC">
                                 </picture>
                             </div>
+                            <div class="text-box">
+                                <h2 class="text-center m-0">If you need any assistance with Polyester,</h2>
+                                <h1 class="text-center theme-hl m-0 fw-600">please don't hesitate to contact us.</h1>
+                                <h2 class="text-center m-0">We'll do whatever it takes to get<br> your exact satisfaction!</h2>
+                            </div>
                         </div>
                     </div>
                 </div>

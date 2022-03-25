@@ -4,6 +4,24 @@
 
 /* End Setting All */
 
+#sec1 .r1 .text-box{
+    width: 100%;
+    max-width: 60%;
+    padding: 20px;
+    position: absolute;
+    top: 80px;
+    left: 0;
+}
+#sec1 .r1 .text-box h1{
+    font-size: 55px;
+}
+#sec1 .r1 .text-box h2{
+    font-size: 35px;
+    line-height: 45px;
+}
+
+/* End Sec1 */
+
 #sec2{
     padding: 25px 0 45px;
 }
@@ -123,8 +141,47 @@
 }
 
 /* End Sec4 */
+@media (max-width: 1080px){
+    #sec1 .r1 .text-box{
+        max-width: 80%;
+    }
+    #sec1 .r1 .text-box h1{
+        font-size: 45px;
+    }
+    #sec1 .r1 .text-box h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    /* End Sec1 */
+}
+
+@media (max-width: 991px){
+    #sec1 .r1 .text-box{
+        max-width: 100%;
+        background-color: rgba(255, 255, 255, 0.2);
+        top: 0;
+    }
+
+    /* End Sec1 */
+}
 
 @media (max-width: 768px){
+    #sec1 .r1 .text-box{
+        top: 20px;
+        background-color: unset;
+    }
+    #sec1 .r1 .text-box h1{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    #sec1 .r1 .text-box h2{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    /* End Sec1 */
+
     #sec2 .r1 .content_block h2{
         font-size: 35px;
         line-height: 35px;
