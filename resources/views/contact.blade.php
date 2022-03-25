@@ -1,6 +1,6 @@
 @extends('layouts.template')
 @section('style')
-	<link rel="preload stylesheet" href="/css/contact.css?v={{ time() }}" as="style" crossorigin>
+	<link rel="preload stylesheet" href="/css/contact.css?v={{time()}}" as="style" crossorigin>
 	<link rel="stylesheet" id="fancybox-css" href="{!!asset('/assets/custom/wp-content/plugins/radiantthemes-addons/assets/css/jquery.fancybox.min.css?ver=4.9.11')!!}" type="text/css" media="all">
 @endsection
 @section('content')
@@ -12,8 +12,8 @@
                         <div class="content_block pos-r">
                             <div class="img_block">
                                 <picture>
-                                    <source srcset="\assets\images\contact\mobile\Head-Contact-TPC.webp" alt="Contact TPC" media="(max-width: 640px)">
-                                    <img src="\assets\images\contact\desktop\Head-Contact-TPC.webp" width="900" height="350" class="img-fluid" alt="Contact TPC">
+                                    <source srcset="\assets\images\contact\mobile\Head-Contact-TPC.webp?v={{time()}}" alt="Contact TPC" media="(max-width: 640px)">
+                                    <img src="\assets\images\contact\desktop\Head-Contact-TPC.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Contact TPC">
                                 </picture>
                             </div>
                         </div>
@@ -34,8 +34,8 @@
                             <div class="content_group">
                                 <div class="img_block">
                                     <picture>
-                                        <source srcset="\assets\images\contact\mobile\Icon-Contact-US-TPC-Thai-Polyester-Phone.webp" alt="Phone" media="(max-width: 640px)" loading="lazy">
-                                        <img src="\assets\images\contact\desktop\Icon-Contact-US-TPC-Thai-Polyester-Phone.webp" width="900" height="350" class="img-fluid" alt="Phone" loading="lazy">
+                                        <source srcset="\assets\images\contact\mobile\Icon-Contact-US-TPC-Thai-Polyester-Phone.webp?v={{time()}}" alt="Phone" media="(max-width: 640px)" loading="lazy">
+                                        <img src="\assets\images\contact\desktop\Icon-Contact-US-TPC-Thai-Polyester-Phone.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Phone" loading="lazy">
                                     </picture>
                                 </div>
                                 <h3 class="theme-hl text-center">Phone :</h3>
@@ -50,8 +50,8 @@
                             <div class="content_group">
                                 <div class="img_block">
                                     <picture>
-                                        <source srcset="\assets\images\contact\mobile\Icon-Contact-US-TPC-Thai-Polyester-Email.webp" alt="Email" media="(max-width: 640px)" loading="lazy">
-                                        <img src="\assets\images\contact\desktop\Icon-Contact-US-TPC-Thai-Polyester-Email.webp" width="900" height="350" class="img-fluid" alt="Email" loading="lazy">
+                                        <source srcset="\assets\images\contact\mobile\Icon-Contact-US-TPC-Thai-Polyester-Email.webp?v={{time()}}" alt="Email" media="(max-width: 640px)" loading="lazy">
+                                        <img src="\assets\images\contact\desktop\Icon-Contact-US-TPC-Thai-Polyester-Email.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Email" loading="lazy">
                                     </picture>
                                 </div>
                                 <h3 class="theme-hl text-center">Email :</h3>
@@ -66,8 +66,8 @@
                             <div class="content_group">
                                 <div class="img_block">
                                     <picture>
-                                        <source srcset="\assets\images\contact\mobile\Icon-Facebook-Contact-US-Thaipolyester.webp" alt="Facebook" media="(max-width: 640px)" loading="lazy">
-                                        <img src="\assets\images\contact\desktop\Icon-Facebook-Contact-US-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Facebook" loading="lazy">
+                                        <source srcset="\assets\images\contact\mobile\Icon-Facebook-Contact-US-Thaipolyester.webp?v={{time()}}" alt="Facebook" media="(max-width: 640px)" loading="lazy">
+                                        <img src="\assets\images\contact\desktop\Icon-Facebook-Contact-US-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid ab-img" alt="Facebook" loading="lazy">
                                     </picture>
                                 </div>
                                 <h3 class="theme-hl text-center">Facebook :</h3>
@@ -82,8 +82,8 @@
                             <div class="content_group">
                                 <div class="img_block">
                                     <picture>
-                                        <source srcset="\assets\images\contact\mobile\Icon-linkedin-Contact-US-Thaipolyester.webp" alt="Linkedin" media="(max-width: 640px)" loading="lazy">
-                                        <img src="\assets\images\contact\desktop\Icon-linkedin-Contact-US-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Linkedin" loading="lazy">
+                                        <source srcset="\assets\images\contact\mobile\Icon-linkedin-Contact-US-Thaipolyester.webp?v={{time()}}" alt="Linkedin" media="(max-width: 640px)" loading="lazy">
+                                        <img src="\assets\images\contact\desktop\Icon-linkedin-Contact-US-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid ab-img" alt="Linkedin" loading="lazy">
                                     </picture>
                                 </div>
                                 <h3 class="theme-hl text-center">linkedin :</h3>
@@ -98,8 +98,8 @@
                             <div class="content_group">
                                 <div class="img_block">
                                     <picture>
-                                        <source srcset="\assets\images\contact\mobile\Icon-Contact-US-TPC-Thai-Polyester-Whatsapp.webp" alt="Whatsapp" media="(max-width: 640px)" loading="lazy">
-                                        <img src="\assets\images\contact\desktop\Icon-Contact-US-TPC-Thai-Polyester-Whatsapp.webp" width="900" height="350" class="img-fluid ab-img" alt="Whatsapp" loading="lazy">
+                                        <source srcset="\assets\images\contact\mobile\Icon-Contact-US-TPC-Thai-Polyester-Whatsapp.webp?v={{time()}}" alt="Whatsapp" media="(max-width: 640px)" loading="lazy">
+                                        <img src="\assets\images\contact\desktop\Icon-Contact-US-TPC-Thai-Polyester-Whatsapp.webp?v={{time()}}" width="900" height="350" class="img-fluid ab-img" alt="Whatsapp" loading="lazy">
                                     </picture>
                                 </div>
                                 <h3 class="theme-hl text-center">Whatsapp :</h3>
@@ -116,8 +116,8 @@
                             <div class="content_group">
                                 <div class="img_block">
                                     <picture>
-                                        <source srcset="\assets\images\contact\mobile\Icon-Contact-US-TPC-Thai-Polyester-Address.webp" alt="Address" media="(max-width: 640px)" loading="lazy">
-                                        <img src="\assets\images\contact\desktop\Icon-Contact-US-TPC-Thai-Polyester-Address.webp" width="900" height="350" class="img-fluid ab-img" alt="Address" loading="lazy">
+                                        <source srcset="\assets\images\contact\mobile\Icon-Contact-US-TPC-Thai-Polyester-Address.webp?v={{time()}}" alt="Address" media="(max-width: 640px)" loading="lazy">
+                                        <img src="\assets\images\contact\desktop\Icon-Contact-US-TPC-Thai-Polyester-Address.webp?v={{time()}}" width="900" height="350" class="img-fluid ab-img" alt="Address" loading="lazy">
                                     </picture>
                                 </div>
                                 <h3 class="theme-hl text-center">Address :</h3>
@@ -245,8 +245,8 @@
                                 <div class="col-xs-6 col-sm-6 col-md-6 d-flex col2">
                                     <div class="img_block m-auto">
                                         <picture>
-                                            <source srcset="\assets\images\contact\mobile\Let-is-Grow-Together-Contact-TPC.webp" alt="Let is Grow Together Contact" media="(max-width: 640px)">
-                                            <img src="\assets\images\contact\desktop\Let-is-Grow-Together-Contact-TPC.webp" width="900" height="350" class="img-fluid" alt="Let is Grow Together Contact">
+                                            <source srcset="\assets\images\contact\mobile\Let-is-Grow-Together-Contact-TPC.webp?v={{time()}}" alt="Let is Grow Together Contact" media="(max-width: 640px)">
+                                            <img src="\assets\images\contact\desktop\Let-is-Grow-Together-Contact-TPC.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Let is Grow Together Contact">
                                         </picture>
                                     </div>
                                 </div>
@@ -260,5 +260,5 @@
 @endsection
 @section('custom-script')
 	<script src="/js/contact.js?v={{time()}}"></script>
-	<script src="/assets/custom/wp-content/plugins/radiantthemes-addons/assets/js/jquery.fancybox.min.js?v={{ time() }}"></script>
+	<script src="/assets/custom/wp-content/plugins/radiantthemes-addons/assets/js/jquery.fancybox.min.js?v={{time()}}"></script>
 @endsection
