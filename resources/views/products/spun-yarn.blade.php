@@ -14,28 +14,26 @@
 							<img src="/assets/images/spun-yarn/desktop/Head-Desktop.webp" width="900" height="350" class="img-fluid ab-img" alt="Polyester Spun Yarn">
 				        </picture>
 				        <div class="pic_caption">
-				        	<center>
-				        		<div class="row">
-						        	<div class="col-xs-6 col-sm-12 col-md-12">
-						        		100% Polyester Spun Yarn
-						        	</div>
-						        	<div class="col-xs-6 col-sm-12 col-md-12">
-						        		2 types of yarn spinning techniques
-						        	</div>
-						        	<div class="col-xs-6 col-sm-12 col-md-12">
-						        		Polyester spun yarn divided to
-						        	</div>
-						        	<div class="col-xs-6 col-sm-12 col-md-12">
-						        		Spun yarn luster
-						        	</div>
-						        	<div class="col-xs-6 col-sm-12 col-md-12">
-						        		Polyester Spun uses for…?
-						        	</div>
-						        	<div class="col-xs-6 col-sm-12 col-md-12">
-						        		Polyester Spun Yarn Product
-						        	</div>
-						        </div>
-				        	</center>
+                            <div class="row">
+                                <div class="col-xs-6 col-sm-12 col-md-12">
+                                    100% Polyester Spun Yarn
+                                </div>
+                                <div class="col-xs-6 col-sm-12 col-md-12">
+                                    2 types of yarn spinning techniques
+                                </div>
+                                <div class="col-xs-6 col-sm-12 col-md-12">
+                                    Polyester spun yarn divided to
+                                </div>
+                                <div class="col-xs-6 col-sm-12 col-md-12">
+                                    Spun yarn luster
+                                </div>
+                                <div class="col-xs-6 col-sm-12 col-md-12">
+                                    Polyester Spun uses for…?
+                                </div>
+                                <div class="col-xs-6 col-sm-12 col-md-12">
+                                    Polyester Spun Yarn Product
+                                </div>
+                            </div>
 					    </div>
 					</div>
 				</div>
