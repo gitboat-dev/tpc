@@ -36,18 +36,22 @@
 					<div class="col-xs-12 col-sm-12 col-md-5 p-0 col2">
 						<div class="content_block">
 							<div class="col-xs-12 col-sm-12 col-md-12 p-0 col2-1">
-								<h2 class="section-two-title">What is<br> Circular Economy</h2>
+								<h2 class="section-two-title">What is<br> Circular Economy?</h2>
 							</div>
 							<div class="col-xs-12 col-sm-12 col-md-12 p-0 col2-2">
 								<div class="content_1">
 									<p class="p1">
-										A circular economy is a type of sustainable economy that strives to
-										keep resources in use for as long as possible by involving the three
-										Rs principle It means reducing the use of resources, reusing the
-										resources that are available, and then recycling them into new
-										products. Therefore, it is the system that the organizations design
-										out their waste and pollution, keeping products and materials in
-										use, and regenerating natural systems.
+                                        A circular economy is a sustainable
+                                        economy that strives to keep resources
+                                        in use as long as possible by involving
+                                        the three Rs principle. It means reducing
+                                        the use of resources, reusing the
+                                        available resources, and then recycling
+                                        them into new products. Therefore, it is
+                                        the system that the organizations design
+                                        out their waste and pollution, keeping
+                                        products and materials in use, and
+                                        regenerating natural systems.
 									</p>
 								</div>
 							</div>
@@ -58,19 +62,19 @@
 			<div class="section-three">
 				<div class="row m-0 r1">
 					<div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
-						<h2 class="section-three-title">The Need for a Circular Economy<br> in the Textile Industry</h2>
+						<h2 class="section-three-title">
+                            The Need for a Circular Economy<br> in the Textile Industry
+                        </h2>
 					</div>
 					<div class="col-xs-12 col-sm-12 col-md-6 p-0 col2">
 						<div class="content_block">
 							<div class="content_1">
 								<p class="p1">
-									The textile industry is one of the most polluting industries and it is
-									estimated that the clothing industry consumes around 70% of all
-									fabric production. Change must take place, in order for it to be
-									successful; an infrastructure needs to be created that allows
-									companies in the textile industry to reuse their resources by
-									making new products from them or recycling them into
-									new materials.
+                                    The textile industry is one of the most polluting industries and it is estimated that the
+                                    clothing industry consumes around 70% of all fabric production. Therefore, change must
+                                    occur to be successful; an infrastructure needs to be created that allows companies in the
+                                    textile industry to reuse their resources by making new products from them or recycling
+                                    them into new materials.
 								</p>
 							</div>
 							<div class="img_block1">
@@ -102,22 +106,18 @@
 					<div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
 						<div class="content_1">
 							<p class="p1">
-								With a circular economy, less fabric would be used and it would only be sourced from more environmentally friendly materials such as polyester which can be recycled back into
-								polyester fiber.
+                                In a circular economy, the fabric would only be sourced from more environmentally friendly
+                                materials. Such as polyester that can be recycled back into polyester fiber.
 							</p>
 						</div>
 					</div>
 					<div class="col-xs-12 col-sm-12 col-md-4 p-0 col2">
 						<div class="content_1">
 							<p class="p1">
-								The circular economy for textiles is a concept that
-								has been around for about 30 years with various
-								initiatives being undertaken by various
-								organizations to support its development.
-								However, some companies have taken this idea to
-								create some products themselves while some
-								organizations have adopted the concept into
-								their organization’s core values.
+                                The circular economy for textiles is a concept that has been around for about 30 years, with
+                                various initiatives being undertaken by various organizations to support its development.
+                                However, some companies took this idea to create some products themselves, while others
+                                adopted the concept into their core values.
 							</p>
 						</div>
 					</div>
@@ -132,10 +132,8 @@
 					<div class="col-xs-12 col-sm-12 col-md-4 p-0 col4">
 						<div class="content_1">
 							<p class="p1">
-								In terms of polyester yarns, they are becoming
-								more popular as manufacturers switch from
-								cotton textiles to polyester ones due to their
-								sustainability properties.
+                                In terms of polyester, yarns are becoming more popular as manufacturers switch from
+                                cotton textiles to polyester ones due to their sustainability properties.
 							</p>
 						</div>
 					</div>
@@ -161,12 +159,11 @@
 						<div class="col-xs-12 col-sm-12 col-md-6 p-0 col2-2">
 							<div class="content_1">
 								<p class="p1">
-									Textiles are an essential part of the clothing industry and fashion.
-									At the same time, they are one of the most polluting industries in
-									the world. It is estimated that more than 10% of the world's water
-									consumption is used for textile production. A circular textile
-									lifestyle can help tackle these issues while providing sustainable
-									benefits to both people and nature.
+                                    Textiles are an essential part of the clothing industry and fashion. However, they are one of
+                                    the most polluting industries in the world at the same time. In addition, it is estimated that
+                                    more than 10% of the world's water consumption is used for textile production. A circular
+                                    textile lifestyle can help tackle these issues while providing sustainable benefits to people
+                                    and nature.
 								</p>
 							</div>
 						</div>
@@ -175,17 +172,12 @@
 						<div class="col-xs-12 col-sm-12 col-md-4 p-0 col3-1">
 							<div class="content_1">
 								<p class="p1">
-									There are many benefits to a circular textile
-									lifestyle that make it worth considering for
-									fashionistas everywhere. The main benefit is
-									sustainability which will lead to not only
-									environmental but also economic benefits.
+                                    Many benefits to a circular textile lifestyle make it worth considering for fashionistas
+                                    everywhere. The main benefit is sustainability, which will lead to environmental and economic benefits.
 								</p>
 								<p class="p2">
-									We all know how important fashion is, which
-									makes it even more necessary for us to make sure
-									that what we wear is sustainable and
-									environmentally friendly.
+                                    We all know how important fashion is, making it even more necessary for us to ensure that
+                                    what we wear is sustainable and environmentally friendly.
 								</p>
 							</div>
 						</div>
@@ -208,7 +200,7 @@
 					<div class="col-xs-12 col-sm-12 col-md-4 p-0 col1">
 						<div class="content_1">
 							<h2 class="section-six-title">
-								Why we should be looking towards the future of textile?
+								Why should we look towards the future of textile?
 							</h2>
 							<div class="img_block1">
 								<picture>
@@ -221,16 +213,18 @@
 					<div class="col-xs-12 col-sm-12 col-md-8 p-0 col2">
 						<div class="content_1">
 							<p class="p1">
-								Textile manufacturing is one of the largest industries in the world. It also has one of the largest carbon footprints. To
-								mitigate these effects, it is important to consider what types of materials are used in textile manufacturing.
+                                Textile manufacturing is one of the largest industries in the world. But unfortunately, it also
+                                has a large number of carbon footprints. According to these effects, it is important to
+                                consider what materials are used in textile manufacturing.
 							</p>
 							<p class="p2">
-								Fabric made from polyester yarns are eco-friendly compared to other materials because it's made from recycled
-								plastics that would otherwise be thrown away.
+                                Fabric made from polyester yarn is eco-friendly compared to other materials because it's
+                                made from waste plastics and takes them to recycle process.
 							</p>
 							<p class="p3">
-								As a leading polyester yarn manufacturer, we have found that fabric which made from polyesters is softer and more
-								durable than cotton. Polyester fabric will continue to play an important role in society as we move towards a greener future!
+                                As a leading polyester yarn manufacturer, we have found that fabric made from polyesters
+                                is softer and more durable than cotton. Hence, the polyester fabric will continue to play an
+                                important role in society as we move towards a greener future!
 							</p>
 							<div class="img_block1">
 								<picture>
@@ -247,7 +241,9 @@
 					<div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
 						<div class="content_1">
 							<p class="p1">
-								If you are looking for a sustainable polyester yarn supplier which concern on the circular economy practice, please contact us for being our partner. Together, we could create a better world for the next generation.
+                                If you are looking for a sustainable polyester yarn supplier concerned with the circular
+                                economy practice, don't hesitate to contact us to be our partner. Together, we could create
+                                a better world for the next generation.
 							</p>
 							<div class="img_block1">
 								<a href="{!!url('/contact')!!}" title="Contact">
