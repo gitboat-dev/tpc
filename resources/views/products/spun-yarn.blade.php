@@ -13,28 +13,6 @@
 							<source srcset="/assets/images/spun-yarn/mobile/Head-Mobile.webp" alt="Polyester Spun Yarn" media="(max-width: 640px)">
 							<img src="/assets/images/spun-yarn/desktop/Head-Desktop.webp" width="900" height="350" class="img-fluid ab-img" alt="Polyester Spun Yarn">
 				        </picture>
-				        <div class="pic_caption">
-                            <div class="row">
-                                <div class="col-xs-6 col-sm-12 col-md-12">
-                                    100% Polyester Spun Yarn
-                                </div>
-                                <div class="col-xs-6 col-sm-12 col-md-12">
-                                    2 types of yarn spinning techniques
-                                </div>
-                                <div class="col-xs-6 col-sm-12 col-md-12">
-                                    Polyester spun yarn divided to
-                                </div>
-                                <div class="col-xs-6 col-sm-12 col-md-12">
-                                    Spun yarn luster
-                                </div>
-                                <div class="col-xs-6 col-sm-12 col-md-12">
-                                    Polyester Spun uses for…?
-                                </div>
-                                <div class="col-xs-6 col-sm-12 col-md-12">
-                                    Polyester Spun Yarn Product
-                                </div>
-                            </div>
-					    </div>
 					</div>
 				</div>
 			</div>
@@ -56,14 +34,10 @@
 										<div class="row m-0 r1">
 											<div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
 												<p style="text-indent: 30px;">
-													<span class="bigtext">In the past</span>, cotton is the fiber that
-													common used in multiple industry applications.
-													Cotton fibers are composed of pure cellulose
-													which gives the feeling of soft, fluffy, comfortable
-													and breathable. On the other hand, the cotton
-													product’s life is not long. Cotton is a commodity
-													and can fluctuate in price. This is
-													because it is nature fiber.
+                                                    <span class="bigtext">COTTON</span> was the most common fiber used in multiple industry applications in the past.
+                                                    Cotton fibers are composed of pure cellulose, which gives the soft feeling, fluffy,
+                                                    comfortable and breathable. On the other hand, the cotton product’s life is not long-lasting
+                                                    also a commodity product and can fluctuate in price because it is a natural fiber.
 												</p>
 											</div>
 										</div>
@@ -81,9 +55,8 @@
 											<div class="col-xs-6 col-sm-6 col-md-12 col2">
 												<p>
 													@if($chkmobile)
-														<span class="para1">Polyester spun yarn has been created in order
-														to imitate cotton. Polyester spun yarn has been
-														appeared for more than half a century.</span>
+                                                        <span class="para1">Polyester Spun Yarn was created to imitate cotton fiber. However, Polyester Spun Yarn has
+                                                        appeared for more than half a century. </span>
 													@endif
 												</p>
 											</div>
@@ -92,14 +65,12 @@
 											<div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
 												<p style="text-indent: 30px;">
 													@if($chkmobile)
-														<span class="para2">The advantage of Polyester Spun Yarn is more wrinkle
-														resistant than cotton, fades less, and is long lasting and durable.</span>
+                                                        <span class="para2">The advantages of Polyester Spun Yarn is better
+                                                        wrinkle-resistant, fades less, long-lasting and durable.</span>
 													@else
-														<span class="para1">Polyester spun yarn has been created in order
-														to imitate cotton. Polyester spun yarn has been
-														appeared for more than half a century.</span> <span class="para2">The
-														advantage of Polyester Spun Yarn is more wrinkle
-														resistant than cotton, fades less, and is long lasting and durable.</span>
+                                                        Polyester Spun Yarn was created to imitate cotton fiber. However, Polyester Spun Yarn has
+                                                        appeared for more than half a century. The advantages of Polyester Spun Yarn is better
+                                                        wrinkle-resistant, fades less, long-lasting and durable.
 													@endif
 												</p>
 											</div>
@@ -131,14 +102,16 @@
 										<div class="row m-0 r2">
 											<div class="col-xs-12 col-sm-12 col-md-12 col2">
 												<p>
-													<span class="highlight">Polyester spun yarn</span> is made from
-													polyester staple fiber (PSF) and pass through
-													spinning process. Polyester spun yarn is obtained
-													from both <span class="highlight">virgin polyester staple fiber</span> and
-													recycled polyester staple fiber. Polyester spun
-													yarn is mostly used for knitting and weaving
-													fabrics, and also used for manufacturing of sewing
-													thread and embroidery yarn.
+                                                    <span class="highlight">Polyester spun yarn</span> is made from
+                                                    polyester staple fiber (PSF) and
+                                                    passes through the spinning process.
+                                                    Polyester spun yarn is obtained from
+                                                    both <span class="highlight">virgin polyester staple fiber</span> and
+                                                    recycled polyester staple fiber.
+                                                    Polyester spun yarn is mostly used
+                                                    for knitting, weaving fabrics,
+                                                    manufacturing sewing thread, and
+                                                    embroidery.
 												</p>
 											</div>
 										</div>
@@ -161,9 +134,10 @@
 					</div>
 					<div class="col-xs-12 col-sm-12 col-md-12 p-0 bg-black">
 						<p>
-							Thai Polyester Co., Ltd. is the professional <span class="highlight">100% polyester fibers and yarns manufacturer</span> in Thailand, we are also recognize as the biggest 100% polyester spun yarn manufacturer
-							in Thailand. Thai Polyester provides numerous quantities of <span class="highlight">polyester ring spun yarn</span> and <span class="highlight">polyester OE spun yarn</span> to the local customers and export to thread
-							suppliers, knitting and weaving manufacturers around the world every year.
+                            Thai Polyester Company is a professional <span class="highlight">manufacturer of 100% polyester fiber and yarn,
+                            the biggest Polyester Spun Yarn supplier</span> in Thailand. Plus, Thai Polyester Company provides
+                            considerable quantities of <span class="highlight">Polyester Ring-Spun Yarn</span> and <span class="highlight">Polyester OE Spun Yarn</span>. National
+                            and international thread suppliers knitting and weaving manufacturers rely on us.
 						</p>
 					</div>
 				</div>
@@ -181,23 +155,11 @@
 						<div class="content_group">
 							<div class="content_1">
 								<p class="p1 m-0">
-									According to, the sustainable
-									concept of our company, TPC
-									has started producing recycled
-									polyester fiber and yarn,which
-									made from PET bottles, and
-									reduced using virgin polyester.
-									The company has certified the
-									standard of recycled standard
-									names Global Recycled
-									Standard (GRS) to warrantee
-									our product quality. This
-									indicates that our company
-									also provides both <span class="highlight">recycled
-									polyester spun yarn</span> and <span class="highlight">virgin
-									polyester spun yarn</span> which
-									made more choices for our
-									various customers.
+                                    According to our company's sustainable concept, TPC has started producing recycled
+                                    polyester fiber and yarn made from PET bottles and reduced using virgin polyester. The
+                                    company has also certified the recycled international standard by Global Recycled Standard
+                                    (GRS) to guarantee that our product has high-quality and genuinely recycled. The company
+                                    provides recycled and <span class="highlight">virgin Polyester Spun Yarn</span> to suit all customers’ usages.
 								</p>
 								<p class="p2 m-0">
 									Author : Kanokluck Permpreedanun<br>
@@ -241,10 +203,7 @@
 								</ul>
 								<h2>
 									<span class="highlight">
-										A. 2 types
-										of yarn
-										spinning
-										techniques
+                                        2 types of yarn spinning techniques
 									</span>
 								</h2>
 								<ul class="box-five-dot-bottom">
@@ -281,10 +240,7 @@
 								</ul>
 								<h2>
 									<span class="highlight">
-										A. 2 types
-										of yarn
-										spinning
-										techniques
+                                        2 types of yarn spinning techniques
 									</span>
 								</h2>
 								<ul class="box-five-dot-bottom">
@@ -311,14 +267,11 @@
 					<div class="col-xs-12 col-sm-12 col-md-6 p-0 bg-black divd">
 						@if(!$chkmobile)
 							<p>
-								Ring spinning is the oldest spinning system. It was
-								based on the first spinning method used and remains
-								popular to this day. The production capacities of ring
-								spinning are low, comparing to rotor, or open-end.
-								However, the quality of final product is the better than
-								the other. The ring spinning system continues to use
-								the widest range of yarn counts as much as possible
-								and can produce very fine yarns.
+                                Ring spinning is the oldest spinning system. It was based on the first spinning method that
+                                remains popular nowadays. Ring Spun production capacity is low compared to the rotor or
+                                open-end. However, the quality of the finished product is better than the others because
+                                the ring-spinning system continues using the widest range of yarn count as much as possible
+                                and produces the finest yarns.
 							</p>
 						@endif
 					</div>
@@ -338,14 +291,11 @@
 					<div class="col-xs-12 col-sm-12 col-md-6 p-0 bg-black divm">
 						@if($chkmobile)
 							<p>
-								Ring spinning is the oldest spinning system. It was
-								based on the first spinning method used and remains
-								popular to this day. The production capacities of ring
-								spinning are low, comparing to rotor, or open-end.
-								However, the quality of final product is the better than
-								the other. The ring spinning system continues to use
-								the widest range of yarn counts as much as possible
-								and can produce very fine yarns.
+                                Ring spinning is the oldest spinning system. It was based on the first spinning method that
+                                remains popular nowadays. Ring Spun production capacity is low compared to the rotor or
+                                open-end. However, the quality of the finished product is better than the others because
+                                the ring-spinning system continues using the widest range of yarn count as much as possible
+                                and produces the finest yarns.
 							</p>
 						@endif
 					</div>
@@ -371,13 +321,10 @@
 									<li><div></div></li>
 									<li><div></div></li>
 								</ul>
-								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The ring spinning process is simple. The roving is the
-								input for the process and passes through a basic,
-								usually 3 roll, drafting system. After drafting, the fiber
-								is twisted into a yarn structure by a whirling spindle,
-								which has a removable bobbin on it. The winding of
-								the yarn onto the bobbin takes place due to the
-								traveler and ring combination.
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The ring spinning process is simple. The roving is the input for the operation and passes
+                                through a primary, usually 3 rolls in the drafting system. After drafting, the fiber is twisted
+                                into a yarn structure by a whirling spindle with a removable bobbin on it. The winding of the
+                                yarn onto the bobbin takes place due to the traveler and ring combination.
 								<ul class="box-five-dot-bottom">
 									<li><div></div></li>
 									<li><div></div></li>
@@ -390,13 +337,10 @@
 						<div class="block2 divd">
 							@if(!$chkmobile)
 								<p class="p2">
-									Ring spinning requires a subsequent winding step.
-									That is the full bobbins must be wound onto a cone to
-									create a much larger package that is then usable for
-									weaving or knitting. These additional steps of roving
-									and winding, combined with the slow production rate
-									(when compared to rotor), are the primary reasons for
-									the higher cost differences for ring-spun yarn.
+                                    Ring spinning requires a subsequent winding step. Full bobbin must be wound onto a cone
+                                    to create a much larger package usable for weaving or knitting. These additional steps of
+                                    roving and winding, combined with the slow production rate (compared to rotor), are the
+                                    primary reasons for the higher cost differences for ring-spun yarn.
 								</p>
 							@endif
 						</div>
@@ -405,13 +349,10 @@
 						<div class="block1 divm">
 							@if($chkmobile)
 								<p class="p2m m-0">
-									Ring spinning requires a subsequent winding step.
-									That is the full bobbins must be wound onto a cone to
-									create a much larger package that is then usable for
-									weaving or knitting. These additional steps of roving
-									and winding, combined with the slow production rate
-									(when compared to rotor), are the primary reasons for
-									the higher cost differences for ring-spun yarn.
+                                    Ring spinning requires a subsequent winding step. Full bobbin must be wound onto a cone
+                                    to create a much larger package usable for weaving or knitting. These additional steps of
+                                    roving and winding, combined with the slow production rate (compared to rotor), are the
+                                    primary reasons for the higher cost differences for ring-spun yarn.
 								</p>
 							@endif
 						</div>
@@ -474,17 +415,13 @@
 					</div>
 					<div class="col-xs-12 col-sm-12 col-md-5 p-0">
 						<div class="content-block">
-							<h2><span class="highlight">2. Rotor or Open End(OE) Spinning</span></h2>
+							<h2><span class="highlight">2. Rotor or Open-End(OE) Spinning</span></h2>
 							<p>
-								Rotor or open-end spinning is a faster process
-								than ring spinning, up to 10 times per spindle.
-								From a cost standpoint, it does not require the
-								roving process step and it does not require an
-								extra winding step. Yarn is ready for use directly
-								from the machine. The process today is highly
-								automated and includes automatic piecing
-								(restarting of broken ends) and doffing (removal
-								of full packages).
+                                Rotor or open-end spinning is faster than ring spinning, up to 10 times per spindle. From a
+                                cost standpoint, it does not require the roving process and it does not require an extra
+                                winding step. Yarn is ready to use directly from the machine. Currently, the process is highly
+                                automated and includes automatic piecing (restarting of broken ends) and doffing (removal
+                                of complete packages).
 							</p>
 						</div>
 					</div>
@@ -500,9 +437,11 @@
 					</div>
 					<div class="col-xs-12 col-sm-12 col-md-12 p-0">
 						<p>
-							The rotor spinning process is difficult to conceptualize. A sliver is used as the input and is fed into a small carding device called a combing roll (or opening roll).
-							This individualizes the fibers and performs the drafting. The loose fibers are sucked into a rotating rotor cup where they are attached to the rolling, open-end of yarn found there,
-							thus the name, open-end spinning. The yarn is withdrawn and the process becomes continuous.
+                            The rotor spinning process is difficult to conceptualize. The sliver is the input fed into a small
+                            carding device called a combing roll (or opening roll). This process individualizes the fiber
+                            and performs the drafting. Next, the loose fibers are sucked into a rotating rotor cup where
+                            they are attached to the rolling, open-end of yarn found there, thus the name, open-end
+                            spinning. Finally, the yarn is withdrawn and the process becomes continuous.
 						</p>
 						<span class="highlight">https://www.sciencedirect.com/topics/engineering/open-end-rotor-spinning</span>
 					</div>
@@ -522,17 +461,15 @@
 							<div class="content-title">
 								<h2>
 									<span class="highlight">
-										B. Polyester spun yarn divided to…
+										Polyester spun yarn divided to…
 									</span>
 								</h2>
 							</div>
 							<p>
-								<span class="highlight">1. Virgin polyester spun yarn</span><br>
-								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Virgin polyester is made from a non-renewable
-								resource using an energy intensive process. So,
-								virgin polyester spun yarn is produced from PSF
-								which is non-renewable polyester. The colors that
-								we provide are:
+								<span class="highlight">1. Virgin Polyester Spun Yarn</span><br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Virgin polyester is made from a non-renewable resource using an energy-intensive
+                                process. So, virgin polyester spun yarn is produced from PSF non-renewable polyester. The
+                                colors we provide are:
 							</p>
 							<ul class="box-five-dot-bottom">
 								<li><div></div></li>
@@ -547,7 +484,7 @@
 						<div class="content-title-m">
 							<h2>
 								<span class="highlight">
-									B. Polyester spun yarn divided to…
+									Polyester spun yarn divided to…
 								</span>
 							</h2>
 						</div>
@@ -576,8 +513,8 @@
 						</ul>
 						<p>
 							<span class="highlight">1.1 Raw White (RW)</span><br>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RW is the color of the nature polyester color
-							itself, not pass any color process.
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; RW is the color of the nature polyester color
+                            itself, not passing any color processes.
 						</p>
 						<ul class="box-five-dot-bottom bottom-5p">
 							<li><div></div></li>
@@ -598,11 +535,10 @@
 							<li><div></div></li>
 						</ul>
 						<p>
-							<span class="highlight">1.2 Dope Dye Black (DDB)</span><br>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DDB is the black color that we put black
-							master-batch since the beginning of POY process
-							with high temperature. DDB spun yarn will have
-							non-staining function quality and pale color.
+							<span class="highlight">1.2 Dope-Dyed Black (DDB)</span><br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; DDB is the black color that the masterbatch has been put since at the beginning of the
+                            POY process with high temperature. Consequently, DDB spun yarn will have non-staining
+                            function quality and pale color.
 						</p>
 						<ul class="box-five-dot-bottom">
 							<li><div></div></li>
@@ -639,36 +575,16 @@
 						<div class="content-block1">
 							<p>
 								<span class="highlight-black">2. Recycled polyester spun yarn</span><br>
-								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Recycled polyester is made from 100% of
-								PET/Polyester waste and post consumed PET
-								bottles (Flakes). Recycled polyester, also known as
-								r-PET, is obtained by melting down existing
-								plastic and re-spinning it into new polyester fiber.
-								It is a great way to divert plastic from our
-								landfills and the production of recycled polyester
-								requires far fewer resources than new fibers and
-								generates fewer Co2 emissions. The colors of our
-								recycled polyester staple fiber that we provide
-								are:
-								E. Polyester Spun Yarn Product
-								Polyester spun yarns are long continuous length
-								of fibers, suitable for use in the production of
-								textiles, sewing, crocheting, knitting, weaving,
-								embroidery, and rope making etc.
-								D. Polyester
-								Spun Yarn
-								uses for…?
-								28/1 30/1 32/1
-								18/1 20/1
-								10/2
-								20/2
-								18/1 20/1
-								10/2
-								20/2
-								30/2
-								10/1 12/1 14/1
-								10/1 12/1 14/1
-								Count
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Recycled polyester is made from 100% waste PET and post-consumer PET bottles
+                                (flakes). Recycled polyester, also known as r-PET, is obtained by melting down existing
+                                plastic and re-spinning it into new polyester fiber. Another good choice for diverting plastics
+                                from the landfill and producing recycled polyester requires far fewer resources than new
+                                fibers and generates fewer Co2 emissions.<br><br>
+                                Polyester Spun Yarn Product Polyester spun yarn has a long continuous length of fibers,
+                                suitable for the textile industry such as sewing, crocheting, knitting, weaving, embroidery,
+                                rope making, etc.<br><br>
+                                We provide:<br>
+                                28/1 30/1 32/1 18/1 20/1 10/2 20/2 18/1 20/1 10/2 20/2 30/2 10/1 12/1 14/1 10/1 12/1 14/1 Count
 							</p>
 						</div>
 					</div>
@@ -676,22 +592,16 @@
 						<div class="content-block2">
 							<p>
 								<span class="highlight">2.1 Raw White (RW)</span><br>
-								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RW for recycled polyester is a bit difference
-								from virgin polyester. Its color looks a bit yellow
-								which is natural from the process.
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RW recycled polyester is slightly different from virgin polyester; its color is yellowish
+                                naturally.
 							</p>
 							<p>
-								<span class="highlight">2.2 Dope Dye Black (DDB)</span><br>
-								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DDB for recycled polyester looks alike virgin
-								polyester. It also contains black master-batch
-								since the process of melting before injecting. So,
-								we cannot separate between DDB virgin and DDB
-								recycle by vision. But there is a mechanical test
-								to detect that which one is made from recycle
-								and which one is made from virgin. It has a
-								standard to test as well. Normally, we will give
-								third party which qualified by GRS to test and
-								give us certification to prove that fibers or yarns.
+								<span class="highlight">2.2 Dope-Dyed Black (DDB)</span><br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; DDB recycled polyester looks exactly like virgin polyester because the black masterbatch
+                                is mixed in the melting process before injecting. We cannot separate between DDB virgin
+                                and DDB recycle by vision. But there is a mechanical test to detect which is recycled or
+                                virgin. Our recycled product is certified by GRS, <b>a voluntary product standard for tracking
+                                and verifying recycled materials' content in a final product.</b>
 							</p>
 						</div>
 					</div>
@@ -717,7 +627,7 @@
 					<div class="col-xs-12 col-sm-12 col-md-6 p-0 row1">
 						<h2>
 							<span class="highlight">
-								C. Spun yarn luster
+								Spun yarn luster
 							</span>
 						</h2>
 						<div class="content-block1">
@@ -734,9 +644,8 @@
 								</div>
 								<div class="col-xs-8 col-sm-8 col-md-12 p-0 subrow2">
 									<p>
-										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Luster refers to the degree of light that is
-										reflected from the surface of a fiber or the degree
-										of gloss or sheen that the fiber possesses.
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Luster refers to the degree of light reflected from fiber surfaces or the degree of gloss or
+                                        sheen that the fiber possesses.
 									</p>
 								</div>
 							</div>
@@ -744,15 +653,11 @@
 						<div class="content-block2">
 							<p>
 								<span class="highlight">1. Full dull</span><br>
-								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Full dull yarns are manufactured from the raw
-								materials which are modified chemically and/or
-								physically to reduce their normal luster. Few of
-								the qualities of full dull yarns are, they have high
-								tenacity, strength and look like cotton fiber.
-								These yarns are of good pendent, soft visual
-								appeal and a strong covering. Full dull type of
-								yarns have various applications in manufacturing
-								apparels, home textiles etc.
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Full dull yarns are manufactured from raw materials modified chemically and physically
+                                to reduce their normal luster. A few of the qualities of full dull yarns have high tenacity and
+                                strength and look like cotton fiber. In addition, these yarns are of good pendent, soft visual
+                                appeal and a strong covering. Full dull yarns have various applications in manufacturing
+                                apparel, home textiles, etc.
 							</p>
 						</div>
 					</div>
@@ -760,17 +665,11 @@
 						<div class="content-block3">
 							<p>
 								<span class="highlight">2. Semi-dull</span><br>
-								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Semi-dull yarn are manufactured from the
-								raw materials which have low luster as
-								compared to partially oriented bright yarns
-								are used to manufacture semi dull polyester
-								textured yarns. Semi dull partially oriented
-								yarns have more strength and durability. The
-								end user applications of semi dull partially
-								oriented yarns are in the garment and
-								apparel industries for weaving and for doing
-								embroidery works. These semi dull yarns are
-								available in various deniers and filaments.
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Semi-dull yarn is manufactured from raw materials with low luster compared to partially
+                                oriented bright yarns used to manufacture semi-dull polyester textured yarn. Semi-dull
+                                partially oriented yarn has more durability properties. The end-user applications of semi-dull
+                                partially oriented yarn are in the garment and apparel industries for weaving and
+                                embroidery works. These semi-dull yarns are available in various deniers and filaments.
 							</p>
 							<div class="img-block2">
 								<img src="/assets/images/spun-yarn/mobile/Picture-Mobile-26.webp" class="img-fluid" loading="lazy" alt="Semi-dull">
@@ -785,15 +684,16 @@
 						<div class="col-xs-12 col-sm-12 col-md-5 p-0 row1">
 							<h2>
 								<span class="highlight">
-									D. Polyester Spun Yarn uses for…?
+									Polyester Spun Yarn uses for…?
 								</span>
 							</h2>
 							<div class="content-block">
 								<p>
-									Polyester spun yarns are long continuous length
-									of fibers, suitable for use in the production of
-									textiles, sewing, crocheting, knitting, weaving,
-									embroidery, and rope making etc.
+                                    Polyester spun yarns are the long and
+                                    continuous length of fibers, suitable
+                                    for the production of textiles, sewing,
+                                    crocheting, knitting, weaving,
+                                    embroidery, rope making, etc.
 								</p>
 							</div>
 						</div>
@@ -813,7 +713,7 @@
 					<div class="col-xs-12 col-sm-12 col-md-12 p-0">
 						<h2>
 							<span class="highlight">
-								E. Polyester Spun Yarn Product
+								Polyester Spun Yarn Product
 							</span>
 						</h2>
 						<div class="img_block">
