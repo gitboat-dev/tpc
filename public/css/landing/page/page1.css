@@ -551,7 +551,6 @@
 
     /* End Sec18 */
 }
-
 @media only screen and (max-width: 768px){
     :root{
         --secOneContBox: 471px;
@@ -805,15 +804,6 @@
     #sec17 .r4 .col1 .content_block p.p1{
         font-size: 11px;
     }
-    #sec17 .r3 div[class^="col-"]:not(:last-child)::after{
-        content: " ";
-        position: absolute;
-        bottom: 0;
-        left: 30%;
-        width: 40%;
-        height: 2px;
-        background-color: var(--msBgDark);
-    }
 
     /* End Sec17 */
 
@@ -832,6 +822,19 @@
     }
 
     /* End Sec18 */
+}
+@media only screen and (max-width: 767px){
+    #sec17 .r3 div[class^="col-"]:not(:last-child)::after{
+        content: " ";
+        position: absolute;
+        bottom: 0;
+        left: 30%;
+        width: 40%;
+        height: 2px;
+        background-color: var(--msBgDark);
+    }
+
+    /* End Sec17 */
 }
 @media only screen and (max-width: 330px){
     #sec5 .r1 .content_block table td.psf-font-1{
