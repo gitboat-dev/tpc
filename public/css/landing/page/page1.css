@@ -26,9 +26,9 @@
 
 #sec1{
     background-image: url(/assets/images/landing/page1/desktop/new-image/Head-Landingpage-Thaipolyester.webp);
-    background-size: 100% 100%;
+    background-size: cover;
+    background-position: center;
     min-height: var(--secOneContBox);
-    /* display: flex; */
     position: relative;
 }
 #sec1 .r1 .content_block{
@@ -461,8 +461,29 @@
 
     /* End Sec2 */
 
+    #sec4 .r1 .content_block{
+        padding: 0 75px;
+    }
+
+    /* End Sec4 */
+
+    #sec5 .r1 .psf-image {
+        padding: 40px 75px;
+    }
+    #sec5 .r1 .content_block {
+        padding: 30px 75px 0px;
+    }
+
+    /* End Sec5 */
+
+    #sec6 > ul {
+        padding: 30px 75px;
+    }
+
+    /* End Sec6 */
+
     #sec9 .r1 .content_block{
-        padding: 30px 100px;
+        padding: 30px 75px;
         display: flex;
         flex-wrap: wrap;
     }
@@ -484,6 +505,21 @@
 
     /* End Sec10 */
 
+    #sec12 > ul {
+        padding: 30px 75px;
+    }
+    #sec12 > ul > li{
+        margin-bottom: 10px;
+    }
+
+    /* End Sec12 */
+
+    #sec14 > ul {
+        padding: 30px 75px;
+    }
+
+    /* End Sec12 */
+
     #sec15 .r1 .col1 .content_block,
     #sec15 .r1 .col2 .content_block{
         padding: 30px 50px;
@@ -496,6 +532,24 @@
     }
 
     /* End Sec16 */
+
+    #sec17 .r1 .col1 .content_block {
+        padding: 60px 75px;
+    }
+    #sec17 .r3 div[class^="col-"]:not(:last-child){
+        border-right: unset;
+    }
+
+    /* End Sec17 */
+
+    #sec18 .r1 .col1 .content_block {
+        padding: 0px 75px;
+    }
+    #sec18 .r1 .col2 .content_block {
+        padding: 0px 75px 20px;
+    }
+
+    /* End Sec18 */
 }
 
 @media only screen and (max-width: 768px){
@@ -510,6 +564,8 @@
 
     #sec1{
         background-image: url(/assets/images/landing/page1/mobile/new-image/Head-Landingpage-Thaipolyester.webp);
+        background-size: 100% 100%;
+        background-position: unset;
     }
     #sec1 .r1 .content_block .p1{
         font-size: 30px;
@@ -748,9 +804,6 @@
     }
     #sec17 .r4 .col1 .content_block p.p1{
         font-size: 11px;
-    }
-    #sec17 .r3 div[class^="col-"]:not(:last-child){
-        border-right: unset;
     }
     #sec17 .r3 div[class^="col-"]:not(:last-child)::after{
         content: " ";

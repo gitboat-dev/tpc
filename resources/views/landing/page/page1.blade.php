@@ -706,7 +706,7 @@
     </section>
     <section id="sec12">
         <ul class="row m-0">
-            <li class="col-xs-12 col-sm-12 col-md-3">
+            <li class="col-xs-12 col-sm-6 col-md-3">
                 <div class="content_block pos-r">
                     <div class="img_block wow @if($chkmo) animate__backInUp @else animate__flipInX @endif">
                         <picture>
@@ -716,7 +716,7 @@
                     </div>
                 </div>
             </li>
-            <li class="col-xs-12 col-sm-12 col-md-3">
+            <li class="col-xs-12 col-sm-6 col-md-3">
                 <div class="content_block pos-r">
                     <div class="img_block wow @if($chkmo) animate__backInUp @else animate__flipInX @endif" data-wow-delay="0.2s">
                         <picture>
@@ -726,7 +726,7 @@
                     </div>
                 </div>
             </li>
-            <li class="col-xs-12 col-sm-12 col-md-3">
+            <li class="col-xs-12 col-sm-6 col-md-3">
                 <div class="content_block pos-r">
                     <div class="img_block wow @if($chkmo) animate__backInUp @else animate__flipInX @endif" data-wow-delay="0.4s">
                         <picture>
@@ -736,7 +736,7 @@
                     </div>
                 </div>
             </li>
-            <li class="col-xs-12 col-sm-12 col-md-3">
+            <li class="col-xs-12 col-sm-6 col-md-3">
                 <div class="content_block pos-r">
                     <div class="img_block wow @if($chkmo) animate__backInUp @else animate__flipInX @endif" data-wow-delay="0.6s">
                         <picture>
@@ -761,7 +761,7 @@
     </section>
     <section id="sec14">
         <ul class="row r1 m-0 d-flex">
-            <li class="col-xs-12 col-sm-12 col-md-6">
+            <li class="col-xs-12 col-sm-6 col-md-6">
                 <div class="content_block pos-r">
                     <div class="img_block">
                         <picture>
@@ -771,7 +771,7 @@
                     </div>
                 </div>
             </li>
-            <li class="col-xs-12 col-sm-12 col-md-6">
+            <li class="col-xs-12 col-sm-6 col-md-6">
                 <div class="content_block pos-r">
                     <div class="img_block">
                         <picture>
@@ -781,7 +781,7 @@
                     </div>
                 </div>
             </li>
-            <li class="col-xs-12 col-sm-12 col-md-6">
+            <li class="col-xs-12 col-sm-6 col-md-6">
                 <div class="content_block pos-r">
                     <div class="img_block">
                         <picture>
@@ -791,7 +791,7 @@
                     </div>
                 </div>
             </li>
-            <li class="col-xs-12 col-sm-12 col-md-6">
+            <li class="col-xs-12 col-sm-6 col-md-6">
                 <div class="content_block pos-r">
                     <div class="img_block">
                         <picture>
@@ -801,7 +801,7 @@
                     </div>
                 </div>
             </li>
-            <li class="col-xs-12 col-sm-12 col-md-6">
+            <li class="col-xs-12 col-sm-6 col-md-6">
                 <div class="content_block pos-r">
                     <div class="img_block">
                         <picture>
@@ -891,7 +891,7 @@
             </div>
         </div>
         <div class="row r2 m-0">
-            <div class="col-xs-12 col-sm-12 col-md-3 p-0 col1">
+            <div class="col-xs-12 col-sm-6 col-md-3 p-0 col1">
                 <div class="content_block d-flex pos-r">
                     <div class="content_group">
                         <div class="img_block">
@@ -907,7 +907,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-3 p-0 col2">
+            <div class="col-xs-12 col-sm-6 col-md-3 p-0 col2">
                 <div class="content_block d-flex pos-r">
                     <div class="content_group">
                         <div class="img_block">
@@ -923,7 +923,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-3 p-0 col3">
+            <div class="col-xs-12 col-sm-6 col-md-3 p-0 col3">
                 <div class="content_block d-flex pos-r">
                     <div class="content_group">
                         <div class="img_block">
@@ -939,7 +939,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-3 p-0 col4">
+            <div class="col-xs-12 col-sm-6 col-md-3 p-0 col4">
                 <div class="content_block d-flex pos-r">
                     <div class="content_group">
                         <div class="img_block">
@@ -957,7 +957,7 @@
             </div>
         </div>
         <div class="row r3 m-0">
-            <div class="col-xs-12 col-sm-12 col-md-3 p-0 col1">
+            <div class="col-xs-12 col-sm-6 col-md-3 p-0 col1">
                 <div class="content_block d-flex pos-r">
                     <div class="content_group">
                         <div class="img_block">
@@ -970,7 +970,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-3 p-0 col2">
+            <div class="col-xs-12 col-sm-6 col-md-3 p-0 col2">
                 <div class="content_block d-flex pos-r">
                     <div class="content_group">
                         <h3 class="theme-hl text-center">Head Office :</h3>
@@ -987,7 +987,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-3 p-0 col3">
+            <div class="col-xs-12 col-sm-6 col-md-3 p-0 col3">
                 <div class="content_block d-flex pos-r">
                     <div class="content_group">
                         <h3 class="theme-hl text-center">Factory :</h3>
@@ -1004,7 +1004,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-3 p-0 col4">
+            <div class="col-xs-12 col-sm-6 col-md-3 p-0 col4">
                 <div class="content_block d-flex pos-r">
                     <div class="content_group">
                         <h3 class="theme-hl text-center">Sales Office :</h3>
