@@ -47,7 +47,10 @@
 <body>
     @yield('content')
     @include('landing.scrollup')
-    @include('landing.contact_tools')
+    @if(View::hasSection('close_contact_tools'))
+    @else
+        @include('landing.contact_tools')
+    @endif
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTG33WM"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>

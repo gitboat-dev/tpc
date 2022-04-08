@@ -1,10 +1,11 @@
 @extends('landing.template')
 @section('style')
     <link rel="stylesheet" href="\lib\Finallanding\css\bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="\css\landing\Finallanding\style.css">
 @endsection
 @section('og-image','\assets\images\landing\page1\og-image\og-image.webp')
-{{-- @section('close_style',1) --}}
+@section('close_style',1)
 @section('content')
 <div class="header">
     <div class="nav-container">
@@ -414,10 +415,11 @@
 
 </div>
 @endsection
-{{-- @section('close_script',1) --}}
+@section('close_script',1)
 @section('script')
     <script src="\lib\Finallanding\js\bootstrap.min.js"></script>
     <script src="\js\landing\Finallanding\main.js"></script>
 @endsection
+@section('close_contact_tools',1)
 
 
