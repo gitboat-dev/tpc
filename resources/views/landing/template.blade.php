@@ -15,7 +15,7 @@
     <meta name="keywords" content="@if(isset($key)){{$key}}@endif">
     <meta name="author" content="TCP">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.jongstit.com/th">
+    <meta property="og:url" content="https://www.thaipolyester.com">
     <meta property="og:title" content="@if(isset($title)){{$title}}@endif">
     <meta property="og:image" content="@yield('og-image')">
     <meta property="og:image:type" content="image/webp">
@@ -31,7 +31,11 @@
     })(window,document,'script','dataLayer','GTM-MTG33WM');</script>
     <!-- End Google Tag Manager -->
 
-    @include('landing.style')
+    @if(View::hasSection('close_style'))
+
+    @else
+        @include('landing.style')
+    @endif
     @yield('style')
 
     <script>if(document.getElementsByName('chkie')[0].getAttribute('content')==0){
@@ -49,7 +53,11 @@
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-    @include('landing.script')
+    @if(View::hasSection('close_script'))
+
+    @else
+        @include('landing.script')
+    @endif
     @yield('script')
 </body>
 </html>
