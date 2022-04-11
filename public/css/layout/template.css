@@ -107,8 +107,14 @@ body {
     height: auto;
     border: 0;
 }
-#tpc > #tpc-bg{
+#tpc > #tpc_bg{
     background-color: var(--msBgLight);
+}
+#tpc .desktop{
+    display: block !important;
+}
+#tpc .mobile{
+    display: none !important;
 }
 #tpc h1{
 	font-size: 60px;
@@ -195,6 +201,24 @@ body {
     #tpc {
         padding: 0px;
     }
+    #tpc .desktop{
+        display: none !important;
+    }
+    #tpc .mobile{
+        display: block !important;
+    }
+    #tpc .m-tl1{
+        font-size: 80%;
+    }
+    #tpc .m-tl2{
+        font-size: 60%;
+    }
+    #tpc .m-tl3{
+        font-size: 40%;
+    }
+    #tpc .m-tl4{
+        font-size: 20%;
+    }
     #tpc h1{
         font-size: 40px;
         font-weight: normal;
@@ -203,6 +227,20 @@ body {
     #tpc h2{
         font-size: 30px;
         line-height: 36px;
+    }
+}
+@media only screen and (min-width: 768px){
+    #tpc .tl1{
+        font-size: 80%;
+    }
+    #tpc .tl2{
+        font-size: 60%;
+    }
+    #tpc .tl3{
+        font-size: 40%;
+    }
+    #tpc .tl4{
+        font-size: 20%;
     }
 }
 @media (min-width: 1400px){
