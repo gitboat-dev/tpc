@@ -1,0 +1,12 @@
+#tpc{
+    padding: 0px 54px;
+}
+#tpc #tpc_bg{
+    background-color: var(--msBgLight);
+}
+
+@media only screen and (max-width: 768px){
+    #tpc{
+        padding: 0;
+    }
+}

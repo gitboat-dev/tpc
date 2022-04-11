@@ -135,6 +135,12 @@ body {
 #tpc .pos-ab{
     position: absolute !important;
 }
+#tpc .w-100p{
+    width: 100% !important;
+}
+#tpc .h-100p{
+    height: 100% !important;
+}
 #tpc .m-auto{
     margin: auto !important;
 }
