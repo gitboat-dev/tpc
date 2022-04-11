@@ -114,6 +114,111 @@
                     </div>
                 </div>
             </section>
+            <section id="sec7">
+                <div class="row m-0">
+                    <div class="col-xs-12 col-sm-12 col-md-12 p-0">
+
+                    </div>
+                </div>
+            </section>
+            <section id="sec8">
+                <div class="row m-0">
+                    <div class="col-xs-12 col-sm-12 col-md-12 p-0">
+                        <div class="content_block pos-r d-flex">
+                            <div class="content_group m-auto">
+                                <h2 class="theme-hl">Our company group</h2>
+                                <p>
+                                    provides "One Stop Service" from yarns and fiber to fabric and home textile. Polyester yarn will be transferred to our sister company, Jong Stit Co., Ltd., one of Thailand's biggest textiles and fabrics
+                                    manufacturers since 1940, to produce 100% virgin polyester fabric and recycled polyester fabric.<br>
+                                    As one of the leading polyester fabric recycling companies in Thailand, Jong Stit produces circular knit fabric and warp knit fabric such as french terry fabric, jersey fabric, tricot, fleece, poly boa,
+                                    flannel and printed fabric to support local and export markets' requirement.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="sec9">
+                <div class="row m-0">
+                    <div class="col-xs-12 col-sm-12 col-md-12 p-0">
+                        <div class="content_block pos-r d-flex">
+                            <div class="content_group m-auto d-flex">
+                                <div class="img_block d-inline-b">
+                                    <picture>
+                                        <source srcset="\assets\images\blogs\columns\vp-vs-rp\desktop\knitting-Process-Jongstit-Thaipolyester.webp" alt="knitting Process Jongstit Thaipolyester" media="(max-width: 640px)">
+                                        <img src="\assets\images\blogs\columns\vp-vs-rp\desktop\knitting-Process-Jongstit-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="knitting Process Jongstit Thaipolyester">
+                                    </picture>
+                                </div>
+                                <div class="img_block d-inline-b">
+                                    <picture>
+                                        <source srcset="\assets\images\blogs\columns\vp-vs-rp\mobile\sewing-process-Thaipolyester.webp" alt="sewing process Thaipolyester" media="(max-width: 640px)">
+                                        <img src="\assets\images\blogs\columns\vp-vs-rp\desktop\sewing-process-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="sewing process Thaipolyester">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="sec10">
+                <div class="row m-0">
+                    <div class="col-xs-12 col-sm-12 col-md-12 p-0">
+                        <div class="content_block pos-r d-flex">
+                            <div class="content_group m-auto">
+                                <h2 class="theme-hl">How to ensure recycled polyester in final products?</h2>
+                                <p>
+                                    TPC has environmental management system guaranteed by third-party, which are certified by OEKO-Tex, ISO 9001:2015 and Global Recycled Standard (GRS).
+                                    As a leading recycled PET yarn manufacturers, TPC ensures that our recycled produce by providing GRS to customers to verify the recycled material and track the content of recycled materials
+                                    from the beginning until final products along with responsible social, chemical restrictions and environmental principles. Furthermore, we have OEKO-Tex Standard 100 certification,
+                                    which guarantees that our final products are safe and do not contain any harmful substances.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="sec11">
+                <div class="row m-0">
+                    <div class="content_block pos-r d-flex">
+                        <div class="col-xs-4 col-sm-4 col-md-4 p-0">
+                            <div class="img_block d-flex">
+                                <picture class="mr-0">
+                                    <source srcset="\assets\images\blogs\columns\vp-vs-rp\mobile\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" media="(max-width: 640px)">
+                                    <img src="\assets\images\blogs\columns\vp-vs-rp\desktop\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester">
+                                </picture>
+                            </div>
+                            <div class="img_block d-flex">
+                                <picture class="mr-0">
+                                    <source srcset="\assets\images\blogs\columns\vp-vs-rp\mobile\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" media="(max-width: 640px)">
+                                    <img src="\assets\images\blogs\columns\vp-vs-rp\desktop\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp" width="900" height="350" class="img-fluid" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester">
+                                </picture>
+                            </div>
+                            <div class="img_block d-flex">
+                                <picture class="mr-0">
+                                    <source srcset="\assets\images\blogs\columns\vp-vs-rp\mobile\Global-Recycled-standard-100Recycled-Polyester-Thaipolyester.webp" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" media="(max-width: 640px)">
+                                    <img src="\assets\images\blogs\columns\vp-vs-rp\desktop\Global-Recycled-standard-100Recycled-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester">
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 p-0">
+                            <div class="img_block d-flex">
+                                <picture>
+                                    <source srcset="\assets\images\blogs\columns\vp-vs-rp\mobile\Green-industry-Activty-Thaipolyester.webp" alt="Green industry Activty Thaipolyester" media="(max-width: 640px)">
+                                    <img src="\assets\images\blogs\columns\vp-vs-rp\desktop\Green-industry-Activty-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="Green industry Activty Thaipolyester">
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 p-0">
+                            <div class="img_block d-flex">
+                                <picture class="ml-0">
+                                    <source srcset="\assets\images\blogs\columns\vp-vs-rp\mobile\intertek-Certificate-of-Registration-thaipolyester.webp" alt="intertek Certificate of Registration thaipolyester" media="(max-width: 640px)">
+                                    <img src="\assets\images\blogs\columns\vp-vs-rp\desktop\intertek-Certificate-of-Registration-thaipolyester.webp" width="900" height="350" class="img-fluid" alt="intertek Certificate of Registration thaipolyester">
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
     </div>
 @endsection
