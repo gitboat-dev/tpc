@@ -1,6 +1,7 @@
 @extends('layouts.template')
 @section('style')
-    <link rel="preload stylesheet" href="/css/blogs/vp-vs-rp.css?v={{ time() }}" as="style" crossorigin>
+    <link rel="preload stylesheet" href="/css/blogs/vp-vs-rp.css?v={{time()}}" as="style" crossorigin>
+    <link rel="stylesheet" id="fancybox-css" href="{!!asset('/assets/custom/wp-content/plugins/radiantthemes-addons/assets/css/jquery.fancybox.min.css?ver=4.9.11')!!}" type="text/css" media="all">
 @endsection
 @section('content')
     <div id="tpc">
@@ -182,38 +183,48 @@
                     <div class="content_block pos-r d-flex">
                         <div class="col-xs-4 col-sm-4 col-md-4 p-0">
                             <div class="img_block d-flex">
-                                <picture class="mr-0">
-                                    <source srcset="\assets\images\blogs\columns\vp-vs-rp\mobile\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" media="(max-width: 640px)">
-                                    <img src="\assets\images\blogs\columns\vp-vs-rp\desktop\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester">
-                                </picture>
+                                <a class="mr-0" href="\assets\images\blogs\columns\vp-vs-rp\desktop\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp" title="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" data-fancybox="gallery" data-thumbnail-src="\assets\images\blogs\columns\vp-vs-rp\desktop\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp">
+                                    <picture>
+                                        <source srcset="\assets\images\blogs\columns\vp-vs-rp\mobile\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" media="(max-width: 640px)">
+                                        <img src="\assets\images\blogs\columns\vp-vs-rp\desktop\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester">
+                                    </picture>
+                                </a>
                             </div>
                             <div class="img_block d-flex">
-                                <picture class="mr-0">
-                                    <source srcset="\assets\images\blogs\columns\vp-vs-rp\mobile\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" media="(max-width: 640px)">
-                                    <img src="\assets\images\blogs\columns\vp-vs-rp\desktop\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp" width="900" height="350" class="img-fluid" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester">
-                                </picture>
+                                <a class="mr-0" href="\assets\images\blogs\columns\vp-vs-rp\desktop\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp" title="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" data-fancybox="gallery" data-thumbnail-src="\assets\images\blogs\columns\vp-vs-rp\desktop\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp">
+                                    <picture>
+                                        <source srcset="\assets\images\blogs\columns\vp-vs-rp\mobile\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" media="(max-width: 640px)">
+                                        <img src="\assets\images\blogs\columns\vp-vs-rp\desktop\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp" width="900" height="350" class="img-fluid" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester">
+                                    </picture>
+                                </a>
                             </div>
                             <div class="img_block d-flex">
-                                <picture class="mr-0">
-                                    <source srcset="\assets\images\blogs\columns\vp-vs-rp\mobile\Global-Recycled-standard-100Recycled-Polyester-Thaipolyester.webp" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" media="(max-width: 640px)">
-                                    <img src="\assets\images\blogs\columns\vp-vs-rp\desktop\Global-Recycled-standard-100Recycled-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester">
-                                </picture>
-                            </div>
-                        </div>
-                        <div class="col-xs-4 col-sm-4 col-md-4 p-0">
-                            <div class="img_block d-flex">
-                                <picture>
-                                    <source srcset="\assets\images\blogs\columns\vp-vs-rp\mobile\Green-industry-Activty-Thaipolyester.webp" alt="Green industry Activty Thaipolyester" media="(max-width: 640px)">
-                                    <img src="\assets\images\blogs\columns\vp-vs-rp\desktop\Green-industry-Activty-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="Green industry Activty Thaipolyester">
-                                </picture>
+                                <a class="mr-0" href="\assets\images\blogs\columns\vp-vs-rp\desktop\Global-Recycled-standard-100Recycled-Polyester-Thaipolyester.webp" title="Global Recycled standard 100% Recycled Polyester Thaipolyester" data-fancybox="gallery" data-thumbnail-src="\assets\images\blogs\columns\vp-vs-rp\desktop\Global-Recycled-standard-100Recycled-Polyester-Thaipolyester.webp">
+                                    <picture>
+                                        <source srcset="\assets\images\blogs\columns\vp-vs-rp\mobile\Global-Recycled-standard-100Recycled-Polyester-Thaipolyester.webp" alt="Global Recycled standard 100% Recycled Polyester Thaipolyester" media="(max-width: 640px)">
+                                        <img src="\assets\images\blogs\columns\vp-vs-rp\desktop\Global-Recycled-standard-100Recycled-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="Global Recycled standard 100% Recycled Polyester Thaipolyester">
+                                    </picture>
+                                </a>
                             </div>
                         </div>
                         <div class="col-xs-4 col-sm-4 col-md-4 p-0">
                             <div class="img_block d-flex">
-                                <picture class="ml-0">
-                                    <source srcset="\assets\images\blogs\columns\vp-vs-rp\mobile\intertek-Certificate-of-Registration-thaipolyester.webp" alt="intertek Certificate of Registration thaipolyester" media="(max-width: 640px)">
-                                    <img src="\assets\images\blogs\columns\vp-vs-rp\desktop\intertek-Certificate-of-Registration-thaipolyester.webp" width="900" height="350" class="img-fluid" alt="intertek Certificate of Registration thaipolyester">
-                                </picture>
+                                <a href="\assets\images\blogs\columns\vp-vs-rp\desktop\Green-industry-Activty-Thaipolyester.webp" title="Green industry Activty Thaipolyester" data-fancybox="gallery" data-thumbnail-src="\assets\images\blogs\columns\vp-vs-rp\desktop\Green-industry-Activty-Thaipolyester.webp">
+                                    <picture>
+                                        <source srcset="\assets\images\blogs\columns\vp-vs-rp\mobile\Green-industry-Activty-Thaipolyester.webp" alt="Green industry Activty Thaipolyester" media="(max-width: 640px)">
+                                        <img src="\assets\images\blogs\columns\vp-vs-rp\desktop\Green-industry-Activty-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="Green industry Activty Thaipolyester">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 p-0">
+                            <div class="img_block d-flex">
+                                <a class="ml-0" href="\assets\images\blogs\columns\vp-vs-rp\desktop\intertek-Certificate-of-Registration-thaipolyester.webp" title="Green industry Activty Thaipolyester" data-fancybox="gallery" data-thumbnail-src="\assets\images\blogs\columns\vp-vs-rp\desktop\intertek-Certificate-of-Registration-thaipolyester.webp">
+                                    <picture>
+                                        <source srcset="\assets\images\blogs\columns\vp-vs-rp\mobile\intertek-Certificate-of-Registration-thaipolyester.webp" alt="intertek Certificate of Registration thaipolyester" media="(max-width: 640px)">
+                                        <img src="\assets\images\blogs\columns\vp-vs-rp\desktop\intertek-Certificate-of-Registration-thaipolyester.webp" width="900" height="350" class="img-fluid" alt="intertek Certificate of Registration thaipolyester">
+                                    </picture>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -223,4 +234,5 @@
     </div>
 @endsection
 @section('custom-script')
+<script src="/assets/custom/wp-content/plugins/radiantthemes-addons/assets/js/jquery.fancybox.min.js?v={{time()}}"></script>
 @endsection
