@@ -16,7 +16,7 @@
 
 <link rel="stylesheet"  href="/css/layout/nav.min.css" type="text/css" media="all">
 <link rel="stylesheet"  href="/css/layout/footer.min.css" type="text/css" media="all">
-<link rel="stylesheet"  href="/css/layout/template.css" type="text/css" media="all">
+<link rel="stylesheet"  href="/css/layout/template.min.css" type="text/css" media="all">
 <link rel="stylesheet" id="contact-tools-css" href="/css/layout/contact-tools.min.css" type="text/css" media="all">
 
 
