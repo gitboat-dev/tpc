@@ -129,6 +129,9 @@ body {
 #tpc .d-flex{
     display: flex !important;
 }
+#tpc .d-block{
+    display: block !important;
+}
 #tpc .d-inline{
     display: inline !important;
 }
@@ -140,6 +143,18 @@ body {
 }
 #tpc .pos-ab{
     position: absolute !important;
+}
+#tpc .top-0{
+    top: 0 !important;
+}
+#tpc .bottom-0{
+    bottom: 0 !important;
+}
+#tpc .left-0{
+    left: 0 !important;
+}
+#tpc .right-0{
+    right: 0 !important;
 }
 #tpc .w-100p{
     width: 100% !important;

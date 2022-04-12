@@ -33,6 +33,20 @@
 }
 /*-------------------------------------End Sec6-------------------------------------*/
 
+#sec7{
+    padding:  0 40px;
+}
+#sec7 .prod_name{
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px 0;
+    color: var(--msBgDark);
+}
+#sec7 .prod_name label{
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+/*-------------------------------------End Sec7-------------------------------------*/
+
 #sec8 .content_group{
     padding:  30px 40px 15px;
 }
@@ -83,6 +97,19 @@
     }
     /*-------------------------------------End Sec6-------------------------------------*/
 
+    #sec7{
+        padding:  0;
+    }
+    #sec7 .prod_name label{
+        font-size: 12.5px;
+        margin-bottom: 2.5px;
+    }
+    #sec7 .prod_name small{
+        font-size: 50%;
+        line-height: 130%;
+    }
+    /*-------------------------------------End Sec7-------------------------------------*/
+
     #sec8 .content_group{
         padding:  30px 20px;
     }
@@ -107,4 +134,10 @@
         width: 100% !important;
     }
     /*-------------------------------------End Sec10-------------------------------------*/
+}
+
+@media only screen and (min-width: 992px){
+    .row .col-md-1-5 {
+        width: 12.5% !important;
+    }
 }
