@@ -5,9 +5,12 @@ nav{
 nav .logo{
     margin-left: 50px;
 }
+nav .m-menu-block{
+    display: none;
+}
 nav .logo a{
     max-width:256px;
-    padding: 10px 5px;
+    padding: 10px 15px;
 }
 nav .topnav > ul li{
     display: inline;
@@ -26,6 +29,13 @@ nav .topnav > ul li a:hover{
 @media only screen and (max-width: 928px){
     nav .logo{
         margin-left: unset;
+        width: 100%;
+    }
+    nav .m-menu-block{
+        display: flex;
+    }
+    nav .m-menu-icon{
+        margin: auto 50px auto auto;
     }
     nav,nav .topnav > ul{
         flex-direction: column;
