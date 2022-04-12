@@ -123,6 +123,24 @@ body {
 #landing .pos-ab{
     position: absolute !important;
 }
+#landing .top-0{
+    top: 0 !important;
+}
+#landing .bottom-0{
+    bottom: 0 !important;
+}
+#landing .left-0{
+    left: 0 !important;
+}
+#landing .right-0{
+    right: 0 !important;
+}
+#landing .w-100p{
+    width: 100% !important;
+}
+#landing .h-100p{
+    height: 100% !important;
+}
 #landing .m-auto{
     margin: auto !important;
 }

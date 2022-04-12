@@ -1,0 +1,36 @@
+nav{
+    min-height: 76px;
+    align-items: center;
+}
+nav .logo{
+    margin-left: 50px;
+}
+nav .logo a{
+    max-width:256px;
+    padding: 10px 5px;
+}
+nav .topnav > ul li{
+    display: inline;
+    margin: auto;
+    padding: 0 15px;
+}
+nav .topnav > ul li a{
+    color: var(--msBgLight);
+    transition: all 0.2s;
+}
+nav .topnav > ul li a:hover{
+    color: var(--msBgDark);
+    transition: all 0.2s;
+}
+
+@media only screen and (max-width: 928px){
+    nav .logo{
+        margin-left: unset;
+    }
+    nav,nav .topnav > ul{
+        flex-direction: column;
+    }
+    nav .topnav > ul li{
+        padding: 5px 15px;
+    }
+}

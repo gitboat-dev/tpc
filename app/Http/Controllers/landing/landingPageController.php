@@ -30,7 +30,7 @@ class landingPageController extends Controller {
             'key' => "High-Quality Polyester Yarn and Fiber,Competitive price,Get FREE Sample",
             'chkmo' => $data['chkmobile'] = $agent->isMobile() ? $agent->isMobile() : ($agent->isTablet() ? $agent->isTablet() : false),
         ];
-        return view('landing.FinalLanding.Final',$data);
+        return view('landing.FinalLanding.Final_new',$data);
     }
     public function page3(){
         $chkie = new Func_controller;
