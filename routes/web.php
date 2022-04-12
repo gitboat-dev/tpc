@@ -329,19 +329,18 @@ Route::get('/thank-you', function () {
 Route::group(['prefix' => 'blog', 'as' => 'blog.'], function () {
 	Route::get('/', 'frontend\blog\blogController@index');
 	Route::get('/{slug}', 'frontend\blog\blogController@blog');
+	// Route::get('/circular-economy', function () {
+	// 	$chkie = new Func_controller;
+	// 	$agent = new Agent();
+	// 	$data['chkie'] = $chkie->chk();
+	// 	$data['des'] = 'we assure that our organization commits with environmental friendly sustainable operation and products. Our current priority is to take responsibility to sustain our planet focusing on recycling, reusing and reducing. We have used 100% recycled polyester';
+	// 	$data['key'] = 'recycling, recycle, recycled, Environmentally friendly products, 100% recycled polyester, ECOTPC';
+	// 	$data['title'] = 'Circular Economy | Thai Polyester CO., LTD';
+	// 	$data['active_news'] = 'activemenu';
+	// 	$data['chkmobile'] = $agent->isMobile() ? $agent->isMobile() : ($agent->isTablet() ? $agent->isTablet() : false);
+	// 	return view('blogs.circular-economy', $data);
+	// })->name('circular-economy');
 });
-
-Route::get('/virgin-polyester-vs-recycled-polyester', function () {
-    $chkie = new Func_controller;
-    $agent = new Agent();
-    $data['chkie'] = $chkie->chk();
-    $data['des'] = 'we assure that our organization commits with environmental friendly sustainable operation and products. Our current priority is to take responsibility to sustain our planet focusing on recycling, reusing and reducing. We have used 100% recycled polyester';
-    $data['key'] = 'recycling, recycle, recycled, Environmentally friendly products, 100% recycled polyester, ECOTPC';
-    $data['title'] = 'Virgin Polyester VS Recycled Polyester | Thai Polyester CO., LTD';
-    $data['active_news'] = 'activemenu';
-    $data['chkmobile'] = $agent->isMobile() ? $agent->isMobile() : ($agent->isTablet() ? $agent->isTablet() : false);
-    return view('blogs.virgin-polyester-vs-recycled-polyester', $data);
-})->name('virgin-polyester-vs-recycled-polyester');
 
 Route::group(['prefix' => 'product', 'as' => 'product.'], function () {
 	// Route::get('/polyester-staple-fiber', 'Products\PsfController@index')->name('psf');
