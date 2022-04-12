@@ -6,7 +6,7 @@
         <div class="m-menu-block pos-r w-100p">
             <div class="m-menu pos-ab d-flex h-100p w-100p right-0">
                 <div class="m-menu-icon">
-                    <div class="burger-menu">
+                    <div class="burger-menu" onclick="landing_menu(this);">
                         <div class="bar1"></div>
                         <div class="bar2"></div>
                         <div class="bar3"></div>

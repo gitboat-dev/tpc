@@ -23,4 +23,5 @@
     </div>
 @endsection
 @section('script')
+    <script src="\js\landing\Finallanding\main_new.js"></script>
 @endsection

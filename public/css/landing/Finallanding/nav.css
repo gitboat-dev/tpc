@@ -55,6 +55,9 @@ nav .topnav > ul li a:hover{
     nav .topnav > ul li{
         padding: 5px 15px;
     }
+    nav .burger-menu{
+        cursor: pointer;
+    }
     nav .burger-menu > .bar1,
     nav .burger-menu > .bar2,
     nav .burger-menu > .bar3{
