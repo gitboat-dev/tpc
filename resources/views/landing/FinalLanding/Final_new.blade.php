@@ -12,8 +12,8 @@
                     <div class="content_block pos-r">
                         <div class="img_block">
                             <picture>
-                                <source src="\assets\images\landing\Finallanding\logo_1.png" alt="Thai Poyester" media="(max-width: 640px)">
-                                <img src="\assets\images\landing\Finallanding\logo_1.png" alt="Thai Poyester" width="900" height="350" class="img-fluid">
+                                <source src="\assets\images\landing\Finallanding\v1_94-3.png" alt="Thai Poyester" media="(max-width: 640px)">
+                                <img src="\assets\images\landing\Finallanding\v1_94-3.png" alt="Thai Poyester" width="900" height="350" class="img-fluid">
                             </picture>
                         </div>
                     </div>
