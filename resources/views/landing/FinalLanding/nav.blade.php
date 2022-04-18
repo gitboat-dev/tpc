@@ -21,6 +21,14 @@
             <li><a href="#news">All Products</a></li>
             <li><a href="#about">About Us</a></li>
             <li><a href="#strength">Our Strength</a></li>
+            <li>
+                <a href="javascript:void(0)" class="lang">
+                    {{$d_lang}} <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    <ul class="lang-choice">
+                        <li><a href="{{$lang_url}}">{{$lang}}</a></li>
+                    </ul>
+                </a>
+            </li>
         </ul>
     </div>
 </nav>
