@@ -48,7 +48,7 @@ class landingPageController extends Controller {
             'lang' => 'EN',
             'lang_url' => '/EN/final',
         ];
-        return view('landing.page.page1',$data);
+        return view('landing.FinalLandingTh.Final',$data);
     }
     public function thank_you1(){
         $chkie = new Func_controller;
