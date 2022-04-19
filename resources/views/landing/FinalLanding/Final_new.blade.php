@@ -36,7 +36,7 @@
                             <p class="subheadform1 text-center">
                                 We are one of Thailand's largest yarn producers.
                             </p>
-                            <form id="contact-form" data-request="landing-page" autocomplete="off">
+                            <form id="contact-form1" data-request="landing-page" autocomplete="off">
                                 <div class="form-group col-xs-12 col-sm-6 col-md-6">
                                     <input type="text" class="form-control" name="name" id="name" placeholder="Name*">
                                     <span class="text-danger name mb-font12"></span>
@@ -57,8 +57,11 @@
                                     <input type="checkbox" value="">
                                     <label class="ml-0 fw-n">I hereby consent Thai Polyester limited company (TPC) to collect, use or disclose my given information for the company's promotion.</label>
                                 </div>
+                                <div class="col-xs-12 col-sm-12 col-md-12">
+                                    <div id="res" class="res"></div>
+                                </div>
                                 <div class="form-group col-xs-12 col-sm-12 col-md-12 d-flex">
-                                    <button type="submit" class="btn btn-regis m-auto">Register for free catalog</button>
+                                    <button id="submit-f1" type="submit" class="btn btn-regis m-auto">Register for free catalog</button>
                                 </div>
                             </form>
                         </div>
@@ -381,9 +384,9 @@
                 <h2 class="text-center h-title">Contact Us</h2>
                 <div class="row m-0">
                     <div class="col-xs-12 col-sm-12 col-md-12 p-0 d-flex pos-r">
-                        <form id="contact-form" data-request="landing-page" autocomplete="off" class="m-auto">
+                        <form id="contact-form2" data-request="landing-page" autocomplete="off" class="m-auto">
                             <div class="form-group col-xs-12 col-sm-6 col-md-6">
-                                <label for="name">First Name *</label>
+                                <label for="name">First Name <span style="color: #a94442;">*</span></label>
                                 <input type="text" class="w-100p" name="name" id="name">
                                 <span class="text-danger name mb-font12"></span>
                             </div>
@@ -393,17 +396,25 @@
                                 <span class="text-danger name mb-font12"></span>
                             </div>
                             <div class="form-group col-xs-12 col-sm-12 col-md-12">
-                                <label for="email">E-mail *</label>
+                                <label for="email">E-mail <span style="color: #a94442;">*</span></label>
                                 <input type="email" class="w-100p" name="email" id="email">
                                 <span class="text-danger email mb-font12"></span>
+                            </div>
+                            <div class="form-group col-xs-12 col-sm-12 col-md-12">
+                                <label for="phone">Tel <span style="color: #a94442;">*</span></label>
+                                <input type="email" class="w-100p" name="phone" id="phone">
+                                <span class="text-danger phone mb-font12"></span>
                             </div>
                             <div class="form-group col-xs-12 col-sm-12 col-md-12">
                                 <label for="message">Message</label>
                                 <textarea class="w-100p" name="message" id="message" rows="5"></textarea>
                                 <span class="text-danger message mb-font12"></span>
                             </div>
+                            <div class="col-xs-12 col-sm-12 col-md-12">
+                                <div id="res" class="res"></div>
+                            </div>
                             <div class="form-group col-xs-12 col-sm-12 col-md-12 d-flex">
-                                <button type="submit" class="btn btn-regis m-auto">Submit</button>
+                                <button id="submit-f2" type="submit" class="btn btn-regis m-auto">Submit</button>
                             </div>
                         </form>
                     </div>
