@@ -9,7 +9,7 @@
 @section('og-image','\assets\images\landing\page1\og-image\og-image.webp')
 @section('content')
     <div id="landing">
-        @include('landing.FinalLanding.nav')
+        @include('landing.FinalLandingTh.nav')
         <section id="sec1">
             <div class="row m-0">
                 <div class="col-xs-12 col-sm-12 col-md-12 p-0">
@@ -30,38 +30,37 @@
                     <div class="content_block pos-r d-flex">
                         <div class="content_group m-auto">
                             <h2 class="headform1 text-center">
-                                Thai Polyester limited company (TPC)
-                                - In the polyester industry, we are one of the best in Southeast Asia.
+                                บริษัท ไทยโพลีเอสเตอร์ จำกัด - บริษัทอันดับ 1 ของเอเชียตะวันออกเฉียงใต้ในอุตสาหกรรมโพลีเอสเตอร์
                             </h2>
                             <p class="subheadform1 text-center">
-                                We are one of Thailand's largest yarn producers.
+                                เราเป็นผู้ผลิตเส้นด้ายรายใหญ่ที่สุดของประเทศไทย
                             </p>
                             <form id="contact-form1" data-request="landing-page" autocomplete="off">
                                 <div class="form-group col-xs-12 col-sm-6 col-md-6">
-                                    <input type="text" class="form-control" name="name" id="name" placeholder="Name*">
+                                    <input type="text" class="form-control" name="name" id="name" placeholder="ชื่อ*">
                                     <span class="text-danger name mb-font12"></span>
                                 </div>
                                 <div class="form-group col-xs-12 col-sm-6 col-md-6">
-                                    <input type="text" class="form-control" name="lname" id="lname" placeholder="Lastname">
+                                    <input type="text" class="form-control" name="lname" id="lname" placeholder="นามสกุล">
                                     <span class="text-danger name mb-font12"></span>
                                 </div>
                                 <div class="form-group col-xs-12 col-sm-6 col-md-6">
-                                    <input type="text" class="form-control" name="phone" id="phone" placeholder="Tel*">
+                                    <input type="text" class="form-control" name="phone" id="phone" placeholder="เบอร์โทรศัพท์*">
                                     <span class="text-danger phone mb-font12"></span>
                                 </div>
                                 <div class="form-group col-xs-12 col-sm-6 col-md-6">
-                                    <input type="email" class="form-control" name="email" id="email" placeholder="E-mail*">
+                                    <input type="email" class="form-control" name="email" id="email" placeholder="อีเมล*">
                                     <span class="text-danger email mb-font12"></span>
                                 </div>
                                 <div class="form-group col-xs-12 col-sm-12 col-md-12 d-flex form-check">
                                     <input type="checkbox" value="">
-                                    <label class="ml-0 fw-n">I hereby consent Thai Polyester limited company (TPC) to collect, use or disclose my given information for the company's promotion.</label>
+                                    <label class="ml-0 fw-n">ข้าพเจ้ายินยอมให้บริษัท ไทยโพลีเอสเตอร์ จำกัด (TPC) เพื่อรวบรวมหรือเปิดเผยข้อมูลที่ข้าพเจ้ามอบให้เพื่อการส่งเสริมการขายของบริษัท</label>
                                 </div>
                                 <div class="col-xs-12 col-sm-12 col-md-12">
                                     <div id="res" class="res"></div>
                                 </div>
                                 <div class="form-group col-xs-12 col-sm-12 col-md-12 d-flex">
-                                    <button id="submit-f1" type="submit" class="btn btn-regis m-auto">Register for free catalog</button>
+                                    <button id="submit-f1" type="submit" class="btn btn-regis m-auto">ลงทะเบียนเพื่อรับแคตตาล็อกฟรี</button>
                                 </div>
                             </form>
                         </div>
@@ -72,33 +71,33 @@
         <section id="sec3">
             <div class="row m-0">
                 <div class="col-xs-12 col-sm-12 col-md-12 p-0">
-                    <h2 class="text-center h-title">why you have to choose us?</h2>
+                    <h2 class="text-center h-title">ทำไมคุณถึงต้องเลือกเรา?</h2>
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-3">
                     <div class="card">
-                        <h3 class="card-title">Good</h3>
-                        <p class="card-desc">High Quality</p>
+                        <h3 class="card-title">ดี</h3>
+                        <p class="card-desc">คุณภาพสูง</p>
                         <img src="\assets\images\landing\Finallanding\v1_02.png" alt="">
                     </div>
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-3">
                     <div class="card">
-                        <h3 class="card-title">New</h3>
-                        <p class="card-desc">New Technology</p>
+                        <h3 class="card-title">ใหม่</h3>
+                        <p class="card-desc">เทคโนโลยีใหม่<br>อัพเดตสินค้าใหม่ๆ</p>
                         <img src="\assets\images\landing\Finallanding\v1_04.png" alt="">
                     </div>
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-3">
                     <div class="card">
-                        <h3 class="card-title">Fast</h3>
-                        <p class="card-desc">Fast Support<br>Resposibility<br>Fast Transpotation</p>
+                        <h3 class="card-title">เร็ว</h3>
+                        <p class="card-desc">รวดเร็วในเรื่องการตอบลูกค้า<br>การขนส่งที่รวดเร็ว</p>
                         <img src="\assets\images\landing\Finallanding\v1_03.png" alt="">
                     </div>
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-3">
                     <div class="card">
-                        <h3 class="card-title">Exactly</h3>
-                        <p class="card-desc">Amount Quantity</p>
+                        <h3 class="card-title">แม่นยำ</h3>
+                        <p class="card-desc">จำนวน ปริมาณ<br>ถูกต้องและแม่นยำ</p>
                         <img src="\assets\images\landing\Finallanding\v1_01.png" alt="">
                     </div>
                 </div>
@@ -107,7 +106,7 @@
         <section id="sec4">
             <div class="row m-0">
                 <div class="col-xs-12 col-sm-12 col-md-12 p-0">
-                    <h2 class="text-center h-title">Products</h2>
+                    <h2 class="text-center h-title">สินค้า</h2>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-12 p-0">
                     <div class="container">
@@ -286,9 +285,9 @@
                         <img src="\assets\images\landing\Finallanding\v1_77.png">
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-7 col2">
-                        <h2 class="h-title">ABOUT US</h2>
-                        <h3 class="h-sub-title">Thai Polyester limited company (TPC) is recognized as a leading polyester yarn manufacturer in Thailand.</h3>
-                        <p>Quality - Innovation - Quick response - Competitive price.<br>To meet the needs of customers in various industries, the company has successfully provided a wide range of fiber and yarn products, including POY, FDY, DTY, staple fiber, and spun yarn in raw white, mélange, dope dyed, and yarn dyed.</p>
+                        <h2 class="h-title">เกี่ยวกับเรา</h2>
+                        <h3 class="h-sub-title">บริษัท ไทยโพลีเอสเตอร์ จำกัด (TPC) ได้รับการยอมรับว่าเป็นผู้ผลิตเส้นด้ายโพลีเอสเตอร์ชั้นนำของประเทศไทย</h3>
+                        <p>คุณภาพ - นวัตกรรม - การตอบสนองอย่างรวดเร็ว - ราคาที่ดีที่สุด<br>เพื่อตอบสนองความต้องการของลูกค้าในอุตสาหกรรมต่างๆ บริษัทประสบความสำเร็จในการจัดหาผลิตภัณฑ์เส้นใยและเส้นด้าย ซึ่งรวมถึง POY, FDY, DTY, staple fiber, and spun yarn in raw white, mélange, dope dyed, and yarn dyed.</p>
                     </div>
                 </div>
             </div>
@@ -297,33 +296,33 @@
             <div class="container">
                 <div class="row m-0">
                     <div class="col-xs-12 col-sm-12 col-md-6 col1">
-                        <h3 class="title-lists">Our Strength</h3>
+                        <h3 class="title-lists">จุดแข็งของเรา</h3>
                         <ul class="lists">
-                            <li>Reasonable Price</li>
-                            <li>Short Lead Time</li>
-                            <li>Trustworthy Supplier</li>
-                            <li>Large Capacity</li>
-                            <li>Wide Product Range</li>
+                            <li>ราคาสมเหตุสมผล</li>
+                            <li>การผลิตและการขนส่งรวดเร็ว</li>
+                            <li>เป็นซัพพลายเออร์ที่น่าเชื่อถือ</li>
+                            <li>กำลังการผลิตสูงถึง 350,000 ตัน/ปี</li>
+                            <li>มีสินค้าที่หลากหลาย</li>
                         </ul>
-                        <h3 class="title-lists">Why you should buy products and services from TPC?</h3>
+                        <h3 class="title-lists">ทำไมถึงควรซื้อสินค้าและบริการจาก TPC?</h3>
                         <ul class="lists">
-                            <li>On time</li>
-                            <li>Responsibility</li>
-                            <li>Prompt Service</li>
-                            <li>One Stop service</li>
-                            <li>Competitive Price</li>
-                            <li>Service Mind</li>
-                            <li>Experience over 80 Years</li>
-                            <li>German Technology</li>
-                            <li>Free consulation</li>
-                            <li>Free sample (5Kg-20Kg)</li>
+                            <li>ตรงเวลา</li>
+                            <li>มีความรับผิดชอบ</li>
+                            <li>บริการทันใจรวดเร็ว</li>
+                            <li>บริการแบบครบวงจร</li>
+                            <li>ราคาที่ดีที่สุด</li>
+                            <li>บริการด้วยใจ</li>
+                            <li>ประสบการณ์กว่า 80 ปี</li>
+                            <li>เทคโนโลยีเยอรมัน</li>
+                            <li>ปรึกษาฟรี</li>
+                            <li>ตัวอย่างฟรี (5Kg-20Kg)</li>
                         </ul>
-                        <h3 class="title-lists">What distinguishes us from our competitors?</h3>
+                        <h3 class="title-lists">อะไรที่ทำให้เราแตกต่างจากคู่แข่ง?</h3>
                         <ul class="lists">
-                            <li>Competitive Price</li>
+                            <li>ราคาที่ดีที่สุด</li>
                             <li>LNG(Green Factory in Process)</li>
-                            <li>We are one of the biggest yarn manufacturer in Thailand</li>
-                            <li>Global Brand Name Customer chose us</li>
+                            <li>เราเป็นผู้ผลิตเส้นด้ายรายใหญ่ที่สุดของประเทศไทย</li>
+                            <li>ลูกค้าจากทั่วโลกเลือกเรา</li>
                         </ul>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 d-flex pos-r col2">
@@ -337,19 +336,19 @@
                 <div class="slide">
                     <div class="owl-carousel owl-theme">
                         <div class="item text-center p-0">
-                            <h1 class="default">Testimonial</h1>
+                            <h1 class="default">รีวิวจากลูกค้า</h1>
                             <h2 class="default">"High technology German machine is one of my favourite"</h2>
                             <p>Mirza Md. Shahadat Hossain , Rubel</p>
                             <p>CEO Shazman Trade International</p>
                         </div>
                         <div class="item text-center p-0">
-                            <h1 class="default">Testimonial</h1>
+                            <h1 class="default">รีวิวจากลูกค้า</h1>
                             <h2 class="default">"High technology German machine is one of my favourite"</h2>
                             <p>Mirza Md. Shahadat Hossain , Rubel</p>
                             <p>CEO Shazman Trade International</p>
                         </div>
                         <div class="item text-center p-0">
-                            <h1 class="default">Testimonial</h1>
+                            <h1 class="default">รีวิวจากลูกค้า</h1>
                             <h2 class="default">"High technology German machine is one of my favourite"</h2>
                             <p>Mirza Md. Shahadat Hossain , Rubel</p>
                             <p>CEO Shazman Trade International</p>
@@ -360,7 +359,7 @@
         </section>
         <section id="sec8">
             <div class="container">
-                <h2 class="text-center">Certification</h2>
+                <h2 class="text-center">หนังสือรับรอง</h2>
                 <div class="slide">
                     <div class="owl-carousel owl-theme">
                         <div class="item text-center p-0">
@@ -381,32 +380,32 @@
         </section>
         <section id="sec9">
             <div class="container bg-green">
-                <h2 class="text-center h-title">Contact Us</h2>
+                <h2 class="text-center h-title">ติดต่อเรา</h2>
                 <div class="row m-0">
                     <div class="col-xs-12 col-sm-12 col-md-12 p-0 d-flex pos-r">
                         <form id="contact-form2" data-request="landing-page" autocomplete="off" class="m-auto">
                             <div class="form-group col-xs-12 col-sm-6 col-md-6">
-                                <label for="name">First Name <span style="color: #a94442;">*</span></label>
+                                <label for="name">ชื่อ <span style="color: #a94442;">*</span></label>
                                 <input type="text" class="w-100p" name="name" id="name">
                                 <span class="text-danger name mb-font12"></span>
                             </div>
                             <div class="form-group col-xs-12 col-sm-6 col-md-6">
-                                <label for="lname">Last Name</label>
+                                <label for="lname">นามสกุล</label>
                                 <input type="text" class="w-100p" name="lname" id="lname">
                                 <span class="text-danger name mb-font12"></span>
                             </div>
                             <div class="form-group col-xs-12 col-sm-12 col-md-12">
-                                <label for="email">E-mail <span style="color: #a94442;">*</span></label>
+                                <label for="email">อีเมล <span style="color: #a94442;">*</span></label>
                                 <input type="email" class="w-100p" name="email" id="email">
                                 <span class="text-danger email mb-font12"></span>
                             </div>
                             <div class="form-group col-xs-12 col-sm-12 col-md-12">
-                                <label for="phone">Tel <span style="color: #a94442;">*</span></label>
+                                <label for="phone">เบอร์โทรศัพท์ <span style="color: #a94442;">*</span></label>
                                 <input type="email" class="w-100p" name="phone" id="phone">
                                 <span class="text-danger phone mb-font12"></span>
                             </div>
                             <div class="form-group col-xs-12 col-sm-12 col-md-12">
-                                <label for="message">Message</label>
+                                <label for="message">ข้อมูลเพิ่มเติม</label>
                                 <textarea class="w-100p" name="message" id="message" rows="5"></textarea>
                                 <span class="text-danger message mb-font12"></span>
                             </div>
@@ -414,14 +413,14 @@
                                 <div id="res" class="res"></div>
                             </div>
                             <div class="form-group col-xs-12 col-sm-12 col-md-12 d-flex">
-                                <button id="submit-f2" type="submit" class="btn btn-regis m-auto">Submit</button>
+                                <button id="submit-f2" type="submit" class="btn btn-regis m-auto">ส่งข้อมูล</button>
                             </div>
                         </form>
                     </div>
                 </div>
             </div>
         </section>
-        @include('landing.FinalLanding.footer')
+        @include('landing.FinalLandingTh.footer')
     </div>
 @endsection
 @section('script')

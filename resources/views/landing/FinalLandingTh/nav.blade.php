@@ -17,10 +17,10 @@
     </div>
     <div class="topnav pos-r d-flex">
         <ul class="d-flex">
-            <li><a href="#sec3" class="active">Why you have to choose us?</a></li>
-            <li><a href="#sec4">All Products</a></li>
-            <li><a href="#sec5">About Us</a></li>
-            <li><a href="#sec6">Our Strength</a></li>
+            <li><a href="#sec3" class="active">ทำไมคุณถึงต้องเลือกเรา?</a></li>
+            <li><a href="#sec4">สินค้าทั้งหมด</a></li>
+            <li><a href="#sec5">เกี่ยวกับเรา</a></li>
+            <li><a href="#sec6">จุดแข็งของเรา</a></li>
             <li class="lang pos-r">
                 {{$d_lang}} <i class="fa fa-angle-down" aria-hidden="true"></i>
                 <ul class="lang-choice">

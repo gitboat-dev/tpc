@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row m-0">
             <div class="col-xs-12 col-sm-12 col-md-4 p-0">
-                <h3 class="f-title">Our Services</h3>
+                <h3 class="f-title">สินค้าทั้งหมด</h3>
                 <h3 class="f-title">Polyester Product</h3>
                 <ul class="lists">
                     <li><a href="#">Polyester Staple Fiber (PSF)</a></li>
@@ -23,7 +23,7 @@
                     <li><a href="#">Recycled Polyester Filament Yarn<br>(POY, FDY, DTY)</a></li>
                     <li><a href="#">Recycled Polyester Spun Yarn</a></li>
                 </ul><br>
-                <h3 class="f-title">Contact Us</h3>
+                <h3 class="f-title">ติดต่อเรา</h3>
                 <ul class="lists">
                     <li>470 Bangkuntien-Chaitalay Rd.,<br>Samaedum, Bangkuntien, Bangkok<br>10150 Thailand</li>
                     <li><a href="#">+66 34 852371 to 2</a></li>
@@ -31,9 +31,9 @@
                 </ul>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-4 p-0">
-                <h3 class="f-title">Thai Polyester limited company (TPC)</h3>
+                <h3 class="f-title">บริษัท ไทยโพลีเอสเตอร์ จำกัด</h3>
                 <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
-                <h3 class="f-title">Tel.</h3>
+                <h3 class="f-title">โทร</h3>
                 <div class="f-tel">
                     <a href="#">+66 34 852371 to 2</a>
                 </div>
