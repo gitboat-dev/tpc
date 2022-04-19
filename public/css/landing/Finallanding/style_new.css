@@ -1,6 +1,20 @@
 :root{
     --mh-sec3-card:420px;
 }
+.owl-carousel .owl-dots{
+    text-align: center;
+    padding: 10px 0;
+}
+.owl-carousel button.owl-dot{
+    background: var(--msBg) !important;
+    width: 15px;
+    height: 15px;
+    margin: 0 5px;
+    border-radius: 50%;
+}
+.owl-carousel button.owl-dot.active{
+    background: #555 !important;
+}
 
 /* end config */
 
@@ -227,6 +241,43 @@
 
 /* end sec6 */
 
+#sec7{
+    background-color: #d9f0e3;
+}
+#sec7 .slide{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#sec7 .slide .owl-nav{
+    font-size: 85px;
+    font-weight: bold;
+    color: var(--msBg);
+}
+#sec7 .slide .owl-nav > .owl-prev{
+    position: absolute;
+    left: 0;
+    top: calc(50% - 40px);
+    transition: all 0.2s;
+}
+#sec7 .slide .owl-nav > .owl-prev:hover{
+    text-shadow: -5px 1px 3px var(--msBgDark);
+    top: calc(50% - 45px);
+    transition: all 0.2s;
+}
+#sec7 .slide .owl-nav > .owl-next{
+    position: absolute;
+    right: 0;
+    top: calc(50% - 40px);
+    transition: all 0.2s;
+}
+#sec7 .slide .owl-nav > .owl-next:hover{
+    text-shadow: 5px 1px 3px var(--msBgDark);
+    top: calc(50% - 45px);
+    transition: all 0.2s;
+}
+
+/* end sec7 */
+
 @media only screen and (max-width: 991px){
     #sec5 .container-fluid{
         padding-right: unset;
@@ -305,4 +356,10 @@
     }
 
     /* end sec6 */
+
+    #sec7 .slide .owl-nav{
+        font-size: 42.5px;
+    }
+
+    /* end sec7 */
 }

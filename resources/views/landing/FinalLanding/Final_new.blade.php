@@ -2,6 +2,7 @@
 @section('style')
 <link rel="preload stylesheet" href="\css\landing\Finallanding\nav.css?v={{time()}}" as="style" crossorigin>
 <link rel="preload stylesheet" href="\css\landing\Finallanding\style_new.css?v={{time()}}" as="style" crossorigin>
+<link rel="preload stylesheet"  href="\lib\owlcarousel\assets\owl.carousel.min.css" as="style" crossorigin>
 @endsection
 @section('og-image','\assets\images\landing\page1\og-image\og-image.webp')
 @section('content')
@@ -327,10 +328,35 @@
             </div>
         </section>
         <section id="sec7">
-
+            <div class="container-fluid">
+                <div class="slide">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item text-center p-0">
+                            <h1 class="default">Testimonial 1</h1>
+                            <h2 class="default">"High technology German machine is one of my favourite"</h2>
+                            <p>Mirza Md. Shahadat Hossain , Rubel</p>
+                            <p>CEO Shazman Trade International</p>
+                        </div>
+                        <div class="item text-center p-0">
+                            <h1 class="default">Testimonial 2</h1>
+                            <h2 class="default">"High technology German machine is one of my favourite"</h2>
+                            <p>Mirza Md. Shahadat Hossain , Rubel</p>
+                            <p>CEO Shazman Trade International</p>
+                        </div>
+                        <div class="item text-center p-0">
+                            <h1 class="default">Testimonial 3</h1>
+                            <h2 class="default">"High technology German machine is one of my favourite"</h2>
+                            <p>Mirza Md. Shahadat Hossain , Rubel</p>
+                            <p>CEO Shazman Trade International</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </div>
 @endsection
 @section('script')
     <script src="\js\landing\Finallanding\main_new.js"></script>
+    <script src="\lib\jquery-on-scrolled-to\on-scrolled-to.min.js"></script>
+    <script src="\lib\owlcarousel\owl.carousel.min.js"></script>
 @endsection
