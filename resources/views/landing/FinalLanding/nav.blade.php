@@ -1,4 +1,4 @@
-<nav class="pos-r d-flex bg-green">
+<nav id="header" class="pos-r d-flex bg-green">
     <div class="logo pos-r d-flex">
         <a href="#home">
             <img src="\assets\images\landing\Finallanding\logo_1.png" alt="Thai Poyester">
@@ -17,10 +17,10 @@
     </div>
     <div class="topnav pos-r d-flex">
         <ul class="d-flex">
-            <li><a href="#present1" class="active">Why you have to choose us?</a></li>
-            <li><a href="#news">All Products</a></li>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#strength">Our Strength</a></li>
+            <li><a href="#sec3" class="active">Why you have to choose us?</a></li>
+            <li><a href="#sec4">All Products</a></li>
+            <li><a href="#sec5">About Us</a></li>
+            <li><a href="#sec6">Our Strength</a></li>
             <li class="lang pos-r">
                 {{$d_lang}} <i class="fa fa-angle-down" aria-hidden="true"></i>
                 <ul class="lang-choice">

@@ -1,4 +1,10 @@
 $(function(){
+    $('#header .topnav li').on('click', 'a[href^="#"]', function (event) {
+    	event.preventDefault();
+        $('html, body').animate({
+            scrollTop: $($.attr(this, 'href')).offset().top,
+        }, 500);
+	});
     $('#sec7').onScrolledTo(0,function(){
         slide_sec7();
 	});
