@@ -137,6 +137,10 @@
     position: relative;
     margin: 50px 0;
 }
+#sec3 .card img{
+    margin-bottom: 20px;
+}
+
 
 /* end sec3 */
 
@@ -278,6 +282,72 @@
 
 /* end sec7 */
 
+#sec8{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#sec8 .slide{
+    padding-top: 25px;
+}
+#sec8 .slide .owl-carousel .item img{
+    width: 65%;
+}
+
+/* end sec8 */
+
+#sec9{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#sec9 .h-title{
+    color: var(--msBgDark);
+    margin-bottom: 50px;
+}
+#sec9 .container{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#sec9 form{
+    max-width: 50%;
+}
+#sec9 form label{
+    color: var(--msBgDark);
+    font-weight: normal;
+}
+#sec9 form input,
+#sec9 form textarea {
+    background-color: transparent;
+    border-top: 2px solid var(--msBg);
+    border-left: 2px solid var(--msBg);
+    border-right: 2px solid var(--msBg);
+    border-bottom: 2px solid var(--msBgDark);
+    color: var(--msBgDark);
+    font-size: 16px;
+    line-height: 20px;
+}
+#sec9 form .btn-regis{
+    width: 100%;
+    max-width: 50%;
+    /* padding: 20px 20px; */
+    font-weight: 600 !important;
+    background-color: #e4b68c;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    transition: all 0.2s;
+}
+#sec9 form .btn-regis:hover{
+    background-color: var(--msBgDark);
+    color: var(--msBgLight);
+    transition: all 0.2s;
+}
+
+/* end sec9 */
+
 @media only screen and (max-width: 991px){
     #sec5 .container-fluid{
         padding-right: unset;
@@ -316,7 +386,10 @@
     }
     #sec3 .card .card-desc{
         font-size: 16px;
-        margin: 25px 0 0;
+        margin: 25px 0 25px;
+    }
+    #sec3 .card img{
+        margin-bottom: 10px;
     }
 
     /* end sec3 */
@@ -362,4 +435,13 @@
     }
 
     /* end sec7 */
+
+    #sec9 form{
+        max-width: 100%;
+    }
+    #sec9 form .btn-regis{
+        max-width: 100%;
+    }
+
+    /* end sec9 */
 }
