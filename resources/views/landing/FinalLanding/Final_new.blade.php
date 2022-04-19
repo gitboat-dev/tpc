@@ -1,6 +1,8 @@
 @extends('landing.template')
 @section('style')
+<link rel="preload stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
 <link rel="preload stylesheet" href="\css\landing\Finallanding\nav.css?v={{time()}}" as="style" crossorigin>
+<link rel="preload stylesheet" href="\css\landing\Finallanding\footer.css?v={{time()}}" as="style" crossorigin>
 <link rel="preload stylesheet" href="\css\landing\Finallanding\style_new.css?v={{time()}}" as="style" crossorigin>
 <link rel="preload stylesheet"  href="\lib\owlcarousel\assets\owl.carousel.min.css" as="style" crossorigin>
 @endsection
@@ -408,6 +410,7 @@
                 </div>
             </div>
         </section>
+        @include('landing.FinalLanding.footer')
     </div>
 @endsection
 @section('script')
