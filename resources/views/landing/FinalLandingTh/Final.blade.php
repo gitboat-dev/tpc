@@ -77,28 +77,28 @@
                     <div class="card">
                         <h3 class="card-title">ดี</h3>
                         <p class="card-desc">คุณภาพสูง</p>
-                        <img src="\assets\images\landing\Finallanding\v1_02.png" alt="">
+                        <img src="\assets\images\landing\Finallanding\v1_02.png" alt="คุณภาพสูง" loading="lazy">
                     </div>
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-3">
                     <div class="card">
                         <h3 class="card-title">ใหม่</h3>
                         <p class="card-desc">เทคโนโลยีใหม่<br>อัพเดตสินค้าใหม่ๆ</p>
-                        <img src="\assets\images\landing\Finallanding\v1_04.png" alt="">
+                        <img src="\assets\images\landing\Finallanding\v1_04.png" alt="เทคโนโลยีใหม่ อัพเดตสินค้าใหม่ๆ" loading="lazy">
                     </div>
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-3">
                     <div class="card">
                         <h3 class="card-title">เร็ว</h3>
                         <p class="card-desc">รวดเร็วในเรื่องการตอบลูกค้า<br>การขนส่งที่รวดเร็ว</p>
-                        <img src="\assets\images\landing\Finallanding\v1_03.png" alt="">
+                        <img src="\assets\images\landing\Finallanding\v1_03.png" alt="รวดเร็วในเรื่องการตอบลูกค้า การขนส่งที่รวดเร็ว" loading="lazy">
                     </div>
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-3">
                     <div class="card">
                         <h3 class="card-title">แม่นยำ</h3>
                         <p class="card-desc">จำนวน ปริมาณ<br>ถูกต้องและแม่นยำ</p>
-                        <img src="\assets\images\landing\Finallanding\v1_01.png" alt="">
+                        <img src="\assets\images\landing\Finallanding\v1_01.png" alt="จำนวน ปริมาณ ถูกต้องและแม่นยำ" loading="lazy">
                     </div>
                 </div>
             </div>
@@ -155,121 +155,121 @@
                             <div id="tab-1" class="tab-pane active" style="overflow-x:auto;">
                                 <div class="row m-0">
                                     <div class="col-xs-6 col-sm-4 col-md-4 p-0">
-                                        <img src="\assets\images\landing\Finallanding\001" alt="monofilament">
+                                        <img src="\assets\images\landing\Finallanding\001" alt="monofilament" loading="lazy">
                                     </div>
                                     <div class="col-xs-6 col-sm-4 col-md-4 p-0">
-                                        <img src="\assets\images\landing\Finallanding\002.png" alt="dope dyed">
+                                        <img src="\assets\images\landing\Finallanding\002.png" alt="dope dyed" loading="lazy">
                                     </div>
                                     <div class="col-xs-6 col-sm-4 col-md-4 p-0">
-                                        <img src="\assets\images\landing\Finallanding\003.png" alt="dty">
+                                        <img src="\assets\images\landing\Finallanding\003.png" alt="dty" loading="lazy">
                                     </div>
                                     <div class="col-xs-6 col-sm-4 col-md-4 p-0">
-                                        <img src="\assets\images\landing\Finallanding\004.png" alt="twisted">
+                                        <img src="\assets\images\landing\Finallanding\004.png" alt="twisted" loading="lazy">
                                     </div>
                                     <div class="col-xs-6 col-sm-4 col-md-4 p-0">
-                                        <img src="\assets\images\landing\Finallanding\005.png" alt="spun yarn">
+                                        <img src="\assets\images\landing\Finallanding\005.png" alt="spun yarn" loading="lazy">
                                     </div>
                                     <div class="col-xs-6 col-sm-4 col-md-4 p-0">
-                                        <img src="\assets\images\landing\Finallanding\006.png" alt="psf">
+                                        <img src="\assets\images\landing\Finallanding\006.png" alt="psf" loading="lazy">
                                     </div>
                                     <div class="col-xs-6 col-sm-4 col-md-4 p-0">
-                                        <img src="\assets\images\landing\Finallanding\007.png" alt="filament">
+                                        <img src="\assets\images\landing\Finallanding\007.png" alt="filament" loading="lazy">
                                     </div>
                                     <div class="col-xs-6 col-sm-4 col-md-4 p-0">
-                                        <img src="\assets\images\landing\Finallanding\008.png" alt="fdy">
+                                        <img src="\assets\images\landing\Finallanding\008.png" alt="fdy" loading="lazy">
                                     </div>
                                     <div class="col-xs-6 col-sm-4 col-md-4 p-0">
-                                        <img src="\assets\images\landing\Finallanding\009.png" alt="poy">
+                                        <img src="\assets\images\landing\Finallanding\009.png" alt="poy" loading="lazy">
                                     </div>
                                 </div>
                             </div>
                             <div id="tab-2" class="tab-pane" style="overflow-x:auto;">
                                 <div class="row m-0">
                                     <div class="col-xs-6 col-sm-4 col-md-4 p-0">
-                                        <img src="\assets\images\landing\Finallanding\006.png" alt="psf">
+                                        <img src="\assets\images\landing\Finallanding\006.png" alt="psf" loading="lazy">
                                     </div>
                                 </div>
                             </div>
                             <div id="tab-3" class="tab-pane" style="overflow-x:auto;">
                                 <div class="row m-0">
                                     <div class="col-xs-6 col-sm-4 col-md-4 p-0">
-                                        <img src="\assets\images\landing\Finallanding\007.png" alt="filament">
+                                        <img src="\assets\images\landing\Finallanding\007.png" alt="filament" loading="lazy">
                                     </div>
                                 </div>
                             </div>
                             <div id="tab-4" class="tab-pane" style="overflow-x:auto;">
                                 <div class="row m-0">
                                     <div class="col-xs-6 col-sm-4 col-md-4 p-0">
-                                        <img src="\assets\images\landing\Finallanding\009.png" alt="poy">
+                                        <img src="\assets\images\landing\Finallanding\009.png" alt="poy" loading="lazy">
                                     </div>
                                 </div>
                             </div>
                             <div id="tab-5" class="tab-pane" style="overflow-x:auto;">
                                 <div class="row m-0">
                                     <div class="col-xs-6 col-sm-4 col-md-4 p-0">
-                                        <img src="\assets\images\landing\Finallanding\008.png" alt="fdy">
+                                        <img src="\assets\images\landing\Finallanding\008.png" alt="fdy" loading="lazy">
                                     </div>
                                 </div>
                             </div>
                             <div id="tab-6" class="tab-pane" style="overflow-x:auto;">
                                 <div class="row m-0">
                                     <div class="col-xs-6 col-sm-4 col-md-4 p-0">
-                                        <img src="\assets\images\landing\Finallanding\003.png" alt="dty">
+                                        <img src="\assets\images\landing\Finallanding\003.png" alt="dty" loading="lazy">
                                     </div>
                                 </div>
                             </div>
                             <div id="tab-7" class="tab-pane" style="overflow-x:auto;">
                                 <div class="row m-0">
                                     <div class="col-xs-6 col-sm-4 col-md-4 p-0">
-                                        <img src="\assets\images\landing\Finallanding\004.png" alt="twisted">
+                                        <img src="\assets\images\landing\Finallanding\004.png" alt="twisted" loading="lazy">
                                     </div>
                                 </div>
                             </div>
                             <div id="tab-8" class="tab-pane" style="overflow-x:auto;">
                                 <div class="row m-0">
                                     <div class="col-xs-6 col-sm-4 col-md-4 p-0">
-                                        <img src="\assets\images\landing\Finallanding\001" alt="monofilament">
+                                        <img src="\assets\images\landing\Finallanding\001" alt="monofilament" loading="lazy">
                                     </div>
                                 </div>
                             </div>
                             <div id="tab-9" class="tab-pane" style="overflow-x:auto;">
                                 <div class="row m-0">
                                     <div class="col-xs-6 col-sm-4 col-md-4 p-0">
-                                        <img src="\assets\images\landing\Finallanding\002.png" alt="dope dyed">
+                                        <img src="\assets\images\landing\Finallanding\002.png" alt="dope dyed" loading="lazy">
                                     </div>
                                 </div>
                             </div>
                             <div id="tab-10" class="tab-pane" style="overflow-x:auto;">
                                 <div class="row m-0">
                                     <div class="col-xs-6 col-sm-4 col-md-4 p-0">
-                                        <img src="\assets\images\landing\Finallanding\005.png" alt="spun yarn">
+                                        <img src="\assets\images\landing\Finallanding\005.png" alt="spun yarn" loading="lazy">
                                     </div>
                                 </div>
                             </div>
                             <div id="tab-11" class="tab-pane" style="overflow-x:auto;">
                                 <div class="row m-0">
                                     <div class="col-xs-6 col-sm-4 col-md-4 p-0">
-                                        <img src="\assets\images\landing\Finallanding\001" alt="monofilament">
+                                        <img src="\assets\images\landing\Finallanding\001" alt="monofilament" loading="lazy">
                                     </div>
                                 </div>
                             </div>
                             <div id="tab-12" class="tab-pane" style="overflow-x:auto;">
                                 <div class="row m-0">
                                     <div class="col-xs-6 col-sm-4 col-md-4 p-0">
-                                        <img src="\assets\images\landing\Finallanding\003.png" alt="dty">
+                                        <img src="\assets\images\landing\Finallanding\003.png" alt="dty" loading="lazy">
                                     </div>
                                     <div class="col-xs-6 col-sm-4 col-md-4 p-0">
-                                        <img src="\assets\images\landing\Finallanding\008.png" alt="fdy">
+                                        <img src="\assets\images\landing\Finallanding\008.png" alt="fdy" loading="lazy">
                                     </div>
                                     <div class="col-xs-6 col-sm-4 col-md-4 p-0">
-                                        <img src="\assets\images\landing\Finallanding\009.png" alt="poy">
+                                        <img src="\assets\images\landing\Finallanding\009.png" alt="poy" loading="lazy">
                                     </div>
                                 </div>
                             </div>
                             <div id="tab-13" class="tab-pane" style="overflow-x:auto;">
                                 <div class="row m-0">
                                     <div class="col-xs-6 col-sm-4 col-md-4 p-0">
-                                        <img src="\assets\images\landing\Finallanding\005.png" alt="spun yarn">
+                                        <img src="\assets\images\landing\Finallanding\005.png" alt="spun yarn" loading="lazy">
                                     </div>
                                 </div>
                             </div>
@@ -282,7 +282,7 @@
             <div class="container-fluid">
                 <div class="row m-0">
                     <div class="col-xs-12 col-sm-12 col-md-5 col1">
-                        <img src="\assets\images\landing\Finallanding\v1_77.png">
+                        <img src="\assets\images\landing\Finallanding\v1_77.png" loading="lazy">
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-7 col2">
                         <h2 class="h-title">เกี่ยวกับเรา</h2>
@@ -326,7 +326,7 @@
                         </ul>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 d-flex pos-r col2">
-                        <img src="\assets\images\landing\Finallanding\v1_93.png" class="m-auto">
+                        <img src="\assets\images\landing\Finallanding\v1_93.png" class="m-auto" loading="lazy">
                     </div>
                 </div>
             </div>
