@@ -276,16 +276,58 @@
         <section id="sec5">
             <div class="container-fluid">
                 <div class="row m-0">
-                    <div class="col-xs-12 col-sm-5 col-md-5 col1">
+                    <div class="col-xs-12 col-sm-12 col-md-5 col1">
                         <img src="\assets\images\landing\Finallanding\v1_77.png">
                     </div>
-                    <div class="col-xs-12 col-sm-7 col-md-7 col2">
+                    <div class="col-xs-12 col-sm-12 col-md-7 col2">
                         <h2 class="h-title">ABOUT US</h2>
                         <h3 class="h-sub-title">Thai Polyester limited company (TPC) is recognized as a leading polyester yarn manufacturer in Thailand.</h3>
                         <p>Quality - Innovation - Quick response - Competitive price.<br>To meet the needs of customers in various industries, the company has successfully provided a wide range of fiber and yarn products, including POY, FDY, DTY, staple fiber, and spun yarn in raw white, mélange, dope dyed, and yarn dyed.</p>
                     </div>
                 </div>
             </div>
+        </section>
+        <section id="sec6" class="pos-r">
+            <div class="container">
+                <div class="row m-0">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col1">
+                        <h3 class="title-lists">Our Strength</h3>
+                        <ul class="lists">
+                            <li>Reasonable Price</li>
+                            <li>Short Lead Time</li>
+                            <li>Trustworthy Supplier</li>
+                            <li>Large Capacity</li>
+                            <li>Wide Product Range</li>
+                        </ul>
+                        <h3 class="title-lists">Why you should buy products and services from TPC?</h3>
+                        <ul class="lists">
+                            <li>On time</li>
+                            <li>Responsibility</li>
+                            <li>Prompt Service</li>
+                            <li>One Stop service</li>
+                            <li>Competitive Price</li>
+                            <li>Service Mind</li>
+                            <li>Experience over 80 Years</li>
+                            <li>German Technology</li>
+                            <li>Free consulation</li>
+                            <li>Free sample (5Kg-20Kg)</li>
+                        </ul>
+                        <h3 class="title-lists">What distinguishes us from our competitors?</h3>
+                        <ul class="lists">
+                            <li>Competitive Price</li>
+                            <li>LNG(Green Factory in Process)</li>
+                            <li>We are one of the biggest yarn manufacturer in Thailand</li>
+                            <li>Global Brand Name Customer chose us</li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 d-flex pos-r col2">
+                        <img src="\assets\images\landing\Finallanding\v1_93.png" class="m-auto">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="sec7">
+
         </section>
     </div>
 @endsection
