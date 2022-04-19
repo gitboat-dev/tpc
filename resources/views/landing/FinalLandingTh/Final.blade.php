@@ -53,7 +53,7 @@
                                     <span class="text-danger email mb-font12"></span>
                                 </div>
                                 <div class="form-group col-xs-12 col-sm-12 col-md-12 d-flex form-check">
-                                    <input type="checkbox" value="">
+                                    <input type="checkbox" id="privacy">
                                     <label class="ml-0 fw-n">ข้าพเจ้ายินยอมให้บริษัท ไทยโพลีเอสเตอร์ จำกัด (TPC) เพื่อรวบรวมหรือเปิดเผยข้อมูลที่ข้าพเจ้ามอบให้เพื่อการส่งเสริมการขายของบริษัท</label>
                                 </div>
                                 <div class="col-xs-12 col-sm-12 col-md-12">

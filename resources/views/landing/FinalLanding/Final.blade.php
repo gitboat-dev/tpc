@@ -54,7 +54,7 @@
                                     <span class="text-danger email mb-font12"></span>
                                 </div>
                                 <div class="form-group col-xs-12 col-sm-12 col-md-12 d-flex form-check">
-                                    <input type="checkbox" value="">
+                                    <input type="checkbox" id="privacy">
                                     <label class="ml-0 fw-n">I hereby consent Thai Polyester limited company (TPC) to collect, use or disclose my given information for the company's promotion.</label>
                                 </div>
                                 <div class="col-xs-12 col-sm-12 col-md-12">

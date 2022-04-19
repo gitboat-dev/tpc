@@ -22,6 +22,7 @@ $(function(){
 	    	btn = $(this),
 	    	token = inqHex(inqRandom()),
     		v = cForm(f);
+            console.log(v);
 		if(checkData(f).success){
 			$.ajax({
                 type: "get",
@@ -74,6 +75,7 @@ $(function(){
 	    	btn = $(this),
 	    	token = inqHex(inqRandom()),
     		v = cForm(f);
+            console.log(v);
 		if(checkData(f).success){
 			$.ajax({
                 type: "get",
@@ -234,15 +236,20 @@ function inqenc(c, t) {
     return enTree(r);
 }
 function cForm(f){
-    let name = jQuery.trim(f.find('#name').val());
+    let name = jQuery.trim(f.find('#name').val()),
+        privacy = "";
     if(f.find('#lname').val() != ""){
         name = name +" "+ jQuery.trim(f.find('#lname').val());
     }
+    if(f.find('#privacy').is(':checked')){
+        privacy = "accept";
+    }
 	return {
-		"name":name,
+		"name":jQuery.trim(name),
 		"email":jQuery.trim(f.find('#email').val()),
 		// "company":jQuery.trim(f.find('#company').val()),
 		"phone":jQuery.trim(f.find('#phone').val()),
 		"message":jQuery.trim(f.find('#message').val()),
+        "privacy":jQuery.trim(privacy),
 	}
 }
