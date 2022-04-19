@@ -3,7 +3,7 @@
 <link rel="preload stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
 <link rel="preload stylesheet" href="\css\landing\Finallanding\nav.css?v={{time()}}" as="style" crossorigin>
 <link rel="preload stylesheet" href="\css\landing\Finallanding\footer.css?v={{time()}}" as="style" crossorigin>
-<link rel="preload stylesheet" href="\css\landing\Finallanding\style_new.css?v={{time()}}" as="style" crossorigin>
+<link rel="preload stylesheet" href="\css\landing\Finallanding\style.css?v={{time()}}" as="style" crossorigin>
 <link rel="preload stylesheet"  href="\lib\owlcarousel\assets\owl.carousel.min.css" as="style" crossorigin>
 @endsection
 @section('og-image','\assets\images\landing\page1\og-image\og-image.webp')
@@ -424,7 +424,7 @@
     </div>
 @endsection
 @section('script')
-    <script src="\js\landing\Finallanding\main_new.js"></script>
+    <script src="\js\landing\Finallanding\main.js"></script>
     <script src="\lib\jquery-on-scrolled-to\on-scrolled-to.min.js"></script>
     <script src="\lib\owlcarousel\owl.carousel.min.js"></script>
 @endsection
