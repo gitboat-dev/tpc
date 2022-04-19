@@ -46,7 +46,7 @@ class landingPageController extends Controller {
             'chkmo' => $data['chkmobile'] = $agent->isMobile() ? $agent->isMobile() : ($agent->isTablet() ? $agent->isTablet() : false),
             'd_lang' => 'TH',
             'lang' => 'EN',
-            'lang_url' => '/EN/final',
+            'lang_url' => '/en/final',
         ];
         return view('landing.FinalLandingTh.Final',$data);
     }
