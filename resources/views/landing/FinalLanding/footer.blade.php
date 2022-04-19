@@ -32,7 +32,12 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-4 p-0">
                 <h3 class="f-title">Thai Polyester limited company (TPC)</h3>
-                <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+                <div class="col item social">
+                    <a href="#"><i class="icon ion-social-facebook"></i></a>
+                    {{-- <a href="#"><i class="icon ion-social-twitter"></i></a> --}}
+                    {{-- <a href="#"><i class="icon ion-social-snapchat"></i></a> --}}
+                    {{-- <a href="#"><i class="icon ion-social-instagram"></i></a> --}}
+                </div>
                 <h3 class="f-title">Tel.</h3>
                 <div class="f-tel">
                     <a href="#">+66 34 852371 to 2</a>

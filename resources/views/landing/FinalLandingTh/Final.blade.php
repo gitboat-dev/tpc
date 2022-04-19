@@ -282,7 +282,7 @@
             <div class="container-fluid">
                 <div class="row m-0">
                     <div class="col-xs-12 col-sm-12 col-md-5 col1">
-                        <img src="\assets\images\landing\Finallanding\v1_77.png" loading="lazy">
+                        <img src="\assets\images\landing\Finallanding\v1_77.png" alt="เกี่ยวกับเรา" loading="lazy">
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-7 col2">
                         <h2 class="h-title">เกี่ยวกับเรา</h2>
