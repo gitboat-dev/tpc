@@ -1,7 +1,7 @@
 <footer class="bg-black">
     <div class="container">
         <div class="row m-0">
-            <div class="col-xs-12 col-sm-12 col-md-4 p-0">
+            <div class="col-xs-12 col-sm-6 col-md-4 p-0">
                 <h3 class="f-title">สินค้าทั้งหมด</h3>
                 <h3 class="f-title">Polyester Product</h3>
                 <ul class="lists">
@@ -17,7 +17,7 @@
                     <li><a title="Ring spun" href="{{ route('product.ring-spun') }}" target="_blank">Ring spun</a></li>
                 </ul>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-4 p-0">
+            <div class="col-xs-12 col-sm-6 col-md-4 p-0">
                 <h3 class="f-title">100% Recycle Polyester</h3>
                 <ul class="lists">
                     <li><a href="#">Recycle Polyester Staple Fiber (PSF)</a></li>
