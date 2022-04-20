@@ -5,15 +5,16 @@
                 <h3 class="f-title">สินค้าทั้งหมด</h3>
                 <h3 class="f-title">Polyester Product</h3>
                 <ul class="lists">
-                    <li><a href="#">Polyester Staple Fiber (PSF)</a></li>
-                    <li><a href="#">Filament Yarn</a></li>
-                    <li><a href="#">Partially Oriented Yarn (POY)</a></li>
-                    <li><a href="#">Fully Drawn Yarn (DSY)</a></li>
-                    <li><a href="#">Draw Textured (DTY)</a></li>
-                    <li><a href="#">Twisted Yarn</a></li>
-                    <li><a href="#">Mono Filament Yarns</a></li>
-                    <li><a href="#">Dope Dyed</a></li>
-                    <li><a href="#">Spun Yarn</a></li>
+                    <li><a title="PSF(Polyester Staple Fiber)" href="{{ route('product.psf') }}">Polyester Staple Fiber (PSF)</a></li>
+                    <li><a title="Filament Yarn" href="{{ route('product.filament') }}">Filament Yarn</a></li>
+                    <li><a title="POY" href="{{ route('product.poy') }}">Partially Oriented Yarn (POY)</a></li>
+                    <li><a title="FDY" href="{{ route('product.fdy') }}">Fully Drawn Yarn (FDY)</a></li>
+                    <li><a title="DTY" href="{{ route('product.dty') }}">Draw Textured (DTY)</a></li>
+                    <li><a title="Twist Yarn" href="{{ route('product.twisted-yarn') }}">Twisted Yarn</a></li>
+                    <li><a title="Monofilament" href="{{ route('product.monofilament') }}">Mono Filament Yarns</a></li>
+                    <li><a title="Dope dyed" href="{!!url('/dope-dyed')!!}">Dope Dyed</a></li>
+                    <li><a title="Spun yarn" href="{{ route('product.spun-yarn') }}">Spun Yarn</a></li>
+                    <li><a title="Ring spun" href="{{ route('product.ring-spun') }}">Ring spun</a></li>
                 </ul>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-4 p-0">

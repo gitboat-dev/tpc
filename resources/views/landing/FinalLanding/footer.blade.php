@@ -5,15 +5,16 @@
                 <h3 class="f-title">Our Services</h3>
                 <h3 class="f-title">Polyester Product</h3>
                 <ul class="lists">
-                    <li><a href="#">Polyester Staple Fiber (PSF)</a></li>
-                    <li><a href="#">Filament Yarn</a></li>
-                    <li><a href="#">Partially Oriented Yarn (POY)</a></li>
-                    <li><a href="#">Fully Drawn Yarn (DSY)</a></li>
-                    <li><a href="#">Draw Textured (DTY)</a></li>
-                    <li><a href="#">Twisted Yarn</a></li>
-                    <li><a href="#">Mono Filament Yarns</a></li>
-                    <li><a href="#">Dope Dyed</a></li>
-                    <li><a href="#">Spun Yarn</a></li>
+                    <li><a title="PSF(Polyester Staple Fiber)" href="{{ route('product.psf') }}">Polyester Staple Fiber (PSF)</a></li>
+                    <li><a title="Filament Yarn" href="{{ route('product.filament') }}">Filament Yarn</a></li>
+                    <li><a title="POY" href="{{ route('product.poy') }}">Partially Oriented Yarn (POY)</a></li>
+                    <li><a title="FDY" href="{{ route('product.fdy') }}">Fully Drawn Yarn (FDY)</a></li>
+                    <li><a title="DTY" href="{{ route('product.dty') }}">Draw Textured (DTY)</a></li>
+                    <li><a title="Twist Yarn" href="{{ route('product.twisted-yarn') }}">Twisted Yarn</a></li>
+                    <li><a title="Monofilament" href="{{ route('product.monofilament') }}">Mono Filament Yarns</a></li>
+                    <li><a title="Dope dyed" href="{!!url('/dope-dyed')!!}">Dope Dyed</a></li>
+                    <li><a title="Spun yarn" href="{{ route('product.spun-yarn') }}">Spun Yarn</a></li>
+                    <li><a title="Ring spun" href="{{ route('product.ring-spun') }}">Ring spun</a></li>
                 </ul>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-4 p-0">
@@ -26,8 +27,8 @@
                 <h3 class="f-title">Contact Us</h3>
                 <ul class="lists">
                     <li>470 Bangkuntien-Chaitalay Rd.,<br>Samaedum, Bangkuntien, Bangkok<br>10150 Thailand</li>
-                    <li><a href="#">+66 34 852371 to 2</a></li>
-                    <li><a href="#">support@thaipolyester.com</a></li>
+                    <li><a href="tel:+6634852371">+66 34 852371 to 2</a></li>
+                    <li><a href="mailto:support@thaipolyester.com">support@thaipolyester.com</a></li>
                 </ul>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-4 p-0">
@@ -40,7 +41,7 @@
                 </div>
                 <h3 class="f-title">Tel.</h3>
                 <div class="f-tel">
-                    <a href="#">+66 34 852371 to 2</a>
+                    <a href="tel:+6634852371">+66 34 852371 to 2</a>
                 </div>
                 <hr width="100%">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3877.4833112577744!2d100.43225571534639!3d13.628338503813001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e2bccbdbee519d%3A0x14c1af4b7e294f1c!2sThai%20Polyester%20Co.%2CLTD.!5e0!3m2!1sen!2sth!4v1648717772110!5m2!1sen!2sth" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
