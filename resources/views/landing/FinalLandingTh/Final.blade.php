@@ -155,7 +155,7 @@
                             <div id="tab-1" class="tab-pane active" style="overflow-x:auto;">
                                 <div class="row m-0">
                                     <div class="col-xs-6 col-sm-4 col-md-4 p-0">
-                                        <img src="\assets\images\landing\Finallanding\001" alt="monofilament" loading="lazy">
+                                        <img src="\assets\images\landing\Finallanding\001.png" alt="monofilament" loading="lazy">
                                     </div>
                                     <div class="col-xs-6 col-sm-4 col-md-4 p-0">
                                         <img src="\assets\images\landing\Finallanding\002.png" alt="dope dyed" loading="lazy">
@@ -228,7 +228,7 @@
                             <div id="tab-8" class="tab-pane" style="overflow-x:auto;">
                                 <div class="row m-0">
                                     <div class="col-xs-6 col-sm-4 col-md-4 p-0">
-                                        <img src="\assets\images\landing\Finallanding\001" alt="monofilament" loading="lazy">
+                                        <img src="\assets\images\landing\Finallanding\001.png" alt="monofilament" loading="lazy">
                                     </div>
                                 </div>
                             </div>
@@ -249,7 +249,7 @@
                             <div id="tab-11" class="tab-pane" style="overflow-x:auto;">
                                 <div class="row m-0">
                                     <div class="col-xs-6 col-sm-4 col-md-4 p-0">
-                                        <img src="\assets\images\landing\Finallanding\001" alt="monofilament" loading="lazy">
+                                        <img src="\assets\images\landing\Finallanding\001.png" alt="monofilament" loading="lazy">
                                     </div>
                                 </div>
                             </div>
