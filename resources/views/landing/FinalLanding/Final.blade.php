@@ -1,10 +1,11 @@
 @extends('landing.template')
 @section('style')
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-<link rel="preload stylesheet" href="\css\landing\Finallanding\nav.min.css?v={{time()}}" as="style" crossorigin>
-<link rel="preload stylesheet" href="\css\landing\Finallanding\footer.min.css?v={{time()}}" as="style" crossorigin>
-<link rel="preload stylesheet" href="\css\landing\Finallanding\style.min.css?v={{time()}}" as="style" crossorigin>
-<link rel="preload stylesheet"  href="\lib\owlcarousel\assets\owl.carousel.min.css" as="style" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="preload stylesheet" href="\css\landing\Finallanding\nav.min.css?v={{time()}}" as="style" crossorigin>
+    <link rel="preload stylesheet" href="\css\landing\Finallanding\footer.min.css?v={{time()}}" as="style" crossorigin>
+    <link rel="preload stylesheet" href="\css\landing\Finallanding\style.min.css?v={{time()}}" as="style" crossorigin>
+    <link rel="preload stylesheet"  href="\lib\owlcarousel\assets\owl.carousel.min.css" as="style" crossorigin>
+    <link rel="stylesheet" id="fancybox-css" href="{!!asset('/assets/custom/wp-content/plugins/radiantthemes-addons/assets/css/jquery.fancybox.min.css?ver=4.9.11')!!}" type="text/css" media="all">
 @endsection
 @section('og-image','\assets\images\landing\page1\og-image\og-image.webp')
 @section('content')
@@ -364,16 +365,24 @@
                 <div class="slide">
                     <div class="owl-carousel owl-theme">
                         <div class="item text-center p-0">
-                            <img src="\assets\images\landing\Finallanding\v001.webp" alt="oeko-tex">
+                            <a href="\assets\images\landing\Finallanding\v001.webp" title="oeko-tex" data-fancybox="gallery" data-thumbnail-src="\assets\images\landing\Finallanding\v001.webp">
+                                <img src="\assets\images\landing\Finallanding\v001.webp" alt="oeko-tex">
+                            </a>
                         </div>
                         <div class="item text-center p-0">
-                            <img src="\assets\images\landing\Finallanding\v002.webp" alt="Global Recycle Standard">
+                            <a href="\assets\images\landing\Finallanding\v002.webp" title="Global Recycle Standard" data-fancybox="gallery" data-thumbnail-src="\assets\images\landing\Finallanding\v002.webp">
+                                <img src="\assets\images\landing\Finallanding\v002.webp" alt="Global Recycle Standard">
+                            </a>
                         </div>
                         <div class="item text-center p-0">
-                            <img src="\assets\images\landing\Finallanding\v003.webp" alt="green ndustry">
+                            <a href="\assets\images\landing\Finallanding\v003.webp" title="green ndustry" data-fancybox="gallery" data-thumbnail-src="\assets\images\landing\Finallanding\v003.webp">
+                                <img src="\assets\images\landing\Finallanding\v003.webp" alt="green ndustry">
+                            </a>
                         </div>
                         <div class="item text-center p-0">
-                            <img src="\assets\images\landing\Finallanding\v004.webp" alt="certificate of registration">
+                            <a href="\assets\images\landing\Finallanding\v004.webp" title="certificate of registration" data-fancybox="gallery" data-thumbnail-src="\assets\images\landing\Finallanding\v004.webp">
+                                <img src="\assets\images\landing\Finallanding\v004.webp" alt="certificate of registration">
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -428,4 +437,5 @@
     <script src="\js\landing\Finallanding\main.min.js?v={{time()}}"></script>
     <script src="\lib\jquery-on-scrolled-to\on-scrolled-to.min.js"></script>
     <script src="\lib\owlcarousel\owl.carousel.min.js"></script>
+    <script src="/assets/custom/wp-content/plugins/radiantthemes-addons/assets/js/jquery.fancybox.min.js?v={{ time() }}"></script>
 @endsection
