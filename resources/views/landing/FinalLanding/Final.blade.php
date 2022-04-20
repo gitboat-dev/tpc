@@ -58,7 +58,7 @@
                                     <label class="ml-0 fw-n">I hereby consent Thai Polyester limited company (TPC) to collect, use or disclose my given information for the company's promotion.</label>
                                 </div>
                                 <div class="col-xs-12 col-sm-12 col-md-12">
-                                    <div id="res" class="res"></div>
+                                    <div id="res1" class="res"></div>
                                 </div>
                                 <div class="form-group col-xs-12 col-sm-12 col-md-12 d-flex">
                                     <button id="submit-f1" type="submit" class="btn btn-regis m-auto">Register for free catalog</button>
@@ -411,7 +411,7 @@
                                 <span class="text-danger message mb-font12"></span>
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-12">
-                                <div id="res" class="res"></div>
+                                <div id="res2" class="res"></div>
                             </div>
                             <div class="form-group col-xs-12 col-sm-12 col-md-12 d-flex">
                                 <button id="submit-f2" type="submit" class="btn btn-regis m-auto">Submit</button>

@@ -22,7 +22,6 @@ $(function(){
 	    	btn = $(this),
 	    	token = inqHex(inqRandom()),
     		v = cForm(f);
-            console.log(v);
 		if(checkData(f).success){
 			$.ajax({
                 type: "get",
@@ -42,23 +41,23 @@ $(function(){
                             headers: {answer: a2hex(res.row.request + ":" + token + ":" + inqbg)},
                             success: function(ea) {
                             	setTimeout(function() {
-                            		var f = $('#contact-form'),
-								    	res = f.find('#res'),
-								    	btn = $('#submitcontract2'),
-								    	btnMsg = "SUBMIT";
+                            		var f = $('#contact-form1'),
+								    	res = f.find('#res1');
+								    	// btn = $('#submit-f1'),
+								    	// btnMsg = "SUBMIT";
                             		if(ea.status == 'success'){
                                         msg = '<div class="alert alert-success"><strong>Thank you!</strong> '+ea.message+' <span class="c"></span></div>';
                                         res.html(msg);
                                         f.resetForm();
-                                        btn.html(btnMsg);
+                                        // btn.html(btnMsg);
                                         c(15,res.find('.alert'));
                                         thank_you();
                                     }else if(ea.status == 'error'){
                                         msg = '<div class="alert alert-danger"><strong>Error!</strong> '+ea.message+'</div>';
                                         res.html(msg);
-                                        btn.html('<i class="fa fa-refresh"></i> Try Again');
+                                        // btn.html('<i class="fa fa-refresh"></i> Try Again');
                                     }else{
-                                        btn.html(btnMsg);
+                                        // btn.html(btnMsg);
                                     }
                             	},200);
                             }
@@ -75,7 +74,6 @@ $(function(){
 	    	btn = $(this),
 	    	token = inqHex(inqRandom()),
     		v = cForm(f);
-            console.log(v);
 		if(checkData(f).success){
 			$.ajax({
                 type: "get",
@@ -95,23 +93,23 @@ $(function(){
                             headers: {answer: a2hex(res.row.request + ":" + token + ":" + inqbg)},
                             success: function(ea) {
                             	setTimeout(function() {
-                            		var f = $('#contact-form'),
-								    	res = f.find('#res'),
-								    	btn = $('#submitcontract2'),
-								    	btnMsg = "SUBMIT";
+                            		var f = $('#contact-form2'),
+								    	res = f.find('#res2');
+								    	// btn = $('#submit-f2'),
+								    	// btnMsg = "SUBMIT";
                             		if(ea.status == 'success'){
                                         msg = '<div class="alert alert-success"><strong>Thank you!</strong> '+ea.message+' <span class="c"></span></div>';
                                         res.html(msg);
                                         f.resetForm();
-                                        btn.html(btnMsg);
+                                        // btn.html(btnMsg);
                                         c(15,res.find('.alert'));
                                         thank_you();
                                     }else if(ea.status == 'error'){
                                         msg = '<div class="alert alert-danger"><strong>Error!</strong> '+ea.message+'</div>';
                                         res.html(msg);
-                                        btn.html('<i class="fa fa-refresh"></i> Try Again');
+                                        // btn.html('<i class="fa fa-refresh"></i> Try Again');
                                     }else{
-                                        btn.html(btnMsg);
+                                        // btn.html(btnMsg);
                                     }
                             	},200);
                             }
