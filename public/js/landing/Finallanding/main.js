@@ -234,24 +234,24 @@ function inqenc(c, t) {
     return enTree(r);
 }
 function cForm(f){
-    let name = jQuery.trim(f.find('#name').val()),
+    let name = jQuery.trim(f.find('input[name="name"]').val()),
         privacy = "",
-        message = "-";
-    if(f.find('#lname').val() != ""){
-        name = name +" "+ jQuery.trim(f.find('#lname').val());
+        message = "----";
+    if(f.find('input[name="lname"]').val() != ""){
+        name = name +" "+ jQuery.trim(f.find('input[name="lname"]').val());
     }
     if(f.find('#privacy').is(':checked')){
         privacy = "accept";
     }
-    if(f.find('#message').val() != ""){
-        message = jQuery.trim(f.find('#message').val());
+    if(f.find('textarea[name="message"]').val() && f.find('textarea[name="message"]').val() != ""){
+        message = jQuery.trim(f.find('textarea[name="message"]').val());
     }
 	return {
 		"name":jQuery.trim(name),
-		"email":jQuery.trim(f.find('#email').val()),
+		"email":jQuery.trim(f.find('input[name="email"]').val()),
 		// "company":jQuery.trim(f.find('#company').val()),
-		"phone":jQuery.trim(f.find('#phone').val()),
-		"message":jQuery.trim(message),
+		"phone":jQuery.trim(f.find('input[name="phone"]').val()),
+		"message":message,
         "privacy":jQuery.trim(privacy),
 	}
 }
