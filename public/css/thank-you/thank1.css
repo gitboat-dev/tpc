@@ -52,17 +52,25 @@ body.thank-open .thank{
     box-shadow: 0px 15px 2px #000;
 }
 .thank .thank-content .thank-body .thank-title{
-    font-size: 100px;
+    font-size: 80px;
 }
 .thank .thank-content .thank-body .thank-desc{
-    font-size: 30px;
+    font-size: 22px;
+    line-height: 30px;
 }
-.thank .thank-content .thank-header .thank-icon{
+/* .thank .thank-content .thank-header .thank-icon{
     display: flex;
     position: absolute;
     bottom: -465%;
     z-index: 999;
     width: 100%;
+} */
+.thank .thank-content .thank-group .thank-icon{
+    top: -160px;
+    left: 0;
+}
+.thank .thank-content .thank-group .thank-icon > .img_block{
+    max-width: 70%;
 }
 .thank .thank-content .thank-footer .mt-50{
     margin: auto !important;
@@ -94,14 +102,22 @@ body.thank-open .thank{
     .thank .thank-content .thank-body{
         min-height: 200px;
     }
-    .thank .thank-content .thank-header .thank-icon{
+    /* .thank .thank-content .thank-header .thank-icon{
         bottom: -200%;
+    } */
+    .thank .thank-content .thank-group .thank-icon{
+        top: -95px;
+    }
+    .thank .thank-content .thank-group .thank-icon > .img_block{
+        max-width: 50%;
     }
     .thank .thank-content .thank-body .thank-title{
-        font-size: 45px;
+        font-size: 35px;
+        line-height: 40px;
     }
     .thank .thank-content .thank-body .thank-desc{
         font-size: 14px;
+        line-height: 20px;
     }
     .thank .thank-content .thank-footer .thank-web a{
         font-size: 14px;

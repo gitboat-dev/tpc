@@ -10,19 +10,28 @@
         <div class="thank-dialog">
             <div class="thank-content">
                 <div class="thank-header">
-                    <div class="thank-icon">
+                    {{-- <div class="thank-icon">
                         <div class="img_block">
                             <picture>
                                 <source srcset="\assets\images\landing\page1\thank-you\mobile\mark-succeed.webp" alt="Thank you" media="(max-width: 640px)" loading="lazy">
                                 <img src="\assets\images\landing\page1\thank-you\desktop\mark-succeed.webp" width="900" height="350" class="img-fluid ab-img" alt="Thank you" loading="lazy">
                             </picture>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
-                <div class="thank-body d-flex">
+                <div class="thank-body d-flex pos-r">
                     <div class="thank-group mb-0">
+                        <div class="thank-icon pos-ab w-100p d-flex">
+                            <div class="img_block">
+                                <picture>
+                                    <source srcset="\assets\images\landing\page1\thank-you\mobile\mark-succeed.webp" alt="Thank you" media="(max-width: 640px)" loading="lazy">
+                                    <img src="\assets\images\landing\page1\thank-you\desktop\mark-succeed.webp" width="900" height="350" class="img-fluid ab-img" alt="Thank you" loading="lazy">
+                                </picture>
+                            </div>
+                        </div>
                         <h3 class="thank-title">Thank you!</h3>
-                        <p class="thank-desc">Your submission has been received.</p>
+                        <p class="thank-desc">We'll get back to you within 24 hours by <b>support@thaipolyester.com</b>
+                            Our e-mail might have gone through your Junk-mail. Kindly check in it ;)</p>
                     </div>
                 </div>
                 <div class="thank-footer d-flex">
