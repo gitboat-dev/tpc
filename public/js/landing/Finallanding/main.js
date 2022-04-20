@@ -235,19 +235,23 @@ function inqenc(c, t) {
 }
 function cForm(f){
     let name = jQuery.trim(f.find('#name').val()),
-        privacy = "";
+        privacy = "",
+        message = "-";
     if(f.find('#lname').val() != ""){
         name = name +" "+ jQuery.trim(f.find('#lname').val());
     }
     if(f.find('#privacy').is(':checked')){
         privacy = "accept";
     }
+    if(f.find('#message').val() != ""){
+        message = jQuery.trim(f.find('#message').val());
+    }
 	return {
 		"name":jQuery.trim(name),
 		"email":jQuery.trim(f.find('#email').val()),
 		// "company":jQuery.trim(f.find('#company').val()),
 		"phone":jQuery.trim(f.find('#phone').val()),
-		"message":jQuery.trim(f.find('#message').val()),
+		"message":jQuery.trim(message),
         "privacy":jQuery.trim(privacy),
 	}
 }
