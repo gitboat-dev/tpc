@@ -16,8 +16,8 @@
                     <div class="content_block pos-r">
                         <div class="img_block">
                             <picture>
-                                <source src="\assets\images\landing\Finallanding\v1_94-3.png" alt="Thai Poyester" media="(max-width: 640px)">
-                                <img src="\assets\images\landing\Finallanding\v1_94-3.png" alt="Thai Poyester" width="900" height="350" class="img-fluid">
+                                <source src="\assets\images\landing\Finallanding\v1_94-3.webp" alt="Thai Poyester" media="(max-width: 640px)">
+                                <img src="\assets\images\landing\Finallanding\v1_94-3.webp" alt="Thai Poyester" width="900" height="350" class="img-fluid">
                             </picture>
                         </div>
                     </div>
@@ -78,28 +78,28 @@
                     <div class="card">
                         <h3 class="card-title">Good</h3>
                         <p class="card-desc">High Quality</p>
-                        <img src="\assets\images\landing\Finallanding\v1_02.png" alt="High Quality" loading="lazy">
+                        <img src="\assets\images\landing\Finallanding\v1_02.webp" alt="High Quality" loading="lazy">
                     </div>
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-3">
                     <div class="card">
                         <h3 class="card-title">New</h3>
                         <p class="card-desc">New Technology</p>
-                        <img src="\assets\images\landing\Finallanding\v1_04.png" alt="New Technology" loading="lazy">
+                        <img src="\assets\images\landing\Finallanding\v1_04.webp" alt="New Technology" loading="lazy">
                     </div>
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-3">
                     <div class="card">
                         <h3 class="card-title">Fast</h3>
                         <p class="card-desc">Fast Support<br>Resposibility<br>Fast Transpotation</p>
-                        <img src="\assets\images\landing\Finallanding\v1_03.png" alt="Fast Support Resposibility Fast Transpotation" loading="lazy">
+                        <img src="\assets\images\landing\Finallanding\v1_03.webp" alt="Fast Support Resposibility Fast Transpotation" loading="lazy">
                     </div>
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-3">
                     <div class="card">
                         <h3 class="card-title">Exactly</h3>
                         <p class="card-desc">Amount Quantity</p>
-                        <img src="\assets\images\landing\Finallanding\v1_01.png" alt="Amount Quantity" loading="lazy">
+                        <img src="\assets\images\landing\Finallanding\v1_01.webp" alt="Amount Quantity" loading="lazy">
                     </div>
                 </div>
             </div>
@@ -156,121 +156,121 @@
                             <div id="tab-1" class="tab-pane active" style="overflow-x:auto;">
                                 <div class="row m-0">
                                     <div class="col-xs-6 col-sm-4 col-md-4 p-0">
-                                        <img src="\assets\images\landing\Finallanding\001.png" alt="monofilament" loading="lazy">
+                                        <img src="\assets\images\landing\Finallanding\001.webp" alt="monofilament" loading="lazy">
                                     </div>
                                     <div class="col-xs-6 col-sm-4 col-md-4 p-0">
-                                        <img src="\assets\images\landing\Finallanding\002.png" alt="dope dyed" loading="lazy">
+                                        <img src="\assets\images\landing\Finallanding\002.webp" alt="dope dyed" loading="lazy">
                                     </div>
                                     <div class="col-xs-6 col-sm-4 col-md-4 p-0">
-                                        <img src="\assets\images\landing\Finallanding\003.png" alt="dty" loading="lazy">
+                                        <img src="\assets\images\landing\Finallanding\003.webp" alt="dty" loading="lazy">
                                     </div>
                                     <div class="col-xs-6 col-sm-4 col-md-4 p-0">
-                                        <img src="\assets\images\landing\Finallanding\004.png" alt="twisted" loading="lazy">
+                                        <img src="\assets\images\landing\Finallanding\004.webp" alt="twisted" loading="lazy">
                                     </div>
                                     <div class="col-xs-6 col-sm-4 col-md-4 p-0">
-                                        <img src="\assets\images\landing\Finallanding\005.png" alt="spun yarn" loading="lazy">
+                                        <img src="\assets\images\landing\Finallanding\005.webp" alt="spun yarn" loading="lazy">
                                     </div>
                                     <div class="col-xs-6 col-sm-4 col-md-4 p-0">
-                                        <img src="\assets\images\landing\Finallanding\006.png" alt="psf" loading="lazy">
+                                        <img src="\assets\images\landing\Finallanding\006.webp" alt="psf" loading="lazy">
                                     </div>
                                     <div class="col-xs-6 col-sm-4 col-md-4 p-0">
-                                        <img src="\assets\images\landing\Finallanding\007.png" alt="filament" loading="lazy">
+                                        <img src="\assets\images\landing\Finallanding\007.webp" alt="filament" loading="lazy">
                                     </div>
                                     <div class="col-xs-6 col-sm-4 col-md-4 p-0">
-                                        <img src="\assets\images\landing\Finallanding\008.png" alt="fdy" loading="lazy">
+                                        <img src="\assets\images\landing\Finallanding\008.webp" alt="fdy" loading="lazy">
                                     </div>
                                     <div class="col-xs-6 col-sm-4 col-md-4 p-0">
-                                        <img src="\assets\images\landing\Finallanding\009.png" alt="poy" loading="lazy">
+                                        <img src="\assets\images\landing\Finallanding\009.webp" alt="poy" loading="lazy">
                                     </div>
                                 </div>
                             </div>
                             <div id="tab-2" class="tab-pane" style="overflow-x:auto;">
                                 <div class="row m-0">
                                     <div class="col-xs-6 col-sm-4 col-md-4 p-0">
-                                        <img src="\assets\images\landing\Finallanding\006.png" alt="psf" loading="lazy">
+                                        <img src="\assets\images\landing\Finallanding\006.webp" alt="psf" loading="lazy">
                                     </div>
                                 </div>
                             </div>
                             <div id="tab-3" class="tab-pane" style="overflow-x:auto;">
                                 <div class="row m-0">
                                     <div class="col-xs-6 col-sm-4 col-md-4 p-0">
-                                        <img src="\assets\images\landing\Finallanding\007.png" alt="filament" loading="lazy">
+                                        <img src="\assets\images\landing\Finallanding\007.webp" alt="filament" loading="lazy">
                                     </div>
                                 </div>
                             </div>
                             <div id="tab-4" class="tab-pane" style="overflow-x:auto;">
                                 <div class="row m-0">
                                     <div class="col-xs-6 col-sm-4 col-md-4 p-0">
-                                        <img src="\assets\images\landing\Finallanding\009.png" alt="poy" loading="lazy">
+                                        <img src="\assets\images\landing\Finallanding\009.webp" alt="poy" loading="lazy">
                                     </div>
                                 </div>
                             </div>
                             <div id="tab-5" class="tab-pane" style="overflow-x:auto;">
                                 <div class="row m-0">
                                     <div class="col-xs-6 col-sm-4 col-md-4 p-0">
-                                        <img src="\assets\images\landing\Finallanding\008.png" alt="fdy" loading="lazy">
+                                        <img src="\assets\images\landing\Finallanding\008.webp" alt="fdy" loading="lazy">
                                     </div>
                                 </div>
                             </div>
                             <div id="tab-6" class="tab-pane" style="overflow-x:auto;">
                                 <div class="row m-0">
                                     <div class="col-xs-6 col-sm-4 col-md-4 p-0">
-                                        <img src="\assets\images\landing\Finallanding\003.png" alt="dty" loading="lazy">
+                                        <img src="\assets\images\landing\Finallanding\003.webp" alt="dty" loading="lazy">
                                     </div>
                                 </div>
                             </div>
                             <div id="tab-7" class="tab-pane" style="overflow-x:auto;">
                                 <div class="row m-0">
                                     <div class="col-xs-6 col-sm-4 col-md-4 p-0">
-                                        <img src="\assets\images\landing\Finallanding\004.png" alt="twisted" loading="lazy">
+                                        <img src="\assets\images\landing\Finallanding\004.webp" alt="twisted" loading="lazy">
                                     </div>
                                 </div>
                             </div>
                             <div id="tab-8" class="tab-pane" style="overflow-x:auto;">
                                 <div class="row m-0">
                                     <div class="col-xs-6 col-sm-4 col-md-4 p-0">
-                                        <img src="\assets\images\landing\Finallanding\001.png" alt="monofilament" loading="lazy">
+                                        <img src="\assets\images\landing\Finallanding\001.webp" alt="monofilament" loading="lazy">
                                     </div>
                                 </div>
                             </div>
                             <div id="tab-9" class="tab-pane" style="overflow-x:auto;">
                                 <div class="row m-0">
                                     <div class="col-xs-6 col-sm-4 col-md-4 p-0">
-                                        <img src="\assets\images\landing\Finallanding\002.png" alt="dope dyed" loading="lazy">
+                                        <img src="\assets\images\landing\Finallanding\002.webp" alt="dope dyed" loading="lazy">
                                     </div>
                                 </div>
                             </div>
                             <div id="tab-10" class="tab-pane" style="overflow-x:auto;">
                                 <div class="row m-0">
                                     <div class="col-xs-6 col-sm-4 col-md-4 p-0">
-                                        <img src="\assets\images\landing\Finallanding\005.png" alt="spun yarn" loading="lazy">
+                                        <img src="\assets\images\landing\Finallanding\005.webp" alt="spun yarn" loading="lazy">
                                     </div>
                                 </div>
                             </div>
                             <div id="tab-11" class="tab-pane" style="overflow-x:auto;">
                                 <div class="row m-0">
                                     <div class="col-xs-6 col-sm-4 col-md-4 p-0">
-                                        <img src="\assets\images\landing\Finallanding\001.png" alt="monofilament" loading="lazy">
+                                        <img src="\assets\images\landing\Finallanding\001.webp" alt="monofilament" loading="lazy">
                                     </div>
                                 </div>
                             </div>
                             <div id="tab-12" class="tab-pane" style="overflow-x:auto;">
                                 <div class="row m-0">
                                     <div class="col-xs-6 col-sm-4 col-md-4 p-0">
-                                        <img src="\assets\images\landing\Finallanding\003.png" alt="dty" loading="lazy">
+                                        <img src="\assets\images\landing\Finallanding\003.webp" alt="dty" loading="lazy">
                                     </div>
                                     <div class="col-xs-6 col-sm-4 col-md-4 p-0">
-                                        <img src="\assets\images\landing\Finallanding\008.png" alt="fdy" loading="lazy">
+                                        <img src="\assets\images\landing\Finallanding\008.webp" alt="fdy" loading="lazy">
                                     </div>
                                     <div class="col-xs-6 col-sm-4 col-md-4 p-0">
-                                        <img src="\assets\images\landing\Finallanding\009.png" alt="poy" loading="lazy">
+                                        <img src="\assets\images\landing\Finallanding\009.webp" alt="poy" loading="lazy">
                                     </div>
                                 </div>
                             </div>
                             <div id="tab-13" class="tab-pane" style="overflow-x:auto;">
                                 <div class="row m-0">
                                     <div class="col-xs-6 col-sm-4 col-md-4 p-0">
-                                        <img src="\assets\images\landing\Finallanding\005.png" alt="spun yarn" loading="lazy">
+                                        <img src="\assets\images\landing\Finallanding\005.webp" alt="spun yarn" loading="lazy">
                                     </div>
                                 </div>
                             </div>
@@ -283,7 +283,7 @@
             <div class="container-fluid">
                 <div class="row m-0">
                     <div class="col-xs-12 col-sm-12 col-md-5 col1">
-                        <img src="\assets\images\landing\Finallanding\v1_77.png" alt="About Us" loading="lazy">
+                        <img src="\assets\images\landing\Finallanding\v1_77.webp" alt="About Us" loading="lazy">
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-7 col2">
                         <h2 class="h-title">ABOUT US</h2>
@@ -327,7 +327,7 @@
                         </ul>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 d-flex pos-r col2">
-                        <img src="\assets\images\landing\Finallanding\v1_93.png" class="m-auto" loading="lazy">
+                        <img src="\assets\images\landing\Finallanding\v1_93.webp" class="m-auto" loading="lazy">
                     </div>
                 </div>
             </div>
@@ -364,16 +364,16 @@
                 <div class="slide">
                     <div class="owl-carousel owl-theme">
                         <div class="item text-center p-0">
-                            <img src="\assets\images\landing\Finallanding\v001.png" alt="oeko-tex">
+                            <img src="\assets\images\landing\Finallanding\v001.webp" alt="oeko-tex">
                         </div>
                         <div class="item text-center p-0">
-                            <img src="\assets\images\landing\Finallanding\v002.png" alt="Global Recycle Standard">
+                            <img src="\assets\images\landing\Finallanding\v002.webp" alt="Global Recycle Standard">
                         </div>
                         <div class="item text-center p-0">
-                            <img src="\assets\images\landing\Finallanding\v003.png" alt="green ndustry">
+                            <img src="\assets\images\landing\Finallanding\v003.webp" alt="green ndustry">
                         </div>
                         <div class="item text-center p-0">
-                            <img src="\assets\images\landing\Finallanding\v004.png" alt="certificate of registration">
+                            <img src="\assets\images\landing\Finallanding\v004.webp" alt="certificate of registration">
                         </div>
                     </div>
                 </div>
