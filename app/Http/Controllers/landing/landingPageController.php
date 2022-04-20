@@ -31,7 +31,7 @@ class landingPageController extends Controller {
             'chkmo' => $data['chkmobile'] = $agent->isMobile() ? $agent->isMobile() : ($agent->isTablet() ? $agent->isTablet() : false),
             'd_lang' => 'EN',
             'lang' => 'TH',
-            'lang_url' => '/th/final',
+            'lang_url' => '/th/polyester-yarn-spun-filament-fiber-thailand-manufacturers-suppliers-free-sample',
         ];
         return view('landing.FinalLanding.Final',$data);
     }
@@ -46,7 +46,7 @@ class landingPageController extends Controller {
             'chkmo' => $data['chkmobile'] = $agent->isMobile() ? $agent->isMobile() : ($agent->isTablet() ? $agent->isTablet() : false),
             'd_lang' => 'TH',
             'lang' => 'EN',
-            'lang_url' => '/en/final',
+            'lang_url' => '/en/polyester-yarn-spun-filament-fiber-thailand-manufacturers-suppliers-free-sample',
         ];
         return view('landing.FinalLandingTh.Final',$data);
     }
