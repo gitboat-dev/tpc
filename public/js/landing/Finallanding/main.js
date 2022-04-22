@@ -153,7 +153,7 @@ function slide_sec8(){
     });
 }
 function thank_you(){
-    window.location.href = "/landing/thank-you3";
+    window.location.href = "/landing/thank-you2";
 }
 function checkData(f){
 	var name = f.find('#name'),
