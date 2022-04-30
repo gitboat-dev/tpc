@@ -112,6 +112,10 @@
     height: 30px;
     padding: 5px;
 }
+#sec4 .r1 .content_block table td.text_focus{
+    font-size: 22px;
+    line-height: 25px;
+}
 
 /* End Sec4 */
 
@@ -611,6 +615,10 @@
         padding: 2px;
         font-size: 9.6px;
         line-height: 12px;
+    }
+    #sec4 .r1 .content_block table td.text_focus{
+        font-size: 12.6px;
+        line-height: 15px;
     }
 
     /* End Sec4 */

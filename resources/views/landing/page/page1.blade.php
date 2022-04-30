@@ -113,7 +113,7 @@
                                 </div>
                                 PSF Virgin
                             </td>
-                            <td><b>*1.0,1.2*</b></td>
+                            <td class="fw-600 text_focus">*1.0,1.2*</td>
                             <td rowspan="2">
                                 32,38,<br>
                                 44,51
@@ -135,7 +135,7 @@
                                 </div>
                                 PSF Recycled
                             </td>
-                            <td><b>*1.2*</b></td>
+                            <td class="fw-600 text_focus">*1.2*</td>
                             <td rowspan="2">
                                 32,38,<br>
                                 44,51
