@@ -111,6 +111,9 @@ body {
 #landing .d-flex{
     display: flex !important;
 }
+#landing .d-block{
+    display: block !important;
+}
 #landing .d-inline{
     display: inline !important;
 }

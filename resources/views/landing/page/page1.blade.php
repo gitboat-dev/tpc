@@ -368,6 +368,12 @@
                                 <source srcset="\assets\images\landing\page1\mobile\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester.webp" alt="Polyester Partially Oriented Yarn TPC Thaipolyester" media="(max-width: 640px)" loading="lazy">
                                 <img src="\assets\images\landing\page1\desktop\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester.webp" alt="PSF Polyester Staple Fiber Thaipolyester" loading="lazy">
                             </picture>
+                            <div class="content_group d-flex pos-ab w-100p h-100p bottom-0">
+                                <div class="prod_name m-auto w-100p">
+                                    <label class="d-block text-center">PSF</label>
+                                    <small class="d-block text-center">(Polyester Staple Fiber)</small>
+                                </div>
+                            </div>
                         </a>
                     </div>
                 </div>
