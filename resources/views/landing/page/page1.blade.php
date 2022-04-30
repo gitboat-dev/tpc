@@ -365,8 +365,8 @@
                     <div class="img_block">
                         <a href="{{ route('product.psf') }}" title="PSF Polyester Staple Fiber" target="_blank">
                             <picture>
-                                <source srcset="\assets\images\landing\page1\mobile\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester.webp" alt="Polyester Partially Oriented Yarn TPC Thaipolyester" media="(max-width: 640px)" loading="lazy">
-                                <img src="\assets\images\landing\page1\desktop\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester.webp" alt="PSF Polyester Staple Fiber Thaipolyester" loading="lazy">
+                                <source srcset="\assets\images\landing\page1\mobile\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester.webp?v={{time()}}" alt="Polyester Partially Oriented Yarn TPC Thaipolyester" media="(max-width: 640px)" loading="lazy">
+                                <img src="\assets\images\landing\page1\desktop\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester.webp?v={{time()}}" alt="PSF Polyester Staple Fiber Thaipolyester" loading="lazy">
                             </picture>
                             <div class="content_group d-flex pos-ab w-100p h-100p bottom-0">
                                 <div class="prod_name m-auto w-100p">
@@ -383,8 +383,8 @@
                     <div class="img_block">
                         <a href="{{ route('product.dty') }}" title="DTY Draw Textured Yarn Polyester" target="_blank">
                             <picture>
-                                <source srcset="\assets\images\landing\page1\mobile\new-image\DTY-Draw-Textured-Yarn-Polyester-Thaipolyester.webp" alt="DTY Draw Textured Yarn Polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
-                                <img src="\assets\images\landing\page1\desktop\new-image\DTY-Draw-Textured-Yarn-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="DTY Draw Textured Yarn Polyester Thaipolyester" loading="lazy">
+                                <source srcset="\assets\images\landing\page1\mobile\new-image\DTY-Draw-Textured-Yarn-Polyester-Thaipolyester.webp?v={{time()}}" alt="DTY Draw Textured Yarn Polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
+                                <img src="\assets\images\landing\page1\desktop\new-image\DTY-Draw-Textured-Yarn-Polyester-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid ab-img" alt="DTY Draw Textured Yarn Polyester Thaipolyester" loading="lazy">
                             </picture>
                             <div class="content_group d-flex pos-ab w-100p h-100p bottom-0">
                                 <div class="prod_name m-auto w-100p">
@@ -401,8 +401,8 @@
                     <div class="img_block">
                         <a href="{{ route('product.poy') }}" title="POY Partially Oriented Yarn Polyester" target="_blank">
                             <picture>
-                                <source srcset="\assets\images\landing\page1\mobile\new-image\POY-Partially-Oriented-Yarn-Polyester-Thaipolyester.webp" alt="POY Partially Oriented Yarn Polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
-                                <img src="\assets\images\landing\page1\desktop\new-image\POY-Partially-Oriented-Yarn-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="POY Partially Oriented Yarn Polyester Thaipolyester" loading="lazy">
+                                <source srcset="\assets\images\landing\page1\mobile\new-image\POY-Partially-Oriented-Yarn-Polyester-Thaipolyester.webp?v={{time()}}" alt="POY Partially Oriented Yarn Polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
+                                <img src="\assets\images\landing\page1\desktop\new-image\POY-Partially-Oriented-Yarn-Polyester-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid ab-img" alt="POY Partially Oriented Yarn Polyester Thaipolyester" loading="lazy">
                             </picture>
                             <div class="content_group d-flex pos-ab w-100p h-100p bottom-0">
                                 <div class="prod_name m-auto w-100p">
@@ -419,8 +419,8 @@
                     <div class="img_block">
                         <a href="{{ route('product.fdy') }}" title="FDY Fully Drawn Yarn Polyester" target="_blank">
                             <picture>
-                                <source srcset="\assets\images\landing\page1\mobile\new-image\FDY-Fully-Drawn-Yarn-Polyester-Thaipolyester.webp" alt="FDY Fully Drawn Yarn Polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
-                                <img src="\assets\images\landing\page1\desktop\new-image\FDY-Fully-Drawn-Yarn-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="FDY Fully Drawn Yarn Polyester Thaipolyester" loading="lazy">
+                                <source srcset="\assets\images\landing\page1\mobile\new-image\FDY-Fully-Drawn-Yarn-Polyester-Thaipolyester.webp?v={{time()}}" alt="FDY Fully Drawn Yarn Polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
+                                <img src="\assets\images\landing\page1\desktop\new-image\FDY-Fully-Drawn-Yarn-Polyester-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid ab-img" alt="FDY Fully Drawn Yarn Polyester Thaipolyester" loading="lazy">
                             </picture>
                             <div class="content_group d-flex pos-ab w-100p h-100p bottom-0">
                                 <div class="prod_name m-auto w-100p">
@@ -437,8 +437,8 @@
                     <div class="img_block">
                         <a href="{{ route('product.twisted-yarn') }}" title="Twisted Yarn DTY polyester" target="_blank">
                             <picture>
-                                <source srcset="\assets\images\landing\page1\mobile\new-image\Twist-Yarn-DTY-polyester-Thaipolyester.webp" alt="Twisted Yarn DTY polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
-                                <img src="\assets\images\landing\page1\desktop\new-image\Twist-Yarn-DTY-polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Twisted Yarn DTY polyester Thaipolyester" loading="lazy">
+                                <source srcset="\assets\images\landing\page1\mobile\new-image\Twist-Yarn-DTY-polyester-Thaipolyester.webp?v={{time()}}" alt="Twisted Yarn DTY polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
+                                <img src="\assets\images\landing\page1\desktop\new-image\Twist-Yarn-DTY-polyester-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid ab-img" alt="Twisted Yarn DTY polyester Thaipolyester" loading="lazy">
                             </picture>
                             <div class="content_group d-flex pos-ab w-100p h-100p bottom-0">
                                 <div class="prod_name m-auto w-100p">
@@ -455,8 +455,8 @@
                     <div class="img_block">
                         <a href="{{ route('product.twisted-yarn') }}" title="Twist Yarn FDY polyester" target="_blank">
                             <picture>
-                                <source srcset="\assets\images\landing\page1\mobile\new-image\Twist-Yarn-FDY-polyester-Thaipolyester.webp" alt="Twist Yarn FDY polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
-                                <img src="\assets\images\landing\page1\desktop\new-image\Twist-Yarn-FDY-polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Twist Yarn FDY polyester Thaipolyester" loading="lazy">
+                                <source srcset="\assets\images\landing\page1\mobile\new-image\Twist-Yarn-FDY-polyester-Thaipolyester.webp?v={{time()}}" alt="Twist Yarn FDY polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
+                                <img src="\assets\images\landing\page1\desktop\new-image\Twist-Yarn-FDY-polyester-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid ab-img" alt="Twist Yarn FDY polyester Thaipolyester" loading="lazy">
                             </picture>
                             <div class="content_group d-flex pos-ab w-100p h-100p bottom-0">
                                 <div class="prod_name m-auto w-100p">
@@ -473,8 +473,8 @@
                     <div class="img_block">
                         <a href="{!!url('/open-end')!!}" title="OE Open End Spun Yarn Polyester" target="_blank">
                             <picture>
-                                <source srcset="\assets\images\landing\page1\mobile\new-image\OE-Open-End-Spun-Yarn-Polyester-Thaipolyester.webp" alt="OE Open End Spun Yarn Polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
-                                <img src="\assets\images\landing\page1\desktop\new-image\OE-Open-End-Spun-Yarn-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="OE Open End Spun Yarn Polyester Thaipolyester" loading="lazy">
+                                <source srcset="\assets\images\landing\page1\mobile\new-image\OE-Open-End-Spun-Yarn-Polyester-Thaipolyester.webp?v={{time()}}" alt="OE Open End Spun Yarn Polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
+                                <img src="\assets\images\landing\page1\desktop\new-image\OE-Open-End-Spun-Yarn-Polyester-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid ab-img" alt="OE Open End Spun Yarn Polyester Thaipolyester" loading="lazy">
                             </picture>
                             <div class="content_group d-flex pos-ab w-100p h-100p bottom-0">
                                 <div class="prod_name m-auto w-100p">
@@ -491,8 +491,8 @@
                     <div class="img_block">
                         <a href="{{ route('product.ring-spun') }}" title="Ring Spun Yarn Polyester" target="_blank">
                             <picture>
-                                <source srcset="\assets\images\landing\page1\mobile\new-image\Ring-Spun-Yarn-Polyester-Thaipolyester.webp" alt="Ring Spun Yarn Polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
-                                <img src="\assets\images\landing\page1\desktop\new-image\Ring-Spun-Yarn-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Ring Spun Yarn Polyester Thaipolyester" loading="lazy">
+                                <source srcset="\assets\images\landing\page1\mobile\new-image\Ring-Spun-Yarn-Polyester-Thaipolyester.webp?v={{time()}}" alt="Ring Spun Yarn Polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
+                                <img src="\assets\images\landing\page1\desktop\new-image\Ring-Spun-Yarn-Polyester-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid ab-img" alt="Ring Spun Yarn Polyester Thaipolyester" loading="lazy">
                             </picture>
                             <div class="content_group d-flex pos-ab w-100p h-100p bottom-0">
                                 <div class="prod_name m-auto w-100p">
