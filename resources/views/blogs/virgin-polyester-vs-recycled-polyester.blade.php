@@ -17,8 +17,8 @@
                                 </picture>
                             </div>
                             <div class="content_group m-auto pos-ab w-100p h-100p d-flex">
-                                <h1 class="h-title text-center m-auto w-100p desktop">Virgin Polyester VS Recycled Polyester</h1>
-                                <h1 class="h-title text-center m-auto w-100p mobile"><span class="m-tl1">Virgin Polyester<br> VS<br> Recycled Polyester</span></h1>
+                                <h1 class="fw-600 h-title text-center m-auto w-100p desktop">Virgin Polyester VS Recycled Polyester</h1>
+                                <h1 class="fw-600 h-title text-center m-auto w-100p mobile"><span class="m-tl1">Virgin Polyester<br> VS<br> Recycled Polyester</span></h1>
                             </div>
                         </div>
                     </div>
@@ -287,7 +287,7 @@
                             <div class="content_group m-auto d-flex">
                                 <div class="img_block d-inline-b">
                                     <picture>
-                                        <source srcset="\assets\images\blogs\columns\vp-vs-rp\desktop\knitting-Process-Jongstit-Thaipolyester.webp" alt="knitting Process Jongstit Thaipolyester" media="(max-width: 640px)" loading="lazy">
+                                        <source srcset="\assets\images\blogs\columns\vp-vs-rp\mobile\knitting-Process-Jongstit-Thaipolyester.webp" alt="knitting Process Jongstit Thaipolyester" media="(max-width: 640px)" loading="lazy">
                                         <img src="\assets\images\blogs\columns\vp-vs-rp\desktop\knitting-Process-Jongstit-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="knitting Process Jongstit Thaipolyester" loading="lazy">
                                     </picture>
                                 </div>
