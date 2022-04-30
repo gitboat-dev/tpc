@@ -465,17 +465,11 @@
                     <div class="content_group m-auto text-center">
                         <h2 class="green-hl animate_flashing2">“PSF”</h2>
                         <h3 class="green-hl">
+                            Our BEST SELLING
                             <div class="img_block d-inline-b">
                                 <picture>
-                                    <source srcset="\assets\images\landing\page1\mobile\new-image\star-Icon.webp" alt="Recommended item" media="(max-width: 640px)" loading="lazy">
-                                    <img src="\assets\images\landing\page1\desktop\new-image\star-Icon.webp" width="900" height="350" class="img-fluid ab-img" alt="Recommended item" loading="lazy">
-                                </picture>
-                            </div>
-                            Recommended item
-                            <div class="img_block d-inline-b">
-                                <picture>
-                                    <source srcset="\assets\images\landing\page1\mobile\new-image\star-Icon.webp" alt="Recommended item" media="(max-width: 640px)" loading="lazy">
-                                    <img src="\assets\images\landing\page1\desktop\new-image\star-Icon.webp" width="900" height="350" class="img-fluid ab-img" alt="Recommended item" loading="lazy">
+                                    <source srcset="\assets\images\landing\page1\mobile\Icon-Best-TPC.webp" alt="Recommended item" media="(max-width: 640px)" loading="lazy">
+                                    <img src="\assets\images\landing\page1\desktop\Icon-Best-TPC.webp" width="900" height="350" class="img-fluid ab-img" alt="Recommended item" loading="lazy">
                                 </picture>
                             </div>
                         </h3>
@@ -524,8 +518,8 @@
             <div class="col-xs-12 col-sm-12 col-md-12 p-0 col3">
                 <div class="content_block d-flex pos-r">
                     <p class="p1 m-auto text-center">
-                        Our high-quality product can produce premium yarn grades and we are trusted by spinning mills all
-                        over the world.
+                        Our high-quality product can produce premium yarn grades, the color can be customized and
+                        we are trusted by spinning mills all over the world.
                     </p>
                 </div>
             </div>
@@ -662,9 +656,9 @@
             <div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
                 <div class="content_block d-flex pos-r">
                     <h2 class="theme-hl text-center m-auto">
-                        Why not go with the right supplier?<br>
-                        Who is always ready to provide you with<br>
-                        superior products and services!
+                        Why not go with the right supplier<br>
+                        to provide you with superior<br>
+                        products and services?
                     </h2>
                 </div>
             </div>
@@ -688,8 +682,8 @@
             <div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
                 <div class="content_block d-flex pos-r">
                     <h2 class="text-center m-auto">
-                        Two reasons why you can compete in the<br>
-                        market with our service…
+                        Three reasons why you can compete<br>
+                        in the market with our product…
                     </h2>
                 </div>
             </div>
@@ -722,6 +716,13 @@
                         With our 80 years of experience, we can help you figure out solutions!<br>
                         We are certified by Intertek, GRS, and OEKO-tex standards.
                     </p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 p-0 col6">
+                <div class="content_block d-flex pos-r">
+                    <h2 class="red-hl text-center m-auto">
+                        <span class="circle">3</span> Our Services
+                    </h2>
                 </div>
             </div>
         </div>
@@ -868,7 +869,7 @@
             <div class="col-xs-12 col-sm-12 col-md-12 p-0">
                 <div class="content_block d-flex pos-r">
                     <h2 class="text-center m-auto">
-                        Read what our customers have to say about us:
+                        Our Testimonials
                     </h2>
                 </div>
             </div>
@@ -946,8 +947,8 @@
                         <label class="theme-hl">1. You can try our product as a sample for FREE!</label><br>
                         <label class="theme-hl">2. You can ignore this offer and continue dealing with the problems above …</label><br>
                         The choice is clear.<br>
-                        If you don't want to face with the above issues, give it a try, and you'll see how you can get a 30%<br>
-                        higher profit!
+                        If you don't want to face with the above issues, just try, and <b>you'll see how you can get a 30%<br>
+                        higher profit!</b>
                     </p>
                 </div>
             </div>
