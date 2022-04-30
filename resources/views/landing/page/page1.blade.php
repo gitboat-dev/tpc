@@ -92,6 +92,65 @@
             <div class="col-xs-12 col-sm-12 col-md-12 p-0">
                 <div class="content_block">
                     <table>
+                        <tr>
+                            <th width="23.5%">FIBER</td>
+                            <th width="23.5%">DENIER</td>
+                            <th width="15%">
+                                CUT<br>
+                                LENGTH<br>
+                                (MM)
+                            </td>
+                            <th width="19%">TYPE</td>
+                            <th width="19%">COLOR</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2" class="fw-600">
+                                <div class="img_block d-flex">
+                                    <picture class="m-auto">
+                                        <source srcset="\assets\images\landing\page1\mobile\Polyester-Staple-Fiber-landing-page-Raw-Black-TPC-Thaipolyester.webp" alt="PSF Virgin" media="(max-width: 640px)" loading="lazy">
+                                        <img src="\assets\images\landing\page1\desktop\Polyester-Staple-Fiber-landing-page-Raw-Black-TPC-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="PSF Virgin" loading="lazy">
+                                    </picture>
+                                </div>
+                                PSF Virgin
+                            </td>
+                            <td><b>*1.0,1.2*</b></td>
+                            <td rowspan="2">
+                                32,38,<br>
+                                44,51
+                            </td>
+                            <td rowspan="2">Virgin</td>
+                            <td>RW</td>
+                        </tr>
+                        <tr>
+                            <td>1.4</td>
+                            <td>DDB</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2" class="fw-600">
+                                <div class="img_block d-flex">
+                                    <picture class="m-auto">
+                                        <source srcset="\assets\images\landing\page1\mobile\Polyester-Staple-Fiber-landing-page-Raw-white-TPC-Thaipolyester.webp" alt="PSF Recycled" media="(max-width: 640px)" loading="lazy">
+                                        <img src="\assets\images\landing\page1\desktop\Polyester-Staple-Fiber-landing-page-Raw-white-TPC-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="PSF Recycled" loading="lazy">
+                                    </picture>
+                                </div>
+                                PSF Recycled
+                            </td>
+                            <td><b>*1.2*</b></td>
+                            <td rowspan="2">
+                                32,38,<br>
+                                44,51
+                            </td>
+                            <td rowspan="2">Recycled</td>
+                            <td>RW</td>
+                        </tr>
+                        <tr>
+                            <td>1.4</td>
+                            <td>DDB</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="content_block">
+                    <table>
                         <thead>
                             <tr>
                                 <th width="23.5%">YARN TYPE</td>
@@ -103,7 +162,15 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td rowspan="5" class="fw-600">Partially Oriented Yarn<br>(POY)</td>
+                                <td rowspan="5" class="fw-600">
+                                    <div class="img_block d-flex">
+                                        <picture class="m-auto">
+                                            <source srcset="\assets\images\landing\page1\mobile\Fully-Drawn-Yarn-Dope-Dyed-Black-landing-page-TPC-Thaipolyester.webp" alt="POY Partially Oriented Yarn Polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
+                                            <img src="\assets\images\landing\page1\desktop\Fully-Drawn-Yarn-Dope-Dyed-Black-landing-page-TPC-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="POY Partially Oriented Yarn Polyester Thaipolyester" loading="lazy">
+                                        </picture>
+                                    </div>
+                                    Partially Oriented Yarn<br>(POY)
+                                </td>
                                 <td>85/36</td>
                                 <td rowspan="5">SD</td>
                                 <td rowspan="5">Virgin & Recycled</td>
@@ -122,7 +189,15 @@
                                 <td>500/96</td>
                             </tr>
                             <tr>
-                                <td rowspan="4" class="fw-600">Draw Textured Yarn<br>(DTY)</td>
+                                <td rowspan="4" class="fw-600">
+                                    <div class="img_block d-flex">
+                                        <picture class="m-auto">
+                                            <source srcset="\assets\images\landing\page1\mobile\Draw-textured-Yarn-landing-page-TPC-Thaipolyester.webp" alt="Draw Textured Yarn" media="(max-width: 640px)" loading="lazy">
+                                            <img src="\assets\images\landing\page1\desktop\Draw-textured-Yarn-landing-page-TPC-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Draw textured Yarn" loading="lazy">
+                                        </picture>
+                                    </div>
+                                    Draw Textured Yarn<br>(DTY)
+                                </td>
                                 <td>75/36,75/72,75/144</td>
                                 <td rowspan="4">SD</td>
                                 <td rowspan="4">Virgin & Recycled</td>
@@ -138,7 +213,15 @@
                                 <td>300/96</td>
                             </tr>
                             <tr>
-                                <td rowspan="6" class="fw-600">Fully Drawn Yarn<br>(FDY)</td>
+                                <td rowspan="6" class="fw-600">
+                                    <div class="img_block d-flex">
+                                        <picture class="m-auto">
+                                            <source srcset="\assets\images\landing\page1\mobile\Polyester-Partially-Oriented-Yarn-landing-page-TPC-Thaipolyester.webp" alt="Fully Drawn Yarn" media="(max-width: 640px)" loading="lazy">
+                                            <img src="\assets\images\landing\page1\desktop\Polyester-Partially-Oriented-Yarn-landing-page-TPC-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Fully Drawn Yarn" loading="lazy">
+                                        </picture>
+                                    </div>
+                                    Fully Drawn Yarn<br>(FDY)
+                                </td>
                                 <td>40/18,50/18</td>
                                 <td rowspan="6">SD,TBR</td>
                                 <td rowspan="6">Virgin & Recycled</td>
@@ -160,7 +243,15 @@
                                 <td>200/10,300/10</td>
                             </tr>
                             <tr>
-                                <td rowspan="5" class="fw-600">Twisted Yarn<br>(DTY)</td>
+                                <td rowspan="5" class="fw-600">
+                                    <div class="img_block d-flex">
+                                        <picture class="m-auto">
+                                            <source srcset="\assets\images\landing\page1\mobile\Twisting-Yarn-landing-page-Dope-Dyed-Black-TPC-Thaipolyester.webp" alt="Twisted Yarn (DTY)" media="(max-width: 640px)" loading="lazy">
+                                            <img src="\assets\images\landing\page1\desktop\Twisting-Yarn-landing-page-Dope-Dyed-Black-TPC-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Twisted Yarn (DTY)" loading="lazy">
+                                        </picture>
+                                    </div>
+                                    Twisted Yarn<br>(DTY)
+                                </td>
                                 <td>75/36/1 (Low - High Twisted)</td>
                                 <td rowspan="5">SD</td>
                                 <td rowspan="5">Virgin & Recycled</td>
@@ -179,7 +270,15 @@
                                 <td>150/48/1 (Low - High Twisted)</td>
                             </tr>
                             <tr>
-                                <td rowspan="3" class="fw-600">Twisted Yarn<br>(FDY)</td>
+                                <td rowspan="3" class="fw-600">
+                                    <div class="img_block d-flex">
+                                        <picture class="m-auto">
+                                            <source srcset="\assets\images\landing\page1\mobile\Twisting-Yarn-landing-page-Raw-white-TPC-Thaipolyester.webp" alt="Twisted Yarn (FDY)" media="(max-width: 640px)" loading="lazy">
+                                            <img src="\assets\images\landing\page1\desktop\Twisting-Yarn-landing-page-Raw-white-TPC-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Twisted Yarn (FDY)" loading="lazy">
+                                        </picture>
+                                    </div>
+                                    Twisted Yarn<br>(FDY)
+                                </td>
                                 <td>75/36/1 (Low - High Twisted)</td>
                                 <td rowspan="3">SD,TBR</td>
                                 <td rowspan="3">Virgin & Recycled</td>
@@ -204,7 +303,15 @@
                             <th width="19%">COLOR</td>
                         </tr>
                         <tr>
-                            <td rowspan="4" class="fw-600">OE SPUN</td>
+                            <td rowspan="4" class="fw-600">
+                                <div class="img_block d-flex">
+                                    <picture class="m-auto">
+                                        <source srcset="\assets\images\landing\page1\mobile\Open-End-Spun-Yarn-landing-page-Dope-Dyed-Black-TPC-Thaipolyester.webp" alt="OE SPUN" media="(max-width: 640px)" loading="lazy">
+                                        <img src="\assets\images\landing\page1\desktop\Open-End-Spun-Yarn-landing-page-Dope-Dyed-Black-TPC-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="OE SPUN" loading="lazy">
+                                    </picture>
+                                </div>
+                                OE SPUN
+                            </td>
                             <td>10/1,12/1,14/1</td>
                             <td rowspan="4">SD</td>
                             <td rowspan="4">Virgin & Recycled</td>
@@ -220,7 +327,15 @@
                             <td>20/2</td>
                         </tr>
                         <tr>
-                            <td rowspan="5" class="fw-600">RING SPUN</td>
+                            <td rowspan="5" class="fw-600">
+                                <div class="img_block d-flex">
+                                    <picture class="m-auto">
+                                        <source srcset="\assets\images\landing\page1\mobile\Ring-Spun-Yarn-landing-page-Raw-white-TPC-Thaipolyester.webp" alt="Ring Spun" media="(max-width: 640px)" loading="lazy">
+                                        <img src="\assets\images\landing\page1\desktop\Ring-Spun-Yarn-landing-page-Raw-white-TPC-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Ring Spun" loading="lazy">
+                                    </picture>
+                                </div>
+                                RING SPUN
+                            </td>
                             <td>18/1,20/1</td>
                             <td rowspan="5">SD</td>
                             <td rowspan="5">Virgin & Recycled</td>
@@ -706,7 +821,7 @@
     </section>
     <section id="sec12">
         <ul class="row m-0">
-            <li class="col-xs-12 col-sm-6 col-md-3">
+            <li class="col-xs-3 col-sm-3 col-md-3">
                 <div class="content_block pos-r">
                     <div class="img_block wow @if($chkmo) animate__backInUp @else animate__flipInX @endif">
                         <picture>
@@ -716,7 +831,7 @@
                     </div>
                 </div>
             </li>
-            <li class="col-xs-12 col-sm-6 col-md-3">
+            <li class="col-xs-3 col-sm-3 col-md-3">
                 <div class="content_block pos-r">
                     <div class="img_block wow @if($chkmo) animate__backInUp @else animate__flipInX @endif" data-wow-delay="0.2s">
                         <picture>
@@ -726,7 +841,7 @@
                     </div>
                 </div>
             </li>
-            <li class="col-xs-12 col-sm-6 col-md-3">
+            <li class="col-xs-3 col-sm-3 col-md-3">
                 <div class="content_block pos-r">
                     <div class="img_block wow @if($chkmo) animate__backInUp @else animate__flipInX @endif" data-wow-delay="0.4s">
                         <picture>
@@ -736,7 +851,7 @@
                     </div>
                 </div>
             </li>
-            <li class="col-xs-12 col-sm-6 col-md-3">
+            <li class="col-xs-3 col-sm-3 col-md-3">
                 <div class="content_block pos-r">
                     <div class="img_block wow @if($chkmo) animate__backInUp @else animate__flipInX @endif" data-wow-delay="0.6s">
                         <picture>

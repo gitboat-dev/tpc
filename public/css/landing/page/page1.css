@@ -730,6 +730,7 @@
         padding: 30px 40px;
     }
     #sec12 > ul li{
+        padding: 0 2.5px !important;
         margin-bottom: 15px;
     }
 
