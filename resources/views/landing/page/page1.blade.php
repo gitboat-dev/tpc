@@ -4,7 +4,7 @@
     <link rel="preload stylesheet" href="/css/landing/page/page1.min.css?v={{ time() }}" as="style" crossorigin>
     <link rel="stylesheet" id="fancybox-css" href="{!!asset('/assets/custom/wp-content/plugins/radiantthemes-addons/assets/css/jquery.fancybox.min.css?ver=4.9.11')!!}" type="text/css" media="all">
 @endsection
-@section('og-image','\assets\images\landing\page1\og-image\og-image.webp')
+@section('og-image','/assets/images/landing/page1/og-image/og-image.webp')
 @section('content')
 <div id="landing">
     <section id="sec1">
@@ -52,8 +52,8 @@
                         <div class="content_block">
                             <div class="img_block">
                                 <picture>
-                                    <source srcset="\assets\images\landing\page1\mobile\Ring-Spun-Process-Lindingpage-Thaipolyester.webp" alt="Ring Spun Process Thaipolyester" media="(max-width: 640px)" loading="lazy">
-                                    <img src="\assets\images\landing\page1\desktop\Ring-Spun-Process-Lindingpage-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Ring Spun Process Thaipolyester" loading="lazy">
+                                    <source srcset="/assets/images/landing/page1/mobile/Ring-Spun-Process-Lindingpage-Thaipolyester.webp" alt="Ring Spun Process Thaipolyester" media="(max-width: 640px)" loading="lazy">
+                                    <img src="/assets/images/landing/page1/desktop/Ring-Spun-Process-Lindingpage-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Ring Spun Process Thaipolyester" loading="lazy">
                                 </picture>
                             </div>
                         </div>
@@ -62,8 +62,8 @@
                         <div class="content_block">
                             <div class="img_block">
                                 <picture>
-                                    <source srcset="\assets\images\landing\page1\mobile\landing-page-Product-Draw-textured-yarn-Thai-Polyester-TPC-1.webp" alt="Product Draw textured yarn Thai Polyester TPC" media="(max-width: 640px)" loading="lazy">
-                                    <img src="\assets\images\landing\page1\desktop\landing-page-Product-Draw-textured-yarn-Thai-Polyester-TPC-1.webp" width="900" height="350" class="img-fluid ab-img" alt="Product Draw textured yarn Thai Polyester TPC" loading="lazy">
+                                    <source srcset="/assets/images/landing/page1/mobile/landing-page-Product-Draw-textured-yarn-Thai-Polyester-TPC-1.webp" alt="Product Draw textured yarn Thai Polyester TPC" media="(max-width: 640px)" loading="lazy">
+                                    <img src="/assets/images/landing/page1/desktop/landing-page-Product-Draw-textured-yarn-Thai-Polyester-TPC-1.webp" width="900" height="350" class="img-fluid ab-img" alt="Product Draw textured yarn Thai Polyester TPC" loading="lazy">
                                 </picture>
                             </div>
                         </div>
@@ -74,8 +74,8 @@
                 <div class="content_block">
                     <div class="img_block">
                         <picture>
-                            <source srcset="\assets\images\landing\page1\mobile\landing-page-Product-Draw-textured-yarn-Thai-Polyester-TPC.webp" alt="Product Draw textured yarn Thai Polyester TPC" media="(max-width: 640px)" loading="lazy">
-                            <img src="\assets\images\landing\page1\desktop\landing-page-Product-Draw-textured-yarn-Thai-Polyester-TPC.webp" width="900" height="350" class="img-fluid ab-img" alt="Product Draw textured yarn Thai Polyester TPC" loading="lazy">
+                            <source srcset="/assets/images/landing/page1/mobile/landing-page-Product-Draw-textured-yarn-Thai-Polyester-TPC.webp" alt="Product Draw textured yarn Thai Polyester TPC" media="(max-width: 640px)" loading="lazy">
+                            <img src="/assets/images/landing/page1/desktop/landing-page-Product-Draw-textured-yarn-Thai-Polyester-TPC.webp" width="900" height="350" class="img-fluid ab-img" alt="Product Draw textured yarn Thai Polyester TPC" loading="lazy">
                         </picture>
                     </div>
                 </div>
@@ -107,8 +107,8 @@
                             <td rowspan="2" class="fw-600">
                                 <div class="img_block d-flex">
                                     <picture class="m-auto">
-                                        <source srcset="\assets\images\landing\page1\mobile\Polyester-Staple-Fiber-landing-page-Raw-Black-TPC-Thaipolyester.webp" alt="PSF Virgin" media="(max-width: 640px)" loading="lazy">
-                                        <img src="\assets\images\landing\page1\desktop\Polyester-Staple-Fiber-landing-page-Raw-Black-TPC-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="PSF Virgin" loading="lazy">
+                                        <source srcset="/assets/images/landing/page1/mobile/Polyester-Staple-Fiber-landing-page-Raw-Black-TPC-Thaipolyester.webp" alt="PSF Virgin" media="(max-width: 640px)" loading="lazy">
+                                        <img src="/assets/images/landing/page1/desktop/Polyester-Staple-Fiber-landing-page-Raw-Black-TPC-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="PSF Virgin" loading="lazy">
                                     </picture>
                                 </div>
                                 PSF Virgin
@@ -129,8 +129,8 @@
                             <td rowspan="2" class="fw-600">
                                 <div class="img_block d-flex">
                                     <picture class="m-auto">
-                                        <source srcset="\assets\images\landing\page1\mobile\Polyester-Staple-Fiber-landing-page-Raw-white-TPC-Thaipolyester.webp" alt="PSF Recycled" media="(max-width: 640px)" loading="lazy">
-                                        <img src="\assets\images\landing\page1\desktop\Polyester-Staple-Fiber-landing-page-Raw-white-TPC-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="PSF Recycled" loading="lazy">
+                                        <source srcset="/assets/images/landing/page1/mobile/Polyester-Staple-Fiber-landing-page-Raw-white-TPC-Thaipolyester.webp" alt="PSF Recycled" media="(max-width: 640px)" loading="lazy">
+                                        <img src="/assets/images/landing/page1/desktop/Polyester-Staple-Fiber-landing-page-Raw-white-TPC-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="PSF Recycled" loading="lazy">
                                     </picture>
                                 </div>
                                 PSF Recycled
@@ -165,8 +165,8 @@
                                 <td rowspan="5" class="fw-600">
                                     <div class="img_block d-flex">
                                         <picture class="m-auto">
-                                            <source srcset="\assets\images\landing\page1\mobile\Fully-Drawn-Yarn-Dope-Dyed-Black-landing-page-TPC-Thaipolyester.webp" alt="POY Partially Oriented Yarn Polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
-                                            <img src="\assets\images\landing\page1\desktop\Fully-Drawn-Yarn-Dope-Dyed-Black-landing-page-TPC-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="POY Partially Oriented Yarn Polyester Thaipolyester" loading="lazy">
+                                            <source srcset="/assets/images/landing/page1/mobile/Fully-Drawn-Yarn-Dope-Dyed-Black-landing-page-TPC-Thaipolyester.webp" alt="POY Partially Oriented Yarn Polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
+                                            <img src="/assets/images/landing/page1/desktop/Fully-Drawn-Yarn-Dope-Dyed-Black-landing-page-TPC-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="POY Partially Oriented Yarn Polyester Thaipolyester" loading="lazy">
                                         </picture>
                                     </div>
                                     Partially Oriented Yarn<br>(POY)
@@ -192,8 +192,8 @@
                                 <td rowspan="4" class="fw-600">
                                     <div class="img_block d-flex">
                                         <picture class="m-auto">
-                                            <source srcset="\assets\images\landing\page1\mobile\Draw-textured-Yarn-landing-page-TPC-Thaipolyester.webp" alt="Draw Textured Yarn" media="(max-width: 640px)" loading="lazy">
-                                            <img src="\assets\images\landing\page1\desktop\Draw-textured-Yarn-landing-page-TPC-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Draw textured Yarn" loading="lazy">
+                                            <source srcset="/assets/images/landing/page1/mobile/Draw-textured-Yarn-landing-page-TPC-Thaipolyester.webp" alt="Draw Textured Yarn" media="(max-width: 640px)" loading="lazy">
+                                            <img src="/assets/images/landing/page1/desktop/Draw-textured-Yarn-landing-page-TPC-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Draw textured Yarn" loading="lazy">
                                         </picture>
                                     </div>
                                     Draw Textured Yarn<br>(DTY)
@@ -216,8 +216,8 @@
                                 <td rowspan="6" class="fw-600">
                                     <div class="img_block d-flex">
                                         <picture class="m-auto">
-                                            <source srcset="\assets\images\landing\page1\mobile\Polyester-Partially-Oriented-Yarn-landing-page-TPC-Thaipolyester.webp" alt="Fully Drawn Yarn" media="(max-width: 640px)" loading="lazy">
-                                            <img src="\assets\images\landing\page1\desktop\Polyester-Partially-Oriented-Yarn-landing-page-TPC-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Fully Drawn Yarn" loading="lazy">
+                                            <source srcset="/assets/images/landing/page1/mobile/Polyester-Partially-Oriented-Yarn-landing-page-TPC-Thaipolyester.webp" alt="Fully Drawn Yarn" media="(max-width: 640px)" loading="lazy">
+                                            <img src="/assets/images/landing/page1/desktop/Polyester-Partially-Oriented-Yarn-landing-page-TPC-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Fully Drawn Yarn" loading="lazy">
                                         </picture>
                                     </div>
                                     Fully Drawn Yarn<br>(FDY)
@@ -246,8 +246,8 @@
                                 <td rowspan="5" class="fw-600">
                                     <div class="img_block d-flex">
                                         <picture class="m-auto">
-                                            <source srcset="\assets\images\landing\page1\mobile\Twisting-Yarn-landing-page-Dope-Dyed-Black-TPC-Thaipolyester.webp" alt="Twisted Yarn (DTY)" media="(max-width: 640px)" loading="lazy">
-                                            <img src="\assets\images\landing\page1\desktop\Twisting-Yarn-landing-page-Dope-Dyed-Black-TPC-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Twisted Yarn (DTY)" loading="lazy">
+                                            <source srcset="/assets/images/landing/page1/mobile/Twisting-Yarn-landing-page-Dope-Dyed-Black-TPC-Thaipolyester.webp" alt="Twisted Yarn (DTY)" media="(max-width: 640px)" loading="lazy">
+                                            <img src="/assets/images/landing/page1/desktop/Twisting-Yarn-landing-page-Dope-Dyed-Black-TPC-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Twisted Yarn (DTY)" loading="lazy">
                                         </picture>
                                     </div>
                                     Twisted Yarn<br>(DTY)
@@ -273,8 +273,8 @@
                                 <td rowspan="3" class="fw-600">
                                     <div class="img_block d-flex">
                                         <picture class="m-auto">
-                                            <source srcset="\assets\images\landing\page1\mobile\Twisting-Yarn-landing-page-Raw-white-TPC-Thaipolyester.webp" alt="Twisted Yarn (FDY)" media="(max-width: 640px)" loading="lazy">
-                                            <img src="\assets\images\landing\page1\desktop\Twisting-Yarn-landing-page-Raw-white-TPC-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Twisted Yarn (FDY)" loading="lazy">
+                                            <source srcset="/assets/images/landing/page1/mobile/Twisting-Yarn-landing-page-Raw-white-TPC-Thaipolyester.webp" alt="Twisted Yarn (FDY)" media="(max-width: 640px)" loading="lazy">
+                                            <img src="/assets/images/landing/page1/desktop/Twisting-Yarn-landing-page-Raw-white-TPC-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Twisted Yarn (FDY)" loading="lazy">
                                         </picture>
                                     </div>
                                     Twisted Yarn<br>(FDY)
@@ -306,8 +306,8 @@
                             <td rowspan="4" class="fw-600">
                                 <div class="img_block d-flex">
                                     <picture class="m-auto">
-                                        <source srcset="\assets\images\landing\page1\mobile\Open-End-Spun-Yarn-landing-page-Dope-Dyed-Black-TPC-Thaipolyester.webp" alt="OE SPUN" media="(max-width: 640px)" loading="lazy">
-                                        <img src="\assets\images\landing\page1\desktop\Open-End-Spun-Yarn-landing-page-Dope-Dyed-Black-TPC-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="OE SPUN" loading="lazy">
+                                        <source srcset="/assets/images/landing/page1/mobile/Open-End-Spun-Yarn-landing-page-Dope-Dyed-Black-TPC-Thaipolyester.webp" alt="OE SPUN" media="(max-width: 640px)" loading="lazy">
+                                        <img src="/assets/images/landing/page1/desktop/Open-End-Spun-Yarn-landing-page-Dope-Dyed-Black-TPC-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="OE SPUN" loading="lazy">
                                     </picture>
                                 </div>
                                 OE SPUN
@@ -330,8 +330,8 @@
                             <td rowspan="5" class="fw-600">
                                 <div class="img_block d-flex">
                                     <picture class="m-auto">
-                                        <source srcset="\assets\images\landing\page1\mobile\Ring-Spun-Yarn-landing-page-Raw-white-TPC-Thaipolyester.webp" alt="Ring Spun" media="(max-width: 640px)" loading="lazy">
-                                        <img src="\assets\images\landing\page1\desktop\Ring-Spun-Yarn-landing-page-Raw-white-TPC-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Ring Spun" loading="lazy">
+                                        <source srcset="/assets/images/landing/page1/mobile/Ring-Spun-Yarn-landing-page-Raw-white-TPC-Thaipolyester.webp" alt="Ring Spun" media="(max-width: 640px)" loading="lazy">
+                                        <img src="/assets/images/landing/page1/desktop/Ring-Spun-Yarn-landing-page-Raw-white-TPC-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Ring Spun" loading="lazy">
                                     </picture>
                                 </div>
                                 RING SPUN
@@ -365,8 +365,8 @@
                     <div class="img_block">
                         <a href="{{ route('product.psf') }}" title="PSF Polyester Staple Fiber" target="_blank">
                             <picture>
-                                <source srcset="\assets\images\landing\page1\mobile\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester.webp?v={{time()}}" alt="Polyester Partially Oriented Yarn TPC Thaipolyester" media="(max-width: 640px)" loading="lazy">
-                                <img src="\assets\images\landing\page1\desktop\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester.webp?v={{time()}}" alt="PSF Polyester Staple Fiber Thaipolyester" loading="lazy">
+                                <source srcset="/assets/images/landing/page1/mobile/new-image/PSF-Polyester-Staple-Fiber-Thaipolyester.webp?v={{time()}}" alt="Polyester Partially Oriented Yarn TPC Thaipolyester" media="(max-width: 640px)" loading="lazy">
+                                <img src="/assets/images/landing/page1/desktop/new-image/PSF-Polyester-Staple-Fiber-Thaipolyester.webp?v={{time()}}" alt="PSF Polyester Staple Fiber Thaipolyester" loading="lazy">
                             </picture>
                             <div class="content_group d-flex pos-ab w-100p h-100p bottom-0">
                                 <div class="prod_name m-auto w-100p">
@@ -383,8 +383,8 @@
                     <div class="img_block">
                         <a href="{{ route('product.dty') }}" title="DTY Draw Textured Yarn Polyester" target="_blank">
                             <picture>
-                                <source srcset="\assets\images\landing\page1\mobile\new-image\DTY-Draw-Textured-Yarn-Polyester-Thaipolyester.webp?v={{time()}}" alt="DTY Draw Textured Yarn Polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
-                                <img src="\assets\images\landing\page1\desktop\new-image\DTY-Draw-Textured-Yarn-Polyester-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid ab-img" alt="DTY Draw Textured Yarn Polyester Thaipolyester" loading="lazy">
+                                <source srcset="/assets/images/landing/page1/mobile/new-image/DTY-Draw-Textured-Yarn-Polyester-Thaipolyester.webp?v={{time()}}" alt="DTY Draw Textured Yarn Polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
+                                <img src="/assets/images/landing/page1/desktop/new-image/DTY-Draw-Textured-Yarn-Polyester-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid ab-img" alt="DTY Draw Textured Yarn Polyester Thaipolyester" loading="lazy">
                             </picture>
                             <div class="content_group d-flex pos-ab w-100p h-100p bottom-0">
                                 <div class="prod_name m-auto w-100p">
@@ -401,8 +401,8 @@
                     <div class="img_block">
                         <a href="{{ route('product.poy') }}" title="POY Partially Oriented Yarn Polyester" target="_blank">
                             <picture>
-                                <source srcset="\assets\images\landing\page1\mobile\new-image\POY-Partially-Oriented-Yarn-Polyester-Thaipolyester.webp?v={{time()}}" alt="POY Partially Oriented Yarn Polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
-                                <img src="\assets\images\landing\page1\desktop\new-image\POY-Partially-Oriented-Yarn-Polyester-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid ab-img" alt="POY Partially Oriented Yarn Polyester Thaipolyester" loading="lazy">
+                                <source srcset="/assets/images/landing/page1/mobile/new-image/POY-Partially-Oriented-Yarn-Polyester-Thaipolyester.webp?v={{time()}}" alt="POY Partially Oriented Yarn Polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
+                                <img src="/assets/images/landing/page1/desktop/new-image/POY-Partially-Oriented-Yarn-Polyester-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid ab-img" alt="POY Partially Oriented Yarn Polyester Thaipolyester" loading="lazy">
                             </picture>
                             <div class="content_group d-flex pos-ab w-100p h-100p bottom-0">
                                 <div class="prod_name m-auto w-100p">
@@ -419,8 +419,8 @@
                     <div class="img_block">
                         <a href="{{ route('product.fdy') }}" title="FDY Fully Drawn Yarn Polyester" target="_blank">
                             <picture>
-                                <source srcset="\assets\images\landing\page1\mobile\new-image\FDY-Fully-Drawn-Yarn-Polyester-Thaipolyester.webp?v={{time()}}" alt="FDY Fully Drawn Yarn Polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
-                                <img src="\assets\images\landing\page1\desktop\new-image\FDY-Fully-Drawn-Yarn-Polyester-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid ab-img" alt="FDY Fully Drawn Yarn Polyester Thaipolyester" loading="lazy">
+                                <source srcset="/assets/images/landing/page1/mobile/new-image/FDY-Fully-Drawn-Yarn-Polyester-Thaipolyester.webp?v={{time()}}" alt="FDY Fully Drawn Yarn Polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
+                                <img src="/assets/images/landing/page1/desktop/new-image/FDY-Fully-Drawn-Yarn-Polyester-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid ab-img" alt="FDY Fully Drawn Yarn Polyester Thaipolyester" loading="lazy">
                             </picture>
                             <div class="content_group d-flex pos-ab w-100p h-100p bottom-0">
                                 <div class="prod_name m-auto w-100p">
@@ -437,8 +437,8 @@
                     <div class="img_block">
                         <a href="{{ route('product.twisted-yarn') }}" title="Twisted Yarn DTY polyester" target="_blank">
                             <picture>
-                                <source srcset="\assets\images\landing\page1\mobile\new-image\Twist-Yarn-DTY-polyester-Thaipolyester.webp?v={{time()}}" alt="Twisted Yarn DTY polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
-                                <img src="\assets\images\landing\page1\desktop\new-image\Twist-Yarn-DTY-polyester-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid ab-img" alt="Twisted Yarn DTY polyester Thaipolyester" loading="lazy">
+                                <source srcset="/assets/images/landing/page1/mobile/new-image/Twist-Yarn-DTY-polyester-Thaipolyester.webp?v={{time()}}" alt="Twisted Yarn DTY polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
+                                <img src="/assets/images/landing/page1/desktop/new-image/Twist-Yarn-DTY-polyester-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid ab-img" alt="Twisted Yarn DTY polyester Thaipolyester" loading="lazy">
                             </picture>
                             <div class="content_group d-flex pos-ab w-100p h-100p bottom-0">
                                 <div class="prod_name m-auto w-100p">
@@ -455,8 +455,8 @@
                     <div class="img_block">
                         <a href="{{ route('product.twisted-yarn') }}" title="Twist Yarn FDY polyester" target="_blank">
                             <picture>
-                                <source srcset="\assets\images\landing\page1\mobile\new-image\Twist-Yarn-FDY-polyester-Thaipolyester.webp?v={{time()}}" alt="Twist Yarn FDY polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
-                                <img src="\assets\images\landing\page1\desktop\new-image\Twist-Yarn-FDY-polyester-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid ab-img" alt="Twist Yarn FDY polyester Thaipolyester" loading="lazy">
+                                <source srcset="/assets/images/landing/page1/mobile/new-image/Twist-Yarn-FDY-polyester-Thaipolyester.webp?v={{time()}}" alt="Twist Yarn FDY polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
+                                <img src="/assets/images/landing/page1/desktop/new-image/Twist-Yarn-FDY-polyester-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid ab-img" alt="Twist Yarn FDY polyester Thaipolyester" loading="lazy">
                             </picture>
                             <div class="content_group d-flex pos-ab w-100p h-100p bottom-0">
                                 <div class="prod_name m-auto w-100p">
@@ -473,8 +473,8 @@
                     <div class="img_block">
                         <a href="{!!url('/open-end')!!}" title="OE Open End Spun Yarn Polyester" target="_blank">
                             <picture>
-                                <source srcset="\assets\images\landing\page1\mobile\new-image\OE-Open-End-Spun-Yarn-Polyester-Thaipolyester.webp?v={{time()}}" alt="OE Open End Spun Yarn Polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
-                                <img src="\assets\images\landing\page1\desktop\new-image\OE-Open-End-Spun-Yarn-Polyester-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid ab-img" alt="OE Open End Spun Yarn Polyester Thaipolyester" loading="lazy">
+                                <source srcset="/assets/images/landing/page1/mobile/new-image/OE-Open-End-Spun-Yarn-Polyester-Thaipolyester.webp?v={{time()}}" alt="OE Open End Spun Yarn Polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
+                                <img src="/assets/images/landing/page1/desktop/new-image/OE-Open-End-Spun-Yarn-Polyester-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid ab-img" alt="OE Open End Spun Yarn Polyester Thaipolyester" loading="lazy">
                             </picture>
                             <div class="content_group d-flex pos-ab w-100p h-100p bottom-0">
                                 <div class="prod_name m-auto w-100p">
@@ -491,8 +491,8 @@
                     <div class="img_block">
                         <a href="{{ route('product.ring-spun') }}" title="Ring Spun Yarn Polyester" target="_blank">
                             <picture>
-                                <source srcset="\assets\images\landing\page1\mobile\new-image\Ring-Spun-Yarn-Polyester-Thaipolyester.webp?v={{time()}}" alt="Ring Spun Yarn Polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
-                                <img src="\assets\images\landing\page1\desktop\new-image\Ring-Spun-Yarn-Polyester-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid ab-img" alt="Ring Spun Yarn Polyester Thaipolyester" loading="lazy">
+                                <source srcset="/assets/images/landing/page1/mobile/new-image/Ring-Spun-Yarn-Polyester-Thaipolyester.webp?v={{time()}}" alt="Ring Spun Yarn Polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
+                                <img src="/assets/images/landing/page1/desktop/new-image/Ring-Spun-Yarn-Polyester-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid ab-img" alt="Ring Spun Yarn Polyester Thaipolyester" loading="lazy">
                             </picture>
                             <div class="content_group d-flex pos-ab w-100p h-100p bottom-0">
                                 <div class="prod_name m-auto w-100p">
@@ -516,8 +516,8 @@
                             Our BEST SELLING
                             <div class="img_block d-inline-b">
                                 <picture>
-                                    <source srcset="\assets\images\landing\page1\mobile\Icon-Best-TPC.webp" alt="Recommended item" media="(max-width: 640px)" loading="lazy">
-                                    <img src="\assets\images\landing\page1\desktop\Icon-Best-TPC.webp" width="900" height="350" class="img-fluid ab-img" alt="Recommended item" loading="lazy">
+                                    <source srcset="/assets/images/landing/page1/mobile/Icon-Best-TPC.webp" alt="Recommended item" media="(max-width: 640px)" loading="lazy">
+                                    <img src="/assets/images/landing/page1/desktop/Icon-Best-TPC.webp" width="900" height="350" class="img-fluid ab-img" alt="Recommended item" loading="lazy">
                                 </picture>
                             </div>
                         </h3>
@@ -577,16 +577,16 @@
                         <li class="col-xs-6 col-sm-6 col-md-6 p-0">
                             <div class="img_block">
                                 <picture>
-                                    <source srcset="\assets\images\landing\page1\mobile\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-White.webp" alt="PSF Polyester Staple Fiber Thaipolyester White" media="(max-width: 640px)" loading="lazy">
-                                    <img src="\assets\images\landing\page1\desktop\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-White.webp" width="900" height="350" class="img-fluid ab-img" alt="PSF Polyester Staple Fiber Thaipolyester White" loading="lazy">
+                                    <source srcset="/assets/images/landing/page1/mobile/new-image/PSF-Polyester-Staple-Fiber-Thaipolyester-White.webp" alt="PSF Polyester Staple Fiber Thaipolyester White" media="(max-width: 640px)" loading="lazy">
+                                    <img src="/assets/images/landing/page1/desktop/new-image/PSF-Polyester-Staple-Fiber-Thaipolyester-White.webp" width="900" height="350" class="img-fluid ab-img" alt="PSF Polyester Staple Fiber Thaipolyester White" loading="lazy">
                                 </picture>
                             </div>
                         </li>
                         <li class="col-xs-6 col-sm-6 col-md-6 p-0">
                             <div class="img_block">
                                 <picture>
-                                    <source srcset="\assets\images\landing\page1\mobile\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-Black.webp" alt="PSF Polyester Staple Fiber Thaipolyester Black" media="(max-width: 640px)" loading="lazy">
-                                    <img src="\assets\images\landing\page1\desktop\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-Black.webp" width="900" height="350" class="img-fluid ab-img" alt="PSF Polyester Staple Fiber Thaipolyester Black" loading="lazy">
+                                    <source srcset="/assets/images/landing/page1/mobile/new-image/PSF-Polyester-Staple-Fiber-Thaipolyester-Black.webp" alt="PSF Polyester Staple Fiber Thaipolyester Black" media="(max-width: 640px)" loading="lazy">
+                                    <img src="/assets/images/landing/page1/desktop/new-image/PSF-Polyester-Staple-Fiber-Thaipolyester-Black.webp" width="900" height="350" class="img-fluid ab-img" alt="PSF Polyester Staple Fiber Thaipolyester Black" loading="lazy">
                                 </picture>
                             </div>
                         </li>
@@ -597,48 +597,48 @@
                         <li class="col-xs-4 col-sm-4 col-md-4 p-0">
                             <div class="img_block">
                                 <picture>
-                                    <source srcset="\assets\images\landing\page1\mobile\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-Grey.webp" alt="PSF Polyester Staple Fiber Thaipolyester Grey" media="(max-width: 640px)" loading="lazy">
-                                    <img src="\assets\images\landing\page1\desktop\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-Grey.webp" width="900" height="350" class="img-fluid ab-img" alt="PSF Polyester Staple Fiber Thaipolyester Grey" loading="lazy">
+                                    <source srcset="/assets/images/landing/page1/mobile/new-image/PSF-Polyester-Staple-Fiber-Thaipolyester-Grey.webp" alt="PSF Polyester Staple Fiber Thaipolyester Grey" media="(max-width: 640px)" loading="lazy">
+                                    <img src="/assets/images/landing/page1/desktop/new-image/PSF-Polyester-Staple-Fiber-Thaipolyester-Grey.webp" width="900" height="350" class="img-fluid ab-img" alt="PSF Polyester Staple Fiber Thaipolyester Grey" loading="lazy">
                                 </picture>
                             </div>
                         </li>
                         <li class="col-xs-4 col-sm-4 col-md-4 p-0">
                             <div class="img_block">
                                 <picture>
-                                    <source srcset="\assets\images\landing\page1\mobile\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-Light-Grey.webp" alt="PSF Polyester Staple Fiber Thaipolyester Light Grey" media="(max-width: 640px)" loading="lazy">
-                                    <img src="\assets\images\landing\page1\desktop\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-Light-Grey.webp" width="900" height="350" class="img-fluid ab-img" alt="PSF Polyester Staple Fiber Thaipolyester Light Grey" loading="lazy">
+                                    <source srcset="/assets/images/landing/page1/mobile/new-image/PSF-Polyester-Staple-Fiber-Thaipolyester-Light-Grey.webp" alt="PSF Polyester Staple Fiber Thaipolyester Light Grey" media="(max-width: 640px)" loading="lazy">
+                                    <img src="/assets/images/landing/page1/desktop/new-image/PSF-Polyester-Staple-Fiber-Thaipolyester-Light-Grey.webp" width="900" height="350" class="img-fluid ab-img" alt="PSF Polyester Staple Fiber Thaipolyester Light Grey" loading="lazy">
                                 </picture>
                             </div>
                         </li>
                         <li class="col-xs-4 col-sm-4 col-md-4 p-0">
                             <div class="img_block">
                                 <picture>
-                                    <source srcset="\assets\images\landing\page1\mobile\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-Brown.webp" alt="PSF Polyester Staple Fiber Thaipolyester Brown" media="(max-width: 640px)" loading="lazy">
-                                    <img src="\assets\images\landing\page1\desktop\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-Brown.webp" width="900" height="350" class="img-fluid ab-img" alt="PSF Polyester Staple Fiber Thaipolyester Brown" loading="lazy">
+                                    <source srcset="/assets/images/landing/page1/mobile/new-image/PSF-Polyester-Staple-Fiber-Thaipolyester-Brown.webp" alt="PSF Polyester Staple Fiber Thaipolyester Brown" media="(max-width: 640px)" loading="lazy">
+                                    <img src="/assets/images/landing/page1/desktop/new-image/PSF-Polyester-Staple-Fiber-Thaipolyester-Brown.webp" width="900" height="350" class="img-fluid ab-img" alt="PSF Polyester Staple Fiber Thaipolyester Brown" loading="lazy">
                                 </picture>
                             </div>
                         </li>
                         <li class="col-xs-4 col-sm-4 col-md-4 p-0">
                             <div class="img_block">
                                 <picture>
-                                    <source srcset="\assets\images\landing\page1\desktop\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-sea-blue-3.webp" alt="PSF Polyester Staple Fiber Thaipolyester sea blue" media="(max-width: 640px)" loading="lazy">
-                                    <img src="\assets\images\landing\page1\desktop\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-sea-blue-3.webp" width="900" height="350" class="img-fluid ab-img" alt="PSF Polyester Staple Fiber Thaipolyester sea blue" loading="lazy">
+                                    <source srcset="/assets/images/landing/page1/desktop/new-image/PSF-Polyester-Staple-Fiber-Thaipolyester-sea-blue-3.webp" alt="PSF Polyester Staple Fiber Thaipolyester sea blue" media="(max-width: 640px)" loading="lazy">
+                                    <img src="/assets/images/landing/page1/desktop/new-image/PSF-Polyester-Staple-Fiber-Thaipolyester-sea-blue-3.webp" width="900" height="350" class="img-fluid ab-img" alt="PSF Polyester Staple Fiber Thaipolyester sea blue" loading="lazy">
                                 </picture>
                             </div>
                         </li>
                         <li class="col-xs-4 col-sm-4 col-md-4 p-0">
                             <div class="img_block">
                                 <picture>
-                                    <source srcset="\assets\images\landing\page1\mobile\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-sea-blue-2.webp" alt="PSF Polyester Staple Fiber Thaipolyester sea blue" media="(max-width: 640px)" loading="lazy">
-                                    <img src="\assets\images\landing\page1\desktop\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-sea-blue-2.webp" width="900" height="350" class="img-fluid ab-img" alt="PSF Polyester Staple Fiber Thaipolyester sea blue" loading="lazy">
+                                    <source srcset="/assets/images/landing/page1/mobile/new-image/PSF-Polyester-Staple-Fiber-Thaipolyester-sea-blue-2.webp" alt="PSF Polyester Staple Fiber Thaipolyester sea blue" media="(max-width: 640px)" loading="lazy">
+                                    <img src="/assets/images/landing/page1/desktop/new-image/PSF-Polyester-Staple-Fiber-Thaipolyester-sea-blue-2.webp" width="900" height="350" class="img-fluid ab-img" alt="PSF Polyester Staple Fiber Thaipolyester sea blue" loading="lazy">
                                 </picture>
                             </div>
                         </li>
                         <li class="col-xs-4 col-sm-4 col-md-4 p-0">
                             <div class="img_block">
                                 <picture>
-                                    <source srcset="\assets\images\landing\page1\mobile\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-sea-blue-1.webp" alt="PSF Polyester Staple Fiber Thaipolyester sea blue" media="(max-width: 640px)" loading="lazy">
-                                    <img src="\assets\images\landing\page1\desktop\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-sea-blue-1.webp" width="900" height="350" class="img-fluid ab-img" alt="PSF Polyester Staple Fiber Thaipolyester sea blue" loading="lazy">
+                                    <source srcset="/assets/images/landing/page1/mobile/new-image/PSF-Polyester-Staple-Fiber-Thaipolyester-sea-blue-1.webp" alt="PSF Polyester Staple Fiber Thaipolyester sea blue" media="(max-width: 640px)" loading="lazy">
+                                    <img src="/assets/images/landing/page1/desktop/new-image/PSF-Polyester-Staple-Fiber-Thaipolyester-sea-blue-1.webp" width="900" height="350" class="img-fluid ab-img" alt="PSF Polyester Staple Fiber Thaipolyester sea blue" loading="lazy">
                                 </picture>
                             </div>
                         </li>
@@ -649,48 +649,48 @@
                         <li class="col-xs-4 col-sm-4 col-md-4 p-0">
                             <div class="img_block">
                                 <picture>
-                                    <source srcset="\assets\images\landing\page1\mobile\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-magenta.webp" alt="PSF Polyester Staple Fiber Thaipolyester magenta" media="(max-width: 640px)" loading="lazy">
-                                    <img src="\assets\images\landing\page1\desktop\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-magenta.webp" width="900" height="350" class="img-fluid ab-img" alt="PSF Polyester Staple Fiber Thaipolyester magenta" loading="lazy">
+                                    <source srcset="/assets/images/landing/page1/mobile/new-image/PSF-Polyester-Staple-Fiber-Thaipolyester-magenta.webp" alt="PSF Polyester Staple Fiber Thaipolyester magenta" media="(max-width: 640px)" loading="lazy">
+                                    <img src="/assets/images/landing/page1/desktop/new-image/PSF-Polyester-Staple-Fiber-Thaipolyester-magenta.webp" width="900" height="350" class="img-fluid ab-img" alt="PSF Polyester Staple Fiber Thaipolyester magenta" loading="lazy">
                                 </picture>
                             </div>
                         </li>
                         <li class="col-xs-4 col-sm-4 col-md-4 p-0">
                             <div class="img_block">
                                 <picture>
-                                    <source srcset="\assets\images\landing\page1\mobile\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-Orenge.webp" alt="PSF Polyester Staple Fiber Thaipolyester Orenge" media="(max-width: 640px)" loading="lazy">
-                                    <img src="\assets\images\landing\page1\desktop\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-Orenge.webp" width="900" height="350" class="img-fluid ab-img" alt="PSF Polyester Staple Fiber Thaipolyester Orenge" loading="lazy">
+                                    <source srcset="/assets/images/landing/page1/mobile/new-image/PSF-Polyester-Staple-Fiber-Thaipolyester-Orenge.webp" alt="PSF Polyester Staple Fiber Thaipolyester Orenge" media="(max-width: 640px)" loading="lazy">
+                                    <img src="/assets/images/landing/page1/desktop/new-image/PSF-Polyester-Staple-Fiber-Thaipolyester-Orenge.webp" width="900" height="350" class="img-fluid ab-img" alt="PSF Polyester Staple Fiber Thaipolyester Orenge" loading="lazy">
                                 </picture>
                             </div>
                         </li>
                         <li class="col-xs-4 col-sm-4 col-md-4 p-0">
                             <div class="img_block">
                                 <picture>
-                                    <source srcset="\assets\images\landing\page1\mobile\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-Pink.webp" alt="PSF Polyester Staple Fiber Thaipolyester Pink" media="(max-width: 640px)" loading="lazy">
-                                    <img src="\assets\images\landing\page1\desktop\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-Pink.webp" width="900" height="350" class="img-fluid ab-img" alt="PSF Polyester Staple Fiber Thaipolyester Pink" loading="lazy">
+                                    <source srcset="/assets/images/landing/page1/mobile/new-image/PSF-Polyester-Staple-Fiber-Thaipolyester-Pink.webp" alt="PSF Polyester Staple Fiber Thaipolyester Pink" media="(max-width: 640px)" loading="lazy">
+                                    <img src="/assets/images/landing/page1/desktop/new-image/PSF-Polyester-Staple-Fiber-Thaipolyester-Pink.webp" width="900" height="350" class="img-fluid ab-img" alt="PSF Polyester Staple Fiber Thaipolyester Pink" loading="lazy">
                                 </picture>
                             </div>
                         </li>
                         <li class="col-xs-4 col-sm-4 col-md-4 p-0">
                             <div class="img_block">
                                 <picture>
-                                    <source srcset="\assets\images\landing\page1\mobile\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-blue.webp" alt="PSF Polyester Staple Fiber Thaipolyester blue" media="(max-width: 640px)" loading="lazy">
-                                    <img src="\assets\images\landing\page1\desktop\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-blue.webp" width="900" height="350" class="img-fluid ab-img" alt="PSF Polyester Staple Fiber Thaipolyester blue" loading="lazy">
+                                    <source srcset="/assets/images/landing/page1/mobile/new-image/PSF-Polyester-Staple-Fiber-Thaipolyester-blue.webp" alt="PSF Polyester Staple Fiber Thaipolyester blue" media="(max-width: 640px)" loading="lazy">
+                                    <img src="/assets/images/landing/page1/desktop/new-image/PSF-Polyester-Staple-Fiber-Thaipolyester-blue.webp" width="900" height="350" class="img-fluid ab-img" alt="PSF Polyester Staple Fiber Thaipolyester blue" loading="lazy">
                                 </picture>
                             </div>
                         </li>
                         <li class="col-xs-4 col-sm-4 col-md-4 p-0">
                             <div class="img_block">
                                 <picture>
-                                    <source srcset="\assets\images\landing\page1\mobile\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-sea-blue.webp" alt="PSF Polyester Staple Fiber Thaipolyester sea blue" media="(max-width: 640px)" loading="lazy">
-                                    <img src="\assets\images\landing\page1\desktop\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-sea-blue.webp" width="900" height="350" class="img-fluid ab-img" alt="PSF Polyester Staple Fiber Thaipolyester sea blue" loading="lazy">
+                                    <source srcset="/assets/images/landing/page1/mobile/new-image/PSF-Polyester-Staple-Fiber-Thaipolyester-sea-blue.webp" alt="PSF Polyester Staple Fiber Thaipolyester sea blue" media="(max-width: 640px)" loading="lazy">
+                                    <img src="/assets/images/landing/page1/desktop/new-image/PSF-Polyester-Staple-Fiber-Thaipolyester-sea-blue.webp" width="900" height="350" class="img-fluid ab-img" alt="PSF Polyester Staple Fiber Thaipolyester sea blue" loading="lazy">
                                 </picture>
                             </div>
                         </li>
                         <li class="col-xs-4 col-sm-4 col-md-4 p-0">
                             <div class="img_block">
                                 <picture>
-                                    <source srcset="\assets\images\landing\page1\mobile\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-Green.webp" alt="PSF Polyester Staple Fiber Thaipolyester Green" media="(max-width: 640px)" loading="lazy">
-                                    <img src="\assets\images\landing\page1\desktop\new-image\PSF-Polyester-Staple-Fiber-Thaipolyester-Green.webp" width="900" height="350" class="img-fluid ab-img" alt="PSF Polyester Staple Fiber Thaipolyester Green" loading="lazy">
+                                    <source srcset="/assets/images/landing/page1/mobile/new-image/PSF-Polyester-Staple-Fiber-Thaipolyester-Green.webp" alt="PSF Polyester Staple Fiber Thaipolyester Green" media="(max-width: 640px)" loading="lazy">
+                                    <img src="/assets/images/landing/page1/desktop/new-image/PSF-Polyester-Staple-Fiber-Thaipolyester-Green.webp" width="900" height="350" class="img-fluid ab-img" alt="PSF Polyester Staple Fiber Thaipolyester Green" loading="lazy">
                                 </picture>
                             </div>
                         </li>
@@ -780,10 +780,10 @@
             <div class="content_block pos-r d-flex">
                 <div class="col-xs-6 col-sm-6 col-md-4-25 p-0 col1">
                     <div class="img_block d-flex">
-                        <a href="\assets\images\landing\page1\desktop\new-image\intertek-Certificate-of-Registration-thaipolyester.webp" title="intertek Certificate of Registration thaipolyester" data-fancybox="gallery" data-thumbnail-src="\assets\images\landing\page1\desktop\new-image\intertek-Certificate-of-Registration-thaipolyester.webp">
+                        <a href="/assets/images/landing/page1/desktop/new-image/intertek-Certificate-of-Registration-thaipolyester.webp" title="intertek Certificate of Registration thaipolyester" data-fancybox="gallery" data-thumbnail-src="/assets/images/landing/page1/desktop/new-image/intertek-Certificate-of-Registration-thaipolyester.webp">
                             <picture>
-                                <source srcset="\assets\images\landing\page1\mobile\new-image\intertek-Certificate-of-Registration-thaipolyester.webp" alt="intertek Certificate of Registration thaipolyester" media="(max-width: 640px)" loading="lazy">
-                                <img src="\assets\images\landing\page1\desktop\new-image\intertek-Certificate-of-Registration-thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="intertek Certificate of Registration thaipolyester" loading="lazy">
+                                <source srcset="/assets/images/landing/page1/mobile/new-image/intertek-Certificate-of-Registration-thaipolyester.webp" alt="intertek Certificate of Registration thaipolyester" media="(max-width: 640px)" loading="lazy">
+                                <img src="/assets/images/landing/page1/desktop/new-image/intertek-Certificate-of-Registration-thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="intertek Certificate of Registration thaipolyester" loading="lazy">
                             </picture>
                         </a>
                     </div>
@@ -791,30 +791,30 @@
                 <div class="col-xs-12 col-sm-12 col-md-3-5 p-0 col2">
                     <div class="col-xs-4 col-sm-4 col-md-12 p-0">
                         <div class="img_block d-flex">
-                            <a href="\assets\images\landing\page1\desktop\new-image\Global-Recycled-standard-100-Recycled-Polyester-Thaipolyester.webp" title="Global Recycled standard 100%Recycled Polyester Thaipolyester" data-fancybox="gallery" data-thumbnail-src="\assets\images\landing\page1\desktop\new-image\Global-Recycled-standard-100-Recycled-Polyester-Thaipolyester.webp">
+                            <a href="/assets/images/landing/page1/desktop/new-image/Global-Recycled-standard-100-Recycled-Polyester-Thaipolyester.webp" title="Global Recycled standard 100%Recycled Polyester Thaipolyester" data-fancybox="gallery" data-thumbnail-src="/assets/images/landing/page1/desktop/new-image/Global-Recycled-standard-100-Recycled-Polyester-Thaipolyester.webp">
                                 <picture>
-                                    <source srcset="\assets\images\landing\page1\mobile\new-image\Global-Recycled-standard-100-Recycled-Polyester-Thaipolyester.webp" alt="Global Recycled standard 100%Recycled Polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
-                                    <img src="\assets\images\landing\page1\desktop\new-image\Global-Recycled-standard-100-Recycled-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Global Recycled standard 100%Recycled Polyester Thaipolyester" loading="lazy">
+                                    <source srcset="/assets/images/landing/page1/mobile/new-image/Global-Recycled-standard-100-Recycled-Polyester-Thaipolyester.webp" alt="Global Recycled standard 100%Recycled Polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
+                                    <img src="/assets/images/landing/page1/desktop/new-image/Global-Recycled-standard-100-Recycled-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Global Recycled standard 100%Recycled Polyester Thaipolyester" loading="lazy">
                                 </picture>
                             </a>
                         </div>
                     </div>
                     <div class="col-xs-4 col-sm-4 col-md-12 p-0">
                         <div class="img_block d-flex">
-                            <a href="\assets\images\landing\page1\desktop\new-image\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp" title="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" data-fancybox="gallery" data-thumbnail-src="\assets\images\landing\page1\desktop\new-image\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp">
+                            <a href="/assets/images/landing/page1/desktop/new-image/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp" title="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" data-fancybox="gallery" data-thumbnail-src="/assets/images/landing/page1/desktop/new-image/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp">
                                 <picture>
-                                    <source srcset="\assets\images\landing\page1\mobile\new-image\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" media="(max-width: 640px)" loading="lazy">
-                                    <img src="\assets\images\landing\page1\desktop\new-image\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" loading="lazy">
+                                    <source srcset="/assets/images/landing/page1/mobile/new-image/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" media="(max-width: 640px)" loading="lazy">
+                                    <img src="/assets/images/landing/page1/desktop/new-image/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" loading="lazy">
                                 </picture>
                             </a>
                         </div>
                     </div>
                     <div class="col-xs-4 col-sm-4 col-md-12 p-0">
                         <div class="img_block d-flex">
-                            <a href="\assets\images\landing\page1\desktop\new-image\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp" title="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" data-fancybox="gallery" data-thumbnail-src="\assets\images\landing\page1\desktop\new-image\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp">
+                            <a href="/assets/images/landing/page1/desktop/new-image/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp" title="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" data-fancybox="gallery" data-thumbnail-src="/assets/images/landing/page1/desktop/new-image/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp">
                                 <picture>
-                                    <source srcset="\assets\images\landing\page1\mobile\new-image\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" media="(max-width: 640px)" loading="lazy">
-                                    <img src="\assets\images\landing\page1\desktop\new-image\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp" width="900" height="350" class="img-fluid ab-img" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" loading="lazy">
+                                    <source srcset="/assets/images/landing/page1/mobile/new-image/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" media="(max-width: 640px)" loading="lazy">
+                                    <img src="/assets/images/landing/page1/desktop/new-image/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp" width="900" height="350" class="img-fluid ab-img" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" loading="lazy">
                                 </picture>
                             </a>
                         </div>
@@ -822,10 +822,10 @@
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-4-25 p-0 col3">
                     <div class="img_block d-flex">
-                        <a href="\assets\images\landing\page1\desktop\new-image\Green-industry-Activty-Thaipolyester.webp" title="Green industry Activty Thaipolyester" data-fancybox="gallery" data-thumbnail-src="\assets\images\landing\page1\desktop\new-image\Green-industry-Activty-Thaipolyester.webp">
+                        <a href="/assets/images/landing/page1/desktop/new-image/Green-industry-Activty-Thaipolyester.webp" title="Green industry Activty Thaipolyester" data-fancybox="gallery" data-thumbnail-src="/assets/images/landing/page1/desktop/new-image/Green-industry-Activty-Thaipolyester.webp">
                             <picture>
-                                <source srcset="\assets\images\landing\page1\mobile\new-image\Green-industry-Activty-Thaipolyester.webp" alt="Green industry Activty Thaipolyester" media="(max-width: 640px)" loading="lazy">
-                                <img src="\assets\images\landing\page1\desktop\new-image\Green-industry-Activty-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Green industry Activty Thaipolyester" loading="lazy">
+                                <source srcset="/assets/images/landing/page1/mobile/new-image/Green-industry-Activty-Thaipolyester.webp" alt="Green industry Activty Thaipolyester" media="(max-width: 640px)" loading="lazy">
+                                <img src="/assets/images/landing/page1/desktop/new-image/Green-industry-Activty-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Green industry Activty Thaipolyester" loading="lazy">
                             </picture>
                         </a>
                     </div>
@@ -874,8 +874,8 @@
                 <div class="content_block pos-r">
                     <div class="img_block wow @if($chkmo) animate__backInUp @else animate__flipInX @endif">
                         <picture>
-                            <source srcset="\assets\images\landing\page1\desktop\A-reasonable-price-Thai-polyester.webp" alt="A reasonable price Thai polyester" media="(max-width: 640px)" loading="lazy">
-                            <img src="\assets\images\landing\page1\desktop\A-reasonable-price-Thai-polyester.webp" width="900" height="350" class="img-fluid ab-img" alt="A reasonable price Thai polyester" loading="lazy">
+                            <source srcset="/assets/images/landing/page1/desktop/A-reasonable-price-Thai-polyester.webp" alt="A reasonable price Thai polyester" media="(max-width: 640px)" loading="lazy">
+                            <img src="/assets/images/landing/page1/desktop/A-reasonable-price-Thai-polyester.webp" width="900" height="350" class="img-fluid ab-img" alt="A reasonable price Thai polyester" loading="lazy">
                         </picture>
                     </div>
                 </div>
@@ -884,8 +884,8 @@
                 <div class="content_block pos-r">
                     <div class="img_block wow @if($chkmo) animate__backInUp @else animate__flipInX @endif" data-wow-delay="0.2s">
                         <picture>
-                            <source srcset="\assets\images\landing\page1\mobile\A-Shorter-lead-time-Thai-polyester.webp" alt="A Shorter lead time Thai polyesterr" media="(max-width: 640px)" loading="lazy">
-                            <img src="\assets\images\landing\page1\desktop\A-Shorter-lead-time-Thai-polyester.webp" width="900" height="350" class="img-fluid ab-img" alt="A Shorter lead time Thai polyesterr" loading="lazy">
+                            <source srcset="/assets/images/landing/page1/mobile/A-Shorter-lead-time-Thai-polyester.webp" alt="A Shorter lead time Thai polyesterr" media="(max-width: 640px)" loading="lazy">
+                            <img src="/assets/images/landing/page1/desktop/A-Shorter-lead-time-Thai-polyester.webp" width="900" height="350" class="img-fluid ab-img" alt="A Shorter lead time Thai polyesterr" loading="lazy">
                         </picture>
                     </div>
                 </div>
@@ -894,8 +894,8 @@
                 <div class="content_block pos-r">
                     <div class="img_block wow @if($chkmo) animate__backInUp @else animate__flipInX @endif" data-wow-delay="0.4s">
                         <picture>
-                            <source srcset="\assets\images\landing\page1\mobile\A-wide-range-of-product-Thai-polyester.webp" alt="A wide range of product Thai polyester" media="(max-width: 640px)" loading="lazy">
-                            <img src="\assets\images\landing\page1\desktop\A-wide-range-of-product-Thai-polyester.webp" width="900" height="350" class="img-fluid ab-img" alt="A wide range of product Thai polyester" loading="lazy">
+                            <source srcset="/assets/images/landing/page1/mobile/A-wide-range-of-product-Thai-polyester.webp" alt="A wide range of product Thai polyester" media="(max-width: 640px)" loading="lazy">
+                            <img src="/assets/images/landing/page1/desktop/A-wide-range-of-product-Thai-polyester.webp" width="900" height="350" class="img-fluid ab-img" alt="A wide range of product Thai polyester" loading="lazy">
                         </picture>
                     </div>
                 </div>
@@ -904,8 +904,8 @@
                 <div class="content_block pos-r">
                     <div class="img_block wow @if($chkmo) animate__backInUp @else animate__flipInX @endif" data-wow-delay="0.6s">
                         <picture>
-                            <source srcset="\assets\images\landing\page1\mobile\No-more-supply-shortages-Thai-polyester.webp" alt="No more supply shortages Thai polyester" media="(max-width: 640px)" loading="lazy">
-                            <img src="\assets\images\landing\page1\desktop\No-more-supply-shortages-Thai-polyester.webp" width="900" height="350" class="img-fluid ab-img" alt="No more supply shortages Thai polyester" loading="lazy">
+                            <source srcset="/assets/images/landing/page1/mobile/No-more-supply-shortages-Thai-polyester.webp" alt="No more supply shortages Thai polyester" media="(max-width: 640px)" loading="lazy">
+                            <img src="/assets/images/landing/page1/desktop/No-more-supply-shortages-Thai-polyester.webp" width="900" height="350" class="img-fluid ab-img" alt="No more supply shortages Thai polyester" loading="lazy">
                         </picture>
                     </div>
                 </div>
@@ -929,8 +929,8 @@
                 <div class="content_block pos-r">
                     <div class="img_block">
                         <picture>
-                            <source srcset="\assets\images\landing\page1\mobile\Review-landing-page-TPC-1.webp" alt="Review" media="(max-width: 640px)" loading="lazy">
-                            <img src="\assets\images\landing\page1\desktop\Review-landing-page-TPC-1.webp" width="900" height="350" class="img-fluid ab-img" alt="Review" loading="lazy">
+                            <source srcset="/assets/images/landing/page1/mobile/Review-landing-page-TPC-1.webp" alt="Review" media="(max-width: 640px)" loading="lazy">
+                            <img src="/assets/images/landing/page1/desktop/Review-landing-page-TPC-1.webp" width="900" height="350" class="img-fluid ab-img" alt="Review" loading="lazy">
                         </picture>
                     </div>
                 </div>
@@ -939,8 +939,8 @@
                 <div class="content_block pos-r">
                     <div class="img_block">
                         <picture>
-                            <source srcset="\assets\images\landing\page1\mobile\Review-landing-page-TPC-2.webp" alt="Review" media="(max-width: 640px)" loading="lazy">
-                            <img src="\assets\images\landing\page1\desktop\Review-landing-page-TPC-2.webp" width="900" height="350" class="img-fluid ab-img" alt="Review" loading="lazy">
+                            <source srcset="/assets/images/landing/page1/mobile/Review-landing-page-TPC-2.webp" alt="Review" media="(max-width: 640px)" loading="lazy">
+                            <img src="/assets/images/landing/page1/desktop/Review-landing-page-TPC-2.webp" width="900" height="350" class="img-fluid ab-img" alt="Review" loading="lazy">
                         </picture>
                     </div>
                 </div>
@@ -949,8 +949,8 @@
                 <div class="content_block pos-r">
                     <div class="img_block">
                         <picture>
-                            <source srcset="\assets\images\landing\page1\mobile\Review-landing-page-TPC-3.webp" alt="Review" media="(max-width: 640px)" loading="lazy">
-                            <img src="\assets\images\landing\page1\desktop\Review-landing-page-TPC-3.webp" width="900" height="350" class="img-fluid ab-img" alt="Review" loading="lazy">
+                            <source srcset="/assets/images/landing/page1/mobile/Review-landing-page-TPC-3.webp" alt="Review" media="(max-width: 640px)" loading="lazy">
+                            <img src="/assets/images/landing/page1/desktop/Review-landing-page-TPC-3.webp" width="900" height="350" class="img-fluid ab-img" alt="Review" loading="lazy">
                         </picture>
                     </div>
                 </div>
@@ -959,8 +959,8 @@
                 <div class="content_block pos-r">
                     <div class="img_block">
                         <picture>
-                            <source srcset="\assets\images\landing\page1\mobile\Review-landing-page-TPC-4.webp" alt="Review" media="(max-width: 640px)" loading="lazy">
-                            <img src="\assets\images\landing\page1\desktop\Review-landing-page-TPC-4.webp" width="900" height="350" class="img-fluid ab-img" alt="Review" loading="lazy">
+                            <source srcset="/assets/images/landing/page1/mobile/Review-landing-page-TPC-4.webp" alt="Review" media="(max-width: 640px)" loading="lazy">
+                            <img src="/assets/images/landing/page1/desktop/Review-landing-page-TPC-4.webp" width="900" height="350" class="img-fluid ab-img" alt="Review" loading="lazy">
                         </picture>
                     </div>
                 </div>
@@ -969,8 +969,8 @@
                 <div class="content_block pos-r">
                     <div class="img_block">
                         <picture>
-                            <source srcset="\assets\images\landing\page1\mobile\Review-landing-page-TPC-5.webp" alt="Review" media="(max-width: 640px)" loading="lazy">
-                            <img src="\assets\images\landing\page1\desktop\Review-landing-page-TPC-5.webp" width="900" height="350" class="img-fluid ab-img" alt="Review" loading="lazy">
+                            <source srcset="/assets/images/landing/page1/mobile/Review-landing-page-TPC-5.webp" alt="Review" media="(max-width: 640px)" loading="lazy">
+                            <img src="/assets/images/landing/page1/desktop/Review-landing-page-TPC-5.webp" width="900" height="350" class="img-fluid ab-img" alt="Review" loading="lazy">
                         </picture>
                     </div>
                 </div>
@@ -1060,8 +1060,8 @@
                     <div class="content_group">
                         <div class="img_block">
                             <picture>
-                                <source srcset="\assets\images\landing\page1\mobile\Icon-landing-page-TPC-Thai-Polyester-Phone.webp" alt="Phone" media="(max-width: 640px)" loading="lazy">
-                                <img src="\assets\images\landing\page1\desktop\Icon-landing-page-TPC-Thai-Polyester-Phone.webp" width="900" height="350" class="img-fluid ab-img" alt="Phone" loading="lazy">
+                                <source srcset="/assets/images/landing/page1/mobile/Icon-landing-page-TPC-Thai-Polyester-Phone.webp" alt="Phone" media="(max-width: 640px)" loading="lazy">
+                                <img src="/assets/images/landing/page1/desktop/Icon-landing-page-TPC-Thai-Polyester-Phone.webp" width="900" height="350" class="img-fluid ab-img" alt="Phone" loading="lazy">
                             </picture>
                         </div>
                         <h3 class="theme-hl text-center">Phone :</h3>
@@ -1076,8 +1076,8 @@
                     <div class="content_group">
                         <div class="img_block">
                             <picture>
-                                <source srcset="\assets\images\landing\page1\mobile\Icon-landing-page-TPC-Thai-Polyester-Email.webp" alt="Email" media="(max-width: 640px)" loading="lazy">
-                                <img src="\assets\images\landing\page1\desktop\Icon-landing-page-TPC-Thai-Polyester-Email.webp" width="900" height="350" class="img-fluid ab-img" alt="Email" loading="lazy">
+                                <source srcset="/assets/images/landing/page1/mobile/Icon-landing-page-TPC-Thai-Polyester-Email.webp" alt="Email" media="(max-width: 640px)" loading="lazy">
+                                <img src="/assets/images/landing/page1/desktop/Icon-landing-page-TPC-Thai-Polyester-Email.webp" width="900" height="350" class="img-fluid ab-img" alt="Email" loading="lazy">
                             </picture>
                         </div>
                         <h3 class="theme-hl text-center">Email :</h3>
@@ -1092,8 +1092,8 @@
                     <div class="content_group">
                         <div class="img_block">
                             <picture>
-                                <source srcset="\assets\images\landing\page1\mobile\Icon-landing-page-TPC-Thai-Polyester-Website.webp" alt="Website" media="(max-width: 640px)" loading="lazy">
-                                <img src="\assets\images\landing\page1\desktop\Icon-landing-page-TPC-Thai-Polyester-Website.webp" width="900" height="350" class="img-fluid ab-img" alt="Website" loading="lazy">
+                                <source srcset="/assets/images/landing/page1/mobile/Icon-landing-page-TPC-Thai-Polyester-Website.webp" alt="Website" media="(max-width: 640px)" loading="lazy">
+                                <img src="/assets/images/landing/page1/desktop/Icon-landing-page-TPC-Thai-Polyester-Website.webp" width="900" height="350" class="img-fluid ab-img" alt="Website" loading="lazy">
                             </picture>
                         </div>
                         <h3 class="theme-hl text-center">Website :</h3>
@@ -1108,8 +1108,8 @@
                     <div class="content_group">
                         <div class="img_block">
                             <picture>
-                                <source srcset="\assets\images\landing\page1\mobile\Icon-landing-page-TPC-Thai-Polyester-Whatsapp.webp" alt="Whatsapp" media="(max-width: 640px)" loading="lazy">
-                                <img src="\assets\images\landing\page1\desktop\Icon-landing-page-TPC-Thai-Polyester-Whatsapp.webp" width="900" height="350" class="img-fluid ab-img" alt="Whatsapp" loading="lazy">
+                                <source srcset="/assets/images/landing/page1/mobile/Icon-landing-page-TPC-Thai-Polyester-Whatsapp.webp" alt="Whatsapp" media="(max-width: 640px)" loading="lazy">
+                                <img src="/assets/images/landing/page1/desktop/Icon-landing-page-TPC-Thai-Polyester-Whatsapp.webp" width="900" height="350" class="img-fluid ab-img" alt="Whatsapp" loading="lazy">
                             </picture>
                         </div>
                         <h3 class="theme-hl text-center">Whatsapp :</h3>
@@ -1126,8 +1126,8 @@
                     <div class="content_group">
                         <div class="img_block">
                             <picture>
-                                <source srcset="\assets\images\landing\page1\mobile\Icon-landing-page-TPC-Thai-Polyester-Address.webp" alt="Address" media="(max-width: 640px)" loading="lazy">
-                                <img src="\assets\images\landing\page1\desktop\Icon-landing-page-TPC-Thai-Polyester-Address.webp" width="900" height="350" class="img-fluid ab-img" alt="Address" loading="lazy">
+                                <source srcset="/assets/images/landing/page1/mobile/Icon-landing-page-TPC-Thai-Polyester-Address.webp" alt="Address" media="(max-width: 640px)" loading="lazy">
+                                <img src="/assets/images/landing/page1/desktop/Icon-landing-page-TPC-Thai-Polyester-Address.webp" width="900" height="350" class="img-fluid ab-img" alt="Address" loading="lazy">
                             </picture>
                         </div>
                         <h3 class="theme-hl text-center">Address :</h3>
