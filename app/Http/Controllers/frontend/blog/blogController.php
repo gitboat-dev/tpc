@@ -29,7 +29,7 @@ class blogController extends Controller {
 			$data['des'] = "";
 			$data['key'] = "";
 		}
-		dd($data);
+		// dd($data);
         return view('blogs.index',$data);
 		// return view(,$data);
 	}
