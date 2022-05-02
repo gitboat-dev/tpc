@@ -1,7 +1,7 @@
 <nav id="header" class="pos-r d-flex bg-green">
     <div class="logo pos-r d-flex">
         <a href="#home">
-            <img src="\assets\images\landing\Finallanding\logo_1.webp" alt="Thai Poyester">
+            <img src="/assets/images/landing/Finallanding/logo_1.webp" alt="Thai Poyester">
         </a>
         <div class="m-menu-block pos-r w-100p">
             <div class="m-menu pos-ab d-flex h-100p w-100p right-0">
