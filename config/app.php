@@ -164,6 +164,7 @@ return [
 		App\Providers\HelperServiceProvider::class,
 		Intervention\Image\ImageServiceProvider::class,
 		Mews\Purifier\PurifierServiceProvider::class,
+        Ixudra\Curl\CurlServiceProvider::class,
 
 		/*
 			         * Package Service Providers...
@@ -230,6 +231,7 @@ return [
 		'View' => Illuminate\Support\Facades\View::class,
 		'Image' => Intervention\Image\Facades\Image::class,
 		'Purifier' => Mews\Purifier\Facades\Purifier::class,
+        'Curl' => Ixudra\Curl\Facades\Curl::class,
 
 		/** Add Class */
 
