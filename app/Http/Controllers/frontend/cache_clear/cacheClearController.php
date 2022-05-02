@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\frontend\cache_clear;
 
 use App\Http\Controllers\Controller;
+use Artisan;
 
 class cacheClearController extends Controller {
 	public function cache_clear() {
