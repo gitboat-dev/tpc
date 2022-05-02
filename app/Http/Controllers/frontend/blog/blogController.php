@@ -13,7 +13,7 @@ class blogController extends Controller {
 	public $active_news = 'activemenu';
 	public function index() {
 		$data = [];
-		$blog = article::all();
+		$blog = article::orderBy('id','desc')->get();
 		$chkie = new Func_controller;
 		$agent = new Agent();
 		if ($blog) {
