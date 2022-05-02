@@ -21,3 +21,58 @@ ul.path > li.active{
 }
 
 /* end sec1 */
+
+#sec2{
+    padding: 40px 25px;
+}
+#sec2 .d-flex-r-re{
+    display: flex !important;
+    flex-direction: row-reverse !important;
+}
+#sec2 .d-flex-r{
+    display: flex !important;
+    flex-direction: row !important;
+}
+#sec2 [class^="a_"]{
+    margin-bottom: 15px;
+}
+#sec2 .a_tl > a{
+    color: var(--msBg);
+    transition: all 0.2s;
+}
+#sec2 .a_tl > a:hover{
+    color: var(--msBgRed);
+    transition: all 0.2s;
+}
+#sec2 .a_view > a{
+    float: right;
+    color: var(--msBg);
+    transition: all 0.2s;
+}
+#sec2 .a_view > a:hover{
+    color: var(--msBgRed);
+    transition: all 0.2s;
+}
+
+/* end sec2 */
+
+@media only screen and (max-width: 991px){
+
+}
+@media only screen and (max-width: 768px){
+    #sec1 .content_block{
+        padding: 15px;
+    }
+
+    /* end sec1 */
+
+    #sec2{
+        padding: 15px 0;
+    }
+    #sec2 .d-flex-r-re,#sec2 .d-flex-r{
+        display: block !important;
+        flex-direction: unset !important;
+    }
+
+    /* end sec2 */
+}
