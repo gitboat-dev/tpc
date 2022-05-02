@@ -1,0 +1,23 @@
+ul.path > li:not(:last-child)::after{
+    content: ">";
+    margin: 0 2px 0 6px;
+}
+ul.path > li > a{
+    color: var(--msBgLight);
+    transition: all 0.2s;
+}
+ul.path > li > a:hover{
+    color: var(--msBg);
+    transition: all 0.2s;
+}
+ul.path > li.active{
+    color: var(--msBg);
+}
+
+/* end all setting */
+
+#sec1 .content_block{
+    padding: 15px 0;
+}
+
+/* end sec1 */

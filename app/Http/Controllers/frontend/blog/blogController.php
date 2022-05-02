@@ -25,13 +25,12 @@ class blogController extends Controller {
 			$data['chkie'] = $chkie->chk();
 			$data['chkmobile'] = $agent->isMobile() ? $agent->isMobile() : ($agent->isTablet() ? $agent->isTablet() : false);
 			$data['active_news'] = $this->active_news;
-			$data['title'] = "";
+			$data['title'] = "Columns & News | Thai Polyester CO., LTD";
+            $data['head_line'] = "Columns & News";
 			$data['des'] = "";
 			$data['key'] = "";
 		}
-		// dd($data);
         return view('blogs.index',$data);
-		// return view(,$data);
 	}
 
 	public function blog($slug) {
@@ -151,7 +150,7 @@ class blogController extends Controller {
 				foreach ($cover as $c) {
 					$a[$c['id']] = [
 						'id' => $c['id'],
-						'url' => '/cover/banner/' . $c['id'] . '/' . $c['cover_image'],
+						'url' => '/blog/cover/' . $c['id'] . '/' . $c['cover_image'],
 					];
 				}
 			}

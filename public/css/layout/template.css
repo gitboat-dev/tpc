@@ -132,10 +132,10 @@ body {
 #tpc .d-block{
     display: block !important;
 }
-#tpc .d-inline{
+#tpc .d-inline, #tpc .d-inline > li{
     display: inline !important;
 }
-#tpc .d-inline-b{
+#tpc .d-inline-b,#tpc .d-inline-b > li{
     display: inline-block !important;
 }
 #tpc .pos-r{
