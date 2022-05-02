@@ -48,6 +48,9 @@ class Kernel extends HttpKernel {
 		'images' => [
 			\App\Http\Middleware\Images::class,
 		],
+        'cacheclear' => [
+			\App\Http\Middleware\CacheClear::class,
+		],
 		'api' => [
 			'throttle:60,1',
 			'bindings',

@@ -19,6 +19,7 @@ class blogController extends Controller {
 		if ($blog) {
 			foreach ($blog as $a) {
 				$a->banner = $this->get_banners($a['id']);
+                $a->cover = $this->get_cover($a['id']);
 			}
 			$data['blogs'] = $blog;
 			$data['chkie'] = $chkie->chk();
@@ -28,7 +29,7 @@ class blogController extends Controller {
 			$data['des'] = "";
 			$data['key'] = "";
 		}
-		// dd($data);
+		dd($data);
         return view('blogs.index',$data);
 		// return view(,$data);
 	}
@@ -95,6 +96,21 @@ class blogController extends Controller {
 		}
 		return $data;
 	}
+    public function get_cover($id = "") {
+		$data = [];
+		$cover = $this->cover($id);
+		if ($cover) {
+			if ($id == "") {
+				$data = $cover;
+			} else {
+				$id = (int) $id;
+				if ($id > 0) {
+					$data = $cover[$id] ? $cover[$id] : [];
+				}
+			}
+		}
+		return $data;
+	}
 
 	/*--------------------------------------private function--------------------------------------*/
 
@@ -114,6 +130,28 @@ class blogController extends Controller {
 					$a[$b['id']] = [
 						'id' => $b['id'],
 						'url' => '/blog/banner/' . $b['id'] . '/' . $b['name'],
+					];
+				}
+			}
+			return $a;
+		});
+	}
+    private function cover($id = 0) {
+		$id = (int) $id;
+		return cache()->remember('blog_cover', now()->addMinutes(60), function () use ($id) {
+			$a = [];
+			if ($id > 0) {
+				$cover = article::where('id', $id)
+					->orderBy('id', 'asc')
+					->get();
+			} else {
+				$cover = article::orderBy('id', 'asc')->get();
+			}
+			if ($cover) {
+				foreach ($cover as $c) {
+					$a[$c['id']] = [
+						'id' => $c['id'],
+						'url' => '/cover/banner/' . $c['id'] . '/' . $c['cover_image'],
 					];
 				}
 			}

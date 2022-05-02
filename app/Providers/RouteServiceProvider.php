@@ -68,6 +68,12 @@ class RouteServiceProvider extends ServiceProvider {
 		], function ($router) {
 			require base_path('routes/images.php');
 		});
+        Route::group([
+			'middleware' => 'cacheclear',
+			'namespace' => $this->namespace,
+		], function ($router) {
+			require base_path('routes/cacheclear.php');
+		});
 	}
 
 	/**
