@@ -40,7 +40,7 @@
         </section>
         <section id="sec2">
             <div class="row m-0">
-                <div class="col-xs-12 col-sm-9 col-md-9 p-0 col1">
+                <div class="col-xs-12 col-sm-12 col-md-9 p-0 col1">
                     @if($blogs && isset($blogs))
                         @foreach($blogs as $k => $blog)
                             <div class="row m-0 @if(($k % 2) != 0) d-flex-r-re  @else d-flex-r @endif r-blog">
@@ -84,7 +84,15 @@
                     @endif
                 </div>
                 <div class="col-xs-12 col-sm-3 col-md-3 p-0 col2 desktop">
-                    6666
+                    <ul class="blog-lists">
+                        @foreach($blogs as $k => $blog_new)
+                            <li>
+                                <a href="/blog/{{$blog_new['article_slug']}}" title="{{$blog_new['article_title']}}">
+                                    {{$blog_new['article_title']}}
+                                </a>
+                            </li>
+                        @endforeach
+                    </ul>
                 </div>
             </div>
         </section>

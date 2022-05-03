@@ -17,7 +17,7 @@ ul.path > li.active{
 /* end all setting */
 
 #sec1 .content_block{
-    padding: 15px 0;
+    padding: 15px;
 }
 
 /* end sec1 */
@@ -57,6 +57,17 @@ ul.path > li.active{
     transition: all 0.2s;
 }
 #sec2 .a_view > a:hover{
+    color: var(--msBgRed);
+    transition: all 0.2s;
+}
+#sec2 .col2 ul.blog-lists > li{
+    margin-bottom: 20px;
+}
+#sec2 .col2 ul.blog-lists > li > a{
+    color: var(--msBg);
+    transition: all 0.2s;
+}
+#sec2 .col2 ul.blog-lists > li > a:hover{
     color: var(--msBgRed);
     transition: all 0.2s;
 }
