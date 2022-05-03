@@ -130,17 +130,17 @@
 							</ul>
 						</li>
 						<li class="@if(isset($active_news)){{$active_news}}@endif">
-							<a class="a_menu" href="{!!url('/polyester-products')!!}">
+							<a class="a_menu" href="/blog">
 								Columns & News
 							</a>
 							<ul class="a_sub_menu">
 								<li>
-									<a title="Columns" href="/blog/circular-economy">
+									<a title="Columns" href="{{ route('blog.columns') }}">
 										Columns
 									</a>
 								</li>
 								<li>
-									<a title="News" href="#">
+									<a title="News" href="{{ route('blog.news') }}">
 										News
 									</a>
 								</li>
