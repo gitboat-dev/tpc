@@ -3,6 +3,11 @@
     <link rel="preload stylesheet" href="/css/blogs/index.min.css?v={{time()}}" as="style" crossorigin>
     {{-- <link rel="stylesheet" id="fancybox-css" href="{!!asset('/assets/custom/wp-content/plugins/radiantthemes-addons/assets/css/jquery.fancybox.min.css?ver=4.9.11')!!}" type="text/css" media="all"> --}}
 @endsection
+@if($blogs && isset($blogs))
+    @if(isset($blogs[0]['cover']['url']))
+        @section('og-image',$blogs[0]['cover']['url'])
+    @endif
+@endif
 @section('content')
 <div id="tpc">
     <div id="tpc_bg">
