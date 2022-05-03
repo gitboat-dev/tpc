@@ -3,6 +3,7 @@
     <link rel="preload stylesheet" href="/css/blogs/vp-vs-rp.min.css?v={{time()}}" as="style" crossorigin>
     <link rel="stylesheet" id="fancybox-css" href="{!!asset('/assets/custom/wp-content/plugins/radiantthemes-addons/assets/css/jquery.fancybox.min.css?ver=4.9.11')!!}" type="text/css" media="all">
 @endsection
+@section('og-image','/assets/images/blogs/columns/vp-vs-rp/desktop/Head-Virgin-Polyester-VS-Recycled-Polyester-Thaipolyester.webp')
 @section('content')
     <div id="tpc">
         <div id="tpc_bg">
@@ -12,8 +13,8 @@
                         <div class="content_block pos-r d-flex">
                             <div class="img_block w-100p">
                                 <picture>
-                                    <source srcset="\assets\images\blogs\columns\vp-vs-rp\mobile\Head-Virgin-Polyester-VS-Recycled-Polyester-Thaipolyester.webp" alt="Virgin Polyester VS Recycled Polyester" media="(max-width: 640px)">
-                                    <img src="\assets\images\blogs\columns\vp-vs-rp\desktop\Head-Virgin-Polyester-VS-Recycled-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="Virgin Polyester VS Recycled Polyester">
+                                    <source srcset="/assets/images/blogs/columns/vp-vs-rp/mobile/Head-Virgin-Polyester-VS-Recycled-Polyester-Thaipolyester.webp" alt="Virgin Polyester VS Recycled Polyester" media="(max-width: 640px)">
+                                    <img src="/assets/images/blogs/columns/vp-vs-rp/desktop/Head-Virgin-Polyester-VS-Recycled-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="Virgin Polyester VS Recycled Polyester">
                                 </picture>
                             </div>
                             <div class="content_group m-auto pos-ab w-100p h-100p d-flex">
@@ -68,8 +69,8 @@
                         <div class="content_block pos-r d-flex">
                             <div class="img_block m-auto">
                                 <picture>
-                                    <source srcset="\assets\images\blogs\columns\vp-vs-rp\mobile\Virgin-Polyester-VS-Recycled-Polyester-Recycled-Polyester-Yarn-process-Thaipolyester.webp" alt="Virgin Polyester VS Recycled Polyester Recycled Polyester Yarn process Thaipolyester" media="(max-width: 640px)" loading="lazy">
-                                    <img src="\assets\images\blogs\columns\vp-vs-rp\desktop\Virgin-Polyester-VS-Recycled-Polyester-Recycled-Polyester-Yarn-process-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="Virgin Polyester VS Recycled Polyester Recycled Polyester Yarn process Thaipolyester" loading="lazy">
+                                    <source srcset="/assets/images/blogs/columns/vp-vs-rp/mobile/Virgin-Polyester-VS-Recycled-Polyester-Recycled-Polyester-Yarn-process-Thaipolyester.webp" alt="Virgin Polyester VS Recycled Polyester Recycled Polyester Yarn process Thaipolyester" media="(max-width: 640px)" loading="lazy">
+                                    <img src="/assets/images/blogs/columns/vp-vs-rp/desktop/Virgin-Polyester-VS-Recycled-Polyester-Recycled-Polyester-Yarn-process-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="Virgin Polyester VS Recycled Polyester Recycled Polyester Yarn process Thaipolyester" loading="lazy">
                                 </picture>
                             </div>
                         </div>
@@ -122,8 +123,8 @@
                             <a href="{{ route('product.psf') }}" title="PSF Polyester Staple Fiber Thaipolyester" target="_blank">
                                 <div class="img_block">
                                     <picture>
-                                        <source srcset="\assets\images\blogs\columns\vp-vs-rp\mobile\PSF-Polyester-Staple-Fiber-Thaipolyester.webp" alt="PSF Polyester Staple Fiber Thaipolyester" media="(max-width: 640px)" loading="lazy">
-                                        <img src="\assets\images\blogs\columns\vp-vs-rp\desktop\PSF-Polyester-Staple-Fiber-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="PSF Polyester Staple Fiber Thaipolyester" loading="lazy">
+                                        <source srcset="/assets/images/blogs/columns/vp-vs-rp/mobile/PSF-Polyester-Staple-Fiber-Thaipolyester.webp" alt="PSF Polyester Staple Fiber Thaipolyester" media="(max-width: 640px)" loading="lazy">
+                                        <img src="/assets/images/blogs/columns/vp-vs-rp/desktop/PSF-Polyester-Staple-Fiber-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="PSF Polyester Staple Fiber Thaipolyester" loading="lazy">
                                     </picture>
                                 </div>
                                 <div class="content_group d-flex pos-ab w-100p h-100p bottom-0">
@@ -140,8 +141,8 @@
                             <a href="{{ route('product.poy') }}" title="POY Partially Oriented Yarn Polyester Thaipolyester" target="_blank">
                                 <div class="img_block">
                                     <picture>
-                                        <source srcset="\assets\images\blogs\columns\vp-vs-rp\mobile\POY-Partially-Oriented-Yarn-Polyester-Thaipolyester.webp" alt="POY Partially Oriented Yarn Polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
-                                        <img src="\assets\images\blogs\columns\vp-vs-rp\desktop\POY-Partially-Oriented-Yarn-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="POY Partially Oriented Yarn Polyester Thaipolyester" loading="lazy">
+                                        <source srcset="/assets/images/blogs/columns/vp-vs-rp/mobile/POY-Partially-Oriented-Yarn-Polyester-Thaipolyester.webp" alt="POY Partially Oriented Yarn Polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
+                                        <img src="/assets/images/blogs/columns/vp-vs-rp/desktop/POY-Partially-Oriented-Yarn-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="POY Partially Oriented Yarn Polyester Thaipolyester" loading="lazy">
                                     </picture>
                                 </div>
                                 <div class="content_group d-flex pos-ab w-100p h-100p bottom-0">
@@ -158,8 +159,8 @@
                             <a href="{{ route('product.dty') }}" title="DTY Draw Textured Yarn Polyester Thaipolyester" target="_blank">
                                 <div class="img_block">
                                     <picture>
-                                        <source srcset="\assets\images\blogs\columns\vp-vs-rp\mobile\DTY-Draw-Textured-Yarn-Polyester-Thaipolyester.webp" alt="DTY Draw Textured Yarn Polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
-                                        <img src="\assets\images\blogs\columns\vp-vs-rp\desktop\DTY-Draw-Textured-Yarn-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="DTY Draw Textured Yarn Polyester Thaipolyester" loading="lazy">
+                                        <source srcset="/assets/images/blogs/columns/vp-vs-rp/mobile/DTY-Draw-Textured-Yarn-Polyester-Thaipolyester.webp" alt="DTY Draw Textured Yarn Polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
+                                        <img src="/assets/images/blogs/columns/vp-vs-rp/desktop/DTY-Draw-Textured-Yarn-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="DTY Draw Textured Yarn Polyester Thaipolyester" loading="lazy">
                                     </picture>
                                 </div>
                                 <div class="content_group d-flex pos-ab w-100p h-100p bottom-0">
@@ -176,8 +177,8 @@
                             <a href="{{ route('product.fdy') }}" title="FDY Fully Drawn Yarn Polyester Thaipolyester" target="_blank">
                                 <div class="img_block">
                                     <picture>
-                                        <source srcset="\assets\images\blogs\columns\vp-vs-rp\mobile\FDY-Fully-Drawn-Yarn-Polyester-Thaipolyester.webp" alt="FDY Fully Drawn Yarn Polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
-                                        <img src="\assets\images\blogs\columns\vp-vs-rp\desktop\FDY-Fully-Drawn-Yarn-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="FDY Fully Drawn Yarn Polyester Thaipolyester" loading="lazy">
+                                        <source srcset="/assets/images/blogs/columns/vp-vs-rp/mobile/FDY-Fully-Drawn-Yarn-Polyester-Thaipolyester.webp" alt="FDY Fully Drawn Yarn Polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
+                                        <img src="/assets/images/blogs/columns/vp-vs-rp/desktop/FDY-Fully-Drawn-Yarn-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="FDY Fully Drawn Yarn Polyester Thaipolyester" loading="lazy">
                                     </picture>
                                 </div>
                                 <div class="content_group d-flex pos-ab w-100p h-100p bottom-0">
@@ -194,8 +195,8 @@
                             <a href="{!!url('/open-end')!!}" title="OE Open End Spun Yarn Polyester Thaipolyester" target="_blank">
                                 <div class="img_block">
                                     <picture>
-                                        <source srcset="\assets\images\blogs\columns\vp-vs-rp\mobile\OE-Open-End-Spun-Yarn-Polyester-Thaipolyester.webp" alt="OE Open End Spun Yarn Polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
-                                        <img src="\assets\images\blogs\columns\vp-vs-rp\desktop\OE-Open-End-Spun-Yarn-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="OE Open End Spun Yarn Polyester Thaipolyester" loading="lazy">
+                                        <source srcset="/assets/images/blogs/columns/vp-vs-rp/mobile/OE-Open-End-Spun-Yarn-Polyester-Thaipolyester.webp" alt="OE Open End Spun Yarn Polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
+                                        <img src="/assets/images/blogs/columns/vp-vs-rp/desktop/OE-Open-End-Spun-Yarn-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="OE Open End Spun Yarn Polyester Thaipolyester" loading="lazy">
                                     </picture>
                                 </div>
                                 <div class="content_group d-flex pos-ab w-100p h-100p bottom-0">
@@ -212,8 +213,8 @@
                             <a href="{{ route('product.ring-spun') }}" title="Ring Spun Yarn Polyester Thaipolyester" target="_blank">
                                 <div class="img_block">
                                     <picture>
-                                        <source srcset="\assets\images\blogs\columns\vp-vs-rp\mobile\Ring-Spun-Yarn-Polyester-Thaipolyester.webp" alt="Ring Spun Yarn Polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
-                                        <img src="\assets\images\blogs\columns\vp-vs-rp\desktop\Ring-Spun-Yarn-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="Ring Spun Yarn Polyester Thaipolyester" loading="lazy">
+                                        <source srcset="/assets/images/blogs/columns/vp-vs-rp/mobile/Ring-Spun-Yarn-Polyester-Thaipolyester.webp" alt="Ring Spun Yarn Polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
+                                        <img src="/assets/images/blogs/columns/vp-vs-rp/desktop/Ring-Spun-Yarn-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="Ring Spun Yarn Polyester Thaipolyester" loading="lazy">
                                     </picture>
                                 </div>
                                 <div class="content_group d-flex pos-ab w-100p h-100p bottom-0">
@@ -230,8 +231,8 @@
                             <a href="{{ route('product.twisted-yarn') }}" title="Twist Yarn DTY polyester Thaipolyester" target="_blank">
                                 <div class="img_block">
                                     <picture>
-                                        <source srcset="\assets\images\blogs\columns\vp-vs-rp\mobile\Twist-Yarn-DTY-polyester-Thaipolyester.webp" alt="Twist Yarn DTY polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
-                                        <img src="\assets\images\blogs\columns\vp-vs-rp\desktop\Twist-Yarn-DTY-polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="Twist Yarn DTY polyester Thaipolyester" loading="lazy">
+                                        <source srcset="/assets/images/blogs/columns/vp-vs-rp/mobile/Twist-Yarn-DTY-polyester-Thaipolyester.webp" alt="Twist Yarn DTY polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
+                                        <img src="/assets/images/blogs/columns/vp-vs-rp/desktop/Twist-Yarn-DTY-polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="Twist Yarn DTY polyester Thaipolyester" loading="lazy">
                                     </picture>
                                 </div>
                                 <div class="content_group d-flex pos-ab w-100p h-100p bottom-0">
@@ -248,8 +249,8 @@
                             <a href="{{ route('product.twisted-yarn') }}" title="Twist Yarn FDY polyester Thaipolyester" target="_blank">
                                 <div class="img_block">
                                     <picture>
-                                        <source srcset="\assets\images\blogs\columns\vp-vs-rp\mobile\Twist-Yarn-FDY-polyester-Thaipolyester.webp" alt="Twist Yarn FDY polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
-                                        <img src="\assets\images\blogs\columns\vp-vs-rp\desktop\Twist-Yarn-FDY-polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="Twist Yarn FDY polyester Thaipolyester" loading="lazy">
+                                        <source srcset="/assets/images/blogs/columns/vp-vs-rp/mobile/Twist-Yarn-FDY-polyester-Thaipolyester.webp" alt="Twist Yarn FDY polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
+                                        <img src="/assets/images/blogs/columns/vp-vs-rp/desktop/Twist-Yarn-FDY-polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="Twist Yarn FDY polyester Thaipolyester" loading="lazy">
                                     </picture>
                                 </div>
                                 <div class="content_group d-flex pos-ab w-100p h-100p bottom-0">
@@ -287,14 +288,14 @@
                             <div class="content_group m-auto d-flex">
                                 <div class="img_block d-inline-b">
                                     <picture>
-                                        <source srcset="\assets\images\blogs\columns\vp-vs-rp\mobile\knitting-Process-Jongstit-Thaipolyester.webp" alt="knitting Process Jongstit Thaipolyester" media="(max-width: 640px)" loading="lazy">
-                                        <img src="\assets\images\blogs\columns\vp-vs-rp\desktop\knitting-Process-Jongstit-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="knitting Process Jongstit Thaipolyester" loading="lazy">
+                                        <source srcset="/assets/images/blogs/columns/vp-vs-rp/mobile/knitting-Process-Jongstit-Thaipolyester.webp" alt="knitting Process Jongstit Thaipolyester" media="(max-width: 640px)" loading="lazy">
+                                        <img src="/assets/images/blogs/columns/vp-vs-rp/desktop/knitting-Process-Jongstit-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="knitting Process Jongstit Thaipolyester" loading="lazy">
                                     </picture>
                                 </div>
                                 <div class="img_block d-inline-b">
                                     <picture>
-                                        <source srcset="\assets\images\blogs\columns\vp-vs-rp\mobile\sewing-process-Thaipolyester.webp" alt="sewing process Thaipolyester" media="(max-width: 640px)" loading="lazy">
-                                        <img src="\assets\images\blogs\columns\vp-vs-rp\desktop\sewing-process-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="sewing process Thaipolyester" loading="lazy">
+                                        <source srcset="/assets/images/blogs/columns/vp-vs-rp/mobile/sewing-process-Thaipolyester.webp" alt="sewing process Thaipolyester" media="(max-width: 640px)" loading="lazy">
+                                        <img src="/assets/images/blogs/columns/vp-vs-rp/desktop/sewing-process-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="sewing process Thaipolyester" loading="lazy">
                                     </picture>
                                 </div>
                             </div>
@@ -324,46 +325,46 @@
                     <div class="content_block pos-r d-flex">
                         <div class="col-xs-4 col-sm-4 col-md-4 p-0">
                             <div class="img_block d-flex">
-                                <a class="mr-0" href="\assets\images\blogs\columns\vp-vs-rp\desktop\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp" title="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" data-fancybox="gallery" data-thumbnail-src="\assets\images\blogs\columns\vp-vs-rp\desktop\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp">
+                                <a class="mr-0" href="/assets/images/blogs/columns/vp-vs-rp/desktop/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp" title="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" data-fancybox="gallery" data-thumbnail-src="/assets/images/blogs/columns/vp-vs-rp/desktop/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp">
                                     <picture>
-                                        <source srcset="\assets\images\blogs\columns\vp-vs-rp\mobile\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" media="(max-width: 640px)" loading="lazy">
-                                        <img src="\assets\images\blogs\columns\vp-vs-rp\desktop\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" loading="lazy">
+                                        <source srcset="/assets/images/blogs/columns/vp-vs-rp/mobile/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" media="(max-width: 640px)" loading="lazy">
+                                        <img src="/assets/images/blogs/columns/vp-vs-rp/desktop/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" loading="lazy">
                                     </picture>
                                 </a>
                             </div>
                             <div class="img_block d-flex">
-                                <a class="mr-0" href="\assets\images\blogs\columns\vp-vs-rp\desktop\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp" title="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" data-fancybox="gallery" data-thumbnail-src="\assets\images\blogs\columns\vp-vs-rp\desktop\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp">
+                                <a class="mr-0" href="/assets/images/blogs/columns/vp-vs-rp/desktop/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp" title="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" data-fancybox="gallery" data-thumbnail-src="/assets/images/blogs/columns/vp-vs-rp/desktop/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp">
                                     <picture>
-                                        <source srcset="\assets\images\blogs\columns\vp-vs-rp\mobile\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" media="(max-width: 640px)" loading="lazy">
-                                        <img src="\assets\images\blogs\columns\vp-vs-rp\desktop\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp" width="900" height="350" class="img-fluid" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" loading="lazy">
+                                        <source srcset="/assets/images/blogs/columns/vp-vs-rp/mobile/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" media="(max-width: 640px)" loading="lazy">
+                                        <img src="/assets/images/blogs/columns/vp-vs-rp/desktop/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp" width="900" height="350" class="img-fluid" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" loading="lazy">
                                     </picture>
                                 </a>
                             </div>
                             <div class="img_block d-flex">
-                                <a class="mr-0" href="\assets\images\blogs\columns\vp-vs-rp\desktop\Global-Recycled-standard-100Recycled-Polyester-Thaipolyester.webp" title="Global Recycled standard 100% Recycled Polyester Thaipolyester" data-fancybox="gallery" data-thumbnail-src="\assets\images\blogs\columns\vp-vs-rp\desktop\Global-Recycled-standard-100Recycled-Polyester-Thaipolyester.webp">
+                                <a class="mr-0" href="/assets/images/blogs/columns/vp-vs-rp/desktop/Global-Recycled-standard-100Recycled-Polyester-Thaipolyester.webp" title="Global Recycled standard 100% Recycled Polyester Thaipolyester" data-fancybox="gallery" data-thumbnail-src="/assets/images/blogs/columns/vp-vs-rp/desktop/Global-Recycled-standard-100Recycled-Polyester-Thaipolyester.webp">
                                     <picture>
-                                        <source srcset="\assets\images\blogs\columns\vp-vs-rp\mobile\Global-Recycled-standard-100Recycled-Polyester-Thaipolyester.webp" alt="Global Recycled standard 100% Recycled Polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
-                                        <img src="\assets\images\blogs\columns\vp-vs-rp\desktop\Global-Recycled-standard-100Recycled-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="Global Recycled standard 100% Recycled Polyester Thaipolyester" loading="lazy">
-                                    </picture>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-xs-4 col-sm-4 col-md-4 p-0">
-                            <div class="img_block d-flex">
-                                <a href="\assets\images\blogs\columns\vp-vs-rp\desktop\Green-industry-Activty-Thaipolyester.webp" title="Green industry Activty Thaipolyester" data-fancybox="gallery" data-thumbnail-src="\assets\images\blogs\columns\vp-vs-rp\desktop\Green-industry-Activty-Thaipolyester.webp">
-                                    <picture>
-                                        <source srcset="\assets\images\blogs\columns\vp-vs-rp\mobile\Green-industry-Activty-Thaipolyester.webp" alt="Green industry Activty Thaipolyester" media="(max-width: 640px)" loading="lazy">
-                                        <img src="\assets\images\blogs\columns\vp-vs-rp\desktop\Green-industry-Activty-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="Green industry Activty Thaipolyester" loading="lazy">
+                                        <source srcset="/assets/images/blogs/columns/vp-vs-rp/mobile/Global-Recycled-standard-100Recycled-Polyester-Thaipolyester.webp" alt="Global Recycled standard 100% Recycled Polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
+                                        <img src="/assets/images/blogs/columns/vp-vs-rp/desktop/Global-Recycled-standard-100Recycled-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="Global Recycled standard 100% Recycled Polyester Thaipolyester" loading="lazy">
                                     </picture>
                                 </a>
                             </div>
                         </div>
                         <div class="col-xs-4 col-sm-4 col-md-4 p-0">
                             <div class="img_block d-flex">
-                                <a class="ml-0" href="\assets\images\blogs\columns\vp-vs-rp\desktop\intertek-Certificate-of-Registration-thaipolyester.webp" title="Green industry Activty Thaipolyester" data-fancybox="gallery" data-thumbnail-src="\assets\images\blogs\columns\vp-vs-rp\desktop\intertek-Certificate-of-Registration-thaipolyester.webp">
+                                <a href="/assets/images/blogs/columns/vp-vs-rp/desktop/Green-industry-Activty-Thaipolyester.webp" title="Green industry Activty Thaipolyester" data-fancybox="gallery" data-thumbnail-src="/assets/images/blogs/columns/vp-vs-rp/desktop/Green-industry-Activty-Thaipolyester.webp">
                                     <picture>
-                                        <source srcset="\assets\images\blogs\columns\vp-vs-rp\mobile\intertek-Certificate-of-Registration-thaipolyester.webp" alt="intertek Certificate of Registration thaipolyester" media="(max-width: 640px)" loading="lazy">
-                                        <img src="\assets\images\blogs\columns\vp-vs-rp\desktop\intertek-Certificate-of-Registration-thaipolyester.webp" width="900" height="350" class="img-fluid" alt="intertek Certificate of Registration thaipolyester" loading="lazy">
+                                        <source srcset="/assets/images/blogs/columns/vp-vs-rp/mobile/Green-industry-Activty-Thaipolyester.webp" alt="Green industry Activty Thaipolyester" media="(max-width: 640px)" loading="lazy">
+                                        <img src="/assets/images/blogs/columns/vp-vs-rp/desktop/Green-industry-Activty-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="Green industry Activty Thaipolyester" loading="lazy">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 p-0">
+                            <div class="img_block d-flex">
+                                <a class="ml-0" href="/assets/images/blogs/columns/vp-vs-rp/desktop/intertek-Certificate-of-Registration-thaipolyester.webp" title="Green industry Activty Thaipolyester" data-fancybox="gallery" data-thumbnail-src="/assets/images/blogs/columns/vp-vs-rp/desktop/intertek-Certificate-of-Registration-thaipolyester.webp">
+                                    <picture>
+                                        <source srcset="/assets/images/blogs/columns/vp-vs-rp/mobile/intertek-Certificate-of-Registration-thaipolyester.webp" alt="intertek Certificate of Registration thaipolyester" media="(max-width: 640px)" loading="lazy">
+                                        <img src="/assets/images/blogs/columns/vp-vs-rp/desktop/intertek-Certificate-of-Registration-thaipolyester.webp" width="900" height="350" class="img-fluid" alt="intertek Certificate of Registration thaipolyester" loading="lazy">
                                     </picture>
                                 </a>
                             </div>

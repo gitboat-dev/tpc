@@ -2,6 +2,7 @@
 @section('style')
 	<link rel="preload stylesheet" href="/css/blogs/circular-economy.css?v={{ time() }}" as="style" crossorigin>
 @endsection
+    @section('og-image','/assets/images/blogs/columns/circular-economy/desktop/The-Complete-Guide-to-the-Circular-Economy-for-Textiles-Thaipolyester.webp')
 @section('content')
 	<h1 style="display: none;">The Complete Guide to the Circular Economy for Textiles.</h1>
 	<div id="cce">
