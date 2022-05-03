@@ -67,11 +67,14 @@ ul.path > li.active{
     /* end sec1 */
 
     #sec2{
-        padding: 15px 0;
+        padding: 40px 0;
     }
     #sec2 .d-flex-r-re,#sec2 .d-flex-r{
         display: block !important;
         flex-direction: unset !important;
+    }
+    #sec2 .r-blog:not(:last-child){
+        margin-bottom: 20px !important;
     }
 
     /* end sec2 */

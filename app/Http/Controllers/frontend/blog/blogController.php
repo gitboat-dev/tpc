@@ -17,9 +17,11 @@ class blogController extends Controller {
 		$chkie = new Func_controller;
 		$agent = new Agent();
 		if ($blog) {
+            $cover = $this->get_cover();
 			foreach ($blog as $a) {
+                $a->article_date_start = date("Y-m-d", strtotime($a->article_date_start));
 				$a->banner = $this->get_banners($a['id']);
-                $a->cover = $this->get_cover($a['id']);
+                $a->cover = $cover[$a['id']];
 			}
 			$data['blogs'] = $blog;
 			$data['chkie'] = $chkie->chk();
