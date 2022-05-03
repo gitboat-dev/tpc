@@ -25,6 +25,13 @@ ul.path > li.active{
 #sec2{
     padding: 40px 25px;
 }
+#sec2 .col1{
+    border-right: 3px solid var(--msBgDark);
+    padding-right: 20px !important;
+}
+#sec2 .col2{
+    padding-left: 20px !important;
+}
 #sec2 .d-flex-r-re{
     display: flex !important;
     flex-direction: row-reverse !important;
@@ -69,12 +76,21 @@ ul.path > li.active{
     #sec2{
         padding: 40px 0;
     }
+    #sec2 .col1{
+        border-right: unset;
+        padding-right: unset !important;
+    }
+    #sec2 .col2{
+        padding-left: unset !important;
+    }
     #sec2 .d-flex-r-re,#sec2 .d-flex-r{
         display: block !important;
         flex-direction: unset !important;
     }
     #sec2 .r-blog:not(:last-child){
+        padding-bottom: 20px;
         margin-bottom: 20px !important;
+        border-bottom: 1px solid #ccc;
     }
 
     /* end sec2 */
