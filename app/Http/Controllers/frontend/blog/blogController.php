@@ -58,6 +58,7 @@ class blogController extends Controller {
 			$data['active_news'] = $this->active_news;
 			$data['title'] = "Columns | Thai Polyester CO., LTD";
             $data['head_line'] = "Columns";
+            $data['before_page'] = "Columns&News";
 			$data['des'] = "";
 			$data['key'] = "";
 		}
@@ -84,6 +85,7 @@ class blogController extends Controller {
 			$data['active_news'] = $this->active_news;
 			$data['title'] = "News | Thai Polyester CO., LTD";
             $data['head_line'] = "News";
+            $data['before_page'] = "Columns&News";
 			$data['des'] = "";
 			$data['key'] = "";
 		}
