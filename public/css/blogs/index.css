@@ -75,7 +75,16 @@ ul.path > li.active{
 /* end sec2 */
 
 @media only screen and (max-width: 991px){
+    #sec2 .col1{
+        border-right: unset;
+        padding-right: unset !important;
+    }
+    #sec2 .col2{
+        padding-left: unset !important;
+        display: none !important;
+    }
 
+    /* end sec2 */
 }
 @media only screen and (max-width: 768px){
     #sec1 .content_block{
@@ -86,13 +95,6 @@ ul.path > li.active{
 
     #sec2{
         padding: 40px 0;
-    }
-    #sec2 .col1{
-        border-right: unset;
-        padding-right: unset !important;
-    }
-    #sec2 .col2{
-        padding-left: unset !important;
     }
     #sec2 .d-flex-r-re,#sec2 .d-flex-r{
         display: block !important;
