@@ -32,6 +32,7 @@ class blogController extends Controller {
 			$data['des'] = "";
 			$data['key'] = "";
 		}
+        // dd($data);
         return view('blogs.index',$data);
 	}
 
@@ -82,26 +83,28 @@ class blogController extends Controller {
 		return view('page404');
 	}
 
-	public function get_banners($ref_id, $id = "") {
+	public function get_banners($ref_id = 0, $id = 0) {
 		$data = [];
-		$banners = $this->banners($ref_id);
+		$banners = $this->banners();
 		if ($banners) {
-			if ($id == "") {
-				$data = $banners;
+            $ref_id = (int) $ref_id;
+			if ($ref_id != 0) {
+                $id = (int) $id;
+				$data = isset($banners[$ref_id]) && $banners[$ref_id] ? $banners[$ref_id] : [];
+                if($id != 0 && $data){
+                    $data = isset($data[$id]) && $data[$id] ? $data[$id] : [];
+                }
 			} else {
-				$id = (int) $id;
-				if ($id > 0) {
-					$data = $banners[$id] ? $banners[$id] : [];
-				}
+                $data = $banners;
 			}
 		}
 		return $data;
 	}
-    public function get_cover($id = "") {
+    public function get_cover($id = 0) {
 		$data = [];
 		$cover = $this->cover($id);
 		if ($cover) {
-			if ($id == "") {
+			if ($id == 0) {
 				$data = $cover;
 			} else {
 				$id = (int) $id;
@@ -128,7 +131,7 @@ class blogController extends Controller {
 			}
 			if ($banners) {
 				foreach ($banners as $b) {
-					$a[$b['id']] = [
+					$a[$b['ref_article_id']][$b['id']] = [
 						'id' => $b['id'],
 						'url' => '/blog/banner/' . $b['id'] . '/' . $b['name'],
 					];
