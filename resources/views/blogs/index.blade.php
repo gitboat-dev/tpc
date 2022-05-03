@@ -85,7 +85,7 @@
                 </div>
                 <div class="col-xs-12 col-sm-3 col-md-3 p-0 col2 desktop">
                     <ul class="blog-lists">
-                        @foreach($blogs as $k => $blog_new)
+                        @foreach($blogs_new as $k => $blog_new)
                             <li>
                                 <a href="/blog/{{$blog_new['article_slug']}}" title="{{$blog_new['article_title']}}">
                                     {{$blog_new['article_title']}}

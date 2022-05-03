@@ -13,7 +13,9 @@ class blogController extends Controller {
 	public $active_news = 'activemenu';
 	public function index() {
 		$data = [];
-		$blog = article::orderBy('id','desc')->get();
+		$blog = article::orderBy('id','desc');
+        $blog_new = $blog->take(5)->get();
+        $blog = $blog->take(10)->get();
 		$chkie = new Func_controller;
 		$agent = new Agent();
 		if ($blog) {
@@ -24,6 +26,7 @@ class blogController extends Controller {
                 $a->cover = $cover[$a['id']];
 			}
 			$data['blogs'] = $blog;
+			$data['blogs_new'] = $blog_new;
 			$data['chkie'] = $chkie->chk();
 			$data['chkmobile'] = $agent->isMobile() ? $agent->isMobile() : ($agent->isTablet() ? $agent->isTablet() : false);
 			$data['active_news'] = $this->active_news;
