@@ -8,10 +8,17 @@
     <meta name="ncode" content="@if(isset($ncode)){{$ncode}}@endif">
     <meta name="chkie" content="@if(isset($chkie)){{$chkie}}@endif">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>@if(isset($title)){{$title}}@endif </title>
+    <title>@if(isset($title)){{$title}}@endif</title>
     <meta name="description" content="@if(isset($des)){{$des}}@endif">
     <meta name="keywords" content="@if(isset($key)){{$key}}@endif">
     <meta name="author" content="TCP">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.thaipolyester.com">
+    <meta property="og:title" content="@if(isset($title)){{$title}}@endif">
+    <meta property="og:image" content="@yield('og-image')">
+    <meta property="og:image:type" content="image/webp">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
     <link rel="shortcut icon" href="{{ asset('assets/custom/images/home/Logo-01.webp')}}">
 
     <!-- Google Tag Manager -->
