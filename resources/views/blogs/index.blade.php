@@ -1,7 +1,7 @@
 @extends('layouts.template')
 @section('style')
     <link rel="preload stylesheet" href="/css/blogs/index.css?v={{time()}}" as="style" crossorigin>
-    <link rel="stylesheet" id="fancybox-css" href="{!!asset('/assets/custom/wp-content/plugins/radiantthemes-addons/assets/css/jquery.fancybox.min.css?ver=4.9.11')!!}" type="text/css" media="all">
+    {{-- <link rel="stylesheet" id="fancybox-css" href="{!!asset('/assets/custom/wp-content/plugins/radiantthemes-addons/assets/css/jquery.fancybox.min.css?ver=4.9.11')!!}" type="text/css" media="all"> --}}
 @endsection
 @section('content')
 <div id="tpc">
@@ -59,8 +59,8 @@
                                     <div class="img_block m-auto">
                                         <picture>
                                             <a href="/blog/{{$blog['article_slug']}}" title="{{$blog['article_title']}}">
-                                                <source srcset="{{$blog['cover']['url']}}" alt="" media="(max-width: 640px)">
-                                                <img src="{{$blog['cover']['url']}}" width="900" height="350" class="img-fluid" alt="">
+                                                <source srcset="{{$blog['cover']['url']}}" alt="{{$blog['article_title']}}" media="(max-width: 640px)" loading="lazy">
+                                                <img src="{{$blog['cover']['url']}}" width="900" height="350" class="img-fluid" alt="{{$blog['article_title']}}" loading="lazy">
                                             </a>
                                         </picture>
                                     </div>
@@ -115,5 +115,5 @@
 @endsection
 @section('custom-script')
     {{-- <script src="/js/blogs/index.js?v={{time()}}"></script> --}}
-    <script src="/assets/custom/wp-content/plugins/radiantthemes-addons/assets/js/jquery.fancybox.min.js?v={{time()}}"></script>
+    {{-- <script src="/assets/custom/wp-content/plugins/radiantthemes-addons/assets/js/jquery.fancybox.min.js?v={{time()}}"></script> --}}
 @endsection
