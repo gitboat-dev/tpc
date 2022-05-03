@@ -92,6 +92,9 @@
                                 </div>
                             </div>
                         @endforeach
+                        <div class="text-center paginate_block">
+                            {{ $blogs->onEachSide(5)->links() }}
+                        </div>
                     @endif
                 </div>
                 <div class="col-xs-12 col-sm-3 col-md-3 p-0 col2 desktop">

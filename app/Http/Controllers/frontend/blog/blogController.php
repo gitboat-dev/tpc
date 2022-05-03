@@ -15,7 +15,7 @@ class blogController extends Controller {
 		$data = [];
 		$blog = article::orderBy('id','desc');
         $blog_new = $blog->take(5)->get();
-        $blog = $blog->Paginate(10);;
+        $blog = $blog->Paginate(1);
 		$chkie = new Func_controller;
 		$agent = new Agent();
 		if ($blog) {
@@ -41,7 +41,7 @@ class blogController extends Controller {
 		$data = [];
 		$blog = article::where('article_type',2)->orderBy('id','desc');
         $blog_new = $blog->take(5)->get();
-        $blog = $blog->Paginate(10);;
+        $blog = $blog->Paginate(10);
 		$chkie = new Func_controller;
 		$agent = new Agent();
 		if ($blog) {
@@ -68,7 +68,7 @@ class blogController extends Controller {
 		$data = [];
 		$blog = article::where('article_type',1)->orderBy('id','desc');
         $blog_new = $blog->take(5)->get();
-        $blog = $blog->Paginate(10);;
+        $blog = $blog->Paginate(10);
 		$chkie = new Func_controller;
 		$agent = new Agent();
 		if ($blog) {
