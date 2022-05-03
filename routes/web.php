@@ -328,6 +328,8 @@ Route::get('/thank-you', function () {
 });
 Route::group(['prefix' => 'blog', 'as' => 'blog.'], function () {
 	Route::get('/', 'frontend\blog\blogController@index');
+	Route::get('/filter/columns', 'frontend\blog\blogController@columns');
+	Route::get('/filter/news', 'frontend\blog\blogController@news');
 	Route::get('/{slug}', 'frontend\blog\blogController@blog');
 	// Route::get('/circular-economy', function () {
 	// 	$chkie = new Func_controller;

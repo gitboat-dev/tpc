@@ -15,7 +15,7 @@ class blogController extends Controller {
 		$data = [];
 		$blog = article::orderBy('id','desc');
         $blog_new = $blog->take(5)->get();
-        $blog = $blog->take(10)->get();
+        $blog = $blog->Paginate(10);;
 		$chkie = new Func_controller;
 		$agent = new Agent();
 		if ($blog) {
@@ -35,10 +35,60 @@ class blogController extends Controller {
 			$data['des'] = "";
 			$data['key'] = "";
 		}
-        // dd($data);
         return view('blogs.index',$data);
 	}
-
+    public function columns() {
+		$data = [];
+		$blog = article::where('article_type',2)->orderBy('id','desc');
+        $blog_new = $blog->take(5)->get();
+        $blog = $blog->Paginate(10);;
+		$chkie = new Func_controller;
+		$agent = new Agent();
+		if ($blog) {
+            $cover = $this->get_cover();
+			foreach ($blog as $a) {
+                $a->article_date_start = date("Y-m-d", strtotime($a->article_date_start));
+				$a->banner = $this->get_banners($a['id']);
+                $a->cover = $cover[$a['id']];
+			}
+			$data['blogs'] = $blog;
+			$data['blogs_new'] = $blog_new;
+			$data['chkie'] = $chkie->chk();
+			$data['chkmobile'] = $agent->isMobile() ? $agent->isMobile() : ($agent->isTablet() ? $agent->isTablet() : false);
+			$data['active_news'] = $this->active_news;
+			$data['title'] = "Columns | Thai Polyester CO., LTD";
+            $data['head_line'] = "Columns";
+			$data['des'] = "";
+			$data['key'] = "";
+		}
+        return view('blogs.index',$data);
+	}
+    public function news() {
+		$data = [];
+		$blog = article::where('article_type',1)->orderBy('id','desc');
+        $blog_new = $blog->take(5)->get();
+        $blog = $blog->Paginate(10);;
+		$chkie = new Func_controller;
+		$agent = new Agent();
+		if ($blog) {
+            $cover = $this->get_cover();
+			foreach ($blog as $a) {
+                $a->article_date_start = date("Y-m-d", strtotime($a->article_date_start));
+				$a->banner = $this->get_banners($a['id']);
+                $a->cover = $cover[$a['id']];
+			}
+			$data['blogs'] = $blog;
+			$data['blogs_new'] = $blog_new;
+			$data['chkie'] = $chkie->chk();
+			$data['chkmobile'] = $agent->isMobile() ? $agent->isMobile() : ($agent->isTablet() ? $agent->isTablet() : false);
+			$data['active_news'] = $this->active_news;
+			$data['title'] = "News | Thai Polyester CO., LTD";
+            $data['head_line'] = "News";
+			$data['des'] = "";
+			$data['key'] = "";
+		}
+        return view('blogs.index',$data);
+	}
 	public function blog($slug) {
 		$data = [];
 		$clean = new cleanController;
