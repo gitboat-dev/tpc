@@ -92,6 +92,9 @@ ul.path > li.active{
     color: var(--msBgRed);
     transition: all 0.2s;
 }
+#sec2 .col2 ul.blog-lists{
+    padding-left: 20px;
+}
 #sec2 .col2 ul.blog-lists > li{
     margin-bottom: 20px;
 }

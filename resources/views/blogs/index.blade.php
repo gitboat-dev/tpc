@@ -103,6 +103,7 @@
                     @endif
                 </div>
                 <div class="col-xs-12 col-sm-3 col-md-3 p-0 col2 desktop">
+                    <h3 style="margin-bottom: 30px;">Recent Posts</h3>
                     <ul class="blog-lists">
                         @foreach($blogs_new as $k => $blog_new)
                             <li>
