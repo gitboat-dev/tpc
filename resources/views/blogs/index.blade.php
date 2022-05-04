@@ -51,38 +51,40 @@
                 <div class="col-xs-12 col-sm-12 col-md-9 p-0 col1">
                     @if($blogs && isset($blogs))
                         @foreach($blogs as $k => $blog)
-                            <div class="row m-0 @if(($k % 2) != 0) d-flex-r-re  @else d-flex-r @endif r-blog">
-                                <div class="col-xs-12 col-sm-5 col-md-5 d-flex">
-                                    <div class="img_block m-auto">
-                                        <picture>
-                                            <a href="/blog/{{$blog['article_slug']}}" title="{{$blog['article_title']}}">
-                                                <source srcset="{{$blog['cover']['url']}}" alt="{{$blog['article_title']}}" media="(max-width: 640px)" loading="lazy">
-                                                <img src="{{$blog['cover']['url']}}" width="900" height="350" class="img-fluid" alt="{{$blog['article_title']}}" loading="lazy">
-                                            </a>
-                                        </picture>
+                            <div class="row pos-r m-0 r-blog">
+                                <div class="blog-block @if(($k % 2) != 0) d-flex-r-re  @else d-flex-r @endif">
+                                    <div class="col-xs-12 col-sm-5 col-md-5 d-flex">
+                                        <div class="img_block m-auto">
+                                            <picture>
+                                                <a href="/blog/{{$blog['article_slug']}}" title="{{$blog['article_title']}}">
+                                                    <source srcset="{{$blog['cover']['url']}}" alt="{{$blog['article_title']}}" media="(max-width: 640px)" loading="lazy">
+                                                    <img src="{{$blog['cover']['url']}}" width="900" height="350" class="img-fluid" alt="{{$blog['article_title']}}" loading="lazy">
+                                                </a>
+                                            </picture>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col-xs-12 col-sm-7 col-md-7">
-                                    <div class="content_block pos-r d-flex">
-                                        <div class="content_group ml-0">
-                                            <h3 class="a_tl">
-                                                <a href="/blog/{{$blog['article_slug']}}" title="{{$blog['article_title']}}">
-                                                    {{$blog['article_title']}}
-                                                </a>
-                                            </h3>
-                                            <div class="a_start">
-                                                <small>
-                                                    <i class="fa fa-calendar" aria-hidden="true" style="margin-right: 5px;"></i>
-                                                    <span class="theme-hl">{{$blog['article_date_start']}}</span>
-                                                </small>
-                                            </div>
-                                            <div class="a_desc">
-                                                {!!$blog['article_description']!!}
-                                            </div>
-                                            <div class="a_view">
-                                                <a href="/blog/{{$blog['article_slug']}}" title="{{$blog['article_title']}}">
-                                                    View More...
-                                                </a>
+                                    <div class="col-xs-12 col-sm-7 col-md-7">
+                                        <div class="content_block pos-r d-flex">
+                                            <div class="content_group ml-0">
+                                                <h3 class="a_tl">
+                                                    <a href="/blog/{{$blog['article_slug']}}" title="{{$blog['article_title']}}">
+                                                        {{$blog['article_title']}}
+                                                    </a>
+                                                </h3>
+                                                <div class="a_start">
+                                                    <small>
+                                                        <i class="fa fa-calendar" aria-hidden="true" style="margin-right: 5px;"></i>
+                                                        <span class="theme-hl">{{$blog['article_date_start']}}</span>
+                                                    </small>
+                                                </div>
+                                                <div class="a_desc">
+                                                    {!!$blog['article_description']!!}
+                                                </div>
+                                                <div class="a_view">
+                                                    <a href="/blog/{{$blog['article_slug']}}" title="{{$blog['article_title']}}">
+                                                        View More...
+                                                    </a>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>

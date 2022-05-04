@@ -106,11 +106,11 @@ ul.path > li.active{
     color: var(--msBgRed);
     transition: all 0.2s;
 }
-#sec2 div.r-blog:not(:last-child){
+/* #sec2 div.r-blog:not(:last-child){
     padding-bottom: 25px;
     margin-bottom: 25px;
     border-bottom: none;
-}
+} */
 
 /* end sec2 */
 
@@ -140,10 +140,18 @@ ul.path > li.active{
         display: block !important;
         flex-direction: unset !important;
     }
-    #sec2 .r-blog:not(:last-child){
-        padding-bottom: 20px;
-        margin-bottom: 20px;
-        border-bottom: 1px solid #ccc;
+    #sec2 .r-blog{
+        padding-bottom: 30px;
+        margin-bottom: 40px !important;
+    }
+    #sec2 .blog-block::after{
+        content: " ";
+        position: absolute;
+        bottom: 0;
+        left: 10%;
+        width: 80%;
+        height: 2px;
+        background-color: var(--msBgDark);
     }
 
     /* end sec2 */
