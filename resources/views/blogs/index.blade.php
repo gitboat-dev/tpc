@@ -15,23 +15,23 @@
             <div class="row m-0">
                 <div class="col-xs-12 col-sm-12 col-md-12 p-0">
                     <div class="img_block">
-                        @if($blogs && isset($blogs))
+                        {{-- @if($blogs && isset($blogs))
                             @if(isset($blogs[0]['cover']['url']))
                                 <picture>
                                     <source srcset="{{$blogs[0]['cover']['url']}}" alt="{{$head_line}}" media="(max-width: 640px)">
                                     <img src="{{$blogs[0]['cover']['url']}}" width="900" height="350" class="img-fluid" alt="{{$head_line}}">
                                 </picture>
                             @endif
-                        @endif
-                        {{-- @foreach($blogs as $b)
+                        @endif --}}
+                        @foreach($blogs as $b)
                             @if(isset($b['banner']) && $b['banner'])
                                 <picture>
-                                    <source srcset="{{array_values($b['banner'])[0]['url']}}" alt="{{$head_line}}" media="(max-width: 640px)">
-                                    <img src="{{array_values($b['banner'])[0]['url']}}" width="900" height="350" class="img-fluid" alt="{{$head_line}}">
+                                    <source srcset="{{array_values($b['banner'])[0]['url']}}?v={{time()}}" alt="{{$head_line}}" media="(max-width: 640px)">
+                                    <img src="{{array_values($b['banner'])[0]['url']}}?v={{time()}}" width="900" height="350" class="img-fluid" alt="{{$head_line}}">
                                 </picture>
                                 @break
                             @endif
-                        @endforeach --}}
+                        @endforeach
                     </div>
                     <div class="container content_block pos-r">
                         <h1 class="fw-600 m-0 white-hl">{{$head_line}}</h1>

@@ -106,6 +106,11 @@ ul.path > li.active{
     color: var(--msBgRed);
     transition: all 0.2s;
 }
+#sec2 div.r-blog:not(:last-child){
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    border-bottom: none;
+}
 
 /* end sec2 */
 
@@ -137,7 +142,7 @@ ul.path > li.active{
     }
     #sec2 .r-blog:not(:last-child){
         padding-bottom: 20px;
-        margin-bottom: 20px !important;
+        margin-bottom: 20px;
         border-bottom: 1px solid #ccc;
     }
 

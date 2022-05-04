@@ -188,7 +188,7 @@ class blogController extends Controller {
 				foreach ($banners as $b) {
 					$a[$b['ref_article_id']][$b['id']] = [
 						'id' => $b['id'],
-						'url' => '/blog/banner/' . $b['id'] . '/' . $b['name'],
+						'url' => '/blog/banner/' . $b['ref_article_id'] . '/' . $b['name'],
 					];
 				}
 			}
