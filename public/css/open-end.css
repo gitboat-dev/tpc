@@ -2,26 +2,26 @@
 
 /* end all setting */
 
-#sec1 .col1{
-    padding: 25px 60px 25px 15px;
+#sec1 .r1 .col1{
+    padding: 25px 60px 0px 15px;
 }
-#sec1 .col1::after{
+#sec1 .r1 .col1::after{
     content: " ";
     position: absolute;
     right: 0;
     top: 0;
-    width: 25%;
+    width: 33.33333333%;
     height: 100%;
     background-color: var(--msBgLight);
     z-index: 98;
 }
-#sec1 .col1 .img_block{
+#sec1 .r1 .col1 .img_block{
     z-index: 99;
 }
-#sec1 .col2 .content_block > .content_group::before{
+#sec1 .r1 .col2 .content_block > .content_group::before{
     content: " ";
     position: absolute;
-    left: -10%;
+    left: -15%;
     top: 15%;
     width: 20px;
     height: 70%;
@@ -30,11 +30,98 @@
 
 /* end sec1 */
 
+#sec2{
+    background-color: var(--msBgDark);
+}
+#sec2 .r1 .col1{
+    padding: 20px;
+}
+#sec2 .r1 .col1 .content_block{
+    display: flex;
+}
+#sec2 .r1 .col1 .content_block > .content_group{
+    margin: auto;
+}
+#sec2 .r1 .col2{
+    padding: 20px 20px 20px 60px;
+}
+#sec2 .r1 .col3{
+    padding: 0 60px 60px 60px;
+}
+#sec2 .r1 .col2::before{
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 40px;
+    height: 100%;
+    background-color: var(--msBg);
+}
+#sec2 .r1 .col3::before{
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 33.33333333%;
+    height: 100%;
+    background-color: var(--msBgDark);
+    z-index: 98;
+}
+#sec2 .r1 .col3 .img_block{
+    z-index: 99;
+}
+
+/* end sec2 */
 
 @media only screen and (max-width: 991px){
-    #sec1 .col1{
+    #sec1 .r1 .col1{
         padding: 25px 15px;
+    }
+    #sec1 .r1 .col2 .content_block > .content_group::before{
+        width: 15px;
     }
 
     /* end sec1 */
+
+    #sec2 .r1{
+        display: flex;
+        flex-direction: column;
+    }
+    #sec2 .r1 .col1{
+        order: 2;
+    }
+    #sec2 .r1 .col2{
+        order: 3;
+    }
+    #sec2 .r1 .col3{
+        order: 1;
+    }
+    #sec2 .r1 .col1 .content_block{
+        display: unset;
+    }
+    #sec2 .r1 .col1 .content_block > .content_group{
+        margin: unset;
+    }
+    #sec2 .r1 .col1,
+    #sec2 .r1 .col2{
+        padding: 20px 15px;
+    }
+    #sec2 .r1 .col3{
+        padding: 0;
+    }
+    #sec2{
+        background-color: var(--msBgLight);
+    }
+    #sec2 .r1 .col2::before{
+        top: -10px;
+        left: 40%;
+        width: 60%;
+        height: 10px;
+        background-color: var(--msBg);
+    }
+    #sec2 .r1 .col3::before{
+        display: none;
+    }
+
+    /* end sec2 */
 }
