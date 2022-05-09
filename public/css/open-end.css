@@ -1,0 +1,40 @@
+
+
+/* end all setting */
+
+#sec1 .col1{
+    padding: 25px 60px 25px 15px;
+}
+#sec1 .col1::after{
+    content: " ";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 25%;
+    height: 100%;
+    background-color: var(--msBgLight);
+    z-index: 98;
+}
+#sec1 .col1 .img_block{
+    z-index: 99;
+}
+#sec1 .col2 .content_block > .content_group::before{
+    content: " ";
+    position: absolute;
+    left: -10%;
+    top: 15%;
+    width: 20px;
+    height: 70%;
+    background-color: var(--msBg);
+}
+
+/* end sec1 */
+
+
+@media only screen and (max-width: 991px){
+    #sec1 .col1{
+        padding: 25px 15px;
+    }
+
+    /* end sec1 */
+}
