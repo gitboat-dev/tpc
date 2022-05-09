@@ -427,6 +427,17 @@ Route::group(['prefix' => 'product', 'as' => 'product.'], function () {
 		$data['chkmobile'] = $agent->isMobile() ? $agent->isMobile() : ($agent->isTablet() ? $agent->isTablet() : false);
 		return view('products.ring-spun', $data);
     })->name('ring-spun');
+    Route::get('/open-end-or-oe-spun',function(){
+        $chkie = new Func_controller;
+		$data['chkie'] = $chkie->chk();
+		$agent = new Agent();
+        $data['des'] = '';
+		$data['key'] = '';
+		$data['title'] = 'Open end or OE spun | Thai Polyester CO., LTD';
+		$data['active_product'] = 'activemenu';
+		$data['chkmobile'] = $agent->isMobile() ? $agent->isMobile() : ($agent->isTablet() ? $agent->isTablet() : false);
+		return view('products.open-end', $data);
+    })->name('open-end');
 });
 
 //sendemail
