@@ -431,9 +431,9 @@ Route::group(['prefix' => 'product', 'as' => 'product.'], function () {
         $chkie = new Func_controller;
 		$data['chkie'] = $chkie->chk();
 		$agent = new Agent();
-        $data['des'] = '';
-		$data['key'] = '';
-		$data['title'] = 'Open end or OE spun | Thai Polyester CO., LTD';
+        $data['des'] = 'the fiber sliver is separated into single fibers and in which the separated fiber material is brought by an air stream to a collecting surface from which it is drawn off while being twisted';
+		$data['key'] = 'Open End, OE, Standard Open End, best Open End, Produce cheap Open End';
+		$data['title'] = 'Open End | Thai Polyester CO., LTD';
 		$data['active_product'] = 'activemenu';
 		$data['chkmobile'] = $agent->isMobile() ? $agent->isMobile() : ($agent->isTablet() ? $agent->isTablet() : false);
 		return view('products.open-end', $data);
