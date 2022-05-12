@@ -15,6 +15,22 @@ jQuery(document).ready(function($){
         sec4_img_thumb();
         sec5();
     });
+    $('#sec1').onScrolledTo(0,function(){
+        sec1();
+	});
+    $('#sec2').onScrolledTo(0,function(){
+        sec2();
+	});
+    $('#sec3').onScrolledTo(0,function(){
+        sec3();
+	});
+    $('#sec4').onScrolledTo(0,function(){
+        sec4();
+        sec4_img_thumb();
+	});
+    $('#sec5').onScrolledTo(0,function(){
+        sec5();
+	});
     $(window).scroll(function(){
         v_scroll(video1,btn_play1,$('#sec3'),480);
     });

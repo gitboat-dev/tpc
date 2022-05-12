@@ -1,6 +1,6 @@
 @extends('layouts.template')
 @section('style')
-	<link rel="preload stylesheet" href="/css/open-end.css?v={{ time() }}" as="style" crossorigin>
+	<link rel="preload stylesheet" href="/css/open-end.min.css?v={{time()}}" as="style" crossorigin>
 @endsection
 @section('content')
 <div id="tpc">
@@ -143,14 +143,14 @@
                         <div class="thumb-nail d-flex pos-r p-0">
                             <div class="img_block">
                                 <picture>
-                                    <source srcset="/assets/images/open-end/mobile/Ring-Spun-Process-thaipolyester.webp" alt="Ring Spun Process thaipolyester" media="(max-width: 640px)">
-                                    <img src="/assets/images/open-end/desktop/Ring-Spun-Process-thaipolyester.webp" width="900" height="350" class="img-fluid" alt="Ring Spun Process thaipolyester">
+                                    <source srcset="/assets/images/open-end/mobile/Ring-Spun-Process-thaipolyester.webp" alt="Ring Spun Process thaipolyester" media="(max-width: 640px)" loading="lazy">
+                                    <img src="/assets/images/open-end/desktop/Ring-Spun-Process-thaipolyester.webp" width="900" height="350" class="img-fluid" alt="Ring Spun Process thaipolyester" loading="lazy">
                                 </picture>
                             </div>
                             <div class="img_block">
                                 <picture>
-                                    <source srcset="/assets/images/open-end/desktop/Ring-Spun-Process-thaipolyester-1.webp" alt="Ring Spun Process thaipolyester" media="(max-width: 640px)">
-                                    <img src="/assets/images/open-end/desktop/Ring-Spun-Process-thaipolyester-1.webp" width="900" height="350" class="img-fluid" alt="Ring Spun Process thaipolyester">
+                                    <source srcset="/assets/images/open-end/desktop/Ring-Spun-Process-thaipolyester-1.webp" alt="Ring Spun Process thaipolyester" media="(max-width: 640px)" loading="lazy">
+                                    <img src="/assets/images/open-end/desktop/Ring-Spun-Process-thaipolyester-1.webp" width="900" height="350" class="img-fluid" alt="Ring Spun Process thaipolyester" loading="lazy">
                                 </picture>
                             </div>
                             <div class="text-thumb pos-ab w-100p d-flex">
@@ -163,8 +163,8 @@
                     <div class="content_block d-flex pos-r">
                         <div class="img_block w-100p">
                             <picture>
-                                <source srcset="/assets/images/open-end/mobile/Open-End-or-OE-spun-Peocess-Thaipolyester.webp" alt="OE Spun Open End Polyester yarn machine Thaipolyester" media="(max-width: 640px)">
-                                <img src="/assets/images/open-end/desktop/Open-End-or-OE-spun-Peocess-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="OE Spun Open End Polyester yarn machine Thaipolyester">
+                                <source srcset="/assets/images/open-end/mobile/Open-End-or-OE-spun-Peocess-Thaipolyester.webp" alt="OE Spun Open End Polyester yarn machine Thaipolyester" media="(max-width: 640px)" loading="lazy">
+                                <img src="/assets/images/open-end/desktop/Open-End-or-OE-spun-Peocess-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="OE Spun Open End Polyester yarn machine Thaipolyester" loading="lazy">
                             </picture>
                         </div>
                         <div class="text-block pos-ab bg-black">
@@ -186,8 +186,8 @@
                     <div class="content_block pos-r">
                         <div class="img_block w-100p">
                             <picture>
-                                <source srcset="/assets/images/open-end/mobile/OE-Spun-Open-End-Polyester-yarn-machine-Process-Thaipolyester.webp" alt="OE Spun Open End Polyester yarn machine Process Thaipolyester" media="(max-width: 640px)">
-                                <img src="/assets/images/open-end/desktop/OE-Spun-Open-End-Polyester-yarn-machine-Process-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="OE Spun Open End Polyester yarn machine Process Thaipolyester">
+                                <source srcset="/assets/images/open-end/mobile/OE-Spun-Open-End-Polyester-yarn-machine-Process-Thaipolyester.webp" alt="OE Spun Open End Polyester yarn machine Process Thaipolyester" media="(max-width: 640px)" loading="lazy">
+                                <img src="/assets/images/open-end/desktop/OE-Spun-Open-End-Polyester-yarn-machine-Process-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="OE Spun Open End Polyester yarn machine Process Thaipolyester" loading="lazy">
                             </picture>
                         </div>
                         <div class="text-block d-flex">
@@ -219,8 +219,8 @@
                 <div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
                     <div class="img_block bg-green w-100p">
                         <picture>
-                            <source srcset="/assets/images/open-end/mobile/Open-End-or-OE-spun-Product-Polyester.webp" alt="Open End or OE spun Product Polyester" media="(max-width: 640px)">
-                            <img src="/assets/images/open-end/desktop/Open-End-or-OE-spun-Product-Polyester.webp" width="900" height="350" class="img-fluid" alt="Open End or OE spun Product Polyester">
+                            <source srcset="/assets/images/open-end/mobile/Open-End-or-OE-spun-Product-Polyester.webp" alt="Open End or OE spun Product Polyester" media="(max-width: 640px)" loading="lazy">
+                            <img src="/assets/images/open-end/desktop/Open-End-or-OE-spun-Product-Polyester.webp" width="900" height="350" class="img-fluid" alt="Open End or OE spun Product Polyester" loading="lazy">
                         </picture>
                     </div>
                 </div>
@@ -230,5 +230,6 @@
 </div>
 @endsection
 @section('custom-script')
-	<script src="/js/open-end.js?v={{ time() }}"></script>
+    <script src="/lib/jquery-on-scrolled-to/on-scrolled-to.min.js"></script>
+	<script src="/js/open-end.min.js?v={{time()}}"></script>
 @endsection
