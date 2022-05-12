@@ -119,6 +119,11 @@
 												Ring spun
 											</a>
 										</li>
+                                        <li>
+											<a title="Open end" href="{{ route('product.open-end') }}">
+												Open end
+											</a>
+										</li>
 									</ul>
 								</li>
 								<li class="navrecycled">

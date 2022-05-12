@@ -121,7 +121,7 @@
 							</a>
 						</div>
 						<div class="col-xs-6 col-sm-6 col-md-3 p-0 col11 ml-0">
-							<a href="{!!url('/open-end')!!}" title="Open End">
+							<a href="{{ route('product.open-end') }}" title="Open End">
 								<div class="img_block1">
 									<picture>
 										<source srcset="/assets/images/product/mobile/OE-Open-End-Spun-Yarn-Polyester-Thaipolyester.webp" alt="Open End" media="(max-width: 640px)" loading="lazy">
