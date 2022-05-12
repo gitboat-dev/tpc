@@ -187,7 +187,7 @@ body{
 }
 #sec4 .r1 .col2 .content_block .text-block{
     z-index: 99;
-    padding:20px;
+    padding: 10px 15px 15px 15px;
     left:0;
     top: 20%;
 }
@@ -241,6 +241,21 @@ body{
 }
 
 /* end sec6 */
+
+@media only screen and (min-width: 1503px){
+    .t-up1503{
+        font-size: 120% !important;
+        line-height: 100% !important;
+    }
+}
+
+@media only screen and (min-width: 1692px){
+    .t-up1692{
+        font-size: 140% !important;
+        line-height: 100% !important;
+    }
+}
+
 @media only screen and (max-width: 1198px){
     #sec4 .r1 .col1 .img-thumb{
         max-width: 75%;

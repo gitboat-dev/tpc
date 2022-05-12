@@ -22,9 +22,11 @@
                     <div class="content_block pos-r d-flex">
                         <div class="content_group m-auto pos-r">
                             <h1 class="text-center theme-hl fw-600">
-                                OPEN END<br>
-                                or<br>
-                                OE SPUN
+                                <span class="t-up1503 t-up1692">
+                                    OPEN END<br>
+                                    or<br>
+                                    OE SPUN
+                                </span>
                             </h1>
                         </div>
                     </div>
@@ -123,7 +125,7 @@
             <div class="row r1 m-0">
                 <div class="col-xs-12 col-sm-12 col-md-6 pos-r p-0 col1">
                     <div class="content_block pos-r">
-                        <h2 class="h1 theme-hl"><span class="m-tl">Differences:</span></h2>
+                        <h2 class="h1 theme-hl"><span class="m-tl1 t-up1503 t-up1692">Differences:</span></h2>
                         <div class="text-block d-flex">
                             <p class="ml-0">
                                 The basic difference between ring-spun yarns and
@@ -169,9 +171,11 @@
                             </picture>
                         </div>
                         <div class="text-block pos-ab bg-black">
-                            <h2 class="white-hl m-0">
-                                open end<br>
-                                spun yarns
+                            <h2 class="h1 white-hl m-0">
+                                <span class="m-tl1 t-up1503 t-up1692">
+                                    open end<br>
+                                    spun yarns
+                                </span>
                             </h2>
                         </div>
                     </div>

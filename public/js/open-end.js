@@ -14,6 +14,7 @@ jQuery(document).ready(function($){
         sec4();
         sec4_img_thumb();
         sec5();
+        console.log(jQuery(window).width());
     });
     $('#sec1').onScrolledTo(0,function(){
         sec1();
@@ -83,7 +84,6 @@ function sec4(){
 	var row1 = jQuery('#sec4 .r1 .col1'),
 		row2 = jQuery('#sec4 .r1 .col2 .content_block'),
 		minheight = jQuery(row2).outerHeight();
-        console.log(minheight);
 	if(jQuery(window).width() <= 991){
 		jQuery(row1).removeAttr('style');
 	}else{
