@@ -14,7 +14,6 @@ jQuery(document).ready(function($){
         sec4();
         sec4_img_thumb();
         sec5();
-        console.log(jQuery(window).width());
     });
     $('#sec1').onScrolledTo(0,function(){
         sec1();
