@@ -74,8 +74,8 @@
                             <video muted loop id="video1" poster="{{ $chkmobile ? "/assets/images/open-end/mobile/Open-End-or-OE-spun-Video-Process-Thaipolyester.webp" : "/assets/images/open-end/desktop/Open-End-or-OE-spun-Video-Process-Thaipolyester.webp" }}">
                                 <source src="/assets/images/open-end/desktop/video/minify/C0334.mp4" type="video/mp4">
                             </video>
-                            <figure>
-                                <button class="button" id="btn-video1" name="play">
+                            <figure class="btn-play d-flex pos-ab top-0 left-0 w-100p h-100p">
+                                <button class="m-auto" id="btn-video1" name="play">
                                     <picture>
                                         <source srcset="/assets/images/open-end/mobile/Play-Icon.webp" alt="Play video" loading="lazy" media="(max-width: 640px)">
                                         <img src="/assets/images/open-end/desktop/Play-Icon.webp" width="900" height="350" class="img-fluid ab-img" alt="Play video" loading="lazy">
@@ -122,7 +122,7 @@
             <div class="row r1 m-0">
                 <div class="col-xs-12 col-sm-12 col-md-6 pos-r p-0 col1">
                     <div class="content_block pos-r">
-                        <h2 class="h1 theme-hl">Differences:</h2>
+                        <h2 class="h1 theme-hl"><span class="m-tl">Differences:</span></h2>
                         <div class="text-block d-flex">
                             <p class="ml-0">
                                 The basic difference between ring-spun yarns and
@@ -139,6 +139,25 @@
                             </p>
                         </div>
                     </div>
+                    <div class="img-thumb">
+                        <div class="thumb-nail d-flex pos-r p-0">
+                            <div class="img_block">
+                                <picture>
+                                    <source srcset="/assets/images/open-end/mobile/Ring-Spun-Process-thaipolyester.webp" alt="Ring Spun Process thaipolyester" media="(max-width: 640px)">
+                                    <img src="/assets/images/open-end/desktop/Ring-Spun-Process-thaipolyester.webp" width="900" height="350" class="img-fluid" alt="Ring Spun Process thaipolyester">
+                                </picture>
+                            </div>
+                            <div class="img_block">
+                                <picture>
+                                    <source srcset="/assets/images/open-end/desktop/Ring-Spun-Process-thaipolyester-1.webp" alt="Ring Spun Process thaipolyester" media="(max-width: 640px)">
+                                    <img src="/assets/images/open-end/desktop/Ring-Spun-Process-thaipolyester-1.webp" width="900" height="350" class="img-fluid" alt="Ring Spun Process thaipolyester">
+                                </picture>
+                            </div>
+                            <div class="text-thumb pos-ab w-100p d-flex">
+                                <h5 class="theme-hl fw-n m-auto">ring-spun yarns</h5>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-6 pos-r p-0 col2">
                     <div class="content_block d-flex pos-r">
@@ -149,12 +168,15 @@
                             </picture>
                         </div>
                         <div class="text-block pos-ab bg-black">
-                            <h2 class="white-hl fw-600 m-0">
+                            <h2 class="white-hl m-0">
                                 open end<br>
                                 spun yarns
                             </h2>
                         </div>
                     </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 pos-r p-0 col3">
+                    <div class="img-thumb"></div>
                 </div>
             </div>
         </section>

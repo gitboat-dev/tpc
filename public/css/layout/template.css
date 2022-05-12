@@ -121,7 +121,7 @@ body {
     font-weight: normal;
     line-height: 70px;
 }
-#tpc h2{
+#tpc h2,#tpc .h2{
 	font-size: 50px;
     font-weight: normal;
     line-height: 60px;
@@ -222,6 +222,9 @@ body {
     #tpc .mobile{
         display: block !important;
     }
+    #tpc .m-tl{
+        font-size: 90%;
+    }
     #tpc .m-tl1{
         font-size: 80%;
     }
@@ -245,6 +248,9 @@ body {
     }
 }
 @media only screen and (min-width: 768px){
+    #tpc .tl0{
+        font-size: 90%;
+    }
     #tpc .tl1{
         font-size: 80%;
     }
