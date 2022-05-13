@@ -2,6 +2,9 @@
     --spin-color: var(--msBg);
     --spin-color-hover: var(--msBgOpacity);
 } */
+body{
+    --sec3-row-max-width : 100%;
+}
 .video_1 figure.btn-play button[name="play"] {
     background: transparent;
     border: none;
@@ -57,6 +60,86 @@
 
 /* end sec2 */
 
+#sec3{
+    padding: 20px 0;
+}
+#sec3 .owl-nav{
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--msBg);
+}
+#sec3 .owl-nav > .owl-prev{
+    position: absolute;
+    left: 42%;
+    transition: all 0.2s;
+}
+#sec3 .owl-nav > .owl-prev:hover{
+    text-shadow: -5px 1px 3px var(--msBgDark);
+    font-size: 24px;
+    transition: all 0.2s;
+}
+#sec3 .owl-nav > .owl-next{
+    position: absolute;
+    right: 42%;
+    transition: all 0.2s;
+}
+#sec3 .owl-nav > .owl-next:hover{
+    text-shadow: 5px 1px 3px var(--msBgDark);
+    font-size: 24px;
+    transition: all 0.2s;
+}
+#sec3 .owl-text{
+    font-size: 24px;
+    line-height: 30px;
+}
+#sec3 .r1{
+    background-color: hsl(84deg 12% 42%);
+    color: var(--msBgLight);
+    max-width: var(--sec3-row-max-width);
+    padding: 15px;
+}
+#sec3 .r2{
+    background-color: hsl(186deg 11% 36%);
+    color: var(--msBgLight);
+    max-width: var(--sec3-row-max-width);
+    padding: 15px;
+}
+#sec3 .r3{
+    background-color:hsl(191deg 18% 45%);
+    color: var(--msBgLight);
+    max-width: var(--sec3-row-max-width);
+    padding: 15px;
+}
+#sec3 .r4{
+    background-color: hsl(171deg 18% 70%);
+    color: var(--msBgLight);
+    max-width: var(--sec3-row-max-width);
+    padding: 15px;
+}
+#sec3 .r5{
+    background-color: hsl(215deg 15% 26%);
+    color: var(--msBgLight);
+    max-width: var(--sec3-row-max-width);
+    padding: 15px;
+}
+#sec3 .r6{
+    background-color: hsl(213deg 6% 39%);
+    color: var(--msBgLight);
+    max-width: var(--sec3-row-max-width);
+    padding: 15px;
+}
+#sec3 .r7{
+    background-color: hsl(189deg 6% 57%);
+    color: var(--msBgLight);
+    max-width: var(--sec3-row-max-width);
+    padding: 15px;
+}
+
+/* end sec3 */
+
 @media only screen and (max-width: 991px){
     #sec1 .r1 .col1 .content_block,
     #sec1 .r1 .col2 .content_block{
@@ -85,8 +168,20 @@
     }
 
     /* end sec2 */
+
+    #sec3 .owl-text{
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    /* end sec2 */
 }
 @media only screen and (max-width: 640px){
+    body{
+        --sec3-row-max-width : 100%;
+    }
+
+    /* end all setting */
     #sec1{
         background-image: url('/assets/images/landing/page4/mobile/Head-Landingpage-TPC.webp');
     }
