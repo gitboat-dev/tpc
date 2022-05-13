@@ -16,6 +16,10 @@
     text-decoration: none!important;
     outline: 0!important;
 }
+video{
+    width: 100%;
+    max-width: 100%;
+}
 img {
     /* width: auto; */
     width: 100%;

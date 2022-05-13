@@ -8,6 +8,30 @@
     background-position: center;
     min-height: 768px;
 }
+#sec1 .r1 .content_block{
+    padding: 15px;
+}
+#sec1 .r1 .col1 .content_block > .content_group{
+    max-width: 80%;
+}
+#sec1 .r1 .col1 .content_block > .content_group > .btn{
+    margin-top: 30px;
+}
+#sec1 .r1 .col1 .content_block > .content_group > .btn > .btn-contact{
+    border: none;
+    border-radius: 30px;
+    padding: 15px 20px;
+    font-size: 2em;
+    text-decoration: none;
+    color: var(--msBgLight);
+    background-color: var(--msBgDark);
+    transition: all 0.2s;
+}
+#sec1 .r1 .col1 .content_block > .content_group > .btn > .btn-contact:hover{
+    color: var(--msBgLight);
+    background-color: var(--msBg);
+    transition: all 0.2s;
+}
 
 @media only screen and (max-width: 640px){
     #sec1{
