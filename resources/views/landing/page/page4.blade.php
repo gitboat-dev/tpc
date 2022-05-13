@@ -28,6 +28,22 @@
                 </picture>
             </div>
         </div>
+        <div class="spin-block">
+            <div class="spin-circle-full">
+                <div class="spin-icon">
+                    <picture>
+                        <source srcset="/assets/images/landing/page4/mobile/ICON-1.webp" media="(max-width: 640px)">
+                        <img src="/assets/images/landing/page4/desktop/ICON-1.webp" alt="" width="900" height="350" class="img-fluid" loading="lazy">
+                    </picture>
+                </div>
+            </div>
+            <div class="spin-pic">
+                <picture>
+                    <source srcset="/assets/images/landing/page4/mobile/polyester-Yarn-process-FDY-Thaipolyester.webp" media="(max-width: 640px)">
+                    <img src="/assets/images/landing/page4/desktop/polyester-Yarn-process-FDY-Thaipolyester.webp" alt="" width="900" height="350" class="img-fluid" loading="lazy">
+                </picture>
+            </div>
+        </div>
     </div>
 @endsection
 @section('script')

@@ -9,6 +9,7 @@
     --border-right-color-hover: var(--spin-color-hover);
     --border-bottom-color-hover: var(--spin-color-hover);
     --border-left-color-hover: var(--spin-color-hover);
+    --spin-time: 0.4s;
 }
 .spin-block{
     width: 5em;
@@ -27,8 +28,8 @@
     border: 1px solid transparent;
     border-right-color: var(--border-right-color);
     border-bottom-color: var(--border-bottom-color);
-    transform: rotate(0deg) translateX(0px) rotate(0deg);
-    transition: transform 0.8s;
+    transform: rotate(-10deg) translateX(0px) rotate(0deg);
+    transition: transform var(--spin-time);
 }
 .spin-block > .spin-circle-full{
     position: absolute;
@@ -42,8 +43,8 @@
     border-right-color: var(--border-right-color);
     border-bottom-color: var(--border-bottom-color);
     border-left-color: var(--border-left-color);
-    transform: rotate(0deg) translateX(0px) rotate(0deg);
-    transition: transform 0.8s;
+    transform: rotate(-10deg) translateX(0px) rotate(0deg);
+    transition: transform var(--spin-time);
 }
 .spin-block > .spin-circle > .spin-icon,
 .spin-block > .spin-circle-full > .spin-icon{
@@ -59,6 +60,6 @@
     border-right-color: var(--border-right-color-hover);
     border-bottom-color: var(--border-bottom-color-hover);
     border-left-color: var(--border-left-color-hover);
-    transform: rotate(90deg) translateX(0px) rotate(0deg);
-    transition: transform 0.8s;
+    transform: rotate(180deg) translateX(0px) rotate(0deg);
+    transition: transform var(--spin-time);
 }
