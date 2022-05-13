@@ -1,0 +1,16 @@
+/* .spin-block.fdy{
+    --spin-color: var(--msBg);
+    --spin-color-hover: var(--msBgOpacity);
+} */
+#sec1{
+    background-image: url('/assets/images/landing/page4/desktop/Head-Landingpage-TPC.webp');
+    background-size: cover;
+    background-position: center;
+    min-height: 768px;
+}
+
+@media only screen and (max-width: 640px){
+    #sec1{
+        background-image: url('/assets/images/landing/page4/mobile/Head-Landingpage-TPC.webp');
+    }
+}
