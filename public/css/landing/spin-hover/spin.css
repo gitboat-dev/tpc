@@ -1,0 +1,64 @@
+.spin-block{
+    --spin-color: #202731;
+    --spin-color-hover: #202731ed;
+    --border-top-color: var(--spin-color);
+    --border-right-color: var(--spin-color);
+    --border-bottom-color: var(--spin-color);
+    --border-left-color: var(--spin-color);
+    --border-top-color-hover: var(--spin-color-hover);
+    --border-right-color-hover: var(--spin-color-hover);
+    --border-bottom-color-hover: var(--spin-color-hover);
+    --border-left-color-hover: var(--spin-color-hover);
+}
+.spin-block{
+    width: 5em;
+    height: 5em;
+    max-width: 100%;
+    padding: 5px;
+    position: relative;
+}
+.spin-block > .spin-circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    border: 1px solid transparent;
+    border-right-color: var(--border-right-color);
+    border-bottom-color: var(--border-bottom-color);
+    transform: rotate(0deg) translateX(0px) rotate(0deg);
+    transition: transform 0.8s;
+}
+.spin-block > .spin-circle-full{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    border: 1px solid transparent;
+    border-top-color: var(--border-top-color);
+    border-right-color: var(--border-right-color);
+    border-bottom-color: var(--border-bottom-color);
+    border-left-color: var(--border-left-color);
+    transform: rotate(0deg) translateX(0px) rotate(0deg);
+    transition: transform 0.8s;
+}
+.spin-block > .spin-circle > .spin-icon,
+.spin-block > .spin-circle-full > .spin-icon{
+    position: absolute;
+    right: 7.7px;
+    top: 0;
+    width: 10%;
+    height: 10%;
+}
+.spin-block:hover > .spin-circle,
+.spin-block:hover > .spin-circle-full{
+    border-top-color: var(--border-top-color-hover);
+    border-right-color: var(--border-right-color-hover);
+    border-bottom-color: var(--border-bottom-color-hover);
+    border-left-color: var(--border-left-color-hover);
+    transform: rotate(90deg) translateX(0px) rotate(0deg);
+    transition: transform 0.8s;
+}
