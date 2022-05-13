@@ -32,7 +32,7 @@
                                 your Polyester<br>
                                 Destination
                             </h1>
-                            <p class="h2">
+                            <p class="h2 default">
                                 <span class="tl1 m-tl1">
                                     - Exporting Polyester Fiber and Yarn to
                                     over 70 countries all around the world.<br>
@@ -69,8 +69,28 @@
                 </div>
             </div>
         </section>
+        <section id="sec2">
+            <div class="row r1 m-0">
+                <div class="col-xs-12 col-sm-12 col-md-12 p-0">
+                    <div class="content_block d-flex">
+                        <div class="content_group m-auto">
+                            <h2 class="default fw-600 text-center" style="margin-bottom:60px;">Here’s a thing you have been dealing with</h2>
+                            <h3 class="text-center">
+                                Low Consistency?<br>
+                                Low Yarn Quality?
+                            </h3>
+                            <h2 class="sec2-title fw-600 text-center red-hl">No worries</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="sec3">
+
+        </section>
     </div>
 @endsection
 @section('script')
+    <script src="/lib/jquery-on-scrolled-to/on-scrolled-to.min.js"></script>
     <script src="/js/landing/page/page4.js?v={{time()}}"></script>
 @endsection

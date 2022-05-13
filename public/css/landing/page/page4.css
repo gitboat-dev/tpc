@@ -2,14 +2,26 @@
     --spin-color: var(--msBg);
     --spin-color-hover: var(--msBgOpacity);
 } */
+.video_1 figure.btn-play button[name="play"] {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+/* end all setting */
+
 #sec1{
     background-image: url('/assets/images/landing/page4/desktop/Head-Landingpage-TPC.webp');
     background-size: cover;
     background-position: center;
-    min-height: 768px;
+    /* min-height: 768px; */
 }
-#sec1 .r1 .content_block{
+#sec1 .r1 .col1 .content_block{
     padding: 15px;
+}
+#sec1 .r1 .col2 .content_block{
+    padding: 40px 35px 40px 15px;
+    min-height: 768px;
 }
 #sec1 .r1 .col1 .content_block > .content_group{
     max-width: 80%;
@@ -33,8 +45,58 @@
     transition: all 0.2s;
 }
 
+/* end sec1 */
+
+#sec2{
+    padding: 40px 15px;
+}
+#sec2 .sec2-title{
+    font-size: 136px !important;
+    line-height: 100% !important;
+}
+
+/* end sec2 */
+
+@media only screen and (max-width: 991px){
+    #sec1 .r1 .col1 .content_block,
+    #sec1 .r1 .col2 .content_block{
+        padding: 15px;
+    }
+    #sec1 .r1 .col2 .content_block{
+        min-height: unset;
+    }
+    #sec1 .r1 .col1 .content_block > .content_group{
+        max-width: 100%;
+    }
+
+    /* end sec1 */
+
+    #sec2 .sec2-title{
+        font-size: 120px !important;
+        line-height: 100% !important;
+    }
+
+    /* end sec2 */
+}
+@media only screen and (max-width: 768px){
+    #sec2 .sec2-title{
+        font-size: 80px !important;
+        line-height: 100% !important;
+    }
+
+    /* end sec2 */
+}
 @media only screen and (max-width: 640px){
     #sec1{
         background-image: url('/assets/images/landing/page4/mobile/Head-Landingpage-TPC.webp');
     }
+
+    /* end sec1 */
+
+    #sec2 .sec2-title{
+        font-size: 60px !important;
+        line-height: 100% !important;
+    }
+
+    /* end sec2 */
 }
