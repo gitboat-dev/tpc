@@ -14,6 +14,14 @@
     --spin-color: var(--msBgGreen2);
     --spin-color-hover: var(--msBgGreen2Opacity);
 }
+.spin-block.ring{
+    --spin-color: var(--msBgPurple);
+    --spin-color-hover: var(--msBgPurpleOpacity);
+}
+.spin-block.oe{
+    --spin-color: var(--msBgSeaGreen);
+    --spin-color-hover: var(--msBgSeaGreenOpacity);
+}
 body{
     --sec3-row-max-width : 100%;
 }
@@ -222,6 +230,12 @@ body{
     }
 
     /* end sec2 */
+
+    #sec5 .m-tl2{
+        font-size: 55%;
+    }
+
+    /* end sec5 */
 }
 @media only screen and (max-width: 640px){
     body{

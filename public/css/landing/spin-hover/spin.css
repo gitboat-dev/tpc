@@ -30,7 +30,7 @@
     width: 100%;
     height: 100%;
     border-radius: 100%;
-    border: 3px solid transparent;
+    border: 2px solid transparent;
     border-right-color: var(--border-right-color);
     border-bottom-color: var(--border-bottom-color);
     transform: rotate(40deg) translateX(0px) rotate(0deg);
@@ -44,7 +44,7 @@
     width: 100%;
     height: 100%;
     border-radius: 100%;
-    border: 1px solid transparent;
+    border: 2px solid transparent;
     border-top-color: var(--border-top-color);
     border-right-color: var(--border-right-color);
     border-bottom-color: var(--border-bottom-color);

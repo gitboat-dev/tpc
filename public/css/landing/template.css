@@ -14,6 +14,10 @@
   --msBgNavyOpacity: #1f355c7e;
   --msBgDark:#202731;
   --msBgDarkOpacity:#202731ed;
+  --msBgPurple:#683371;
+  --msBgPurpleOpacity:#68337180;
+  --msBgSeaGreen:#09716f;
+  --msBgSeaGreenOpacity:#09716f80;
   --msBgLight:#fff;
 }
 * {

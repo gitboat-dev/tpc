@@ -289,7 +289,7 @@
                             </div>
                         </div>
                         <div class="caption tl1 m-tl2 text-center fw-600">
-                            Partially Oriented Yarn(POY)
+                            Partially Oriented Yarn (POY)
                         </div>
                     </div>
                     <div class="col-xs-6 col-sm-6 col-md-3">
@@ -339,8 +339,8 @@
                             <div class="spin-circle-full">
                                 <div class="spin-icon">
                                     <picture>
-                                        <source srcset="/assets/images/landing/page4/mobile/ICON-2.webp" media="(max-width: 640px)">
-                                        <img src="/assets/images/landing/page4/desktop/ICON-2.webp" alt="" width="900" height="350" class="img-fluid" loading="lazy">
+                                        <source srcset="/assets/images/landing/page4/mobile/ICON-4.webp" media="(max-width: 640px)">
+                                        <img src="/assets/images/landing/page4/desktop/ICON-4.webp" alt="" width="900" height="350" class="img-fluid" loading="lazy">
                                     </picture>
                                 </div>
                             </div>
@@ -356,8 +356,48 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6">5</div>
-                    <div class="col-xs-6 col-sm-6 col-md-3">6</div>
-                    <div class="col-xs-6 col-sm-6 col-md-3">7</div>
+                    <div class="col-xs-6 col-sm-6 col-md-3">
+                        <div class="spin-block ring">
+                            <div class="spin-circle-full">
+                                <div class="spin-icon">
+                                    <picture>
+                                        <source srcset="/assets/images/landing/page4/mobile/ICON-3.webp" media="(max-width: 640px)">
+                                        <img src="/assets/images/landing/page4/desktop/ICON-3.webp" alt="" width="900" height="350" class="img-fluid" loading="lazy">
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="spin-pic">
+                                <picture>
+                                    <source srcset="\assets\images\landing\page4\mobile\polyester-Yarn-process-Ring-Spun-Thaipolyester.webp" media="(max-width: 640px)">
+                                    <img src="\assets\images\landing\page4\desktop\polyester-Yarn-process-Ring-Spun-Thaipolyester.webp" alt="polyester Yarn process Ring Spun Thaipolyester" width="900" height="350" class="img-fluid" loading="lazy">
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="caption tl1 m-tl2 text-center fw-600">
+                            Ring spun
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-md-3">
+                        <div class="spin-block oe">
+                            <div class="spin-circle-full">
+                                <div class="spin-icon">
+                                    <picture>
+                                        <source srcset="/assets/images/landing/page4/mobile/ICON-3.webp" media="(max-width: 640px)">
+                                        <img src="/assets/images/landing/page4/desktop/ICON-3.webp" alt="" width="900" height="350" class="img-fluid" loading="lazy">
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="spin-pic">
+                                <picture>
+                                    <source srcset="\assets\images\landing\page4\mobile\polyester-Yarn-process-OE-Spun-Thaipolyester.webp" media="(max-width: 640px)">
+                                    <img src="\assets\images\landing\page4\desktop\polyester-Yarn-process-OE-Spun-Thaipolyester.webp" alt="polyester Yarn process OE Spun Thaipolyester" width="900" height="350" class="img-fluid" loading="lazy">
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="caption tl1 m-tl2 text-center fw-600">
+                            OE spun
+                        </div>
+                    </div>
                     <div class="col-xs-12 col-sm-12 col-md-12">8</div>
                     <div class="col-xs-12 col-sm-12 col-md-12">9</div>
                 </div>
