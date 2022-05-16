@@ -54,7 +54,9 @@
     transition-delay: var(--spin-time-delay);
 }
 .spin-block:hover > .spin-circle,
-.spin-block:hover > .spin-circle-full{
+.spin-block:hover > .spin-circle-full,
+.spining:hover .spin-block > .spin-circle,
+.spining:hover .spin-block > .spin-circle-full{
     border-top-color: var(--border-top-color-hover);
     border-right-color: var(--border-right-color-hover);
     border-bottom-color: var(--border-bottom-color-hover);
@@ -72,7 +74,9 @@
     transition: transform var(--spin-time);
 }
 .spin-block:hover > .spin-circle > .spin-icon,
-.spin-block:hover > .spin-circle-full > .spin-icon{
+.spin-block:hover > .spin-circle-full > .spin-icon,
+.spining:hover .spin-block > .spin-circle > .spin-icon,
+.spining:hover .spin-block > .spin-circle-full > .spin-icon{
     transform: rotate(0deg) translateX(0px) rotate(0deg);
     transition: transform var(--spin-time);
 }
