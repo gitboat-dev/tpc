@@ -1,7 +1,19 @@
-/* .spin-block.fdy{
+.spin-block.poy{
     --spin-color: var(--msBg);
     --spin-color-hover: var(--msBgOpacity);
-} */
+}
+.spin-block.fdy{
+    --spin-color: var(--msBgRed);
+    --spin-color-hover: var(--msBgRedOpacity);
+}
+.spin-block.dty{
+    --spin-color: var(--msBgNavy);
+    --spin-color-hover: var(--msBgNavyOpacity);
+}
+.spin-block.ty{
+    --spin-color: var(--msBgGreen2);
+    --spin-color-hover: var(--msBgGreen2Opacity);
+}
 body{
     --sec3-row-max-width : 100%;
 }
@@ -140,6 +152,34 @@ body{
 
 /* end sec3 */
 
+#sec4{
+    padding: 20px 0 40px 0;
+}
+
+/* end sec4 */
+
+#sec5{
+    padding-bottom: 40px;
+}
+#sec5 .r1 div[class^="col-"]{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 1px solid var(--msBgDark);
+}
+#sec5 .r1 div[class^="col-"]:nth-child(1),
+#sec5 .r1 div[class^="col-"]:nth-child(2),
+#sec5 .r1 div[class^="col-"]:nth-child(3),
+#sec5 .r1 div[class^="col-"]:nth-child(5),
+#sec5 .r1 div[class^="col-"]:nth-child(6){
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+}
+#sec5 .r1 div[class^="col-"]:nth-child(4),
+#sec5 .r1 div[class^="col-"]:nth-child(7),
+#sec5 .r1 div[class^="col-"]:nth-child(8){
+    border-bottom-color: transparent;
+}
+
 @media only screen and (max-width: 991px){
     #sec1 .r1 .col1 .content_block,
     #sec1 .r1 .col2 .content_block{
@@ -160,6 +200,13 @@ body{
     }
 
     /* end sec2 */
+
+    #sec5 .r1 div[class^="col-"]:nth-child(2),
+    #sec5 .r1 div[class^="col-"]:nth-child(5){
+        border-right-color: var(--msBgDark);
+    }
+
+    /* end sec5 */
 }
 @media only screen and (max-width: 768px){
     #sec2 .sec2-title{

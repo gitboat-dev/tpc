@@ -260,6 +260,127 @@
                 </div>
             </div>
         </section>
+        <section id="sec4">
+            <div class="container">
+                <h2 class="h2 default text-center">
+                    No matter what kind of POLYESTER,<br>
+                    <span class="h1 default fw-600">we have it ALL</span> – both Virgin and Recycled version
+                </h2>
+            </div>
+        </section>
+        <section id="sec5">
+            <div class="container">
+                <div class="row r1 m-0">
+                    <div class="col-xs-6 col-sm-6 col-md-3">
+                        {{-- <div class="spin-detail fdy">
+                            <div class="spin-detail-header">
+                                <label class="theme-hl">Partially Oriented Yarn – POY</label>
+                            </div>
+                            <div class="spin-detail-body">
+                                <p>
+                                    It’s produced by melting<br>
+                                    and extruding a polyester<br>
+                                    chip or flake, making<br>
+                                    directly from PTA and<br>
+                                    MEG by spinning and<br>
+                                    take-up, and it's primarily<br>
+                                    used in texturizing to<br>
+                                    create textured yarn<br>
+                                    (DTY).
+                                </p>
+                            </div>
+                        </div> --}}
+                        <div class="spin-block poy">
+                            <div class="spin-circle-full">
+                                <div class="spin-icon">
+                                    <picture>
+                                        <source srcset="/assets/images/landing/page4/mobile/ICON-1.webp" media="(max-width: 640px)">
+                                        <img src="/assets/images/landing/page4/desktop/ICON-1.webp" alt="" width="900" height="350" class="img-fluid" loading="lazy">
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="spin-pic">
+                                <picture>
+                                    <source srcset="/assets/images/landing/page4/mobile/polyester-Yarn-process-FDY-Thaipolyester.webp" media="(max-width: 640px)">
+                                    <img src="/assets/images/landing/page4/desktop/polyester-Yarn-process-FDY-Thaipolyester.webp" alt="" width="900" height="350" class="img-fluid" loading="lazy">
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="caption tl1 m-tl2 text-center fw-600">
+                            Partially Oriented Yarn(POY)
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-md-3">
+                        <div class="spin-block fdy">
+                            <div class="spin-circle-full">
+                                <div class="spin-icon">
+                                    <picture>
+                                        <source srcset="/assets/images/landing/page4/mobile/ICON-1.webp" media="(max-width: 640px)">
+                                        <img src="/assets/images/landing/page4/desktop/ICON-1.webp" alt="" width="900" height="350" class="img-fluid" loading="lazy">
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="spin-pic">
+                                <picture>
+                                    <source srcset="/assets/images/landing/page4/mobile/polyester-Yarn-process-FDY-Thaipolyester.webp" media="(max-width: 640px)">
+                                    <img src="/assets/images/landing/page4/desktop/polyester-Yarn-process-FDY-Thaipolyester.webp" alt="" width="900" height="350" class="img-fluid" loading="lazy">
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="caption tl1 m-tl2 text-center fw-600">
+                            Fully Drawn Yarn – FDY
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-md-3">
+                        <div class="spin-block dty">
+                            <div class="spin-circle-full">
+                                <div class="spin-icon">
+                                    <picture>
+                                        <source srcset="/assets/images/landing/page4/mobile/ICON-1.webp" media="(max-width: 640px)">
+                                        <img src="/assets/images/landing/page4/desktop/ICON-1.webp" alt="" width="900" height="350" class="img-fluid" loading="lazy">
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="spin-pic">
+                                <picture>
+                                    <source srcset="/assets/images/landing/page4/mobile/polyester-Yarn-process-FDY-Thaipolyester.webp" media="(max-width: 640px)">
+                                    <img src="/assets/images/landing/page4/desktop/polyester-Yarn-process-FDY-Thaipolyester.webp" alt="" width="900" height="350" class="img-fluid" loading="lazy">
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="caption tl1 m-tl2 text-center fw-600">
+                            Draw Textured Yarn – DTY
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-md-3">
+                        <div class="spin-block ty">
+                            <div class="spin-circle-full">
+                                <div class="spin-icon">
+                                    <picture>
+                                        <source srcset="/assets/images/landing/page4/mobile/ICON-1.webp" media="(max-width: 640px)">
+                                        <img src="/assets/images/landing/page4/desktop/ICON-1.webp" alt="" width="900" height="350" class="img-fluid" loading="lazy">
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="spin-pic">
+                                <picture>
+                                    <source srcset="/assets/images/landing/page4/mobile/polyester-Yarn-process-FDY-Thaipolyester.webp" media="(max-width: 640px)">
+                                    <img src="/assets/images/landing/page4/desktop/polyester-Yarn-process-FDY-Thaipolyester.webp" alt="" width="900" height="350" class="img-fluid" loading="lazy">
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="caption tl1 m-tl2 text-center fw-600">
+                            Twisted yarn
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6">5</div>
+                    <div class="col-xs-6 col-sm-6 col-md-3">6</div>
+                    <div class="col-xs-6 col-sm-6 col-md-3">7</div>
+                    <div class="col-xs-12 col-sm-12 col-md-12">8</div>
+                    <div class="col-xs-12 col-sm-12 col-md-12">9</div>
+                </div>
+            </div>
+        </section>
     </div>
 @endsection
 @section('script')
