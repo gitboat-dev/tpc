@@ -683,11 +683,112 @@
             <h2 class="text-center">Our Customer’s Satisfaction</h2>
             <div class="slide pos-r">
                 <div class="owl-carousel owl-theme">
-                    <div class="item d-flex">555</div>
-                    <div class="item d-flex">666</div>
-                    <div class="item d-flex">777</div>
-                    <div class="item d-flex">888</div>
-                    <div class="item d-flex">999</div>
+                    <div class="item">
+                        <div class="review-block">
+                            <h3 class="theme-hl text-center">
+                                Can’t believe that TPC<br>
+                                also gave us a technical<br>
+                                problem solving”
+                            </h3>
+                            <picture class="company-logo">
+                                <source srcset="/assets/images/landing/page4/mobile/1.webp" media="(max-width: 640px)">
+                                <img src="/assets/images/landing/page4/desktop/1.webp" alt="MNH GLOBAL CO., LTD, KOREA" width="900" height="350" class="img-fluid" loading="lazy">
+                            </picture>
+                            <h5 class="fw-600 text-center">
+                                Mr. Gopal ,Purchasing Manager<br>
+                            Comilla spinning mills LTD (united Group)
+                            </h5>
+                            <picture class="company-star">
+                                <source srcset="/assets/images/landing/page4/mobile/Star.webp" media="(max-width: 640px)">
+                                <img src="/assets/images/landing/page4/desktop/Star.webp" alt="MNH GLOBAL CO., LTD, KOREA" width="900" height="350" class="img-fluid" loading="lazy">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="review-block">
+                            <h3 class="theme-hl text-center">
+                                "A long-term supply with<br>
+                                stable quality that we<br>
+                                appreciate the most"
+                            </h3>
+                            <picture class="company-logo">
+                                <source srcset="/assets/images/landing/page4/mobile/2.webp" media="(max-width: 640px)">
+                                <img src="/assets/images/landing/page4/desktop/2.webp" alt="MNH GLOBAL CO., LTD, KOREA" width="900" height="350" class="img-fluid" loading="lazy">
+                            </picture>
+                            <h5 class="fw-600 text-center">
+                                MNH GLOBAL CO., LTD, KOREA
+                            </h5>
+                            <picture class="company-star">
+                                <source srcset="/assets/images/landing/page4/mobile/Star.webp" media="(max-width: 640px)">
+                                <img src="/assets/images/landing/page4/desktop/Star.webp" alt="MNH GLOBAL CO., LTD, KOREA" width="900" height="350" class="img-fluid" loading="lazy">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="review-block">
+                            <h3 class="theme-hl text-center">
+                                "A very quick<br>
+                                response from<br>
+                                enthusiastic<br>
+                                salesperson"
+                            </h3>
+                            <picture class="company-logo">
+                                <source srcset="/assets/images/landing/page4/mobile/3.webp" media="(max-width: 640px)">
+                                <img src="/assets/images/landing/page4/desktop/3.webp" alt="MNH GLOBAL CO., LTD, KOREA" width="900" height="350" class="img-fluid" loading="lazy">
+                            </picture>
+                            <h5 class="fw-600 text-center">
+                                Mirza Md. Shahadat Hossain , Rubel<br>
+                                CEO Shazman Trade Internationa
+                            </h5>
+                            <picture class="company-star">
+                                <source srcset="/assets/images/landing/page4/mobile/Star.webp" media="(max-width: 640px)">
+                                <img src="/assets/images/landing/page4/desktop/Star.webp" alt="MNH GLOBAL CO., LTD, KOREA" width="900" height="350" class="img-fluid" loading="lazy">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="review-block">
+                            <h3 class="theme-hl text-center">
+                                "High technology<br>
+                                German<br>
+                                machine is one of<br>
+                                my favourite"
+                            </h3>
+                            <picture class="company-logo">
+                                <source srcset="/assets/images/landing/page4/mobile/4.webp" media="(max-width: 640px)">
+                                <img src="/assets/images/landing/page4/desktop/4.webp" alt="MNH GLOBAL CO., LTD, KOREA" width="900" height="350" class="img-fluid" loading="lazy">
+                            </picture>
+                            <h5 class="fw-600 text-center">
+                                Mr. Rahman, SR-Tex BD LTD.
+                            </h5>
+                            <picture class="company-star">
+                                <source srcset="/assets/images/landing/page4/mobile/Star.webp" media="(max-width: 640px)">
+                                <img src="/assets/images/landing/page4/desktop/Star.webp" alt="MNH GLOBAL CO., LTD, KOREA" width="900" height="350" class="img-fluid" loading="lazy">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="review-block">
+                            <h3 class="theme-hl text-center">
+                                “Always get a<br>
+                                promotional<br>
+                                price on selected<br>
+                                item”
+                            </h3>
+                            <picture class="company-logo">
+                                <source srcset="/assets/images/landing/page4/mobile/5.webp" media="(max-width: 640px)">
+                                <img src="/assets/images/landing/page4/desktop/5.webp" alt="MNH GLOBAL CO., LTD, KOREA" width="900" height="350" class="img-fluid" loading="lazy">
+                            </picture>
+                            <h5 class="fw-600 text-center">
+                                MR.AAMIR TARIQ (CEO)<br>
+                                Noor Enterprises, Pakistan
+                            </h5>
+                            <picture class="company-star">
+                                <source srcset="/assets/images/landing/page4/mobile/Star.webp" media="(max-width: 640px)">
+                                <img src="/assets/images/landing/page4/desktop/Star.webp" alt="MNH GLOBAL CO., LTD, KOREA" width="900" height="350" class="img-fluid" loading="lazy">
+                            </picture>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>

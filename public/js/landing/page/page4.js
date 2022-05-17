@@ -34,6 +34,11 @@ jQuery(document).ready(function($){
 			btn_play(video1,btn_play1);
 		}
 	});
+
+
+    $('#sec7 .slide .owl-carousel').on("changed.owl.carousel", function(e) {
+        console.log('center item is:'+ (e.item.index + 1));
+    });
 });
 function sec1(){
     var row1 = jQuery('#sec1 .r1 .col1 .content_block'),
@@ -86,15 +91,16 @@ function sec6_slide(){
 }
 function sec7_slide(){
     $('#sec7 .slide .owl-carousel').owlCarousel({
+        // center: true,
         lazyLoad:true,
         loop:true,
         autoplay:true,
         autoplayTimeout:5000,
         autoplayHoverPause:true,
         margin:10,
-        nav:true,
+        nav:false,
 		navText : ["<i class='fa fa-arrow-left' aria-hidden='true'></i>", "<i class='fa fa-arrow-right' aria-hidden='true'></i>"],
-        dots:true,
+        dots:false,
         responsive:{
             0:{
                 items:1,
@@ -102,7 +108,7 @@ function sec7_slide(){
             },
             991:{
                 items:3,
-                stagePadding: 20,
+                // stagePadding: 20,
             },
             1000:{
                 items:5,

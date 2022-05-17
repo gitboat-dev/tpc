@@ -258,6 +258,26 @@ body{
 #sec7{
     padding: 20px 0 40px 0;
 }
+#sec7 .slide .item{
+    min-height: 485px;
+}
+#sec7 .owl-item .review-block{
+    border: 4px solid var(--msBgDark);
+    border-radius: 10px;
+    /* width: 100%; */
+    /* transition: all 0.2s; */
+}
+/* #sec7 .owl-item.active.center .review-block{
+    width: calc(100% + 20px);
+    transition: all 0.2s;
+} */
+#sec7 .review-block  *{
+    margin-bottom: 10%;
+}
+#sec7 .review-block .company-logo img,
+#sec7 .review-block .company-star img{
+    max-width: 50%;
+}
 
 /* end sec7 */
 
