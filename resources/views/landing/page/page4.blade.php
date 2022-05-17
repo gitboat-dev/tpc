@@ -598,7 +598,7 @@
                 <div class="owl-carousel owl-theme">
                     <div class="item bg-opium d-flex">
                         <div class="row r1 m-auto">
-                            <div class="col-xs-12 col-sm-12 col-md-12 p-0">
+                            <div class="col-xs-12 col-sm-12 col-md-12 p-0 pos-r">
                                 <div class="content_block d-flex">
                                     <div class="content_group d-flex m-auto">
                                         <div class="m-auto">
@@ -606,12 +606,15 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div class="pos-ab" style="bottom:-15px;right:30px;">
+                                    SEE NEXT 01/03
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="item bg-charcoal d-flex">
                         <div class="row r1 m-auto">
-                            <div class="col-xs-12 col-sm-12 col-md-12 p-0">
+                            <div class="col-xs-12 col-sm-12 col-md-12 p-0 pos-r">
                                 <div class="content_block d-flex">
                                     <div class="content_group d-flex m-flex-col m-auto">
                                         <div class="col-xs-12 col-sm-6 col-md-6 d-flex m-auto p-0">
@@ -634,12 +637,15 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div class="pos-ab" style="bottom:-15px;right:30px;">
+                                    <small>SEE NEXT 02/03</small>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="item bg-clay d-flex">
                         <div class="row r1 m-auto">
-                            <div class="col-xs-12 col-sm-12 col-md-12 p-0">
+                            <div class="col-xs-12 col-sm-12 col-md-12 p-0 pos-r">
                                 <div class="content_block d-flex">
                                     <div class="content_group d-flex m-flex-col m-auto">
                                         <div class="col-xs-12 col-sm-6 col-md-6 d-flex m-auto p-0">
@@ -663,8 +669,12 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div class="pos-ab" style="bottom:-15px;right:30px;">
+                                    <small>SEE NEXT 03/03</small>
+                                </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>

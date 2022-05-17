@@ -70,10 +70,10 @@ function sec3_slide(){
 function sec6_slide(){
     $('#sec6 .slide .owl-carousel').owlCarousel({
         lazyLoad:true,
-        // loop:true,
-        // autoplay:true,
-        // autoplayTimeout:5000,
-        // autoplayHoverPause:true,
+        loop:true,
+        autoplay:true,
+        autoplayTimeout:5000,
+        autoplayHoverPause:true,
         margin:10,
         nav:true,
 		navText : ["<i class='fa fa-arrow-left' aria-hidden='true'></i>", "<i class='fa fa-arrow-right' aria-hidden='true'></i>"],
