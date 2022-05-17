@@ -2,7 +2,8 @@
 @section('style')
     <link rel="preload stylesheet"  href="/lib/owlcarousel/assets/owl.carousel.min.css" as="style" crossorigin>
     <link rel="preload stylesheet" href="/css/landing/page/page4.css?v={{time()}}" as="style" crossorigin>
-    <link rel="preload stylesheet" href="/css/landing/spin-hover/spin.css?v={{time()}}" as="style" crossorigin>
+    <link rel="preload stylesheet" href="/css/landing/spin_hover/spin.css?v={{time()}}" as="style" crossorigin>
+    <link rel="preload stylesheet" href="/css/landing/window_slide/wins.css?v={{time()}}" as="style" crossorigin>
 @endsection
 @section('og-image','')
 @section('content')
@@ -271,7 +272,11 @@
         <section id="sec5">
             <div class="container">
                 <div class="row r1 m-0">
-                    <div class="col-xs-6 col-sm-6 col-md-3 d-flex spining">
+                    <div class="col-xs-6 col-sm-6 col-md-3 d-flex spining wins">
+                        <div class="wins_block">
+                            <div class="wins_header"></div>
+                            <div class="wins_content"></div>
+                        </div>
                         <div class="m-auto">
                             <div class="spin-block poy">
                                 <div class="spin-circle-full">
