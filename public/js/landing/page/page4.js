@@ -14,6 +14,9 @@ jQuery(document).ready(function($){
     $('#sec6').onScrolledTo(0,function(){
         sec6_slide();
 	});
+    $('#sec7').onScrolledTo(0,function(){
+        sec7_slide();
+	});
     $(window).scroll(function(){
         v_scroll(video1,btn_play1,$('#sec1'),480);
     });
@@ -79,6 +82,32 @@ function sec6_slide(){
 		navText : ["<i class='fa fa-arrow-left' aria-hidden='true'></i>", "<i class='fa fa-arrow-right' aria-hidden='true'></i>"],
         dots:true,
         items:1,
+    });
+}
+function sec7_slide(){
+    $('#sec7 .slide .owl-carousel').owlCarousel({
+        lazyLoad:true,
+        loop:true,
+        autoplay:true,
+        autoplayTimeout:5000,
+        autoplayHoverPause:true,
+        margin:10,
+        nav:true,
+		navText : ["<i class='fa fa-arrow-left' aria-hidden='true'></i>", "<i class='fa fa-arrow-right' aria-hidden='true'></i>"],
+        dots:true,
+        responsive:{
+            0:{
+                items:1,
+                stagePadding: 20,
+            },
+            991:{
+                items:3,
+                stagePadding: 20,
+            },
+            1000:{
+                items:5,
+            }
+        }
     });
 }
 function btn_play(video,btn) {

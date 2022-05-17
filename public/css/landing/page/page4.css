@@ -255,6 +255,12 @@ body{
 
 /* end sec6 */
 
+#sec7{
+    padding: 20px 0 40px 0;
+}
+
+/* end sec7 */
+
 @media only screen and (max-width: 991px){
     #sec1 .r1 .col1 .content_block,
     #sec1 .r1 .col2 .content_block{

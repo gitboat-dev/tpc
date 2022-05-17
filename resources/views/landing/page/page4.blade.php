@@ -679,6 +679,18 @@
                 </div>
             </div>
         </section>
+        <section id="sec7">
+            <h2 class="text-center">Our Customer’s Satisfaction</h2>
+            <div class="slide pos-r">
+                <div class="owl-carousel owl-theme">
+                    <div class="item d-flex">555</div>
+                    <div class="item d-flex">666</div>
+                    <div class="item d-flex">777</div>
+                    <div class="item d-flex">888</div>
+                    <div class="item d-flex">999</div>
+                </div>
+            </div>
+        </section>
     </div>
 @endsection
 @section('script')
