@@ -11,6 +11,9 @@ jQuery(document).ready(function($){
     $('#sec3').onScrolledTo(0,function(){
         sec3_slide();
 	});
+    $('#sec6').onScrolledTo(0,function(){
+        sec6_slide();
+	});
     $(window).scroll(function(){
         v_scroll(video1,btn_play1,$('#sec1'),480);
     });
@@ -62,6 +65,20 @@ function sec3_slide(){
                 items:2,
             }
         }
+    });
+}
+function sec6_slide(){
+    $('#sec6 .slide .owl-carousel').owlCarousel({
+        lazyLoad:true,
+        loop:true,
+        // autoplay:true,
+        // autoplayTimeout:5000,
+        // autoplayHoverPause:true,
+        margin:10,
+        nav:true,
+		navText : ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+        dots:true,
+        items:1,
     });
 }
 function btn_play(video,btn) {

@@ -8,22 +8,6 @@
 @section('og-image','')
 @section('content')
     <div id="landing">
-        {{-- <div class="spin-block fdy">
-            <div class="spin-circle-full">
-                <div class="spin-icon">
-                    <picture>
-                        <source srcset="/assets/images/landing/page4/mobile/ICON-1.webp" media="(max-width: 640px)">
-                        <img src="/assets/images/landing/page4/desktop/ICON-1.webp" alt="" width="900" height="350" class="img-fluid" loading="lazy">
-                    </picture>
-                </div>
-            </div>
-            <div class="spin-pic">
-                <picture>
-                    <source srcset="/assets/images/landing/page4/mobile/polyester-Yarn-process-FDY-Thaipolyester.webp" media="(max-width: 640px)">
-                    <img src="/assets/images/landing/page4/desktop/polyester-Yarn-process-FDY-Thaipolyester.webp" alt="" width="900" height="350" class="img-fluid" loading="lazy">
-                </picture>
-            </div>
-        </div> --}}
         <section id="sec1" class="bg-black">
             <div class="row r1 m-0">
                 <div class="col-xs-12 col-sm-12 col-md-5 p-0 col1">
@@ -598,6 +582,83 @@
                                     <source srcset="/assets/images/landing/page4/mobile/polyester-Yarn-process-PSF-Thaipolyester.webp" media="(max-width: 640px)">
                                     <img src="/assets/images/landing/page4/desktop/polyester-Yarn-process-PSF-Thaipolyester.webp" alt="polyester Yarn process OE Spun Thaipolyester" width="900" height="350" class="img-fluid" loading="lazy">
                                 </picture>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn text-center w-100p">
+                    <a href="#" title="get FRFREE QUOTE">
+                        get FRFREE QUOTE
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section id="sec6">
+            <div class="slide">
+                <div class="owl-carousel owl-theme">
+                    <div class="item bg-opium d-flex">
+                        <div class="row r1 m-auto">
+                            <div class="col-xs-12 col-sm-12 col-md-12 p-0">
+                                <div class="content_block d-flex">
+                                    <div class="content_group d-flex m-auto">
+                                        <div class="m-auto">
+                                            <h2 class="h1">We’re Guarantee!</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item bg-charcoal d-flex">
+                        <div class="row r1 m-auto">
+                            <div class="col-xs-12 col-sm-12 col-md-12 p-0">
+                                <div class="content_block d-flex">
+                                    <div class="content_group d-flex m-auto">
+                                        <div class="col-md-6 d-flex m-auto p-0">
+                                            <div class="m-auto">
+                                                <h2>Spinning mills</h2>
+                                                <p>
+                                                    - High efficiency<br>
+                                                    - Yarn strength<br>
+                                                    - Low Oligomer<br>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 d-flex m-auto">
+                                            <picture>
+                                                <source srcset="/assets/images/landing/page4/mobile/polyester-Spinning-mills-Thaipolyester.webp" media="(max-width: 640px)">
+                                                <img src="/assets/images/landing/page4/desktop/polyester-Spinning-mills-Thaipolyester.webp" alt="polyester Spinning mills Thaipolyester" width="900" height="350" class="img-fluid" loading="lazy">
+                                            </picture>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item bg-clay d-flex">
+                        <div class="row r1 m-auto">
+                            <div class="col-xs-12 col-sm-12 col-md-12 p-0">
+                                <div class="content_block d-flex">
+                                    <div class="content_group d-flex m-auto">
+                                        <div class="col-xs-12 col-sm-12 col-md-6 d-flex m-auto p-0">
+                                            <div class="m-auto">
+                                                <h2>Knitting mills</h2>
+                                                <p>
+                                                    - Dying consistency<br>
+                                                    - Dyeing ability<br>
+                                                    - Stable moisture<br>
+                                                    - Stable OPU
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-sm-12 col-md-6 d-flex m-auto">
+                                            <picture>
+                                                <source srcset="/assets/images/landing/page4/mobile/polyester-Knitting-mills-Thaipolyester.webp" media="(max-width: 640px)">
+                                                <img src="/assets/images/landing/page4/desktop/polyester-Knitting-mills-Thaipolyester.webp" alt="polyester Knitting mills Thaipolyester" width="900" height="350" class="img-fluid" loading="lazy">
+                                            </picture>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

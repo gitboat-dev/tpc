@@ -20,6 +20,12 @@
   --msBgSeaGreenOpacity:#09716f80;
   --msBgOrange:#eca604;
   --msBgOrangeOpacity:#eca6047d;
+  --msBgOpium:#946b73;
+  --msBgOpiumOpacity:#946b737c;
+  --msBgCharcoalGrey:#323f48;
+  --msBgCharcoalGreyOpacity:#323f487c;
+  --msBgClay:#ae5e56;
+  --msBgClayOpacity:#ae5d5680;
   --msBgLight:#fff;
 }
 * {
@@ -107,6 +113,18 @@ body {
 .bg-gray{
     background-color: hsl(240deg 7% 94%);
     color: var(--msBgDark);
+}
+.bg-opium{
+    background-color: var(--msBgOpium);
+    color: var(--msBgLight);
+}
+.bg-charcoal{
+    background-color: var(--msBgCharcoalGrey);
+    color: var(--msBgLight);
+}
+.bg-clay{
+    background-color: var(--msBgClay);
+    color: var(--msBgLight);
 }
 #landing{
     font-size: 16px;

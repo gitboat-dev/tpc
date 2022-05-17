@@ -194,6 +194,35 @@ body{
 #sec5 .r1 > div[class^="col-"]:nth-child(8){
     border-bottom-color: transparent;
 }
+#sec5 .btn{
+    margin-top: 30px;
+}
+#sec5 .btn > a{
+    border: none;
+    border-radius: 30px;
+    padding: 15px 20px;
+    font-size: 2em;
+    text-decoration: none;
+    color: var(--msBgLight);
+    background-color: var(--msBgDark);
+    transition: all 0.2s;
+}
+#sec5 .btn > a:hover{
+    color: var(--msBgLight);
+    background-color: var(--msBg);
+    transition: all 0.2s;
+}
+
+/* end sec5 */
+
+#sec6{
+    padding: 20px 0 40px 0;
+}
+#sec6 .slide .owl-carousel .item{
+    min-height: 550px;
+}
+
+/* end sec6 */
 
 @media only screen and (max-width: 991px){
     #sec1 .r1 .col1 .content_block,
@@ -225,6 +254,12 @@ body{
     }
 
     /* end sec5 */
+
+    #sec6 .slide .owl-carousel .item{
+        min-height: 450px;
+    }
+
+    /* end sec6 */
 }
 @media only screen and (max-width: 768px){
     #sec2 .sec2-title{
