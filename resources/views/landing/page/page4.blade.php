@@ -274,8 +274,24 @@
                 <div class="row r1 m-0">
                     <div class="col-xs-6 col-sm-6 col-md-3 d-flex spining wins">
                         <div class="wins_block">
-                            <div class="wins_header"></div>
-                            <div class="wins_content"></div>
+                            <div class="wins_header">
+                                <label class="theme-hl m-0 fw-n">
+                                    <span class="m-tl1">Partially Oriented Yarn – POY</span>
+                                </label>
+                            </div>
+                            <div class="wins_content">
+                                <p class="m-tl2">
+                                    It’s produced by melting
+                                    and extruding a polyester
+                                    chip or flake, making
+                                    directly from PTA and
+                                    MEG by spinning and
+                                    take-up, and it's primarily
+                                    used in texturizing to
+                                    create textured yarn
+                                    (DTY).
+                                </p>
+                            </div>
                         </div>
                         <div class="m-auto">
                             <div class="spin-block poy">
@@ -299,7 +315,29 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-6 col-sm-6 col-md-3 d-flex spining">
+                    <div class="col-xs-6 col-sm-6 col-md-3 d-flex spining wins">
+                        <div class="wins_block">
+                            <div class="wins_header">
+                                <label class="theme-hl m-0 fw-n">
+                                    <span class="m-tl1">Fully Drawn Yarn – FDY</span>
+                                </label>
+                            </div>
+                            <div class="wins_content">
+                                <p class="m-tl2">
+                                    It’s a highly drawn and
+                                    capable of producing
+                                    high-strength fabrics and
+                                    also known as Polyester
+                                    Filament Yarn (PFY) or
+                                    Spin Draw Yarn (SDY).
+                                    FDY is commonly used as
+                                    a weft and weave fabric, it
+                                    can also be knitted and
+                                    woven with other filament
+                                    yarn.
+                                </p>
+                            </div>
+                        </div>
                         <div class="m-auto">
                             <div class="spin-block fdy">
                                 <div class="spin-circle-full">
@@ -322,7 +360,27 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-6 col-sm-6 col-md-3 d-flex spining">
+                    <div class="col-xs-6 col-sm-6 col-md-3 d-flex spining wins">
+                        <div class="wins_block">
+                            <div class="wins_header">
+                                <label class="theme-hl m-0 fw-n">
+                                    <span class="m-tl1">Draw Textured Yarn – DTY</span>
+                                </label>
+                            </div>
+                            <div class="wins_content">
+                                <p class="m-tl2">
+                                    Is a filament yarn with a
+                                    soft crimp, a high bulky
+                                    textured with a soft
+                                    cottony feel, and high
+                                    durability. Draw Textured
+                                    Yarn (DTY) yarn is
+                                    obtained when Polyester
+                                    POY is simultaneously
+                                    twisted & drawn.
+                                </p>
+                            </div>
+                        </div>
                         <div class="m-auto">
                             <div class="spin-block dty">
                                 <div class="spin-circle-full">
@@ -345,7 +403,24 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-6 col-sm-6 col-md-3 d-flex spining">
+                    <div class="col-xs-6 col-sm-6 col-md-3 d-flex spining wins">
+                        <div class="wins_block">
+                            <div class="wins_header">
+                                <label class="theme-hl m-0 fw-n">
+                                    <span class="m-tl1">Twisted yarn</span>
+                                </label>
+                            </div>
+                            <div class="wins_content">
+                                <p class="m-tl2">
+                                    The process by which
+                                    fibers are arranged
+                                    around the axis of yarn is
+                                    called yarn twist. It
+                                    imparts strength to the
+                                    yarn.
+                                </p>
+                            </div>
+                        </div>
                         <div class="m-auto">
                             <div class="spin-block ty">
                                 <div class="spin-circle-full">
@@ -368,7 +443,23 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 d-flex spining">
+                    <div class="col-xs-12 col-sm-12 col-md-6 d-flex spining wins">
+                        <div class="wins_block">
+                            <div class="wins_header">
+                                <label class="theme-hl m-0 fw-n">
+                                    <span class="m-tl1">Dope Dyed Black</span>
+                                </label>
+                            </div>
+                            <div class="wins_content">
+                                <p class="m-tl2">
+                                    Is made by incorporating a masterbatch colorant into
+                                    the polymer melt during the spinning or extrusion
+                                    process.<br>
+                                    As a result, fully pigmented fibers and filaments emerge
+                                    from the spinnerets in a single step.
+                                </p>
+                            </div>
+                        </div>
                         <div class="m-auto">
                             <div class="col-xs-6 col-sm-6 col-md-6 p-0 d-flex">
                                 <div class="spin-block dope-dyed-black m-auto">
@@ -411,7 +502,23 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-6 col-sm-6 col-md-3 d-flex spining">
+                    <div class="col-xs-6 col-sm-6 col-md-3 d-flex spining wins">
+                        <div class="wins_block">
+                            <div class="wins_header">
+                                <label class="theme-hl m-0 fw-n">
+                                    <span class="m-tl1">Ring spun</span>
+                                </label>
+                            </div>
+                            <div class="wins_content">
+                                <p class="m-tl2">
+                                    Ring spinning is a method
+                                    of spinning textile fibers
+                                    to make a yarn. This
+                                    process provides a soft
+                                    desirable fabric.
+                                </p>
+                            </div>
+                        </div>
                         <div class="m-auto">
                             <div class="spin-block ring">
                                 <div class="spin-circle-full">
@@ -434,7 +541,22 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-6 col-sm-6 col-md-3 d-flex spining">
+                    <div class="col-xs-6 col-sm-6 col-md-3 d-flex spining wins">
+                        <div class="wins_block">
+                            <div class="wins_header">
+                                <label class="theme-hl m-0 fw-n">
+                                    <span class="m-tl1">OE spun</span>
+                                </label>
+                            </div>
+                            <div class="wins_content">
+                                <p class="m-tl2">
+                                    Open-end spinning is a
+                                    technology for creating
+                                    yarn without using a
+                                    spindle.
+                                </p>
+                            </div>
+                        </div>
                         <div class="m-auto">
                             <div class="spin-block oe">
                                 <div class="spin-circle-full">
@@ -460,7 +582,7 @@
                     <div class="col-xs-12 col-sm-12 col-md-12">
                         <h5 class="theme-hl">Polyester Staple Fiber – PSF</h5>
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-12 d-flex spining">
+                    <div class="col-xs-12 col-sm-12 col-md-12 d-flex">
                         <div class="m-auto">
                             <div class="col-xs-12 col-sm-12 col-md-6 p-0">
                                 <p>

@@ -221,7 +221,7 @@ body{
         border-right-color: var(--msBgDark);
     }
     #sec5 .r1 > div[class^="col-"]:not(:nth-child(8)){
-        min-height: 250px;
+        min-height: 290px;
     }
 
     /* end sec5 */
@@ -241,6 +241,9 @@ body{
 
     /* end sec2 */
 
+    #sec5 .m-tl1{
+        font-size: 60%;
+    }
     #sec5 .m-tl2{
         font-size: 55%;
     }
