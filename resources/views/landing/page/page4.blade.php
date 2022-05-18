@@ -45,8 +45,8 @@
                                 <figure class="btn-play d-flex pos-ab top-0 left-0 w-100p h-100p">
                                     <button class="m-auto" id="btn-video1" name="play">
                                         <picture>
-                                            <source srcset="/assets/images/open-end/mobile/Play-Icon.webp" alt="Play video" loading="lazy" media="(max-width: 640px)">
-                                            <img src="/assets/images/open-end/desktop/Play-Icon.webp" width="900" height="350" class="img-fluid ab-img" alt="Play video" loading="lazy">
+                                            <source srcset="/assets/images/open-end/mobile/Play-Icon.webp" media="(max-width: 640px)">
+                                            <img src="/assets/images/open-end/desktop/Play-Icon.webp" width="900" height="350" class="img-fluid" alt="Play video" loading="lazy">
                                         </picture>
                                     </button>
                                 </figure>
@@ -831,39 +831,39 @@
                         <div class="img_block d-flex">
                             <a href="/assets/images/landing/page4/desktop/intertek-Certificate-of-Registration-thaipolyester.webp" title="intertek Certificate of Registration thaipolyester" data-fancybox="gallery" data-thumbnail-src="/assets/images/landing/page4/desktop/intertek-Certificate-of-Registration-thaipolyester.webp">
                                 <picture>
-                                    <source srcset="/assets/images/landing/page4/mobile/intertek-Certificate-of-Registration-thaipolyester.webp" media="(max-width: 640px)" loading="lazy">
+                                    <source srcset="/assets/images/landing/page4/mobile/intertek-Certificate-of-Registration-thaipolyester.webp" media="(max-width: 640px)">
                                     <img src="/assets/images/landing/page4/desktop/intertek-Certificate-of-Registration-thaipolyester.webp" width="900" height="350" class="img-fluid" alt="intertek Certificate of Registration thaipolyester" loading="lazy">
                                 </picture>
                             </a>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-3-5 p-0 col2">
-                        <div class="col-xs-4 col-sm-4 col-md-12 p-0">
+                        {{-- <div class="col-xs-4 col-sm-4 col-md-12 p-0">
                             <div class="img_block d-flex">
                                 <a href="/assets/images/landing/page4/desktop/Global-Recycled-standard-100-Recycled-Polyester-Thaipolyester.webp" title="Global Recycled standard 100% Recycled Polyester Thaipolyester" data-fancybox="gallery" data-thumbnail-src="/assets/images/landing/page4/desktop/Global-Recycled-standard-100-Recycled-Polyester-Thaipolyester.webp">
                                     <picture>
-                                        <source srcset="/assets/images/landing/page4/mobile/Global-Recycled-standard-100-Recycled-Polyester-Thaipolyester.webp" media="(max-width: 640px)" loading="lazy">
+                                        <source srcset="/assets/images/landing/page4/mobile/Global-Recycled-standard-100-Recycled-Polyester-Thaipolyester.webp" media="(max-width: 640px)">
                                         <img src="/assets/images/landing/page4/desktop/Global-Recycled-standard-100-Recycled-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="Global Recycled standard 100% Recycled Polyester Thaipolyester" loading="lazy">
                                     </picture>
                                 </a>
                             </div>
-                        </div>
+                        </div> --}}
                         <div class="col-xs-4 col-sm-4 col-md-12 p-0">
                             <div class="img_block d-flex">
                                 <a href="/assets/images/landing/page4/desktop/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp" title="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" data-fancybox="gallery" data-thumbnail-src="/assets/images/landing/page4/desktop/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp">
                                     <picture>
-                                        <source srcset="/assets/images/landing/page4/mobile/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp" media="(max-width: 640px)" loading="lazy">
-                                        <img src="/assets/images/landing/page4/desktop/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" loading="lazy">
+                                        <source srcset="/assets/images/landing/page4/mobile/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp" media="(max-width: 640px)">
+                                        <img src="/assets/images/landing/page4/desktop/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" loading="lazy">
                                     </picture>
                                 </a>
                             </div>
                         </div>
                         <div class="col-xs-4 col-sm-4 col-md-12 p-0">
                             <div class="img_block d-flex">
-                                <a href="/assets/images/landing/page1/desktop/new-image/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp" title="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" data-fancybox="gallery" data-thumbnail-src="/assets/images/landing/page1/desktop/new-image/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp">
+                                <a href="/assets/images/landing/page4/desktop/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp" title="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" data-fancybox="gallery" data-thumbnail-src="/assets/images/landing/page4/desktop/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp">
                                     <picture>
-                                        <source srcset="/assets/images/landing/page1/mobile/new-image/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" media="(max-width: 640px)" loading="lazy">
-                                        <img src="/assets/images/landing/page1/desktop/new-image/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp" width="900" height="350" class="img-fluid ab-img" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" loading="lazy">
+                                        <source srcset="/assets/images/landing/page4/mobile/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp" media="(max-width: 640px)">
+                                        <img src="/assets/images/landing/page4/desktop/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp" width="900" height="350" class="img-fluid" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" loading="lazy">
                                     </picture>
                                 </a>
                             </div>
@@ -871,10 +871,10 @@
                     </div>
                     <div class="col-xs-6 col-sm-6 col-md-4-25 p-0 col3">
                         <div class="img_block d-flex">
-                            <a href="/assets/images/landing/page1/desktop/new-image/Green-industry-Activty-Thaipolyester.webp" title="Green industry Activty Thaipolyester" data-fancybox="gallery" data-thumbnail-src="/assets/images/landing/page1/desktop/new-image/Green-industry-Activty-Thaipolyester.webp">
+                            <a href="/assets/images/landing/page4/desktop/Green-industry-Activty-Thaipolyester.webp" title="Green industry Activty Thaipolyester" data-fancybox="gallery" data-thumbnail-src="/assets/images/landing/page4/desktop/Green-industry-Activty-Thaipolyester.webp">
                                 <picture>
-                                    <source srcset="/assets/images/landing/page1/mobile/new-image/Green-industry-Activty-Thaipolyester.webp" alt="Green industry Activty Thaipolyester" media="(max-width: 640px)" loading="lazy">
-                                    <img src="/assets/images/landing/page1/desktop/new-image/Green-industry-Activty-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Green industry Activty Thaipolyester" loading="lazy">
+                                    <source srcset="/assets/images/landing/page4/mobile/Green-industry-Activty-Thaipolyester.webp" media="(max-width: 640px)" loading="lazy">
+                                    <img src="/assets/images/landing/page4/desktop/Green-industry-Activty-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="Green industry Activty Thaipolyester" loading="lazy">
                                 </picture>
                             </a>
                         </div>
@@ -940,8 +940,8 @@
                         <div class="content_group">
                             <div class="img_block">
                                 <picture>
-                                    <source srcset="/assets/images/landing/page1/mobile/Icon-landing-page-TPC-Thai-Polyester-Phone.webp" alt="Phone" media="(max-width: 640px)" loading="lazy">
-                                    <img src="/assets/images/landing/page1/desktop/Icon-landing-page-TPC-Thai-Polyester-Phone.webp" width="900" height="350" class="img-fluid ab-img" alt="Phone" loading="lazy">
+                                    <source srcset="\assets\images\landing\page4\mobile\Icon-landing-page-TPC-Thai-Polyester-Phone.webp" media="(max-width: 640px)">
+                                    <img src="\assets\images\landing\page4\desktop\Icon-landing-page-TPC-Thai-Polyester-Phone.webp" width="900" height="350" class="img-fluid" alt="Phone" loading="lazy">
                                 </picture>
                             </div>
                             <h3 class="theme-hl text-center">Phone :</h3>
@@ -956,8 +956,8 @@
                         <div class="content_group">
                             <div class="img_block">
                                 <picture>
-                                    <source srcset="/assets/images/landing/page1/mobile/Icon-landing-page-TPC-Thai-Polyester-Email.webp" alt="Email" media="(max-width: 640px)" loading="lazy">
-                                    <img src="/assets/images/landing/page1/desktop/Icon-landing-page-TPC-Thai-Polyester-Email.webp" width="900" height="350" class="img-fluid ab-img" alt="Email" loading="lazy">
+                                    <source srcset="\assets\images\landing\page4\mobile\Icon-landing-page-TPC-Thai-Polyester-Email.webp" media="(max-width: 640px)">
+                                    <img src="\assets\images\landing\page4\desktop\Icon-landing-page-TPC-Thai-Polyester-Email.webp" width="900" height="350" class="img-fluid" alt="Email" loading="lazy">
                                 </picture>
                             </div>
                             <h3 class="theme-hl text-center">Email :</h3>
@@ -972,8 +972,8 @@
                         <div class="content_group">
                             <div class="img_block">
                                 <picture>
-                                    <source srcset="/assets/images/landing/page1/mobile/Icon-landing-page-TPC-Thai-Polyester-Website.webp" alt="Website" media="(max-width: 640px)" loading="lazy">
-                                    <img src="/assets/images/landing/page1/desktop/Icon-landing-page-TPC-Thai-Polyester-Website.webp" width="900" height="350" class="img-fluid ab-img" alt="Website" loading="lazy">
+                                    <source srcset="\assets\images\landing\page4\mobile\Icon-landing-page-TPC-Thai-Polyester-Website.webp" media="(max-width: 640px)">
+                                    <img src="\assets\images\landing\page4\desktop\Icon-landing-page-TPC-Thai-Polyester-Website.webp" width="900" height="350" class="img-fluid" alt="Website" loading="lazy">
                                 </picture>
                             </div>
                             <h3 class="theme-hl text-center">Website :</h3>
@@ -988,8 +988,8 @@
                         <div class="content_group">
                             <div class="img_block">
                                 <picture>
-                                    <source srcset="/assets/images/landing/page1/mobile/Icon-landing-page-TPC-Thai-Polyester-Whatsapp.webp" alt="Whatsapp" media="(max-width: 640px)" loading="lazy">
-                                    <img src="/assets/images/landing/page1/desktop/Icon-landing-page-TPC-Thai-Polyester-Whatsapp.webp" width="900" height="350" class="img-fluid ab-img" alt="Whatsapp" loading="lazy">
+                                    <source srcset="\assets\images\landing\page4\mobile\Icon-landing-page-TPC-Thai-Polyester-Whatsapp.webp" media="(max-width: 640px)">
+                                    <img src="\assets\images\landing\page4\desktop\Icon-landing-page-TPC-Thai-Polyester-Whatsapp.webp" width="900" height="350" class="img-fluid ab-img" alt="Whatsapp" loading="lazy">
                                 </picture>
                             </div>
                             <h3 class="theme-hl text-center">Whatsapp :</h3>
@@ -1006,8 +1006,8 @@
                         <div class="content_group">
                             <div class="img_block">
                                 <picture>
-                                    <source srcset="/assets/images/landing/page1/mobile/Icon-landing-page-TPC-Thai-Polyester-Address.webp" alt="Address" media="(max-width: 640px)" loading="lazy">
-                                    <img src="/assets/images/landing/page1/desktop/Icon-landing-page-TPC-Thai-Polyester-Address.webp" width="900" height="350" class="img-fluid ab-img" alt="Address" loading="lazy">
+                                    <source srcset="\assets\images\landing\page4\mobile\Icon-landing-page-TPC-Thai-Polyester-Address.webp" media="(max-width: 640px)">
+                                    <img src="\assets\images\landing\page4\desktop\Icon-landing-page-TPC-Thai-Polyester-Address.webp" width="900" height="350" class="img-fluid" alt="Address" loading="lazy">
                                 </picture>
                             </div>
                             <h3 class="theme-hl text-center">Address :</h3>
