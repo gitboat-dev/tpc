@@ -196,7 +196,7 @@ function v_scroll(video,btn,selector,pointer=0){
 	}
 }
 function thank_you(){
-    window.location.href = "/landing/thank-you";
+    window.location.href = "/landing/thank-you4";
 }
 function checkData(f){
 	var name = f.find('#name'),
