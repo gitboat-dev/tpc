@@ -940,8 +940,8 @@
                         <div class="content_group">
                             <div class="img_block">
                                 <picture>
-                                    <source srcset="\assets\images\landing\page4\mobile\Icon-landing-page-TPC-Thai-Polyester-Phone.webp" media="(max-width: 640px)">
-                                    <img src="\assets\images\landing\page4\desktop\Icon-landing-page-TPC-Thai-Polyester-Phone.webp" width="900" height="350" class="img-fluid" alt="Phone" loading="lazy">
+                                    <source srcset="/assets/images/landing/page4/mobile/Icon-landing-page-TPC-Thai-Polyester-Phone.webp" media="(max-width: 640px)">
+                                    <img src="/assets/images/landing/page4/desktop/Icon-landing-page-TPC-Thai-Polyester-Phone.webp" width="900" height="350" class="img-fluid" alt="Phone" loading="lazy">
                                 </picture>
                             </div>
                             <h3 class="theme-hl text-center">Phone :</h3>
@@ -956,8 +956,8 @@
                         <div class="content_group">
                             <div class="img_block">
                                 <picture>
-                                    <source srcset="\assets\images\landing\page4\mobile\Icon-landing-page-TPC-Thai-Polyester-Email.webp" media="(max-width: 640px)">
-                                    <img src="\assets\images\landing\page4\desktop\Icon-landing-page-TPC-Thai-Polyester-Email.webp" width="900" height="350" class="img-fluid" alt="Email" loading="lazy">
+                                    <source srcset="/assets/images/landing/page4/mobile/Icon-landing-page-TPC-Thai-Polyester-Email.webp" media="(max-width: 640px)">
+                                    <img src="/assets/images/landing/page4/desktop/Icon-landing-page-TPC-Thai-Polyester-Email.webp" width="900" height="350" class="img-fluid" alt="Email" loading="lazy">
                                 </picture>
                             </div>
                             <h3 class="theme-hl text-center">Email :</h3>
@@ -972,8 +972,8 @@
                         <div class="content_group">
                             <div class="img_block">
                                 <picture>
-                                    <source srcset="\assets\images\landing\page4\mobile\Icon-landing-page-TPC-Thai-Polyester-Website.webp" media="(max-width: 640px)">
-                                    <img src="\assets\images\landing\page4\desktop\Icon-landing-page-TPC-Thai-Polyester-Website.webp" width="900" height="350" class="img-fluid" alt="Website" loading="lazy">
+                                    <source srcset="/assets/images/landing/page4/mobile/Icon-landing-page-TPC-Thai-Polyester-Website.webp" media="(max-width: 640px)">
+                                    <img src="/assets/images/landing/page4/desktop/Icon-landing-page-TPC-Thai-Polyester-Website.webp" width="900" height="350" class="img-fluid" alt="Website" loading="lazy">
                                 </picture>
                             </div>
                             <h3 class="theme-hl text-center">Website :</h3>
@@ -988,8 +988,8 @@
                         <div class="content_group">
                             <div class="img_block">
                                 <picture>
-                                    <source srcset="\assets\images\landing\page4\mobile\Icon-landing-page-TPC-Thai-Polyester-Whatsapp.webp" media="(max-width: 640px)">
-                                    <img src="\assets\images\landing\page4\desktop\Icon-landing-page-TPC-Thai-Polyester-Whatsapp.webp" width="900" height="350" class="img-fluid ab-img" alt="Whatsapp" loading="lazy">
+                                    <source srcset="/assets/images/landing/page4/mobile/Icon-landing-page-TPC-Thai-Polyester-Whatsapp.webp" media="(max-width: 640px)">
+                                    <img src="/assets/images/landing/page4/desktop/Icon-landing-page-TPC-Thai-Polyester-Whatsapp.webp" width="900" height="350" class="img-fluid ab-img" alt="Whatsapp" loading="lazy">
                                 </picture>
                             </div>
                             <h3 class="theme-hl text-center">Whatsapp :</h3>
@@ -1006,8 +1006,8 @@
                         <div class="content_group">
                             <div class="img_block">
                                 <picture>
-                                    <source srcset="\assets\images\landing\page4\mobile\Icon-landing-page-TPC-Thai-Polyester-Address.webp" media="(max-width: 640px)">
-                                    <img src="\assets\images\landing\page4\desktop\Icon-landing-page-TPC-Thai-Polyester-Address.webp" width="900" height="350" class="img-fluid" alt="Address" loading="lazy">
+                                    <source srcset="/assets/images/landing/page4/mobile/Icon-landing-page-TPC-Thai-Polyester-Address.webp" media="(max-width: 640px)">
+                                    <img src="/assets/images/landing/page4/desktop/Icon-landing-page-TPC-Thai-Polyester-Address.webp" width="900" height="350" class="img-fluid" alt="Address" loading="lazy">
                                 </picture>
                             </div>
                             <h3 class="theme-hl text-center">Address :</h3>
