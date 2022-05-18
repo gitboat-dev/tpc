@@ -605,7 +605,7 @@ body{
     #sec7{
         padding: 20px 0 0 0;
     }
-    #sec7 .review-block .company-logo img,
+    /* #sec7 .review-block .company-logo img, */
     #sec7 .review-block .company-star img{
         max-width: 30%;
     }
