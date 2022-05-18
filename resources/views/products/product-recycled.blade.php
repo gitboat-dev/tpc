@@ -91,7 +91,7 @@
 								</p>
 							</div>
 							<div>
-								<img src="/assets/custom/images/product/picrecycle-new/6a023d084179d71eb97799402b3f685c-certification-30-200-200.webp" width="900" height="350" class="img-fluid ab-img" alt="ECO TPC" loading="lazy">
+								{{-- <img src="/assets/custom/images/product/picrecycle-new/6a023d084179d71eb97799402b3f685c-certification-30-200-200.webp" width="900" height="350" class="img-fluid ab-img" alt="ECO TPC" loading="lazy"> --}}
 							</div>
 						</div>
 					</div>
