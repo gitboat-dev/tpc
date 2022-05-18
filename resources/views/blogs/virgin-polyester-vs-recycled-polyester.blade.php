@@ -340,14 +340,14 @@
                                     </picture>
                                 </a>
                             </div>
-                            <div class="img_block d-flex">
+                            {{-- <div class="img_block d-flex">
                                 <a class="mr-0" href="/assets/images/blogs/columns/vp-vs-rp/desktop/Global-Recycled-standard-100Recycled-Polyester-Thaipolyester.webp" title="Global Recycled standard 100% Recycled Polyester Thaipolyester" data-fancybox="gallery" data-thumbnail-src="/assets/images/blogs/columns/vp-vs-rp/desktop/Global-Recycled-standard-100Recycled-Polyester-Thaipolyester.webp">
                                     <picture>
                                         <source srcset="/assets/images/blogs/columns/vp-vs-rp/mobile/Global-Recycled-standard-100Recycled-Polyester-Thaipolyester.webp" alt="Global Recycled standard 100% Recycled Polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
                                         <img src="/assets/images/blogs/columns/vp-vs-rp/desktop/Global-Recycled-standard-100Recycled-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="Global Recycled standard 100% Recycled Polyester Thaipolyester" loading="lazy">
                                     </picture>
                                 </a>
-                            </div>
+                            </div> --}}
                         </div>
                         <div class="col-xs-4 col-sm-4 col-md-4 p-0">
                             <div class="img_block d-flex">

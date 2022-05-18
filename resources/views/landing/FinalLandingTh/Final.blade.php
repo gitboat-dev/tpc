@@ -364,23 +364,23 @@
                 <div class="slide">
                     <div class="owl-carousel owl-theme">
                         <div class="item text-center p-0">
-                            <a href="/assets/images/landing/Finallanding/v001.webp" title="oeko-tex" data-fancybox="gallery" data-thumbnail-src="/assets/images/landing/Finallanding/v001.webp">
-                                <img src="/assets/images/landing/Finallanding/v001.webp" alt="oeko-tex">
+                            <a href="/assets/images/landing/Finallanding/v001.webp" title="certificate of registration" data-fancybox="gallery" data-thumbnail-src="/assets/images/landing/Finallanding/v001.webp">
+                                <img src="/assets/images/landing/Finallanding/v001.webp" alt="certificate of registration">
                             </a>
                         </div>
                         <div class="item text-center p-0">
-                            <a href="/assets/images/landing/Finallanding/v002.webp" title="Global Recycle Standard" data-fancybox="gallery" data-thumbnail-src="/assets/images/landing/Finallanding/v002.webp">
-                                <img src="/assets/images/landing/Finallanding/v002.webp" alt="Global Recycle Standard">
+                            <a href="/assets/images/landing/Finallanding/v002.webp" title="green ndustry" data-fancybox="gallery" data-thumbnail-src="/assets/images/landing/Finallanding/v002.webp">
+                                <img src="/assets/images/landing/Finallanding/v002.webp" alt="green ndustry">
                             </a>
                         </div>
-                        <div class="item text-center p-0">
-                            <a href="/assets/images/landing/Finallanding/v003.webp" title="green ndustry" data-fancybox="gallery" data-thumbnail-src="/assets/images/landing/Finallanding/v003.webp">
-                                <img src="/assets/images/landing/Finallanding/v003.webp" alt="green ndustry">
+                        {{-- <div class="item text-center p-0">
+                            <a href="/assets/images/landing/Finallanding/v003.webp" title="Global Recycle Standard" data-fancybox="gallery" data-thumbnail-src="/assets/images/landing/Finallanding/v003.webp">
+                                <img src="/assets/images/landing/Finallanding/v003.webp" alt="Global Recycle Standard">
                             </a>
-                        </div>
+                        </div> --}}
                         <div class="item text-center p-0">
-                            <a href="/assets/images/landing/Finallanding/v004.webp" title="certificate of registration" data-fancybox="gallery" data-thumbnail-src="/assets/images/landing/Finallanding/v004.webp">
-                                <img src="/assets/images/landing/Finallanding/v004.webp" alt="certificate of registration">
+                            <a href="/assets/images/landing/Finallanding/v004.webp" title="oeko-tex" data-fancybox="gallery" data-thumbnail-src="/assets/images/landing/Finallanding/v004.webp">
+                                <img src="/assets/images/landing/Finallanding/v004.webp" alt="oeko-tex">
                             </a>
                         </div>
                     </div>

@@ -323,7 +323,7 @@
 					<div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
 						<div class="content_1">
 							<div class="col-xs-6 col-sm-6 col-md-4 col1_1">
-								<div class="col-xs-12 col-sm-12 col-md-12 p-0">
+								{{-- <div class="col-xs-12 col-sm-12 col-md-12 p-0">
 									<a href="/assets/images/home/desktop/Global-Recycled-standard-100-Recycled-Polyester-Thaipolyester.webp?v={{ time() }}" data-fancybox="gallery" data-thumbnail-src="/assets/images/home/desktop/Global-Recycled-standard-100-Recycled-Polyester-Thaipolyester.webp?v={{ time() }}">
 										<div class="img_block1">
 											<picture>
@@ -332,7 +332,7 @@
 									        </picture>
 										</div>
 									</a>
-								</div>
+								</div> --}}
 								<div class="col-xs-12 col-sm-12 col-md-12 p-0">
 									<a href="/assets/images/home/desktop/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp?v={{ time() }}" data-fancybox="gallery" data-thumbnail-src="/assets/images/home/desktop/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp?v={{ time() }}">
 										<div class="img_block1">
