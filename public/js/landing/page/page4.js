@@ -34,11 +34,6 @@ jQuery(document).ready(function($){
 			btn_play(video1,btn_play1);
 		}
 	});
-
-
-    $('#sec7 .slide .owl-carousel').on("changed.owl.carousel", function(e) {
-        console.log('center item is:'+ (e.item.index + 1));
-    });
 });
 function sec1(){
     var row1 = jQuery('#sec1 .r1 .col1 .content_block'),
@@ -91,13 +86,13 @@ function sec6_slide(){
 }
 function sec7_slide(){
     $('#sec7 .slide .owl-carousel').owlCarousel({
-        // center: true,
+        center: true,
         lazyLoad:true,
         loop:true,
         autoplay:true,
         autoplayTimeout:5000,
         autoplayHoverPause:true,
-        margin:10,
+        margin:5,
         nav:false,
 		navText : ["<i class='fa fa-arrow-left' aria-hidden='true'></i>", "<i class='fa fa-arrow-right' aria-hidden='true'></i>"],
         dots:false,
