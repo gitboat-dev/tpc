@@ -829,10 +829,10 @@
                 <div class="content_block pos-r d-flex">
                     <div class="col-xs-6 col-sm-6 col-md-4-25 p-0 col1">
                         <div class="img_block d-flex">
-                            <a href="/assets/images/landing/page1/desktop/new-image/intertek-Certificate-of-Registration-thaipolyester.webp" title="intertek Certificate of Registration thaipolyester" data-fancybox="gallery" data-thumbnail-src="/assets/images/landing/page1/desktop/new-image/intertek-Certificate-of-Registration-thaipolyester.webp">
+                            <a href="/assets/images/landing/page4/desktop/intertek-Certificate-of-Registration-thaipolyester.webp" title="intertek Certificate of Registration thaipolyester" data-fancybox="gallery" data-thumbnail-src="/assets/images/landing/page4/desktop/intertek-Certificate-of-Registration-thaipolyester.webp">
                                 <picture>
-                                    <source srcset="/assets/images/landing/page1/mobile/new-image/intertek-Certificate-of-Registration-thaipolyester.webp" alt="intertek Certificate of Registration thaipolyester" media="(max-width: 640px)" loading="lazy">
-                                    <img src="/assets/images/landing/page1/desktop/new-image/intertek-Certificate-of-Registration-thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="intertek Certificate of Registration thaipolyester" loading="lazy">
+                                    <source srcset="/assets/images/landing/page4/mobile/intertek-Certificate-of-Registration-thaipolyester.webp" media="(max-width: 640px)" loading="lazy">
+                                    <img src="/assets/images/landing/page4/desktop/intertek-Certificate-of-Registration-thaipolyester.webp" width="900" height="350" class="img-fluid" alt="intertek Certificate of Registration thaipolyester" loading="lazy">
                                 </picture>
                             </a>
                         </div>
@@ -840,20 +840,20 @@
                     <div class="col-xs-12 col-sm-12 col-md-3-5 p-0 col2">
                         <div class="col-xs-4 col-sm-4 col-md-12 p-0">
                             <div class="img_block d-flex">
-                                <a href="/assets/images/landing/page1/desktop/new-image/Global-Recycled-standard-100-Recycled-Polyester-Thaipolyester.webp" title="Global Recycled standard 100%Recycled Polyester Thaipolyester" data-fancybox="gallery" data-thumbnail-src="/assets/images/landing/page1/desktop/new-image/Global-Recycled-standard-100-Recycled-Polyester-Thaipolyester.webp">
+                                <a href="/assets/images/landing/page4/desktop/Global-Recycled-standard-100-Recycled-Polyester-Thaipolyester.webp" title="Global Recycled standard 100% Recycled Polyester Thaipolyester" data-fancybox="gallery" data-thumbnail-src="/assets/images/landing/page4/desktop/Global-Recycled-standard-100-Recycled-Polyester-Thaipolyester.webp">
                                     <picture>
-                                        <source srcset="/assets/images/landing/page1/mobile/new-image/Global-Recycled-standard-100-Recycled-Polyester-Thaipolyester.webp" alt="Global Recycled standard 100%Recycled Polyester Thaipolyester" media="(max-width: 640px)" loading="lazy">
-                                        <img src="/assets/images/landing/page1/desktop/new-image/Global-Recycled-standard-100-Recycled-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Global Recycled standard 100%Recycled Polyester Thaipolyester" loading="lazy">
+                                        <source srcset="/assets/images/landing/page4/mobile/Global-Recycled-standard-100-Recycled-Polyester-Thaipolyester.webp" media="(max-width: 640px)" loading="lazy">
+                                        <img src="/assets/images/landing/page4/desktop/Global-Recycled-standard-100-Recycled-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="Global Recycled standard 100% Recycled Polyester Thaipolyester" loading="lazy">
                                     </picture>
                                 </a>
                             </div>
                         </div>
                         <div class="col-xs-4 col-sm-4 col-md-12 p-0">
                             <div class="img_block d-flex">
-                                <a href="/assets/images/landing/page1/desktop/new-image/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp" title="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" data-fancybox="gallery" data-thumbnail-src="/assets/images/landing/page1/desktop/new-image/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp">
+                                <a href="/assets/images/landing/page4/desktop/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp" title="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" data-fancybox="gallery" data-thumbnail-src="/assets/images/landing/page4/desktop/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp">
                                     <picture>
-                                        <source srcset="/assets/images/landing/page1/mobile/new-image/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" media="(max-width: 640px)" loading="lazy">
-                                        <img src="/assets/images/landing/page1/desktop/new-image/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" loading="lazy">
+                                        <source srcset="/assets/images/landing/page4/mobile/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp" media="(max-width: 640px)" loading="lazy">
+                                        <img src="/assets/images/landing/page4/desktop/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" loading="lazy">
                                     </picture>
                                 </a>
                             </div>
