@@ -296,6 +296,151 @@ body{
 
 /* end sec8 */
 
+#sec9{
+    padding: 60px 125px;
+}
+#sec9 .r1 .content_block .content_group{
+    max-width: 768px;
+    border: 3px solid var(--msBgLight);
+    padding: 40px;
+}
+#sec9 .r1 .content_block .content_group h2{
+    font-size: 55px;
+    line-height: 65px;
+    margin-bottom: 40px;
+}
+#sec9 .r1 .content_block .content_group form{
+    max-width: 580px;
+}
+#sec9 .r1 .content_block .content_group form input,
+#sec9 .r1 .content_block .content_group form textarea{
+    background-color: var(--msBgDark);
+    border-top: 2px solid var(--msBgDark);
+    border-left: 2px solid var(--msBgDark);
+    border-right: 2px solid var(--msBgDark);
+    border-bottom: 2px solid var(--msBgLight);
+    color: var(--msBg);
+    font-size: 16px;
+    line-height: 20px;
+}
+#sec9 .r1 .content_block .content_group form input{
+    min-height: 50px;
+}
+#sec9 .r1 .content_block .content_group form textarea{
+    resize: vertical;
+}
+#sec9 .r1 .content_block .content_group form input::placeholder,
+#sec9 .r1 .content_block .content_group form textarea::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: var(--msBg);
+    opacity: 1; /* Firefox */
+}
+#sec9 .r1 .content_block .content_group form input:-ms-input-placeholder,
+#sec9 .r1 .content_block .content_group form textarea:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: var(--msBg);
+    opacity: 1;
+}
+#sec9 .r1 .content_block .content_group form input::-ms-input-placeholder,
+#sec9 .r1 .content_block .content_group form textarea::-ms-input-placeholder { /* Microsoft Edge */
+    color: var(--msBg);
+    opacity: 1;
+}
+#sec9 .r1 .content_block .content_group form .bt-contact{
+    font-size: 25px;
+    line-height: 35px;
+    color: var(--msBgDark);
+    background-color: var(--msBg);
+    border: none;
+    margin-top: 20px;
+    padding: 10px 20px;
+    transition: all 0.2s;
+}
+#sec9 .r1 .content_block .content_group form .bt-contact:hover{
+    color: var(--msBgLight);
+    box-shadow: 0px 0px 3px var(--msBgLight);
+    transition: all 0.2s;
+}
+
+/* end sec9 */
+
+#sec10 .r1 .col1 .content_block{
+    padding: 60px 125px;
+}
+#sec10 .r2 .content_block,
+#sec10 .r3 .content_block{
+    padding: 20px;
+}
+#sec10 .r4 .col1 .content_block{
+    padding: 20px 125px 10px;
+}
+#sec10 .r1 .col1 .content_block h2{
+    font-size: 40px;
+    line-height: 35px;
+}
+#sec10 .r2 .content_block .img_block,
+#sec10 .r3 .content_block .img_block{
+    width: 100%;
+    max-width: 100px;
+}
+#sec10 .r2 .content_block h3,
+#sec10 .r3 .content_block h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+#sec10 .r2 .content_block a{
+    font-size: 16px;
+    color: var(--msBgDark);
+    font-weight: 600;
+    transition: all 0.2s;
+}
+#sec10 .r2 .content_block a:hover{
+    color: var(--msBg);
+    transition: all 0.2s;
+}
+#sec10 .r2 .content_block p,
+#sec10 .r3 .content_block p{
+    font-size: 16px;
+}
+#sec10 .r3 .content_block p{
+    margin-bottom: 20px;
+}
+#sec10 .r4 .col1 .content_block p.p1{
+    font-size: 20px;
+}
+#sec10 .r3 div[class^="col-"]:not(:last-child){
+    border-right: 2px solid var(--msBgDark);
+}
+#sec10 .r3 .content_block a.a-map{
+    margin-top: 20px;
+    background-color: var(--msBg);
+    color: var(--msBgDark);
+    padding: 2.5px 10px;
+    font-size: 14px;
+    font-weight: 700;
+    border-top: 0.5px solid #ccc;
+    border-left: 0.5px solid #999;
+    border-right: none;
+    border-bottom: none;
+}
+
+/* end sec10 */
+
+#sec11 .r1 .col1 .content_block{
+    padding: 0px 125px;
+}
+#sec11 .r1 .col2 .content_block{
+    padding: 0px 125px 20px;
+}
+#sec11 .r1 .col1 .content_block h2{
+    font-size: 34px;
+    font-weight: 600;
+}
+#sec11 .r1 .col2 .content_block p.p1{
+    font-size: 25px;
+    line-height: 30px;
+}
+
+/* end sec11 */
+
 @media only screen and (min-width: 992px){
     #sec8 .r1 .col-md-4-25{
         width: 34.83333333%;
@@ -365,6 +510,30 @@ body{
     }
 
     /* end sec8 */
+
+    #sec9{
+        padding: 30px 50px;
+    }
+
+    /* end sec9 */
+
+    #sec10 .r1 .col1 .content_block {
+        padding: 60px 75px;
+    }
+    #sec10 .r3 div[class^="col-"]:not(:last-child){
+        border-right: unset;
+    }
+
+    /* end sec10 */
+
+    #sec11 .r1 .col1 .content_block {
+        padding: 0px 75px;
+    }
+    #sec11 .r1 .col2 .content_block {
+        padding: 0px 75px 20px;
+    }
+
+    /* end sec11 */
 }
 @media only screen and (min-width: 769px){
     #sec6 .h1{
@@ -438,13 +607,83 @@ body{
         max-width: 30%;
     }
 
-/* end sec7 */
+    /* end sec7 */
 
     #sec8 .r1 .content_block{
         padding: 30px 0;
     }
 
     /* end sec8 */
+
+    #sec9{
+        padding: 20px;
+    }
+    #sec9 .r1 .content_block .content_group{
+        padding: 0px;
+    }
+    #sec9 .r1 .content_block .content_group h2{
+        font-size: 30px;
+        line-height: 32px;
+    }
+    #sec9 .r1 .content_block .content_group form input,
+    #sec9 .r1 .content_block .content_group form textarea{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    #sec9 .r1 .content_block .content_group form input{
+        min-height: 35px;
+    }
+    #sec9 .r1 .content_block .content_group form .bt-contact{
+        font-size: 16px;
+        line-height: 35px;
+        padding: 5px 15px;
+    }
+
+    /* end sec9 */
+
+    #sec10 .r1 .col1 .content_block{
+        padding: 20px;
+    }
+    #sec10 .r4 .col1 .content_block{
+        padding: 10px;
+    }
+    #sec10 .r1 .col1 .content_block h2{
+        font-size: 35px;
+    }
+    #sec10 .r4 .col1 .content_block p.p1{
+        font-size: 11px;
+    }
+
+    /* end sec10 */
+
+    #sec11 .r1 .col1 .content_block{
+        padding: 0 20px;
+    }
+    #sec11 .r1 .col2 .content_block{
+        padding: 20px;
+    }
+    #sec11 .r1 .col1 .content_block h2{
+        font-size: 27px;
+    }
+    #sec11 .r1 .col2 .content_block p.p1{
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    /* end sec11 */
+}
+@media only screen and (max-width: 767px){
+    #sec10 .r3 div[class^="col-"]:not(:last-child)::after{
+        content: " ";
+        position: absolute;
+        bottom: 0;
+        left: 30%;
+        width: 40%;
+        height: 2px;
+        background-color: var(--msBgDark);
+    }
+
+    /* end sec10 */
 }
 @media only screen and (max-width: 640px){
     body{
