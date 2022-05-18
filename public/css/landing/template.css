@@ -306,4 +306,10 @@ body {
         font-size: 30px;
         line-height: 36px;
     }
+    #landing .m-w-100p{
+        width: 100% !important;
+    }
+    #landing .m-h-100p{
+        height: 100% !important;
+    }
 }

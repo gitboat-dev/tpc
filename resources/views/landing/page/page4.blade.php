@@ -624,7 +624,7 @@
                                 <div class="content_block d-flex">
                                     <div class="content_group d-flex m-flex-col m-auto">
                                         <div class="col-xs-12 col-sm-6 col-md-6 d-flex m-auto p-0">
-                                            <div class="m-auto m-d-flex w-100p p-15">
+                                            <div class="m-auto m-d-flex m-w-100p p-15">
                                                 <h2>Spinning mills</h2>
                                                 <p>
                                                     <span class="m-tl2">
@@ -655,7 +655,7 @@
                                 <div class="content_block d-flex">
                                     <div class="content_group d-flex m-flex-col m-auto">
                                         <div class="col-xs-12 col-sm-6 col-md-6 d-flex m-auto p-0">
-                                            <div class="m-auto m-d-flex w-100p p-15">
+                                            <div class="m-auto m-d-flex m-w-100p p-15">
                                                 <h2>Knitting mills</h2>
                                                 <p>
                                                     <span class="m-tl2">
@@ -680,7 +680,6 @@
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
