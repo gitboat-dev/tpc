@@ -6,6 +6,12 @@ jQuery(document).ready(function($){
     var video1 =$('#video1')[0],
 		btn_play1 = $('#btn-video1');
     sec1();
+    // $('.move_to').click(function(event){
+    //     event.preventDefault();
+    //     $('html, body').animate({
+    //         scrollTop: $($(this).attr('href')).offset().top,
+    //     }, 1000);
+    // });
     $(window).resize(function(event) {
         sec1();
     });

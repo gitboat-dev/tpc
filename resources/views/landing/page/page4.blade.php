@@ -1,9 +1,9 @@
 @extends('landing.template')
 @section('style')
     <link rel="preload stylesheet"  href="/lib/owlcarousel/assets/owl.carousel.min.css" as="style" crossorigin>
-    <link rel="preload stylesheet" href="/css/landing/page/page4.css?v={{time()}}" as="style" crossorigin>
-    <link rel="preload stylesheet" href="/css/landing/spin_hover/spin.css?v={{time()}}" as="style" crossorigin>
-    <link rel="preload stylesheet" href="/css/landing/window_slide/wins.css?v={{time()}}" as="style" crossorigin>
+    <link rel="preload stylesheet" href="/css/landing/page/page4.min.css?v={{time()}}" as="style" crossorigin>
+    <link rel="preload stylesheet" href="/css/landing/spin_hover/spin.min.css?v={{time()}}" as="style" crossorigin>
+    <link rel="preload stylesheet" href="/css/landing/window_slide/wins.min.css?v={{time()}}" as="style" crossorigin>
     <link rel="stylesheet" id="fancybox-css" href="{!!asset('/assets/custom/wp-content/plugins/radiantthemes-addons/assets/css/jquery.fancybox.min.css?ver=4.9.11')!!}" type="text/css" media="all">
 @endsection
 @section('og-image','')
@@ -27,8 +27,8 @@
                                     Filament is around 350,000 tons annually.
                                 </span>
                             </p>
-                            <div class="btn">
-                                <a href="#" title="contact us" class="btn-contact">
+                            <div class="btn desktop">
+                                <a href="#sec9" title="contact us" class="btn-contact move_to">
                                     contact us
                                 </a>
                             </div>
@@ -38,7 +38,7 @@
                 <div class="col-xs-12 col-sm-12 col-md-7 p-0 col2">
                     <div class="content_block d-flex">
                         <div class="content_group m-auto">
-                            <div class="video_1">
+                            <div class="video_1 pos-r">
                                 <video muted loop id="video1" poster="">
                                     <source src="/assets/images/landing/page4/video/minify/TPC-Landing-Page2.mp4" type="video/mp4">
                                 </video>
@@ -50,6 +50,11 @@
                                         </picture>
                                     </button>
                                 </figure>
+                            </div>
+                            <div class="btn text-center mobile">
+                                <a href="#sec9" title="contact us" class="btn-contact move_to">
+                                    contact us
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -588,7 +593,7 @@
                     </div>
                 </div>
                 <div class="btn text-center w-100p">
-                    <a href="#" title="get FRFREE QUOTE">
+                    <a href="#sec9" title="get FRFREE QUOTE" class="move_to">
                         get FRFREE QUOTE
                     </a>
                 </div>
@@ -1103,6 +1108,6 @@
 @section('script')
     <script src="/lib/jquery-on-scrolled-to/on-scrolled-to.min.js"></script>
     <script src="/lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="/js/landing/page/page4.js?v={{time()}}"></script>
+    <script src="/js/landing/page/page4.min.js?v={{time()}}"></script>
     <script src="/assets/custom/wp-content/plugins/radiantthemes-addons/assets/js/jquery.fancybox.min.js?v={{ time() }}"></script>
 @endsection

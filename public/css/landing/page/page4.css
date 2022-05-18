@@ -53,10 +53,10 @@ body{
 #sec1 .r1 .col1 .content_block > .content_group{
     max-width: 80%;
 }
-#sec1 .r1 .col1 .content_block > .content_group > .btn{
+#sec1 .btn{
     margin-top: 30px;
 }
-#sec1 .r1 .col1 .content_block > .content_group > .btn > .btn-contact{
+#sec1 .btn > .btn-contact{
     border: none;
     border-radius: 30px;
     padding: 15px 20px;
@@ -66,7 +66,7 @@ body{
     background-color: var(--msBgDark);
     transition: all 0.2s;
 }
-#sec1 .r1 .col1 .content_block > .content_group > .btn > .btn-contact:hover{
+#sec1 .btn > .btn-contact:hover{
     color: var(--msBgLight);
     background-color: var(--msBg);
     transition: all 0.2s;
@@ -552,9 +552,12 @@ body{
 
     /* end all setting */
 
-    #sec1 .r1 .col1 .content_block > .content_group > .btn > .btn-contact{
-        font-size: 1em;
+    #sec1 .btn{
+        margin-bottom: 20px;
     }
+    /* #sec1 .btn > .btn-contact{
+        font-size: 1em;
+    } */
 
     /* end sec1 */
 
