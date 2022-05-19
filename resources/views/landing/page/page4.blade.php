@@ -78,172 +78,156 @@
             </div>
         </section>
         <section id="sec3">
-            <div class="container">
-                <div class="slide">
-                    <div class="owl-carousel owl-theme">
-                        <div class="item p-0">
-                            <div class="row r1 m-0">
-                                <div class="col-xs-12 col-sm-12 col-md-12 p-0">
-                                    <div class="content_block d-flex">
-                                        <div class="content_group d-flex m-auto">
-                                            <div class="col-md-6 d-flex m-auto p-0">
-                                                <p class="owl-text m-auto">
-                                                    - Our Zimmer,<br>
-                                                    Nuemag and<br>
-                                                    Barmag machines<br>
-                                                    serve stabilities<br>
-                                                    (top machines<br>
-                                                    in the world)
-                                                </p>
-                                            </div>
-                                            <div class="col-md-6 d-flex m-auto">
-                                                <picture>
-                                                    <source srcset="/assets/images/landing/page4/mobile/polyester-Yarn-process-Thaipolyester-1.webp" media="(max-width: 640px)">
-                                                    <img src="/assets/images/landing/page4/desktop/polyester-Yarn-process-Thaipolyester-1.webp" alt="polyester Yarn process Thaipolyester" width="900" height="350" class="img-fluid" loading="lazy">
-                                                </picture>
-                                            </div>
-                                        </div>
-                                    </div>
+            <div class="slide">
+                <div class="owl-carousel owl-theme">
+                    <div class="item r1 p-0">
+                        <div class="row d-flex">
+                            <div class="col-xs-6 col-sm-6 col-md-6 pr-0 m-auto">
+                                <div class="d-flex">
+                                    <p class="owl-text m-auto">
+                                        - Our Zimmer,<br>
+                                        Nuemag and<br>
+                                        Barmag machines<br>
+                                        serve stabilities<br>
+                                        (top machines<br>
+                                        in the world)
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-6 pl-0 m-auto">
+                                <div class="d-flex">
+                                    <picture class="m-auto">
+                                        <source srcset="/assets/images/landing/page4/mobile/polyester-Yarn-process-Thaipolyester-1.webp" media="(max-width: 640px)">
+                                        <img src="/assets/images/landing/page4/desktop/polyester-Yarn-process-Thaipolyester-1.webp" alt="polyester Yarn process Thaipolyester" width="900" height="350" class="img-fluid">
+                                    </picture>
                                 </div>
                             </div>
                         </div>
-                        <div class="item p-0">
-                            <div class="row r2 m-0">
-                                <div class="col-xs-12 col-sm-12 col-md-12 p-0">
-                                    <div class="content_block d-flex">
-                                        <div class="content_group d-flex m-auto">
-                                            <div class="col-md-6 d-flex m-auto p-0">
-                                                <p class="owl-text m-auto">
-                                                    - For raw material<br>
-                                                    testing, we have<br>
-                                                    3 tanks of PTA silo
-                                                </p>
-                                            </div>
-                                            <div class="col-md-6 d-flex m-auto">
-                                                <picture>
-                                                    <source srcset="/assets/images/landing/page4/mobile/polyester-Yarn-process-Thaipolyester-2.webp" media="(max-width: 640px)">
-                                                    <img src="/assets/images/landing/page4/desktop/polyester-Yarn-process-Thaipolyester-2.webp" alt="polyester Yarn process Thaipolyester" width="900" height="350" class="img-fluid" loading="lazy">
-                                                </picture>
-                                            </div>
-                                        </div>
-                                    </div>
+                    </div>
+                    <div class="item r2 p-0">
+                        <div class="row d-flex">
+                            <div class="col-xs-6 col-sm-6 col-md-6 pr-0 m-auto">
+                                <div class="d-flex">
+                                    <p class="owl-text m-auto">
+                                        - For raw material<br>
+                                        testing, we have<br>
+                                        3 tanks of PTA silo
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-6 pl-0 m-auto">
+                                <div class="d-flex">
+                                    <picture class="m-auto">
+                                        <source srcset="/assets/images/landing/page4/mobile/polyester-Yarn-process-Thaipolyester-2.webp" media="(max-width: 640px)">
+                                        <img src="/assets/images/landing/page4/desktop/polyester-Yarn-process-Thaipolyester-2.webp" alt="polyester Yarn process Thaipolyester" width="900" height="350" class="img-fluid">
+                                    </picture>
                                 </div>
                             </div>
                         </div>
-                        <div class="item p-0">
-                            <div class="row r3 m-0">
-                                <div class="col-xs-12 col-sm-12 col-md-12 p-0">
-                                    <div class="content_block d-flex">
-                                        <div class="content_group d-flex m-auto">
-                                            <div class="col-md-6 d-flex m-auto p-0">
-                                                <p class="owl-text m-auto">
-                                                    - A perfect<br>
-                                                    PET flakes<br>
-                                                    washing line
-                                                </p>
-                                            </div>
-                                            <div class="col-md-6 d-flex m-auto">
-                                                <picture>
-                                                    <source srcset="/assets/images/landing/page4/mobile/polyester-Yarn-process-Thaipolyester-3.webp" media="(max-width: 640px)">
-                                                    <img src="/assets/images/landing/page4/desktop/polyester-Yarn-process-Thaipolyester-3.webp" alt="polyester Yarn process Thaipolyester" width="900" height="350" class="img-fluid" loading="lazy">
-                                                </picture>
-                                            </div>
-                                        </div>
-                                    </div>
+                    </div>
+                    <div class="item r3 p-0">
+                        <div class="row d-flex">
+                            <div class="col-xs-6 col-sm-6 col-md-6 pr-0 m-auto">
+                                <div class="d-flex">
+                                    <p class="owl-text m-auto">
+                                        - A perfect<br>
+                                        PET flakes<br>
+                                        washing line
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-6 pl-0 m-auto">
+                                <div class="d-flex">
+                                    <picture class="m-auto">
+                                        <source srcset="/assets/images/landing/page4/mobile/polyester-Yarn-process-Thaipolyester-3.webp" media="(max-width: 640px)">
+                                        <img src="/assets/images/landing/page4/desktop/polyester-Yarn-process-Thaipolyester-3.webp" alt="polyester Yarn process Thaipolyester" width="900" height="350" class="img-fluid">
+                                    </picture>
                                 </div>
                             </div>
                         </div>
-                        <div class="item p-0">
-                            <div class="row r4 m-0">
-                                <div class="col-xs-12 col-sm-12 col-md-12 p-0">
-                                    <div class="content_block d-flex">
-                                        <div class="content_group d-flex m-auto">
-                                            <div class="col-md-6 d-flex m-auto p-0">
-                                                <p class="owl-text m-auto">
-                                                    - 0% Carbon<br>
-                                                    LNG is now<br>
-                                                    processing
-                                                </p>
-                                            </div>
-                                            <div class="col-md-6 d-flex m-auto">
-                                                <picture>
-                                                    <source srcset="/assets/images/landing/page4/mobile/polyester-Yarn-process-Thaipolyester-4.webp" media="(max-width: 640px)">
-                                                    <img src="/assets/images/landing/page4/desktop/polyester-Yarn-process-Thaipolyester-4.webp" alt="polyester Yarn process Thaipolyester" width="900" height="350" class="img-fluid" loading="lazy">
-                                                </picture>
-                                            </div>
-                                        </div>
-                                    </div>
+                    </div>
+                    <div class="item r4 p-0">
+                        <div class="row d-flex">
+                            <div class="col-xs-6 col-sm-6 col-md-6 pr-0 m-auto">
+                                <div class="d-flex">
+                                    <p class="owl-text m-auto">
+                                        - 0% Carbon<br>
+                                        LNG is now<br>
+                                        processing
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-6 pl-0 m-auto">
+                                <div class="d-flex">
+                                    <picture class="m-auto">
+                                        <source srcset="/assets/images/landing/page4/mobile/polyester-Yarn-process-Thaipolyester-4.webp" media="(max-width: 640px)">
+                                        <img src="/assets/images/landing/page4/desktop/polyester-Yarn-process-Thaipolyester-4.webp" alt="polyester Yarn process Thaipolyester" width="900" height="350" class="img-fluid">
+                                    </picture>
                                 </div>
                             </div>
                         </div>
-                        <div class="item p-0">
-                            <div class="row r5 m-0">
-                                <div class="col-xs-12 col-sm-12 col-md-12 p-0">
-                                    <div class="content_block d-flex">
-                                        <div class="content_group d-flex m-auto">
-                                            <div class="col-md-6 d-flex m-auto p-0">
-                                                <p class="owl-text m-auto">
-                                                    - Wellor -<br>
-                                                    ganised<br>
-                                                    production<br>
-                                                    process
-                                                </p>
-                                            </div>
-                                            <div class="col-md-6 d-flex m-auto">
-                                                <picture>
-                                                    <source srcset="/assets/images/landing/page4/mobile/polyester-Yarn-process-Thaipolyester-5.webp" media="(max-width: 640px)">
-                                                    <img src="/assets/images/landing/page4/desktop/polyester-Yarn-process-Thaipolyester-5.webp" alt="polyester Yarn process Thaipolyester" width="900" height="350" class="img-fluid" loading="lazy">
-                                                </picture>
-                                            </div>
-                                        </div>
-                                    </div>
+                    </div>
+                    <div class="item r5 p-0">
+                        <div class="row d-flex">
+                            <div class="col-xs-6 col-sm-6 col-md-6 pr-0 m-auto">
+                                <div class="d-flex">
+                                    <p class="owl-text m-auto">
+                                        - Wellor -<br>
+                                        ganised<br>
+                                        production<br>
+                                        process
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-6 pl-0 m-auto">
+                                <div class="d-flex">
+                                    <picture class="m-auto">
+                                        <source srcset="/assets/images/landing/page4/mobile/polyester-Yarn-process-Thaipolyester-5.webp" media="(max-width: 640px)">
+                                        <img src="/assets/images/landing/page4/desktop/polyester-Yarn-process-Thaipolyester-5.webp" alt="polyester Yarn process Thaipolyester" width="900" height="350" class="img-fluid">
+                                    </picture>
                                 </div>
                             </div>
                         </div>
-                        <div class="item p-0">
-                            <div class="row r6 m-0">
-                                <div class="col-xs-12 col-sm-12 col-md-12 p-0">
-                                    <div class="content_block d-flex">
-                                        <div class="content_group d-flex m-auto">
-                                            <div class="col-md-6 d-flex m-auto p-0">
-                                                <p class="owl-text m-auto">
-                                                    - Sustainable<br>
-                                                    product is<br>
-                                                    one of<br>
-                                                    our strength
-                                                </p>
-                                            </div>
-                                            <div class="col-md-6 d-flex m-auto">
-                                                <picture>
-                                                    <source srcset="/assets/images/landing/page4/mobile/polyester-Yarn-process-Thaipolyester-6.webp" media="(max-width: 640px)">
-                                                    <img src="/assets/images/landing/page4/desktop/polyester-Yarn-process-Thaipolyester-6.webp" alt="polyester Yarn process Thaipolyester" width="900" height="350" class="img-fluid" loading="lazy">
-                                                </picture>
-                                            </div>
-                                        </div>
-                                    </div>
+                    </div>
+                    <div class="item r6 p-0">
+                        <div class="row d-flex">
+                            <div class="col-xs-6 col-sm-6 col-md-6 pr-0 m-auto">
+                                <div class="d-flex">
+                                    <p class="owl-text m-auto">
+                                        - Sustainable<br>
+                                        product is<br>
+                                        one of<br>
+                                        our strength
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-6 pl-0 m-auto">
+                                <div class="d-flex">
+                                    <picture class="m-auto">
+                                        <source srcset="/assets/images/landing/page4/mobile/polyester-Yarn-process-Thaipolyester-6.webp" media="(max-width: 640px)">
+                                        <img src="/assets/images/landing/page4/desktop/polyester-Yarn-process-Thaipolyester-6.webp" alt="polyester Yarn process Thaipolyester" width="900" height="350" class="img-fluid">
+                                    </picture>
                                 </div>
                             </div>
                         </div>
-                        <div class="item p-0">
-                            <div class="row r7 m-0">
-                                <div class="col-xs-12 col-sm-12 col-md-12 p-0">
-                                    <div class="content_block d-flex">
-                                        <div class="content_group d-flex m-auto">
-                                            <div class="col-md-6 d-flex m-auto p-0">
-                                                <p class="owl-text m-auto">
-                                                    - And we own<br>
-                                                    a Spinning mill<br>
-                                                    too!
-                                                </p>
-                                            </div>
-                                            <div class="col-md-6 d-flex m-auto">
-                                                <picture>
-                                                    <source srcset="/assets/images/landing/page4/mobile/polyester-Yarn-process-Thaipolyester-7.webp" media="(max-width: 640px)">
-                                                    <img src="/assets/images/landing/page4/desktop/polyester-Yarn-process-Thaipolyester-7.webp" alt="polyester Yarn process Thaipolyester" width="900" height="350" class="img-fluid" loading="lazy">
-                                                </picture>
-                                            </div>
-                                        </div>
-                                    </div>
+                    </div>
+                    <div class="item r7 p-0">
+                        <div class="row d-flex">
+                            <div class="col-xs-6 col-sm-6 col-md-6 pr-0 m-auto">
+                                <div class="d-flex">
+                                    <p class="owl-text m-auto">
+                                        - And we own<br>
+                                        a Spinning mill<br>
+                                        too!
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-6 pl-0 m-auto">
+                                <div class="d-flex">
+                                    <picture class="m-auto">
+                                        <source srcset="/assets/images/landing/page4/mobile/polyester-Yarn-process-Thaipolyester-7.webp" media="(max-width: 640px)">
+                                        <img src="/assets/images/landing/page4/desktop/polyester-Yarn-process-Thaipolyester-7.webp" alt="polyester Yarn process Thaipolyester" width="900" height="350" class="img-fluid">
+                                    </picture>
                                 </div>
                             </div>
                         </div>

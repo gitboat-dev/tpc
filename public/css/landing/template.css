@@ -1,8 +1,4 @@
 :root{
-  /* --msBg:hsl(149deg 46% 46%);
-  --msBgDark:hsl(220deg 22% 16%);
-  --msBgDarkOpacity:#202731ed;
-  --msBgLight:#fff; */
   --msBg: #3db072;
   --msBgOpacity: #3db07396;
   --msBgGreen:#00ff2a;
@@ -133,7 +129,7 @@ body {
 	max-width: 1920px;
 }
 #landing .desktop{
-    display: block !important;
+    display: inline-block !important;
 }
 #landing .mobile{
     display: none !important;
@@ -240,7 +236,7 @@ body {
         display: none !important;
     }
     #landing .mobile{
-        display: block !important;
+        display: inline-block !important;
     }
     #landing .m-tl0{
         font-size: 90%;

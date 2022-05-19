@@ -85,39 +85,7 @@ body{
 /* end sec2 */
 
 #sec3{
-    padding: 20px 0;
-}
-#sec3 .owl-nav{
-    margin-top: 20px;
-    text-align: center;
-    position: relative;
-    font-size: 22px;
-    font-weight: bold;
-    color: var(--msBg);
-}
-#sec3 .owl-nav > .owl-prev{
-    position: absolute;
-    left: 42%;
-    transition: all 0.2s;
-}
-#sec3 .owl-nav > .owl-prev:hover{
-    text-shadow: -5px 1px 3px var(--msBgDark);
-    font-size: 24px;
-    transition: all 0.2s;
-}
-#sec3 .owl-nav > .owl-next{
-    position: absolute;
-    right: 42%;
-    transition: all 0.2s;
-}
-#sec3 .owl-nav > .owl-next:hover{
-    text-shadow: 5px 1px 3px var(--msBgDark);
-    font-size: 24px;
-    transition: all 0.2s;
-}
-#sec3 .owl-text{
-    font-size: 24px;
-    line-height: 30px;
+    padding: 20px 0 40px;
 }
 #sec3 .r1{
     background-color: hsl(84deg 12% 42%);
@@ -162,7 +130,54 @@ body{
     padding: 15px;
 }
 
+#sec3 .owl-nav{
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--msBg);
+}
+#sec3 .owl-nav > .owl-prev{
+    position: absolute;
+    left: 42%;
+    font-size: 42px;
+    transition: all 0.2s;
+}
+#sec3 .owl-nav > .owl-prev.disabled,
+#sec3 .owl-nav > .owl-next.disabled{
+    color: var(--msBgDark);
+    opacity: 0.2;
+    cursor: no-drop;
+    transition: all 0.2s;
+}
+#sec3 .owl-nav > .owl-prev:not(.disabled):hover{
+    text-shadow: -5px 1px 3px var(--msBgDark);
+    font-size: 44px;
+    transition: all 0.2s;
+}
+#sec3 .owl-nav > .owl-next{
+    position: absolute;
+    right: 42%;
+    font-size: 42px;
+    transition: all 0.2s;
+}
+#sec3 .owl-nav > .owl-next:not(.disabled):hover{
+    text-shadow: 5px 1px 3px var(--msBgDark);
+    font-size: 44px;
+    transition: all 0.2s;
+}
+#sec3 .owl-text{
+    font-size: 30px;
+    line-height: 45px;
+    padding: 15px;
+}
+#sec3 picture{
+    padding: 15px;
+}
+
 /* end sec3 */
+
 
 #sec4{
     padding: 20px 0 40px 0;
@@ -472,6 +487,13 @@ body{
 
     /* end sec2 */
 
+    #sec3 .owl-text{
+        font-size: 16px;
+        line-height: 21.5px;
+    }
+
+    /* end sec3-1 */
+
     #sec5 .r1 div[class^="col-"]:nth-child(2),
     #sec5 .r1 div[class^="col-"]:nth-child(5){
         border-right-color: var(--msBgDark);
@@ -568,12 +590,25 @@ body{
 
     /* end sec2 */
 
+    #sec3 .owl-nav > .owl-prev,
+    #sec3 .owl-nav > .owl-next{
+        font-size: 22px;
+    }
+    #sec3 .owl-nav > .owl-prev:not(.disabled):hover,
+    #sec3 .owl-nav > .owl-next:not(.disabled):hover{
+        font-size: 24px;
+    }
     #sec3 .owl-text{
-        font-size: 12px;
+        font-size: 10px;
         line-height: 15px;
+        padding: 7.5px;
+    }
+    #sec3 picture{
+        padding: 7.5px;
     }
 
-    /* end sec2 */
+
+    /* end sec3 */
 
     #sec5 .m-tl1{
         font-size: 63%;
