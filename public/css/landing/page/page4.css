@@ -197,7 +197,7 @@ body{
     border: 1px solid var(--msBgDark);
 }
 #sec5 .r1 > div[class^="col-"]:not(:nth-child(8)){
-    min-height: 350px;
+    min-height: 300px;
 }
 #sec5 .r1 > div[class^="col-"]:nth-child(1),
 #sec5 .r1 > div[class^="col-"]:nth-child(2),
