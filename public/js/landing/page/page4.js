@@ -14,7 +14,6 @@ jQuery(document).ready(function($){
     // });
     $(window).resize(function(event) {
         sec1();
-        console.log(jQuery(window).width());
     });
     $('#sec1').onScrolledTo(0,function(){
         sec1();
@@ -135,12 +134,13 @@ function sec6_slide(){
     $('#sec6 .slide .owl-carousel').owlCarousel({
         lazyLoad:true,
         loop:true,
-        autoplay:true,
-        autoplayTimeout:5000,
-        autoplayHoverPause:true,
+        // autoplay:true,
+        // autoplayTimeout:5000,
+        // autoplayHoverPause:true,
+        // <i class='fa fa-arrow-left' aria-hidden='true'></i>
         margin:10,
         nav:true,
-		navText : ["<i class='fa fa-arrow-left' aria-hidden='true'></i>", "<i class='fa fa-arrow-right' aria-hidden='true'></i>"],
+		navText : ["", "<i class='fa fa-arrow-right' aria-hidden='true'></i>"],
         dots:true,
         items:1,
     });

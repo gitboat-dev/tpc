@@ -584,86 +584,100 @@
             </div>
         </section>
         <section id="sec6">
-            <div class="slide pos-r">
+            <div class="slide">
                 <div class="owl-carousel owl-theme">
-                    <div class="item bg-opium d-flex">
-                        <div class="row r1 m-auto">
-                            <div class="col-xs-12 col-sm-12 col-md-12 p-0 pos-r">
-                                <div class="content_block d-flex">
-                                    <div class="content_group d-flex m-auto">
-                                        <div class="m-auto">
-                                            <h2 class="h1 text-center"><span class="m-tl2">We’re Guarantee!</span></h2>
-                                        </div>
+                    <div class="item bg-opium">
+                        <div class="pos-ab top-0 left-0 w-100p h-100p d-flex">
+                            <h2 class="h1 text-center m-auto"><span class="m-tl2">We’re Guarantee!</span></h2>
+                        </div>
+                        <div class="row d-flex m-flex-col">
+                            <div class="col-xs-12 col-sm-12 col-md-6 p-0 d-flex">
+                                <div class="sec6-content m-auto d-flex d-flex-col">
+                                    <div class="col-xs-7 col-sm-6 col-md-12 d-flex m-auto">
+                                        <h2 class="sec6-title">
+                                            <span class="m-tl2">
+                                            </span>
+                                        </h2>
+                                    </div>
+                                    <div class="col-xs-5 col-sm-6 col-md-12 d-flex m-auto">
+                                        <p class="sec6-details">
+                                            <span class="m-tl2">
+                                            </span>
+                                        </p>
                                     </div>
                                 </div>
-                                <div class="pos-ab" style="bottom:-15px;right:30px;">
-                                    SEE NEXT 01/03
-                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-6 d-flex">
+                                <picture class="m-auto">
+                                    <source srcset="/assets/images/landing/page4/mobile/sec6.webp" media="(max-width: 640px)">
+                                    <img src="/assets/images/landing/page4/desktop/sec6.webp" alt="polyester Spinning mills Thaipolyester" width="900" height="350" class="img-fluid" loading="lazy">
+                                </picture>
                             </div>
                         </div>
+                        <div class="pos-ab" style="bottom:40px; right: 75px;">SEE NEXT 01/03</div>
                     </div>
-                    <div class="item bg-charcoal d-flex">
-                        <div class="row r1 m-auto">
-                            <div class="col-xs-12 col-sm-12 col-md-12 p-0 pos-r">
-                                <div class="content_block d-flex">
-                                    <div class="content_group d-flex m-flex-col m-auto">
-                                        <div class="col-xs-12 col-sm-6 col-md-6 d-flex m-auto p-0">
-                                            <div class="m-auto m-d-flex m-w-100p p-15">
-                                                <h2>Spinning mills</h2>
-                                                <p>
-                                                    <span class="m-tl2">
-                                                        - High efficiency<br>
-                                                        - Yarn strength<br>
-                                                        - Low Oligomer<br>
-                                                    </span>
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="col-xs-12 col-sm-6 col-md-6 d-flex m-auto">
-                                            <picture>
-                                                <source srcset="/assets/images/landing/page4/mobile/polyester-Spinning-mills-Thaipolyester.webp" media="(max-width: 640px)">
-                                                <img src="/assets/images/landing/page4/desktop/polyester-Spinning-mills-Thaipolyester.webp" alt="polyester Spinning mills Thaipolyester" width="900" height="350" class="img-fluid" loading="lazy">
-                                            </picture>
-                                        </div>
+                    <div class="item bg-charcoal">
+                        <div class="row d-flex m-flex-col">
+                            <div class="col-xs-12 col-sm-12 col-md-6 p-0 d-flex">
+                                <div class="sec6-content m-auto d-flex d-flex-col">
+                                    <div class="col-xs-7 col-sm-6 col-md-12 d-flex m-auto">
+                                        <h2 class="sec6-title">
+                                            <span class="m-tl2">
+                                                Spinning mills
+                                            </span>
+                                        </h2>
+                                    </div>
+                                    <div class="col-xs-5 col-sm-6 col-md-12 d-flex m-auto">
+                                        <p class="sec6-details">
+                                            <span class="m-tl2">
+                                                - High efficiency<br>
+                                                - Yarn strength<br>
+                                                - Low Oligomer<br>
+                                            </span>
+                                        </p>
                                     </div>
                                 </div>
-                                <div class="pos-ab" style="bottom:-15px;right:30px;">
-                                    <small>SEE NEXT 02/03</small>
-                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-6 d-flex">
+                                <picture class="m-auto">
+                                    <source srcset="/assets/images/landing/page4/mobile/polyester-Spinning-mills-Thaipolyester.webp" media="(max-width: 640px)">
+                                    <img src="/assets/images/landing/page4/desktop/polyester-Spinning-mills-Thaipolyester.webp" alt="polyester Spinning mills Thaipolyester" width="900" height="350" class="img-fluid" loading="lazy">
+                                </picture>
                             </div>
                         </div>
+                        <div class="pos-ab" style="bottom:40px; right: 75px;">SEE NEXT 02/03</div>
                     </div>
-                    <div class="item bg-clay d-flex">
-                        <div class="row r1 m-auto">
-                            <div class="col-xs-12 col-sm-12 col-md-12 p-0 pos-r">
-                                <div class="content_block d-flex">
-                                    <div class="content_group d-flex m-flex-col m-auto">
-                                        <div class="col-xs-12 col-sm-6 col-md-6 d-flex m-auto p-0">
-                                            <div class="m-auto m-d-flex m-w-100p p-15">
-                                                <h2>Knitting mills</h2>
-                                                <p>
-                                                    <span class="m-tl2">
-                                                        - Dying consistency<br>
-                                                        - Dyeing ability<br>
-                                                        - Stable moisture<br>
-                                                        - Stable OPU
-                                                    </span>
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="col-xs-12 col-sm-6 col-md-6 d-flex m-auto">
-                                            <picture>
-                                                <source srcset="/assets/images/landing/page4/mobile/polyester-Knitting-mills-Thaipolyester.webp" media="(max-width: 640px)">
-                                                <img src="/assets/images/landing/page4/desktop/polyester-Knitting-mills-Thaipolyester.webp" alt="polyester Knitting mills Thaipolyester" width="900" height="350" class="img-fluid" loading="lazy">
-                                            </picture>
-                                        </div>
+                    <div class="item bg-clay">
+                        <div class="row d-flex m-flex-col">
+                            <div class="col-xs-12 col-sm-12 col-md-6 p-0 d-flex">
+                                <div class="sec6-content m-auto d-flex d-flex-col">
+                                    <div class="col-xs-7 col-sm-6 col-md-12 d-flex m-auto">
+                                        <h2 class="sec6-title">
+                                            <span class="m-tl2">
+                                                Knitting mills
+                                            </span>
+                                        </h2>
+                                    </div>
+                                    <div class="col-xs-5 col-sm-6 col-md-12 d-flex m-auto">
+                                        <p class="sec6-details">
+                                            <span class="m-tl2">
+                                                - Dying consistency<br>
+                                                - Dyeing ability<br>
+                                                - Stable moisture<br>
+                                                - Stable OPU
+                                            </span>
+                                        </p>
                                     </div>
                                 </div>
-                                <div class="pos-ab" style="bottom:-15px;right:30px;">
-                                    <small>SEE NEXT 03/03</small>
-                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-6 d-flex">
+                                <picture class="m-auto">
+                                    <source srcset="/assets/images/landing/page4/mobile/polyester-Knitting-mills-Thaipolyester.webp" media="(max-width: 640px)">
+                                        <img src="/assets/images/landing/page4/desktop/polyester-Knitting-mills-Thaipolyester.webp" alt="polyester Knitting mills Thaipolyester" width="900" height="350" class="img-fluid" loading="lazy">
+                                </picture>
                             </div>
                         </div>
+                        <div class="pos-ab" style="bottom:40px; right: 75px;">SEE NEXT 03/03</div>
                     </div>
                 </div>
             </div>
