@@ -51,7 +51,7 @@
                                     </button>
                                 </figure>
                             </div>
-                            <div class="btn text-center mobile">
+                            <div class="btn text-center mobile w-100p">
                                 <a href="#sec9" title="contact us" class="btn-contact move_to">
                                     contact us
                                 </a>

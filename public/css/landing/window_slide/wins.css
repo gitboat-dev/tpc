@@ -7,6 +7,8 @@
     --wins-border-bottom:transparent;
     --wins-time:0.2s;
     --wins-delay:0.8s;
+    --wins-header-font-size: 17px;
+    --wins-content-font-size: 17px;
 }
 .wins{
     position: relative;
@@ -32,10 +34,12 @@
     transition-delay: var(--wins-delay);
 }
 .wins > .wins_block > .wins_header{
+    font-size: var(--wins-header-font-size);
     padding: 10px 7.5px;
     border-bottom: var(--wins-border-width) solid #000000;
 }
 .wins > .wins_block > .wins_content{
+    font-size: var(--wins-content-font-size);
     padding: 7.5px;
 }
 @media only screen and (max-width: 991px){

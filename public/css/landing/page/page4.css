@@ -188,6 +188,9 @@ body{
 #sec5{
     padding-bottom: 40px;
 }
+#sec5 .container{
+    max-width: 60%;
+}
 #sec5 .r1 > div[class^="col-"]{
     padding-top: 15px;
     padding-bottom: 15px;
@@ -210,7 +213,7 @@ body{
     border-bottom-color: transparent;
 }
 #sec5 .btn{
-    margin-top: 30px;
+    margin-top: 60px;
 }
 #sec5 .btn > a{
     border: none;
@@ -492,14 +495,17 @@ body{
         line-height: 21.5px;
     }
 
-    /* end sec3-1 */
+    /* end sec3 */
 
+    #sec5 .container{
+        max-width: 100%;
+    }
     #sec5 .r1 div[class^="col-"]:nth-child(2),
     #sec5 .r1 div[class^="col-"]:nth-child(5){
         border-right-color: var(--msBgDark);
     }
     #sec5 .r1 > div[class^="col-"]:not(:nth-child(8)){
-        min-height: 290px;
+        min-height: 255px;
     }
 
     /* end sec5 */
@@ -613,6 +619,10 @@ body{
 
     /* end sec3 */
 
+    #sec5 .container{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
     #sec5 .m-tl1{
         font-size: 63%;
     }
