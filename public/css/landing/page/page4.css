@@ -197,7 +197,7 @@ body{
     border: 1px solid var(--msBgDark);
 }
 #sec5 .r1 > div[class^="col-"]:not(:nth-child(8)){
-    min-height: 300px;
+    min-height: 350px;
 }
 #sec5 .r1 > div[class^="col-"]:nth-child(1),
 #sec5 .r1 > div[class^="col-"]:nth-child(2),
@@ -458,7 +458,11 @@ body{
 }
 
 /* end sec11 */
-
+@media only screen and (max-width: 1228px){
+    #sec5 .r1 > div[class^="col-"]:not(:nth-child(8)){
+        min-height: 500px;
+    }
+}
 @media only screen and (min-width: 992px){
     #sec8 .r1 .col-md-4-25{
         width: 34.83333333%;

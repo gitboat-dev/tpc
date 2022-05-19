@@ -14,6 +14,7 @@ jQuery(document).ready(function($){
     // });
     $(window).resize(function(event) {
         sec1();
+        console.log(jQuery(window).width());
     });
     $('#sec1').onScrolledTo(0,function(){
         sec1();
