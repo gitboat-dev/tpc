@@ -590,6 +590,9 @@ body{
 
     /* end sec2 */
 
+    #sec3{
+        padding: 20px 0;
+    }
     #sec3 .owl-nav > .owl-prev,
     #sec3 .owl-nav > .owl-next{
         font-size: 22px;

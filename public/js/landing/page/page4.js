@@ -106,31 +106,6 @@ function sec1(){
 		jQuery(row1).css({'min-height':minheight+'px'});
 	}
 }
-// function sec3_slide(){
-//     $('#sec3 .slide .owl-carousel').owlCarousel({
-//         lazyLoad:true,
-//         loop:true,
-//         autoplay:true,
-//         autoplayTimeout:5000,
-//         autoplayHoverPause:true,
-//         margin:10,
-//         nav:true,
-// 		navText : ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
-//         dots:true,
-//         responsive:{
-//             0:{
-//                 items:1,
-//                 stagePadding: 20,
-//             },
-//             991:{
-//                 items:2,
-//             },
-//             1000:{
-//                 items:2,
-//             }
-//         }
-//     });
-// }
 function sec3_slide(){
     $('#sec3 .slide .owl-carousel').owlCarousel({
         lazyLoad:true,
