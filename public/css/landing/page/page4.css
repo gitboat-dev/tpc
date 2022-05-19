@@ -576,10 +576,7 @@ body{
     /* end sec2 */
 
     #sec5 .m-tl1{
-        font-size: 60%;
-    }
-    #sec5 .m-tl2{
-        font-size: 55%;
+        font-size: 63%;
     }
     #sec5 .btn > a{
         font-size: 1em;
@@ -707,7 +704,16 @@ body{
 
     /* end sec2 */
 }
+@media only screen and (max-width: 280px){
+    #sec5 .m-tl1{
+        font-size: 60%;
+    }
+    #sec5 .m-tl2{
+        font-size: 50%;
+    }
 
+    /* end sec5 */
+}
 @keyframes zoom {
     0%{
         transform: translatey(5px);
