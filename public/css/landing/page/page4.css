@@ -268,12 +268,12 @@ body{
     min-height: 400px;
     width: 95%;
     animation-name: zoom_revert;
-    animation-duration: 0.4s;
+    animation-duration: 0.6s;
     animation-fill-mode: forwards;
 }
 #sec7 .owl-item.active.center .review-block{
     animation-name: zoom;
-    animation-duration: 0.4s;
+    animation-duration: 0.6s;
     animation-fill-mode: forwards;
 }
 #sec7 .owl-carousel .owl-stage-outer{
