@@ -1,7 +1,7 @@
 @extends('landing.template')
 @section('style')
     <link rel="preload stylesheet"  href="/lib/owlcarousel/assets/owl.carousel.min.css" as="style" crossorigin>
-    <link rel="preload stylesheet" href="/css/landing/page/page4.min.css?v={{time()}}" as="style" crossorigin>
+    <link rel="preload stylesheet" href="/css/landing/page/page4.css?v={{time()}}" as="style" crossorigin>
     <link rel="preload stylesheet" href="/css/landing/spin_hover/spin.min.css?v={{time()}}" as="style" crossorigin>
     <link rel="preload stylesheet" href="/css/landing/window_slide/wins.min.css?v={{time()}}" as="style" crossorigin>
     <link rel="stylesheet" id="fancybox-css" href="{!!asset('/assets/custom/wp-content/plugins/radiantthemes-addons/assets/css/jquery.fancybox.min.css?ver=4.9.11')!!}" type="text/css" media="all">
@@ -14,7 +14,7 @@
                 <div class="col-xs-12 col-sm-12 col-md-5 p-0 col1">
                     <div class="content_block d-flex">
                         <div class="content_group m-auto">
-                            <h1>
+                            <h1 class="fw-bold">
                                 TPC,<br>
                                 your Polyester<br>
                                 Destination
@@ -1107,6 +1107,6 @@
 @section('script')
     <script src="/lib/jquery-on-scrolled-to/on-scrolled-to.min.js"></script>
     <script src="/lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="/js/landing/page/page4.min.js?v={{time()}}"></script>
+    <script src="/js/landing/page/page4.js?v={{time()}}"></script>
     <script src="/assets/custom/wp-content/plugins/radiantthemes-addons/assets/js/jquery.fancybox.min.js?v={{ time() }}"></script>
 @endsection

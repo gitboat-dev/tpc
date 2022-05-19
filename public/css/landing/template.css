@@ -227,14 +227,13 @@ body {
 #landing .pb-0{
     padding-bottom: 0 !important;
 }
-#landing .fw-600{
-    font-weight: 600;
+#landing .fw-600,
+#landing .fw-bold{
+    font-weight: bold !important;
 }
+#landing .fw-n,
 #landing .fw-500{
-    font-weight: 500;
-}
-#landing .fw-n{
-    font-weight: normal;
+    font-weight: normal !important;
 }
 @media only screen and (max-width: 768px){
     #landing .desktop{
