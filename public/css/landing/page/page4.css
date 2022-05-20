@@ -64,11 +64,17 @@ body{
     text-decoration: none;
     color: var(--msBgLight);
     background-color: var(--msBgDark);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
     transition: all 0.2s;
 }
 #sec1 .btn > .btn-contact:hover{
     color: var(--msBgLight);
     background-color: var(--msBg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
     transition: all 0.2s;
 }
 
@@ -142,6 +148,9 @@ body{
     position: absolute;
     left: 42%;
     font-size: 42px;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
     transition: all 0.2s;
 }
 #sec3 .owl-nav > .owl-prev.disabled,
@@ -149,22 +158,34 @@ body{
     color: var(--msBgDark);
     opacity: 0.2;
     cursor: no-drop;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
     transition: all 0.2s;
 }
 #sec3 .owl-nav > .owl-prev:not(.disabled):hover{
     text-shadow: -5px 1px 3px var(--msBgDark);
     font-size: 44px;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
     transition: all 0.2s;
 }
 #sec3 .owl-nav > .owl-next{
     position: absolute;
     right: 42%;
     font-size: 42px;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
     transition: all 0.2s;
 }
 #sec3 .owl-nav > .owl-next:not(.disabled):hover{
     text-shadow: 5px 1px 3px var(--msBgDark);
     font-size: 44px;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
     transition: all 0.2s;
 }
 #sec3 .owl-text{
@@ -223,11 +244,17 @@ body{
     text-decoration: none;
     color: var(--msBgLight);
     background-color: var(--msBgDark);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
     transition: all 0.2s;
 }
 #sec5 .btn > a:hover{
     color: var(--msBgLight);
     background-color: var(--msBg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
     transition: all 0.2s;
 }
 
@@ -255,6 +282,9 @@ body{
     font-size: 4em;
     color: var(--msBgLight);
     opacity: 0.5;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
     transition: all 0.2s;
 }
 #sec6 .owl-nav > .owl-next{
@@ -264,12 +294,18 @@ body{
     font-size: 4em;
     color: var(--msBgLight);
     opacity: 0.5;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
     transition: all 0.2s;
 }
 #sec6 .owl-nav > .owl-prev:hover,
 #sec6 .owl-nav > .owl-next:hover{
     color: var(--msBg);
     opacity: 1;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
     transition: all 0.2s;
 }
 #sec6 .owl-nav > .owl-prev.disabled,
@@ -381,11 +417,17 @@ body{
     border: none;
     margin-top: 20px;
     padding: 10px 20px;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
     transition: all 0.2s;
 }
 #sec9 .r1 .content_block .content_group form .bt-contact:hover{
     color: var(--msBgLight);
     box-shadow: 0px 0px 3px var(--msBgLight);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
     transition: all 0.2s;
 }
 
@@ -419,10 +461,16 @@ body{
     font-size: 16px;
     color: var(--msBgDark);
     font-weight: 600;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
     transition: all 0.2s;
 }
 #sec10 .r2 .content_block a:hover{
     color: var(--msBg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
     transition: all 0.2s;
 }
 #sec10 .r2 .content_block p,
