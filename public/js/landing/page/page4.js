@@ -164,11 +164,10 @@ function sec7_slide(){
         responsive:{
             0:{
                 items:1,
-                stagePadding: 20,
+                stagePadding: 50,
             },
             991:{
                 items:3,
-                // stagePadding: 20,
             },
             1000:{
                 items:5,
