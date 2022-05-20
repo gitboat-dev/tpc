@@ -302,7 +302,6 @@ body{
     left: 2%;
     font-size: 4em;
     color: var(--msBgLight);
-    opacity: 0.5;
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
     -o-transition: all 0.2s;
@@ -314,7 +313,6 @@ body{
     right: 2%;
     font-size: 4em;
     color: var(--msBgLight);
-    opacity: 0.5;
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
     -o-transition: all 0.2s;
@@ -323,7 +321,6 @@ body{
 #sec6 .owl-nav > .owl-prev:hover,
 #sec6 .owl-nav > .owl-next:hover{
     color: var(--msBg);
-    opacity: 1;
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
     -o-transition: all 0.2s;
@@ -811,6 +808,9 @@ body{
     }
     #sec6 .m-tl2{
         font-size: 67%;
+    }
+    #sec6 .sec6-slide-title{
+        font-size: 41px !important;
     }
 
     /* end sec6 */
