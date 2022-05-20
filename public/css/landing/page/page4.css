@@ -808,7 +808,7 @@ body{
 }
 @keyframes zoom {
     0%{
-        transform: translatey(5px);
+        transform: translatey(0px);
         width: 95%;
     }
     50%   {
@@ -818,14 +818,14 @@ body{
     }
     100%  {
         box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
-        transform: translatey(-10px);
+        transform: translatey(0px);
         width: 100%;
     }
 }
 @keyframes zoom_revert{
     0%  {
         box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
-        transform: translatey(-10px);
+        transform: translatey(0px);
         width: 100%;
     }
     50%   {
@@ -834,7 +834,7 @@ body{
         width: 97.5%;
     }
     100%{
-        transform: translatey(5px);
+        transform: translatey(0px);
         width: 95%;
     }
 }

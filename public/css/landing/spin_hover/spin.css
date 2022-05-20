@@ -16,8 +16,6 @@
     --spin-icon-height: 8%;
 }
 .spin-block{
-    /* width: 5em; */
-    /* height: 5em; */
     width: 80%;
     max-width: 100%;
     padding: 5px;
@@ -34,7 +32,13 @@
     border-right-color: var(--border-right-color);
     border-bottom-color: var(--border-bottom-color);
     transform: rotate(40deg) translateX(0px) rotate(0deg);
+    -webkit-transition: transform var(--spin-time);
+    -moz-transition: transform var(--spin-time);
+    -o-transition: transform var(--spin-time);
     transition: transform var(--spin-time);
+    -webkit-transition-delay: var(--spin-time-delay);
+    -moz-transition-delay: var(--spin-time-delay);
+    -o-transition-delay: var(--spin-time-delay);
     transition-delay: var(--spin-time-delay);
 }
 .spin-block > .spin-circle-full{
@@ -50,7 +54,13 @@
     border-bottom-color: var(--border-bottom-color);
     border-left-color: var(--border-left-color);
     transform: rotate(40deg) translateX(0px) rotate(0deg);
+    -webkit-transition: transform var(--spin-time);
+    -moz-transition: transform var(--spin-time);
+    -o-transition: transform var(--spin-time);
     transition: transform var(--spin-time);
+    -webkit-transition-delay: var(--spin-time-delay);
+    -moz-transition-delay: var(--spin-time-delay);
+    -o-transition-delay: var(--spin-time-delay);
     transition-delay: var(--spin-time-delay);
 }
 .spin-block:hover > .spin-circle,
@@ -62,7 +72,13 @@
     border-bottom-color: var(--border-bottom-color-hover);
     border-left-color: var(--border-left-color-hover);
     transform: rotate(210deg) translateX(0px) rotate(0deg);
+    -webkit-transition: transform var(--spin-time);
+    -moz-transition: transform var(--spin-time);
+    -o-transition: transform var(--spin-time);
     transition: transform var(--spin-time);
+    -webkit-transition-delay: var(--spin-time-delay);
+    -moz-transition-delay: var(--spin-time-delay);
+    -o-transition-delay: var(--spin-time-delay);
     transition-delay: var(--spin-time-delay);
 }
 .spin-block > .spin-circle > .spin-icon,
@@ -71,6 +87,9 @@
     height: var(--spin-icon-height);
     margin-top: var(--spin-icon-mt);
     transform: rotate(-40deg) translateX(0px) rotate(0deg);
+    -webkit-transition: transform var(--spin-time);
+    -moz-transition: transform var(--spin-time);
+    -o-transition: transform var(--spin-time);
     transition: transform var(--spin-time);
 }
 .spin-block:hover > .spin-circle > .spin-icon,
@@ -78,5 +97,8 @@
 .spining:hover .spin-block > .spin-circle > .spin-icon,
 .spining:hover .spin-block > .spin-circle-full > .spin-icon{
     transform: rotate(0deg) translateX(0px) rotate(0deg);
+    -webkit-transition: transform var(--spin-time);
+    -moz-transition: transform var(--spin-time);
+    -o-transition: transform var(--spin-time);
     transition: transform var(--spin-time);
 }

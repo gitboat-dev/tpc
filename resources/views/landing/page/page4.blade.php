@@ -1,7 +1,7 @@
 @extends('landing.template')
 @section('style')
     <link rel="preload stylesheet"  href="/lib/owlcarousel/assets/owl.carousel.min.css" as="style" crossorigin>
-    <link rel="preload stylesheet" href="/css/landing/page/page4.min.css?v={{time()}}" as="style" crossorigin>
+    <link rel="preload stylesheet" href="/css/landing/page/page4.css?v={{time()}}" as="style" crossorigin>
     <link rel="preload stylesheet" href="/css/landing/spin_hover/spin.min.css?v={{time()}}" as="style" crossorigin>
     <link rel="preload stylesheet" href="/css/landing/window_slide/wins.min.css?v={{time()}}" as="style" crossorigin>
     <link rel="stylesheet" id="fancybox-css" href="{!!asset('/assets/custom/wp-content/plugins/radiantthemes-addons/assets/css/jquery.fancybox.min.css?ver=4.9.11')!!}" type="text/css" media="all">
