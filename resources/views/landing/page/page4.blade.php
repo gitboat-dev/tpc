@@ -681,7 +681,7 @@
             </div>
         </section>
         <section id="sec7">
-            <h2 class="text-center" style="margin-bottom: 40px;">Our Customer’s Satisfaction</h2>
+            <h2 class="text-center sec7-title">Our Customer’s Satisfaction</h2>
             <div class="slide pos-r">
                 <div class="owl-carousel owl-theme">
                     <div class="item">
@@ -824,7 +824,7 @@
             </div>
         </section>
         <section id="sec8">
-            <h2 class="text-center">Our Certifications</h2>
+            <h2 class="text-center sec8-title">Our Certifications</h2>
             <div class="row r1 m-0">
                 <div class="content_block pos-r d-flex">
                     <div class="col-xs-6 col-sm-6 col-md-4-25 p-0 col1">
