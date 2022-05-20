@@ -223,11 +223,20 @@ body{
 #sec4{
     padding: 20px 0 40px 0;
 }
+#sec4 .sec4-desc{
+    font-size: 43px !important;
+    line-height: 64px !important;
+}
+#sec4 .sec4-title{
+    font-size: 64px !important;
+    line-height: 77px !important;
+}
+
 
 /* end sec4 */
 
 #sec5{
-    padding-bottom: 40px;
+    padding-bottom: 60px;
 }
 #sec5 .container{
     max-width: 60%;
@@ -340,9 +349,6 @@ body{
 
 #sec7{
     padding: 20px 0 0 0;
-}
-#sec7 .slide .item{
-    min-height: 485px;
 }
 #sec7 .owl-item .review-block{
     border: 4px solid var(--msBgDark);

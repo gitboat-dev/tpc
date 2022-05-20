@@ -64,7 +64,7 @@
                 <div class="col-xs-12 col-sm-12 col-md-12 p-0">
                     <div class="content_block d-flex">
                         <div class="content_group m-auto">
-                            <h2 class="sec2-sub-title fw-bold text-center" style="margin-bottom:60px;">Here’s a thing you have been dealing with</h2>
+                            <h2 class="sec2-sub-title fw-bold text-center">Here’s a thing you have been dealing with</h2>
                             <h3 class="sec2-desc text-center">
                                 Low Consistency?<br>
                                 Low Yarn Quality?
@@ -235,9 +235,9 @@
         </section>
         <section id="sec4">
             <div class="container">
-                <h2 class="h2 default text-center sec4-desc">
+                <h2 class="text-center sec4-desc">
                     No matter what kind of POLYESTER,<br>
-                    <span class="h1 default fw-bold sec4-title">we have it ALL</span> – both Virgin and Recycled version
+                    <span class="fw-bold sec4-title">we have it ALL</span> – both Virgin and Recycled version
                 </h2>
             </div>
         </section>

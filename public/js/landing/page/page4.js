@@ -170,10 +170,16 @@ function sec7_slide(){
                 items:1,
                 stagePadding: 50,
             },
-            991:{
+            540:{
+                items:2,
+            },
+            768:{
                 items:3,
             },
-            1000:{
+            1024:{
+                items:4,
+            },
+            1351:{
                 items:5,
             }
         }
