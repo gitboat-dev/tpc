@@ -14,18 +14,16 @@
                 <div class="col-xs-12 col-sm-12 col-md-5 p-0 col1">
                     <div class="content_block d-flex">
                         <div class="content_group m-auto">
-                            <h1 class="fw-bold">
+                            <h1 class="sec1-title fw-bold">
                                 TPC,<br>
                                 your Polyester<br>
                                 Destination
                             </h1>
-                            <p class="h2 default">
-                                <span class="tl1 m-tl1">
-                                    - Exporting Polyester Fiber and Yarn to
-                                    over 70 countries all around the world.<br>
-                                    - Our total capacity of Fiber, Yarn and
-                                    Filament is around 350,000 tons annually.
-                                </span>
+                            <p class="sec1-desc">
+                                - Exporting Polyester Fiber and Yarn to
+                                over 70 countries all around the world.<br>
+                                - Our total capacity of Fiber, Yarn and
+                                Filament is around 350,000 tons annually.
                             </p>
                             <div class="btn desktop">
                                 <a href="#sec9" title="contact us" class="btn-contact move_to">
