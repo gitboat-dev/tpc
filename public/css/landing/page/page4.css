@@ -331,14 +331,40 @@ body{
     border-radius: 10px;
     padding: 10px;
     min-height: 400px;
-    width: 95%;
+    width: 100%;
+    -webkit-opacity: 0.5;
+    -moz-opacity: 0.5;
+    -o-opacity: 0.5;
+    opacity: 0.5;
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    transform: scale(0.9);
+    -webkit-animation-name: zoom_revert;
+    -moz-animation-name: zoom_revert;
+    -o-animation-name: zoom_revert;
     animation-name: zoom_revert;
+    -webkit-animation-duration: 0.6s;
+    -moz-animation-duration: 0.6s;
+    -o-animation-duration: 0.6s;
     animation-duration: 0.6s;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
 #sec7 .owl-item.active.center .review-block{
+    -webkit-animation-name: zoom;
+    -moz-animation-name: zoom;
+    -o-animation-name: zoom;
     animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    -moz-animation-duration: 0.6s;
+    -o-animation-duration: 0.6s;
     animation-duration: 0.6s;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
 #sec7 .owl-carousel .owl-stage-outer{
@@ -856,33 +882,45 @@ body{
 }
 @keyframes zoom {
     0%{
-        transform: translatey(0px);
-        width: 95%;
-    }
-    50%   {
-        box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-        transform: translatey(0px);
-        width: 97.5%;
+        -webkit-transform: scale(0.9);
+        -moz-transform: scale(0.9);
+        -o-transform: scale(0.9);
+        transform: scale(0.9);
+        -webkit-opacity: 0.5;
+        -moz-opacity: 0.5;
+        -o-opacity: 0.5;
+        opacity: 0.5;
     }
     100%  {
-        box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
-        transform: translatey(0px);
-        width: 100%;
+        -webkit-transform: scale(1.0001);
+        -moz-transform: scale(1.0001);
+        -o-transform: scale(1.0001);
+        transform: scale(1.0001);
+        -webkit-opacity: 1;
+        -moz-opacity: 1;
+        -o-opacity: 1;
+        opacity: 1;
     }
 }
 @keyframes zoom_revert{
     0%  {
-        box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
-        transform: translatey(0px);
-        width: 100%;
-    }
-    50%   {
-        box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-        transform: translatey(0px);
-        width: 97.5%;
+        -webkit-transform: scale(1.0001);
+        -moz-transform: scale(1.0001);
+        -o-transform: scale(1.0001);
+        transform: scale(1.0001);
+        -webkit-opacity: 1;
+        -moz-opacity: 1;
+        -o-opacity: 1;
+        opacity: 1;
     }
     100%{
-        transform: translatey(0px);
-        width: 95%;
+        -webkit-transform: scale(0.9);
+        -moz-transform: scale(0.9);
+        -o-transform: scale(0.9);
+        transform: scale(0.9);
+        -webkit-opacity: 0.5;
+        -moz-opacity: 0.5;
+        -o-opacity: 0.5;
+        opacity: 0.5;
     }
 }
