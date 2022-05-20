@@ -760,7 +760,7 @@ body{
         font-size: 75%;
     }
     #sec6 .m-tl2{
-        font-size: 65%;
+        font-size: 67%;
     }
 
     /* end sec6 */
@@ -879,6 +879,12 @@ body{
     }
 
     /* end sec5 */
+
+    #sec6 .m-tl2{
+        font-size: 57%;
+    }
+
+    /* end sec6 */
 }
 @keyframes zoom {
     0%{

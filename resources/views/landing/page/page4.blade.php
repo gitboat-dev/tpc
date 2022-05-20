@@ -621,7 +621,7 @@
                             <div class="col-xs-12 col-sm-12 col-md-6 p-0 d-flex">
                                 <div class="sec6-content m-auto d-flex d-flex-col">
                                     <div class="col-xs-7 col-sm-6 col-md-12 d-flex m-auto">
-                                        <h2 class="sec6-title fw-bold">
+                                        <h2 class="sec6-title">
                                             <span class="m-tl2">
                                                 Spinning mills
                                             </span>
