@@ -614,7 +614,7 @@
                                 </picture>
                             </div>
                         </div>
-                        <div class="pos-ab" style="bottom:40px; right: 75px;">SEE NEXT 01/03</div>
+                        <div class="see-next">SEE NEXT 01/03</div>
                     </div>
                     <div class="item bg-charcoal">
                         <div class="row d-flex m-flex-col">
@@ -645,7 +645,7 @@
                                 </picture>
                             </div>
                         </div>
-                        <div class="pos-ab" style="bottom:40px; right: 75px;">SEE NEXT 02/03</div>
+                        <div class="see-next">SEE NEXT 02/03</div>
                     </div>
                     <div class="item bg-clay">
                         <div class="row d-flex m-flex-col">
@@ -677,7 +677,7 @@
                                 </picture>
                             </div>
                         </div>
-                        <div class="pos-ab" style="bottom:40px; right: 75px;">SEE NEXT 03/03</div>
+                        <div class="see-next">SEE NEXT 03/03</div>
                     </div>
                 </div>
             </div>

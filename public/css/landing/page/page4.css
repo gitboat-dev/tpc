@@ -235,6 +235,7 @@ body{
 
 #sec6 .sec6-content{
     max-width: 80%;
+    width: 100%;
 }
 #sec6 .sec6-content .sec6-title,
 #sec6 .sec6-content .sec6-detail{
@@ -274,6 +275,11 @@ body{
 #sec6 .owl-nav > .owl-prev.disabled,
 #sec6 .owl-nav > .owl-next.disabled{
     display: none;
+}
+#sec6 .see-next{
+    position: absolute;
+    bottom:40px;
+    right: 10%;
 }
 
 /* end sec6 */
@@ -648,7 +654,7 @@ body{
     /* end sec5 */
 
     #sec6 .sec6-content{
-        max-width: 100%;
+        max-width: 80%;
     }
     #sec6 .sec6-content .sec6-title,
     #sec6 .sec6-content .sec6-details{
@@ -666,6 +672,12 @@ body{
     }
     #sec6 .owl-nav > .owl-next{
         font-size: 1.5em;
+    }
+    #sec6 .m-tl1{
+        font-size: 75%;
+    }
+    #sec6 .m-tl2{
+        font-size: 65%;
     }
 
     /* end sec6 */
