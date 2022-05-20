@@ -234,7 +234,7 @@ body{
 /* end sec5 */
 
 #sec6 .sec6-content{
-    max-width: 80%;
+    max-width: 75%;
     width: 100%;
 }
 #sec6 .sec6-content .sec6-title,
@@ -659,7 +659,6 @@ body{
     #sec6 .sec6-content .sec6-title,
     #sec6 .sec6-content .sec6-details{
         margin: auto;
-        margin-left: unset;
     }
     #sec6 .slide .item{
         padding: 30px 0 60px;

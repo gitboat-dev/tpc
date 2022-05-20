@@ -588,13 +588,13 @@
                 <div class="owl-carousel owl-theme">
                     <div class="item bg-opium">
                         <div class="pos-ab top-0 left-0 w-100p h-100p d-flex">
-                            <h2 class="h1 text-center m-auto"><span class="m-tl2">We’re Guarantee!</span></h2>
+                            <h2 class="h1 text-center m-auto fw-bold"><span class="m-tl2">We’re Guarantee!</span></h2>
                         </div>
                         <div class="row d-flex m-flex-col">
                             <div class="col-xs-12 col-sm-12 col-md-6 p-0 d-flex">
                                 <div class="sec6-content m-auto d-flex d-flex-col">
                                     <div class="col-xs-7 col-sm-6 col-md-12 d-flex m-auto">
-                                        <h2 class="sec6-title">
+                                        <h2 class="sec6-title fw-bold">
                                             <span class="m-tl2">
                                             </span>
                                         </h2>
@@ -621,7 +621,7 @@
                             <div class="col-xs-12 col-sm-12 col-md-6 p-0 d-flex">
                                 <div class="sec6-content m-auto d-flex d-flex-col">
                                     <div class="col-xs-7 col-sm-6 col-md-12 d-flex m-auto">
-                                        <h2 class="sec6-title">
+                                        <h2 class="sec6-title fw-bold">
                                             <span class="m-tl2">
                                                 Spinning mills
                                             </span>
@@ -652,7 +652,7 @@
                             <div class="col-xs-12 col-sm-12 col-md-6 p-0 d-flex">
                                 <div class="sec6-content m-auto d-flex d-flex-col">
                                     <div class="col-xs-7 col-sm-6 col-md-12 d-flex m-auto">
-                                        <h2 class="sec6-title">
+                                        <h2 class="sec6-title fw-bold">
                                             <span class="m-tl2">
                                                 Knitting mills
                                             </span>
