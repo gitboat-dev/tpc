@@ -760,8 +760,19 @@ body{
         padding: 7.5px;
     }
 
-
     /* end sec3 */
+
+    #sec4 .sec4-desc{
+        font-size: 22px !important;
+        line-height: 29px !important;
+    }
+    #sec4 .sec4-title{
+        display: block;
+        font-size: 45px !important;
+        line-height: 41px !important;
+    }
+
+    /* end sec4 */
 
     #sec5 .container{
         padding-left: 5px;

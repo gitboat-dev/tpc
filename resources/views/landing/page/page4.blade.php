@@ -235,9 +235,9 @@
         </section>
         <section id="sec4">
             <div class="container">
-                <h2 class="h2 default text-center">
+                <h2 class="h2 default text-center sec4-desc">
                     No matter what kind of POLYESTER,<br>
-                    <span class="h1 default fw-600">we have it ALL</span> – both Virgin and Recycled version
+                    <span class="h1 default fw-bold sec4-title">we have it ALL</span> – both Virgin and Recycled version
                 </h2>
             </div>
         </section>
