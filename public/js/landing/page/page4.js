@@ -135,6 +135,10 @@ function sec3_slide(){
     });
 }
 function sec6_slide(){
+    let next = "<picture class='m-auto'>"+
+    "<source srcset='/assets/images/landing/page4/mobile/Icon-5.webp' media='(max-width: 640px)'>"+
+    "<img src='/assets/images/landing/page4/desktop/Icon-5.webp' alt='next' width='900' height='350' class='img-fluid'>"+
+    "</picture>";
     $('#sec6 .slide .owl-carousel').owlCarousel({
         lazyLoad:true,
         loop:false,
@@ -144,7 +148,7 @@ function sec6_slide(){
         margin:10,
         rewind:true,
         nav:true,
-		navText : ["", "<i class='fa fa-arrow-right' aria-hidden='true'></i>"],
+		navText : ["", next],
         dots:true,
         items:1,
     });
