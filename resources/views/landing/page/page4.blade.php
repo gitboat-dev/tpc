@@ -64,8 +64,8 @@
                 <div class="col-xs-12 col-sm-12 col-md-12 p-0">
                     <div class="content_block d-flex">
                         <div class="content_group m-auto">
-                            <h2 class="default fw-600 text-center" style="margin-bottom:60px;">Here’s a thing you have been dealing with</h2>
-                            <h3 class="text-center">
+                            <h2 class="sec2-sub-title fw-bold text-center" style="margin-bottom:60px;">Here’s a thing you have been dealing with</h2>
+                            <h3 class="sec2-desc text-center">
                                 Low Consistency?<br>
                                 Low Yarn Quality?
                             </h3>

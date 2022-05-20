@@ -95,8 +95,17 @@ body{
     padding: 40px 15px;
 }
 #sec2 .sec2-title{
-    font-size: 136px !important;
+    font-size: 190px !important;
     line-height: 100% !important;
+}
+#sec2 .sec2-sub-title{
+    font-size: 40px !important;
+    line-height: 52px !important;
+    margin-bottom: 60px;
+}
+#sec2 .sec2-desc{
+    font-size: 40px !important;
+    line-height: 52px !important;
 }
 
 /* end sec2 */
@@ -717,8 +726,16 @@ body{
     /* end sec1 */
 
     #sec2 .sec2-title{
-        font-size: 80px !important;
+        font-size: 74px !important;
         line-height: 100% !important;
+    }
+    #sec2 .sec2-sub-title{
+        font-size: 50px !important;
+        line-height: 60px !important;
+    }
+    #sec2 .sec2-desc{
+        font-size: 25px !important;
+        line-height: 30px !important;
     }
 
     /* end sec2 */
