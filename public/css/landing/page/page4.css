@@ -404,7 +404,9 @@ body{
 #sec7 .review-block  *{
     margin-bottom: 10%;
 }
-#sec7 .review-block .company-logo img,
+#sec7 .review-block .company-logo img{
+    max-width: 108px
+}
 #sec7 .review-block .company-star img{
     max-width: 50%;
 }
@@ -836,6 +838,9 @@ body{
     #sec7 .sec7-title{
         font-size: 40px !important;
         line-height: 48px !important;
+    }
+    #sec7 .review-block .company-logo img{
+        max-width: 77px
     }
     #sec7 .review-block .company-star img{
         max-width: 30%;

@@ -837,7 +837,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-3-5 p-0 col2">
+                    <div class="col-xs-12 col-sm-12 col-md-3-5 p-0 m-d-flex col2">
                         {{-- <div class="col-xs-4 col-sm-4 col-md-12 p-0">
                             <div class="img_block d-flex">
                                 <a href="/assets/images/landing/page4/desktop/Global-Recycled-standard-100-Recycled-Polyester-Thaipolyester.webp" title="Global Recycled standard 100% Recycled Polyester Thaipolyester" data-fancybox="gallery" data-thumbnail-src="/assets/images/landing/page4/desktop/Global-Recycled-standard-100-Recycled-Polyester-Thaipolyester.webp">
