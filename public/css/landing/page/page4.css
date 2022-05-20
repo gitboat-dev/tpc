@@ -44,7 +44,7 @@ body{
 #sec1{
     background-image: url('/assets/images/landing/page4/desktop/Head-Landingpage-TPC.webp');
     background-size: cover;
-    background-position: center;
+    background-position: center 100%;
 }
 #sec1 .sec1-title{
     font-size: 64px !important;
