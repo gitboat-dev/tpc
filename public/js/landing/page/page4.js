@@ -110,7 +110,11 @@ function sec3_slide(){
     $('#sec3 .slide .owl-carousel').owlCarousel({
         lazyLoad:true,
         loop:false,
+        autoplay:true,
+        autoplayTimeout:5000,
+        autoplayHoverPause:true,
         margin:10,
+        rewind:true,
         nav:true,
 		navText : ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
         dots:false,
@@ -133,12 +137,12 @@ function sec3_slide(){
 function sec6_slide(){
     $('#sec6 .slide .owl-carousel').owlCarousel({
         lazyLoad:true,
-        loop:true,
-        // autoplay:true,
-        // autoplayTimeout:5000,
-        // autoplayHoverPause:true,
-        // <i class='fa fa-arrow-left' aria-hidden='true'></i>
+        loop:false,
+        autoplay:true,
+        autoplayTimeout:5000,
+        autoplayHoverPause:true,
         margin:10,
+        rewind:true,
         nav:true,
 		navText : ["", "<i class='fa fa-arrow-right' aria-hidden='true'></i>"],
         dots:true,

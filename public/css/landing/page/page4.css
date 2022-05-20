@@ -238,7 +238,7 @@ body{
     width: 100%;
 }
 #sec6 .sec6-content .sec6-title,
-#sec6 .sec6-content .sec6-detail{
+#sec6 .sec6-content .sec6-details{
     margin: auto;
     margin-left: 0;
 }
@@ -475,6 +475,16 @@ body{
     }
 }
 @media only screen and (min-width: 992px){
+    #sec6 .sec6-content .sec6-title{
+        font-size: 83px;
+        line-height: 93px;
+    }
+    #sec6 .sec6-content .sec6-details{
+        font-size: 35px;
+        line-height: 45px;
+    }
+    /* end sec6 */
+
     #sec8 .r1 .col-md-4-25{
         width: 34.83333333%;
     }
