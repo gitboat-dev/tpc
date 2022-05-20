@@ -184,7 +184,8 @@ body{
     transition: all 0.2s;
 }
 #sec3 .owl-nav > .owl-prev:not(.disabled):hover{
-    text-shadow: -5px 1px 3px var(--msBgDark);
+    /* text-shadow: -5px 1px 3px var(--msBgDark); */
+    color: var(--msBgNavy);
     font-size: 44px;
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
@@ -201,7 +202,8 @@ body{
     transition: all 0.2s;
 }
 #sec3 .owl-nav > .owl-next:not(.disabled):hover{
-    text-shadow: 5px 1px 3px var(--msBgDark);
+    /* text-shadow: 5px 1px 3px var(--msBgDark); */
+    color: var(--msBgNavy);
     font-size: 44px;
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
