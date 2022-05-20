@@ -26,11 +26,20 @@
     border-right: var(--wins-border-width) solid var(--wins-border-top);
     border-left: var(--wins-border-width) solid var(--wins-border-top);
     border-bottom: var(--wins-border-width) solid var(--wins-border-top);
+    -webkit-transition: left var(--wins-time);
+    -moz-transition: left var(--wins-time);
+    -o-transition: left var(--wins-time);
     transition: left var(--wins-time);
 }
 .wins:hover > .wins_block{
     left: 0;
+    -webkit-transition: left var(--wins-time);
+    -moz-transition: left var(--wins-time);
+    -o-transition: left var(--wins-time);
     transition: left var(--wins-time);
+    -webkit-transition-delay: var(--wins-delay);
+    -moz-transition-delay: var(--wins-delay);
+    -o-transition-delay: var(--wins-delay);
     transition-delay: var(--wins-delay);
 }
 .wins > .wins_block > .wins_header{
