@@ -1103,6 +1103,6 @@
 @section('script')
     <script src="/lib/jquery-on-scrolled-to/on-scrolled-to.min.js"></script>
     <script src="/lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="/js/landing/page/page4.js?v={{time()}}"></script>
+    <script src="/js/landing/page/page4.min.js?v={{time()}}"></script>
     <script src="/assets/custom/wp-content/plugins/radiantthemes-addons/assets/js/jquery.fancybox.min.js?v={{ time() }}"></script>
 @endsection

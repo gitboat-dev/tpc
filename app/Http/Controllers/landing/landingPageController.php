@@ -62,6 +62,30 @@ class landingPageController extends Controller {
         ];
         return view('landing.page.page4',$data);
     }
+    public function page5(){
+        $chkie = new Func_controller;
+        $agent = new Agent();
+        $data = [
+            'chkie' => $chkie->chk(),
+            'title' => "Landing page v3",
+            'des' => "",
+            'key' => "",
+            'chkmo' => $data['chkmobile'] = $agent->isMobile() ? $agent->isMobile() : ($agent->isTablet() ? $agent->isTablet() : false),
+        ];
+        return view('landing.page.page5',$data);
+    }
+    public function page6(){
+        $chkie = new Func_controller;
+        $agent = new Agent();
+        $data = [
+            'chkie' => $chkie->chk(),
+            'title' => "Landing page v3",
+            'des' => "",
+            'key' => "",
+            'chkmo' => $data['chkmobile'] = $agent->isMobile() ? $agent->isMobile() : ($agent->isTablet() ? $agent->isTablet() : false),
+        ];
+        return view('landing.page.page6',$data);
+    }
 
     public function thank_you1(){
         $chkie = new Func_controller;
