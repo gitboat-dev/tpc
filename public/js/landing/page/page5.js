@@ -6,11 +6,14 @@ jQuery(document).ready(function($){
     $('#sec3').onScrolledTo(0,function(){
         sec3_slide();
 	});
+    $('#sec5').onScrolledTo(0,function(){
+        sec5_slide();
+	});
 });
 function sec3_slide(){
     $('#sec3 .slide .owl-carousel').owlCarousel({
         lazyLoad:true,
-        loop:false,
+        loop:true,
         autoplay:true,
         autoplayTimeout:5000,
         autoplayHoverPause:true,
@@ -20,5 +23,33 @@ function sec3_slide(){
 		navText : ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
         dots:false,
         items:1,
+    });
+}
+function sec5_slide(){
+    $('#sec5 .slide .owl-carousel').owlCarousel({
+        lazyLoad:true,
+        loop:true,
+        autoplay:true,
+        autoplayTimeout:5000,
+        autoplayHoverPause:true,
+        margin:10,
+        rewind:true,
+        nav:true,
+		navText : ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+        dots:true,
+        responsive:{
+            0:{
+                items:1,
+            },
+            640:{
+                items:1,
+            },
+            991:{
+                items:2,
+            },
+            1024:{
+                items:3,
+            },
+        }
     });
 }

@@ -4,3 +4,64 @@
     background-size: cover;
     padding: 70px 0px 40px 0px;
 }
+#sec3 .owl-nav > .owl-prev,
+#sec3 .owl-nav > .owl-next{
+    position: absolute;
+    top: calc(50% - 30px / 2);
+    font-size: 30px;
+    color: hsla(0,0%,93.3%,.9);
+}
+#sec3 .owl-nav > .owl-prev{
+    left: 10px;
+}
+#sec3 .owl-nav > .owl-next{
+    right: 10px;
+}
+
+/* end sec3 */
+
+#sec5{
+    background-image: url('/assets/images/landing/page5/desktop/TPC-bg.webp');
+    background-position: center center;
+    background-size: cover;
+    padding: 70px 0px 70px 0px;
+}
+#sec5 .col1,
+#sec5 .col2{
+    padding: 0 30px;
+}
+#sec5 .col2 .slide{
+    padding: 20px;
+}
+#sec5 .owl-stage-outer{
+    padding-bottom: 30px;
+}
+#sec5 .owl-nav > .owl-prev,
+#sec5 .owl-nav > .owl-next{
+    position: absolute;
+    top: calc(50% - 30px / 2);
+    font-size: 30px;
+    color: hsla(0,0%,93.3%,.9);
+}
+#sec5 .owl-nav > .owl-prev{
+    left: -30px;
+}
+#sec5 .owl-nav > .owl-next{
+    right: -30px;
+}
+#sec5 .owl-dots{
+    text-align: center;
+}
+#sec5 .owl-dots button.owl-dot{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    margin: 0 6px;
+    background: #fff;
+    opacity: 0.2;
+}
+#sec5 .owl-dots button.owl-dot.active{
+    opacity: 1;
+}
+
+/* end sec5 */
