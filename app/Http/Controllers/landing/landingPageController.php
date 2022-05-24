@@ -55,9 +55,9 @@ class landingPageController extends Controller {
         $agent = new Agent();
         $data = [
             'chkie' => $chkie->chk(),
-            'title' => "Landing page v2",
-            'des' => "",
-            'key' => "",
+            'title' => "Thailand's top Manufacturers | High-Quality Polyester Yarn and Fiber | get FREE Sample",
+            'des' => "80 years in the textile industry. A vertically integrated polyester fiber supplier. Operating with a German system and specializing in polyester yarn, fiber, and filament.",
+            'key' => "Thailand's top Manufacturers, High-Quality Polyester Yarn and Fiber, get FREE Sample",
             'chkmo' => $data['chkmobile'] = $agent->isMobile() ? $agent->isMobile() : ($agent->isTablet() ? $agent->isTablet() : false),
         ];
         return view('landing.page.page4',$data);
