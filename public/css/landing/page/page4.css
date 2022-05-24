@@ -37,6 +37,7 @@ body{
     background: transparent;
     border: none;
     cursor: pointer;
+    display: none;
 }
 
 /* end all setting */

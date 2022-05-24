@@ -37,7 +37,7 @@
                     <div class="content_block d-flex">
                         <div class="content_group m-auto">
                             <div class="video_1 pos-r">
-                                <video muted loop id="video1" poster="">
+                                <video autoplay muted loop playsinline id="video1" poster="">
                                     <source src="/assets/images/landing/page4/video/minify/TPC-Landing-Page2.mp4" type="video/mp4">
                                 </video>
                                 <figure class="btn-play d-flex pos-ab top-0 left-0 w-100p h-100p">
@@ -576,7 +576,7 @@
                 </div>
                 <div class="btn text-center w-100p">
                     <a href="#sec9" title="get FRFREE QUOTE" class="move_to">
-                        get FRFREE QUOTE
+                        get FREE QUOTE
                     </a>
                 </div>
             </div>
