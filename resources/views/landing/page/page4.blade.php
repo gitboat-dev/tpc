@@ -271,7 +271,7 @@
                                     <div class="spin-icon">
                                         <picture>
                                             <source srcset="/assets/images/landing/page4/mobile/ICON-1.webp" media="(max-width: 640px)">
-                                            <img src="/assets/images/landing/page4/desktop/ICON-1.webp" alt="" width="900" height="350" class="img-fluid" loading="lazy">
+                                            <img src="/assets/images/landing/page4/desktop/ICON-1.webp" alt="POY" width="900" height="350" class="img-fluid" loading="lazy">
                                         </picture>
                                     </div>
                                 </div>
@@ -316,7 +316,7 @@
                                     <div class="spin-icon">
                                         <picture>
                                             <source srcset="/assets/images/landing/page4/mobile/ICON-1.webp" media="(max-width: 640px)">
-                                            <img src="/assets/images/landing/page4/desktop/ICON-1.webp" alt="" width="900" height="350" class="img-fluid" loading="lazy">
+                                            <img src="/assets/images/landing/page4/desktop/ICON-1.webp" alt="FDY" width="900" height="350" class="img-fluid" loading="lazy">
                                         </picture>
                                     </div>
                                 </div>
@@ -359,7 +359,7 @@
                                     <div class="spin-icon">
                                         <picture>
                                             <source srcset="/assets/images/landing/page4/mobile/ICON-2.webp" media="(max-width: 640px)">
-                                            <img src="/assets/images/landing/page4/desktop/ICON-2.webp" alt="" width="900" height="350" class="img-fluid" loading="lazy">
+                                            <img src="/assets/images/landing/page4/desktop/ICON-2.webp" alt="DTY" width="900" height="350" class="img-fluid" loading="lazy">
                                         </picture>
                                     </div>
                                 </div>
@@ -399,7 +399,7 @@
                                     <div class="spin-icon">
                                         <picture>
                                             <source srcset="/assets/images/landing/page4/mobile/ICON-4.webp" media="(max-width: 640px)">
-                                            <img src="/assets/images/landing/page4/desktop/ICON-4.webp" alt="" width="900" height="350" class="img-fluid" loading="lazy">
+                                            <img src="/assets/images/landing/page4/desktop/ICON-4.webp" alt="Twisted Yarn" width="900" height="350" class="img-fluid" loading="lazy">
                                         </picture>
                                     </div>
                                 </div>
@@ -439,7 +439,7 @@
                                         <div class="spin-icon">
                                             <picture>
                                                 <source srcset="/assets/images/landing/page4/mobile/ICON-1.webp" media="(max-width: 640px)">
-                                                <img src="/assets/images/landing/page4/desktop/ICON-1.webp" alt="" width="900" height="350" class="img-fluid" loading="lazy">
+                                                <img src="/assets/images/landing/page4/desktop/ICON-1.webp" alt="Dope Dyed" width="900" height="350" class="img-fluid" loading="lazy">
                                             </picture>
                                         </div>
                                     </div>
@@ -457,7 +457,7 @@
                                         <div class="spin-icon">
                                             <picture>
                                                 <source srcset="/assets/images/landing/page4/mobile/ICON-2.webp" media="(max-width: 640px)">
-                                                <img src="/assets/images/landing/page4/desktop/ICON-2.webp" alt="" width="900" height="350" class="img-fluid" loading="lazy">
+                                                <img src="/assets/images/landing/page4/desktop/ICON-2.webp" alt="Dope Dyed" width="900" height="350" class="img-fluid" loading="lazy">
                                             </picture>
                                         </div>
                                     </div>
@@ -497,7 +497,7 @@
                                     <div class="spin-icon">
                                         <picture>
                                             <source srcset="/assets/images/landing/page4/mobile/ICON-3.webp" media="(max-width: 640px)">
-                                            <img src="/assets/images/landing/page4/desktop/ICON-3.webp" alt="" width="900" height="350" class="img-fluid" loading="lazy">
+                                            <img src="/assets/images/landing/page4/desktop/ICON-3.webp" alt="Ring Spun" width="900" height="350" class="img-fluid" loading="lazy">
                                         </picture>
                                     </div>
                                 </div>
@@ -535,7 +535,7 @@
                                     <div class="spin-icon">
                                         <picture>
                                             <source srcset="/assets/images/landing/page4/mobile/ICON-3.webp" media="(max-width: 640px)">
-                                            <img src="/assets/images/landing/page4/desktop/ICON-3.webp" alt="" width="900" height="350" class="img-fluid" loading="lazy">
+                                            <img src="/assets/images/landing/page4/desktop/ICON-3.webp" alt="OE Spun" width="900" height="350" class="img-fluid" loading="lazy">
                                         </picture>
                                     </div>
                                 </div>
