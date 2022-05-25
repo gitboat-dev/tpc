@@ -21,6 +21,10 @@ textarea {
 #language{
     padding: 15px 0;
 }
+#language .lang-group{
+    margin: auto;
+    margin-right: 0 !important;
+}
 #sec3{
     background-image: url('/assets/images/landing/page5/desktop/TPC-bg.webp');
     background-position: center center;
@@ -231,6 +235,9 @@ textarea {
     margin-right: 1em;
 }
 @media only screen and (max-width: 991px){
+    #language .lang-group{
+        margin: auto !important;
+    }
     #sec9 .column-re{
         display: flex;
         flex-direction: column-reverse;
