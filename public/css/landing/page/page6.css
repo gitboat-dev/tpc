@@ -22,7 +22,7 @@ textarea {
     padding: 15px 0;
 }
 #sec3{
-    background-image: url('/assets/images/landing/page5/desktop/TPC-bg.webp');
+    background-image: url('/assets/images/landing/page6/desktop/TPC-bg.webp');
     background-position: center center;
     background-size: cover;
     padding: 70px 0px 40px 0px;
@@ -44,7 +44,7 @@ textarea {
 /* end sec3 */
 
 #sec5{
-    background-image: url('/assets/images/landing/page5/desktop/TPC-bg.webp');
+    background-image: url('/assets/images/landing/page6/desktop/TPC-bg.webp');
     background-position: center center;
     background-size: cover;
     padding: 70px 0px 70px 0px;
@@ -91,7 +91,7 @@ textarea {
 
 #sec6{
     background-color: #FCFCFC;
-    background-image: url('/assets/images/landing/page5/desktop/TPC-6.webp');
+    background-image: url('/assets/images/landing/page6/desktop/TPC-6.webp');
     background-position: top center;
     background-size: cover;
     padding: 200px 0px 40px 0px;
@@ -119,7 +119,7 @@ textarea {
 /* end sec6 */
 
 #sec7{
-    background-image: url('/assets/images/landing/page5/desktop/TPC-bg-2.webp');
+    background-image: url('/assets/images/landing/page6/desktop/TPC-bg-2.webp');
     background-position: bottom center;
     background-size: cover;
     padding: 50px 0px 50px 0px;
@@ -150,7 +150,7 @@ textarea {
 #sec9{
     background-color: #202731;
     color: #fff;
-    background-image: url('/assets/images/landing/page5/desktop/rolled-wool-yarn-fabric-background-1.webp');
+    background-image: url('/assets/images/landing/page6/desktop/rolled-wool-yarn-fabric-background-1.webp');
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
@@ -250,7 +250,7 @@ textarea {
     /* end sec5 */
 
     #sec6{
-        background-image: url('/assets/images/landing/page5/mobile/TPC-6.webp');
+        background-image: url('/assets/images/landing/page6/mobile/TPC-6.webp');
         padding: 50px 0px 50px 0px;
     }
     #sec6 .m-title{
