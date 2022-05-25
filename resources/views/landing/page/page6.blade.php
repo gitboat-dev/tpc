@@ -39,7 +39,7 @@
                 <div class="col-xs-12 col-sm-12 col-md-12 p-0">
                     <picture>
                         <source srcset="/assets/images/landing/page6/mobile/TPC-2.webp" media="(max-width: 640px)">
-                        <img src="/assets/images/landing/page6/desktop/TPC-2.webp" alt="polyester Spinning mills Thaipolyester" width="900" height="350" class="img-fluid">
+                        <img src="/assets/images/landing/page6/desktop/TPC-2.webp" alt="polyester Spinning mills Thaipolyester" width="900" height="350" class="img-fluid" loading="lazy">
                     </picture>
                 </div>
             </div>
@@ -110,7 +110,7 @@
                     <div class="col-xs-12 col-sm-12 col-md-6">
                         <picture>
                             <source srcset="/assets/images/landing/page6/desktop/TPC-3-1.webp" media="(max-width: 640px)">
-                            <img src="/assets/images/landing/page6/desktop/TPC-3-1.webp" alt="polyester Spinning mills Thaipolyester" width="900" height="350" class="img-fluid">
+                            <img src="/assets/images/landing/page6/desktop/TPC-3-1.webp" alt="polyester Spinning mills Thaipolyester" width="900" height="350" class="img-fluid" loading="lazy">
                         </picture>
                     </div>
                 </div>
@@ -121,7 +121,7 @@
                 <div class="col-xs-12 col-sm-12 col-md-12 p-0">
                     <picture>
                         <source srcset="/assets/images/landing/page6/mobile/TPC-4.webp" media="(max-width: 640px)">
-                        <img src="/assets/images/landing/page6/desktop/TPC-4.webp" alt="polyester Spinning mills Thaipolyester" width="900" height="350" class="img-fluid">
+                        <img src="/assets/images/landing/page6/desktop/TPC-4.webp" alt="polyester Spinning mills Thaipolyester" width="900" height="350" class="img-fluid" loading="lazy">
                     </picture>
                 </div>
             </div>
@@ -132,7 +132,7 @@
                     <div class="col-xs-12 col-sm-12 col-md-12 col1">
                         <picture>
                             <source srcset="/assets/images/landing/page6/mobile/TPC-5.webp" media="(max-width: 640px)">
-                            <img src="/assets/images/landing/page6/desktop/TPC-5.webp" alt="one stop service" width="900" height="350" class="img-fluid">
+                            <img src="/assets/images/landing/page6/desktop/TPC-5.webp" alt="one stop service" width="900" height="350" class="img-fluid" loading="lazy">
                         </picture>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-12 col2">
@@ -218,7 +218,7 @@
                         <div class="col-xs-12 col-sm-12 col-md-6 p-0 m-title">
                             <picture>
                                 <source srcset="/assets/images/landing/page6/mobile/TPC-6-2.webp" media="(max-width: 640px)">
-                                <img src="/assets/images/landing/page6/mobile/TPC-6-2.webp" alt="" width="900" height="350" class="img-fluid">
+                                <img src="/assets/images/landing/page6/mobile/TPC-6-2.webp" alt="" width="900" height="350" class="img-fluid" loading="lazy">
                             </picture>
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-6 p-0">
@@ -263,7 +263,7 @@
                     <div class="col-xs-12 col-sm-12 col-md-12 p-0 text-center d-flex">
                         <picture style="margin-bottom: 40px;">
                             <source srcset="/assets/images/landing/page6/desktop/TPC-7.webp" media="(max-width: 640px)">
-                            <img src="/assets/images/landing/page6/desktop/TPC-7.webp" alt="" width="900" height="350" class="img-fluid">
+                            <img src="/assets/images/landing/page6/desktop/TPC-7.webp" alt="" width="900" height="350" class="img-fluid" loading="lazy">
                         </picture>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-12 p-0">
@@ -298,7 +298,7 @@
                 <div class="col-xs-12 col-sm-12 col-md-12 p-0">
                     <picture>
                         <source srcset="/assets/images/landing/page6/mobile/TPC-8.webp" media="(max-width: 640px)">
-                        <img src="/assets/images/landing/page6/desktop/TPC-8.webp" alt="polyester Spinning mills Thaipolyester" width="900" height="350" class="img-fluid">
+                        <img src="/assets/images/landing/page6/desktop/TPC-8.webp" alt="polyester Spinning mills Thaipolyester" width="900" height="350" class="img-fluid" loading="lazy">
                     </picture>
                 </div>
             </div>
@@ -314,7 +314,7 @@
                             <div class="img_block wow animate__slideInLeft">
                                 <picture>
                                     <source srcset="/assets/images/landing/page6/desktop/Logo-TPC.webp" media="(max-width: 640px)">
-                                    <img src="/assets/images/landing/page6/desktop/Logo-TPC.webp" alt="polyester Spinning mills Thaipolyester" width="118" height="72" style="max-width: 118px;">
+                                    <img src="/assets/images/landing/page6/desktop/Logo-TPC.webp" alt="polyester Spinning mills Thaipolyester" width="118" height="72" style="max-width: 118px;" loading="lazy">
                                 </picture>
                             </div>
                             <h2 class="default theme-hl fw-bold wow animate__slideInLeft">บริษัท ไทยโพลีเอสเตอร์ จำกัด</h2>
