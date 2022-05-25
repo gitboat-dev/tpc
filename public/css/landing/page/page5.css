@@ -230,7 +230,17 @@ textarea {
     margin: 0;
     margin-right: 1em;
 }
+@media only screen and (max-width: 991px){
+    #sec9 .column-re{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #sec9 .column-re > *{
+        margin-bottom: 20px;
+    }
 
+    /* end sec9 */
+}
 @media only screen and (max-width: 640px){
     #sec5 .col1,
     #sec5 .col2{

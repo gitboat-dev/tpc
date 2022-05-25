@@ -1,7 +1,7 @@
 @extends('landing.template')
 @section('style')
     <link rel="preload stylesheet"  href="/lib/owlcarousel/assets/owl.carousel.min.css" as="style" crossorigin>
-    <link rel="preload stylesheet" href="/css/landing/page/page5.css?v={{time()}}" as="style" crossorigin>
+    <link rel="preload stylesheet" href="/css/landing/page/page5.min.css?v={{time()}}" as="style" crossorigin>
     <link rel="stylesheet" id="fancybox-css" href="{!!asset('/assets/custom/wp-content/plugins/radiantthemes-addons/assets/css/jquery.fancybox.min.css?ver=4.9.11')!!}" type="text/css" media="all">
 @endsection
 @section('og-image','/assets/images/landing/page4/desktop/polyester-Spinning-mills-Thaipolyester.webp')
@@ -308,7 +308,7 @@
                     <div class="col-xs-12 col-sm-12 col-md-12">
                         <h1 class="default text-center fw-bold" style="margin-bottom: 50px;">Sign up to Get our FREE catalog</h1>
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-12 p-0">
+                    <div class="col-xs-12 col-sm-12 col-md-12 p-0 column-re">
                         <div class="col-xs-12 col-sm-12 col-md-6 col1">
                             <div class="img_block">
                                 <picture>
@@ -444,6 +444,6 @@
 @section('script')
     <script src="/lib/jquery-on-scrolled-to/on-scrolled-to.min.js"></script>
     <script src="/lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="/js/landing/page/page5.js?v={{time()}}"></script>
+    <script src="/js/landing/page/page5.min.js?v={{time()}}"></script>
     <script src="/assets/custom/wp-content/plugins/radiantthemes-addons/assets/js/jquery.fancybox.min.js?v={{time()}}"></script>
 @endsection

@@ -13,6 +13,7 @@ Route::group(['namespace' => 'landing'], function () {
     /* end landing page */
 
     Route::get('/landing/thank-you', 'landingPageController@thank_you1');
+    Route::get('/landing/thank-you2', 'landingPageController@thank_you1');
     Route::get('/landing/thank-you3', 'landingPageController@thank_you1');
     Route::get('/landing/thank-you4', 'landingPageController@thank_you1');
 
