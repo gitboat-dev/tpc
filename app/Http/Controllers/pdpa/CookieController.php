@@ -6,7 +6,6 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
 use Cookie;
-// use Func;
 use DB;
 
 use Throwable;
@@ -15,4 +14,10 @@ use Carbon\Carbon;
 
 class CookieController extends Controller{
     public $cookieName = 'pdpa';
+    public function check(){
+        // return "555";
+    }
+    public function create($event){
+
+    }
 }
