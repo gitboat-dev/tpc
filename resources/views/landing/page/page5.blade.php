@@ -13,7 +13,7 @@
                 <div class="row m-0">
                     <div class="col-xs-12 col-sm-12 col-md-12 d-flex">
                         <div class="lang-group">
-                            <a href="#" title="thai">
+                            <a href="/th/v3" title="thai">
                                 <picture>
                                     <source srcset="/assets/images/landing/page5/desktop/thai.webp" media="(max-width: 640px)">
                                     <img src="/assets/images/landing/page5/desktop/thai.webp" alt="polyester Spinning mills Thaipolyester" width="118" height="72" style="max-width: 118px;">

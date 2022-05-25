@@ -13,7 +13,7 @@
                 <div class="row m-0">
                     <div class="col-xs-12 col-sm-12 col-md-12 d-flex">
                         <div class="lang-group">
-                            <a href="#" title="thai">
+                            <a href="/en/v3" title="english">
                                 <picture>
                                     <source srcset="/assets/images/landing/page6/desktop/english.webp" media="(max-width: 640px)">
                                     <img src="/assets/images/landing/page6/desktop/english.webp" alt="english" width="118" height="72" style="max-width: 118px;">
