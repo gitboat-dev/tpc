@@ -74,6 +74,12 @@ class RouteServiceProvider extends ServiceProvider {
 		], function ($router) {
 			require base_path('routes/cacheclear.php');
 		});
+        Route::group([
+			'middleware' => 'pdpa',
+			'namespace' => $this->namespace,
+		], function ($router) {
+			require base_path('routes/pdpa.php');
+		});
 	}
 
 	/**
