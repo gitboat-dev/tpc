@@ -15,6 +15,9 @@ textarea {
     -o-transition: all .3s;
     transition: all .3s;
 }
+#landing > *,.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
+    font-family: "Prompt", Sans-serif !important;
+}
 
 /* end all setting */
 
