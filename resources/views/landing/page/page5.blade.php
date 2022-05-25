@@ -5,7 +5,7 @@
     <link rel="stylesheet" id="fancybox-css" href="{!!asset('/assets/custom/wp-content/plugins/radiantthemes-addons/assets/css/jquery.fancybox.min.css?ver=4.9.11')!!}" type="text/css" media="all">
     <link rel="preload stylesheet" href="/lib/animate/animate.min.css" as="style" crossorigin>
 @endsection
-@section('og-image','/assets/images/landing/page4/desktop/polyester-Spinning-mills-Thaipolyester.webp')
+@section('og-image','/assets/images/landing/page5/desktop/tpc-header.webp')
 @section('content')
     <div id="landing">
         <section id="language" class="bg-black">
