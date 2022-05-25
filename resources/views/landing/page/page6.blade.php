@@ -261,7 +261,7 @@
             <div class="container">
                 <div class="row m-0">
                     <div class="col-xs-12 col-sm-12 col-md-12 p-0 text-center d-flex">
-                        <picture style="margin-bottom: 40px; max-width:430px;">
+                        <picture style="margin-bottom: 40px;">
                             <source srcset="/assets/images/landing/page6/desktop/TPC-7.webp" media="(max-width: 640px)">
                             <img src="/assets/images/landing/page6/desktop/TPC-7.webp" alt="" width="900" height="350" class="img-fluid">
                         </picture>
