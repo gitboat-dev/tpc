@@ -131,7 +131,7 @@
                     <div class="col-xs-12 col-sm-12 col-md-12 col1">
                         <picture>
                             <source srcset="/assets/images/landing/page5/mobile/TPC-5.webp" media="(max-width: 640px)">
-                            <img src="/assets/images/landing/page5/desktop/TPC-5.webp" alt="polyester Spinning mills Thaipolyester" width="900" height="350" class="img-fluid">
+                            <img src="/assets/images/landing/page5/desktop/TPC-5.webp" alt="one stop service" width="900" height="350" class="img-fluid">
                         </picture>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-12 col2">
@@ -139,56 +139,68 @@
                             <div class="owl-carousel owl-theme">
                                 <div class="item">
                                     <picture>
-                                        <source srcset="/assets/images/landing/page5/mobile/Twist-Yarn.webp" media="(max-width: 640px)">
-                                        <img src="/assets/images/landing/page5/desktop/Twist-Yarn.webp" alt="polyester Spinning mills Thaipolyester" width="900" height="350" class="img-fluid">
+                                        <source srcset="/assets/images/landing/page5/mobile/pic1.webp" media="(max-width: 427px)">
+                                        <img src="/assets/images/landing/page5/desktop/pic1.webp" alt="one stop service" width="900" height="350" class="img-fluid">
                                     </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-                                        <source srcset="/assets/images/landing/page5/mobile/Spun-Yarn.webp" media="(max-width: 640px)">
-                                        <img src="/assets/images/landing/page5/desktop/Spun-Yarn.webp" alt="polyester Spinning mills Thaipolyester" width="900" height="350" class="img-fluid">
+                                        <source srcset="/assets/images/landing/page5/mobile/pic2.webp" media="(max-width: 427px)">
+                                        <img src="/assets/images/landing/page5/desktop/pic2.webp" alt="one stop service" width="900" height="350" class="img-fluid">
                                     </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-                                        <source srcset="/assets/images/landing/page5/mobile/PSF.webp" media="(max-width: 640px)">
-                                        <img src="/assets/images/landing/page5/desktop/PSF.webp" alt="polyester Spinning mills Thaipolyester" width="900" height="350" class="img-fluid">
+                                        <source srcset="/assets/images/landing/page5/mobile/pic3.webp" media="(max-width: 427px)">
+                                        <img src="/assets/images/landing/page5/desktop/pic3.webp" alt="one stop service" width="900" height="350" class="img-fluid">
                                     </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-                                        <source srcset="/assets/images/landing/page5/mobile/POY.webp" media="(max-width: 640px)">
-                                        <img src="/assets/images/landing/page5/desktop/POY.webp" alt="polyester Spinning mills Thaipolyester" width="900" height="350" class="img-fluid">
+                                        <source srcset="/assets/images/landing/page5/mobile/pic4.webp" media="(max-width: 427px)">
+                                        <img src="/assets/images/landing/page5/desktop/pic4.webp" alt="one stop service" width="900" height="350" class="img-fluid">
                                     </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-                                        <source srcset="/assets/images/landing/page5/mobile/Monofilament.webp" media="(max-width: 640px)">
-                                        <img src="/assets/images/landing/page5/desktop/Monofilament.webp" alt="polyester Spinning mills Thaipolyester" width="900" height="350" class="img-fluid">
+                                        <source srcset="/assets/images/landing/page5/mobile/pic5.webp" media="(max-width: 427px)">
+                                        <img src="/assets/images/landing/page5/desktop/pic5.webp" alt="one stop service" width="900" height="350" class="img-fluid">
                                     </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-                                        <source srcset="/assets/images/landing/page5/mobile/FDY.webp" media="(max-width: 640px)">
-                                        <img src="/assets/images/landing/page5/desktop/FDY.webp" alt="polyester Spinning mills Thaipolyester" width="900" height="350" class="img-fluid">
+                                        <source srcset="/assets/images/landing/page5/mobile/pic6.webp" media="(max-width: 427px)">
+                                        <img src="/assets/images/landing/page5/desktop/pic6.webp" alt="one stop service" width="900" height="350" class="img-fluid">
                                     </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-                                        <source srcset="/assets/images/landing/page5/mobile/Filament-Yarn.webp" media="(max-width: 640px)">
-                                        <img src="/assets/images/landing/page5/desktop/Filament-Yarn.webp" alt="polyester Spinning mills Thaipolyester" width="900" height="350" class="img-fluid">
+                                        <source srcset="/assets/images/landing/page5/mobile/pic7.webp" media="(max-width: 427px)">
+                                        <img src="/assets/images/landing/page5/desktop/pic7.webp" alt="one stop service" width="900" height="350" class="img-fluid">
                                     </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-                                        <source srcset="/assets/images/landing/page5/mobile/DTY.webp" media="(max-width: 640px)">
-                                        <img src="/assets/images/landing/page5/desktop/DTY.webp" alt="polyester Spinning mills Thaipolyester" width="900" height="350" class="img-fluid">
+                                        <source srcset="/assets/images/landing/page5/mobile/pic8.webp" media="(max-width: 427px)">
+                                        <img src="/assets/images/landing/page5/desktop/pic8.webp" alt="one stop service" width="900" height="350" class="img-fluid">
                                     </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-                                        <source srcset="/assets/images/landing/page5/mobile/Dope-Dyed.webp" media="(max-width: 640px)">
-                                        <img src="/assets/images/landing/page5/desktop/Dope-Dyed.webp" alt="polyester Spinning mills Thaipolyester" width="900" height="350" class="img-fluid">
+                                        <source srcset="/assets/images/landing/page5/mobile/pic9.webp" media="(max-width: 427px)">
+                                        <img src="/assets/images/landing/page5/desktop/pic9.webp" alt="one stop service" width="900" height="350" class="img-fluid">
+                                    </picture>
+                                </div>
+                                <div class="item">
+                                    <picture>
+                                        <source srcset="/assets/images/landing/page5/mobile/pic10.webp" media="(max-width: 427px)">
+                                        <img src="/assets/images/landing/page5/desktop/pic10.webp" alt="one stop service" width="900" height="350" class="img-fluid">
+                                    </picture>
+                                </div>
+                                <div class="item">
+                                    <picture>
+                                        <source srcset="/assets/images/landing/page5/mobile/pic11.webp" media="(max-width: 427px)">
+                                        <img src="/assets/images/landing/page5/desktop/pic11.webp" alt="one stop service" width="900" height="350" class="img-fluid">
                                     </picture>
                                 </div>
                             </div>
