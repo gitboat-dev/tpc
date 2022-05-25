@@ -15,7 +15,9 @@ textarea {
     -o-transition: all .3s;
     transition: all .3s;
 }
+
 /* end all setting */
+
 #language{
     padding: 15px 0;
 }
