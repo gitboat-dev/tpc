@@ -170,8 +170,7 @@
                             <div class="col-xs-6 col-sm-6 col-md-6 pr-0 m-auto">
                                 <div class="d-flex">
                                     <p class="owl-text m-auto">
-                                        - Wellor -<br>
-                                        ganised<br>
+                                        - Well-organised<br>
                                         production<br>
                                         process
                                     </p>
