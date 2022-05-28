@@ -59,7 +59,9 @@
 
         @yield('content')
         @include('layouts.footer')
-        @include('layouts.pdpa')
+        @if(isset($pdpa_check) && $pdpa_check['status'] != 1)
+            @include('layouts.pdpa')
+        @endif
     </div>
 
     <div class="scrollup right">
