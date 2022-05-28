@@ -1,0 +1,14 @@
+[2022-05-28 07:27:56] local.ERROR: Command "srece" is not defined. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"srece\" is not defined. at D:\\Panya.l\\MyProject\\xampp\\htdocs\\Project\\TPC_New\\frontend\\vendor\\symfony\\console\\Application.php:676)
+[stacktrace]
+#0 D:\\Panya.l\\MyProject\\xampp\\htdocs\\Project\\TPC_New\\frontend\\vendor\\symfony\\console\\Application.php(237): Symfony\\Component\\Console\\Application->find('srece')
+#1 D:\\Panya.l\\MyProject\\xampp\\htdocs\\Project\\TPC_New\\frontend\\vendor\\symfony\\console\\Application.php(149): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 D:\\Panya.l\\MyProject\\xampp\\htdocs\\Project\\TPC_New\\frontend\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 D:\\Panya.l\\MyProject\\xampp\\htdocs\\Project\\TPC_New\\frontend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 D:\\Panya.l\\MyProject\\xampp\\htdocs\\Project\\TPC_New\\frontend\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2022-05-28 07:29:52] local.DEBUG: error exception | AgentController -> get()  
+[2022-05-28 07:29:52] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36  
+[2022-05-28 07:29:52] local.DEBUG: -> error string  
+[2022-05-28 07:29:52] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
+[2022-05-28 07:29:52] local.DEBUG: -> end  

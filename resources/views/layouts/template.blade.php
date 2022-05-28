@@ -59,7 +59,7 @@
 
         @yield('content')
         @include('layouts.footer')
-
+        @include('layouts.pdpa')
     </div>
 
     <div class="scrollup right">

@@ -10,3 +10,4 @@
 
 <script src="/js/layout/contact-tools.min.js"></script>
 <script src="/js/layout/nav.min.js?v={{ time() }}"></script>
+<script src="/js/pdpa/pdpa.min.js?v={{time()}}"></script>
