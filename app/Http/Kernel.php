@@ -52,7 +52,7 @@ class Kernel extends HttpKernel {
 			\App\Http\Middleware\CacheClear::class,
 		],
         'pdpa' => [
-			\App\Http\Middleware\PDPA::class,
+			\App\Http\Middleware\pdpa::class,
 		],
 		'api' => [
 			'throttle:60,1',

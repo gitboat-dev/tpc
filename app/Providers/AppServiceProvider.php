@@ -23,9 +23,9 @@ class AppServiceProvider extends ServiceProvider {
 	 * @return void
 	 */
 	public function boot() {
-        $pdpa = new CookieController;
-        $pdpa_check = $pdpa->check(1);
-        View::share('pdpa_check', $pdpa_check);
+        // $pdpa = new CookieController;
+        // $pdpa_check = $pdpa->check(1);
+        // View::share('pdpa_check', $pdpa_check);
 		view()->composer("backend*", function ($view) {
 			$view->with('auth', $this->getNameUser());
 		});
