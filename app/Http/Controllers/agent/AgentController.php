@@ -60,7 +60,7 @@ class AgentController extends Controller{
                 }
                 $res['system'] = $system;
             }
-            if(trim($browser)!=''){
+            if(trim($browser) != ''){
                 $res['browser'] = $browser.' '.$agent->version($browser);
             }
             return $res;
