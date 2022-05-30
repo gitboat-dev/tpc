@@ -22,6 +22,7 @@
     <link rel="shortcut icon" href="{{ asset('assets/custom/images/home/Logo-01.webp')}}">
 
 @include('layouts.tags.header')
+
 @include('layouts.style')
 @yield('style')
 
@@ -88,6 +89,7 @@
     </div>
 
 @include('layouts.tags.footer')
+
 @include('layouts.script')
 
 @yield('custom-script')
