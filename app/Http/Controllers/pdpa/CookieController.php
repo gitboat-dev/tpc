@@ -13,8 +13,8 @@ use Throwable;
 use Validator;
 use Carbon\Carbon;
 
-use App\Model\pdpa\pdpa_cookie;
-use App\Model\pdpa\pdpa_logs;
+use App\Models\pdpa\pdpa_cookie;
+use App\Models\pdpa\pdpa_logs;
 use Jenssegers\Agent\Agent;
 
 class CookieController extends Controller
