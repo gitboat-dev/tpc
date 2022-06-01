@@ -2,7 +2,7 @@
     <div class="wrapper">
         <div class="group">
             <p>
-                This website uses <label class="theme-hl">cookies</label> to ensure you get the best experience on our website. <br><a href="#">More information</a>
+                This website uses <label>cookies</label> to ensure you get the best experience on our website. <a href="#">More information</a>
             </p>
         </div>
         <div class="group btn">
