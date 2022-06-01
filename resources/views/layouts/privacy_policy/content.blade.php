@@ -1,6 +1,5 @@
 @extends('layouts.template')
 @section('style')
-	{{-- <link rel="preload stylesheet" href="/css/dty.css?v={{ time() }}" as="style" crossorigin> --}}
     <style>
         #sec1{
             padding: 40px 0;
@@ -189,5 +188,4 @@
 </div>
 @endsection
 @section('custom-script')
-	{{-- <script src="/js/dty.js?v={{ time() }}"></script> --}}
 @endsection
