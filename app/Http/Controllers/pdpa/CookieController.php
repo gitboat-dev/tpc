@@ -22,9 +22,9 @@ class CookieController extends Controller
     public $cookieName = 'pdpa';
     public function check($getArr=0){
         $agent = Func::getAgent();
+        $res['status'] = 0;
+        $res['message'] = 'มีอะไรผิดพลาดบางอย่าง';
         if($agent['device'] != 'Robot'){
-            $res['status'] = 0;
-            $res['message'] = 'มีอะไรผิดพลาดบางอย่าง';
             try {
                 $clear = 0;
                 if(Cookie::has($this->cookieName)) {
@@ -77,9 +77,7 @@ class CookieController extends Controller
             } catch (Throwable $e) {
                 $res['message'] = $e->getMessage();
             }
-            if($getArr==1){
-                return $res;
-            }else{
+            if($getArr==0){
                 $resTo = response()->json($res);
                 if($clear==1){
                     $resTo->withCookie($this->cookieRm());
@@ -87,7 +85,7 @@ class CookieController extends Controller
                 return $resTo;
             }
         }
-        return 0;
+        return $res;
     }
     public function create($event){
         if(in_array($event, ['accept','decline'])){
