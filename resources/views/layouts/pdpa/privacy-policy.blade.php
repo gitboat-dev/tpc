@@ -9,7 +9,7 @@
 @section('content')
 <div id="tpc">
     <div id="tpc_bg">
-        <section id="sec1">
+        {{-- <section id="sec1">
             <div class="container">
                 <h2 class="text-center">Jong Stit Company Limited<br><span style="font-size: 80%;">
                 <span class="theme-hl">And</span><br>
@@ -183,7 +183,7 @@
                     Tel: 034-852401
                 </p>
             </div>
-        </section>
+        </section> --}}
     </div>
 </div>
 @endsection

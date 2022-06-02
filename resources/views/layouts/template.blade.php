@@ -53,7 +53,7 @@
         @yield('content')
         @include('layouts.footer')
         @if(isset($pdpa_check) && $pdpa_check['status'] != 1)
-            @include('layouts.pdpa')
+            @include('layouts.pdpa.popup')
         @endif
     </div>
 
