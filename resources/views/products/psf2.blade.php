@@ -85,6 +85,90 @@
                 </div>
             </div>
         </section>
+        <section id="sec3" class="bg-white pos-r">
+            <div class="row bg-white">
+                <div class="col-xs-12 col-sm-12 col-md-6 col1">
+                    <div class="content_group">
+                        <div class="content">
+                            <h2>
+                                What is<br>
+                                polyester staple fiber<br>
+                                used for?
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 d-flex col2">
+                    <div class="content_group d-flex">
+                        <div class="content m-auto">
+                            <p>
+                                Polyester staple fiber is mainly used in the spinning industry and
+                                in non-woven weaving. In the textile industry, polyester staple fiber is
+                                used in spinning production as a raw material for Polyester spun yarn,
+                                further knitted or woven into fabrics. Additionally, polyester staple fiber
+                                has a wide range of applications, including the following:
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="sec4" class="bg-white pos-r">
+
+        </section>
+        <section id="sec5" class="bg-green pos-r">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <div class="content_group d-flex">
+                        <div class="content m-auto">
+                            <h2>What is a polyester staple fiber in textile?</h2>
+                            <p>
+                                Polyester staple fiber is mainly used in spinning production in the textile industry. Wherein, the resulting yarns, spun yarns, are used for apparel manufacturing,
+                                including sportswear, activewear, and intimate wear. As well as, shirts, socks, dresses, lingerie, gloves, suits, and sewing threads etc. In spinning production, polyester staple
+                                fiber can be individually produced for 100% Polyester spun yarn or combined with cotton, viscose or wool for blended yarn such as CVC 70/30 consisting of 70% cotton fiber
+                                and 30% polyester staple fiber. Compared to the cotton fiber, polyester staple fiber has major benefits in terms of cost, thinness, strength, abrasion resistance, water
+                                absorption, and multiple designs and colors. Thus, polyester staple fiber can be considered the main cotton fiber alternative for the garment industry.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="sec6" class="bg-white pos-r">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6 col1">
+                    <div class="content_group d-flex">
+                        <div class="content m-auto">
+                            <picture class="m-auto">
+                                <source srcset="/assets/images/psf-v2/mobile/Polyester-yarn-machine-Thaipolyester.webp" media="(max-width: 640px)">
+                                <img src="/assets/images/psf-v2/desktop/Polyester-yarn-machine-Thaipolyester.webp" alt="polyester yarn machine Thaipolyester" width="900" height="350" class="img-fluid">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col2">
+                    <div class="content_group d-flex">
+                        <div class="content m-auto">
+                            <h2 class="theme-hl">
+                                Where would you find<br>
+                                staple fiber?
+                            </h2>
+                            <p>
+                                You can find polyester staple fiber from a reliable polyester manufacturer.
+                                Our company, Thai Polyester Company (TPC), has been a registered company
+                                specializing in 100% fiber and filament polyester yarn in Thailand since 2001. We
+                                are a fully integrated polyester manufacturer with a capacity of approximately
+                                233,600 tons annually when combining polyester staple fiber and spun production.
+                                Our products are certified by international standards, including STANDARD 100
+                                by OEKO-TEX®, ISO 9001:2015 and the Global Recycled Standard (GRS).
+                                Deniers and cut length are the significant factors for polyester staple fiber, where
+                                the size and length are related to the end product. Our product range;
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
 </div>
 @endsection
