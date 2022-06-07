@@ -349,6 +349,18 @@ Route::group(['prefix' => 'product', 'as' => 'product.'], function () {
 		return view('products.psf', $data);
 	})->name('psf');
 
+    Route::get('/psf2', function () {
+		$chkie = new Func_controller;
+		$agent = new Agent();
+		$data['chkie'] = $chkie->chk();
+		$data['des'] = 'Polyester staple fiber is a material produced from synthetic chemical compounds with a variety of uses in the textile, automotive and furniture industries';
+		$data['key'] = 'Polyester Staple Fiber, PSF, Standard Polyester Staple Fiber, Best Standard Polyester Staple Fiber, Produce cheap Polyester Staple Fiber';
+		$data['title'] = 'PSF (Polyester Staple Fiber) | Thai Polyester CO., LTD';
+		$data['active_product'] = 'activemenu';
+		$data['chkmobile'] = $agent->isMobile() ? $agent->isMobile() : ($agent->isTablet() ? $agent->isTablet() : false);
+		return view('products.psf2', $data);
+	})->name('psf2');
+
 	Route::get('/spun-yarn', function () {
 		$chkie = new Func_controller;
 		$agent = new Agent();

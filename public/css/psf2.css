@@ -1,0 +1,126 @@
+body{
+    --padding-sec1: 60px 40px;
+    --indent-sec1:30px;
+    --padding-sec2: 0px 40px 60px;
+    --indent-sec2:30px;
+    --sec1-min-height:800px;
+}
+
+/* end all setting */
+
+#sec1{
+    background-image: url('/assets/images/psf-v2/desktop/background-PSF-V2-Thaipolyester.webp');
+    background-position: center center;
+    background-size: cover;
+    padding: var(--padding-sec1);
+    min-height: var(--sec1-min-height);
+}
+#sec1 .col1 .content_group{
+    min-height: calc(var(--sec1-min-height) / 1.5);
+}
+#sec1 .col1 .content_group h1{
+    margin-bottom: 60px;
+}
+#sec1 .col1 .content_group p.head-desc{
+    text-indent: var(--indent-sec1);
+}
+#sec1 .col2 .img_block{
+    right: -25px;
+}
+
+/* end sec1 */
+
+#sec2{
+    padding: var(--padding-sec2);
+}
+#sec2 .col1 .content_group{
+    margin-top: -15%;
+}
+#sec2 .col1 .content_group .video_1{
+    max-width: 1200px;
+    margin-bottom: 40px;
+}
+#sec2 .col1 .content_group .video_1 video{
+    width: 100%;
+    max-width: 100%;
+}
+#sec2 .col2 .content_group .content{
+    max-width: 991px;
+}
+#sec2 .col2 .content_group .content p{
+    text-indent: var(--indent-sec2);
+}
+
+/* end sec2 */
+
+@media only screen and (max-width: 991px){
+    body{
+        --sec1-min-height:568px;
+    }
+
+    /* end all setting */
+
+    #sec1 .col1 .content_group h1{
+        margin-bottom: 40px;
+    }
+
+    /* end sec1 */
+
+    #sec2 .col1 .content_group{
+        margin-top: unset;
+    }
+
+    /* end sec1 */
+}
+@media only screen and (max-width: 768px){
+
+    #sec1 .col1 .content_group{
+        min-height: calc(var(--sec1-min-height) / 4);
+    }
+    #sec1 .col1 .content_group h1{
+        margin-bottom: 30px;
+    }
+    #sec1 p.head-desc{
+        background-color: #20273129;
+        padding: 15px;
+        border-radius: 30px;
+    }
+
+    /* end sec1 */
+}
+@media only screen and (max-width: 640px){
+    body{
+        --padding-sec1: 30px 20px;
+        --padding-sec2: 30px 20px;
+        --sec1-min-height:448px;
+    }
+
+    /* end all setting */
+
+    #sec1{
+        background-image: url('/assets/images/psf-v2/mobile/background-PSF-V2-Thaipolyester.webp');
+    }
+    #sec1 .col1 .content_group{
+        min-height: 0;
+    }
+    #sec1 .col1 .content_group h1{
+        margin-bottom: 20px;
+    }
+    #sec1 .col2 .img_block{
+        right: -5px;
+    }
+
+    /* end sec1 */
+}
+@media only screen and (max-width: 420px){
+    #sec1 p.head-desc{
+        background-color: unset;
+        padding: 0 15px;
+        border-radius: unset;
+    }
+    #sec1 p.head-desc span{
+        display: block;
+    }
+
+    /* end sec1 */
+}
