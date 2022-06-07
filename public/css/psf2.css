@@ -18,6 +18,9 @@ body{
 #sec1 .col1 .content_group{
     min-height: calc(var(--sec1-min-height) / 1.5);
 }
+#sec1 .col1 .content_group .content{
+    max-width: 991px;
+}
 #sec1 .col1 .content_group h1{
     margin-bottom: 60px;
 }
@@ -44,8 +47,17 @@ body{
     width: 100%;
     max-width: 100%;
 }
+#sec2 .col1 .content_group .video_1 figure.btn-play button[name="play"] {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
 #sec2 .col2 .content_group .content{
     max-width: 991px;
+}
+#sec2 .col2 .content_group .content h2{
+    margin-bottom: 30px;
 }
 #sec2 .col2 .content_group .content p{
     text-indent: var(--indent-sec2);
