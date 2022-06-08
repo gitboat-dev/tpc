@@ -1,16 +1,43 @@
 body{
-    --padding-sec1: 60px 40px;
-    --indent-sec1:30px;
-    --padding-sec2: 0px 40px 60px;
-    --indent-sec2:30px;
     --sec1-min-height:800px;
     --sec3-min-height:400px;
     --sec4-min-height:400px;
+    --sec12-min-height:185px;
+    --padding-sec1: 60px 40px;
+    --padding-sec2: 0px 40px 60px;
     --padding-sec3: 0px 90px;
+    --padding-sec4: 60px 40px;
     --padding-sec5: 80px 40px;
-    --indent-sec5:30px;
     --padding-sec6: 60px 40px;
+    --padding-sec7: 60px 40px;
+    --padding-sec8: 60px 40px 0px;
+    --padding-sec9: 30px 40px;
+    --padding-sec10: 0px 40px 60px;
+    --padding-sec11: 60px 40px;
+    --padding-sec12: 60px 40px;
+    --padding-sec13: 60px 40px;
+    --padding-sec14: 60px 40px;
+    --indent-sec1:30px;
+    --indent-sec2:30px;
+    --indent-sec3:30px;
+    --indent-sec5:30px;
     --indent-sec6:30px;
+    --indent-sec9:30px;
+    --indent-sec10:30px;
+}
+.owl-dots{
+    text-align: center;
+}
+.owl-dots button.owl-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    margin: 0 6px;
+    background: var(--msBgDark);
+    opacity: 0.2;
+}
+.owl-dots button.owl-dot.active {
+    opacity: 1;
 }
 
 /* end all setting */
@@ -61,7 +88,7 @@ body{
     display: none;
 }
 #sec2 .col2 .content_group .content{
-    max-width: 991px;
+    max-width: 1200px;
 }
 #sec2 .col2 .content_group .content h2{
     margin-bottom: 30px;
@@ -103,6 +130,9 @@ body{
 #sec3 .col2 .content_group{
     max-width: 500px;
 }
+#sec3 .col2 .content_group .content p{
+    text-indent: var(--indent-sec3);
+}
 
 /* end sec3 */
 
@@ -120,7 +150,7 @@ body{
     padding: var(--padding-sec5);
 }
 #sec5 .content_group .content{
-    max-width: 1200px;
+    max-width: 1351px;
 }
 #sec5 .content_group .content h2{
     text-align: center;
@@ -144,11 +174,207 @@ body{
 
 /* end sec6 */
 
+
+
+/* end sec7 */
+
+#sec8{
+    padding: var(--padding-sec8);
+}
+#sec8 .col1 .content_group .content{
+    max-width: 1351px;
+}
+#sec8 .col1 .content_group .content h2{
+    margin-bottom: 40px;
+}
+
+/* end sec8 */
+
+#sec9{
+    padding: var(--padding-sec9);
+}
+#sec9 .col1 .content_group .content{
+    max-width: 1351px;
+}
+#sec9 .col1 .content_group .content h2{
+    margin-bottom: 40px;
+}
+#sec9 .col1 .content_group .content p{
+    text-indent: var(--indent-sec9);
+}
+
+/* end sec9 */
+
+#sec10{
+    padding: var(--padding-sec10);
+}
+#sec10 .col1 .content_group .content{
+    max-width: 1351px;
+}
+#sec10 .col1 .content_group .content h2{
+    margin-bottom: 40px;
+}
+#sec10 .col1 .content_group .content p{
+    text-indent: var(--indent-sec10);
+}
+
+/* end sec10 */
+
+#sec11{
+    padding: var(--padding-sec11);
+}
+#sec11 .col1 .content_group .content,
+#sec11 .col3 .content_group .content{
+    max-width: 1351px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* end sec11 */
+
+#sec12{
+    padding: var(--padding-sec12);
+}
+#sec12 .col1 .content_group .content,
+#sec12 .col2 .content_group .content{
+    max-width: 1351px;
+}
+#sec12 .col2 .content_group .content .col2-1,
+#sec12 .col2 .content_group .content .col2-2{
+    min-height: var(--sec12-min-height);
+}
+#sec12 .col2 .content_group .content .col2-1 .content,
+#sec12 .col2 .content_group .content .col2-2 .content{
+    max-width: 80%;
+}
+#sec12 .col2 .content_group .content .col2-1::after{
+    content: " ";
+    position: absolute;
+    right: 0;
+    top: 10%;
+    width: 1.5px;
+    height: 80%;
+    background-color: var(--msBgDark);
+}
+
+/* end sec12 */
+
+#sec13{
+    padding: var(--padding-sec13);
+}
+#sec13 .col1 h2{
+    margin-bottom: 40px;
+}
+#sec13 .col2 table{
+    width: 100%;
+    table-layout: fixed;
+}
+#sec13 .col2 table thead th{
+    background-color: var(--msBg);
+    border: 2px solid var(--msBgDark);
+    border-collapse: collapse;
+    color: var(--msBgLight);
+    word-wrap: break-word;
+    text-align: center;
+    height: 40px;
+    padding: 5px;
+}
+#sec13 .col2 table tbody td{
+    background-color: var(--msBgLight);
+    border: 2px solid var(--msBgDark);
+    border-collapse: collapse;
+    color: var(--msBgDark);
+    word-wrap: break-word;
+    text-align: center;
+    height: 30px;
+    padding: 5px;
+}
+#sec13 .col2 table .text_focus{
+    font-size: 22.6px;
+    line-height: 25px;
+}
+
+/* end sec13 */
+
+#sec14{
+    /* padding: 60px 125px; */
+    padding: var(--padding-sec14);
+}
+#sec14 .r1 .content_block .content_group{
+    max-width: 768px;
+    border: 3px solid var(--msBgLight);
+    padding: 40px;
+}
+#sec14 .r1 .content_block .content_group h2{
+    font-size: 55px;
+    line-height: 65px;
+    margin-bottom: 40px;
+}
+#sec14 .r1 .content_block .content_group form{
+    max-width: 580px;
+}
+#sec14 .r1 .content_block .content_group form input,
+#sec14 .r1 .content_block .content_group form textarea{
+    background-color: var(--msBgDark);
+    border-top: 2px solid var(--msBgDark);
+    border-left: 2px solid var(--msBgDark);
+    border-right: 2px solid var(--msBgDark);
+    border-bottom: 2px solid var(--msBgLight);
+    color: var(--msBg);
+    font-size: 16px;
+    line-height: 20px;
+}
+#sec14 .r1 .content_block .content_group form input{
+    min-height: 50px;
+}
+#sec14 .r1 .content_block .content_group form textarea{
+    resize: vertical;
+}
+#sec14 .r1 .content_block .content_group form input::placeholder,
+#sec14 .r1 .content_block .content_group form textarea::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: var(--msBg);
+    opacity: 1; /* Firefox */
+}
+#sec14 .r1 .content_block .content_group form input:-ms-input-placeholder,
+#sec14 .r1 .content_block .content_group form textarea:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: var(--msBg);
+    opacity: 1;
+}
+#sec14 .r1 .content_block .content_group form input::-ms-input-placeholder,
+#sec14 .r1 .content_block .content_group form textarea::-ms-input-placeholder { /* Microsoft Edge */
+    color: var(--msBg);
+    opacity: 1;
+}
+#sec14 .r1 .content_block .content_group form .bt-contact{
+    font-size: 25px;
+    line-height: 35px;
+    color: var(--msBgDark);
+    background-color: var(--msBg);
+    border: none;
+    margin-top: 20px;
+    padding: 10px 20px;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+#sec14 .r1 .content_block .content_group form .bt-contact:hover{
+    color: var(--msBgLight);
+    box-shadow: 0px 0px 3px var(--msBgLight);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+/* end sec14 */
+
 @media only screen and (max-width: 991px){
     body{
         --sec1-min-height:568px;
         --sec3-min-height:0px;
         --sec4-min-height:0px;
+        --sec12-min-height:0px;
     }
 
     /* end all setting */
@@ -195,6 +421,16 @@ body{
     }
 
     /* end sec6 */
+
+    #sec12 .col2 .content_group .content .col2-1 .content,
+    #sec12 .col2 .content_group .content .col2-2 .content{
+        max-width: unset;
+    }
+    #sec12 .col2 .content_group .content .col2-1::after{
+        display: none;
+    }
+
+    /* end sec12 */
 }
 @media only screen and (max-width: 768px){
 
@@ -211,14 +447,46 @@ body{
     }
 
     /* end sec1 */
+
+    #sec14 .r1 .content_block .content_group{
+        padding: 0px;
+    }
+    #sec14 .r1 .content_block .content_group h2{
+        font-size: 30px;
+        line-height: 32px;
+    }
+    #sec14 .r1 .content_block .content_group form input,
+    #sec14 .r1 .content_block .content_group form textarea{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    #sec14 .r1 .content_block .content_group form input{
+        min-height: 35px;
+    }
+    #sec14 .r1 .content_block .content_group form .bt-contact{
+        font-size: 16px;
+        line-height: 35px;
+        padding: 5px 15px;
+    }
+
+    /* end sec9 */
 }
 @media only screen and (max-width: 640px){
     body{
         --padding-sec1: 30px 20px;
         --padding-sec2: 30px 20px;
         --padding-sec3: 0px 20px;
+        --padding-sec4: 30px 20px;
         --padding-sec5: 30px 20px;
         --padding-sec6: 30px 20px;
+        --padding-sec7: 30px 20px;
+        --padding-sec8: 30px 20px 0px;
+        --padding-sec9: 15px 20px;
+        --padding-sec10: 0px 20px 30px;
+        --padding-sec11: 30px 20px;
+        --padding-sec12: 30px 20px;
+        --padding-sec13: 30px 20px;
+        --padding-sec14: 30px 20px;
         --sec1-min-height:448px;
     }
 
@@ -244,6 +512,17 @@ body{
     }
 
     /* end sec3 */
+
+    #sec13 .col2 table{
+        font-size: 9.6px;
+        line-height: 10px;
+    }
+    #sec13 .col2 table .text_focus{
+        font-size: 12.6px;
+        line-height: 13px;
+    }
+
+    /* end sec13 */
 }
 @media only screen and (max-width: 420px){
     #sec1 p.head-desc{

@@ -22,7 +22,40 @@ jQuery(document).ready(function($){
             btn_play(video1,btn_play1);
         }
     });
+    $('#sec12').onScrolledTo(0,function(){
+        sec12_slide();
+    });
 });
+
+function sec12_slide(){
+    $('#sec12 .slide .owl-carousel').owlCarousel({
+        lazyLoad:true,
+        autoplay:true,
+        autoplayTimeout:3000,
+        autoplayHoverPause:true,
+        margin:10,
+        rewind:true,
+        nav:false,
+		navText : ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+        dots:true,
+        responsive:{
+            280:{
+                loop:true,
+                items:1,
+            },
+            991:{
+                loop:false,
+                items:3,
+            },
+            1410:{
+                loop:false,
+                items:3,
+            }
+        }
+    });
+}
+
+
 function btn_play(video,btn) {
 	if (video.paused) {
         video.play();
