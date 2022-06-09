@@ -157,7 +157,7 @@ function sec7_slide(){
                             "</picture>";
             }
             btn_next.html(next_icon);
-        }
+        },
     });
 }
 function sec11_slide(){

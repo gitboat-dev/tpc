@@ -25,6 +25,7 @@ body{
     --indent-sec6:30px;
     --indent-sec9:30px;
     --indent-sec10:30px;
+    --indent-sec11:30px;
     --sec11-block1-bg-color:#812c41;
     --sec11-block1-color:#ffffff;
     --sec11-block2-bg-color:#716256;
@@ -319,8 +320,6 @@ body{
     transition: all 0.2s;
 }
 
-/* end sec4 */
-
 /* end sec7 */
 
 #sec8{
@@ -373,6 +372,9 @@ body{
     max-width: 1351px;
     padding-top: 15px;
     padding-bottom: 15px;
+}
+#sec11 .col3 .content_group .content p{
+    text-indent: var(--indent-sec11);
 }
 #sec11 .col2 .slide{
     max-width: 80%;
@@ -518,8 +520,17 @@ body{
 /* end sec13 */
 
 #sec14{
-    /* padding: 60px 125px; */
     padding: var(--padding-sec14);
+    margin-bottom: 20px;
+}
+#sec14::after{
+    content: " ";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 15px;
+    background-color: var(--msBg);
 }
 #sec14 .r1 .content_block .content_group{
     max-width: 768px;
@@ -743,9 +754,9 @@ body{
         --padding-sec8: 0px 20px 0px;
         --padding-sec9: 15px 20px;
         --padding-sec10: 0px 20px 30px;
-        --padding-sec11: 30px 20px;
-        --padding-sec12: 30px 20px;
-        --padding-sec13: 30px 20px;
+        --padding-sec11: 30px 20px 5px;
+        --padding-sec12: 5px 20px 10px;
+        --padding-sec13: 10px 20px 30px;
         --padding-sec14: 30px 20px;
         --sec1-min-height:448px;
     }
@@ -783,7 +794,13 @@ body{
     #sec4 .owl-nav > .owl-next:hover{
         max-width: 55px;
     }
-    /* end sec3 */
+    /* end sec4 */
+
+    #sec7 .item .row{
+        min-height: 940px;
+    }
+
+    /* end sec4 */
 
     #sec13 .col2 table{
         font-size: 9.6px;
