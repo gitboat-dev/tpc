@@ -34,6 +34,49 @@ jQuery(document).ready(function($){
     $('#sec12').onScrolledTo(0,function(){
         sec12_slide();
     });
+    $('#submitcontract').on('click',function(){
+		var f = $('#contact-form'),
+	    	token = inqHex(inqRandom()),
+    		v = cForm(f);
+		if(checkData(f).success){
+			$.ajax({
+                type: "get",
+                url: "/inquiry/token",
+                headers: {
+                    callback: inqRequest,
+                    xToken: xToken(token)
+                },
+                success: function(res) {
+                	if (res.code == 200 && res.row.request) {
+                		$.ajax({
+                			type: "POST",
+                            url: "/inquiry/contact",
+                            contentType: "application/json",
+                            dataType: "json",
+                            data:JSON.stringify({da:v,req:f.attr('data-request')}),
+                            headers: {answer: a2hex(res.row.request + ":" + token + ":" + inqbg)},
+                            success: function(ea) {
+                            	setTimeout(function() {
+                            		var f = $('#contact-form'),
+								    	res = f.find('#res');
+                            		if(ea.status == 'success'){
+                                        msg = '<div class="alert alert-success"><strong>Thank you!</strong> '+ea.message+' <span class="c"></span></div>';
+                                        res.html(msg);
+                                        f.resetForm();
+                                        c(15,res.find('.alert'));
+                                        thank_you();
+                                    }else if(ea.status == 'error'){
+                                        msg = '<div class="alert alert-danger"><strong>Error!</strong> '+ea.message+'</div>';
+                                        res.html(msg);
+                                    }
+                            	},200);
+                            }
+                		});
+                	}
+                }
+            });
+		}
+	});
 });
 function sec4_slide(){
     let next = "<picture>"+

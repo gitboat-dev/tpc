@@ -756,7 +756,7 @@
                                 Get FREE SAMPLE<br>
                                 Now!
                             </h2>
-                            <form id="contact-form" data-request="landing-page" autocomplete="off">
+                            <form id="contact-form" data-request="contact" autocomplete="off">
                                 <div class="form-group col-xs-12 col-sm-12 col-md-12">
                                     <input type="text" class="form-control" name="name" id="name" placeholder="NAME*">
                                     <span class="text-danger name mb-font12"></span>
