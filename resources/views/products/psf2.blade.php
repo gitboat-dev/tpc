@@ -1,7 +1,8 @@
 @extends('layouts.template')
 @section('style')
     <link rel="preload stylesheet"  href="/lib/owlcarousel/assets/owl.carousel.min.css" as="style" crossorigin>
-    <link rel="preload stylesheet" href="/css/psf2.css?v={{ time() }}" as="style" crossorigin>
+    <link rel="preload stylesheet" href="/css/psf2.css?v={{time()}}" as="style" crossorigin>
+    <link rel="stylesheet" id="fancybox-css" href="{!!asset('/assets/custom/wp-content/plugins/radiantthemes-addons/assets/css/jquery.fancybox.min.css?ver=4.9.11')!!}" type="text/css" media="all">
 @endsection
 @section('og-image','/assets/images/product/desktop/OE-Open-End-Spun-Yarn-Polyester-Thaipolyester.webp')
 @section('content')
@@ -115,7 +116,149 @@
             </div>
         </section>
         <section id="sec4" class="bg-white pos-r">
-
+            <div class="slide">
+                <div class="owl-carousel owl-theme">
+                    <div class="item p-0">
+                        <div class="content bg-white">
+                            <a href="/assets/images/psf-v2/desktop/Nonwoven-for-geo-textile-and-medical-applications-Thaipolyester-ใหญ่.webp" title="Nonwoven for geo textile and medical applications Thaipolyester" data-fancybox="gallery">
+                                <picture>
+                                    <source srcset="/assets/images/psf-v2/mobile/Nonwoven-for-geo-textile-and-medical-applications-Thaipolyester.webp"  media="(max-width: 640px)" loading="lazy">
+                                    <img src="/assets/images/psf-v2/desktop/Nonwoven-for-geo-textile-and-medical-applications-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="Nonwoven for geo textile and medical applications Thaipolyester" loading="lazy">
+                                </picture>
+                                <div class="text d-flex">
+                                    <p>
+                                        - Nonwoven for geo-textile<br>
+                                        and medical applications
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item p-0">
+                        <div class="content bg-white">
+                            <a href="/assets/images/psf-v2/desktop/Home-textile-for-filling-pillows-Thaipolyester-ใหญ่.webp" title="Home textile for filling pillows Thaipolyester" data-fancybox="gallery">
+                                <picture>
+                                    <source srcset="/assets/images/psf-v2/mobile/Home-textile-for-filling-pillows-Thaipolyester.webp"  media="(max-width: 640px)" loading="lazy">
+                                    <img src="/assets/images/psf-v2/desktop/Home-textile-for-filling-pillows-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="Home textile for filling pillows Thaipolyester" loading="lazy">
+                                </picture>
+                                <div class="text d-flex">
+                                    <p>
+                                        - Home textile for filling pillows
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item p-0">
+                        <div class="content bg-white">
+                            <a href="/assets/images/psf-v2/desktop/Toy-industry-for-filling-soft-toys-Thaipolyester-ใหญ่.webp" title="Toy industry for filling soft toys Thaipolyester" data-fancybox="gallery">
+                                <picture>
+                                    <source srcset="/assets/images/psf-v2/mobile/Toy-industry-for-filling-soft-toys-Thaipolyester.webp"  media="(max-width: 640px)" loading="lazy">
+                                    <img src="/assets/images/psf-v2/desktop/Toy-industry-for-filling-soft-toys-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="Toy industry for filling soft toys Thaipolyester" loading="lazy">
+                                </picture>
+                                <div class="text d-flex">
+                                    <p>
+                                        - Toy industry for filling soft toys
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item p-0">
+                        <div class="content bg-white">
+                            <a href="/assets/images/psf-v2/desktop/Home-furnishings-for-carpets,-mattresses,-bedsheets,-etc-Thaipolyester-ใหญ่.webp" title="Home furnishings for carpets, mattresses, bedsheets, etc Thaipolyester" data-fancybox="gallery">
+                                <picture>
+                                    <source srcset="/assets/images/psf-v2/mobile/Home-furnishings-for-carpets,-mattresses,-bedsheets,-etc-Thaipolyester.webp"  media="(max-width: 640px)" loading="lazy">
+                                    <img src="/assets/images/psf-v2/desktop/Home-furnishings-for-carpets,-mattresses,-bedsheets,-etc-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="Home furnishings for carpets, mattresses, bedsheets, etc Thaipolyester" loading="lazy">
+                                </picture>
+                                <div class="text d-flex">
+                                    <p>
+                                        - Home furnishings for<br>
+                                        carpets, mattresses, bedsheets, etc.
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item p-0">
+                        <div class="content bg-white">
+                            <a href="/assets/images/psf-v2/desktop/Furniture-for-sofa-filling-Thaipolyester-ใหญ่.webp" title="Furniture for sofa filling Thaipolyester" data-fancybox="gallery">
+                                <picture>
+                                    <source srcset="/assets/images/psf-v2/mobile/Furniture-for-sofa-filling-Thaipolyester.webp"  media="(max-width: 640px)" loading="lazy">
+                                    <img src="/assets/images/psf-v2/desktop/Furniture-for-sofa-filling-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="Furniture for sofa filling Thaipolyester" loading="lazy">
+                                </picture>
+                                <div class="text d-flex">
+                                    <p>
+                                        - Furniture for sofa filling
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item p-0">
+                        <div class="content bg-white">
+                            <a href="/assets/images/psf-v2/desktop/Automotive-industry-Thaipolyester-ใหญ่.webp" title="Automotive industry Thaipolyester" data-fancybox="gallery">
+                                <picture>
+                                    <source srcset="/assets/images/psf-v2/mobile/Automotive-industry-Thaipolyester.webp"  media="(max-width: 640px)" loading="lazy">
+                                    <img src="/assets/images/psf-v2/desktop/Automotive-industry-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="Automotive industry Thaipolyester" loading="lazy">
+                                </picture>
+                                <div class="text d-flex">
+                                    <p>
+                                        - Automotive industry
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item p-0">
+                        <div class="content bg-white">
+                            <a href="/assets/images/psf-v2/desktop/Construction-industry-Polyester-ใหญ่.webp" title="Construction industry Polyester" data-fancybox="gallery">
+                            <picture>
+                                <source srcset="/assets/images/psf-v2/mobile/Construction-industry-Polyester.webp"  media="(max-width: 640px)" loading="lazy">
+                                <img src="/assets/images/psf-v2/desktop/Construction-industry-Polyester.webp" width="900" height="350" class="img-fluid" alt="Construction industry Polyester" loading="lazy">
+                            </picture>
+                            <div class="text d-flex">
+                                <p>
+                                    - Construction industry
+                                </p>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item p-0">
+                        <div class="content bg-white">
+                            <a href="/assets/images/psf-v2/desktop/Rope-industry-Thaipolyester-ใหญ่.webp" title="Rope industry Thaipolyester" data-fancybox="gallery">
+                                <picture>
+                                    <source srcset="/assets/images/psf-v2/mobile/Rope-industry-Thaipolyester.webp"  media="(max-width: 640px)" loading="lazy">
+                                    <img src="/assets/images/psf-v2/desktop/Rope-industry-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="Rope industry Thaipolyester" loading="lazy">
+                                </picture>
+                                <div class="text d-flex">
+                                    <p>
+                                        - Rope industry
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item p-0">
+                        <div class="content bg-white">
+                            <a href="/assets/images/psf-v2/desktop/Glove-and-sock-industry,-including-industrial-gloves-and-agricultural-gloves-Thaipolyester-ใหญ่.webp" title="Glove and sock industry, including industrial gloves and agricultural gloves Thaipolyester" data-fancybox="gallery">
+                                <picture>
+                                    <source srcset="/assets/images/psf-v2/desktop/Glove-and-sock-industry,-including-industrial-gloves-and-agricultural-gloves-Thaipolyester.webp"  media="(max-width: 640px)" loading="lazy">
+                                    <img src="/assets/images/psf-v2/desktop/Glove-and-sock-industry,-including-industrial-gloves-and-agricultural-gloves-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="Glove and sock industry, including industrial gloves and agricultural gloves Thaipolyester" loading="lazy">
+                                </picture>
+                                <div class="text d-flex">
+                                    <p>
+                                        - Glove and sock industry, including
+                                        industrial gloves and
+                                        agricultural gloves
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
         <section id="sec5" class="bg-green pos-r">
             <div class="row">
@@ -142,7 +285,7 @@
                         <div class="content m-auto">
                             <picture class="m-auto">
                                 <source srcset="/assets/images/psf-v2/mobile/Polyester-yarn-machine-Thaipolyester.webp" media="(max-width: 640px)">
-                                <img src="/assets/images/psf-v2/desktop/Polyester-yarn-machine-Thaipolyester.webp" alt="polyester yarn machine Thaipolyester" width="900" height="350" class="img-fluid">
+                                <img src="/assets/images/psf-v2/desktop/Polyester-yarn-machine-Thaipolyester.webp" alt="polyester yarn machine Thaipolyester" width="900" height="350" class="img-fluid" loading="lazy">
                             </picture>
                         </div>
                     </div>
@@ -171,7 +314,117 @@
             </div>
         </section>
         <section id="sec7" class="pos-r">
-
+            <div class="slide">
+                <div class="owl-carousel owl-theme">
+                    <div class="item r1 p-0">
+                        <div class="row d-flex">
+                            <div class="col-xs-12 col-sm-12 col-md-6 d-flex col1">
+                                <div class="content_group d-flex m-auto">
+                                    <div class="content m-auto">
+                                        <h2 class="theme-hl">
+                                            Virgin 100% polyester staple fiber:
+                                        </h2>
+                                        <p>
+                                            - 1.0D x 32mm, 38mm, 44mm and 51mm SD RW<br>
+                                            - 1.2D x 32mm, 38mm, 44mm and 51mm SD RW<br>
+                                            - 1.4D x 32mm, 38mm, 44mm and 51mm SD DDB (Dope Dyed Black)
+                                        </p>
+                                        <h3 class="theme-hl fw-500 m-0">
+                                            <span class="m-tl1">Raw White (RW)</span>
+                                        </h3>
+                                        <p>
+                                            RW is a natural color for the polyester did not pass any dyed process.
+                                        </p>
+                                        <h3 class="theme-hl fw-500 m-0">
+                                            <span class="m-tl1">Dope Dyed Black (DDB)</span>
+                                        </h3>
+                                        <p>
+                                            DDB is the black color polyester staple fiber. The black master-batch creates the
+                                            black color since the beginning of the POY process with high-temperature. Therefore,
+                                            DDB PSF will have non-staining function quality and pale color.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-6 col2 d-flex m-auto">
+                                <picture class="m-auto">
+                                    <source srcset="/assets/images/psf-v2/mobile/PSF-Product-Thaipolyester-6.webp"  media="(max-width: 640px)" loading="lazy">
+                                    <img src="/assets/images/psf-v2/desktop/PSF-Product-Thaipolyester-6.webp" width="900" height="350" class="img-fluid" alt="PSF Product Thaipolyester" loading="lazy">
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item r2 p-0">
+                        <div class="row d-flex">
+                            <div class="col-xs-12 col-sm-12 col-md-6 d-flex col1">
+                                <div class="content_group d-flex m-auto">
+                                    <div class="content m-auto">
+                                        <h2 class="white-hl">
+                                            Recycled 100% polyester staple fiber:
+                                        </h2>
+                                        <p>
+                                            - Recycled 1.2D x 32mm, 38mm, 44mm and 51mm SD RW<br>
+                                            - Recycled 1.4D x 32mm, 38mm, 44mm and 51mm SD DDB (Dope Dyed Black)
+                                        </p>
+                                        <h3 class="white-hl fw-500 m-0">
+                                            <span class="m-tl1">Raw White (RW)</span>
+                                        </h3>
+                                        <p>
+                                            RW is slightly different from virgin PSF; its color looks pretty yellow, which is natural from the process.
+                                        </p>
+                                        <h3 class="white-hl fw-500 m-0">
+                                            <span class="m-tl1">Dope Dyed Black (DDB)</span>
+                                        </h3>
+                                        <p>
+                                            DDB for recycled polyester looks similar to virgin PSF. It contains a black master-batch since
+                                            the process of melting before injecting. For this reason, there is no difference between
+                                            Dope-Dyed Black virgin PSF and Dope Dyed Black Recycled PSF by vision.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-6 col2 d-flex m-auto">
+                                <picture class="m-auto">
+                                    <source srcset="/assets/images/psf-v2/mobile/PSF-Product-Thaipolyester-7.webp"  media="(max-width: 640px)" loading="lazy">
+                                    <img src="/assets/images/psf-v2/desktop/PSF-Product-Thaipolyester-7.webp" width="900" height="350" class="img-fluid" alt="PSF Product Thaipolyester" loading="lazy">
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item r3 p-0">
+                        <div class="row d-flex">
+                            <div class="col-xs-12 col-sm-12 col-md-6 d-flex col1">
+                                <div class="content_group d-flex m-auto">
+                                    <div class="content m-auto">
+                                        <h2>
+                                            <span class="tl1">
+                                                Our product specification is
+                                                following Zimmer Standard
+                                                <br>with1.2D x 38mm<br> testing result below;
+                                            <span>
+                                        </h2>
+                                        <p>
+                                            − Denier (De’) – 1.20 +/- 0.03<br>
+                                            − Tenacity (g/De’) – 6.6 +/- 0.2<br>
+                                            − Elongation (%) – 23.0 +/- 3.0<br>
+                                            − Crimp Number (n/cm) – 10.0 +/- 2.0<br>
+                                            − Fiber Length (mm) – 38.0 +/- 0.8<br>
+                                            − Heat Shrinkage (%) – 3.0 +/- 2.0<br>
+                                            − Oil Pick Up (%) – 0.120 +/- 0.02
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-6 col2 d-flex m-auto">
+                                <picture class="m-auto">
+                                    <source srcset="/assets/images/psf-v2/mobile/PSF-Product-Thaipolyester-8.webp"  media="(max-width: 640px)" loading="lazy">
+                                    <img src="/assets/images/psf-v2/desktop/PSF-Product-Thaipolyester-8.webp" width="900" height="350" class="img-fluid" alt="PSF Product Thaipolyester" loading="lazy">
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
         <section id="sec8" class="pos-r">
             <div class="row">
@@ -256,8 +509,82 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-12 col2">
-
+                <div class="col-xs-12 col-sm-12 col-md-12 p-0 col2">
+                    <div class="slide">
+                        <div class="owl-carousel owl-theme">
+                            <div class="item p-0 d-flex">
+                                <div class="block1 d-flex">
+                                    <div class="content mt-0">
+                                        <h3 class="title">
+                                            1. Pre Oriented Yarn<br>
+                                            (POY)
+                                        </h3>
+                                        <p>
+                                            is straight-oriented and is used in
+                                            post-processing production to produce
+                                            stretch fibers such as Drawn Textured
+                                            Yarn.
+                                        </p>
+                                    </div>
+                                    <div class="content mb-0 d-flex">
+                                        <picture class="m-auto">
+                                            <source srcset="/assets/images/psf-v2/mobile/Pre-Oriented-Yarn-(POY)-Polyester-Thaipolyester-ใหญ่.webp"  media="(max-width: 640px)" loading="lazy">
+                                            <img src="/assets/images/psf-v2/desktop/Pre-Oriented-Yarn-(POY)-Polyester-Thaipolyester-ใหญ่.webp" width="900" height="350" class="img-fluid" alt="Pre Oriented Yarn (POY) Polyester Thaipolyester" loading="lazy">
+                                        </picture>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item p-0 d-flex">
+                                <div class="block2 d-flex">
+                                    <div class="content mt-0">
+                                        <h3 class="title">
+                                            2. FDY (full draft yarn) and<br>
+                                            Fully Drawn Yarn (FDY)
+                                        </h3>
+                                        <p>
+                                            are primarily used as weft and weaves
+                                            for making high-strength fabrics and
+                                            textiles.<br>
+                                            However, FDY can also be knitted or
+                                            woven with other filament yarns to
+                                            produce various fabrics.
+                                        </p>
+                                    </div>
+                                    <div class="content mb-0 d-flex">
+                                        <picture class="m-auto">
+                                            <source srcset="/assets/images/psf-v2/mobile/Drawn-Textured-Yarn-(DTY)-product-polyester-yhaipolyester-ใหญ่.webp"  media="(max-width: 640px)" loading="lazy">
+                                            <img src="/assets/images/psf-v2/desktop/Drawn-Textured-Yarn-(DTY)-product-polyester-yhaipolyester-ใหญ่.webp" width="900" height="350" class="img-fluid" alt="Drawn Textured Yarn (DTY) Product Polyester Thaipolyester" loading="lazy">
+                                        </picture>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item p-0 d-flex">
+                                <div class="block3 d-flex">
+                                    <div class="content mt-0">
+                                        <h3 class="title">
+                                            3. Drawn Textured<br>
+                                            Yarn (DTY)
+                                        </h3>
+                                        <p>
+                                            has the advantages of short flow and
+                                            high-efficiency good quality.<br>
+                                            Our production has 3 combinations of
+                                            intermingling points which are<br>
+                                            Non-Intermingle (NIM),<br>
+                                            Semi-Intermingle (SIM), and<br>
+                                            High-Intermingle (HIM).
+                                        </p>
+                                    </div>
+                                    <div class="content mb-0 d-flex">
+                                        <picture class="m-auto">
+                                            <source srcset="/assets/images/psf-v2/mobile/FDY-(full-draft-yarn)-and-Fully-Drawn-Yarn-(FDY)-Product-polyester-Thaipolyester-ใหญ่.webp"  media="(max-width: 640px)" loading="lazy">
+                                            <img src="/assets/images/psf-v2/desktop/FDY-(full-draft-yarn)-and-Fully-Drawn-Yarn-(FDY)-Product-polyester-Thaipolyester-ใหญ่.webp" width="900" height="350" class="img-fluid" alt="FDY (full-draft-yarn) and Fully Drawn Yarn (FDY) Product polyester Thaipolyester" loading="lazy">
+                                        </picture>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-12 col3">
                     <div class="content_group d-flex">
@@ -468,5 +795,6 @@
 @section('custom-script')
     <script src="/lib/jquery-on-scrolled-to/on-scrolled-to.min.js"></script>
     <script src="/lib/owlcarousel/owl.carousel.min.js"></script>
-	<script src="/js/psf2.js?v={{ time() }}"></script>
+	<script src="/js/psf2.js?v={{time()}}"></script>
+    <script src="/assets/custom/wp-content/plugins/radiantthemes-addons/assets/js/jquery.fancybox.min.js?v={{time()}}"></script>
 @endsection

@@ -22,11 +22,134 @@ jQuery(document).ready(function($){
             btn_play(video1,btn_play1);
         }
     });
+    $('#sec4').onScrolledTo(0,function(){
+        sec4_slide();
+    });
+    $('#sec7').onScrolledTo(0,function(){
+        sec7_slide();
+    });
+    $('#sec11').onScrolledTo(0,function(){
+        sec11_slide();
+    });
     $('#sec12').onScrolledTo(0,function(){
         sec12_slide();
     });
 });
-
+function sec4_slide(){
+    let next = "<picture>"+
+    "<source srcset='/assets/images/psf-v2/mobile/Icon-1.webp' media='(max-width: 640px)'>"+
+    "<img src='/assets/images/psf-v2/desktop/Icon-1.webp' alt='next' width='900' height='350' class='img-fluid'>"+
+    "</picture>";
+    $('#sec4 .slide .owl-carousel').owlCarousel({
+        lazyLoad:true,
+        center: true,
+        loop:true,
+        autoplay:true,
+        autoplayTimeout:4000,
+        autoplayHoverPause:true,
+        margin:0,
+        rewind:true,
+        nav:true,
+		navText : ["", next],
+        dots:false,
+        responsive:{
+            280:{
+                items:1,
+            },
+            360:{
+                items:1,
+                stagePadding: 35,
+            },
+            768:{
+                items:2,
+                stagePadding: 35,
+            },
+            991:{
+                items:3,
+                stagePadding: 35,
+            },
+            1410:{
+                items:4,
+                stagePadding: 35,
+            }
+        }
+    });
+}
+function sec7_slide(){
+    let next = "<picture>"+
+    "<source srcset='/assets/images/psf-v2/mobile/Icon-3.webp' media='(max-width: 640px)'>"+
+    "<img src='/assets/images/psf-v2/desktop/Icon-3.webp' alt='next' width='900' height='350' class='img-fluid'>"+
+    "</picture>";
+    $('#sec7 .slide .owl-carousel').owlCarousel({
+        lazyLoad:true,
+        loop:false,
+        autoplay:true,
+        autoplayTimeout:4000,
+        autoplayHoverPause:true,
+        margin:0,
+        rewind:true,
+        nav:true,
+		navText : ["", next],
+        dots:false,
+        items:1,
+        animateOut: 'fadeOut',
+        onChanged: function (e) {
+            let index = e.item.index + 1,
+                btn_next = $('#sec7 .slide .owl-carousel .owl-nav > .owl-next'),
+                next_icon = "";
+            if(index == 1){
+                next_icon = "<picture>"+
+                            "<source srcset='/assets/images/psf-v2/mobile/Icon-3.webp' media='(max-width: 640px)'>"+
+                            "<img src='/assets/images/psf-v2/desktop/Icon-3.webp' alt='next' width='900' height='350' class='img-fluid'>"+
+                            "</picture>";
+            }else if(index == 2){
+                next_icon = "<picture>"+
+                            "<source srcset='/assets/images/psf-v2/mobile/Icon-2.webp' media='(max-width: 640px)'>"+
+                            "<img src='/assets/images/psf-v2/desktop/Icon-2.webp' alt='next' width='900' height='350' class='img-fluid'>"+
+                            "</picture>";
+            }else if(index == 3){
+                next_icon = "<picture>"+
+                            "<source srcset='/assets/images/psf-v2/mobile/Icon-4.webp' media='(max-width: 640px)'>"+
+                            "<img src='/assets/images/psf-v2/desktop/Icon-4.webp' alt='next' width='900' height='350' class='img-fluid'>"+
+                            "</picture>";
+            }
+            btn_next.html(next_icon);
+        }
+    });
+}
+function sec11_slide(){
+    $('#sec11 .slide .owl-carousel').owlCarousel({
+        lazyLoad:true,
+        center: true,
+        loop:true,
+        autoplay:true,
+        autoplayTimeout:4000,
+        autoplayHoverPause:true,
+        margin:0,
+        rewind:true,
+        nav:false,
+		navText : ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+        dots:false,
+        responsive:{
+            280:{
+                items:1,
+            },
+            360:{
+                items:1,
+                stagePadding: 35,
+            },
+            768:{
+                items:2,
+            },
+            991:{
+                items:2,
+            },
+            1410:{
+                items:3,
+            }
+        }
+    });
+}
 function sec12_slide(){
     $('#sec12 .slide .owl-carousel').owlCarousel({
         lazyLoad:true,
@@ -38,6 +161,7 @@ function sec12_slide(){
         nav:false,
 		navText : ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
         dots:true,
+        animateOut: 'fadeOut',
         responsive:{
             280:{
                 loop:true,
@@ -54,8 +178,6 @@ function sec12_slide(){
         }
     });
 }
-
-
 function btn_play(video,btn) {
 	if (video.paused) {
         video.play();
