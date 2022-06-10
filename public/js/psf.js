@@ -3,59 +3,43 @@ let inqbg="TPC",
 	inqRequest="inquiry-request",
 	inqhas="xyz";
 jQuery(document).ready(function($){
-	var video1 =$('#video1')[0],
+    var video1 =$('#video1')[0],
 		btn_play1 = $('#btn-video1');
-	sectwo();
-	secthree();
-	secfour();
-	secfive();
-	secsix();
-	setTimeout(function(){
-		secseven();
-		seceight();
-		secnine();
-		secten();
-	},1000);
-	$(window).resize(function(event) {
-		sectwo();
-		secthree();
-		secfour();
-		secfive();
-		secsix();
-		secten();
-		setTimeout(function(){
-			secseven();
-			seceight();
-			secnine();
-		},500);
-	});
-	$(window).scroll(function(){
-		secthree();
-		secfour();
-		secsix();
-		secseven();
-		seceight();
-		secnine();
-		v_scroll(video1,btn_play1,$('.section-two'),480);
-	});
-	$(btn_play1).click(function(){
-		btn_play(video1,this);
-	});
-	$('#video1').click(function(){
-		if (!video1.paused) {
-			btn_paused(video1,btn_play1);
-		}else{
-			btn_play(video1,btn_play1);
-		}
-	});
+    $(window).scroll(function(){
+        v_scroll(video1,btn_play1,$('#sec2'),480);
+    });
+    $('figure.btn-play').click(function(){
+        if (!video1.paused) {
+            btn_paused(video1,btn_play1);
+        }else{
+            btn_play(video1,btn_play1);
+        }
+    });
+    $('#video1').click(function(){
+        if (!video1.paused) {
+            btn_paused(video1,btn_play1);
+        }else{
+            btn_play(video1,btn_play1);
+        }
+    });
+    $('#sec4').onScrolledTo(0,function(){
+        sec4_slide();
+    });
+    $('#sec7').onScrolledTo(0,function(){
+        sec7_slide();
+    });
+    $('#sec11').onScrolledTo(0,function(){
+        sec11_slide();
+    });
+    $('#sec12').onScrolledTo(0,function(){
+        sec12_slide();
+    });
     $('#submitcontract').on('click',function(){
-        var f = $('#contact-form'),
-            res = f.find('#res'),
-            btn = $(this),
-            token = inqHex(inqRandom()),
-            v = cForm(f);
-        if(checkData(f).success){
-            $.ajax({
+		var f = $('#contact-form'),
+	    	token = inqHex(inqRandom()),
+    		v = cForm(f);
+		if(checkData(f).success){
+			$.ajax({
                 type: "get",
                 url: "/inquiry/token",
                 headers: {
@@ -63,43 +47,202 @@ jQuery(document).ready(function($){
                     xToken: xToken(token)
                 },
                 success: function(res) {
-                    if (res.code == 200 && res.row.request) {
-                        $.ajax({
-                            type: "POST",
+                	if (res.code == 200 && res.row.request) {
+                		$.ajax({
+                			type: "POST",
                             url: "/inquiry/contact",
                             contentType: "application/json",
                             dataType: "json",
                             data:JSON.stringify({da:v,req:f.attr('data-request')}),
                             headers: {answer: a2hex(res.row.request + ":" + token + ":" + inqbg)},
                             success: function(ea) {
-                                setTimeout(function() {
-                                    var f = $('#contact-form'),
-                                        res = f.find('#res'),
-                                        btn = $('#submitcontract2'),
-                                        btnMsg = "SUBMIT";
-                                    if(ea.status == 'success'){
+                            	setTimeout(function() {
+                            		var f = $('#contact-form'),
+								    	res = f.find('#res');
+                            		if(ea.status == 'success'){
                                         msg = '<div class="alert alert-success"><strong>Thank you!</strong> '+ea.message+' <span class="c"></span></div>';
                                         res.html(msg);
                                         f.resetForm();
-                                        btn.html(btnMsg);
                                         c(15,res.find('.alert'));
                                         thank_you();
                                     }else if(ea.status == 'error'){
                                         msg = '<div class="alert alert-danger"><strong>Error!</strong> '+ea.message+'</div>';
                                         res.html(msg);
-                                        btn.html('<i class="fa fa-refresh"></i> Try Again');
-                                    }else{
-                                        btn.html(btnMsg);
                                     }
-                                },200);
+                            	},200);
                             }
-                        });
-                    }
+                		});
+                	}
                 }
             });
+		}
+	});
+    $('div.burger-menu').on('click',function(){
+        if($(this).hasClass('change')){
+            setTimeout(function(){
+                sec4_slide(1);
+                sec7_slide(1);
+                sec11_slide(1);
+                sec12_slide(1);
+            },1000);
         }
     });
 });
+function sec4_slide(reload = 0){
+    let next = "<picture>"+
+    "<source srcset='/assets/images/psf/mobile/Icon-1.webp' media='(max-width: 640px)'>"+
+    "<img src='/assets/images/psf/desktop/Icon-1.webp' alt='next' width='900' height='350' class='img-fluid'>"+
+    "</picture>",
+        owl = $('#sec4 .slide .owl-carousel').owlCarousel({
+        lazyLoad:true,
+        center: true,
+        loop:true,
+        autoplay:true,
+        autoplayTimeout:4000,
+        autoplayHoverPause:true,
+        margin:0,
+        rewind:true,
+        nav:true,
+		navText : ["", next],
+        dots:false,
+        responsive:{
+            280:{
+                items:1,
+            },
+            360:{
+                items:1,
+                stagePadding: 35,
+            },
+            768:{
+                items:2,
+                stagePadding: 35,
+            },
+            991:{
+                items:3,
+                stagePadding: 35,
+            },
+            1410:{
+                items:4,
+                stagePadding: 35,
+            }
+        }
+    });
+    if(reload > 0){
+        owl.trigger('refresh.owl.carousel');
+    }
+}
+function sec7_slide(reload = 0){
+    let next = "<picture>"+
+    "<source srcset='/assets/images/psf/mobile/Icon-3.webp' media='(max-width: 640px)'>"+
+    "<img src='/assets/images/psf/desktop/Icon-3.webp' alt='next' width='900' height='350' class='img-fluid'>"+
+    "</picture>",
+        owl = $('#sec7 .slide .owl-carousel').owlCarousel({
+        lazyLoad:true,
+        loop:false,
+        autoplay:true,
+        autoplayTimeout:4000,
+        autoplayHoverPause:true,
+        margin:0,
+        rewind:true,
+        nav:true,
+		navText : ["", next],
+        dots:false,
+        items:1,
+        animateOut: 'fadeOut',
+        onChanged: function (e) {
+            let index = e.item.index + 1,
+                btn_next = $('#sec7 .slide .owl-carousel .owl-nav > .owl-next'),
+                next_icon = "";
+            if(index == 1){
+                next_icon = "<picture>"+
+                            "<source srcset='/assets/images/psf/mobile/Icon-3.webp' media='(max-width: 640px)'>"+
+                            "<img src='/assets/images/psf/desktop/Icon-3.webp' alt='next' width='900' height='350' class='img-fluid'>"+
+                            "</picture>";
+            }else if(index == 2){
+                next_icon = "<picture>"+
+                            "<source srcset='/assets/images/psf/mobile/Icon-2.webp' media='(max-width: 640px)'>"+
+                            "<img src='/assets/images/psf/desktop/Icon-2.webp' alt='next' width='900' height='350' class='img-fluid'>"+
+                            "</picture>";
+            }else if(index == 3){
+                next_icon = "<picture>"+
+                            "<source srcset='/assets/images/psf/mobile/Icon-4.webp' media='(max-width: 640px)'>"+
+                            "<img src='/assets/images/psf/desktop/Icon-4.webp' alt='next' width='900' height='350' class='img-fluid'>"+
+                            "</picture>";
+            }
+            btn_next.html(next_icon);
+        },
+    });
+    if(reload > 0){
+        owl.trigger('refresh.owl.carousel');
+    }
+}
+function sec11_slide(reload = 0){
+    let owl = $('#sec11 .slide .owl-carousel').owlCarousel({
+        lazyLoad:true,
+        center: true,
+        loop:true,
+        autoplay:true,
+        autoplayTimeout:4000,
+        autoplayHoverPause:true,
+        margin:0,
+        rewind:true,
+        nav:false,
+		navText : ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+        dots:false,
+        responsive:{
+            280:{
+                items:1,
+            },
+            360:{
+                items:1,
+                stagePadding: 35,
+            },
+            768:{
+                items:2,
+            },
+            991:{
+                items:2,
+            },
+            1410:{
+                items:3,
+            }
+        }
+    });
+    if(reload > 0){
+        owl.trigger('refresh.owl.carousel');
+    }
+}
+function sec12_slide(reload = 0){
+    let owl = $('#sec12 .slide .owl-carousel').owlCarousel({
+        lazyLoad:true,
+        autoplay:true,
+        autoplayTimeout:3000,
+        autoplayHoverPause:true,
+        margin:10,
+        rewind:true,
+        nav:false,
+		navText : ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+        dots:true,
+        animateOut: 'fadeOut',
+        responsive:{
+            280:{
+                loop:true,
+                items:1,
+            },
+            991:{
+                loop:false,
+                items:3,
+            },
+            1410:{
+                loop:false,
+                items:3,
+            }
+        }
+    });
+    if(reload > 0){
+        owl.trigger('refresh.owl.carousel');
+    }
+}
 function btn_play(video,btn) {
 	if (video.paused) {
         video.play();
@@ -114,7 +257,7 @@ function btn_paused(video,btn) {
 }
 function v_scroll(video,btn,selector,pointer=0){
 	var box = jQuery(selector),
-		box_next = box.next('div'),
+		box_next = box.next('section'),
 		start = parseInt(box.offset().top) - pointer;
 		stop = parseInt(box_next.offset().top) - pointer;
 	if(document.documentElement.scrollTop > start && document.documentElement.scrollTop < stop){
@@ -123,183 +266,6 @@ function v_scroll(video,btn,selector,pointer=0){
 		btn_paused(video,btn);
 	}
 }
-function sectwo(){
-	var row1 = jQuery('.section-two .r1 .col1'),
-		row2 = jQuery('.section-two .r1 .col2'),
-		minheight1 = jQuery(row1).height();
-	if(jQuery( window ).width() <= 868){
-		jQuery(row2).removeAttr('style');
-	}else{
-		jQuery(row2).css({'min-height':minheight1+'px'});
-	}
-}
-function secthree(){
-	var block1 = jQuery('.section-three .r1'),
-		row1 = jQuery('.section-three .r1 .col1'),
-		row2 = jQuery('.section-three .r1 .col2'),
-		minheight1 = jQuery(row2).height();
-	if(jQuery( window ).width() <= 991){
-		jQuery(row1).removeAttr('style');
-		jQuery(row2).appendTo(block1);
-		jQuery(row1).appendTo(block1);
-	}else{
-		jQuery(row1).css({'min-height':minheight1+'px'});
-		jQuery(row1).appendTo(block1);
-		jQuery(row2).appendTo(block1);
-	}
-}
-function secfour(){
-	var row1 = jQuery('.section-four .r1 .col1'),
-		row2 = jQuery('.section-four .r1 .col2'),
-		row3 = jQuery('.section-four .r1 .col3'),
-		minheight = jQuery(row1).height();
-	if(jQuery( window ).width() <= 991){
-		jQuery(row2).removeAttr('style');
-		jQuery(row3).removeAttr('style');
-	}else{
-		jQuery(row2).css({'min-height':minheight+'px'});
-		jQuery(row3).css({'min-height':minheight+'px'});
-	}
-}
-function secfive(){
-	var block1 = jQuery('.section-five .r1'),
-		row1 = jQuery('.section-five .r1 .col1'),
-		row2 = jQuery('.section-five .r1 .col2'),
-		row3 = jQuery('.section-five .r1 .col3'),
-		row4 = jQuery('.section-five .r1 .col4'),
-		minheight = jQuery(row2).height();
-	if(jQuery( window ).width() <= 991){
-		jQuery(row4).removeAttr('style');
-		jQuery(row2).appendTo(block1);
-		jQuery(row1).appendTo(block1);
-		jQuery(row3).appendTo(block1);
-		jQuery(row4).appendTo(block1);
-	}else{
-		jQuery(row4).css({'min-height':minheight+'px'});
-		jQuery(row1).appendTo(block1);
-		jQuery(row2).appendTo(block1);
-		jQuery(row3).appendTo(block1);
-		jQuery(row4).appendTo(block1);
-	}
-}
-function secsix(){
-	var row1 = jQuery('.section-six .r1 .col1'),
-		row2 = jQuery('.section-six .r1 .col2'),
-		row3 = jQuery('.section-six .r1 .col3'),
-		minheight1 = jQuery(row1).outerHeight();
-	if(jQuery( window ).width() <= 991){
-		jQuery(row1).removeAttr('style');
-		jQuery(row2).removeAttr('style');
-		jQuery(row3).removeAttr('style');
-	}else{
-		jQuery(row2).css({'min-height':minheight1+'px'});
-		jQuery(row3).css({'min-height':minheight1+'px'});
-	}
-}
-function secseven(){
-	var image = jQuery('.section-seven .r1 .col2 .col2-2 .img_block1 img'),
-		image_block = jQuery('.section-seven .r1 .imbcol-2-2'),
-		content2_2 = jQuery('.section-seven .r1 .ctcol-2-2'),
-		block1 = jQuery('.section-seven .r1 .col1'),
-		block2 = jQuery('.section-seven .r1 .col2'),
-		row1_1 = jQuery('.section-seven .r1 .col1-1'),
-		row1_2 = jQuery('.section-seven .r1 .col1-2'),
-		row1_3 = jQuery('.section-seven .r1 .col1-3'),
-		row2_1 = jQuery('.section-seven .r1 .col2-1'),
-		row2_2 = jQuery('.section-seven .r1 .col2-2'),
-		row2_3 = jQuery('.section-seven .r1 .col2-3');
-		minheight2 = jQuery(image).outerHeight();
-	if(jQuery( window ).width() <= 991){
-		jQuery(row2_1).removeAttr('style');
-		jQuery(row2_2).removeAttr('style');
-		jQuery(content2_2).appendTo(row2_3);
-		jQuery(row1_1).appendTo(block1);
-		jQuery(row2_1).appendTo(block1);
-		jQuery(row1_2).appendTo(block1);
-		jQuery(row1_3).appendTo(block2);
-		jQuery(row2_3).appendTo(block2);
-	}else{
-		jQuery(row2_1).css({'min-height':minheight2+'px'});
-		jQuery(row2_2).css({'min-height':minheight2+'px'});
-		jQuery(image_block).appendTo(row2_2);
-		jQuery(content2_2).appendTo(row2_2);
-		jQuery(row1_1).appendTo(block1);
-		jQuery(row1_2).appendTo(block1);
-		jQuery(row1_3).appendTo(block1);
-		jQuery(row2_1).appendTo(block2);
-		jQuery(row2_2).appendTo(block2);
-		jQuery(row2_3).appendTo(block2);
-	}
-}
-function seceight(){
-	var image_block = jQuery('.section-eight .r1 .col2 .col2-2 .img_block1'),
-		block1 = jQuery('.section-eight .r1 .col2'),
-		block2 = jQuery('.section-eight .r1 .col3'),
-		row2_1 = jQuery('.section-eight .r1 .col2-1'),
-		row2_2 = jQuery('.section-eight .r1 .col2-2'),
-		row2_3 = jQuery('.section-eight .r1 .col2-3'),
-		row3_1 = jQuery('.section-eight .r1 .col3-1'),
-		row3_2 = jQuery('.section-eight .r1 .col3-2'),
-		row3_3 = jQuery('.section-eight .r1 .col3-3'),
-		minheight1 = jQuery(image_block).outerHeight() / 2;
-	if(jQuery( window ).width() <= 991){
-		jQuery(row2_1).removeAttr('style');
-		jQuery(row2_2).removeAttr('style');
-		jQuery(row2_3).removeAttr('style');
-		jQuery(row3_1).removeAttr('style');
-		jQuery(row3_2).removeAttr('style');
-		jQuery(row3_3).removeAttr('style');
-
-		jQuery(row2_1).appendTo(block1);
-		jQuery(row3_1).appendTo(block1);
-		jQuery(row2_2).appendTo(block1);
-		jQuery(row2_3).appendTo(block1);
-		jQuery(row3_2).appendTo(block2);
-		jQuery(row3_3).appendTo(block2);
-	}else{
-		jQuery(row2_1).css({'min-height':minheight1+'px'});
-		jQuery(row2_2).css({'min-height':minheight1+'px'});
-		jQuery(row2_3).css({'min-height':minheight1+'px'});
-		jQuery(row3_1).css({'min-height':minheight1+'px'});
-		jQuery(row3_2).css({'min-height':minheight1+'px'});
-		jQuery(row3_3).css({'min-height':minheight1+'px'});
-
-		jQuery(row2_1).appendTo(block1);
-		jQuery(row2_2).appendTo(block1);
-		jQuery(row2_3).appendTo(block1);
-		jQuery(row3_1).appendTo(block2);
-		jQuery(row3_2).appendTo(block2);
-		jQuery(row3_3).appendTo(block2);
-	}
-}
-function secnine(){
-	var block1 = jQuery('.section-nine .r1'),
-		row1 = jQuery('.section-nine .r1 .col1'),
-		row2 = jQuery('.section-nine .r1 .col2'),
-		minheight = jQuery(row2).outerHeight();
-	if(jQuery( window ).width() <= 991){
-		jQuery(row1).removeAttr('style');
-		jQuery(row2).appendTo(block1);
-		jQuery(row1).appendTo(block1);
-	}else{
-		jQuery(row1).css({'min-height':minheight+'px'});
-		jQuery(row1).appendTo(block1);
-		jQuery(row2).appendTo(block1);
-	}
-}
-function secten(){
-	var block1 = jQuery('.section-ten .r1'),
-		row1 = jQuery('.section-ten .r1 .col1'),
-		row2 = jQuery('.section-ten .r1 .col2');
-	if(jQuery( window ).width() <= 768){
-		jQuery(row2).appendTo(block1);
-		jQuery(row1).appendTo(block1);
-	}else{
-		jQuery(row1).appendTo(block1);
-		jQuery(row2).appendTo(block1);
-	}
-}
-
 function thank_you(){
     window.location.href = "/thank-you";
 }
@@ -390,3 +356,4 @@ function cForm(f){
 		"message":jQuery.trim(f.find('#message').val()),
 	}
 }
+

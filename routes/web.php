@@ -346,7 +346,7 @@ Route::group(['prefix' => 'product', 'as' => 'product.'], function () {
 		$data['title'] = 'PSF (Polyester Staple Fiber) | Thai Polyester CO., LTD';
 		$data['active_product'] = 'activemenu';
 		$data['chkmobile'] = $agent->isMobile() ? $agent->isMobile() : ($agent->isTablet() ? $agent->isTablet() : false);
-		return view('products.psf2', $data);
+		return view('products.psf', $data);
 	})->name('psf');
 	Route::get('/spun-yarn', function () {
 		$chkie = new Func_controller;
