@@ -80,20 +80,20 @@ jQuery(document).ready(function($){
     $('div.burger-menu').on('click',function(){
         if($(this).hasClass('change')){
             setTimeout(function(){
-                sec4_slide();
-                sec7_slide();
-                sec11_slide();
-                sec12_slide();
-            },2000);
+                sec4_slide(1);
+                sec7_slide(1);
+                sec11_slide(1);
+                sec12_slide(1);
+            },1000);
         }
     });
 });
-function sec4_slide(){
+function sec4_slide(reload = 0){
     let next = "<picture>"+
     "<source srcset='/assets/images/psf-v2/mobile/Icon-1.webp' media='(max-width: 640px)'>"+
     "<img src='/assets/images/psf-v2/desktop/Icon-1.webp' alt='next' width='900' height='350' class='img-fluid'>"+
-    "</picture>";
-    $('#sec4 .slide .owl-carousel').owlCarousel({
+    "</picture>",
+        owl = $('#sec4 .slide .owl-carousel').owlCarousel({
         lazyLoad:true,
         center: true,
         loop:true,
@@ -127,13 +127,16 @@ function sec4_slide(){
             }
         }
     });
+    if(reload > 0){
+        owl.trigger('refresh.owl.carousel');
+    }
 }
-function sec7_slide(){
+function sec7_slide(reload = 0){
     let next = "<picture>"+
     "<source srcset='/assets/images/psf-v2/mobile/Icon-3.webp' media='(max-width: 640px)'>"+
     "<img src='/assets/images/psf-v2/desktop/Icon-3.webp' alt='next' width='900' height='350' class='img-fluid'>"+
-    "</picture>";
-    $('#sec7 .slide .owl-carousel').owlCarousel({
+    "</picture>",
+        owl = $('#sec7 .slide .owl-carousel').owlCarousel({
         lazyLoad:true,
         loop:false,
         autoplay:true,
@@ -169,9 +172,12 @@ function sec7_slide(){
             btn_next.html(next_icon);
         },
     });
+    if(reload > 0){
+        owl.trigger('refresh.owl.carousel');
+    }
 }
-function sec11_slide(){
-    $('#sec11 .slide .owl-carousel').owlCarousel({
+function sec11_slide(reload = 0){
+    let owl = $('#sec11 .slide .owl-carousel').owlCarousel({
         lazyLoad:true,
         center: true,
         loop:true,
@@ -202,9 +208,12 @@ function sec11_slide(){
             }
         }
     });
+    if(reload > 0){
+        owl.trigger('refresh.owl.carousel');
+    }
 }
-function sec12_slide(){
-    $('#sec12 .slide .owl-carousel').owlCarousel({
+function sec12_slide(reload = 0){
+    let owl = $('#sec12 .slide .owl-carousel').owlCarousel({
         lazyLoad:true,
         autoplay:true,
         autoplayTimeout:3000,
@@ -230,6 +239,9 @@ function sec12_slide(){
             }
         }
     });
+    if(reload > 0){
+        owl.trigger('refresh.owl.carousel');
+    }
 }
 function btn_play(video,btn) {
 	if (video.paused) {
