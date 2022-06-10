@@ -5,6 +5,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="google-site-verification" content="ATu6ryYnUUDr9ejrsDtenq3jGgu15W5FDCQEtgegeoU" />
 
+    <meta name="yandex-verification" content="2ad95f8bdc9d7baa" />
     <meta name="ncode" content="@if(isset($ncode)){{$ncode}}@endif">
     <meta name="chkie" content="@if(isset($chkie)){{$chkie}}@endif">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
