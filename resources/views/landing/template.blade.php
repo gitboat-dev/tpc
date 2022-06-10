@@ -22,7 +22,6 @@
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <link rel="shortcut icon" href="{{ asset('assets/custom/images/home/Logo-01.webp')}}">
-
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -30,14 +29,12 @@
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-MTG33WM');</script>
     <!-- End Google Tag Manager -->
-
     @if(View::hasSection('close_style'))
 
     @else
         @include('landing.style')
     @endif
     @yield('style')
-
     <script>if(document.getElementsByName('chkie')[0].getAttribute('content')==0){
     alert('To get the best possible experience using our site we recommend that'+
     ' your upgrade to a newer version of Internet Explorer or choose another web'+
@@ -55,7 +52,6 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTG33WM"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-
     @if(View::hasSection('close_script'))
 
     @else
