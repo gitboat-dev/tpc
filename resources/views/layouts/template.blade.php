@@ -20,47 +20,28 @@
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <link rel="shortcut icon" href="{{ asset('assets/custom/images/home/Logo-01.webp')}}">
-
 @include('layouts.tags.header')
-
 @include('layouts.style')
 @yield('style')
-
     <script>
-    if (document.getElementsByName('chkie')[0].getAttribute('content')==0) {
-    	alert('To get the best possible experience using our site we recommend that your upgrade to a newer version of Internet Explorer or choose another web browser. such as " goole chrome browser or Firefox browser " !!! ');
+        if (document.getElementsByName('chkie')[0].getAttribute('content')==0) {
+            alert('To get the best possible experience using our site we recommend that your upgrade to a newer version of Internet Explorer or choose another web browser. such as " goole chrome browser or Firefox browser " !!! ');
 
-    }
+        }
     </script>
-
-
-
 </head>
-<body data-rsssl="1" class="product-template-default single single-product postid-3981 woocommerce woocommerce-page tribe-no-js wpb-js-composer js-comp-ver-5.4.5 vc_responsive" data-nicescroll-cursorcolor="#e7174d" data-nicescroll-cursorwidth="7px" style="overflow-x:hidden;">
-
+<body>
     <div class="wrapper">
-
-        <!-- Loading Screen -->
-        <div id="ju-loading-screen" >
-          <div class="sk-double-bounce">
-            <div class="sk-child sk-double-bounce1"></div>
-            <div class="sk-child sk-double-bounce2"></div>
-          </div>
-        </div>
-
     	@include('layouts.navbar')
-
         @yield('content')
         @include('layouts.footer')
         @if(isset($pdpa_check) && $pdpa_check['status'] != 1)
             @include('layouts.pdpa.popup')
         @endif
     </div>
-
     <div class="scrollup right">
         <i class="fa fa-angle-up"></i>
     </div>
-
     <div class="contact-tools important">
         <div class="tools-box"></div>
         <div class="box-blur"></div>
@@ -87,13 +68,9 @@
             </li>
         </ul>
     </div>
-
 @include('layouts.tags.footer')
-
 @include('layouts.script')
-
 @yield('custom-script')
-
 </body>
 </html>
 

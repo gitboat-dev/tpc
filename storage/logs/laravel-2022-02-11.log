@@ -1,9 +1,0 @@
-[2022-02-11 08:20:21] local.ERROR: Command "sreve" is not defined. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"sreve\" is not defined. at D:\\Panya.l\\MyProject\\xampp\\htdocs\\Project\\TPC_New\\frontend\\vendor\\symfony\\console\\Application.php:676)
-[stacktrace]
-#0 D:\\Panya.l\\MyProject\\xampp\\htdocs\\Project\\TPC_New\\frontend\\vendor\\symfony\\console\\Application.php(237): Symfony\\Component\\Console\\Application->find('sreve')
-#1 D:\\Panya.l\\MyProject\\xampp\\htdocs\\Project\\TPC_New\\frontend\\vendor\\symfony\\console\\Application.php(149): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
-#2 D:\\Panya.l\\MyProject\\xampp\\htdocs\\Project\\TPC_New\\frontend\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
-#3 D:\\Panya.l\\MyProject\\xampp\\htdocs\\Project\\TPC_New\\frontend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
-#4 D:\\Panya.l\\MyProject\\xampp\\htdocs\\Project\\TPC_New\\frontend\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
-#5 {main}
-"} 
