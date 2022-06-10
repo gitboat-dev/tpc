@@ -83,18 +83,21 @@ header .header-top .ht1 ul.contact li.email:before{
 }
 
 header .header-body{
+    /* max-width: var(--maxWidth);
+	background-color: var(--msBgLight); */
     max-width: var(--maxWidth);
-	background-color: var(--msBgLight);
+    background-color: var(--msBgDark);
+    color: var(--msBgLight);
 }
 header .header-body .header_main{
 	display: flex;
 }
+header .header-body .header_main .logo{
+    margin: auto;
+}
 header .header-body .header_main .logo,
 header .header-body .header_main .header-nav-menu{
 	display: inline-block;
-}
-header .header-body .header_main .logo img{
-	margin-top: 2%;
 }
 header .header-body .header_main ul.header-menu > li{
 	position: relative;
@@ -125,15 +128,19 @@ header .header-body .header_main ul.header-menu > li a.a_menu::after{
     content: "\f107";
     font-family: FontAwesome;
 }
-header .header-body .header_main ul.header-menu > li.activemenu > a,
+header .header-body .header_main ul.header-menu > li.activemenu > a{
+    color: var(--msBg) !important;
+}
 header .header-body .header_main ul.header-menu > li > ul.a_sub_menu > li:hover > a{
 	background-color: var(--msBg);
-    color: #fff !important;
+    color: var(--msBgLight) !important;
 }
-header .header-body .header_main ul.header-menu > li:not(.activemenu) > a:hover,
+header .header-body .header_main ul.header-menu > li:not(.activemenu) > a:hover{
+    color: var(--msBg) !important;
+}
 header .header-body .header_main ul.header-menu > li > ul.a_sub_menu > li.has-children > ul.a_sub_menu > li > a:hover{
     background-color: var(--msBg);
-    color: #fff !important;
+    color: var(--msBgLight) !important;
 }
 header .header-body .header_main ul.header-menu > li > ul.a_sub_menu,
 header .header-body .header_main ul.header-menu > li > ul.a_sub_menu > li.has-children > ul.a_sub_menu{
@@ -297,7 +304,7 @@ nav.nav_right ul.header-menu .has-children ul.a_sub_menu > li:not(.navrecycled){
 	header .header-body .logo .m-menu > .burger-menu > .bar3{
 		width: 30px;
 	  	height: 2.5px;
-	  	background-color: var(--msBgDark);
+	  	background-color: var(--msBgLight);
 	  	margin: 6px 0;
 	  	transition: 0.4s;
 	}
