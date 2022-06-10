@@ -77,6 +77,16 @@ jQuery(document).ready(function($){
             });
 		}
 	});
+    $('div.burger-menu').on('click',function(){
+        if($(this).hasClass('change')){
+            setTimeout(function(){
+                sec4_slide();
+                sec7_slide();
+                sec11_slide();
+                sec12_slide();
+            },2000);
+        }
+    });
 });
 function sec4_slide(){
     let next = "<picture>"+
