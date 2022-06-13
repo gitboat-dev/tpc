@@ -8,7 +8,7 @@
 {{-- <link rel="stylesheet" href="{!!asset('/assets/custom/wp-content/themes/consultix/css/custom.css')!!}?v={{date('YmdHis')}}" type="text/css" media="all"> --}}
 {{-- <link rel="stylesheet"  href="{!!asset('/assets/custom/wp-content/themes/consultix/css/style-template.css')!!}?v={{date('YmdHis')}}" type="text/css" media="all"> --}}
 <link rel="stylesheet"  href="/css/layout/nav.min.css?v={{time()}}" type="text/css" media="all">
-<link rel="stylesheet"  href="/css/layout/footer.min.css" type="text/css" media="all">
+<link rel="stylesheet"  href="/css/layout/footer.css" type="text/css" media="all">
 <link rel="stylesheet"  href="/css/layout/template.min.css" type="text/css" media="all">
 <link rel="stylesheet"  href="/css/pdpa/pdpa.min.css" type="text/css" media="all">
 <link rel="stylesheet" id="contact-tools-css" href="/css/layout/contact-tools.min.css" type="text/css" media="all">
