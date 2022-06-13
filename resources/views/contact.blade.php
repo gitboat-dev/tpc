@@ -235,7 +235,7 @@
                     </div>
                 </div>
             </section>
-            <section id="sec4">
+            <section id="sec4" class="bg-white">
                 <div class="row m-0 r1">
                     <div class="col-xs-12 col-sm-12 col-md-12 p-0">
                         <div class="content_block d-flex pos-r">
