@@ -86,17 +86,22 @@ header .header-top .ht1 ul.contact li.email:before{
 }
 
 header .header-body{
-    /* max-width: var(--maxWidth);
-	background-color: var(--msBgLight); */
     max-width: var(--maxWidth);
-    background-color: var(--msBgDark);
+    background-color: var(--msBg);
     color: var(--msBgLight);
+}
+header .header-body .container{
+    background-color: var(--msBgDark);
+    width: calc(100% - 108px) !important;
 }
 header .header-body .header_main{
 	display: flex;
 }
 header .header-body .header_main .logo{
     margin: auto;
+}
+header .header-body .header_main .logo img{
+    max-width: 80%;
 }
 header .header-body .header_main .logo,
 header .header-body .header_main .header-nav-menu{
@@ -329,6 +334,14 @@ nav.nav_right ul.header-menu .has-children ul.a_sub_menu > li:not(.navrecycled){
     }
     header .header-body .header_main .header-nav-menu{
         margin-right: 2.5%;
+    }
+}
+@media only screen and (max-width: 768px){
+    header .header-body{
+        background-color: var(--msBgDark);
+    }
+    header .header-body .container{
+        width: 100% !important;
     }
 }
 

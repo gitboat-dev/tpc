@@ -35,7 +35,10 @@
 			<div class="header_main">
 				<div class="logo">
 					<a title="logo thai polyester" href="{!!url('/')!!}" >
-						<img alt="logo thai polyester" src="{{ asset('assets/custom/images/home/logo.webp')}}?v={{date('YmdHis')}}" class="mb-logo" width="303" height="60">
+                        <picture>
+                            <source srcset="/assets/images/header/desktop/LOGO-Head-TPC.webp" media="(max-width: 640px)">
+                            <img alt="logo thai polyester" src="/assets/images/header/desktop/LOGO-Head-TPC.webp" class="mb-logo" width="303" height="60">
+                        </picture>
 					</a>
 					<div class="m-menu-block">
 						<div class="m-menu">
