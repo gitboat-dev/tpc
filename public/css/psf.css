@@ -17,7 +17,7 @@ body{
     --padding-sec11: 30px 40px 15px;
     --padding-sec12: 15px 40px 30px;
     --padding-sec13: 30px 40px 60px;
-    --padding-sec14: 30px 40px;
+    --padding-sec14: 30px 40px 45px;
     --indent-sec1:30px;
     --indent-sec2:30px;
     --indent-sec3:30px;
@@ -521,7 +521,16 @@ body{
 
 #sec14{
     padding: var(--padding-sec14);
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
+}
+#sec14::before{
+    content: " ";
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    width: 100%;
+    height: 15px;
+    background-color: var(--msBg);
 }
 #sec14::after{
     content: " ";
@@ -530,7 +539,7 @@ body{
     left: 0;
     width: 100%;
     height: 15px;
-    background-color: var(--msBg);
+    background-color: var(--msBgLight);
 }
 #sec14 .r1 .content_block .content_group{
     max-width: 768px;
@@ -757,7 +766,7 @@ body{
         --padding-sec11: 30px 20px 5px;
         --padding-sec12: 5px 20px 10px;
         --padding-sec13: 10px 20px 30px;
-        --padding-sec14: 30px 20px;
+        --padding-sec14: 30px 20px 45px;
         --sec1-min-height:448px;
     }
 
