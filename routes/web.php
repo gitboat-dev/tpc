@@ -141,7 +141,7 @@ Route::get('/recycled-products', function () {
 	$data['key'] = 'Staple Fiber (PSF), Filament Yarn (PFY), Partially Oriented Yarn (POY), Drawn Textures Yarn (DTY), Fully Drawn Yarn (FDY)';
 	$data['title'] = 'Recycled Polyester Yarn Manufacturer';
 	$data['active_product'] = 'activemenu';
-	return view('products/product-recycled', $data);
+	return view('products.product-recycled', $data);
 	// return view('page404');
 });
 // end สินค้า Recycled
