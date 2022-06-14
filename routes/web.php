@@ -116,7 +116,7 @@ Route::get('/polyester-products', function () {
 	$data['title'] = 'All Polyester Products | Thai Polyester CO., LTD';
 	$data['active_product'] = 'activemenu';
 	$data['chkmobile'] = $agent->isMobile() ? $agent->isMobile() : ($agent->isTablet() ? $agent->isTablet() : false);
-	return view('products.product-polyester', $data);
+	return view('products.product-polyester-new', $data);
 });
 Route::get('/dope-dyed', function () {
 	$chkie = new Func_controller;

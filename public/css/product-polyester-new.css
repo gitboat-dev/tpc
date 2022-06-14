@@ -1,0 +1,151 @@
+
+
+#sec1 .slide .item.head .content{
+    position: absolute;
+    width: 100%;
+    top: 10%;
+    left: 0;
+}
+#sec1 .slide .item.head .slide-title{
+    font-size: 6em;
+    line-height: 100%;
+}
+#sec1 .slide .item.green .content{
+    position: absolute;
+    width: 100%;
+    top: 10.5%;
+    left: 0;
+}
+#sec1 .slide .item.green .slide-title{
+    font-size: 6em;
+    line-height: 100%;
+    color: var(--msBgLight);
+    margin-top: 30px !important;
+}
+#sec1 .slide .item.green .slide-img img{
+    max-width: 85%;
+}
+#sec1 .slide .item.blue .content{
+    position: absolute;
+    width: 100%;
+    top: 10.5%;
+    left: 0;
+}
+#sec1 .slide .item.blue .slide-title{
+    font-size: 6em;
+    line-height: 100%;
+    color: var(--msBgDark);
+    margin-top: 30px !important;
+}
+#sec1 .slide .item.blue .slide-img img{
+    max-width: 85%;
+}
+@media only screen and (min-width: 1350px){
+    #sec1 .slide .item.head .slide-title{
+        font-size: 8em;
+    }
+    #sec1 .slide .item.green .slide-title{
+        font-size: 8em;
+        margin-top: 60px !important;
+    }
+    #sec1 .slide .item.blue .slide-title{
+        font-size: 8em;
+        margin-top: 60px !important;
+    }
+}
+@media only screen and (max-width: 991px){
+    #sec1 .slide .item.head .content{
+        top: 1%;
+    }
+    #sec1 .slide .item.head .slide-title{
+        font-size: 4em;
+    }
+    #sec1 .slide .item.green .content{
+        top: 1.5%;
+    }
+    #sec1 .slide .item.green .slide-title{
+        font-size: 4em;
+    }
+    #sec1 .slide .item.blue .content{
+        top: 1.5%;
+    }
+    #sec1 .slide .item.blue .slide-title{
+        font-size: 4em;
+    }
+}
+@media only screen and (max-width: 768px){
+    #sec1 .slide .item.head .content{
+        top: 5%;
+    }
+    #sec1 .slide .item.head .slide-title{
+        font-size: 3em;
+    }
+    #sec1 .slide .item.green .content{
+        top: 5.5%;
+    }
+    #sec1 .slide .item.green .slide-title{
+        font-size: 3em;
+    }
+    #sec1 .slide .item.blue .content{
+        top: 5.5%;
+    }
+    #sec1 .slide .item.blue .slide-title{
+        font-size: 3em;
+    }
+}
+@media only screen and (min-width: 641px){
+    .show-m{
+        display: none;
+    }
+}
+@media only screen and (max-width: 640px){
+    .show-d{
+        display: none;
+    }
+
+    #sec1 .slide .item.head .content{
+        top: 1%;
+    }
+    #sec1 .slide .item.green .content{
+        top: 1.5%;
+    }
+    #sec1 .slide .item.green .slide-title{
+        font-size: 2em;
+        line-height: 38px;
+    }
+    #sec1 .slide .item.blue .content{
+        top: 1.5%;
+    }
+    #sec1 .slide .item.blue .slide-title{
+        font-size: 2em;
+        line-height: 38px;
+    }
+    #sec1 .slide .item.green .slide-title,
+    #sec1 .slide .item.blue .slide-title{
+        margin-top: 15px !important;
+    }
+}
+@media only screen and (max-width: 540px){
+    #sec1 .slide .item.green .slide-title{
+        font-size: 1.3em;
+        line-height: 34px;
+    }
+    #sec1 .slide .item.blue .slide-title{
+        font-size: 1.3em;
+        line-height: 34px;
+    }
+}
+@media only screen and (max-width: 300px){
+    #sec1 .slide .item.head .slide-title{
+        font-size: 1.5em;
+        line-height: 28px;
+    }
+    #sec1 .slide .item.green .slide-title{
+        font-size: 0.9em;
+        line-height: 20px;
+    }
+    #sec1 .slide .item.blue .slide-title{
+        font-size: 0.9em;
+        line-height: 20px;
+    }
+}
