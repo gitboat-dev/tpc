@@ -93,7 +93,7 @@
                     </div>
                 </div>
 				<div class="col-xs-12 col-sm-12 col-md-3">
-                    <div class="content_group">
+                    <div class="content_group fd-flex">
                         <div class="content fp-0">
                             <div class="title">
                                 <h3 class="theme-hl"><strong>Our Product</strong></h3>
@@ -176,7 +176,7 @@
                     </div>
                 </div>
 				<div class="col-xs-12 col-sm-12 col-md-3">
-                    <div class="content_group">
+                    <div class="content_group fd-flex">
                         <div class="content fp-0">
                             <div class="title">
                                 <h3 class="theme-hl"><strong>Our Businesses</strong></h3>
