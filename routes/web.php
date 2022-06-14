@@ -12,16 +12,6 @@ use Jenssegers\Agent\Agent;
 | contains the "web" middleware group. Now create something great!
 |
  */
-// Route::get('/', function () {
-// 	$chkie = new Func_controller;
-// 	$data['chkie'] = $chkie->chk();
-// 	$data['des'] = 'Thai Polyester Company. We are full integration of fiber polyester manufacturer with total capacity 316,800 tons a years achieved thereby of the innovative technology in globe.';
-// 	$data['key'] = 'thai polyester, Polyester Staple Fiber,yarn manufacturer in thailand, Cheap polyester fiber,Good quality polyester fiber,  Yarn manufacturers';
-// 	$data['title'] = 'Thai Polyester CO., LTD';
-// 	$data['active_home'] = 'activemenu';
-
-// 	return view('index_old', $data);
-// });
 
 Route::get('/', function () {
 	$chkie = new Func_controller;
@@ -48,16 +38,6 @@ Route::get('/home', function () {
 	$data['our_customers'] = ['Albania', 'Argentina', 'Australia', 'Bangladesh', 'Belarus', 'Belgium', 'Brazil', 'Cambodia', 'Chille', 'Colombia', 'Croatia', 'Cuba', 'Cyprus', 'Denmark', 'Ecuador', 'Egypt', 'El Salvador', 'Ethiopia', 'Fiji', 'Finland', 'France', 'Germany', 'Ghana', 'Greece', 'Guatemala', 'Honduras', 'India', 'Indonesia', 'Iraq', 'Israel', 'Italy', 'Jamaica', 'Japan', 'Jordan', 'Kenya', 'Korea', 'Lao', 'Malaysia', 'Mexico', 'Morocco', 'Myanmar', 'Nepal', 'New Zealand', 'Nigeria', 'Norway', 'Oman', 'Parkistan', 'Peru', 'Philippines', 'Poland', 'Portugal', 'Qatar', 'Romania', 'Russia', 'Saudi Arabia', 'South Africa', 'Spain', 'Sri Lanka', 'Sudan', 'Sweden', 'Switzerland', 'Taiwan', 'Tanzania', 'Tonga', 'Tunisia', 'Turkey', 'UAE', 'Ukraine', 'USA/Canada', 'Uzbekistan', 'Vietnam', 'Yemen'];
 	return view('index', $data);
 });
-// Route::get('/about', function () {
-//     $chkie = new Func_controller;
-//     $data['chkie']=$chkie->chk();
-//     $data['des']='Thai polyester is a registered company specializing in polyester yarn both fiber and filament. We offer a wide range of recycled product, virgin and also dope dye in order to respond to customer in different industry';
-//     $data['key']='polyester, Yarn factory, thai polyester, Produce yarn, Best fully drawn yarn, Yarn manufacturers';
-//     $data['title']='About us | Thai Polyester CO., LTD';
-//     $data['active_about']='activemenu';
-
-//     return view('aboutus',$data);
-// });
 Route::get('/about', function () {
 	$chkie = new Func_controller;
 	$agent = new Agent();
@@ -84,7 +64,6 @@ Route::get('/about', function () {
 	}
 	$data['m'] = $m;
 	return view('about-us', $data);
-
 	// return view('page404');
 });
 Route::get('/about-test', function () {
@@ -113,10 +92,8 @@ Route::get('/about-test', function () {
 	}
 	$data['m'] = $m;
 	return view('about-us-test', $data);
-
 	// return view('page404');
 });
-// Route::get('/contact', 'ContactController@index');
 Route::get('/contact', 'ContactNewController@index');
 Route::get('/recycling', function () {
 	$chkie = new Func_controller;
@@ -125,22 +102,11 @@ Route::get('/recycling', function () {
 	$data['key'] = 'recycling, recycle, recycled, Environmentally friendly products, 100% recycled polyester, ECOTPC';
 	$data['title'] = 'recycling | Thai Polyester CO., LTD';
 	$data['active_recycle'] = 'activemenu';
-
 	return view('recycling', $data);
 	// return view('page404');
 });
 
 // สินค้า polyester
-// Route::get('/polyester-products', function () {
-// 	$chkie = new Func_controller;
-// 	$data['chkie'] = $chkie->chk();
-// 	$data['des'] = '';
-// 	$data['key'] = 'Polyester Staple Fiber,Draw Textured Yarn,  Fully Drawn Yarn, Monofilament, Open End, Ring Spun, Twist Yarn, Dope dyed';
-// 	$data['title'] = 'All Polyester Products | Thai Polyester CO., LTD';
-// 	$data['active_product'] = 'activemenu';
-
-// 	return view('products/product-polyester-old', $data);
-// });
 Route::get('/polyester-products', function () {
 	$chkie = new Func_controller;
 	$agent = new Agent();
@@ -152,80 +118,6 @@ Route::get('/polyester-products', function () {
 	$data['chkmobile'] = $agent->isMobile() ? $agent->isMobile() : ($agent->isTablet() ? $agent->isTablet() : false);
 	return view('products.product-polyester', $data);
 });
-
-Route::get('/polyester-staple-fiber', function () {
-	return redirect(route('product.psf'), 301);
-
-	/*
-		$chkie = new Func_controller;
-		$data['chkie'] = $chkie->chk();
-		$data['des'] = 'Polyester staple fiber is a material produced from synthetic chemical compounds with a variety of uses in the textile, automotive and furniture industries';
-		$data['key'] = 'Polyester Staple Fiber, PSF, Standard Polyester Staple Fiber, Best Standard Polyester Staple Fiber, Produce cheap Polyester Staple Fiber';
-		$data['title'] = 'PSF (Polyester Staple Fiber) | Thai Polyester CO., LTD';
-		$data['active_product'] = 'activemenu';
-		return view('psf', $data);
-	*/
-});
-// Route::get('/draw-textured-yarn', function () {
-// 	$chkie = new Func_controller;
-// 	$data['chkie'] = $chkie->chk();
-// 	$data['des'] = 'Draw Textured Yarn is a multifilament yarn with soft crimp, high bulk and texture creating natural feel, high durability and. retention properties';
-// 	$data['key'] = 'Draw Textured Yarn, DTY, Standard Draw Textured Yarn, best Draw Textured Yarn, Produce cheap Draw Textured Yarn';
-// 	$data['title'] = 'DTY (Draw Textured Yarn) | Thai Polyester CO., LTD';
-// 	$data['active_product'] = 'activemenu';
-
-// 	return view('dty', $data);
-// });
-Route::get('/fully-drawn-yarn', function () {
-	$chkie = new Func_controller;
-	$data['chkie'] = $chkie->chk();
-	$data['des'] = 'Fully Drawn Yarn is produced by a process similiar to POY manufacturing .the yarn is produced at higher spinning speeds coupled with intermediate drawing integrated in the process itself';
-	$data['key'] = 'Fully Drawn Yarn, FDY, Standard Fully Drawn Yarn, best Fully Drawn Yarn, Produce cheap Fully Drawn Yarn';
-	$data['title'] = 'FDY(Fully Drawn Yarn) | Thai Polyester CO., LTD';
-	$data['active_product'] = 'activemenu';
-
-	return view('fdy', $data);
-});
-// Route::get('/monofilament', function () {
-// 	$chkie = new Func_controller;
-// 	$data['chkie'] = $chkie->chk();
-// 	$data['des'] = 'Monofilament is also known as single polyester yarns, mother yarn for splitting. Mono filament yarn has soft touch and good physical properties';
-// 	$data['key'] = 'Monofilament, Standard Monofilament, best Monofilament, Produce cheap Monofilament';
-// 	$data['title'] = 'Monofilament | Thai Polyester CO., LTD';
-// 	$data['active_product'] = 'activemenu';
-
-// 	return view('special-yarn', $data);
-// });
-Route::get('/open-end', function () {
-	$chkie = new Func_controller;
-	$data['chkie'] = $chkie->chk();
-	$data['des'] = 'the fiber sliver is separated into single fibers and in which the separated fiber material is brought by an air stream to a collecting surface from which it is drawn off while being twisted';
-	$data['key'] = 'Open End, OE, Standard Open End, best Open End, Produce cheap Open End';
-	$data['title'] = 'Open End | Thai Polyester CO., LTD';
-	$data['active_product'] = 'activemenu';
-
-	return view('oe', $data);
-});
-// Route::get('/ring-spun', function () {
-// 	$chkie = new Func_controller;
-// 	$data['chkie'] = $chkie->chk();
-// 	$data['des'] = 'Ring spun yarn is made by twisting and thinning the polyester strands to make a very fine, strong, soft rope of polyester fibers';
-// 	$data['key'] = 'Ring Spun, Standard Ring Spun, best Ring Spun, Produce cheap Ring Spun';
-// 	$data['title'] = 'Ring Spun | Thai Polyester CO., LTD';
-// 	$data['active_product'] = 'activemenu';
-
-// 	return view('ring', $data);
-// });
-Route::get('/twist-yarn', function () {
-	$chkie = new Func_controller;
-	$data['chkie'] = $chkie->chk();
-	$data['des'] = '- Twist is the spiral arrangement of the fibres around the axis of the yarn. The twist binds the fibres together and also contributes to the strength of the yarn. ';
-	$data['key'] = 'Twist Yarn, Standard Twist Yarn, best Twist Yarn, Produce cheap Twist Yarn';
-	$data['title'] = 'Twist Yarn | Thai Polyester CO., LTD';
-	$data['active_product'] = 'activemenu';
-
-	return view('twist-yarn', $data);
-});
 Route::get('/dope-dyed', function () {
 	$chkie = new Func_controller;
 	$data['chkie'] = $chkie->chk();
@@ -233,7 +125,6 @@ Route::get('/dope-dyed', function () {
 	$data['key'] = 'Dope dyed, Standard Dope dyed, best Dope dyed, Produce cheap Dope dyed';
 	$data['title'] = 'Dope dyed | Thai Polyester CO., LTD';
 	$data['active_product'] = 'activemenu';
-
 	return view('dope-dyed', $data);
 });
 // end สินค้า polyester
@@ -243,18 +134,6 @@ Route::get('/page404', function () {
 });
 
 // สินค้า Recycled
-Route::get('/recycled-products-old', function () {
-	$chkie = new Func_controller;
-	$data['chkie'] = $chkie->chk();
-	$data['des'] = 'Nowadays, we are surrounded by millions of plastic waste. one of the things that all of us can do to protect the environment is "recycling" EcoTPC is the Thai sustainable brand that We concern about plastic pollution. Our Recycled products come from 2 sources which are PET post consumer bottle and fabric waste and yarn. All of our recycled product are 100% Recycled polyester with GRS certificate.';
-	$data['key'] = 'recycled polyester products, 100% recycled polyester, recycled yarn, recycled polyester staple fiber production line, Recycled polyester Yarn Manufacturers,Recycled polyester Yarn Manufacturers thailand';
-	$data['title'] = '100% Recycled Polyester | Thai Polyester CO., LTD';
-	$data['active_product'] = 'activemenu';
-
-	return view('products/product-recycled-old', $data);
-	// return view('page404');
-});
-
 Route::get('/recycled-products', function () {
 	$chkie = new Func_controller;
 	$data['chkie'] = $chkie->chk();
@@ -262,55 +141,8 @@ Route::get('/recycled-products', function () {
 	$data['key'] = 'Staple Fiber (PSF), Filament Yarn (PFY), Partially Oriented Yarn (POY), Drawn Textures Yarn (DTY), Fully Drawn Yarn (FDY)';
 	$data['title'] = 'Recycled Polyester Yarn Manufacturer';
 	$data['active_product'] = 'activemenu';
-
 	return view('products/product-recycled', $data);
 	// return view('page404');
-});
-
-Route::get('/recycled-polyester-staple-fiber', function () {
-	$chkie = new Func_controller;
-	$data['chkie'] = $chkie->chk();
-	$data['des'] = 'Polyester staple fiber that made from 100 % recycled polyester sources which are PET post consumer bottle and fabric and yarn waste';
-	$data['key'] = '100% Recycled PSF,100% Recycled Polyester Staple Fiber, recycled psf manufacturers, Polyester Staple Fiber Recycled Yarn Manufacturers thailand, olyester Staple Fiber Recycled polyester Yarn Manufacturers';
-	$data['title'] = '100% Recycled (Polyester Staple Fiber) | Thai Polyester CO., LTD';
-
-	return view('recycled.psf', $data);
-});
-Route::get('/recycled-open-end', function () {
-	$chkie = new Func_controller;
-	$data['chkie'] = $chkie->chk();
-	$data['des'] = 'Open-end  that made from 100 % recycled polyester sources which are PET post consumer bottle and fabric and yarn waste';
-	$data['key'] = '100% recycled Open End, Open End, Open End Recycled Yarn Manufacturers thailand, Open End Recycled polyester Yarn Manufacturers';
-	$data['title'] = '100% Recycled (Open End) | Thai Polyester CO., LTD';
-
-	return view('recycled.oe', $data);
-});
-Route::get('/recycled-fully-drawn-yarn', function () {
-	$chkie = new Func_controller;
-	$data['chkie'] = $chkie->chk();
-	$data['des'] = 'Fully Drawn Yarn that made from 100 % recycled polyester sources which are PET post consumer bottle and fabric and yarn waste';
-	$data['key'] = '100% recycled Fully Drawn Yarn, Fully Drawn Yarn Recycled Yarn Manufacturers thailand, Fully Drawn Yarn Recycled polyester Yarn Manufacturers';
-	$data['title'] = '100% Recycled (Fully Drawn Yarn) | Thai Polyester CO., LTD';
-
-	return view('recycled.fdy', $data);
-});
-Route::get('/recycled-draw-textured-yarn', function () {
-	$chkie = new Func_controller;
-	$data['chkie'] = $chkie->chk();
-	$data['des'] = 'Draw Textured Yarn that made from 100 % recycled polyester sources which are PET post consumer bottle and fabric and yarn waste';
-	$data['key'] = '100% Recycled Draw Textured Yarn, Draw Textured Yarn Recycled Yarn Manufacturers thailand, Draw Textured Yarn Recycled polyester Yarn Manufacturers';
-	$data['title'] = '100% Recycled (Draw Textured Yarn) | Thai Polyester CO., LTD';
-
-	return view('recycled.dty', $data);
-});
-Route::get('/recycled-ring-spun', function () {
-	$chkie = new Func_controller;
-	$data['chkie'] = $chkie->chk();
-	$data['des'] = 'Ring spun yarn that made from 100 % recycled polyester sources which are PET post consumer bottle and fabric and yarn waste';
-	$data['key'] = '100% Recycled Ring Spun, Ring Spun Recycled Yarn Manufacturers thailand,  Ring Spun Recycled polyester Yarn Manufacturers ';
-	$data['title'] = '100% Recycled (Ring Spun) | Thai Polyester CO., LTD';
-
-	return view('recycled.ring', $data);
 });
 // end สินค้า Recycled
 
@@ -332,12 +164,8 @@ Route::group(['prefix' => 'blog', 'as' => 'blog.'], function () {
 	Route::get('/columns&news/news', 'frontend\blog\blogController@news')->name('news');
 	Route::get('/{slug}', 'frontend\blog\blogController@blog');
 });
-
 Route::group(['prefix' => 'product', 'as' => 'product.'], function () {
-	// Route::get('/polyester-staple-fiber', 'Products\PsfController@index')->name('psf');
-
 	Route::get('/polyester-staple-fiber', function () {
-		// return redirect(route('product.psf'), 301);
 		$chkie = new Func_controller;
 		$agent = new Agent();
 		$data['chkie'] = $chkie->chk();
@@ -438,11 +266,3 @@ Route::group(['prefix' => 'product', 'as' => 'product.'], function () {
 		return view('products.open-end', $data);
     })->name('open-end');
 });
-
-//sendemail
-Route::post('/send-massage', 'Send_email_controller@send')->name('sendemail');
-Route::post('/f-send-massage', 'Send_email_controller@footersend')->name('sendemail');
-
-// Route::get('/ourprocess', [
-// 	'uses' => 'Backoffice\Front_ArticleController@getDelete'
-// ])->name('front_article.delete');
