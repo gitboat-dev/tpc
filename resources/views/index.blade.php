@@ -1,7 +1,7 @@
 @extends('layouts.template')
 @section('style')
 	<link rel="preload stylesheet" href="/css/index.css?v={{ time() }}" as="style" crossorigin>
-	<link rel="preload stylesheet" id="fancybox-css" href="{!!asset('/assets/custom/wp-content/plugins/radiantthemes-addons/assets/css/jquery.fancybox.min.css?ver=4.9.11')!!}" type="text/css" as="style" media="all" crossorigin>
+	{{-- <link rel="preload stylesheet" id="fancybox-css" href="{!!asset('/assets/custom/wp-content/plugins/radiantthemes-addons/assets/css/jquery.fancybox.min.css?ver=4.9.11')!!}" type="text/css" as="style" media="all" crossorigin> --}}
 @endsection
 @section('content')
 	<div id="home">
@@ -383,5 +383,5 @@
 @endsection
 @section('custom-script')
 	<script src="/js/index.js?v={{ time() }}"></script>
-	<script src="/assets/custom/wp-content/plugins/radiantthemes-addons/assets/js/jquery.fancybox.min.js?v={{ time() }}"></script>
+	{{-- <script src="/assets/custom/wp-content/plugins/radiantthemes-addons/assets/js/jquery.fancybox.min.js?v={{ time() }}"></script> --}}
 @endsection
