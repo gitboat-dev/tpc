@@ -12,5 +12,6 @@
 <link rel="stylesheet"  href="/css/layout/template.min.css?v={{time()}}" type="text/css" media="all">
 <link rel="stylesheet"  href="/css/pdpa/pdpa.min.css?v={{time()}}" type="text/css" media="all">
 <link rel="stylesheet" id="contact-tools-css" href="/css/layout/contact-tools.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="fancybox-css" href="{!!asset('/assets/custom/wp-content/plugins/radiantthemes-addons/assets/css/jquery.fancybox.min.css?ver=4.9.11')!!}" type="text/css" media="all">
 
 
