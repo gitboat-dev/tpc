@@ -55,7 +55,7 @@
                         <div class="content m-auto">
                             <div class="video_1 pos-r">
                                 <video autoplay muted loop playsinline id="video1" poster="">
-                                    <source src="/assets/images/landing/page4/video/minify/TPC-Landing-Page2.mp4" type="video/mp4">
+                                    <source src="/assets/images/psf/video/Landing Page PSF.mp4" type="video/mp4">
                                 </video>
                                 <figure class="btn-play d-flex pos-ab top-0 left-0 w-100p h-100p">
                                     <button class="m-auto" id="btn-video1" name="play">
