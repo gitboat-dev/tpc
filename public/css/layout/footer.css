@@ -10,6 +10,9 @@
     border-right: none;
     border-bottom: none;
 }
+.fp-0{
+    padding: 0 !important;
+}
 .icon{
     position: absolute;
     top: -5px;
