@@ -179,6 +179,7 @@ footer.footer_wraper .footer_body .content_group .content{
     }
 }
 .copyright{
+    max-width: 1920px;
     position: relative;
     min-height: 44px;
     display: flex;
