@@ -463,6 +463,235 @@
                 </div>
             </div>
         </section>
+        <section id="sec2">
+            <div class="row r1">
+                <div class="col-xs-7 col-sm-7 col-md-7 p-0 col1">
+                    <div class="prod-block d-flex prod1">
+                        <div class="col-xs-5 col-sm-5 col-md-6 p-0 d-flex m-auto">
+                            <picture class="m-auto">
+                                <source srcset="\assets\images\product-new\mobile\PSF-Polyester-Staple-Fiber-Thaipolyester-1.webp"  media="(max-width: 640px)" loading="lazy">
+                                <img src="\assets\images\product-new\desktop\PSF-Polyester-Staple-Fiber-Thaipolyester-1.webp" width="900" height="350" class="img-fluid" alt="PSF Polyester Staple Fiber Thaipolyester" loading="lazy">
+                            </picture>
+                        </div>
+                        <div class="col-xs-7 col-sm-7 col-md-6 p-0 d-flex m-auto">
+                            <div class="prod-desc m-auto">
+                                <h2 class="prod-title text-center m-0 fw-600">FIBER</h2>
+                                <small class="d-block text-center">(Polyester Staple Fiber)</small>
+                                <br>
+                                <span class="d-block text-center">PSF Virgin / PSF Recycled</span>
+                                <table>
+                                    <tr>
+                                        <th>DENIER</th>
+                                        <td>: 1.0 ,1.2 ,1.4</td>
+                                    </tr>
+                                    <tr>
+                                        <th>CUT LENGTH (MM)</th>
+                                        <td>
+                                            <p class="m-auto">: 32,38,44,51</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>COLOR</th>
+                                        <td>: RW ,DDB</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-5 col-sm-5 col-md-5 p-0 col2">
+                    <div class="prod-block d-flex prod2">
+                        <div class="col-xs-7 col-sm-7 col-md-7 p-0 d-flex m-auto">
+                            <div class="prod-desc m-auto">
+                                <h2 class="prod-title text-center m-0 fw-600">Filament yarn</h2>
+                            </div>
+                        </div>
+                        <div class="col-xs-5 col-sm-5 col-md-5 p-0 d-flex m-auto">
+                            <picture class="mr-0">
+                                <source srcset="\assets\images\product-new\mobile\Filament-Yarn-Polyester-Thaipolyester-1.webp"  media="(max-width: 640px)" loading="lazy">
+                                <img src="\assets\images\product-new\desktop\Filament-Yarn-Polyester-Thaipolyester-1.webp" width="900" height="350" class="img-fluid" alt="Filament Yarn Polyester Thaipolyester" loading="lazy">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row r2">
+                <div class="col-xs-5 col-sm-5 col-md-5 p-0 col1">
+                    <div class="prod-block d-flex prod3">
+                        <div class="col-xs-5 col-sm-5 col-md-5 p-0 d-flex mb-0">
+                            <picture class="m-auto">
+                                <source srcset="\assets\images\product-new\mobile\POY-Partially-Oriented-Yarn-Polyester-Thaipolyester.webp"  media="(max-width: 640px)" loading="lazy">
+                                <img src="\assets\images\product-new\desktop\POY-Partially-Oriented-Yarn-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="POY Partially Oriented Yarn Polyester Thaipolyester" loading="lazy">
+                            </picture>
+                        </div>
+                        <div class="col-xs-7 col-sm-7 col-md-7 p-0 d-flex m-auto">
+                            <div class="prod-desc m-auto">
+                                <h2 class="prod-title m-0 fw-600">YARN TYPE</h2>
+                                <small class="d-block">Partially Oriented Yarn (POY)</small>
+                                <table>
+                                    <tr>
+                                        <th>LUSTER</th>
+                                        <td>: SD</td>
+                                    </tr>
+                                    <tr>
+                                        <th>TYPE</th>
+                                        <td>
+                                            <p class="m-auto">: Virgin & Recycled</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>COLOR</th>
+                                        <td>: RW,DDB</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="d-flex">
+                                            D/F
+                                        </th>
+                                        <td>
+                                            : 85/36, 125/36, 125/72, 125/144,
+                                            165/36, 165/48, 260/48, 260/96,
+                                            260/144, 260/288, 500/96
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-7 col-sm-7 col-md-7 p-0 col2">
+                    <div class="prod-block d-flex prod4">
+                        <div class="col-xs-7 col-sm-7 col-md-6 p-0 d-flex m-auto">
+                            <div class="prod-desc m-auto">
+                                <h2 class="prod-title m-0 fw-600">YARN TYPE</h2>
+                                <small class="d-block">Draw Textured Yarn (DTY)</small>
+                                <br>
+                                <table>
+                                    <tr>
+                                        <th>LUSTER</th>
+                                        <td>: SD</td>
+                                    </tr>
+                                    <tr>
+                                        <th>TYPE</th>
+                                        <td>
+                                            <p class="m-auto">: Virgin & Recycled</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>COLOR</th>
+                                        <td>: RW,DDB,DYED YARN</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="d-flex">
+                                            D/F
+                                        </th>
+                                        <td>
+                                            : 75/36, 75/72, 75/144,<br>
+                                            100/36, 100/48, 100/96,<br>
+                                            150/48, 150/96, 150/144,<br>
+                                            150/288, 300/96
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="col-xs-5 col-sm-5 col-md-6 p-0 d-flex m-auto">
+                            <picture class="m-auto">
+                                <source srcset="\assets\images\product-new\mobile\DTY-Draw-Textured-Yarn-Polyester-Thaipolyester-1.webp"  media="(max-width: 640px)" loading="lazy">
+                                <img src="\assets\images\product-new\desktop\DTY-Draw-Textured-Yarn-Polyester-Thaipolyester-1.webp" width="900" height="350" class="img-fluid" alt="DTY Draw Textured Yarn Polyester Thaipolyester" loading="lazy">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row r4">
+                <div class="col-xs-5 col-sm-5 col-md-5 p-0 col1">
+                    <div class="prod-block d-flex prod10">
+                        <div class="col-xs-8 col-sm-8 col-md-8 p-0 d-flex m-auto">
+                            <div class="prod-desc m-auto">
+                                <h2 class="prod-title m-0 fw-600">SPUN TYPE</h2>
+                                <small class="d-block">RING SPUN</small>
+                                <br>
+                                <table>
+                                    <tr>
+                                        <th>LUSTER</th>
+                                        <td>: SD</td>
+                                    </tr>
+                                    <tr>
+                                        <th>TYPE</th>
+                                        <td>
+                                            : Virgin & Recycled
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th class="d-flex">COLOR</th>
+                                        <td>: RW, DDB, MELANGE,<br> DYED YARN</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="d-flex">
+                                            D/F
+                                        </th>
+                                        <td>
+                                            : 18/1, 20/1, 30/1,<br>
+                                            32/1, 10/2, 20/2,<br>
+                                            30/2
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 p-0 d-flex mr-0">
+                            <picture class="mr-0">
+                                <source srcset="\assets\images\product-new\mobile\Ring-Spun-Yarn-Polyester-Thaipolyester-1.webp"  media="(max-width: 640px)" loading="lazy">
+                                <img src="\assets\images\product-new\desktop\Ring-Spun-Yarn-Polyester-Thaipolyester-1.webp" width="900" height="350" class="img-fluid" alt="POY Partially Oriented Yarn Polyester Thaipolyester" loading="lazy">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-7 col-sm-7 col-md-7 p-0 col2">
+                    <div class="prod-block d-flex prod11">
+                        <div class="col-xs-7 col-sm-7 col-md-6 p-0 d-flex m-auto">
+                            <div class="prod-desc m-auto">
+                                <h2 class="prod-title m-0 fw-600">SPUN TYPE</h2>
+                                <small class="d-block">OE SPUN</small>
+                                <br>
+                                <table>
+                                    <tr>
+                                        <th>LUSTER</th>
+                                        <td>: SD</td>
+                                    </tr>
+                                    <tr>
+                                        <th>TYPE</th>
+                                        <td>
+                                            <p class="m-auto">: Virgin & Recycled</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th class="d-flex">COLOR</th>
+                                        <td>: RW, DDB, MELANGE,<br> DYED YARN</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="d-flex">
+                                            D/F
+                                        </th>
+                                        <td>
+                                            : 10/1, 12/1, 14/1,<br>
+                                            18/1, 20/1, 10/2,<br>
+                                            20/2
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="col-xs-5 col-sm-5 col-md-6 p-0 d-flex m-auto">
+                            <picture class="m-auto">
+                                <source srcset="\assets\images\product-new\mobile\DTY-Draw-Textured-Yarn-Polyester-Thaipolyester-1.webp"  media="(max-width: 640px)" loading="lazy">
+                                <img src="\assets\images\product-new\desktop\DTY-Draw-Textured-Yarn-Polyester-Thaipolyester-1.webp" width="900" height="350" class="img-fluid" alt="DTY Draw Textured Yarn Polyester Thaipolyester" loading="lazy">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
 </div>
 @endsection

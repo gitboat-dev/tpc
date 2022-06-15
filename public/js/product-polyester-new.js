@@ -1,5 +1,8 @@
 jQuery(document).ready(function($){
     sec1_slide();
+    row1();
+    row2();
+    row4();
     $('div.burger-menu').on('click',function(){
         if($(this).hasClass('change')){
             setTimeout(function(){
@@ -7,7 +10,42 @@ jQuery(document).ready(function($){
             },1000);
         }
     });
+    $(window).resize(function() {
+        row1();
+        row2();
+        row4();
+    });
+    $(window).scroll(function(){
+        row1();
+        row2();
+        row4();
+    });
 });
+function row1(){
+    let col1 = $('#sec2 .r1 .col1 .prod-block'),
+        col2 = $('#sec2 .r1 .col2 .prod-block'),
+        minheight = $(col2).outerHeight();
+    $(col1).css({'min-height':minheight+'px'});
+}
+function row2(){
+    let col1 = $('#sec2 .r2 .col1 .prod-block'),
+        col2 = $('#sec2 .r2 .col2 .prod-block'),
+        minheight = $(col1).outerHeight(),
+        minheight2 = $(col2).outerHeight();
+    if($(window).width() <= 991){
+        $(col2).css({'min-height':minheight+'px'});
+        $(col1).removeAttr('style');
+    }else{
+        $(col2).removeAttr('style');
+        $(col1).css({'min-height':minheight2+'px'});
+    }
+}
+function row4(){
+    let col1 = $('#sec2 .r4 .col1 .prod-block'),
+        col2 = $('#sec2 .r4 .col2 .prod-block'),
+        minheight = $(col2).outerHeight();
+    $(col1).css({'min-height':minheight+'px'});
+}
 function sec1_slide(reload = 0){
     owl = $('#sec1 .slide .owl-carousel').owlCarousel({
         lazyLoad:true,

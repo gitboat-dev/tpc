@@ -124,6 +124,82 @@
     text-transform: uppercase;
     font-size: 16px;
 }
+
+/* end sec1 */
+
+#sec2{
+    padding: 30px;
+}
+#sec2 .prod1{
+    background-color: #f7efe8;
+    color: var(--msBgDark);
+}
+#sec2 .prod2{
+    background-color: #5a514e;
+    color: var(--msBgLight)
+}
+#sec2 .prod3{
+    background-color: #e7d5c1;
+    color: var(--msBgDark);
+}
+#sec2 .prod4{
+    background-color: #718d8e;
+    color: var(--msBgLight)
+}
+#sec2 .prod10{
+    background-color: #eac085;
+    color: var(--msBgDark);
+}
+#sec2 .prod11{
+    background-color: #c1d6d7;
+    color: var(--msBgDark);
+}
+#sec2 .prod-desc .prod-title{
+    font-size: 32px;
+    line-height: 32px;
+}
+#sec2 .prod-desc{
+    font-size: 16px;
+    line-height: 20px;
+    padding: 8px;
+}
+#sec2 .prod-desc table tr > th,
+#sec2 .prod-desc table tr > td{
+    font-size: 80%;
+}
+#sec2 .r1{
+    margin: 0;
+    margin-bottom: 15px;
+}
+#sec2 .r1 .col1{
+    padding-right: 15px !important;
+}
+#sec2 .r1 .col2{
+    padding-left: 15px !important;
+}
+#sec2 .r2{
+    margin: 0;
+    margin: 15px 0;
+}
+#sec2 .r2 .col1{
+    padding-right: 15px !important;
+}
+#sec2 .r2 .col2{
+    padding-left: 15px !important;
+}
+#sec2 .r4{
+    margin: 0;
+    margin-top: 15px;
+}
+#sec2 .r4 .col1{
+    padding-right: 15px !important;
+}
+#sec2 .r4 .col2{
+    padding-left: 15px !important;
+}
+
+/* end sec2 */
+
 @media only screen and (min-width: 1350px){
     #sec1 .owl-carousel .owl-nav .owl-prev{
         bottom: 20%;
@@ -147,6 +223,16 @@
     #sec1 .slide .item .slide-footer .type-block .type-lists .type-group .type-content{
         font-size: 24px;
     }
+
+    /* end sec1 */
+
+    #sec2 .prod-desc{
+        font-size: 24px;
+        line-height: 30px;
+        padding: 10px;
+    }
+
+    /* end sec2 */
 }
 @media only screen and (max-width: 991px){
     #sec1 .slide .item.head .content{
@@ -167,6 +253,33 @@
     #sec1 .slide .item.blue .slide-title{
         font-size: 4em;
     }
+
+    /* end sec1 */
+
+    #sec2 .prod-desc .prod-title{
+        font-size: 30px;
+        line-height: 30px;
+    }
+    #sec2 .r1 .col1{
+        padding-right: 3.75px !important;
+    }
+    #sec2 .r1 .col2{
+        padding-left: 3.75px !important;
+    }
+    #sec2 .r2 .col1{
+        padding-right: 3.75px !important;
+    }
+    #sec2 .r2 .col2{
+        padding-left: 3.75px !important;
+    }
+    #sec2 .r4 .col1{
+        padding-right: 3.75px !important;
+    }
+    #sec2 .r4 .col2{
+        padding-left: 3.75px !important;
+    }
+
+    /* end sec2 */
 }
 @media only screen and (max-width: 768px){
     #sec1 .slide .item.head .content{
@@ -187,16 +300,38 @@
     #sec1 .slide .item.blue .slide-title{
         font-size: 3em;
     }
+
+    /* end sec1 */
+
+    #sec2{
+        padding: 7.5px;
+    }
+    #sec2 .r1{
+        margin-bottom: 7.5px;
+    }
+    #sec2 .r2{
+        margin: 7.5px 0;
+    }
+    #sec2 .r4{
+        margin-top: 7.5px;
+    }
+
+    /* end sec2 */
 }
 @media only screen and (min-width: 641px){
     .show-m{
         display: none;
     }
+
+    /* end all setting */
 }
 @media only screen and (max-width: 640px){
     .show-d{
         display: none;
     }
+
+    /* end all setting */
+
     #sec1 .owl-carousel .owl-nav .owl-prev{
         bottom: 20%;
         left: 40%;
@@ -231,6 +366,20 @@
     #sec1 .slide .item .slide-footer .type-block .type-lists .type-group .type-content{
         font-size: 8px;
     }
+
+    /* end sec1 */
+
+    #sec2 .prod-desc{
+        font-size: 7px;
+        line-height: 10px;
+        padding: 2px;
+    }
+    #sec2 .prod-desc .prod-title{
+        font-size: 13px;
+        line-height: 13px;
+    }
+
+    /* end sec2 */
 }
 @media only screen and (max-width: 540px){
     #sec1 .slide .item.green .slide-title{
@@ -241,6 +390,8 @@
         font-size: 1.3em;
         line-height: 34px;
     }
+
+    /* end sec1 */
 }
 @media only screen and (max-width: 300px){
     #sec1 .owl-carousel .owl-nav .owl-prev{
@@ -264,5 +415,16 @@
     #sec1 .slide .item.blue .slide-title{
         font-size: 0.9em;
         line-height: 20px;
+    }
+
+    /* end sec1 */
+
+    #sec2 .prod-desc{
+        font-size: 6px;
+        line-height: 8px;
+    }
+    #sec2 .prod-desc .prod-title{
+        font-size: 12px;
+        line-height: 12px;
     }
 }
