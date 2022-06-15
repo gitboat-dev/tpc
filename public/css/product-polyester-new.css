@@ -1,5 +1,20 @@
 
-
+#sec1 .owl-carousel .owl-nav .owl-prev{
+    position: absolute;
+    bottom: 25%;
+    left: 40%;
+    font-size: 52px;
+    font-weight: bold;
+    color: var(--msBg);
+}
+#sec1 .owl-carousel .owl-nav .owl-next{
+    position: absolute;
+    bottom: 25%;
+    right: 40%;
+    font-size: 52px;
+    font-weight: bold;
+    color: var(--msBg);
+}
 #sec1 .slide .item.head .content{
     position: absolute;
     width: 100%;
@@ -40,7 +55,66 @@
 #sec1 .slide .item.blue .slide-img img{
     max-width: 85%;
 }
+#sec1 .slide .item .slide-footer{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+#sec1 .slide .item.head .slide-footer{
+    background-color: var(--msBgDark);
+    color: var(--msBgLight);
+}
+#sec1 .slide .item.green .slide-footer{
+    background-color: transparent;
+    border-top: 1px solid #ccc;
+    color: var(--msBgLight);
+}
+#sec1 .slide .item.blue .slide-footer{
+    background-color: transparent;
+    border-top: 1px solid #ccc;
+    color: var(--msBgDark);
+}
+#sec1 .slide .item .slide-footer .type-block{
+    min-width: 90%;
+    padding: 10px 0;
+}
+#sec1 .slide .item.head .slide-footer .type-block .type-lists:not(:last-child)::after,
+#sec1 .slide .item.green .slide-footer .type-block .type-lists:not(:last-child)::after{
+    content: " ";
+    position: absolute;
+    top: 10%;
+    right: 0;
+    width: 2px;
+    height: 80%;
+    background-color: #ccc;
+}
+#sec1 .slide .item.blue .slide-footer .type-block .type-lists:not(:last-child)::after{
+    content: " ";
+    position: absolute;
+    top: 10%;
+    right: 0;
+    width: 2px;
+    height: 80%;
+    background-color: var(--msBgDark);
+}
+#sec1 .slide .item .slide-footer .type-block .type-lists .type-group{
+    min-width: 80%;
+}
+#sec1 .slide .item .slide-footer .type-block .type-lists .type-group .type-content{
+    text-transform: uppercase;
+    font-size: 16px;
+}
 @media only screen and (min-width: 1350px){
+    #sec1 .owl-carousel .owl-nav .owl-prev{
+        bottom: 20%;
+        font-size: 92px;
+    }
+    #sec1 .owl-carousel .owl-nav .owl-next{
+        bottom: 20%;
+        font-size: 92px;
+    }
     #sec1 .slide .item.head .slide-title{
         font-size: 8em;
     }
@@ -51,6 +125,9 @@
     #sec1 .slide .item.blue .slide-title{
         font-size: 8em;
         margin-top: 60px !important;
+    }
+    #sec1 .slide .item .slide-footer .type-block .type-lists .type-group .type-content{
+        font-size: 24px;
     }
 }
 @media only screen and (max-width: 991px){
@@ -102,7 +179,16 @@
     .show-d{
         display: none;
     }
-
+    #sec1 .owl-carousel .owl-nav .owl-prev{
+        bottom: 20%;
+        left: 40%;
+        font-size: 32px;
+    }
+    #sec1 .owl-carousel .owl-nav .owl-next{
+        bottom: 20%;
+        right: 40%;
+        font-size: 32px;
+    }
     #sec1 .slide .item.head .content{
         top: 1%;
     }
@@ -124,6 +210,9 @@
     #sec1 .slide .item.blue .slide-title{
         margin-top: 15px !important;
     }
+    #sec1 .slide .item .slide-footer .type-block .type-lists .type-group .type-content{
+        font-size: 8px;
+    }
 }
 @media only screen and (max-width: 540px){
     #sec1 .slide .item.green .slide-title{
@@ -136,6 +225,16 @@
     }
 }
 @media only screen and (max-width: 300px){
+    #sec1 .owl-carousel .owl-nav .owl-prev{
+        bottom: 28%;
+        left: 35%;
+        font-size: 22px;
+    }
+    #sec1 .owl-carousel .owl-nav .owl-next{
+        bottom: 28%;
+        right: 35%;
+        font-size: 22px;
+    }
     #sec1 .slide .item.head .slide-title{
         font-size: 1.5em;
         line-height: 28px;
