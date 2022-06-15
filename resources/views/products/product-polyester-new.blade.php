@@ -684,8 +684,8 @@
                         </div>
                         <div class="col-xs-5 col-sm-5 col-md-6 p-0 d-flex m-auto">
                             <picture class="m-auto">
-                                <source srcset="\assets\images\product-new\mobile\DTY-Draw-Textured-Yarn-Polyester-Thaipolyester-1.webp"  media="(max-width: 640px)" loading="lazy">
-                                <img src="\assets\images\product-new\desktop\DTY-Draw-Textured-Yarn-Polyester-Thaipolyester-1.webp" width="900" height="350" class="img-fluid" alt="DTY Draw Textured Yarn Polyester Thaipolyester" loading="lazy">
+                                <source srcset="\assets\images\product-new\mobile\OE-Spun-Yarn-Polyester-Thaipolyester.webp"  media="(max-width: 640px)" loading="lazy">
+                                <img src="\assets\images\product-new\desktop\OE-Spun-Yarn-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="OE Spun Yarn Polyester Thaipolyester" loading="lazy">
                             </picture>
                         </div>
                     </div>

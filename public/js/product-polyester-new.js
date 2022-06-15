@@ -43,8 +43,17 @@ function row2(){
 function row4(){
     let col1 = $('#sec2 .r4 .col1 .prod-block'),
         col2 = $('#sec2 .r4 .col2 .prod-block'),
-        minheight = $(col2).outerHeight();
-    $(col1).css({'min-height':minheight+'px'});
+        minheight = $(col1).outerHeight(),
+        minheight2 = $(col2).outerHeight();
+
+        if($(window).width() <= 991){
+            $(col1).css({'min-height':minheight2+'px'});
+            $(col2).removeAttr('style');
+        }else{
+            $(col2).css({'min-height':minheight+'px'});
+            $(col1).removeAttr('style');
+        }
+
 }
 function sec1_slide(reload = 0){
     owl = $('#sec1 .slide .owl-carousel').owlCarousel({
