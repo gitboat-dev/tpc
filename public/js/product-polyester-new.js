@@ -11,6 +11,7 @@ jQuery(document).ready(function($){
 function sec1_slide(reload = 0){
     owl = $('#sec1 .slide .owl-carousel').owlCarousel({
         lazyLoad:true,
+        center:true,
         loop:true,
         autoplay:true,
         autoplayTimeout:4000,
@@ -21,6 +22,20 @@ function sec1_slide(reload = 0){
         dots:false,
         items:1,
         animateOut: 'fadeOut',
+        onChanged: function (e) {
+            let slide = $(e.target).find(".owl-item").eq(e.item.index).find('.item'),
+                nav = $('#sec1 .slide .owl-carousel .owl-nav');
+            if($(slide).hasClass('head') || $(slide).hasClass('blue')){
+                nav.addClass('c-green');
+                nav.removeClass('c-white');
+            }else if($(slide).hasClass('green')){
+                nav.addClass('c-white');
+                nav.removeClass('c-green');
+            }else{
+                nav.addClass('c-green');
+                nav.removeClass('c-white');
+            }
+        },
     });
     if(reload > 0){
         owl.trigger('refresh.owl.carousel');

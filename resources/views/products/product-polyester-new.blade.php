@@ -118,7 +118,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="item green p-0">
+                    <div class="item green p-0 pos-r">
                         <picture>
                             <source srcset="/assets/images/product-new/mobile/bg-green.webp"  media="(max-width: 640px)" loading="lazy">
                             <img src="/assets/images/product-new/desktop/bg-green.webp" width="900" height="350" class="img-fluid" alt="Polyester Product" loading="lazy">
@@ -175,7 +175,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="item blue p-0">
+                    <div class="item blue p-0 pos-r">
                         <picture>
                             <source srcset="/assets/images/product-new/mobile/bg-blue.webp"  media="(max-width: 640px)" loading="lazy">
                             <img src="/assets/images/product-new/desktop/bg-blue.webp" width="900" height="350" class="img-fluid" alt="Polyester Product" loading="lazy">
@@ -232,7 +232,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="item green p-0">
+                    <div class="item green p-0 pos-r">
                         <picture>
                             <source srcset="/assets/images/product-new/mobile/bg-green.webp"  media="(max-width: 640px)" loading="lazy">
                             <img src="/assets/images/product-new/desktop/bg-green.webp" width="900" height="350" class="img-fluid" alt="Polyester Product" loading="lazy">
@@ -289,7 +289,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="item green p-0">
+                    <div class="item green p-0 pos-r">
                         <picture>
                             <source srcset="/assets/images/product-new/mobile/bg-green.webp"  media="(max-width: 640px)" loading="lazy">
                             <img src="/assets/images/product-new/desktop/bg-green.webp" width="900" height="350" class="img-fluid" alt="Polyester Product" loading="lazy">
@@ -346,7 +346,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="item blue p-0">
+                    <div class="item blue p-0 pos-r">
                         <picture>
                             <source srcset="/assets/images/product-new/mobile/bg-blue.webp"  media="(max-width: 640px)" loading="lazy">
                             <img src="/assets/images/product-new/desktop/bg-blue.webp" width="900" height="350" class="img-fluid" alt="Polyester Product" loading="lazy">
@@ -403,7 +403,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="item green p-0">
+                    <div class="item green p-0 pos-r">
                         <picture>
                             <source srcset="/assets/images/product-new/mobile/bg-green.webp"  media="(max-width: 640px)" loading="lazy">
                             <img src="/assets/images/product-new/desktop/bg-green.webp" width="900" height="350" class="img-fluid" alt="Polyester Product" loading="lazy">
