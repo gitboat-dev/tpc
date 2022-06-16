@@ -1,3 +1,25 @@
+body{
+    --prod1-bg-color:#f7efe8;
+    --prod2-bg-color:#5a514e;
+    --prod3-bg-color:#e7d5c1;
+    --prod4-bg-color:#718d8e;
+    --prod5-bg-color:#e9dbaa;
+    --prod6-bg-color:#255456;
+    --prod7-bg-color:#d0d5cd;
+    --prod8-bg-color:#bb8968;
+    --prod9-bg-color:#ede4de;
+    --prod10-bg-color:#eac085;
+    --prod11-bg-color:#c1d6d7;
+    --r1-col1-padding:0 7.5px 0 0;
+    --r1-col2-padding:0 0 0 7.5px;
+    --r2-col1-padding:0 7.5px 0 0;
+    --r2-col2-padding:0 0 0 7.5px;
+    --r3-col1-padding:0 7.5px 7.5px 0;
+    --r3-col2-padding:7.5px 7.5px 0 0;
+    --r3-col3-padding:7.5px 7.5px 0 7.5px;
+    --r3-col4-padding:0 7.5px 7.5px 0;
+    --r3-col5-padding:7.5px 0 0 7.5px;
+}
 #sec1 .owl-carousel .owl-nav{
     color: var(--msBg);
     transition: all 0.2s;
@@ -131,47 +153,47 @@
     padding: 15px;
 }
 #sec2 .prod1{
-    background-color: #f7efe8;
+    background-color: var(--prod1-bg-color);
     color: var(--msBgDark);
 }
 #sec2 .prod2{
-    background-color: #5a514e;
+    background-color: var(--prod2-bg-color);
     color: var(--msBgLight)
 }
 #sec2 .prod3{
-    background-color: #e7d5c1;
+    background-color: var(--prod3-bg-color);
     color: var(--msBgDark);
 }
 #sec2 .prod4{
-    background-color: #718d8e;
+    background-color: var(--prod4-bg-color);
     color: var(--msBgLight)
 }
 #sec2 .prod5{
-    background-color: #e9dbaa;
+    background-color: var(--prod5-bg-color);
     color: var(--msBgDark)
 }
 #sec2 .prod6{
-    background-color: #255456;
+    background-color: var(--prod6-bg-color);
     color: var(--msBgLight)
 }
 #sec2 .prod7{
-    background-color: #d0d5cd;
+    background-color: var(--prod7-bg-color);
     color: var(--msBgDark)
 }
 #sec2 .prod8{
-    background-color: #bb8968;
+    background-color: var(--prod8-bg-color);
     color: var(--msBgDark)
 }
 #sec2 .prod9{
-    background-color: #ede4de;
+    background-color: var(--prod9-bg-color);
     color: var(--msBgDark)
 }
 #sec2 .prod10{
-    background-color: #eac085;
+    background-color: var(--prod10-bg-color);
     color: var(--msBgDark);
 }
 #sec2 .prod11{
-    background-color: #c1d6d7;
+    background-color: var(--prod11-bg-color);
     color: var(--msBgDark);
 }
 #sec2 .prod-block:hover .star{
@@ -198,20 +220,20 @@
     margin-bottom: 15px;
 }
 #sec2 .r1 .col1{
-    padding-right: 7.5px !important;
+    padding: var(--r1-col1-padding) !important;
 }
 #sec2 .r1 .col2{
-    padding-left: 7.5px !important;
+    padding: var(--r1-col2-padding) !important;
 }
 #sec2 .r2{
     margin: 0;
     margin: 15px 0;
 }
 #sec2 .r2 .col1{
-    padding-right: 7.5px !important;
+    padding: var(--r2-col1-padding) !important;
 }
 #sec2 .r2 .col2{
-    padding-left: 7.5px !important;
+    padding: var(--r2-col2-padding) !important;
 }
 #sec2 .r3{
     margin: 0;
