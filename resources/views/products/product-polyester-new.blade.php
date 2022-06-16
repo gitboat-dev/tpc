@@ -464,9 +464,9 @@
             </div>
         </section>
         <section id="sec2">
-            <div class="row r1">
+            <div class="row r1 d-flex">
                 <div class="col-xs-7 col-sm-7 col-md-7 p-0 col1">
-                    <div class="prod-block d-flex prod1">
+                    <div class="prod-block d-flex w-100p h-100p prod1">
                         <div class="col-xs-5 col-sm-5 col-md-6 p-0 d-flex m-auto">
                             <picture class="m-auto">
                                 <source srcset="\assets\images\product-new\mobile\PSF-Polyester-Staple-Fiber-Thaipolyester-1.webp"  media="(max-width: 640px)" loading="lazy">
@@ -500,7 +500,7 @@
                     </div>
                 </div>
                 <div class="col-xs-5 col-sm-5 col-md-5 p-0 col2">
-                    <div class="prod-block d-flex prod2">
+                    <div class="prod-block d-flex w-100p h-100p prod2">
                         <div class="col-xs-7 col-sm-7 col-md-7 p-0 d-flex m-auto">
                             <div class="prod-desc m-auto">
                                 <h2 class="prod-title text-center m-0 fw-600">Filament yarn</h2>
@@ -515,9 +515,9 @@
                     </div>
                 </div>
             </div>
-            <div class="row r2">
+            <div class="row r2 d-flex">
                 <div class="col-xs-5 col-sm-5 col-md-5 p-0 col1">
-                    <div class="prod-block d-flex prod3">
+                    <div class="prod-block d-flex w-100p h-100p prod3">
                         <div class="col-xs-5 col-sm-5 col-md-5 p-0 d-flex mb-0">
                             <picture class="m-auto">
                                 <source srcset="\assets\images\product-new\mobile\POY-Partially-Oriented-Yarn-Polyester-Thaipolyester.webp"  media="(max-width: 640px)" loading="lazy">
@@ -559,7 +559,7 @@
                     </div>
                 </div>
                 <div class="col-xs-7 col-sm-7 col-md-7 p-0 col2">
-                    <div class="prod-block d-flex prod4">
+                    <div class="prod-block d-flex w-100p h-100p prod4">
                         <div class="col-xs-7 col-sm-7 col-md-6 p-0 d-flex m-auto">
                             <div class="prod-desc m-auto">
                                 <h2 class="prod-title m-0 fw-600">YARN TYPE</h2>
@@ -603,9 +603,177 @@
                     </div>
                 </div>
             </div>
-            <div class="row r4">
+            <div class="row r3 d-flex">
+                <div class="col-xs-7 col-sm-7 col-md-7 p-0 r3-b1">
+                    <div class="col-xs-12 col-sm-12 col-md-12 p-0 d-flex col1">
+                        <div class="prod-block d-flex w-100p prod5">
+                            <div class="col-xs-7 col-sm-7 col-md-6 p-0 d-flex m-auto">
+                                <div class="prod-desc m-auto">
+                                    <h2 class="prod-title m-0 fw-600">YARN TYPE</h2>
+                                    <small class="d-block">Fully Drawn Yarn (FDY)</small>
+                                    <br>
+                                    <table>
+                                        <tr>
+                                            <th>LUSTER</th>
+                                            <td>: SD, TBR</td>
+                                        </tr>
+                                        <tr>
+                                            <th>TYPE</th>
+                                            <td>
+                                                <p class="m-auto">: Virgin & Recycled</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>COLOR</th>
+                                            <td>: RW, DDB</td>
+                                        </tr>
+                                        <tr>
+                                            <th class="d-flex">
+                                                D/F
+                                            </th>
+                                            <td>
+                                                : 40/18, 50/18, 75/36,<br>
+                                                75/72, 100/36, 150/48,<br>
+                                                150/96, 150/144, 300/96,<br>
+                                                200/10 ,300/10
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="col-xs-5 col-sm-5 col-md-6 p-0 d-flex m-auto">
+                                <picture class="m-auto">
+                                    <source srcset="\assets\images\product-new\mobile\FDY-Fully-Drawn-Yarn-Polyester-Thaipolyester-1.webp"  media="(max-width: 640px)" loading="lazy">
+                                    <img src="\assets\images\product-new\desktop\FDY-Fully-Drawn-Yarn-Polyester-Thaipolyester-1.webp" width="900" height="350" class="img-fluid" alt="FDY Fully Drawn Yarn Polyester Thaipolyester" loading="lazy">
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-md-6 p-0 d-flex col2">
+                        <div class="prod-block d-flex flex-c m-flex-c w-100p prod6">
+                            <div class="col-xs-12 col-sm-12 col-md-12 p-0 d-flex mb-0">
+                                <picture class="m-auto">
+                                    <source srcset="\assets\images\product-new\mobile\Dope-dyed-polyester-Thaipolyester-1.webp"  media="(max-width: 640px)" loading="lazy">
+                                    <img src="\assets\images\product-new\desktop\Dope-dyed-polyester-Thaipolyester-1.webp" width="900" height="350" class="img-fluid" alt="Dope dyed polyester Thaipolyester" loading="lazy">
+                                </picture>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-12 p-0 d-flex m-auto">
+                                <div class="prod-desc m-auto">
+                                    <h2 class="prod-title m-0 fw-600">Dope dyed</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-md-6 p-0 d-flex col3">
+                        <div class="prod-block d-flex flex-c m-flex-c w-100p prod7">
+                            <div class="col-xs-12 col-sm-12 col-md-12 p-0 d-flex m-auto">
+                                <div class="prod-desc m-auto">
+                                    <h2 class="prod-title m-0 fw-600">Monofilament</h2>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-12 p-0 d-flex m-auto">
+                                <picture class="m-auto">
+                                    <source srcset="\assets\images\product-new\desktop\Monofilament-Polyester-Thaipolyester-1.webp"  media="(max-width: 640px)" loading="lazy">
+                                    <img src="\assets\images\product-new\desktop\Monofilament-Polyester-Thaipolyester-1.webp" width="900" height="350" class="img-fluid" alt="Monofilament Polyester Thaipolyester" loading="lazy">
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-5 col-sm-5 col-md-5 p-0 r3-b2">
+                    <div class="col-xs-12 col-sm-12 col-md-12 p-0 d-flex col4">
+                        <div class="prod-block d-flex w-100p prod8">
+                            <div class="col-xs-5 col-sm-5 col-md-5 p-0 d-flex flex-c m-flex-c mt-0">
+                                <div class="prod-desc m-auto">
+                                    <h2 class="prod-title text-center m-0 fw-600">YARN TYPE</h2>
+                                </div>
+                                <picture class="m-auto">
+                                    <source srcset="\assets\images\product-new\mobile\Twist-Yarn-polyester-Thaipolyester.webp"  media="(max-width: 640px)" loading="lazy">
+                                    <img src="\assets\images\product-new\desktop\Twist-Yarn-polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="Twist Yarn polyester Thaipolyester" loading="lazy">
+                                </picture>
+                            </div>
+                            <div class="col-xs-7 col-sm-7 col-md-7 p-0 d-flex m-auto">
+                                <div class="prod-desc m-auto">
+                                    <label class="d-block">Twisted Yarn (FDY)</label>
+                                    <table>
+                                        <tr>
+                                            <th>LUSTER</th>
+                                            <td>: SD, TBR</td>
+                                        </tr>
+                                        <tr>
+                                            <th>TYPE</th>
+                                            <td>
+                                                <p class="m-auto">: Virgin & Recycled</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th class="d-flex">COLOR</th>
+                                            <td>: RW, DDB, DYED YARN</td>
+                                        </tr>
+                                        <tr>
+                                            <th class="d-flex">
+                                                D/F
+                                            </th>
+                                            <td>
+                                                : 75/36/1, 100/36/1,<br>
+                                                150/48/1<br>
+                                                (Low - High Twisted)
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <br>
+                                    <label class="d-block">Twisted Yarn (DTY)</label>
+                                    <table>
+                                        <tr>
+                                            <th>LUSTER</th>
+                                            <td>: SD</td>
+                                        </tr>
+                                        <tr>
+                                            <th>TYPE</th>
+                                            <td>
+                                                <p class="m-auto">: Virgin & Recycled</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th class="d-flex">COLOR</th>
+                                            <td>: RW,DDB,DYED YARN</td>
+                                        </tr>
+                                        <tr>
+                                            <th class="d-flex">
+                                                D/F
+                                            </th>
+                                            <td>
+                                                : 75/36/1,100/48/1,<br>
+                                                150/36/1,150/36/2,<br>
+                                                150/48/1<br>
+                                                (Low - High Twisted)
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 p-0 d-flex col5">
+                        <div class="prod-block d-flex w-100p prod9">
+                            <div class="col-xs-6 col-sm-6 col-md-6 p-0 d-flex m-auto">
+                                <div class="prod-desc m-auto">
+                                    <h2 class="prod-title text-center m-0 fw-600">Spun Yarn</h2>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-6 p-0 d-flex m-auto">
+                                <picture class="m-auto">
+                                    <source srcset="\assets\images\product-new\mobile\Ring-Spun-OE-Spun-Yarn-Polyester-Thaipolyester.webp"  media="(max-width: 640px)" loading="lazy">
+                                    <img src="\assets\images\product-new\desktop\Ring-Spun-OE-Spun-Yarn-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="Ring Spun OE Spun Yarn Polyester Thaipolyester" loading="lazy">
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row r4 d-flex">
                 <div class="col-xs-5 col-sm-5 col-md-5 p-0 col1">
-                    <div class="prod-block d-flex prod10">
+                    <div class="prod-block d-flex w-100p h-100p prod10">
                         <div class="col-xs-8 col-sm-8 col-md-8 p-0 d-flex m-auto">
                             <div class="prod-desc m-auto">
                                 <h2 class="prod-title m-0 fw-600">SPUN TYPE</h2>
@@ -648,7 +816,7 @@
                     </div>
                 </div>
                 <div class="col-xs-7 col-sm-7 col-md-7 p-0 col2">
-                    <div class="prod-block d-flex prod11">
+                    <div class="prod-block d-flex w-100p h-100p prod11">
                         <div class="col-xs-7 col-sm-7 col-md-6 p-0 d-flex m-auto">
                             <div class="prod-desc m-auto">
                                 <h2 class="prod-title m-0 fw-600">SPUN TYPE</h2>

@@ -1,8 +1,6 @@
 jQuery(document).ready(function($){
     sec1_slide();
-    row1();
-    row2();
-    row4();
+    row3();
     $('div.burger-menu').on('click',function(){
         if($(this).hasClass('change')){
             setTimeout(function(){
@@ -11,49 +9,21 @@ jQuery(document).ready(function($){
         }
     });
     $(window).resize(function() {
-        row1();
-        row2();
-        row4();
+        row3();
     });
     $(window).scroll(function(){
-        row1();
-        row2();
-        row4();
+        row3();
     });
 });
-function row1(){
-    let col1 = $('#sec2 .r1 .col1 .prod-block'),
-        col2 = $('#sec2 .r1 .col2 .prod-block'),
-        minheight = $(col2).outerHeight();
-    $(col1).css({'min-height':minheight+'px'});
-}
-function row2(){
-    let col1 = $('#sec2 .r2 .col1 .prod-block'),
-        col2 = $('#sec2 .r2 .col2 .prod-block'),
-        minheight = $(col1).outerHeight(),
-        minheight2 = $(col2).outerHeight();
-    if($(window).width() <= 991){
-        $(col2).css({'min-height':minheight+'px'});
-        $(col1).removeAttr('style');
-    }else{
-        $(col2).removeAttr('style');
-        $(col1).css({'min-height':minheight2+'px'});
-    }
-}
-function row4(){
-    let col1 = $('#sec2 .r4 .col1 .prod-block'),
-        col2 = $('#sec2 .r4 .col2 .prod-block'),
-        minheight = $(col1).outerHeight(),
-        minheight2 = $(col2).outerHeight();
-
-        if($(window).width() <= 991){
-            $(col1).css({'min-height':minheight2+'px'});
-            $(col2).removeAttr('style');
-        }else{
-            $(col2).css({'min-height':minheight+'px'});
-            $(col1).removeAttr('style');
-        }
-
+function row3(){
+    let col1 = $('#sec2 .r3 .col1').outerHeight(),
+        col2 = $('#sec2 .r3 .col2'),
+        col3 = $('#sec2 .r3 .col3'),
+        col4 = $('#sec2 .r3 .col4').outerHeight(),
+        col5 = $('#sec2 .r3 .col5');
+    $(col2).css('height','calc(100% - '+col1+'px)');
+    $(col3).css('height','calc(100% - '+col1+'px)');
+    $(col5).css('height','calc(100% - '+col4+'px)');
 }
 function sec1_slide(reload = 0){
     owl = $('#sec1 .slide .owl-carousel').owlCarousel({

@@ -247,6 +247,18 @@ body {
         font-size: 30px;
         line-height: 36px;
     }
+    #tpc .m-flex-r{
+        flex-direction: row;
+    }
+    #tpc .m-flex-c{
+        flex-direction: column;
+    }
+    #tpc .m-flex-rr{
+        flex-direction: row-reverse;
+    }
+    #tpc .m-flex-cr{
+        flex-direction: column-reverse;
+    }
 }
 @media only screen and (min-width: 768px){
     #tpc .tl0{
@@ -263,6 +275,18 @@ body {
     }
     #tpc .tl4{
         font-size: 20%;
+    }
+    #tpc .flex-r{
+        flex-direction: row;
+    }
+    #tpc .flex-c{
+        flex-direction: column;
+    }
+    #tpc .flex-rr{
+        flex-direction: row-reverse;
+    }
+    #tpc .flex-cr{
+        flex-direction: column-reverse;
     }
 }
 @media (min-width: 1400px){
