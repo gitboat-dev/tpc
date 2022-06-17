@@ -289,11 +289,11 @@ body{
         font-size: 8em;
     }
     #sec1 .slide .item.green .slide-title{
-        font-size: 8em;
+        font-size: 5.3em;
         margin-top: 60px !important;
     }
     #sec1 .slide .item.blue .slide-title{
-        font-size: 8em;
+        font-size: 5.3em;
         margin-top: 60px !important;
     }
     #sec1 .slide .item .slide-footer .type-block .type-lists .type-group .type-content{
@@ -448,7 +448,7 @@ body{
 
     #sec2 .prod-desc{
         font-size: 7px;
-        line-height: 10px;
+        line-height: 7px;
         padding: 2px;
     }
     #sec2 .prod-desc .prod-title{

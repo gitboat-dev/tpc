@@ -1,7 +1,7 @@
 @extends('layouts.template')
 @section('style')
     <link rel="preload stylesheet"  href="/lib/owlcarousel/assets/owl.carousel.min.css?v={{time()}}" as="style" crossorigin>
-    <link rel="preload stylesheet" href="/css/product-polyester.min.css?v={{ time() }}" as="style" crossorigin>
+    <link rel="preload stylesheet" href="/css/product-polyester.min.css?v={{time()}}" as="style" crossorigin>
 @endsection
 @section('og-image','/assets/images/product/desktop/bg-head.webp')
 @section('content')
@@ -18,8 +18,7 @@
                         <div class="content">
                             <div class="row">
                                 <div class="col-xs-12 col-sm-12 col-md-12">
-                                    <h1 class="slide-title text-center fw-600 show-d">Polyester Product</h1>
-                                    <h1 class="slide-title text-center fw-600 show-m">Our Product</h1>
+                                    <h1 class="slide-title text-center fw-600">Our Product</h1>
                                 </div>
                             </div>
                         </div>
@@ -75,8 +74,7 @@
                                     </picture>
                                 </div>
                                 <div class="col-xs-6 col-sm-6 col-md-6 d-flex">
-                                    <h2 class="slide-title m-auto fw-600 show-d">Polyester<br> Product</h2>
-                                    <h2 class="slide-title m-auto fw-600 show-m">RING SPUN &<br> OE SPUN</h2>
+                                    <h2 class="slide-title m-auto fw-600">RING SPUN &<br> OE SPUN</h2>
                                 </div>
                             </div>
                         </div>
@@ -132,8 +130,7 @@
                                     </picture>
                                 </div>
                                 <div class="col-xs-6 col-sm-6 col-md-6 d-flex">
-                                    <h2 class="slide-title m-auto fw-600 show-d">Polyester<br> Product</h2>
-                                    <h2 class="slide-title m-auto fw-600 show-m">Polyester Staple Fiber (PSF)</h2>
+                                    <h2 class="slide-title m-auto fw-600">Polyester Staple Fiber (PSF)</h2>
                                 </div>
                             </div>
                         </div>
@@ -189,8 +186,7 @@
                                     </picture>
                                 </div>
                                 <div class="col-xs-6 col-sm-6 col-md-6 d-flex">
-                                    <h2 class="slide-title m-auto fw-600 show-d">Polyester<br> Product</h2>
-                                    <h2 class="slide-title ml-0 fw-600 show-m">Dope dyed</h2>
+                                    <h2 class="slide-title ml-0 fw-600">Dope dyed</h2>
                                 </div>
                             </div>
                         </div>
@@ -246,8 +242,7 @@
                                     </picture>
                                 </div>
                                 <div class="col-xs-6 col-sm-6 col-md-6 d-flex">
-                                    <h2 class="slide-title m-auto fw-600 show-d">Polyester<br> Product</h2>
-                                    <h2 class="slide-title ml-0 fw-600 show-m">Draw Textured Yarn (DTY)</h2>
+                                    <h2 class="slide-title ml-0 fw-600">Draw Textured Yarn (DTY)</h2>
                                 </div>
                             </div>
                         </div>
@@ -303,8 +298,7 @@
                                     </picture>
                                 </div>
                                 <div class="col-xs-6 col-sm-6 col-md-6 d-flex">
-                                    <h2 class="slide-title m-auto fw-600 show-d">Polyester<br> Product</h2>
-                                    <h2 class="slide-title ml-0 fw-600 show-m">Fully Drawn Yarn (FDY)</h2>
+                                    <h2 class="slide-title ml-0 fw-600">Fully Drawn Yarn (FDY)</h2>
                                 </div>
                             </div>
                         </div>
@@ -360,8 +354,7 @@
                                     </picture>
                                 </div>
                                 <div class="col-xs-6 col-sm-6 col-md-6 d-flex">
-                                    <h2 class="slide-title m-auto fw-600 show-d">Polyester<br> Product</h2>
-                                    <h2 class="slide-title ml-0 fw-600 show-m">Monofilament</h2>
+                                    <h2 class="slide-title ml-0 fw-600">Monofilament</h2>
                                 </div>
                             </div>
                         </div>
@@ -417,8 +410,7 @@
                                     </picture>
                                 </div>
                                 <div class="col-xs-6 col-sm-6 col-md-6 d-flex">
-                                    <h2 class="slide-title m-auto fw-600 show-d">Polyester<br> Product</h2>
-                                    <h2 class="slide-title ml-0 fw-600 show-m">Partially Oriented Yarn (POY)</h2>
+                                    <h2 class="slide-title ml-0 fw-600">Partially Oriented Yarn (POY)</h2>
                                 </div>
                             </div>
                         </div>
