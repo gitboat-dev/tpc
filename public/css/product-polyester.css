@@ -206,7 +206,7 @@ body{
     margin: 15px auto;
 }
 #sec2 .prod-block{
-    padding: 15px 0;
+    padding: 15px 0 0;
 }
 #sec2 .prod-block:hover .star{
     animation-name: spin;
@@ -393,7 +393,7 @@ body{
         padding: 7.5px;
     }
     #sec2 .prod-block{
-        padding: 7.5px 0;
+        padding: 7.5px 0 0;
     }
     #sec2 .r1{
         margin-bottom: 7.5px;
