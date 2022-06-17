@@ -528,7 +528,7 @@
                     <a href="{{route('product.poy')}}" title="Partially Oriented Yarn (POY)">
                         <div class="prod-block d-flex w-100p h-100p prod3">
                             <div class="col-xs-5 col-sm-5 col-md-5 p-0 d-flex mb-0">
-                                <picture class="m-auto">
+                                <picture class="m-auto img-custom">
                                     <source srcset="/assets/images/product/mobile/POY-Partially-Oriented-Yarn-Polyester-Thaipolyester.webp"  media="(max-width: 640px)" loading="lazy">
                                     <img src="/assets/images/product/desktop/POY-Partially-Oriented-Yarn-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="POY Partially Oriented Yarn Polyester Thaipolyester" loading="lazy">
                                 </picture>
@@ -732,11 +732,11 @@
                     <div class="col-xs-12 col-sm-12 col-md-12 p-0 d-flex col4">
                         <a href="{{route('product.twisted-yarn')}}" title="Twist Yarn" class="w-100p">
                             <div class="prod-block d-flex w-100p h-100p prod8">
-                                <div class="col-xs-5 col-sm-5 col-md-5 p-0 d-flex flex-c m-flex-c mt-0">
+                                <div class="col-xs-5 col-sm-5 col-md-5 p-0 d-flex flex-c m-flex-c h-100p mt-0">
                                     <div class="prod-desc m-auto">
                                         <h2 class="prod-title text-center m-0 fw-600">YARN TYPE</h2>
                                     </div>
-                                    <picture class="m-auto">
+                                    <picture class="mb-0 img-custom">
                                         <source srcset="/assets/images/product/mobile/Twist-Yarn-polyester-Thaipolyester.webp"  media="(max-width: 640px)" loading="lazy">
                                         <img src="/assets/images/product/desktop/Twist-Yarn-polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="Twist Yarn polyester Thaipolyester" loading="lazy">
                                     </picture>
