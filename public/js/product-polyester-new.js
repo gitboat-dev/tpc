@@ -1,6 +1,5 @@
 jQuery(document).ready(function($){
     sec1_slide();
-    row3();
     $('div.burger-menu').on('click',function(){
         if($(this).hasClass('change')){
             setTimeout(function(){
@@ -14,9 +13,6 @@ jQuery(document).ready(function($){
     $('#sec2 > .r3').onScrolledTo(0,function(){
         row3();
     });
-    // $(window).scroll(function(){
-    //     row3();
-    // });
 });
 function row3(){
     let col1 = $('#sec2 .r3 .col1').outerHeight(),
