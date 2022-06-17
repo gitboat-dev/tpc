@@ -312,7 +312,7 @@ nav.nav_right ul.header-menu .has-children ul.a_sub_menu > li:not(.navrecycled){
 	header .header-body .logo .m-menu > .burger-menu > .bar3{
 		width: 30px;
 	  	height: 2.5px;
-	  	background-color: var(--msBgLight);
+	  	background-color: var(--msBg);
 	  	margin: 6px 0;
 	  	transition: 0.4s;
 	}
