@@ -3,7 +3,7 @@
     <link rel="preload stylesheet"  href="/lib/owlcarousel/assets/owl.carousel.min.css?v={{time()}}" as="style" crossorigin>
     <link rel="preload stylesheet" href="/css/product-polyester.min.css?v={{ time() }}" as="style" crossorigin>
 @endsection
-@section('og-image','/assets/images/product-new/desktop/bg-head.webp')
+@section('og-image','/assets/images/product/desktop/bg-head.webp')
 @section('content')
 <div id="tpc">
     <div id="tpc_bg">
@@ -12,8 +12,8 @@
                 <div class="owl-carousel owl-theme">
                     <div class="item head p-0 pos-r">
                         <picture>
-                            <source srcset="/assets/images/product-new/mobile/bg-head.webp"  media="(max-width: 640px)" loading="lazy">
-                            <img src="/assets/images/product-new/desktop/bg-head.webp" width="900" height="350" class="img-fluid" alt="Polyester Product" loading="lazy">
+                            <source srcset="/assets/images/product/mobile/bg-head.webp"  media="(max-width: 640px)" loading="lazy">
+                            <img src="/assets/images/product/desktop/bg-head.webp" width="900" height="350" class="img-fluid" alt="Polyester Product" loading="lazy">
                         </picture>
                         <div class="content">
                             <div class="row">
@@ -28,8 +28,8 @@
                                 <div class="col-xs-4 col-sm-4 col-md-4 p-0 type-lists d-flex">
                                     <div class="type-group m-auto d-flex">
                                         <picture class="m-auto">
-                                            <source srcset="/assets/images/product-new/mobile/Icon-Fiber-White.webp"  media="(max-width: 991px)" loading="lazy">
-                                            <img src="/assets/images/product-new/desktop/Icon-Fiber-White.webp" width="900" height="350" class="img-fluid" alt="Fiber" loading="lazy">
+                                            <source srcset="/assets/images/product/mobile/Icon-Fiber-White.webp"  media="(max-width: 991px)" loading="lazy">
+                                            <img src="/assets/images/product/desktop/Icon-Fiber-White.webp" width="900" height="350" class="img-fluid" alt="Fiber" loading="lazy">
                                         </picture>
                                         <div class="type-content m-auto">
                                             <span>Fiber</span>
@@ -39,8 +39,8 @@
                                 <div class="col-xs-4 col-sm-4 col-md-4 p-0 type-lists d-flex">
                                     <div class="type-group m-auto d-flex">
                                         <picture class="m-auto">
-                                            <source srcset="/assets/images/product-new/mobile/Icon-Yarn-Type-White.webp"  media="(max-width: 991px)" loading="lazy">
-                                            <img src="/assets/images/product-new/desktop/Icon-Yarn-Type-White.webp" width="900" height="350" class="img-fluid" alt="Yarn Type" loading="lazy">
+                                            <source srcset="/assets/images/product/mobile/Icon-Yarn-Type-White.webp"  media="(max-width: 991px)" loading="lazy">
+                                            <img src="/assets/images/product/desktop/Icon-Yarn-Type-White.webp" width="900" height="350" class="img-fluid" alt="Yarn Type" loading="lazy">
                                         </picture>
                                         <div class="type-content m-auto">
                                             <span>Yarn Type</span>
@@ -50,8 +50,8 @@
                                 <div class="col-xs-4 col-sm-4 col-md-4 p-0 type-lists d-flex">
                                     <div class="type-group m-auto d-flex">
                                         <picture class="m-auto">
-                                            <source srcset="/assets/images/product-new/mobile/Icon-Spun-Type-White.webp"  media="(max-width: 991px)" loading="lazy">
-                                            <img src="/assets/images/product-new/desktop/Icon-Spun-Type-White.webp" width="900" height="350" class="img-fluid" alt="Spun Type" loading="lazy">
+                                            <source srcset="/assets/images/product/mobile/Icon-Spun-Type-White.webp"  media="(max-width: 991px)" loading="lazy">
+                                            <img src="/assets/images/product/desktop/Icon-Spun-Type-White.webp" width="900" height="350" class="img-fluid" alt="Spun Type" loading="lazy">
                                         </picture>
                                         <div class="type-content m-auto">
                                             <span>Spun Type</span>
@@ -63,15 +63,15 @@
                     </div>
                     <div class="item green p-0 pos-r">
                         <picture>
-                            <source srcset="/assets/images/product-new/mobile/bg-green.webp"  media="(max-width: 640px)" loading="lazy">
-                            <img src="/assets/images/product-new/desktop/bg-green.webp" width="900" height="350" class="img-fluid" alt="Polyester Product" loading="lazy">
+                            <source srcset="/assets/images/product/mobile/bg-green.webp"  media="(max-width: 640px)" loading="lazy">
+                            <img src="/assets/images/product/desktop/bg-green.webp" width="900" height="350" class="img-fluid" alt="Polyester Product" loading="lazy">
                         </picture>
                         <div class="content">
                             <div class="row">
                                 <div class="col-xs-6 col-sm-6 col-md-6 p-0 slide-img">
                                     <picture>
-                                        <source srcset="/assets/images/product-new/mobile/Ring-Spun-Yarn-Polyester-Thaipolyester.webp"  media="(max-width: 640px)" loading="lazy">
-                                        <img src="/assets/images/product-new/desktop/Ring-Spun-Yarn-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid mr-0" alt="Ring Spun Yarn Polyester Thaipolyester" loading="lazy">
+                                        <source srcset="/assets/images/product/mobile/Ring-Spun-Yarn-Polyester-Thaipolyester.webp"  media="(max-width: 640px)" loading="lazy">
+                                        <img src="/assets/images/product/desktop/Ring-Spun-Yarn-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid mr-0" alt="Ring Spun Yarn Polyester Thaipolyester" loading="lazy">
                                     </picture>
                                 </div>
                                 <div class="col-xs-6 col-sm-6 col-md-6 d-flex">
@@ -85,8 +85,8 @@
                                 <div class="col-xs-4 col-sm-4 col-md-4 p-0 type-lists d-flex">
                                     <div class="type-group m-auto d-flex">
                                         <picture class="m-auto">
-                                            <source srcset="/assets/images/product-new/mobile/Icon-Fiber-White.webp"  media="(max-width: 991px)" loading="lazy">
-                                            <img src="/assets/images/product-new/desktop/Icon-Fiber-White.webp" width="900" height="350" class="img-fluid" alt="Fiber" loading="lazy">
+                                            <source srcset="/assets/images/product/mobile/Icon-Fiber-White.webp"  media="(max-width: 991px)" loading="lazy">
+                                            <img src="/assets/images/product/desktop/Icon-Fiber-White.webp" width="900" height="350" class="img-fluid" alt="Fiber" loading="lazy">
                                         </picture>
                                         <div class="type-content m-auto">
                                             <span>Fiber</span>
@@ -96,8 +96,8 @@
                                 <div class="col-xs-4 col-sm-4 col-md-4 p-0 type-lists d-flex">
                                     <div class="type-group m-auto d-flex">
                                         <picture class="m-auto">
-                                            <source srcset="/assets/images/product-new/mobile/Icon-Yarn-Type-White.webp"  media="(max-width: 991px)" loading="lazy">
-                                            <img src="/assets/images/product-new/desktop/Icon-Yarn-Type-White.webp" width="900" height="350" class="img-fluid" alt="Yarn Type" loading="lazy">
+                                            <source srcset="/assets/images/product/mobile/Icon-Yarn-Type-White.webp"  media="(max-width: 991px)" loading="lazy">
+                                            <img src="/assets/images/product/desktop/Icon-Yarn-Type-White.webp" width="900" height="350" class="img-fluid" alt="Yarn Type" loading="lazy">
                                         </picture>
                                         <div class="type-content m-auto">
                                             <span>Yarn Type</span>
@@ -107,8 +107,8 @@
                                 <div class="col-xs-4 col-sm-4 col-md-4 p-0 type-lists d-flex">
                                     <div class="type-group m-auto d-flex">
                                         <picture class="m-auto">
-                                            <source srcset="/assets/images/product-new/mobile/Icon-Spun-Type-White.webp"  media="(max-width: 991px)" loading="lazy">
-                                            <img src="/assets/images/product-new/desktop/Icon-Spun-Type-White.webp" width="900" height="350" class="img-fluid" alt="Spun Type" loading="lazy">
+                                            <source srcset="/assets/images/product/mobile/Icon-Spun-Type-White.webp"  media="(max-width: 991px)" loading="lazy">
+                                            <img src="/assets/images/product/desktop/Icon-Spun-Type-White.webp" width="900" height="350" class="img-fluid" alt="Spun Type" loading="lazy">
                                         </picture>
                                         <div class="type-content m-auto">
                                             <span>Spun Type</span>
@@ -120,15 +120,15 @@
                     </div>
                     <div class="item green p-0 pos-r">
                         <picture>
-                            <source srcset="/assets/images/product-new/mobile/bg-green.webp"  media="(max-width: 640px)" loading="lazy">
-                            <img src="/assets/images/product-new/desktop/bg-green.webp" width="900" height="350" class="img-fluid" alt="Polyester Product" loading="lazy">
+                            <source srcset="/assets/images/product/mobile/bg-green.webp"  media="(max-width: 640px)" loading="lazy">
+                            <img src="/assets/images/product/desktop/bg-green.webp" width="900" height="350" class="img-fluid" alt="Polyester Product" loading="lazy">
                         </picture>
                         <div class="content">
                             <div class="row">
                                 <div class="col-xs-6 col-sm-6 col-md-6 p-0 slide-img">
                                     <picture>
-                                        <source srcset="/assets/images/product-new/mobile/PSF-Polyester-Staple-Fiber-Thaipolyester.webp"  media="(max-width: 640px)" loading="lazy">
-                                        <img src="/assets/images/product-new/desktop/PSF-Polyester-Staple-Fiber-Thaipolyester.webp" width="900" height="350" class="img-fluid mr-0" alt="PSF Polyester Staple Fiber Thaipolyester" loading="lazy">
+                                        <source srcset="/assets/images/product/mobile/PSF-Polyester-Staple-Fiber-Thaipolyester.webp"  media="(max-width: 640px)" loading="lazy">
+                                        <img src="/assets/images/product/desktop/PSF-Polyester-Staple-Fiber-Thaipolyester.webp" width="900" height="350" class="img-fluid mr-0" alt="PSF Polyester Staple Fiber Thaipolyester" loading="lazy">
                                     </picture>
                                 </div>
                                 <div class="col-xs-6 col-sm-6 col-md-6 d-flex">
@@ -142,8 +142,8 @@
                                 <div class="col-xs-4 col-sm-4 col-md-4 p-0 type-lists d-flex">
                                     <div class="type-group m-auto d-flex">
                                         <picture class="m-auto">
-                                            <source srcset="/assets/images/product-new/mobile/Icon-Fiber-White.webp"  media="(max-width: 991px)" loading="lazy">
-                                            <img src="/assets/images/product-new/desktop/Icon-Fiber-White.webp" width="900" height="350" class="img-fluid" alt="Fiber" loading="lazy">
+                                            <source srcset="/assets/images/product/mobile/Icon-Fiber-White.webp"  media="(max-width: 991px)" loading="lazy">
+                                            <img src="/assets/images/product/desktop/Icon-Fiber-White.webp" width="900" height="350" class="img-fluid" alt="Fiber" loading="lazy">
                                         </picture>
                                         <div class="type-content m-auto">
                                             <span>Fiber</span>
@@ -153,8 +153,8 @@
                                 <div class="col-xs-4 col-sm-4 col-md-4 p-0 type-lists d-flex">
                                     <div class="type-group m-auto d-flex">
                                         <picture class="m-auto">
-                                            <source srcset="/assets/images/product-new/mobile/Icon-Yarn-Type-White.webp"  media="(max-width: 991px)" loading="lazy">
-                                            <img src="/assets/images/product-new/desktop/Icon-Yarn-Type-White.webp" width="900" height="350" class="img-fluid" alt="Yarn Type" loading="lazy">
+                                            <source srcset="/assets/images/product/mobile/Icon-Yarn-Type-White.webp"  media="(max-width: 991px)" loading="lazy">
+                                            <img src="/assets/images/product/desktop/Icon-Yarn-Type-White.webp" width="900" height="350" class="img-fluid" alt="Yarn Type" loading="lazy">
                                         </picture>
                                         <div class="type-content m-auto">
                                             <span>Yarn Type</span>
@@ -164,8 +164,8 @@
                                 <div class="col-xs-4 col-sm-4 col-md-4 p-0 type-lists d-flex">
                                     <div class="type-group m-auto d-flex">
                                         <picture class="m-auto">
-                                            <source srcset="/assets/images/product-new/mobile/Icon-Spun-Type-White.webp"  media="(max-width: 991px)" loading="lazy">
-                                            <img src="/assets/images/product-new/desktop/Icon-Spun-Type-White.webp" width="900" height="350" class="img-fluid" alt="Spun Type" loading="lazy">
+                                            <source srcset="/assets/images/product/mobile/Icon-Spun-Type-White.webp"  media="(max-width: 991px)" loading="lazy">
+                                            <img src="/assets/images/product/desktop/Icon-Spun-Type-White.webp" width="900" height="350" class="img-fluid" alt="Spun Type" loading="lazy">
                                         </picture>
                                         <div class="type-content m-auto">
                                             <span>Spun Type</span>
@@ -177,15 +177,15 @@
                     </div>
                     <div class="item blue p-0 pos-r">
                         <picture>
-                            <source srcset="/assets/images/product-new/mobile/bg-blue.webp"  media="(max-width: 640px)" loading="lazy">
-                            <img src="/assets/images/product-new/desktop/bg-blue.webp" width="900" height="350" class="img-fluid" alt="Polyester Product" loading="lazy">
+                            <source srcset="/assets/images/product/mobile/bg-blue.webp"  media="(max-width: 640px)" loading="lazy">
+                            <img src="/assets/images/product/desktop/bg-blue.webp" width="900" height="350" class="img-fluid" alt="Polyester Product" loading="lazy">
                         </picture>
                         <div class="content">
                             <div class="row">
                                 <div class="col-xs-6 col-sm-6 col-md-6 p-0 slide-img">
                                     <picture>
-                                        <source srcset="/assets/images/product-new/mobile/Dope-dyed-polyester-Thaipolyester.webp"  media="(max-width: 640px)" loading="lazy">
-                                        <img src="/assets/images/product-new/desktop/Dope-dyed-polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid mr-0" alt="Dope dyed polyester Thaipolyester" loading="lazy">
+                                        <source srcset="/assets/images/product/mobile/Dope-dyed-polyester-Thaipolyester.webp"  media="(max-width: 640px)" loading="lazy">
+                                        <img src="/assets/images/product/desktop/Dope-dyed-polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid mr-0" alt="Dope dyed polyester Thaipolyester" loading="lazy">
                                     </picture>
                                 </div>
                                 <div class="col-xs-6 col-sm-6 col-md-6 d-flex">
@@ -199,8 +199,8 @@
                                 <div class="col-xs-4 col-sm-4 col-md-4 p-0 type-lists d-flex">
                                     <div class="type-group m-auto d-flex">
                                         <picture class="m-auto">
-                                            <source srcset="/assets/images/product-new/mobile/Icon-Fiber.webp"  media="(max-width: 991px)" loading="lazy">
-                                            <img src="/assets/images/product-new/desktop/Icon-Fiber.webp" width="900" height="350" class="img-fluid" alt="Fiber" loading="lazy">
+                                            <source srcset="/assets/images/product/mobile/Icon-Fiber.webp"  media="(max-width: 991px)" loading="lazy">
+                                            <img src="/assets/images/product/desktop/Icon-Fiber.webp" width="900" height="350" class="img-fluid" alt="Fiber" loading="lazy">
                                         </picture>
                                         <div class="type-content m-auto">
                                             <span>Fiber</span>
@@ -210,8 +210,8 @@
                                 <div class="col-xs-4 col-sm-4 col-md-4 p-0 type-lists d-flex">
                                     <div class="type-group m-auto d-flex">
                                         <picture class="m-auto">
-                                            <source srcset="/assets/images/product-new/mobile/Icon-Yarn-Type.webp"  media="(max-width: 991px)" loading="lazy">
-                                            <img src="/assets/images/product-new/desktop/Icon-Yarn-Type.webp" width="900" height="350" class="img-fluid" alt="Yarn Type" loading="lazy">
+                                            <source srcset="/assets/images/product/mobile/Icon-Yarn-Type.webp"  media="(max-width: 991px)" loading="lazy">
+                                            <img src="/assets/images/product/desktop/Icon-Yarn-Type.webp" width="900" height="350" class="img-fluid" alt="Yarn Type" loading="lazy">
                                         </picture>
                                         <div class="type-content m-auto">
                                             <span>Yarn Type</span>
@@ -221,8 +221,8 @@
                                 <div class="col-xs-4 col-sm-4 col-md-4 p-0 type-lists d-flex">
                                     <div class="type-group m-auto d-flex">
                                         <picture class="m-auto">
-                                            <source srcset="/assets/images/product-new/mobile/Icon-Spun-Type.webp"  media="(max-width: 991px)" loading="lazy">
-                                            <img src="/assets/images/product-new/desktop/Icon-Spun-Type.webp" width="900" height="350" class="img-fluid" alt="Spun Type" loading="lazy">
+                                            <source srcset="/assets/images/product/mobile/Icon-Spun-Type.webp"  media="(max-width: 991px)" loading="lazy">
+                                            <img src="/assets/images/product/desktop/Icon-Spun-Type.webp" width="900" height="350" class="img-fluid" alt="Spun Type" loading="lazy">
                                         </picture>
                                         <div class="type-content m-auto">
                                             <span>Spun Type</span>
@@ -234,15 +234,15 @@
                     </div>
                     <div class="item green p-0 pos-r">
                         <picture>
-                            <source srcset="/assets/images/product-new/mobile/bg-green.webp"  media="(max-width: 640px)" loading="lazy">
-                            <img src="/assets/images/product-new/desktop/bg-green.webp" width="900" height="350" class="img-fluid" alt="Polyester Product" loading="lazy">
+                            <source srcset="/assets/images/product/mobile/bg-green.webp"  media="(max-width: 640px)" loading="lazy">
+                            <img src="/assets/images/product/desktop/bg-green.webp" width="900" height="350" class="img-fluid" alt="Polyester Product" loading="lazy">
                         </picture>
                         <div class="content">
                             <div class="row">
                                 <div class="col-xs-6 col-sm-6 col-md-6 p-0 slide-img">
                                     <picture>
-                                        <source srcset="/assets/images/product-new/mobile/DTY-Draw-Textured-Yarn-Polyester-Thaipolyester.webp"  media="(max-width: 640px)" loading="lazy">
-                                        <img src="/assets/images/product-new/desktop/DTY-Draw-Textured-Yarn-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid mr-0" alt="DTY Draw Textured Yarn Polyester Thaipolyester" loading="lazy">
+                                        <source srcset="/assets/images/product/mobile/DTY-Draw-Textured-Yarn-Polyester-Thaipolyester.webp"  media="(max-width: 640px)" loading="lazy">
+                                        <img src="/assets/images/product/desktop/DTY-Draw-Textured-Yarn-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid mr-0" alt="DTY Draw Textured Yarn Polyester Thaipolyester" loading="lazy">
                                     </picture>
                                 </div>
                                 <div class="col-xs-6 col-sm-6 col-md-6 d-flex">
@@ -256,8 +256,8 @@
                                 <div class="col-xs-4 col-sm-4 col-md-4 p-0 type-lists d-flex">
                                     <div class="type-group m-auto d-flex">
                                         <picture class="m-auto">
-                                            <source srcset="/assets/images/product-new/mobile/Icon-Fiber-White.webp"  media="(max-width: 991px)" loading="lazy">
-                                            <img src="/assets/images/product-new/desktop/Icon-Fiber-White.webp" width="900" height="350" class="img-fluid" alt="Fiber" loading="lazy">
+                                            <source srcset="/assets/images/product/mobile/Icon-Fiber-White.webp"  media="(max-width: 991px)" loading="lazy">
+                                            <img src="/assets/images/product/desktop/Icon-Fiber-White.webp" width="900" height="350" class="img-fluid" alt="Fiber" loading="lazy">
                                         </picture>
                                         <div class="type-content m-auto">
                                             <span>Fiber</span>
@@ -267,8 +267,8 @@
                                 <div class="col-xs-4 col-sm-4 col-md-4 p-0 type-lists d-flex">
                                     <div class="type-group m-auto d-flex">
                                         <picture class="m-auto">
-                                            <source srcset="/assets/images/product-new/mobile/Icon-Yarn-Type-White.webp"  media="(max-width: 991px)" loading="lazy">
-                                            <img src="/assets/images/product-new/desktop/Icon-Yarn-Type-White.webp" width="900" height="350" class="img-fluid" alt="Yarn Type" loading="lazy">
+                                            <source srcset="/assets/images/product/mobile/Icon-Yarn-Type-White.webp"  media="(max-width: 991px)" loading="lazy">
+                                            <img src="/assets/images/product/desktop/Icon-Yarn-Type-White.webp" width="900" height="350" class="img-fluid" alt="Yarn Type" loading="lazy">
                                         </picture>
                                         <div class="type-content m-auto">
                                             <span>Yarn Type</span>
@@ -278,8 +278,8 @@
                                 <div class="col-xs-4 col-sm-4 col-md-4 p-0 type-lists d-flex">
                                     <div class="type-group m-auto d-flex">
                                         <picture class="m-auto">
-                                            <source srcset="/assets/images/product-new/mobile/Icon-Spun-Type-White.webp"  media="(max-width: 991px)" loading="lazy">
-                                            <img src="/assets/images/product-new/desktop/Icon-Spun-Type-White.webp" width="900" height="350" class="img-fluid" alt="Spun Type" loading="lazy">
+                                            <source srcset="/assets/images/product/mobile/Icon-Spun-Type-White.webp"  media="(max-width: 991px)" loading="lazy">
+                                            <img src="/assets/images/product/desktop/Icon-Spun-Type-White.webp" width="900" height="350" class="img-fluid" alt="Spun Type" loading="lazy">
                                         </picture>
                                         <div class="type-content m-auto">
                                             <span>Spun Type</span>
@@ -291,15 +291,15 @@
                     </div>
                     <div class="item green p-0 pos-r">
                         <picture>
-                            <source srcset="/assets/images/product-new/mobile/bg-green.webp"  media="(max-width: 640px)" loading="lazy">
-                            <img src="/assets/images/product-new/desktop/bg-green.webp" width="900" height="350" class="img-fluid" alt="Polyester Product" loading="lazy">
+                            <source srcset="/assets/images/product/mobile/bg-green.webp"  media="(max-width: 640px)" loading="lazy">
+                            <img src="/assets/images/product/desktop/bg-green.webp" width="900" height="350" class="img-fluid" alt="Polyester Product" loading="lazy">
                         </picture>
                         <div class="content">
                             <div class="row">
                                 <div class="col-xs-6 col-sm-6 col-md-6 p-0 slide-img">
                                     <picture>
-                                        <source srcset="/assets/images/product-new/mobile/FDY-Fully-Drawn-Yarn-Polyester-Thaipolyester.webp"  media="(max-width: 640px)" loading="lazy">
-                                        <img src="/assets/images/product-new/desktop/FDY-Fully-Drawn-Yarn-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid mr-0" alt="FDY Fully Drawn Yarn Polyester Thaipolyester" loading="lazy">
+                                        <source srcset="/assets/images/product/mobile/FDY-Fully-Drawn-Yarn-Polyester-Thaipolyester.webp"  media="(max-width: 640px)" loading="lazy">
+                                        <img src="/assets/images/product/desktop/FDY-Fully-Drawn-Yarn-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid mr-0" alt="FDY Fully Drawn Yarn Polyester Thaipolyester" loading="lazy">
                                     </picture>
                                 </div>
                                 <div class="col-xs-6 col-sm-6 col-md-6 d-flex">
@@ -313,8 +313,8 @@
                                 <div class="col-xs-4 col-sm-4 col-md-4 p-0 type-lists d-flex">
                                     <div class="type-group m-auto d-flex">
                                         <picture class="m-auto">
-                                            <source srcset="/assets/images/product-new/mobile/Icon-Fiber-White.webp"  media="(max-width: 991px)" loading="lazy">
-                                            <img src="/assets/images/product-new/desktop/Icon-Fiber-White.webp" width="900" height="350" class="img-fluid" alt="Fiber" loading="lazy">
+                                            <source srcset="/assets/images/product/mobile/Icon-Fiber-White.webp"  media="(max-width: 991px)" loading="lazy">
+                                            <img src="/assets/images/product/desktop/Icon-Fiber-White.webp" width="900" height="350" class="img-fluid" alt="Fiber" loading="lazy">
                                         </picture>
                                         <div class="type-content m-auto">
                                             <span>Fiber</span>
@@ -324,8 +324,8 @@
                                 <div class="col-xs-4 col-sm-4 col-md-4 p-0 type-lists d-flex">
                                     <div class="type-group m-auto d-flex">
                                         <picture class="m-auto">
-                                            <source srcset="/assets/images/product-new/mobile/Icon-Yarn-Type-White.webp"  media="(max-width: 991px)" loading="lazy">
-                                            <img src="/assets/images/product-new/desktop/Icon-Yarn-Type-White.webp" width="900" height="350" class="img-fluid" alt="Yarn Type" loading="lazy">
+                                            <source srcset="/assets/images/product/mobile/Icon-Yarn-Type-White.webp"  media="(max-width: 991px)" loading="lazy">
+                                            <img src="/assets/images/product/desktop/Icon-Yarn-Type-White.webp" width="900" height="350" class="img-fluid" alt="Yarn Type" loading="lazy">
                                         </picture>
                                         <div class="type-content m-auto">
                                             <span>Yarn Type</span>
@@ -335,8 +335,8 @@
                                 <div class="col-xs-4 col-sm-4 col-md-4 p-0 type-lists d-flex">
                                     <div class="type-group m-auto d-flex">
                                         <picture class="m-auto">
-                                            <source srcset="/assets/images/product-new/mobile/Icon-Spun-Type-White.webp"  media="(max-width: 991px)" loading="lazy">
-                                            <img src="/assets/images/product-new/desktop/Icon-Spun-Type-White.webp" width="900" height="350" class="img-fluid" alt="Spun Type" loading="lazy">
+                                            <source srcset="/assets/images/product/mobile/Icon-Spun-Type-White.webp"  media="(max-width: 991px)" loading="lazy">
+                                            <img src="/assets/images/product/desktop/Icon-Spun-Type-White.webp" width="900" height="350" class="img-fluid" alt="Spun Type" loading="lazy">
                                         </picture>
                                         <div class="type-content m-auto">
                                             <span>Spun Type</span>
@@ -348,15 +348,15 @@
                     </div>
                     <div class="item blue p-0 pos-r">
                         <picture>
-                            <source srcset="/assets/images/product-new/mobile/bg-blue.webp"  media="(max-width: 640px)" loading="lazy">
-                            <img src="/assets/images/product-new/desktop/bg-blue.webp" width="900" height="350" class="img-fluid" alt="Polyester Product" loading="lazy">
+                            <source srcset="/assets/images/product/mobile/bg-blue.webp"  media="(max-width: 640px)" loading="lazy">
+                            <img src="/assets/images/product/desktop/bg-blue.webp" width="900" height="350" class="img-fluid" alt="Polyester Product" loading="lazy">
                         </picture>
                         <div class="content">
                             <div class="row">
                                 <div class="col-xs-6 col-sm-6 col-md-6 p-0 slide-img">
                                     <picture>
-                                        <source srcset="/assets/images/product-new/mobile/Monofilament-Polyester-Thaipolyester.webp"  media="(max-width: 640px)" loading="lazy">
-                                        <img src="/assets/images/product-new/desktop/Monofilament-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid mr-0" alt="Monofilament Polyester Thaipolyester" loading="lazy">
+                                        <source srcset="/assets/images/product/mobile/Monofilament-Polyester-Thaipolyester.webp"  media="(max-width: 640px)" loading="lazy">
+                                        <img src="/assets/images/product/desktop/Monofilament-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid mr-0" alt="Monofilament Polyester Thaipolyester" loading="lazy">
                                     </picture>
                                 </div>
                                 <div class="col-xs-6 col-sm-6 col-md-6 d-flex">
@@ -370,8 +370,8 @@
                                 <div class="col-xs-4 col-sm-4 col-md-4 p-0 type-lists d-flex">
                                     <div class="type-group m-auto d-flex">
                                         <picture class="m-auto">
-                                            <source srcset="/assets/images/product-new/mobile/Icon-Fiber.webp"  media="(max-width: 991px)" loading="lazy">
-                                            <img src="/assets/images/product-new/desktop/Icon-Fiber.webp" width="900" height="350" class="img-fluid" alt="Fiber" loading="lazy">
+                                            <source srcset="/assets/images/product/mobile/Icon-Fiber.webp"  media="(max-width: 991px)" loading="lazy">
+                                            <img src="/assets/images/product/desktop/Icon-Fiber.webp" width="900" height="350" class="img-fluid" alt="Fiber" loading="lazy">
                                         </picture>
                                         <div class="type-content m-auto">
                                             <span>Fiber</span>
@@ -381,8 +381,8 @@
                                 <div class="col-xs-4 col-sm-4 col-md-4 p-0 type-lists d-flex">
                                     <div class="type-group m-auto d-flex">
                                         <picture class="m-auto">
-                                            <source srcset="/assets/images/product-new/mobile/Icon-Yarn-Type.webp"  media="(max-width: 991px)" loading="lazy">
-                                            <img src="/assets/images/product-new/desktop/Icon-Yarn-Type.webp" width="900" height="350" class="img-fluid" alt="Yarn Type" loading="lazy">
+                                            <source srcset="/assets/images/product/mobile/Icon-Yarn-Type.webp"  media="(max-width: 991px)" loading="lazy">
+                                            <img src="/assets/images/product/desktop/Icon-Yarn-Type.webp" width="900" height="350" class="img-fluid" alt="Yarn Type" loading="lazy">
                                         </picture>
                                         <div class="type-content m-auto">
                                             <span>Yarn Type</span>
@@ -392,8 +392,8 @@
                                 <div class="col-xs-4 col-sm-4 col-md-4 p-0 type-lists d-flex">
                                     <div class="type-group m-auto d-flex">
                                         <picture class="m-auto">
-                                            <source srcset="/assets/images/product-new/mobile/Icon-Spun-Type.webp"  media="(max-width: 991px)" loading="lazy">
-                                            <img src="/assets/images/product-new/desktop/Icon-Spun-Type.webp" width="900" height="350" class="img-fluid" alt="Spun Type" loading="lazy">
+                                            <source srcset="/assets/images/product/mobile/Icon-Spun-Type.webp"  media="(max-width: 991px)" loading="lazy">
+                                            <img src="/assets/images/product/desktop/Icon-Spun-Type.webp" width="900" height="350" class="img-fluid" alt="Spun Type" loading="lazy">
                                         </picture>
                                         <div class="type-content m-auto">
                                             <span>Spun Type</span>
@@ -405,15 +405,15 @@
                     </div>
                     <div class="item green p-0 pos-r">
                         <picture>
-                            <source srcset="/assets/images/product-new/mobile/bg-green.webp"  media="(max-width: 640px)" loading="lazy">
-                            <img src="/assets/images/product-new/desktop/bg-green.webp" width="900" height="350" class="img-fluid" alt="Polyester Product" loading="lazy">
+                            <source srcset="/assets/images/product/mobile/bg-green.webp"  media="(max-width: 640px)" loading="lazy">
+                            <img src="/assets/images/product/desktop/bg-green.webp" width="900" height="350" class="img-fluid" alt="Polyester Product" loading="lazy">
                         </picture>
                         <div class="content">
                             <div class="row">
                                 <div class="col-xs-6 col-sm-6 col-md-6 p-0 slide-img">
                                     <picture>
-                                        <source srcset="/assets/images/product-new/mobile/Filament-Yarn-Polyester-Thaipolyester.webp"  media="(max-width: 640px)" loading="lazy">
-                                        <img src="/assets/images/product-new/desktop/Filament-Yarn-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid mr-0" alt="POY Partially Oriented Yarn Polyester Thaipolyester" loading="lazy">
+                                        <source srcset="/assets/images/product/mobile/Filament-Yarn-Polyester-Thaipolyester.webp"  media="(max-width: 640px)" loading="lazy">
+                                        <img src="/assets/images/product/desktop/Filament-Yarn-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid mr-0" alt="POY Partially Oriented Yarn Polyester Thaipolyester" loading="lazy">
                                     </picture>
                                 </div>
                                 <div class="col-xs-6 col-sm-6 col-md-6 d-flex">
@@ -427,8 +427,8 @@
                                 <div class="col-xs-4 col-sm-4 col-md-4 p-0 type-lists d-flex">
                                     <div class="type-group m-auto d-flex">
                                         <picture class="m-auto">
-                                            <source srcset="/assets/images/product-new/mobile/Icon-Fiber-White.webp"  media="(max-width: 991px)" loading="lazy">
-                                            <img src="/assets/images/product-new/desktop/Icon-Fiber-White.webp" width="900" height="350" class="img-fluid" alt="Fiber" loading="lazy">
+                                            <source srcset="/assets/images/product/mobile/Icon-Fiber-White.webp"  media="(max-width: 991px)" loading="lazy">
+                                            <img src="/assets/images/product/desktop/Icon-Fiber-White.webp" width="900" height="350" class="img-fluid" alt="Fiber" loading="lazy">
                                         </picture>
                                         <div class="type-content m-auto">
                                             <span>Fiber</span>
@@ -438,8 +438,8 @@
                                 <div class="col-xs-4 col-sm-4 col-md-4 p-0 type-lists d-flex">
                                     <div class="type-group m-auto d-flex">
                                         <picture class="m-auto">
-                                            <source srcset="/assets/images/product-new/mobile/Icon-Yarn-Type-White.webp"  media="(max-width: 991px)" loading="lazy">
-                                            <img src="/assets/images/product-new/desktop/Icon-Yarn-Type-White.webp" width="900" height="350" class="img-fluid" alt="Yarn Type" loading="lazy">
+                                            <source srcset="/assets/images/product/mobile/Icon-Yarn-Type-White.webp"  media="(max-width: 991px)" loading="lazy">
+                                            <img src="/assets/images/product/desktop/Icon-Yarn-Type-White.webp" width="900" height="350" class="img-fluid" alt="Yarn Type" loading="lazy">
                                         </picture>
                                         <div class="type-content m-auto">
                                             <span>Yarn Type</span>
@@ -449,8 +449,8 @@
                                 <div class="col-xs-4 col-sm-4 col-md-4 p-0 type-lists d-flex">
                                     <div class="type-group m-auto d-flex">
                                         <picture class="m-auto">
-                                            <source srcset="/assets/images/product-new/mobile/Icon-Spun-Type-White.webp"  media="(max-width: 991px)" loading="lazy">
-                                            <img src="/assets/images/product-new/desktop/Icon-Spun-Type-White.webp" width="900" height="350" class="img-fluid" alt="Spun Type" loading="lazy">
+                                            <source srcset="/assets/images/product/mobile/Icon-Spun-Type-White.webp"  media="(max-width: 991px)" loading="lazy">
+                                            <img src="/assets/images/product/desktop/Icon-Spun-Type-White.webp" width="900" height="350" class="img-fluid" alt="Spun Type" loading="lazy">
                                         </picture>
                                         <div class="type-content m-auto">
                                             <span>Spun Type</span>
@@ -470,8 +470,8 @@
                         <div class="prod-block d-flex w-100p h-100p prod1">
                             <div class="col-xs-5 col-sm-5 col-md-6 p-0 d-flex m-auto">
                                 <picture class="m-auto">
-                                    <source srcset="/assets/images/product-new/mobile/PSF-Polyester-Staple-Fiber-Thaipolyester-1.webp"  media="(max-width: 640px)" loading="lazy">
-                                    <img src="/assets/images/product-new/desktop/PSF-Polyester-Staple-Fiber-Thaipolyester-1.webp" width="900" height="350" class="img-fluid" alt="PSF Polyester Staple Fiber Thaipolyester" loading="lazy">
+                                    <source srcset="/assets/images/product/mobile/PSF-Polyester-Staple-Fiber-Thaipolyester-1.webp"  media="(max-width: 640px)" loading="lazy">
+                                    <img src="/assets/images/product/desktop/PSF-Polyester-Staple-Fiber-Thaipolyester-1.webp" width="900" height="350" class="img-fluid" alt="PSF Polyester Staple Fiber Thaipolyester" loading="lazy">
                                 </picture>
                             </div>
                             <div class="col-xs-7 col-sm-7 col-md-6 p-0 d-flex m-auto">
@@ -498,8 +498,8 @@
                                     </table>
                                     <div class="star">
                                         <picture>
-                                            <source srcset="/assets/images/product-new/mobile/star-black.webp"  media="(max-width: 640px)" loading="lazy">
-                                            <img src="/assets/images/product-new/desktop/star-black.webp" width="900" height="350" class="img-fluid" alt="star" loading="lazy">
+                                            <source srcset="/assets/images/product/mobile/star-black.webp"  media="(max-width: 640px)" loading="lazy">
+                                            <img src="/assets/images/product/desktop/star-black.webp" width="900" height="350" class="img-fluid" alt="star" loading="lazy">
                                         </picture>
                                     </div>
                                 </div>
@@ -515,16 +515,16 @@
                                     <h2 class="prod-title text-center m-0 fw-600">Filament yarn</h2>
                                     <div class="star">
                                         <picture>
-                                            <source srcset="/assets/images/product-new/mobile/star-white.webp"  media="(max-width: 640px)" loading="lazy">
-                                            <img src="/assets/images/product-new/desktop/star-white.webp" width="900" height="350" class="img-fluid" alt="star" loading="lazy">
+                                            <source srcset="/assets/images/product/mobile/star-white.webp"  media="(max-width: 640px)" loading="lazy">
+                                            <img src="/assets/images/product/desktop/star-white.webp" width="900" height="350" class="img-fluid" alt="star" loading="lazy">
                                         </picture>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-xs-5 col-sm-5 col-md-5 p-0 d-flex m-auto">
                                 <picture class="mr-0">
-                                    <source srcset="/assets/images/product-new/mobile/Filament-Yarn-Polyester-Thaipolyester-1.webp"  media="(max-width: 640px)" loading="lazy">
-                                    <img src="/assets/images/product-new/desktop/Filament-Yarn-Polyester-Thaipolyester-1.webp" width="900" height="350" class="img-fluid" alt="Filament Yarn Polyester Thaipolyester" loading="lazy">
+                                    <source srcset="/assets/images/product/mobile/Filament-Yarn-Polyester-Thaipolyester-1.webp"  media="(max-width: 640px)" loading="lazy">
+                                    <img src="/assets/images/product/desktop/Filament-Yarn-Polyester-Thaipolyester-1.webp" width="900" height="350" class="img-fluid" alt="Filament Yarn Polyester Thaipolyester" loading="lazy">
                                 </picture>
                             </div>
                         </div>
@@ -537,8 +537,8 @@
                         <div class="prod-block d-flex w-100p h-100p prod3">
                             <div class="col-xs-5 col-sm-5 col-md-5 p-0 d-flex mb-0">
                                 <picture class="m-auto">
-                                    <source srcset="/assets/images/product-new/mobile/POY-Partially-Oriented-Yarn-Polyester-Thaipolyester.webp"  media="(max-width: 640px)" loading="lazy">
-                                    <img src="/assets/images/product-new/desktop/POY-Partially-Oriented-Yarn-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="POY Partially Oriented Yarn Polyester Thaipolyester" loading="lazy">
+                                    <source srcset="/assets/images/product/mobile/POY-Partially-Oriented-Yarn-Polyester-Thaipolyester.webp"  media="(max-width: 640px)" loading="lazy">
+                                    <img src="/assets/images/product/desktop/POY-Partially-Oriented-Yarn-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="POY Partially Oriented Yarn Polyester Thaipolyester" loading="lazy">
                                 </picture>
                             </div>
                             <div class="col-xs-7 col-sm-7 col-md-7 p-0 d-flex m-auto">
@@ -573,8 +573,8 @@
                                     </table>
                                     <div class="star">
                                         <picture>
-                                            <source srcset="/assets/images/product-new/mobile/star-black.webp"  media="(max-width: 640px)" loading="lazy">
-                                            <img src="/assets/images/product-new/desktop/star-black.webp" width="900" height="350" class="img-fluid" alt="star" loading="lazy">
+                                            <source srcset="/assets/images/product/mobile/star-black.webp"  media="(max-width: 640px)" loading="lazy">
+                                            <img src="/assets/images/product/desktop/star-black.webp" width="900" height="350" class="img-fluid" alt="star" loading="lazy">
                                         </picture>
                                     </div>
                                 </div>
@@ -619,16 +619,16 @@
                                     </table>
                                     <div class="star">
                                         <picture>
-                                            <source srcset="/assets/images/product-new/mobile/star-white.webp"  media="(max-width: 640px)" loading="lazy">
-                                            <img src="/assets/images/product-new/desktop/star-white.webp" width="900" height="350" class="img-fluid" alt="star" loading="lazy">
+                                            <source srcset="/assets/images/product/mobile/star-white.webp"  media="(max-width: 640px)" loading="lazy">
+                                            <img src="/assets/images/product/desktop/star-white.webp" width="900" height="350" class="img-fluid" alt="star" loading="lazy">
                                         </picture>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-xs-5 col-sm-5 col-md-6 p-0 d-flex m-auto">
                                 <picture class="m-auto">
-                                    <source srcset="/assets/images/product-new/mobile/DTY-Draw-Textured-Yarn-Polyester-Thaipolyester-1.webp"  media="(max-width: 640px)" loading="lazy">
-                                    <img src="/assets/images/product-new/desktop/DTY-Draw-Textured-Yarn-Polyester-Thaipolyester-1.webp" width="900" height="350" class="img-fluid" alt="DTY Draw Textured Yarn Polyester Thaipolyester" loading="lazy">
+                                    <source srcset="/assets/images/product/mobile/DTY-Draw-Textured-Yarn-Polyester-Thaipolyester-1.webp"  media="(max-width: 640px)" loading="lazy">
+                                    <img src="/assets/images/product/desktop/DTY-Draw-Textured-Yarn-Polyester-Thaipolyester-1.webp" width="900" height="350" class="img-fluid" alt="DTY Draw Textured Yarn Polyester Thaipolyester" loading="lazy">
                                 </picture>
                             </div>
                         </div>
@@ -674,16 +674,16 @@
                                         </table>
                                         <div class="star">
                                             <picture>
-                                                <source srcset="/assets/images/product-new/mobile/star-black.webp"  media="(max-width: 640px)" loading="lazy">
-                                                <img src="/assets/images/product-new/desktop/star-black.webp" width="900" height="350" class="img-fluid" alt="star" loading="lazy">
+                                                <source srcset="/assets/images/product/mobile/star-black.webp"  media="(max-width: 640px)" loading="lazy">
+                                                <img src="/assets/images/product/desktop/star-black.webp" width="900" height="350" class="img-fluid" alt="star" loading="lazy">
                                             </picture>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-xs-5 col-sm-5 col-md-6 p-0 d-flex m-auto">
                                     <picture class="m-auto">
-                                        <source srcset="/assets/images/product-new/mobile/FDY-Fully-Drawn-Yarn-Polyester-Thaipolyester-1.webp"  media="(max-width: 640px)" loading="lazy">
-                                        <img src="/assets/images/product-new/desktop/FDY-Fully-Drawn-Yarn-Polyester-Thaipolyester-1.webp" width="900" height="350" class="img-fluid" alt="FDY Fully Drawn Yarn Polyester Thaipolyester" loading="lazy">
+                                        <source srcset="/assets/images/product/mobile/FDY-Fully-Drawn-Yarn-Polyester-Thaipolyester-1.webp"  media="(max-width: 640px)" loading="lazy">
+                                        <img src="/assets/images/product/desktop/FDY-Fully-Drawn-Yarn-Polyester-Thaipolyester-1.webp" width="900" height="350" class="img-fluid" alt="FDY Fully Drawn Yarn Polyester Thaipolyester" loading="lazy">
                                     </picture>
                                 </div>
                             </div>
@@ -694,8 +694,8 @@
                             <div class="prod-block d-flex flex-c m-flex-c w-100p h-100p prod6">
                                 <div class="col-xs-12 col-sm-12 col-md-12 p-0 d-flex mb-0">
                                     <picture class="m-auto">
-                                        <source srcset="/assets/images/product-new/mobile/Dope-dyed-polyester-Thaipolyester-1.webp"  media="(max-width: 640px)" loading="lazy">
-                                        <img src="/assets/images/product-new/desktop/Dope-dyed-polyester-Thaipolyester-1.webp" width="900" height="350" class="img-fluid" alt="Dope dyed polyester Thaipolyester" loading="lazy">
+                                        <source srcset="/assets/images/product/mobile/Dope-dyed-polyester-Thaipolyester-1.webp"  media="(max-width: 640px)" loading="lazy">
+                                        <img src="/assets/images/product/desktop/Dope-dyed-polyester-Thaipolyester-1.webp" width="900" height="350" class="img-fluid" alt="Dope dyed polyester Thaipolyester" loading="lazy">
                                     </picture>
                                 </div>
                                 <div class="col-xs-12 col-sm-12 col-md-12 p-0 d-flex m-auto">
@@ -703,8 +703,8 @@
                                         <h2 class="prod-title m-0 fw-600">Dope dyed</h2>
                                         <div class="star">
                                             <picture>
-                                                <source srcset="/assets/images/product-new/mobile/star-white.webp"  media="(max-width: 640px)" loading="lazy">
-                                                <img src="/assets/images/product-new/desktop/star-white.webp" width="900" height="350" class="img-fluid" alt="star" loading="lazy">
+                                                <source srcset="/assets/images/product/mobile/star-white.webp"  media="(max-width: 640px)" loading="lazy">
+                                                <img src="/assets/images/product/desktop/star-white.webp" width="900" height="350" class="img-fluid" alt="star" loading="lazy">
                                             </picture>
                                         </div>
                                     </div>
@@ -720,16 +720,16 @@
                                         <h2 class="prod-title m-0 fw-600">Monofilament</h2>
                                         <div class="star">
                                             <picture>
-                                                <source srcset="/assets/images/product-new/mobile/star-black.webp"  media="(max-width: 640px)" loading="lazy">
-                                                <img src="/assets/images/product-new/desktop/star-black.webp" width="900" height="350" class="img-fluid" alt="star" loading="lazy">
+                                                <source srcset="/assets/images/product/mobile/star-black.webp"  media="(max-width: 640px)" loading="lazy">
+                                                <img src="/assets/images/product/desktop/star-black.webp" width="900" height="350" class="img-fluid" alt="star" loading="lazy">
                                             </picture>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-xs-12 col-sm-12 col-md-12 p-0 d-flex m-auto">
                                     <picture class="m-auto">
-                                        <source srcset="/assets/images/product-new/desktop/Monofilament-Polyester-Thaipolyester-1.webp"  media="(max-width: 640px)" loading="lazy">
-                                        <img src="/assets/images/product-new/desktop/Monofilament-Polyester-Thaipolyester-1.webp" width="900" height="350" class="img-fluid" alt="Monofilament Polyester Thaipolyester" loading="lazy">
+                                        <source srcset="/assets/images/product/desktop/Monofilament-Polyester-Thaipolyester-1.webp"  media="(max-width: 640px)" loading="lazy">
+                                        <img src="/assets/images/product/desktop/Monofilament-Polyester-Thaipolyester-1.webp" width="900" height="350" class="img-fluid" alt="Monofilament Polyester Thaipolyester" loading="lazy">
                                     </picture>
                                 </div>
                             </div>
@@ -745,8 +745,8 @@
                                         <h2 class="prod-title text-center m-0 fw-600">YARN TYPE</h2>
                                     </div>
                                     <picture class="m-auto">
-                                        <source srcset="/assets/images/product-new/mobile/Twist-Yarn-polyester-Thaipolyester.webp"  media="(max-width: 640px)" loading="lazy">
-                                        <img src="/assets/images/product-new/desktop/Twist-Yarn-polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="Twist Yarn polyester Thaipolyester" loading="lazy">
+                                        <source srcset="/assets/images/product/mobile/Twist-Yarn-polyester-Thaipolyester.webp"  media="(max-width: 640px)" loading="lazy">
+                                        <img src="/assets/images/product/desktop/Twist-Yarn-polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="Twist Yarn polyester Thaipolyester" loading="lazy">
                                     </picture>
                                 </div>
                                 <div class="col-xs-7 col-sm-7 col-md-7 p-0 d-flex m-auto">
@@ -809,8 +809,8 @@
                                         </table>
                                         <div class="star">
                                             <picture>
-                                                <source srcset="/assets/images/product-new/mobile/star-black.webp"  media="(max-width: 640px)" loading="lazy">
-                                                <img src="/assets/images/product-new/desktop/star-black.webp" width="900" height="350" class="img-fluid" alt="star" loading="lazy">
+                                                <source srcset="/assets/images/product/mobile/star-black.webp"  media="(max-width: 640px)" loading="lazy">
+                                                <img src="/assets/images/product/desktop/star-black.webp" width="900" height="350" class="img-fluid" alt="star" loading="lazy">
                                             </picture>
                                         </div>
                                     </div>
@@ -826,16 +826,16 @@
                                         <h2 class="prod-title text-center m-0 fw-600">Spun Yarn</h2>
                                         <div class="star">
                                             <picture>
-                                                <source srcset="/assets/images/product-new/mobile/star-black.webp"  media="(max-width: 640px)" loading="lazy">
-                                                <img src="/assets/images/product-new/desktop/star-black.webp" width="900" height="350" class="img-fluid" alt="star" loading="lazy">
+                                                <source srcset="/assets/images/product/mobile/star-black.webp"  media="(max-width: 640px)" loading="lazy">
+                                                <img src="/assets/images/product/desktop/star-black.webp" width="900" height="350" class="img-fluid" alt="star" loading="lazy">
                                             </picture>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-xs-6 col-sm-6 col-md-6 p-0 d-flex m-auto">
                                     <picture class="m-auto">
-                                        <source srcset="/assets/images/product-new/mobile/Ring-Spun-OE-Spun-Yarn-Polyester-Thaipolyester.webp"  media="(max-width: 640px)" loading="lazy">
-                                        <img src="/assets/images/product-new/desktop/Ring-Spun-OE-Spun-Yarn-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="Ring Spun OE Spun Yarn Polyester Thaipolyester" loading="lazy">
+                                        <source srcset="/assets/images/product/mobile/Ring-Spun-OE-Spun-Yarn-Polyester-Thaipolyester.webp"  media="(max-width: 640px)" loading="lazy">
+                                        <img src="/assets/images/product/desktop/Ring-Spun-OE-Spun-Yarn-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="Ring Spun OE Spun Yarn Polyester Thaipolyester" loading="lazy">
                                     </picture>
                                 </div>
                             </div>
@@ -880,16 +880,16 @@
                                     </table>
                                     <div class="star">
                                         <picture>
-                                            <source srcset="/assets/images/product-new/mobile/star-black.webp"  media="(max-width: 640px)" loading="lazy">
-                                            <img src="/assets/images/product-new/desktop/star-black.webp" width="900" height="350" class="img-fluid" alt="star" loading="lazy">
+                                            <source srcset="/assets/images/product/mobile/star-black.webp"  media="(max-width: 640px)" loading="lazy">
+                                            <img src="/assets/images/product/desktop/star-black.webp" width="900" height="350" class="img-fluid" alt="star" loading="lazy">
                                         </picture>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-xs-4 col-sm-4 col-md-4 p-0 d-flex mr-0">
                                 <picture class="mr-0">
-                                    <source srcset="/assets/images/product-new/mobile/Ring-Spun-Yarn-Polyester-Thaipolyester-1.webp"  media="(max-width: 640px)" loading="lazy">
-                                    <img src="/assets/images/product-new/desktop/Ring-Spun-Yarn-Polyester-Thaipolyester-1.webp" width="900" height="350" class="img-fluid" alt="POY Partially Oriented Yarn Polyester Thaipolyester" loading="lazy">
+                                    <source srcset="/assets/images/product/mobile/Ring-Spun-Yarn-Polyester-Thaipolyester-1.webp"  media="(max-width: 640px)" loading="lazy">
+                                    <img src="/assets/images/product/desktop/Ring-Spun-Yarn-Polyester-Thaipolyester-1.webp" width="900" height="350" class="img-fluid" alt="POY Partially Oriented Yarn Polyester Thaipolyester" loading="lazy">
                                 </picture>
                             </div>
                         </div>
@@ -931,16 +931,16 @@
                                     </table>
                                     <div class="star">
                                         <picture>
-                                            <source srcset="/assets/images/product-new/mobile/star-black.webp"  media="(max-width: 640px)" loading="lazy">
-                                            <img src="/assets/images/product-new/desktop/star-black.webp" width="900" height="350" class="img-fluid" alt="star" loading="lazy">
+                                            <source srcset="/assets/images/product/mobile/star-black.webp"  media="(max-width: 640px)" loading="lazy">
+                                            <img src="/assets/images/product/desktop/star-black.webp" width="900" height="350" class="img-fluid" alt="star" loading="lazy">
                                         </picture>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-xs-5 col-sm-5 col-md-6 p-0 d-flex m-auto">
                                 <picture class="m-auto">
-                                    <source srcset="/assets/images/product-new/mobile/OE-Spun-Yarn-Polyester-Thaipolyester.webp"  media="(max-width: 640px)" loading="lazy">
-                                    <img src="/assets/images/product-new/desktop/OE-Spun-Yarn-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="OE Spun Yarn Polyester Thaipolyester" loading="lazy">
+                                    <source srcset="/assets/images/product/mobile/OE-Spun-Yarn-Polyester-Thaipolyester.webp"  media="(max-width: 640px)" loading="lazy">
+                                    <img src="/assets/images/product/desktop/OE-Spun-Yarn-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="OE Spun Yarn Polyester Thaipolyester" loading="lazy">
                                 </picture>
                             </div>
                         </div>
