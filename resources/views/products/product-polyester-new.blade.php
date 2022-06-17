@@ -952,6 +952,7 @@
 </div>
 @endsection
 @section('custom-script')
+    <script src="/lib/jquery-on-scrolled-to/on-scrolled-to.min.js"></script>
     <script src="/lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="/js/product-polyester-new.js?v={{ time() }}"></script>
 @endsection

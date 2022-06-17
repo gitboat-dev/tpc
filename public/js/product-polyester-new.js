@@ -11,9 +11,12 @@ jQuery(document).ready(function($){
     $(window).resize(function() {
         row3();
     });
-    $(window).scroll(function(){
+    $('#sec2 > .r3').onScrolledTo(0,function(){
         row3();
     });
+    // $(window).scroll(function(){
+    //     row3();
+    // });
 });
 function row3(){
     let col1 = $('#sec2 .r3 .col1').outerHeight(),
