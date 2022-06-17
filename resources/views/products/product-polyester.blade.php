@@ -1,7 +1,7 @@
 @extends('layouts.template')
 @section('style')
     <link rel="preload stylesheet"  href="/lib/owlcarousel/assets/owl.carousel.min.css?v={{time()}}" as="style" crossorigin>
-    <link rel="preload stylesheet" href="/css/product-polyester.css?v={{ time() }}" as="style" crossorigin>
+    <link rel="preload stylesheet" href="/css/product-polyester.min.css?v={{ time() }}" as="style" crossorigin>
 @endsection
 @section('og-image','/assets/images/product-new/desktop/bg-head.webp')
 @section('content')
@@ -954,5 +954,5 @@
 @section('custom-script')
     <script src="/lib/jquery-on-scrolled-to/on-scrolled-to.min.js"></script>
     <script src="/lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="/js/product-polyester.js?v={{ time() }}"></script>
+    <script src="/js/product-polyester.min.js?v={{ time() }}"></script>
 @endsection
