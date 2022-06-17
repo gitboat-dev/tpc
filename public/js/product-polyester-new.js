@@ -1,5 +1,6 @@
 jQuery(document).ready(function($){
     sec1_slide();
+    row3();
     $('div.burger-menu').on('click',function(){
         if($(this).hasClass('change')){
             setTimeout(function(){

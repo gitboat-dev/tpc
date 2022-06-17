@@ -17,9 +17,14 @@ body{
     --r3-col1-padding:0 7.5px 7.5px 0;
     --r3-col2-padding:7.5px 7.5px 0 0;
     --r3-col3-padding:7.5px 7.5px 0 7.5px;
-    --r3-col4-padding:0 7.5px 7.5px 0;
+    --r3-col4-padding:0 0 7.5px 7.5px;
     --r3-col5-padding:7.5px 0 0 7.5px;
+    --r4-col1-padding:0 7.5px 0 0;
+    --r4-col2-padding:0 0 0 7.5px;
 }
+
+/* end all setting */
+
 #sec1 .owl-carousel .owl-nav{
     color: var(--msBg);
     transition: all 0.2s;
@@ -196,6 +201,10 @@ body{
     background-color: var(--prod11-bg-color);
     color: var(--msBgDark);
 }
+#sec2 .star{
+    max-width: 20%;
+    margin: 15px auto;
+}
 #sec2 .prod-block:hover .star{
     animation-name: spin;
     animation-duration: 2500ms;
@@ -240,40 +249,29 @@ body{
     margin: 15px 0;
 }
 #sec2 .r3 .col1{
-    padding-right: 7.5px !important;
-    padding-bottom: 7.5px !important;
+    padding: var(--r3-col1-padding) !important;
 }
 #sec2 .r3 .col4{
-    padding-left: 7.5px !important;
-    padding-bottom: 7.5px !important;
+    padding: var(--r3-col4-padding) !important;
 }
 #sec2 .r3 .col2{
-    padding-top: 7.5px !important;
-    padding-right: 7.5px !important;
+    padding: var(--r3-col2-padding) !important;
 }
 #sec2 .r3 .col3{
-    padding-top: 7.5px !important;
-    padding-left: 7.5px !important;
-    padding-right: 7.5px !important;
+    padding: var(--r3-col3-padding) !important;
 }
 #sec2 .r3 .col5{
-    padding-top: 7.5px !important;
-    padding-left: 7.5px !important;
+    padding: var(--r3-col5-padding) !important;
 }
 #sec2 .r4{
     margin: 0;
     margin-top: 15px;
 }
 #sec2 .r4 .col1{
-    padding-right: 7.5px !important;
+    padding: var(--r4-col1-padding) !important;
 }
 #sec2 .r4 .col2{
-    padding-left: 7.5px !important;
-}
-
-#sec2 .star{
-    max-width: 20%;
-    margin: 15px auto;
+    padding: var(--r4-col2-padding) !important;
 }
 
 /* end sec2 */
@@ -313,6 +311,22 @@ body{
     /* end sec2 */
 }
 @media only screen and (max-width: 991px){
+    body{
+        --r1-col1-padding:0 3.75px 0 0;
+        --r1-col2-padding:0 0 0 3.75px;
+        --r2-col1-padding:0 3.75px 0 0;
+        --r2-col2-padding:0 0 0 3.75px;
+        --r3-col1-padding:0 3.75px 3.75px 0;
+        --r3-col2-padding:3.75px 3.75px 0 0;
+        --r3-col3-padding:3.75px 3.75px 0 3.75px;
+        --r3-col4-padding:0 0 3.75px 3.75px;
+        --r3-col5-padding:3.75px 0 0 3.75px;
+        --r4-col1-padding:0 3.75px 0 0;
+        --r4-col2-padding:0 0 0 3.75px;
+    }
+
+    /* end all setting */
+
     #sec1 .slide .item.head .content{
         top: 1%;
     }
@@ -337,45 +351,6 @@ body{
     #sec2 .prod-desc .prod-title{
         font-size: 30px;
         line-height: 30px;
-    }
-    #sec2 .r1 .col1{
-        padding-right: 3.75px !important;
-    }
-    #sec2 .r1 .col2{
-        padding-left: 3.75px !important;
-    }
-    #sec2 .r2 .col1{
-        padding-right: 3.75px !important;
-    }
-    #sec2 .r2 .col2{
-        padding-left: 3.75px !important;
-    }
-    #sec2 .r3 .col1{
-        padding-right: 3.75px !important;
-        padding-bottom: 3.75px !important;
-    }
-    #sec2 .r3 .col4{
-        padding-left: 3.75px !important;
-        padding-bottom: 3.75px !important;
-    }
-    #sec2 .r3 .col2{
-        padding-top: 3.75px !important;
-        padding-right: 3.75px !important;
-    }
-    #sec2 .r3 .col3{
-        padding-top: 3.75px !important;
-        padding-left: 3.75px !important;
-        padding-right: 3.75px !important;
-    }
-    #sec2 .r3 .col5{
-        padding-top: 3.75px !important;
-        padding-left: 3.75px !important;
-    }
-    #sec2 .r4 .col1{
-        padding-right: 3.75px !important;
-    }
-    #sec2 .r4 .col2{
-        padding-left: 3.75px !important;
     }
 
     /* end sec2 */

@@ -3,7 +3,7 @@
     <link rel="preload stylesheet"  href="/lib/owlcarousel/assets/owl.carousel.min.css?v={{time()}}" as="style" crossorigin>
     <link rel="preload stylesheet" href="/css/product-polyester-new.css?v={{ time() }}" as="style" crossorigin>
 @endsection
-@section('og-image','')
+@section('og-image','/assets/images/product-new/desktop/bg-head.webp')
 @section('content')
 <div id="tpc">
     <div id="tpc_bg">
