@@ -12,8 +12,8 @@
                     <div class="content pos-r d-flex">
                         <div class="img_block w-100p">
                             <picture>
-                                <source srcset="/assets/images/blogs/columns/dope-dyed-polyester-yarn/mobile/DOPE-DYED-POLYESTER-YARN-thaipolyester.webp" media="(max-width: 640px)">
-                                <img src="/assets/images/blogs/columns/dope-dyed-polyester-yarn/desktop/DOPE-DYED-POLYESTER-YARN-thaipolyester.webp" width="900" height="350" class="img-fluid" alt="DOPE DYED POLYESTER YARN thaipolyester">
+                                <source srcset="/assets/images/blogs/columns/dope-dyed-polyester-yarn/mobile/DOPE-DYED-POLYESTER-YARN-thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                <img src="/assets/images/blogs/columns/dope-dyed-polyester-yarn/desktop/DOPE-DYED-POLYESTER-YARN-thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="DOPE DYED POLYESTER YARN thaipolyester">
                             </picture>
                         </div>
                     </div>

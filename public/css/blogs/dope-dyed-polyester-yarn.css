@@ -116,7 +116,23 @@ body{
 }
 
 /* end sec6 */
+@media only screen and (min-width: 1600px){
+    #tpc .container{
+        padding-left: 100px !important;
+        padding-right: 100px !important;
+    }
+    #sec2 .col1 .content_group .bg-text{
+        left: -125px !important;
+    }
 
+    /* end sec2 */
+
+    #sec4 .col2 .content_group .bg-text{
+        right: -125px !important;
+    }
+
+    /* end sec4 */
+}
 @media only screen and (max-width: 992px){
     #tpc .flex-c{
         flex-direction: column;
