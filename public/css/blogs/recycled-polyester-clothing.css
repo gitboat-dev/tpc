@@ -1,6 +1,7 @@
 body{
     --sec2-padding:20px 0;
     --sec5-padding:20px 0;
+    --sec6-padding:60px 0;
 }
 
 /* end all setting */
@@ -28,7 +29,7 @@ body{
     padding: var(--sec2-padding);
 }
 #sec2 .col1 .content{
-    min-height: 180px;
+    min-height: 150px;
 }
 
 /* end sec2 */
@@ -43,10 +44,43 @@ body{
     padding: var(--sec5-padding);
 }
 #sec5 .col1 .content{
-    min-height: 180px;
+    min-height: 150px;
 }
 
-/* end sec2 */
+/* end sec5 */
+
+#sec6{
+    padding: var(--sec6-padding);
+    overflow: hidden;
+}
+#sec6 .btn_block a{
+    background-color: var(--msBg);
+    color: var(--msBgDark);
+    font-size: 24px;
+    padding: 15px 20%;
+    border-radius: 30px;
+    transition: all 0.2s;
+}
+#sec6 .btn_block a:hover{
+    background-color: var(--msBgDark);
+    color: var(--msBgLight);
+    transition: all 0.2s;
+}
+#sec6 .green_prod{
+    left: 2.5%;
+    z-index: 2;
+    padding: 15px;
+    font-size: 30px;
+    font-weight: 600;
+}
+#sec6 .rec_icon{
+    z-index: 2;
+    margin-top: 0;
+    margin-left: 0;
+    max-width: 450px;
+}
+
+/* end sec6 */
 
 @media only screen and (min-width: 1900px){
     #tpc .container{
@@ -64,6 +98,12 @@ body{
 
 }
 @media only screen and (max-width: 991px){
+    body{
+        --sec6-padding:20px 0 60px;
+    }
+
+    /* end all setting */
+
     #sec1 .head-title .title{
         font-size: 32px;
         line-height: 32px;
@@ -81,6 +121,12 @@ body{
     }
 
     /* end sec1 */
+
+    #sec6 .rec_icon {
+        max-width: 250px;
+    }
+
+    /* end sec6 */
 }
 @media only screen and (max-width: 768px){
     #sec1 .head-title .title{
@@ -98,6 +144,34 @@ body{
     }
 
     /* end sec1 */
+
+    #sec6 .rec_icon{
+        margin-top: 30px;
+        margin-right: 0;
+        margin-left: inherit;
+        margin-bottom: 0;
+    }
+    #sec6 .green_prod{
+        padding: 5px;
+        font-size: 12px;
+    }
+    #sec6 .btn_block a{
+        font-size: 16px;
+        padding: 10px 20%;
+        border-radius: 30px;
+    }
+
+    /* end sec6 */
+}
+@media only screen and (max-width: 540px){
+    #sec6 .btn_block a{
+        width: 100%;
+    }
+    #sec6 .rec_icon {
+        max-width: 150px;
+    }
+
+    /* end sec6 */
 }
 @media only screen and (max-width: 300px){
     #sec1 .head-title .title{

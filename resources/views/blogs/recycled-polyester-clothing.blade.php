@@ -113,6 +113,40 @@
                 </div>
             </div>
         </section>
+        <section id="sec6" class="pos-r">
+            <div class="container">
+                <div class="row m-0 d-flex m-flex-cr">
+                    <div class="col-xs-12 col-sm-12 col-md-6 p-0">
+                        <div class="img_block rec_icon w-100p pos-r">
+                            <picture>
+                                <source srcset="\assets\images\blogs\columns\recycled-polyester-clothing\mobile\Filpbook-Recycled-Polyester-Clothing-Green-Eco-TPC-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                <img src="\assets\images\blogs\columns\recycled-polyester-clothing\desktop\Filpbook-Recycled-Polyester-Clothing-Green-Eco-TPC-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Filpbook Recycled Polyester Clothing Green Eco TPC Thaipolyester" loading="lazy">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 p-0">
+                        <div class="img_block w-100p pos-r" style="z-index: 2;">
+                            <picture>
+                                <source srcset="\assets\images\blogs\columns\recycled-polyester-clothing\mobile\Filpbook-Recycled-Polyester-Clothing-Green-Eco-TPC-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                <img src="\assets\images\blogs\columns\recycled-polyester-clothing\desktop\Filpbook-Recycled-Polyester-Clothing-Green-Eco-TPC-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Filpbook Recycled Polyester Clothing Green Eco TPC Thaipolyester" loading="lazy">
+                            </picture>
+                        </div>
+                        <div class="btn_block w-100p pos-r text-center" style="z-index: 2;">
+                            <a href="#" title="get FREE catalog">get FREE catalog</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="img_block w-100p pos-ab bottom-0 left-0" style="z-index: 1">
+                <picture>
+                    <source srcset="\assets\images\blogs\columns\recycled-polyester-clothing\mobile\Recycled-Polyester-Clothing-Thaipolyester-Eco-TPC.webp?v={{time()}}" media="(max-width: 640px)">
+                    <img src="\assets\images\blogs\columns\recycled-polyester-clothing\desktop\Recycled-Polyester-Clothing-Thaipolyester-Eco-TPC.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Recycled Polyester Clothing Thaipolyester Eco TPC" loading="lazy">
+                </picture>
+            </div>
+            <div class="green_prod pos-ab bottom-0 bg-white">
+                <span class="theme-hl">GREEN PRODUCT</span>
+            </div>
+        </section>
     </div>
 </div>
 @endsection
