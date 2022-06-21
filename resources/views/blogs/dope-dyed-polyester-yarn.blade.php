@@ -47,8 +47,8 @@
                         <div class="content pos-r d-flex">
                             <div class="img_block w-100p">
                                 <picture>
-                                    <source srcset="\assets\images\blogs\columns\dope-dyed-polyester-yarn\mobile\DOPE-DYED-POLYESTER-YARN-product-thaipolyester.webp" media="(max-width: 640px)">
-                                    <img src="\assets\images\blogs\columns\dope-dyed-polyester-yarn\desktop\DOPE-DYED-POLYESTER-YARN-product-thaipolyester.webp" width="900" height="350" class="img-fluid" alt="DOPE-DYED POLYESTER YARN product thaipolyester" loading="lazy">
+                                    <source srcset="\assets\images\blogs\columns\dope-dyed-polyester-yarn\mobile\DOPE-DYED-POLYESTER-YARN-plastic-pellets-polyester.webp" media="(max-width: 640px)">
+                                    <img src="\assets\images\blogs\columns\dope-dyed-polyester-yarn\desktop\DOPE-DYED-POLYESTER-YARN-plastic-pellets-polyester.webp" width="900" height="350" class="img-fluid" alt="DOPE-DYED POLYESTER YARN plastic pellets polyester" loading="lazy">
                                 </picture>
                             </div>
                         </div>
@@ -65,7 +65,83 @@
                     </div>
                 </div>
             </div>
-
+        </section>
+        <section id="sec3">
+            <div class="container">
+                <div class="row m-0">
+                    <div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
+                        <div class="content pos-r d-flex m-auto">
+                            <div class="content_group m-auto">
+                                <p>
+                                    Furthermore, environmental concerns have been seriously increasing dramatically in the last decade because of increasing industrial pollution, waste problems, effects of global
+                                    warming, etc. <span class="theme-hl">Dope-Dyed Polyester Yarn</span> is created by adding a master-batch colorant to the polymer melt in spinning or extrusion. This result in fibers and filaments fully impregnated
+                                    with pigment from the spinnerets in a one-step process.
+                                </p>
+                                <p>
+                                    Wet processing is a common step in the textile industry and has significantly impacted the environment and human health. Large amounts of chemicals and dyes are used in the wet
+                                    processing, which leads to larger water usage.
+                                </p>
+                                <p>
+                                    Consequently, <span class="theme-hl">Dope Dyeing Process</span> is the right solution to reduce the pollution and wastewater discharges in a textile processing factory to the environment.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-7 p-0 col2">
+                        <div class="content pos-r d-flex">
+                            <div class="img_block w-100p">
+                                <picture>
+                                    <source srcset="\assets\images\blogs\columns\dope-dyed-polyester-yarn\mobile\DOPE-DYED-POLYESTER-YARN-Process-Thaipolyester-1.webp" media="(max-width: 640px)">
+                                    <img src="\assets\images\blogs\columns\dope-dyed-polyester-yarn\desktop\DOPE-DYED-POLYESTER-YARN-Process-Thaipolyester-1.webp" width="900" height="350" class="img-fluid" alt="DOPE-DYED POLYESTER YARN Process Thaipolyester" loading="lazy">
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-5 col3"></div>
+                </div>
+            </div>
+        </section>
+        <section id="sec4">
+            <div class="container">
+                <div class="row m-0">
+                    <div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
+                        <div class="content pos-r d-flex">
+                            <div class="img_block w-100p">
+                                <picture>
+                                    <source srcset="\assets\images\blogs\columns\dope-dyed-polyester-yarn\mobile\DOPE-DYED-POLYESTER-YARN-product-thaipolyester.webp" media="(max-width: 640px)">
+                                    <img src="\assets\images\blogs\columns\dope-dyed-polyester-yarn\desktop\DOPE-DYED-POLYESTER-YARN-product-thaipolyester.webp" width="900" height="350" class="img-fluid" alt="DOPE-DYED POLYESTER YARN product thaipolyester" loading="lazy">
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="sec5" class="bg-black pos-r">
+            <div class="container">
+                <div class="row m-0">
+                    <div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
+                        <div class="content pos-r d-flex m-auto">
+                            <div class="content_group m-auto">
+                                <h3><span class="theme-hl tl m-tl">The advantage of using</span> Dope Dyed Polyester <span class="theme-hl tl m-tl">Yarn for finished goods</span></h3>
+                                <p>
+                                    <span class="theme-hl fw-600" style="font-size: 24px">Quality</span> – <span class="theme-hl">Dope Dyed Polyester</span> is better for washing and perspiration fastness (rating of 4-5 for both wash & perspiration fastness against the rating of 3 for
+                                    piece-dyed fabrics) even though there is no significant difference in rubbing and sublimation fastness.
+                                </p>
+                                <p>
+                                    <span class="theme-hl fw-600" style="font-size: 24px">Cost</span> – <span class="theme-hl">Dope Dyed Polyester</span> is cheaper compared to piece-dyed.
+                                    Less Process – As the fiber is already dyed, the dyeing process is eliminated, saving many resources. This results in less lead time in the production process and enables you to deliver your
+                                    goods faster to your customers.
+                                </p>
+                                <p>
+                                    With these three benefits, you can see an increase in the efficiency of your production process and your finished goods. Eventually, this will increase the satisfaction among you and
+                                    your valuable customers.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </div>
 </div>
