@@ -106,11 +106,10 @@ ul.path > li.active{
     color: var(--msBgRed);
     transition: all 0.2s;
 }
-/* #sec2 div.r-blog:not(:last-child){
-    padding-bottom: 25px;
-    margin-bottom: 25px;
-    border-bottom: none;
-} */
+#sec2 .r-blog{
+    padding-bottom: 15px;
+    margin-bottom: 20px !important;
+}
 
 /* end sec2 */
 
