@@ -1,0 +1,119 @@
+body{
+    --sec2-padding:20px 0;
+    --sec5-padding:20px 0;
+}
+
+/* end all setting */
+
+#sec1 .head-title{
+    padding: 60px;
+}
+#sec1 .head-title .title{
+    right: 5%;
+    bottom: 8%;
+}
+#sec1 .head-title .title p.p1{
+    text-indent: 100px
+}
+#sec1 .head-title .title p.p2{
+    text-indent: 60px
+}
+#sec1 .head-title .title p.p3{
+    text-indent: 20px
+}
+
+/* end sec1 */
+
+#sec2{
+    padding: var(--sec2-padding);
+}
+#sec2 .col1 .content{
+    min-height: 180px;
+}
+
+/* end sec2 */
+
+#sec3 p{
+    text-indent: 30px;
+}
+
+/* end sec3 */
+
+#sec5{
+    padding: var(--sec5-padding);
+}
+#sec5 .col1 .content{
+    min-height: 180px;
+}
+
+/* end sec2 */
+
+@media only screen and (min-width: 1900px){
+    #tpc .container{
+        padding-left: 100px !important;
+        padding-right: 100px !important;
+    }
+}
+@media only screen and (min-width: 1600px){
+    #sec1 .head-title .title{
+        right: 8%;
+        bottom: 16%;
+    }
+
+    /* end sec1 */
+
+}
+@media only screen and (max-width: 991px){
+    #sec1 .head-title .title{
+        font-size: 32px;
+        line-height: 32px;
+        right: 5%;
+        bottom: 15%;
+    }
+    #sec1 .head-title .title p.p1{
+        text-indent: 90px
+    }
+    #sec1 .head-title .title p.p2{
+        text-indent: 70px
+    }
+    #sec1 .head-title .title p.p3{
+        text-indent: 50px
+    }
+
+    /* end sec1 */
+}
+@media only screen and (max-width: 768px){
+    #sec1 .head-title .title{
+        font-size: 24px;
+        line-height: 20px;
+    }
+    #sec1 .head-title .title p.p1{
+        text-indent: 90px
+    }
+    #sec1 .head-title .title p.p2{
+        text-indent: 80px
+    }
+    #sec1 .head-title .title p.p3{
+        text-indent: 65px
+    }
+
+    /* end sec1 */
+}
+@media only screen and (max-width: 300px){
+    #sec1 .head-title .title{
+        font-size: 20px;
+        line-height: 15px;
+        right: 3.5%;
+    }
+    #sec1 .head-title .title p.p1{
+        text-indent: 90px
+    }
+    #sec1 .head-title .title p.p2{
+        text-indent: 80px
+    }
+    #sec1 .head-title .title p.p3{
+        text-indent: 70px
+    }
+
+    /* end sec1 */
+}
