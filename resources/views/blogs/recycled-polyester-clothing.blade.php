@@ -18,7 +18,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-12 d-flex col2">
+                <div class="col-xs-12 col-sm-12 col-md-12 col2">
                     <div class="content pos-r d-flex">
                         <h1 class="m-auto fw-600 text-center"><span class="m-tl1">DOPE-DYED POLYESTER YARN</span></h1>
                     </div>

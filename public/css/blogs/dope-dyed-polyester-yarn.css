@@ -10,6 +10,7 @@ body{
 
 #sec1 .col2{
     padding: 20px 15px;
+    min-height: 300px;
 }
 
 /* end sec1 */
@@ -137,6 +138,12 @@ body{
     }
 
     /* end all setting */
+
+    #sec1 .col2{
+        min-height: 200px;
+    }
+
+    /* end sec1 */
 
     #sec2 .container{
         padding: 0;
