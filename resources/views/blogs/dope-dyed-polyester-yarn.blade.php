@@ -1,8 +1,8 @@
 @extends('layouts.template')
 @section('style')
-    <link rel="preload stylesheet" href="/css/blogs/dope-dyed-polyester-yarn.css?v={{time()}}" as="style" crossorigin>
+    <link rel="preload stylesheet" href="/css/blogs/dope-dyed-polyester-yarn.min.css?v={{time()}}" as="style" crossorigin>
 @endsection
-@section('og-image','\assets\images\blogs\columns\dope-dyed-polyester-yarn\desktop\DOPE-DYED-POLYESTER-YARN-thaipolyester.webp')
+@section('og-image','/assets/images/blogs/columns/dope-dyed-polyester-yarn/desktop/DOPE-DYED-POLYESTER-YARN-thaipolyester.webp')
 @section('content')
 <div id="tpc">
     <div id="tpc_bg">
@@ -12,8 +12,8 @@
                     <div class="content pos-r d-flex">
                         <div class="img_block w-100p">
                             <picture>
-                                <source srcset="\assets\images\blogs\columns\dope-dyed-polyester-yarn\mobile\DOPE-DYED-POLYESTER-YARN-thaipolyester.webp" media="(max-width: 640px)">
-                                <img src="\assets\images\blogs\columns\dope-dyed-polyester-yarn\desktop\DOPE-DYED-POLYESTER-YARN-thaipolyester.webp" width="900" height="350" class="img-fluid" alt="DOPE DYED POLYESTER YARN thaipolyester">
+                                <source srcset="/assets/images/blogs/columns/dope-dyed-polyester-yarn/mobile/DOPE-DYED-POLYESTER-YARN-thaipolyester.webp" media="(max-width: 640px)">
+                                <img src="/assets/images/blogs/columns/dope-dyed-polyester-yarn/desktop/DOPE-DYED-POLYESTER-YARN-thaipolyester.webp" width="900" height="350" class="img-fluid" alt="DOPE DYED POLYESTER YARN thaipolyester">
                             </picture>
                         </div>
                     </div>
@@ -48,8 +48,8 @@
                         <div class="content pos-r d-flex">
                             <div class="img_block w-100p">
                                 <picture>
-                                    <source srcset="\assets\images\blogs\columns\dope-dyed-polyester-yarn\mobile\DOPE-DYED-POLYESTER-YARN-plastic-pellets-polyester.webp" media="(max-width: 640px)">
-                                    <img src="\assets\images\blogs\columns\dope-dyed-polyester-yarn\desktop\DOPE-DYED-POLYESTER-YARN-plastic-pellets-polyester.webp" width="900" height="350" class="img-fluid" alt="DOPE-DYED POLYESTER YARN plastic pellets polyester" loading="lazy">
+                                    <source srcset="/assets/images/blogs/columns/dope-dyed-polyester-yarn/mobile/DOPE-DYED-POLYESTER-YARN-plastic-pellets-polyester.webp" media="(max-width: 640px)">
+                                    <img src="/assets/images/blogs/columns/dope-dyed-polyester-yarn/desktop/DOPE-DYED-POLYESTER-YARN-plastic-pellets-polyester.webp" width="900" height="350" class="img-fluid" alt="DOPE-DYED POLYESTER YARN plastic pellets polyester" loading="lazy">
                                 </picture>
                             </div>
                         </div>
@@ -58,8 +58,8 @@
                         <div class="content pos-r d-flex">
                             <div class="img_block pos-r w-100p" style="z-index: 2;">
                                 <picture>
-                                    <source srcset="\assets\images\blogs\columns\dope-dyed-polyester-yarn\mobile\DOPE-DYED-POLYESTER-YARN-Process-Thaipolyester.webp" media="(max-width: 640px)">
-                                    <img src="\assets\images\blogs\columns\dope-dyed-polyester-yarn\desktop\DOPE-DYED-POLYESTER-YARN-Process-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="DOPE-DYED POLYESTER YARN Process Thaipolyester" loading="lazy">
+                                    <source srcset="/assets/images/blogs/columns/dope-dyed-polyester-yarn/mobile/DOPE-DYED-POLYESTER-YARN-Process-Thaipolyester.webp" media="(max-width: 640px)">
+                                    <img src="/assets/images/blogs/columns/dope-dyed-polyester-yarn/desktop/DOPE-DYED-POLYESTER-YARN-Process-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="DOPE-DYED POLYESTER YARN Process Thaipolyester" loading="lazy">
                                 </picture>
                             </div>
                         </div>
@@ -98,8 +98,8 @@
                         <div class="content pos-r d-flex">
                             <div class="img_block w-100p pos-r" style="z-index: 2;">
                                 <picture>
-                                    <source srcset="\assets\images\blogs\columns\dope-dyed-polyester-yarn\mobile\DOPE-DYED-POLYESTER-YARN-Process-Thaipolyester-1.webp" media="(max-width: 640px)">
-                                    <img src="\assets\images\blogs\columns\dope-dyed-polyester-yarn\desktop\DOPE-DYED-POLYESTER-YARN-Process-Thaipolyester-1.webp" width="900" height="350" class="img-fluid" alt="DOPE-DYED POLYESTER YARN Process Thaipolyester" loading="lazy">
+                                    <source srcset="/assets/images/blogs/columns/dope-dyed-polyester-yarn/mobile/DOPE-DYED-POLYESTER-YARN-Process-Thaipolyester-1.webp" media="(max-width: 640px)">
+                                    <img src="/assets/images/blogs/columns/dope-dyed-polyester-yarn/desktop/DOPE-DYED-POLYESTER-YARN-Process-Thaipolyester-1.webp" width="900" height="350" class="img-fluid" alt="DOPE-DYED POLYESTER YARN Process Thaipolyester" loading="lazy">
                                 </picture>
                             </div>
                         </div>
@@ -138,8 +138,8 @@
                         <div class="content pos-r d-flex">
                             <div class="img_block w-100p">
                                 <picture>
-                                    <source srcset="\assets\images\blogs\columns\dope-dyed-polyester-yarn\mobile\DOPE-DYED-POLYESTER-YARN-product-thaipolyester.webp" media="(max-width: 640px)">
-                                    <img src="\assets\images\blogs\columns\dope-dyed-polyester-yarn\desktop\DOPE-DYED-POLYESTER-YARN-product-thaipolyester.webp" width="900" height="350" class="img-fluid" alt="DOPE-DYED POLYESTER YARN product thaipolyester" loading="lazy">
+                                    <source srcset="/assets/images/blogs/columns/dope-dyed-polyester-yarn/mobile/DOPE-DYED-POLYESTER-YARN-product-thaipolyester.webp" media="(max-width: 640px)">
+                                    <img src="/assets/images/blogs/columns/dope-dyed-polyester-yarn/desktop/DOPE-DYED-POLYESTER-YARN-product-thaipolyester.webp" width="900" height="350" class="img-fluid" alt="DOPE-DYED POLYESTER YARN product thaipolyester" loading="lazy">
                                 </picture>
                             </div>
                         </div>
@@ -177,5 +177,5 @@
 </div>
 @endsection
 @section('custom-script')
-<script src="/js/blogs/dope-dyed-polyester-yarn.js?v={{time()}}"></script>
+<script src="/js/blogs/dope-dyed-polyester-yarn.min.js?v={{time()}}"></script>
 @endsection
