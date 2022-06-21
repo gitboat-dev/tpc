@@ -2,7 +2,7 @@
 @section('style')
     <link rel="preload stylesheet" href="/css/blogs/dope-dyed-polyester-yarn.css?v={{time()}}" as="style" crossorigin>
 @endsection
-@section('og-image','')
+@section('og-image','\assets\images\blogs\columns\dope-dyed-polyester-yarn\desktop\DOPE-DYED-POLYESTER-YARN-thaipolyester.webp')
 @section('content')
 <div id="tpc">
     <div id="tpc_bg">
@@ -31,6 +31,7 @@
                     <div class="col-xs-12 col-sm-12 col-md-7 p-0 d-flex flex-c m-flex-c col1">
                         <div class="content pos-r d-flex m-auto">
                             <div class="content_group m-auto">
+                                <div class="bg-text"></div>
                                 <p>
                                     Have you decided what color and dyeing method to choose for your fabrics? <span class="theme-hl">Dope dyed or yarn-dyed</span>?
                                     This article will explain the differences between these two dyeing methods <span class="theme-hl">(Dope-dyed and Yarn-dyed)</span>.
@@ -55,7 +56,7 @@
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-5 p-0 col2">
                         <div class="content pos-r d-flex">
-                            <div class="img_block w-100p">
+                            <div class="img_block pos-r w-100p" style="z-index: 2;">
                                 <picture>
                                     <source srcset="\assets\images\blogs\columns\dope-dyed-polyester-yarn\mobile\DOPE-DYED-POLYESTER-YARN-Process-Thaipolyester.webp" media="(max-width: 640px)">
                                     <img src="\assets\images\blogs\columns\dope-dyed-polyester-yarn\desktop\DOPE-DYED-POLYESTER-YARN-Process-Thaipolyester.webp" width="900" height="350" class="img-fluid" alt="DOPE-DYED POLYESTER YARN Process Thaipolyester" loading="lazy">
@@ -87,9 +88,15 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-7 p-0 col2">
+                </div>
+            </div>
+        </section>
+        <section id="sec4">
+            <div class="container">
+                <div class="row m-0 d-flex m-flex-c">
+                    <div class="col-xs-12 col-sm-12 col-md-7 p-0 col1">
                         <div class="content pos-r d-flex">
-                            <div class="img_block w-100p">
+                            <div class="img_block w-100p pos-r" style="z-index: 2;">
                                 <picture>
                                     <source srcset="\assets\images\blogs\columns\dope-dyed-polyester-yarn\mobile\DOPE-DYED-POLYESTER-YARN-Process-Thaipolyester-1.webp" media="(max-width: 640px)">
                                     <img src="\assets\images\blogs\columns\dope-dyed-polyester-yarn\desktop\DOPE-DYED-POLYESTER-YARN-Process-Thaipolyester-1.webp" width="900" height="350" class="img-fluid" alt="DOPE-DYED POLYESTER YARN Process Thaipolyester" loading="lazy">
@@ -97,11 +104,34 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-5 col3"></div>
+                    <div class="col-xs-12 col-sm-12 col-md-5 p-0 d-flex col2">
+                        <div class="content pos-r d-flex m-auto">
+                            <div class="content_group m-auto">
+                                <div class="bg-text"></div>
+                                <p class="p1">
+                                    Here are the advantages of <span class="theme-hl">dope dyeing</span><br>
+                                    1. Eco friendly<br>
+                                    2. Color consistency<br>
+                                    3. Better color fastness<br>
+                                    4. Light fastness characteristics in mass production<br>
+                                    5. Reduce water consumption in the common dyeing process<br>
+                                    6. Reduce wastewater loading<br>
+                                    7. Reduce production lead time (Shorter lead time)
+                                </p>
+                                <p class="p2">
+                                    In addition, <span class="theme-hl">Dope Dyed Polyester Yarn</span> is very utilizing
+                                    to the manufacturers who are using the traditional piece
+                                    dyeing process and facing the issues of emitting pollution,
+                                    controlling their production cost. <span class="theme-hl">Dope Dyed Polyester Yarn</span> is
+                                    a key significant part of solving all such problems.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
-        <section id="sec4">
+        <section id="sec5">
             <div class="container">
                 <div class="row m-0">
                     <div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
@@ -117,7 +147,7 @@
                 </div>
             </div>
         </section>
-        <section id="sec5" class="bg-black pos-r">
+        <section id="sec6" class="bg-black pos-r">
             <div class="container">
                 <div class="row m-0">
                     <div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
@@ -147,4 +177,5 @@
 </div>
 @endsection
 @section('custom-script')
+<script src="/js/blogs/dope-dyed-polyester-yarn.js?v={{time()}}"></script>
 @endsection

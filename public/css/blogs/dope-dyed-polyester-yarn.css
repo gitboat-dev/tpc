@@ -3,6 +3,7 @@ body{
     --sec3-padding:20px 0px 20px 0px;
     --sec4-padding:0px 0px 20px 0px;
     --sec5-padding:0px 0px 20px 0px;
+    --sec6-padding:0px 0px 20px 0px;
 }
 
 /* end all setting */
@@ -10,8 +11,12 @@ body{
 #sec1 .col2{
     padding: 20px 15px;
 }
+
+/* end sec1 */
+
 #sec2{
     padding: var(--sec2-padding);
+    overflow: hidden;
 }
 #sec2 .col1{
     padding: 15px 15px 0px !important;
@@ -24,7 +29,7 @@ body{
 #sec2 .col1 .content_group{
     padding: 15px;
 }
-#sec2 .col1 .content_group::after{
+#sec2 .col1 .content_group .bg-text{
     content: "";
     position: absolute;
     top: 0;
@@ -54,6 +59,30 @@ body{
 
 #sec4{
     padding: var(--sec4-padding);
+    overflow: hidden;
+}
+#sec4 .col2{
+    padding: 15px 15px 0px !important;
+}
+#sec4 .col2 .content_group{
+    padding: 15px;
+}
+#sec4 .col2 p {
+    position: relative;
+    z-index: 2;
+}
+#sec4 .col2 p.p2{
+    text-indent: 30px;
+}
+#sec4 .col2 .content_group .bg-text{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #eee;
+    z-index: 1;
 }
 
 /* end sec4 */
@@ -61,7 +90,13 @@ body{
 #sec5{
     padding: var(--sec5-padding);
 }
-#sec5::after{
+
+/* end sec5 */
+
+#sec6{
+    padding: var(--sec6-padding);
+}
+#sec6::after{
     content: " ";
     position: absolute;
     bottom: 0;
@@ -70,16 +105,16 @@ body{
     height: 15px;
     background-color: var(--msBgLight);
 }
-#sec5 .col1{
+#sec6 .col1{
     padding: 15px 15px !important;
 }
-#sec5 .col1 p{
+#sec6 .col1 p{
     position: relative;
     text-indent: 30px;
     z-index: 2;
 }
 
-/* end sec5 */
+/* end sec6 */
 
 @media only screen and (max-width: 992px){
     #tpc .flex-c{
@@ -92,6 +127,7 @@ body{
         --sec3-padding:0px 0px 20px;
         --sec4-padding:0px 0px 20px;
         --sec5-padding:0px 0px 20px;
+        --sec6-padding:0px 0px 20px;
     }
     #tpc .m-flex-c{
         flex-direction: column;
@@ -120,8 +156,11 @@ body{
 
     /* end sec3 */
 
-    #sec4 .container{
+    #sec4 .container {
         padding: 0;
+    }
+    #sec4 .col2{
+        padding: 0px !important;
     }
 
     /* end sec4 */
@@ -129,11 +168,17 @@ body{
     #sec5 .container{
         padding: 0;
     }
-    #sec5 .col1{
+
+    /* end sec5 */
+
+    #sec6 .container{
+        padding: 0;
+    }
+    #sec6 .col1{
         padding: 0px 15px 0px !important;
     }
 
-    /* end sec5 */
+    /* end sec6 */
 }
 @media only screen and (max-width: 300px){
     #sec1 .col2 .m-tl1{
