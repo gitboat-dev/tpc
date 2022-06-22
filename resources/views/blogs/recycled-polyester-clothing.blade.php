@@ -46,7 +46,7 @@
                 </div>
             </div>
         </section>
-        <section id="sec3" class="bg-black pos-r">
+        <section id="sec3" class="bg-universe pos-r">
             <div class="img_block w-100p">
                 <picture>
                     <source srcset="\assets\images\blogs\columns\recycled-polyester-clothing\mobile\Global-warming-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
@@ -55,7 +55,7 @@
             </div>
             <div class="d-flex pos-ab top-0 left-0 w-100p h-100p">
                 <div class="container d-flex">
-                    <div class="row m-auto">
+                    <div class="row r1 m-auto">
                         <div class="col-xs-12 col-sm-12 col-md-4 p-0 d-flex col1">
                             <div class="content pos-r d-flex m-auto">
                                 <div class="content_group">
@@ -119,8 +119,8 @@
                     <div class="col-xs-12 col-sm-12 col-md-6 p-0">
                         <div class="img_block rec_icon w-100p pos-r">
                             <picture>
-                                <source srcset="\assets\images\blogs\columns\recycled-polyester-clothing\mobile\Filpbook-Recycled-Polyester-Clothing-Green-Eco-TPC-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                                <img src="\assets\images\blogs\columns\recycled-polyester-clothing\desktop\Filpbook-Recycled-Polyester-Clothing-Green-Eco-TPC-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Filpbook Recycled Polyester Clothing Green Eco TPC Thaipolyester" loading="lazy">
+                                <source srcset="\assets\images\blogs\columns\recycled-polyester-clothing\mobile\Logo-Recycled-Polyester-Clothing.webp?v={{time()}}" media="(max-width: 640px)">
+                                <img src="\assets\images\blogs\columns\recycled-polyester-clothing\desktop\Logo-Recycled-Polyester-Clothing.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Logo Recycled Polyester Clothing" loading="lazy">
                             </picture>
                         </div>
                     </div>
