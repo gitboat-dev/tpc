@@ -49,7 +49,7 @@
         <section id="sec3" class="bg-universe pos-r">
             <div class="img_block w-100p">
                 <picture>
-                    <source srcset="\assets\images\blogs\columns\recycled-polyester-clothing\mobile\Global-warming-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                    <source srcset="\assets\images\blogs\columns\recycled-polyester-clothing\mobile\Global-warming-Thaipolyester.webp?v={{time()}}" media="(max-width: 768px)">
                     <img src="\assets\images\blogs\columns\recycled-polyester-clothing\desktop\Global-warming-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Global warming Thaipolyester" loading="lazy">
                 </picture>
             </div>
@@ -94,7 +94,75 @@
                 </div>
             </div>
         </section>
-        <section id="sec4">
+        <section id="sec4" class="pos-r with-border-image">
+            <div class="sec4_bg"></div>
+            <div class="container">
+                <div class="row r1 d-flex m-flex-c">
+                    <div class="col-xs-12 col-sm-12 col-md-6 d-flex m-auto">
+                        <div class="img_block w-100p m-auto pos-r" style="z-index: 2;">
+                            <picture>
+                                <source srcset="\assets\images\blogs\columns\recycled-polyester-clothing\mobile\Blanket-Recycled-Polyester-Clothing-Desktop1.webp?v={{time()}}" media="(max-width: 640px)">
+                                <img src="\assets\images\blogs\columns\recycled-polyester-clothing\desktop\Blanket-Recycled-Polyester-Clothing-Desktop1.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Blanket Recycled Polyester Clothing Desktop" loading="lazy">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 d-flex m-auto">
+                        <div class="content">
+                            <div class="content_group">
+                                <p>
+                                    Once recycling trends occur, many global clothing brands develop and promote
+                                    recycled polyester fabric to produce their clothes. These recycled trends directly
+                                    impact polyester suppliers. They have to meet customers’ needs and market trends
+                                    by developing the polyester waste recycling process and registering
+                                    recycled polyester yarn manufacturers in their area.
+                                </p>
+                                <p>
+                                    Yarn waste can be used in recycled yarn production, and PET bottle is
+                                    considered the main raw material of the recycling process. Using post-consumer like
+                                    PET (Polyethylene Terephthalate) plastic bottles and post-industrial like yarn waste
+                                    decreases overall carbon footprint and saves energy and natural resources such as
+                                    crude oil and natural gas. Not too long after recycled PET bottle yarn is discovered,
+                                    the recycled PET yarn manufacturers and recycled polyester yarn manufacturers
+                                    have been integrated and produced more recycled polyester yarn than before and
+                                    continue increasing.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row r2 d-flex m-flex-cr">
+                    <div class="col-xs-12 col-sm-12 col-md-6 d-flex m-auto">
+                        <div class="content">
+                            <div class="content_group">
+                                <p>
+                                    The recycled raw material has been used to produce recycled polyester yarn and
+                                    recycled polyester staple fiber. Recycled polyester is obtained by melting down PET
+                                    plastic bottles and re-spinning it into recycled polyester staple fiber. The recycled
+                                    polyester fiber is the raw material of spun yarn production used in sock, carpet,
+                                    sweater, and fabric production.
+                                </p>
+                                <p>
+                                    Compared to virgin polyester, the recycled polyester fabric offers similar
+                                    properties, which contain advantages of durable, lightweight, wrinkle-resistant,
+                                    quick-dry, elasticity, colorfastness and stain-resistant as virgin polyester. However,
+                                    due to its production process and raw material, recycled polyester fabric benefits
+                                    from being sustainable and eco-friendly to the world. Therefore, using recycled
+                                    polyester is a significant value-added to the company and positively impacts brand
+                                    images compared to others.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 d-flex m-auto">
+                        <div class="img_block w-100p m-auto pos-r" style="z-index: 2;">
+                            <picture>
+                                <source srcset="\assets\images\blogs\columns\recycled-polyester-clothing\mobile\Process-Recycled-Polyester-Clothing-Desktop.webp?v={{time()}}" media="(max-width: 640px)">
+                                <img src="\assets\images\blogs\columns\recycled-polyester-clothing\desktop\Process-Recycled-Polyester-Clothing-Desktop.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Process Recycled Polyester Clothing Desktop" loading="lazy">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
         <section id="sec5" class="bg-black">
             <div class="container">
