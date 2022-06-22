@@ -177,5 +177,4 @@
 </div>
 @endsection
 @section('custom-script')
-<script src="/js/blogs/dope-dyed-polyester-yarn.min.js?v={{time()}}"></script>
 @endsection

@@ -34,9 +34,9 @@ body{
     content: "";
     position: absolute;
     top: 0;
-    left: 0;
+    left: -169px;
     right: 0;
-    width: 100%;
+    width: 1920px;
     height: 100%;
     background-color: #eee;
     z-index: 1;
@@ -79,8 +79,8 @@ body{
     content: "";
     position: absolute;
     top: 0;
-    right: 0;
-    width: 100%;
+    right: -164px;
+    width: 1920px;
     height: 100%;
     background-color: #eee;
     z-index: 1;
@@ -122,17 +122,6 @@ body{
         padding-left: 100px !important;
         padding-right: 100px !important;
     }
-    #sec2 .col1 .content_group .bg-text{
-        left: -115px !important;
-    }
-
-    /* end sec2 */
-
-    #sec4 .col2 .content_group .bg-text{
-        right: -105px !important;
-    }
-
-    /* end sec4 */
 }
 @media only screen and (max-width: 992px){
     #tpc .flex-c{
