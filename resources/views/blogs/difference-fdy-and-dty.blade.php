@@ -83,6 +83,81 @@
             </div>
         </section>
         <section id="sec4">
+            <div class="container">
+                <div class="row r1 m-0 d-flex m-flex-c">
+                    <div class="col-xs-12 col-sm-12 col-md-6 m-auto col1">
+                        <div class="img_block pos-r">
+                            <picture class="pos-ab w-100p" style="z-index: 1;">
+                                <source srcset="\assets\images\blogs\columns\difference-FDY-and-DTY\mobile\circle.webp?v={{time()}}" media="(max-width: 368px)">
+                                <img src="\assets\images\blogs\columns\difference-FDY-and-DTY\desktop\circle.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="circle" loading="lazy">
+                            </picture>
+                            <picture class="pos-r" style="z-index: 3;">
+                                <source srcset="\assets\images\blogs\columns\difference-FDY-and-DTY\mobile\DTY-(Draw-Textured-Yarn)-Thaipolyester-1.webp?v={{time()}}" media="(max-width: 640px)">
+                                <img src="\assets\images\blogs\columns\difference-FDY-and-DTY\desktop\DTY-(Draw-Textured-Yarn)-Thaipolyester-1.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="DTY (Draw Textured Yarn) Thaipolyester" loading="lazy">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 m-auto col2">
+                        <div class="content pos-r d-flex">
+                            <div class="content_group m-auto">
+                                <h2 class="theme-hl"><span class="tl1 m-tl1">DTY (Draw Textured Yarn)</span></h2>
+                                <p>
+                                    DTY manufacturing process is produced by simultaneously twisting and
+                                    drawing by a high-pitched POY texturing machine. It is a continuous
+                                    filament yarn that contains permanent distortions, crimps, loops, coils or
+                                    crinkles on DTY. This process disperses, curls, and entangles the filaments
+                                    composing the POY yarn, giving DTY a fluffy appearance and the properties
+                                    of both natural and synthetic fiber. DTY yarns are known as thread, Heat set,
+                                    and bulky filament. They still give soft and woolly feel properties because
+                                    they increase the warmth and comfort texturing into yarn.
+                                </p>
+                                <p>
+                                    DTY is mainly used in weaving and knitting, such as making clothes, home
+                                    furnishing, seat covers, bags, etc.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row r2 m-0 d-flex m-flex-cr">
+                    <div class="col-xs-12 col-sm-12 col-md-6 m-auto col1">
+                        <div class="content pos-r d-flex">
+                            <div class="content_group m-auto">
+                                <p>
+                                    With its properties of soft crimp, high bulk, high durability and retention,
+                                    DTY is also suitable in making outer/inner garments, skin-clinging garments,
+                                    furnishings, upholstery, etc., which are a replacement for cotton.
+                                </p>
+                                <p>
+                                    The technical properties of DTY can be molded into several ways to make the
+                                    yarn suitable for its vast uses. In addition, different heating techniques can
+                                    be made for the yarn set in specific use.<br>
+                                    1 Heater DTY is normally woolly & more stretchable as compared to DTY with<br>
+                                    2 Heater.
+                                </p>
+                                <p>
+                                    Also, the DTY can be made with several combinations of Intermingle points –
+                                    it can be Non-Intermingle (NIM) or Semi-Intermingle (SIM) or High-Intermingle
+                                    (HIM). The knots are not the knots tied when two threads are broken
+                                    but they are the tangle knots created by heating pressure. These Intermingle
+                                    yarns, also known as Interlaced yarn, are the replacement for lightly twisted
+                                    yarns. DTY yarn can also be twisted to high twists like 1500 TPM or 4000 TPM
+                                    (twist per meter). Such twisted yarn can also be heat-set to make the yarn
+                                    permanently thermo-set the twist.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 m-auto col2">
+                        <div class="img_block w-100p pos-r" style="z-index: 3;">
+                            <picture>
+                                <source srcset="\assets\images\blogs\columns\difference-FDY-and-DTY\mobile\DTY-(Draw-Textured-Yarn)-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                <img src="\assets\images\blogs\columns\difference-FDY-and-DTY\desktop\DTY-(Draw-Textured-Yarn)-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="DTY (Draw Textured Yarn) Thaipolyester" loading="lazy">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
         <section id="sec5" class="bg-black">
             <div class="container">
