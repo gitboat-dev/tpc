@@ -1,6 +1,6 @@
 @extends('layouts.template')
 @section('style')
-    <link rel="preload stylesheet" href="/css/blogs/recycled-polyester-clothing.css?v={{time()}}" as="style" crossorigin>
+    <link rel="preload stylesheet" href="/css/blogs/recycled-polyester-clothing.min.css?v={{time()}}" as="style" crossorigin>
 @endsection
 @section('og-image','/assets/images/blogs/columns/recycled-polyester-clothing/desktop/Recycled-Polyester-Clothing-Thaipolyester.webp')
 @section('content')
@@ -219,5 +219,5 @@
 </div>
 @endsection
 @section('custom-script')
-<script src="/js/blogs/recycled-polyester-clothing.js?v={{time()}}"></script>
+<script src="/js/blogs/recycled-polyester-clothing.min.js?v={{time()}}"></script>
 @endsection
