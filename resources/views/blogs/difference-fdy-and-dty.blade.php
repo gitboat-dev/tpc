@@ -12,8 +12,8 @@
                     <div class="content pos-r d-flex">
                         <div class="img_block w-100p">
                             <picture>
-                                <source srcset="\assets\images\blogs\columns\difference-FDY-and-DTY\mobile\How-difference-between-FDY-and-DTY-Yarn-Head-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                                <img src="\assets\images\blogs\columns\difference-FDY-and-DTY\desktop\How-difference-between-FDY-and-DTY-Yarn-Head-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="How difference between FDY and DTY Yarn Head Thaipolyester">
+                                <source srcset="/assets/images/blogs/columns/difference-fdy-and-dty/mobile/How-difference-between-FDY-and-DTY-Yarn-Head-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                <img src="/assets/images/blogs/columns/difference-fdy-and-dty/desktop/How-difference-between-FDY-and-DTY-Yarn-Head-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="How difference between FDY and DTY Yarn Head Thaipolyester">
                             </picture>
                         </div>
                         <div class="pos-ab w-100p h-100p d-flex">
@@ -55,8 +55,8 @@
                 <div class="col-xs-12 col-sm-12 col-md-6 p-0 col2">
                     <div class="img_block w-100p">
                         <picture>
-                            <source srcset="\assets\images\blogs\columns\difference-FDY-and-DTY\desktop\FDY-(Fully-Drawn-Yarn)-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                            <img src="\assets\images\blogs\columns\difference-FDY-and-DTY\desktop\FDY-(Fully-Drawn-Yarn)-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="FDY (Fully Drawn Yarn) Thaipolyester" loading="lazy">
+                            <source srcset="/assets/images/blogs/columns/difference-fdy-and-dty/desktop/FDY-(Fully-Drawn-Yarn)-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                            <img src="/assets/images/blogs/columns/difference-fdy-and-dty/desktop/FDY-(Fully-Drawn-Yarn)-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="FDY (Fully Drawn Yarn) Thaipolyester" loading="lazy">
                         </picture>
                     </div>
                 </div>
@@ -88,12 +88,12 @@
                     <div class="col-xs-12 col-sm-12 col-md-6 m-auto col1">
                         <div class="img_block pos-r">
                             <picture class="pos-ab w-100p" style="z-index: 1;">
-                                <source srcset="\assets\images\blogs\columns\difference-FDY-and-DTY\mobile\circle.webp?v={{time()}}" media="(max-width: 368px)">
-                                <img src="\assets\images\blogs\columns\difference-FDY-and-DTY\desktop\circle.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="circle" loading="lazy">
+                                <source srcset="/assets/images/blogs/columns/difference-fdy-and-dty/mobile/circle.webp?v={{time()}}" media="(max-width: 368px)">
+                                <img src="/assets/images/blogs/columns/difference-fdy-and-dty/desktop/circle.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="circle" loading="lazy">
                             </picture>
                             <picture class="pos-r" style="z-index: 3;">
-                                <source srcset="\assets\images\blogs\columns\difference-FDY-and-DTY\mobile\DTY-(Draw-Textured-Yarn)-Thaipolyester-1.webp?v={{time()}}" media="(max-width: 640px)">
-                                <img src="\assets\images\blogs\columns\difference-FDY-and-DTY\desktop\DTY-(Draw-Textured-Yarn)-Thaipolyester-1.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="DTY (Draw Textured Yarn) Thaipolyester" loading="lazy">
+                                <source srcset="/assets/images/blogs/columns/difference-fdy-and-dty/mobile/DTY-(Draw-Textured-Yarn)-Thaipolyester-1.webp?v={{time()}}" media="(max-width: 640px)">
+                                <img src="/assets/images/blogs/columns/difference-fdy-and-dty/desktop/DTY-(Draw-Textured-Yarn)-Thaipolyester-1.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="DTY (Draw Textured Yarn) Thaipolyester" loading="lazy">
                             </picture>
                         </div>
                     </div>
@@ -151,8 +151,8 @@
                     <div class="col-xs-12 col-sm-12 col-md-6 m-auto col2">
                         <div class="img_block w-100p pos-r" style="z-index: 3;">
                             <picture>
-                                <source srcset="\assets\images\blogs\columns\difference-FDY-and-DTY\mobile\DTY-(Draw-Textured-Yarn)-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                                <img src="\assets\images\blogs\columns\difference-FDY-and-DTY\desktop\DTY-(Draw-Textured-Yarn)-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="DTY (Draw Textured Yarn) Thaipolyester" loading="lazy">
+                                <source srcset="/assets/images/blogs/columns/difference-fdy-and-dty/mobile/DTY-(Draw-Textured-Yarn)-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                <img src="/assets/images/blogs/columns/difference-fdy-and-dty/desktop/DTY-(Draw-Textured-Yarn)-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="DTY (Draw Textured Yarn) Thaipolyester" loading="lazy">
                             </picture>
                         </div>
                     </div>
