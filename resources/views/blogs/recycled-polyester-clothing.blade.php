@@ -12,8 +12,8 @@
                     <div class="content pos-r d-flex">
                         <div class="img_block w-100p">
                             <picture>
-                                <source srcset="\assets\images\blogs\columns\recycled-polyester-clothing\mobile\Recycled-Polyester-Clothing-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                                <img src="\assets\images\blogs\columns\recycled-polyester-clothing\desktop\Recycled-Polyester-Clothing-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Recycled Polyester Clothing Thaipolyester">
+                                <source srcset="/assets/images/blogs/columns/recycled-polyester-clothing/mobile/Recycled-Polyester-Clothing-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                <img src="/assets/images/blogs/columns/recycled-polyester-clothing/desktop/Recycled-Polyester-Clothing-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Recycled Polyester Clothing Thaipolyester">
                             </picture>
                         </div>
                         <div class="head-title pos-ab w-100p h-100p">
@@ -49,8 +49,8 @@
         <section id="sec3" class="bg-universe pos-r">
             <div class="img_block w-100p">
                 <picture>
-                    <source srcset="\assets\images\blogs\columns\recycled-polyester-clothing\mobile\Global-warming-Thaipolyester.webp?v={{time()}}" media="(max-width: 768px)">
-                    <img src="\assets\images\blogs\columns\recycled-polyester-clothing\desktop\Global-warming-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Global warming Thaipolyester" loading="lazy">
+                    <source srcset="/assets/images/blogs/columns/recycled-polyester-clothing/mobile/Global-warming-Thaipolyester.webp?v={{time()}}" media="(max-width: 768px)">
+                    <img src="/assets/images/blogs/columns/recycled-polyester-clothing/desktop/Global-warming-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Global warming Thaipolyester" loading="lazy">
                 </picture>
             </div>
             <div class="d-flex pos-ab top-0 left-0 w-100p h-100p">
@@ -98,15 +98,15 @@
             <div class="sec4_bg"></div>
             <div class="container">
                 <div class="row r1 d-flex m-flex-c">
-                    <div class="col-xs-12 col-sm-12 col-md-6 d-flex m-auto">
-                        <div class="img_block w-100p m-auto pos-r" style="z-index: 2;">
+                    <div class="col-xs-12 col-sm-12 col-md-6 d-flex m-auto col1">
+                        <div class="img_block w-100p m-auto d-flex pos-r" style="z-index: 2;">
                             <picture>
-                                <source srcset="\assets\images\blogs\columns\recycled-polyester-clothing\mobile\Blanket-Recycled-Polyester-Clothing-Desktop1.webp?v={{time()}}" media="(max-width: 640px)">
-                                <img src="\assets\images\blogs\columns\recycled-polyester-clothing\desktop\Blanket-Recycled-Polyester-Clothing-Desktop1.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Blanket Recycled Polyester Clothing Desktop" loading="lazy">
+                                <source srcset="/assets/images/blogs/columns/recycled-polyester-clothing/mobile/Blanket-Recycled-Polyester-Clothing-Desktop1.webp?v={{time()}}" media="(max-width: 640px)">
+                                <img src="/assets/images/blogs/columns/recycled-polyester-clothing/desktop/Blanket-Recycled-Polyester-Clothing-Desktop1.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Blanket Recycled Polyester Clothing Desktop" loading="lazy">
                             </picture>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 d-flex m-auto">
+                    <div class="col-xs-12 col-sm-12 col-md-6 d-flex m-auto col2">
                         <div class="content">
                             <div class="content_group">
                                 <p>
@@ -131,7 +131,7 @@
                     </div>
                 </div>
                 <div class="row r2 d-flex m-flex-cr">
-                    <div class="col-xs-12 col-sm-12 col-md-6 d-flex m-auto">
+                    <div class="col-xs-12 col-sm-12 col-md-6 d-flex m-auto pos-r col1">
                         <div class="content">
                             <div class="content_group">
                                 <p>
@@ -153,11 +153,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 d-flex m-auto">
-                        <div class="img_block w-100p m-auto pos-r" style="z-index: 2;">
+                    <div class="col-xs-12 col-sm-12 col-md-6 d-flex m-auto col2">
+                        <div class="img_block w-100p m-auto d-flex pos-r" style="z-index: 2;">
                             <picture>
-                                <source srcset="\assets\images\blogs\columns\recycled-polyester-clothing\mobile\Process-Recycled-Polyester-Clothing-Desktop.webp?v={{time()}}" media="(max-width: 640px)">
-                                <img src="\assets\images\blogs\columns\recycled-polyester-clothing\desktop\Process-Recycled-Polyester-Clothing-Desktop.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Process Recycled Polyester Clothing Desktop" loading="lazy">
+                                <source srcset="/assets/images/blogs/columns/recycled-polyester-clothing/mobile/Process-Recycled-Polyester-Clothing-Desktop.webp?v={{time()}}" media="(max-width: 640px)">
+                                <img src="/assets/images/blogs/columns/recycled-polyester-clothing/desktop/Process-Recycled-Polyester-Clothing-Desktop.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Process Recycled Polyester Clothing Desktop" loading="lazy">
                             </picture>
                         </div>
                     </div>
@@ -187,28 +187,28 @@
                     <div class="col-xs-12 col-sm-12 col-md-6 p-0">
                         <div class="img_block rec_icon w-100p pos-r">
                             <picture>
-                                <source srcset="\assets\images\blogs\columns\recycled-polyester-clothing\mobile\Logo-Recycled-Polyester-Clothing.webp?v={{time()}}" media="(max-width: 640px)">
-                                <img src="\assets\images\blogs\columns\recycled-polyester-clothing\desktop\Logo-Recycled-Polyester-Clothing.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Logo Recycled Polyester Clothing" loading="lazy">
+                                <source srcset="/assets/images/blogs/columns/recycled-polyester-clothing/mobile/Logo-Recycled-Polyester-Clothing.webp?v={{time()}}" media="(max-width: 640px)">
+                                <img src="/assets/images/blogs/columns/recycled-polyester-clothing/desktop/Logo-Recycled-Polyester-Clothing.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Logo Recycled Polyester Clothing" loading="lazy">
                             </picture>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 p-0">
                         <div class="img_block w-100p pos-r" style="z-index: 2;">
                             <picture>
-                                <source srcset="\assets\images\blogs\columns\recycled-polyester-clothing\mobile\Filpbook-Recycled-Polyester-Clothing-Green-Eco-TPC-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                                <img src="\assets\images\blogs\columns\recycled-polyester-clothing\desktop\Filpbook-Recycled-Polyester-Clothing-Green-Eco-TPC-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Filpbook Recycled Polyester Clothing Green Eco TPC Thaipolyester" loading="lazy">
+                                <source srcset="/assets/images/blogs/columns/recycled-polyester-clothing/mobile/Filpbook-Recycled-Polyester-Clothing-Green-Eco-TPC-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                <img src="/assets/images/blogs/columns/recycled-polyester-clothing/desktop/Filpbook-Recycled-Polyester-Clothing-Green-Eco-TPC-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Filpbook Recycled Polyester Clothing Green Eco TPC Thaipolyester" loading="lazy">
                             </picture>
                         </div>
                         <div class="btn_block w-100p pos-r text-center" style="z-index: 2;">
-                            <a href="#" title="get FREE catalog">get FREE catalog</a>
+                            <a href="/book/en/tpc/green" title="get FREE catalog">get FREE catalog</a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="img_block w-100p pos-ab bottom-0 left-0" style="z-index: 1">
                 <picture>
-                    <source srcset="\assets\images\blogs\columns\recycled-polyester-clothing\mobile\Recycled-Polyester-Clothing-Thaipolyester-Eco-TPC.webp?v={{time()}}" media="(max-width: 640px)">
-                    <img src="\assets\images\blogs\columns\recycled-polyester-clothing\desktop\Recycled-Polyester-Clothing-Thaipolyester-Eco-TPC.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Recycled Polyester Clothing Thaipolyester Eco TPC" loading="lazy">
+                    <source srcset="/assets/images/blogs/columns/recycled-polyester-clothing/mobile/Recycled-Polyester-Clothing-Thaipolyester-Eco-TPC.webp?v={{time()}}" media="(max-width: 640px)">
+                    <img src="/assets/images/blogs/columns/recycled-polyester-clothing/desktop/Recycled-Polyester-Clothing-Thaipolyester-Eco-TPC.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Recycled Polyester Clothing Thaipolyester Eco TPC" loading="lazy">
                 </picture>
             </div>
             <div class="green_prod pos-ab bottom-0 bg-white">
