@@ -193,5 +193,4 @@
 </div>
 @endsection
 @section('custom-script')
-<script src="/js/blogs/difference-fdy-and-dty.min.js?v={{time()}}"></script>
 @endsection
