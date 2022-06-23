@@ -2,7 +2,7 @@
 @section('style')
     <link rel="preload stylesheet" href="/css/blogs/recycled-polyester-clothing.css?v={{time()}}" as="style" crossorigin>
 @endsection
-@section('og-image','')
+@section('og-image','/assets/images/blogs/columns/recycled-polyester-clothing/desktop/Recycled-Polyester-Clothing-Thaipolyester.webp')
 @section('content')
 <div id="tpc">
     <div id="tpc_bg">
@@ -200,7 +200,7 @@
                             </picture>
                         </div>
                         <div class="btn_block w-100p pos-r text-center" style="z-index: 2;">
-                            <a href="/book/en/tpc/green" title="get FREE catalog">get FREE catalog</a>
+                            <a href="/book/en/tpc/green" title="get FREE catalog" target="_blank">get FREE catalog</a>
                         </div>
                     </div>
                 </div>
