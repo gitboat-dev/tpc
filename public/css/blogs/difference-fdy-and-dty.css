@@ -1,0 +1,68 @@
+body{
+    --sec3-padding:20px 0;
+    --sec5-padding:20px 0 30px;
+}
+
+/* end all setting */
+
+#sec1 .head-title{
+    background-color: #ffffff;
+    padding: 5px;
+}
+
+/* end sec1 */
+
+#sec2 .col1 .content_group{
+    width: calc(88% - 30px);
+}
+
+/* end sec2 */
+
+#sec3{
+    padding: var(--sec3-padding);
+}
+#sec3 .col1 .content{
+    min-height: 150px;
+}
+
+/* end sec3 */
+
+#sec5{
+    padding: var(--sec3-padding);
+}
+#sec5 .col1::after{
+    content: " ";
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 3px;
+    background-color: var(--msBg);
+}
+#sec5 .col2 .content_group{
+    width: calc(95% - 30px);
+}
+
+/* end sec5 */
+
+@media only screen and (max-width: 991px){
+
+}
+@media only screen and (max-width: 768px){
+    #sec2 .col1 .content_group{
+        width: calc(100% - 30px);
+    }
+
+    /* end sec2 */
+
+    #sec5 .col1,
+    #sec5 .col2{
+        padding: 0;
+    }
+    #sec5 .col2 .content_group{
+        width: 100%;
+        margin-top: 20px !important;
+    }
+
+    /* end sec5 */
+}
