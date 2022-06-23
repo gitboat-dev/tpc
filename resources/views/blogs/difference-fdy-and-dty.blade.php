@@ -2,7 +2,7 @@
 @section('style')
     <link rel="preload stylesheet" href="/css/blogs/difference-fdy-and-dty.css?v={{time()}}" as="style" crossorigin>
 @endsection
-@section('og-image','')
+@section('og-image','/assets/images/blogs/columns/difference-fdy-and-dty/desktop/How-difference-between-FDY-and-DTY-Yarn-Head-Thaipolyester.webp')
 @section('content')
 <div id="tpc">
     <div id="tpc_bg">
