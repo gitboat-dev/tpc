@@ -83,7 +83,7 @@
                             <div class="col-xs-6 col-sm-6 col-md-6 pr-0 m-auto">
                                 <div class="d-flex">
                                     <p class="owl-text m-auto">
-                                        - Our Zimmer,<br>
+                                        Our Zimmer,<br>
                                         Nuemag and<br>
                                         Barmag machines<br>
                                         serve stabilities<br>
@@ -107,7 +107,7 @@
                             <div class="col-xs-6 col-sm-6 col-md-6 pr-0 m-auto">
                                 <div class="d-flex">
                                     <p class="owl-text m-auto">
-                                        - For raw material<br>
+                                        For raw material<br>
                                         testing, we have<br>
                                         3 tanks of PTA silo
                                     </p>
@@ -128,7 +128,7 @@
                             <div class="col-xs-6 col-sm-6 col-md-6 pr-0 m-auto">
                                 <div class="d-flex">
                                     <p class="owl-text m-auto">
-                                        - A perfect<br>
+                                        A perfect<br>
                                         PET flakes<br>
                                         washing line
                                     </p>
@@ -144,12 +144,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="item r4 p-0">
+                    {{-- <div class="item r4 p-0">
                         <div class="row d-flex">
                             <div class="col-xs-6 col-sm-6 col-md-6 pr-0 m-auto">
                                 <div class="d-flex">
                                     <p class="owl-text m-auto">
-                                        - 0% Carbon<br>
+                                        0% Carbon<br>
                                         LNG is now<br>
                                         processing
                                     </p>
@@ -164,13 +164,13 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                     <div class="item r5 p-0">
                         <div class="row d-flex">
                             <div class="col-xs-6 col-sm-6 col-md-6 pr-0 m-auto">
                                 <div class="d-flex">
                                     <p class="owl-text m-auto">
-                                        - Well-organised<br>
+                                        Well-organised<br>
                                         production<br>
                                         process
                                     </p>
@@ -186,12 +186,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="item r6 p-0">
+                    {{-- <div class="item r6 p-0">
                         <div class="row d-flex">
                             <div class="col-xs-6 col-sm-6 col-md-6 pr-0 m-auto">
                                 <div class="d-flex">
                                     <p class="owl-text m-auto">
-                                        - Sustainable<br>
+                                        Sustainable<br>
                                         product is<br>
                                         one of<br>
                                         our strength
@@ -207,13 +207,13 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                     <div class="item r7 p-0">
                         <div class="row d-flex">
                             <div class="col-xs-6 col-sm-6 col-md-6 pr-0 m-auto">
                                 <div class="d-flex">
                                     <p class="owl-text m-auto">
-                                        - And we own<br>
+                                        And we own<br>
                                         a Spinning mill<br>
                                         too!
                                     </p>
@@ -575,7 +575,7 @@
                 </div>
                 <div class="btn text-center w-100p">
                     <a href="#sec9" title="get FRFREE QUOTE" class="move_to">
-                        get FREE QUOTE
+                        get a FREE QUOTE
                     </a>
                 </div>
             </div>
@@ -585,7 +585,7 @@
                 <div class="owl-carousel owl-theme">
                     <div class="item bg-opium">
                         <div class="pos-ab top-0 left-0 w-100p h-100p d-flex">
-                            <h2 class="h1 text-center m-auto sec6-slide-title"><span class="m-tl2">We’re Guarantee!</span></h2>
+                            <h2 class="h1 text-center m-auto sec6-slide-title"><span class="m-tl2">We Guarantee!</span></h2>
                         </div>
                         <div class="row d-flex m-flex-col">
                             <div class="col-xs-12 col-sm-12 col-md-6 p-0 d-flex">
@@ -680,7 +680,7 @@
             </div>
         </section>
         <section id="sec7">
-            <h2 class="text-center sec7-title">Our Customer’s Satisfaction</h2>
+            <h2 class="text-center sec7-title">Our Customer Satisfaction</h2>
             <div class="slide pos-r">
                 <div class="owl-carousel owl-theme">
                     <div class="item">
@@ -1070,7 +1070,7 @@
                 <div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
                     <div class="content_block d-flex pos-r">
                         <p class="p1 text-center m-auto">
-                            copyr ight c 2019 Thai polyes ter Co. ,Ltd. Al l r ight s reserved.
+                            copyright © 2019 Thai Polyester Co. ,Ltd. All rights reserved.
                         </p>
                     </div>
                 </div>
