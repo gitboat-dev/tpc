@@ -291,6 +291,20 @@ body {
 		width: calc(1920px - 100px) !important;
 	}
 }
+@media only screen and (min-width: 768px){
+    #landing .flex-r{
+        flex-direction: row;
+    }
+    #landing .flex-c{
+        flex-direction: column;
+    }
+    #landing .flex-rr{
+        flex-direction: row-reverse;
+    }
+    #landing .flex-cr{
+        flex-direction: column-reverse;
+    }
+}
 @media only screen and (max-width: 768px){
     #landing h1:not(.default){
         font-size: 40px;
@@ -306,5 +320,17 @@ body {
     }
     #landing .m-h-100p{
         height: 100% !important;
+    }
+    #landing .m-flex-r{
+        flex-direction: row;
+    }
+    #landing .m-flex-c{
+        flex-direction: column;
+    }
+    #landing .m-flex-rr{
+        flex-direction: row-reverse;
+    }
+    #landing .m-flex-cr{
+        flex-direction: column-reverse;
     }
 }
