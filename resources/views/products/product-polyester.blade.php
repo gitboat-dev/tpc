@@ -682,7 +682,7 @@
                         </a>
                     </div>
                     <div class="col-xs-6 col-sm-6 col-md-6 p-0 d-flex col2">
-                        <a href="{!!url('/dope-dyed')!!}" title="Dope Dyed" class="w-100p">
+                        <a href="{{route('product.dope-dyed')}}" title="Dope Dyed" class="w-100p">
                             <div class="prod-block d-flex flex-c m-flex-c w-100p h-100p prod6">
                                 <div class="col-xs-12 col-sm-12 col-md-12 p-0 d-flex mb-0">
                                     <picture class="m-auto">
