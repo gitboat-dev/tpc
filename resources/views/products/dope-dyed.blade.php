@@ -1,6 +1,6 @@
 @extends('layouts.template')
 @section('style')
-	<link rel="preload stylesheet" href="/css/dope-dyed.css?v={{time()}}" as="style" crossorigin>
+	<link rel="preload stylesheet" href="/css/dope-dyed.min.css?v={{time()}}" as="style" crossorigin>
 @endsection
 @section('og-image','')
 @section('content')
@@ -12,8 +12,8 @@
                     <div class="content pos-r d-flex">
                         <div class="img_block w-100p">
                             <picture>
-                                <source srcset="\assets\images\dope-dyed\mobile\Dope-Dyed-Polyester-yarn-machine-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                                <img src="\assets\images\dope-dyed\desktop\Dope-Dyed-Polyester-yarn-machine-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Dope-Dyed Polyester yarn machine-Thaipolyester">
+                                <source srcset="/assets/images/dope-dyed/mobile/Dope-Dyed-Polyester-yarn-machine-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                <img src="/assets/images/dope-dyed/desktop/Dope-Dyed-Polyester-yarn-machine-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Dope-Dyed Polyester yarn machine-Thaipolyester">
                             </picture>
                         </div>
                         <div class="pos-ab w-100p h-100p d-flex">
@@ -94,14 +94,14 @@
                             <div class="img_block d-flex">
                                 <div class="img_block1 w-100p">
                                     <picture>
-                                        <source srcset="\assets\images\dope-dyed\mobile\Dope-Dyed-Polyester-yarn-Product-PSF-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                                        <img src="\assets\images\dope-dyed\desktop\Dope-Dyed-Polyester-yarn-Product-PSF-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Dope-Dyed Polyester yarn Product PSF Thaipolyester">
+                                        <source srcset="/assets/images/dope-dyed/mobile/Dope-Dyed-Polyester-yarn-Product-PSF-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                        <img src="/assets/images/dope-dyed/desktop/Dope-Dyed-Polyester-yarn-Product-PSF-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Dope-Dyed Polyester yarn Product PSF Thaipolyester" loading="lazy">
                                     </picture>
                                 </div>
                                 <div class="img_block2 w-100p">
                                     <picture>
-                                        <source srcset="\assets\images\dope-dyed\mobile\Dope-Dyed-Polyester-yarn-Product-PSF-Thaipolyester-1.webp?v={{time()}}" media="(max-width: 640px)">
-                                        <img src="\assets\images\dope-dyed\desktop\Dope-Dyed-Polyester-yarn-Product-PSF-Thaipolyester-1.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Dope-Dyed Polyester yarn Product PSF Thaipolyester">
+                                        <source srcset="/assets/images/dope-dyed/mobile/Dope-Dyed-Polyester-yarn-Product-PSF-Thaipolyester-1.webp?v={{time()}}" media="(max-width: 640px)">
+                                        <img src="/assets/images/dope-dyed/desktop/Dope-Dyed-Polyester-yarn-Product-PSF-Thaipolyester-1.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Dope-Dyed Polyester yarn Product PSF Thaipolyester" loading="lazy">
                                     </picture>
                                 </div>
                             </div>
@@ -139,8 +139,8 @@
                     <div class="col-xs-12 col-sm-12 col-md-4 col2">
                         <div class="img_block w-100p">
                             <picture>
-                                <source srcset="\assets\images\dope-dyed\mobile\Dope-Dyed-Polyester-yarn-machine-Process-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                                <img src="\assets\images\dope-dyed\mobile\Dope-Dyed-Polyester-yarn-machine-Process-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Dope-Dyed Polyester yarn machine Process Thaipolyester">
+                                <source srcset="/assets/images/dope-dyed/mobile/Dope-Dyed-Polyester-yarn-machine-Process-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                <img src="/assets/images/dope-dyed/mobile/Dope-Dyed-Polyester-yarn-machine-Process-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Dope-Dyed Polyester yarn machine Process Thaipolyester" loading="lazy">
                             </picture>
                         </div>
                     </div>
@@ -152,8 +152,8 @@
                 <div class="col-xs-12 col-sm-12 col-md-6 p-0 col1">
                     <div class="img_block w-100p">
                         <picture>
-                            <source srcset="\assets\images\dope-dyed\mobile\Dope-Dyed-Polyester-yarn-machine-Process-Thaipolyester-1.webp?v={{time()}}" media="(max-width: 640px)">
-                            <img src="\assets\images\dope-dyed\desktop\Dope-Dyed-Polyester-yarn-machine-Process-Thaipolyester-1.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Dope-Dyed Polyester yarn machine-Thaipolyester">
+                            <source srcset="/assets/images/dope-dyed/mobile/Dope-Dyed-Polyester-yarn-machine-Process-Thaipolyester-1.webp?v={{time()}}" media="(max-width: 640px)">
+                            <img src="/assets/images/dope-dyed/desktop/Dope-Dyed-Polyester-yarn-machine-Process-Thaipolyester-1.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Dope-Dyed Polyester yarn machine-Thaipolyester" loading="lazy">
                         </picture>
                     </div>
                 </div>
@@ -232,8 +232,8 @@
                     <div class="col-xs-12 col-sm-12 col-md-12 p-0 col2">
                         <div class="img_block w-100p">
                             <picture>
-                                <source srcset="\assets\images\dope-dyed\mobile\Dope-Dyed-Polyester-yarn-Product-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                                <img src="\assets\images\dope-dyed\desktop\Dope-Dyed-Polyester-yarn-Product-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Dope-Dyed Polyester yarn machine-Thaipolyester">
+                                <source srcset="/assets/images/dope-dyed/mobile/Dope-Dyed-Polyester-yarn-Product-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                <img src="/assets/images/dope-dyed/desktop/Dope-Dyed-Polyester-yarn-Product-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Dope-Dyed Polyester yarn machine-Thaipolyester" loading="lazy">
                             </picture>
                         </div>
                     </div>
