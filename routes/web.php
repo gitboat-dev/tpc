@@ -264,5 +264,5 @@ Route::group(['prefix' => 'product', 'as' => 'product.'], function () {
         $data['title'] = 'Dope dyed | Thai Polyester CO., LTD';
         $data['active_product'] = 'activemenu';
         return view('products.dope-dyed', $data);
-    });
+    })->name('dope-dyed');
 });
