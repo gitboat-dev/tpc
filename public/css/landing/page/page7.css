@@ -1,0 +1,61 @@
+#sec1 .title-block{
+    width: 100%;
+    max-width: 45%;
+    height: 100%;
+    max-height: 70%;
+}
+#sec1 .title-block .head-title{
+    width: 100%;
+    max-width: 95%;
+}
+
+/* end sec1 */
+
+@media only screen and (min-width: 1351px){
+    #sec1 .title-block .head-title{
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    /* end sec1 */
+}
+@media only screen and (max-width: 1024px){
+    #sec1 .title-block .head-title{
+        font-size: 45px;
+        line-height: 45px;
+    }
+
+    /* end sec1 */
+}
+@media only screen and (max-width: 991px){
+    #sec1 .title-block .head-title{
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    /* end sec1 */
+}
+@media only screen and (max-width: 768px){
+    #sec1 .title-block .head-title{
+        font-size: 35px;
+        line-height: 35px;
+    }
+
+    /* end sec1 */
+}
+@media only screen and (max-width: 640px){
+    #sec1 .title-block .head-title{
+        font-size: inherit;
+        line-height: inherit;
+    }
+
+    /* end sec1 */
+}
+@media only screen and (max-width: 300px){
+    #sec1 .title-block .head-title{
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    /* end sec1 */
+}
