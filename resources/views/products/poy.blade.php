@@ -2,6 +2,7 @@
 @section('style')
 	<link rel="preload stylesheet" href="/css/poy.css?v={{ time() }}" as="style" crossorigin>
 @endsection
+@section('og-image','/assets/images/product/og-img/POY-Partially-Oriented-Yarn-Polyester-Thaipolyester.webp')
 @section('content')
 	<div id="poy">
 		<div id="poy_bg">

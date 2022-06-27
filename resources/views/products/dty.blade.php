@@ -2,6 +2,7 @@
 @section('style')
 	<link rel="preload stylesheet" href="/css/dty.css?v={{ time() }}" as="style" crossorigin>
 @endsection
+@section('og-image','/assets/images/product/og-img/DTY-Draw-Textured-Yarn-Polyester-Thaipolyester.webp')
 @section('content')
 	<h1 style="display: none;">Draw Textured Yarn (DTY)</h1>
 	<div id="dty">

@@ -2,6 +2,7 @@
 @section('style')
 	<link rel="preload stylesheet" href="/css/ring-spun.css?v={{ time() }}" as="style" crossorigin>
 @endsection
+@section('og-image','/assets/images/product/og-img/Ring-Spun-Yarn-Polyester-Thaipolyester.webp')
 @section('content')
     <h1 style="display: none;">Ring Spun</h1>
     <div id="ring">
@@ -11,8 +12,8 @@
 					<div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
                         <div class="img_block1">
 							<picture>
-								<source srcset="\assets\images\ring-spun\mobile\Head-Ring-Spun-Thaipolyester.webp" alt="Ring Spun Thaipolyester" media="(max-width: 640px)">
-								<img src="\assets\images\ring-spun\desktop\Head-Ring-Spun-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Ring Spun Thaipolyester">
+								<source srcset="/assets/images/ring-spun/mobile/Head-Ring-Spun-Thaipolyester.webp" alt="Ring Spun Thaipolyester" media="(max-width: 640px)">
+								<img src="/assets/images/ring-spun/desktop/Head-Ring-Spun-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Ring Spun Thaipolyester">
 					        </picture>
 					    </div>
                     </div>
@@ -143,32 +144,32 @@
                             <li class="col-xs-3 col-sm-3 col-md-3 p-0">
                                 <div class="img_block1">
                                     <picture>
-                                        <source srcset="\assets\images\ring-spun\mobile\Ring-Spun-Product-dopedyed-black-Thaipolyester.webp" alt="Ring Spun Product dopedyed black Thaipolyester" media="(max-width: 640px)">
-                                        <img src="\assets\images\ring-spun\desktop\Ring-Spun-Product-dopedyed-black-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Ring Spun Product dopedyed black Thaipolyester">
+                                        <source srcset="/assets/images/ring-spun/mobile/Ring-Spun-Product-dopedyed-black-Thaipolyester.webp" alt="Ring Spun Product dopedyed black Thaipolyester" media="(max-width: 640px)">
+                                        <img src="/assets/images/ring-spun/desktop/Ring-Spun-Product-dopedyed-black-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Ring Spun Product dopedyed black Thaipolyester">
                                     </picture>
                                 </div>
                             </li>
                             <li class="col-xs-3 col-sm-3 col-md-3 p-0">
                                 <div class="img_block1">
                                     <picture>
-                                        <source srcset="\assets\images\ring-spun\mobile\Ring-Spun-Product-topdyed-Thaipolyester.webp" alt="Ring Spun Product topdyed Thaipolyester" media="(max-width: 640px)">
-                                        <img src="\assets\images\ring-spun\desktop\Ring-Spun-Product-topdyed-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Ring Spun Product topdyed Thaipolyester">
+                                        <source srcset="/assets/images/ring-spun/mobile/Ring-Spun-Product-topdyed-Thaipolyester.webp" alt="Ring Spun Product topdyed Thaipolyester" media="(max-width: 640px)">
+                                        <img src="/assets/images/ring-spun/desktop/Ring-Spun-Product-topdyed-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Ring Spun Product topdyed Thaipolyester">
                                     </picture>
                                 </div>
                             </li>
                             <li class="col-xs-3 col-sm-3 col-md-3 p-0">
                                 <div class="img_block1">
                                     <picture>
-                                        <source srcset="\assets\images\ring-spun\mobile\Ring-Spun-Product-topdyed-Thaipolyester-1.webp" alt="Ring Spun Product dopedyed black Thaipolyester" media="(max-width: 640px)">
-                                        <img src="\assets\images\ring-spun\desktop\Ring-Spun-Product-topdyed-Thaipolyester-1.webp" width="900" height="350" class="img-fluid ab-img" alt="Ring Spun Product dopedyed black Thaipolyester">
+                                        <source srcset="/assets/images/ring-spun/mobile/Ring-Spun-Product-topdyed-Thaipolyester-1.webp" alt="Ring Spun Product dopedyed black Thaipolyester" media="(max-width: 640px)">
+                                        <img src="/assets/images/ring-spun/desktop/Ring-Spun-Product-topdyed-Thaipolyester-1.webp" width="900" height="350" class="img-fluid ab-img" alt="Ring Spun Product dopedyed black Thaipolyester">
                                     </picture>
                                 </div>
                             </li>
                             <li class="col-xs-3 col-sm-3 col-md-3 p-0">
                                 <div class="img_block1">
                                     <picture>
-                                        <source srcset="\assets\images\ring-spun\mobile\Ring-Spun-Product-Raw-White-Thaipolyester.webp" alt="Ring Spun Product Raw White Thaipolyester" media="(max-width: 640px)">
-                                        <img src="\assets\images\ring-spun\desktop\Ring-Spun-Product-Raw-White-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Ring Spun Product Raw White Thaipolyester">
+                                        <source srcset="/assets/images/ring-spun/mobile/Ring-Spun-Product-Raw-White-Thaipolyester.webp" alt="Ring Spun Product Raw White Thaipolyester" media="(max-width: 640px)">
+                                        <img src="/assets/images/ring-spun/desktop/Ring-Spun-Product-Raw-White-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Ring Spun Product Raw White Thaipolyester">
                                     </picture>
                                 </div>
                             </li>

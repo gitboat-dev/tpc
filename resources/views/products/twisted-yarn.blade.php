@@ -2,6 +2,7 @@
 @section('style')
 	<link rel="preload stylesheet" href="/css/twisted-yarn.css?v={{ time() }}" as="style" crossorigin>
 @endsection
+@section('og-image','/assets/images/product/og-img/Twist-Yarn-polyester-Thaipolyester.webp')
 @section('content')
 	<div id="ty">
 		<div id="ty_bg">

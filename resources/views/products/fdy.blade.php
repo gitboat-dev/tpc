@@ -2,6 +2,7 @@
 @section('style')
 	<link rel="preload stylesheet" href="/css/fdy.css?v={{ time() }}" as="style" crossorigin>
 @endsection
+@section('og-image','/assets/images/product/og-img/FDY-Fully-Drawn-Yarn-Polyester-Thaipolyester.webp')
 @section('content')
 	<h1 style="display: none;">Fully Drawn Yarn</h1>
 	<div id="fdy">

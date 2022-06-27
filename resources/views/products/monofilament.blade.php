@@ -2,6 +2,7 @@
 @section('style')
 	<link rel="preload stylesheet" href="/css/monofilament.css?v={{ time() }}" as="style" crossorigin>
 @endsection
+@section('og-image','/assets/images/product/og-img/Monofilament-Polyester-Thaipolyester.webp')
 @section('content')
 	<h1 style="display: none;">Monofilament</h1>
 	<div id="monof">

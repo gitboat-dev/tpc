@@ -2,6 +2,7 @@
 @section('style')
 	<link rel="preload stylesheet" href="/css/spun-yarn.css?v={{ time() }}" as="style" crossorigin>
 @endsection
+@section('og-image','/assets/images/product/og-img/Spun-Yarn-Polyester-Thaipolyester.webp')
 @section('content')
 	<h1 style="display: none;">Polyester Spun Yarn</h1>
 	<div id="span_yarn">

@@ -2,7 +2,7 @@
 @section('style')
 	<link rel="preload stylesheet" href="/css/open-end.min.css?v={{time()}}" as="style" crossorigin>
 @endsection
-@section('og-image','/assets/images/product/desktop/OE-Open-End-Spun-Yarn-Polyester-Thaipolyester.webp')
+@section('og-image','/assets/images/product/og-img/OE-Open-End-Spun-Yarn-Polyester-Thaipolyester.webp')
 @section('content')
 <div id="tpc">
     <div id="tpc_bg">
