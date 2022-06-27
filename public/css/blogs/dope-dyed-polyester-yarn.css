@@ -142,6 +142,9 @@ body{
     #tpc .m-flex-cr{
         flex-direction: column-reverse;
     }
+    .container{
+        width: 100%;
+    }
 
     /* end all setting */
 

@@ -92,6 +92,12 @@ body{
 /* end sec5 */
 
 @media only screen and (max-width: 991px){
+    .container{
+        width: 100%;
+    }
+
+    /* end all setting */
+
     #sec4 .r1 .col1::after{
         display: none;
     }
