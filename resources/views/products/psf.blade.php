@@ -4,7 +4,7 @@
     <link rel="preload stylesheet" href="/css/psf.min.css?v={{time()}}" as="style" crossorigin>
     {{-- <link rel="stylesheet" id="fancybox-css" href="{!!asset('/assets/custom/wp-content/plugins/radiantthemes-addons/assets/css/jquery.fancybox.min.css?ver=4.9.11')!!}" type="text/css" media="all"> --}}
 @endsection
-@section('og-image','/assets/images/product/desktop/PSF-Polyester-Staple-Fiber-Thaipolyester.webp')
+@section('og-image','/assets/images/product/og-img/PSF-Polyester-Staple-Fiber-Thaipolyester.webp')
 @section('content')
 <div id="tpc">
     <div id="tpc_bg">

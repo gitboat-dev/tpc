@@ -2,7 +2,7 @@
 @section('style')
 	<link rel="preload stylesheet" href="/css/dope-dyed.min.css?v={{time()}}" as="style" crossorigin>
 @endsection
-@section('og-image','')
+@section('og-image','/assets/images/product/og-img/Dope-dyed-polyester-Thaipolyester.webp')
 @section('content')
 <div id="tpc">
     <div id="tpc_bg">
