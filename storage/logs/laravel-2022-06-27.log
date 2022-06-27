@@ -396,3 +396,23 @@ avbar.blade.php) at D:\\Panya.l\\MyProject\\xampp\\htdocs\\Project\\TPC_New\\fro
 [2022-06-27 04:46:31] local.DEBUG: -> error string  
 [2022-06-27 04:46:31] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
 [2022-06-27 04:46:31] local.DEBUG: -> end  
+[2022-06-27 04:50:38] local.DEBUG: error exception | AgentController -> get()  
+[2022-06-27 04:50:38] local.DEBUG: user agent : Mozilla/5.0 (iPad; CPU OS 13_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/87.0.4280.77 Mobile/15E148 Safari/604.1  
+[2022-06-27 04:50:38] local.DEBUG: -> error string  
+[2022-06-27 04:50:38] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
+[2022-06-27 04:50:38] local.DEBUG: -> end  
+[2022-06-27 04:54:11] local.DEBUG: error exception | AgentController -> get()  
+[2022-06-27 04:54:11] local.DEBUG: user agent : Mozilla/5.0 (iPad; CPU OS 13_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/87.0.4280.77 Mobile/15E148 Safari/604.1  
+[2022-06-27 04:54:11] local.DEBUG: -> error string  
+[2022-06-27 04:54:11] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
+[2022-06-27 04:54:11] local.DEBUG: -> end  
+[2022-06-27 04:57:13] local.DEBUG: error exception | AgentController -> get()  
+[2022-06-27 04:57:13] local.DEBUG: user agent : Mozilla/5.0 (iPad; CPU OS 13_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/87.0.4280.77 Mobile/15E148 Safari/604.1  
+[2022-06-27 04:57:13] local.DEBUG: -> error string  
+[2022-06-27 04:57:13] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
+[2022-06-27 04:57:13] local.DEBUG: -> end  
+[2022-06-27 05:22:43] local.DEBUG: error exception | AgentController -> get()  
+[2022-06-27 05:22:43] local.DEBUG: user agent : Mozilla/5.0 (iPad; CPU OS 13_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/87.0.4280.77 Mobile/15E148 Safari/604.1  
+[2022-06-27 05:22:43] local.DEBUG: -> error string  
+[2022-06-27 05:22:43] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
+[2022-06-27 05:22:43] local.DEBUG: -> end  

@@ -49,7 +49,7 @@
         <section id="sec3" class="bg-universe pos-r">
             <div class="img_block w-100p">
                 <picture>
-                    <source srcset="/assets/images/blogs/columns/recycled-polyester-clothing/mobile/Global-warming-Thaipolyester.webp?v={{time()}}" media="(max-width: 768px)">
+                    <source srcset="/assets/images/blogs/columns/recycled-polyester-clothing/mobile/Global-warming-Thaipolyester.webp?v={{time()}}" media="(max-width: 991px)">
                     <img src="/assets/images/blogs/columns/recycled-polyester-clothing/desktop/Global-warming-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Global warming Thaipolyester" loading="lazy">
                 </picture>
             </div>
