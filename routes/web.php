@@ -118,17 +118,6 @@ Route::get('/polyester-products', function () {
 	$data['chkmobile'] = $agent->isMobile() ? $agent->isMobile() : ($agent->isTablet() ? $agent->isTablet() : false);
 	return view('products.product-polyester', $data);
 });
-// Route::get('/dope-dyed', function () {
-// 	$chkie = new Func_controller;
-// 	$data['chkie'] = $chkie->chk();
-// 	$data['des'] = 'Dope dyed yarns are created by adding a masterbatch colorant to the polymer melt in spinning or extrusion This results in fibers and filaments that are fully impregnated with pigment coming out of the spinnerets in a one step process.';
-// 	$data['key'] = 'Dope dyed, Standard Dope dyed, best Dope dyed, Produce cheap Dope dyed';
-// 	$data['title'] = 'Dope dyed | Thai Polyester CO., LTD';
-// 	$data['active_product'] = 'activemenu';
-// 	return view('dope-dyed', $data);
-// });
-// end สินค้า polyester
-
 Route::get('/page404', function () {
 	return view('page404');
 });
