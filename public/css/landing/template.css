@@ -240,35 +240,45 @@ body {
     }
     #landing .m-tl0{
         font-size: 90%;
+        line-height: 90%;
     }
     #landing .m-tl1{
         font-size: 80%;
+        line-height: 80%;
     }
     #landing .m-tl2{
         font-size: 60%;
+        line-height: 60%;
     }
     #landing .m-tl3{
         font-size: 40%;
+        line-height: 40%;
     }
     #landing .m-tl4{
         font-size: 20%;
+        line-height: 20%;
     }
 }
 @media only screen and (min-width: 768px){
     #landing .tl0{
         font-size: 90%;
+        line-height: 90%;
     }
     #landing .tl1{
         font-size: 80%;
+        line-height: 80%;
     }
     #landing .tl2{
         font-size: 60%;
+        line-height: 60%;
     }
     #landing .tl3{
         font-size: 40%;
+        line-height: 40%;
     }
     #landing .tl4{
         font-size: 20%;
+        line-height: 20%;
     }
 }
 @media (min-width: 1400px){
