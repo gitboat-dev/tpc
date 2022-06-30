@@ -3,3 +3,4 @@
 <script src="/assets/custom/js/func.js"></script>
 <script src="/js/landing/scrollup.min.js"></script>
 <script src="/js/landing/contact-tools.min.js"></script>
+<script src="/js/pdpa/pdpa.min.js?v={{time()}}"></script>

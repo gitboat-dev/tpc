@@ -7,3 +7,4 @@
 <link rel="stylesheet"  href="/css/landing/template.min.css?v={{ time() }}" type="text/css" media="all">
 <link rel="stylesheet"  href="/css/landing/scrollup.min.css?v={{ time() }}" type="text/css" media="all">
 <link rel="stylesheet" id="contact-tools-css" href="/css/landing/contact-tools.min.css?v={{ time() }}" type="text/css" media="all">
+<link rel="stylesheet"  href="/css/pdpa/pdpa.min.css?v={{time()}}" type="text/css" media="all">
