@@ -1,6 +1,25 @@
 @extends('landing.template')
 @section('style')
 <style>
+    #sec1{
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+    }
+    #sec1 .wrapper{
+        overflow: hidden;
+    }
+    #sec1 .wrapper #video1{
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+    }
     #sec1 .col-h1{
         background-color: #0000002b
     }
@@ -30,13 +49,8 @@
     }
 
     @media only screen and (max-width: 640px){
-        #sec1 video{
-            width: 640px;
-            max-width: 640px;
-            margin-left: -213.3333333333333px;
-        }
         #sec1 .head-content .content{
-            max-width: 100%;
+            max-width: 95%;
         }
 
         /* end sec1 */
@@ -46,9 +60,8 @@
 @section('content')
 <div id="landing">
     <section id="sec1" class="pos-r">
-        <div class="wrapper" style="overflow: hidden;">
+        <div class="wrapper">
             <video autoplay muted loop playsinline id="video1" poster="">
-                {{-- <source src="/assets/images/landing/page4/video/minify/TPC-Landing-Page2.mp4" type="video/mp4"> --}}
                 <source src="/assets/images/landing/test/Landing Page TPC4.mp4" type="video/mp4">
             </video>
         </div>
@@ -84,7 +97,7 @@
 </div>
 @endsection
 @section('script')
-<script>
+{{-- <script>
     $(document).ready(function(){
         video_resize();
         $(window).resize(function() {
@@ -102,5 +115,5 @@
             $("#video1")[0].load();
         }
     }
-</script>
+</script> --}}
 @endsection
