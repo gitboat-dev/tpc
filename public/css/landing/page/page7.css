@@ -122,11 +122,11 @@ body{
     background: rgb(223,187,51);
     background: linear-gradient(80deg, rgba(223,187,51,1) 0%, rgba(244,229,190,1) 50%, rgba(223,187,51,1) 100%);
 }
-#sec4 .prod-row{
+/* #sec4 .prod-row{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-}
+} */
 #sec4 .card{
     padding: 15px;
     border: 5px solid #ccc;
@@ -136,6 +136,12 @@ body{
 }
 #sec4 .card .card-desc{
     line-height: calc(100% / 1.5);
+}
+#sec4  .nav-tabs{
+    margin-top: 30px;
+}
+#sec4 .tab-content{
+    margin-top: 50px;
 }
 
 /* end sec4 */

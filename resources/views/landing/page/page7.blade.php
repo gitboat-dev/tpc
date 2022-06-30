@@ -25,7 +25,6 @@
                                 limited company
                             </h1>
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -408,16 +407,177 @@
                             </div>
                         </div>
                         <div id="tab-2" class="tab-pane" style="overflow-x:auto;">
-                            222
+                            <div class="row prod-row m-0">
+                                <div class="col-xs-4 col-sm-4 col-md-3 d-flex prod-block">
+                                    <div class="card">
+                                        <div class="card-img">
+                                            <div class="img_block w-100p">
+                                                <picture>
+                                                    <source srcset="\assets\images\landing\page7\mobile\PSF-landing-page-V3-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                                    <img src="\assets\images\landing\page7\desktop\PSF-landing-page-V3-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="good Landing page Thaipolyester" loading="lazy">
+                                                </picture>
+                                            </div>
+                                        </div>
+                                        <div class="card-title text-center">
+                                            <h2 class="fw-bold default"><span class="tl0 m-tl3">PSF</span></h2>
+                                        </div>
+                                        <div class="card-desc text-center">
+                                            <p><span class="tl0 m-tl2">Polyester Staple Fiber</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-4 col-sm-4 col-md-3 d-flex prod-block">
+                                    <div class="card">
+                                        <div class="card-img">
+                                            <div class="img_block w-100p">
+                                                <picture>
+                                                    <source srcset="\assets\images\landing\page7\mobile\Recycled-PSF-landing-page-V3-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                                    <img src="\assets\images\landing\page7\desktop\Recycled-PSF-landing-page-V3-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Recycled PSF Thaipolyester" loading="lazy">
+                                                </picture>
+                                            </div>
+                                        </div>
+                                        <div class="card-title text-center">
+                                            <h2 class="fw-bold default">
+                                                <span class="tl0 m-tl3">
+                                                    Recycled Polyester
+                                                    Staple Fiber (PSF)
+                                                </span>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div id="tab-3" class="tab-pane" style="overflow-x:auto;">
-                            333
+                            <div class="row prod-row m-0">
+                                <div class="col-xs-4 col-sm-4 col-md-3 d-flex prod-block">
+                                    <div class="card">
+                                        <div class="card-img">
+                                            <div class="img_block w-100p">
+                                                <picture>
+                                                    <source srcset="\assets\images\landing\page7\desktop\Mono-Filament-Yarns-landing-page-V3-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                                    <img src="\assets\images\landing\page7\desktop\Mono-Filament-Yarns-landing-page-V3-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="good Landing page Thaipolyester" loading="lazy">
+                                                </picture>
+                                            </div>
+                                        </div>
+                                        <div class="card-title text-center">
+                                            <h2 class="fw-bold default">
+                                                <span class="tl0 m-tl3">
+                                                    Mono Filament Yarns
+                                                </span>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-4 col-sm-4 col-md-3 d-flex prod-block">
+                                    <div class="card">
+                                        <div class="card-img">
+                                            <div class="img_block w-100p">
+                                                <picture>
+                                                    <source srcset="\assets\images\landing\page7\mobile\Recycled-Filament-Yarn-landing-page-V3-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                                    <img src="\assets\images\landing\page7\desktop\Recycled-Filament-Yarn-landing-page-V3-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Recycled Filament Yarn Thaipolyester" loading="lazy">
+                                                </picture>
+                                            </div>
+                                        </div>
+                                        <div class="card-title text-center">
+                                            <h2 class="fw-bold default">
+                                                <span class="tl0 m-tl3">
+                                                    Recycled Polyester
+                                                    Filament Yarn
+                                                </span>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div id="tab-4" class="tab-pane" style="overflow-x:auto;">
-                            444
+                            <div class="row prod-row m-0">
+                                <div class="col-xs-4 col-sm-4 col-md-3 d-flex prod-block">
+                                    <div class="card">
+                                        <div class="card-img">
+                                            <div class="img_block w-100p">
+                                                <picture>
+                                                    <source srcset="\assets\images\landing\page7\mobile\Recycled-Spun-Yarn-landing-page-V3-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                                    <img src="\assets\images\landing\page7\desktop\Recycled-Spun-Yarn-landing-page-V3-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Recycled Spun Yarn Thaipolyester" loading="lazy">
+                                                </picture>
+                                            </div>
+                                        </div>
+                                        <div class="card-title text-center">
+                                            <h2 class="fw-bold default">
+                                                <span class="tl0 m-tl3">
+                                                    Recycled Polyester
+                                                    Spun Yarn
+                                                </span>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div id="tab-5" class="tab-pane" style="overflow-x:auto;">
-                            555
+                            <div class="row prod-row m-0">
+                                <div class="col-xs-4 col-sm-4 col-md-3 d-flex prod-block">
+                                    <div class="card">
+                                        <div class="card-img">
+                                            <div class="img_block w-100p">
+                                                <picture>
+                                                    <source srcset="\assets\images\landing\page7\mobile\Recycled-PSF-landing-page-V3-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                                    <img src="\assets\images\landing\page7\desktop\Recycled-PSF-landing-page-V3-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Recycled PSF Thaipolyester" loading="lazy">
+                                                </picture>
+                                            </div>
+                                        </div>
+                                        <div class="card-title text-center">
+                                            <h2 class="fw-bold default">
+                                                <span class="tl0 m-tl3">
+                                                    Recycled Polyester
+                                                    Staple Fiber (PSF)
+                                                </span>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-4 col-sm-4 col-md-3 d-flex prod-block">
+                                    <div class="card">
+                                        <div class="card-img">
+                                            <div class="img_block w-100p">
+                                                <picture>
+                                                    <source srcset="\assets\images\landing\page7\mobile\Recycled-Filament-Yarn-landing-page-V3-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                                    <img src="\assets\images\landing\page7\desktop\Recycled-Filament-Yarn-landing-page-V3-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Recycled Filament Yarn Thaipolyester" loading="lazy">
+                                                </picture>
+                                            </div>
+                                        </div>
+                                        <div class="card-title text-center">
+                                            <h2 class="fw-bold default">
+                                                <span class="tl0 m-tl3">
+                                                    Recycled Polyester
+                                                    Filament Yarn
+                                                </span>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-4 col-sm-4 col-md-3 d-flex prod-block">
+                                    <div class="card">
+                                        <div class="card-img">
+                                            <div class="img_block w-100p">
+                                                <picture>
+                                                    <source srcset="\assets\images\landing\page7\mobile\Recycled-Spun-Yarn-landing-page-V3-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                                    <img src="\assets\images\landing\page7\desktop\Recycled-Spun-Yarn-landing-page-V3-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Recycled Spun Yarn Thaipolyester" loading="lazy">
+                                                </picture>
+                                            </div>
+                                        </div>
+                                        <div class="card-title text-center">
+                                            <h2 class="fw-bold default">
+                                                <span class="tl0 m-tl3">
+                                                    Recycled Polyester
+                                                    Spun Yarn
+                                                </span>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
