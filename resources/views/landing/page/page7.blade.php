@@ -686,6 +686,65 @@
             </div>
         </div>
     </section>
+    <section id="sec7" class="d-flex">
+        <div class="container m-auto">
+            <div class="row m-0 d-flex m-flex-c m-auto">
+                <div class="col-xs-12 col-sm-12 col-md-12 m-auto">
+                    <div class="content d-flex">
+                        <div class="content_group m-auto text-center">
+                            <h1>Testimonial</h1>
+                            <h2><span class="tl1 m-tl1">“Always get a promotional price on selected item”</span></h2>
+                            <p class="fw-bold">
+                                MR.AAMIR TARIQ (CEO)<br>
+                                Noor Enterprises, Pakistan
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="sec8">
+        <div class="container">
+            <div class="row r1 m-0">
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <h1 class="text-center fw-bold">Our Certifications</h1>
+                </div>
+            </div>
+            <div class="row r2 m-0 d-flex">
+                <div class="col-xs-6 col-sm-6 col-md-4 p-0 col1">
+                    <div class="img_block w-100p">
+                        <picture>
+                            <source srcset="\assets\images\landing\page7\mobile\Certificate-Polyester-Landing-page-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                            <img src="\assets\images\landing\page7\desktop\Certificate-Polyester-Landing-page-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Certificate Polyester Landing page Thaipolyester" loading="lazy">
+                        </picture>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 p-0 col2 d-flex flex-c">
+                    <div class="img_block w-100p m-auto">
+                        <picture>
+                            <source srcset="\assets\images\landing\page7\mobile\Certificate-Polyester-Landing-page-Thaipolyester-1.webp?v={{time()}}" media="(max-width: 640px)">
+                            <img src="\assets\images\landing\page7\desktop\Certificate-Polyester-Landing-page-Thaipolyester-1.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Certificate Polyester Landing page Thaipolyester" loading="lazy">
+                        </picture>
+                    </div>
+                    <div class="img_block w-100p m-auto">
+                        <picture>
+                            <source srcset="\assets\images\landing\page7\mobile\Certificate-Polyester-Landing-page-Thaipolyester-2.webp?v={{time()}}" media="(max-width: 640px)">
+                            <img src="\assets\images\landing\page7\desktop\Certificate-Polyester-Landing-page-Thaipolyester-2.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Certificate Polyester Landing page Thaipolyester" loading="lazy">
+                        </picture>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-4 p-0 col3">
+                    <div class="img_block w-100p">
+                        <picture>
+                            <source srcset="\assets\images\landing\page7\mobile\Certificate-Polyester-Landing-page-Thaipolyester-3.webp?v={{time()}}" media="(max-width: 640px)">
+                            <img src="\assets\images\landing\page7\desktop\Certificate-Polyester-Landing-page-Thaipolyester-3.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Certificate Polyester Landing page Thaipolyester" loading="lazy">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </div>
 @endsection
 @section('script')
