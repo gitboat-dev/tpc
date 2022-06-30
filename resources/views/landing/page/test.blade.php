@@ -28,6 +28,7 @@
     #sec1 .head-content .content > *{
         color: #fff;
     }
+
     @media only screen and (max-width: 640px){
         #sec1 video{
             width: 640px;
@@ -47,7 +48,8 @@
     <section id="sec1" class="pos-r">
         <div class="wrapper" style="overflow: hidden;">
             <video autoplay muted loop playsinline id="video1" poster="">
-                <source src="\assets\images\landing\test\Landing Page TPC4.mp4" type="video/mp4">
+                {{-- <source src="/assets/images/landing/page4/video/minify/TPC-Landing-Page2.mp4" type="video/mp4"> --}}
+                <source src="/assets/images/landing/test/Landing Page TPC4.mp4" type="video/mp4">
             </video>
         </div>
         <div class="pos-ab w-100p h-100p top-0 left-0 d-flex">
@@ -82,4 +84,23 @@
 </div>
 @endsection
 @section('script')
+<script>
+    $(document).ready(function(){
+        video_resize();
+        $(window).resize(function() {
+            video_resize();
+        });
+    });
+    function video_resize(){
+        var videoFile = '/assets/images/landing/test/Landing Page TPC4.mp4',
+            videoFile2 = '/assets/images/landing/page4/video/minify/TPC-Landing-Page2.mp4';
+        if($(window).width() <= 640){
+            $('#video1 source').attr('src', videoFile2);
+            $("#video1")[0].load();
+        }else{
+            $('#video1 source').attr('src', videoFile);
+            $("#video1")[0].load();
+        }
+    }
+</script>
 @endsection
