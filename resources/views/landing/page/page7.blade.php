@@ -584,6 +584,108 @@
             </div>
         </div>
     </section>
+    <section id="sec5">
+        <div class="container">
+            <div class="row m-0 d-flex m-flex-c">
+                <div class="col-xs-12 col-sm-12 col-md-7 p-0 m-auto col1">
+                    <div class="content pos-r d-flex">
+                        <div class="img_block w-100p">
+                            <picture>
+                                <source srcset="\assets\images\landing\page7\mobile\About-US-Landing-page-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                <img src="\assets\images\landing\page7\desktop\About-US-Landing-page-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="About US Landing page Thaipolyester" loading="lazy">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-5 m-auto col2">
+                    <div class="content pos-r d-flex">
+                        <div class="content_group m-auto">
+                            <h2 class="sec5-title text-center fw-bold">
+                                ABOUT US
+                            </h2>
+                            <p>
+                                Thai Polyester limited company (TPC) is recognized as a leading
+                                polyester yarn manufacturer in Thailand.
+                            </p>
+                            <p>
+                                Quality - Innovation - Quick response - Competitive price.
+                                To meet the needs of customers in various industries, the company has
+                                successfully provided a wide range of fiber and yarn products, including
+                                POY, FDY, DTY, staple fiber, and spun yarn in raw white, mélange, dope
+                                dyed, and yarn dyed.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="sec6">
+        <div class="container">
+            <div class="row m-0 d-flex m-flex-cr">
+                <div class="col-xs-12 col-sm-12 col-md-5 m-auto col1">
+                    <div class="content pos-r d-flex">
+                        <div class="content_group ml-0">
+                            <h2 class="sec6-title default">
+                                Our Strength
+                            </h2>
+                            <p>
+                                - Reasonable Price<br>
+                                - Short Lead Time<br>
+                                - Trustworthy Supplier<br>
+                                - Large Capacity<br>
+                                - Wide Product Range
+                            </p>
+                        </div>
+                    </div>
+                    <div class="content pos-r d-flex">
+                        <div class="content_group ml-0">
+                            <h2 class="sec6-title default">
+                                Why you should buy products<br>
+                                and services from TPC?
+                            </h2>
+                            <p>
+                                - On time<br>
+                                - Responsibility<br>
+                                - Prompt Service<br>
+                                - One Stop service<br>
+                                - Competitive Price<br>
+                                - Service Mind<br>
+                                - Experience over 80 Years<br>
+                                - German Technology<br>
+                                - Free consulation<br>
+                                - Free sample (5Kg-20Kg)
+                            </p>
+                        </div>
+                    </div>
+                    <div class="content pos-r d-flex">
+                        <div class="content_group ml-0">
+                            <h2 class="sec6-title default">
+                                What distinguishes us from<br>
+                                our competitors?
+                            </h2>
+                            <p>
+                                - Competitive Price<br>
+                                - LNG(Green Factory in Process)<br>
+                                - We are one of the biggest yarn manufacturer in Thailand<br>
+                                - Global Brand Name Customer chose us
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-7 p-0 m-auto col2">
+                    <div class="content pos-r d-flex">
+                        <div class="img_block w-100p">
+                            <picture>
+                                <source srcset="\assets\images\landing\page7\mobile\Process-Polyester-Landing-page-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                <img src="\assets\images\landing\page7\desktop\Process-Polyester-Landing-page-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="About US Landing page Thaipolyester" loading="lazy">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </div>
 @endsection
 @section('script')
