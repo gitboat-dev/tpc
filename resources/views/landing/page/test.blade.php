@@ -1,24 +1,8 @@
 @extends('landing.template')
 @section('style')
 <style>
-    #sec1{
-        width: 100vw;
-        height: 100vh;
-        overflow: hidden;
-    }
     #sec1 .wrapper{
         overflow: hidden;
-    }
-    #sec1 .wrapper #video1{
-        width: 100vw;
-        height: 100vh;
-        object-fit: cover;
-        position: absolute;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-        z-index: -1;
     }
     #sec1 .col-h1{
         background-color: #0000002b
@@ -42,18 +26,35 @@
         transition: all 0.2s;
     }
     #sec1 .head-content .content{
-        max-width: 85%;
+        max-width: 80%;
     }
     #sec1 .head-content .content > *{
         color: #fff;
     }
-
-    @media only screen and (max-width: 640px){
+    @media only screen and (max-width: 768px){
+        #sec1{
+            width: 100vw;
+            height: 90vh;
+            overflow: hidden;
+        }
+        #sec1 .wrapper #video1{
+            width: 100vw;
+            height: 90vh;
+            object-fit: cover;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            z-index: -1;
+        }
         #sec1 .head-content .content{
             max-width: 95%;
         }
-
         /* end sec1 */
+    }
+    @media only screen and (max-width: 640px){
+
     }
 </style>
 @endsection
@@ -67,13 +68,15 @@
         </div>
         <div class="pos-ab w-100p h-100p top-0 left-0 d-flex">
             <div class="row m-0 w-100p h-100p">
-                <div class="col-xs-12 col-sm-6 col-md-4 d-flex h-100p col-h1">
+                <div class="col-xs-12 col-sm-6 col-md-5 d-flex h-100p col-h1">
                     <div class="head-content h-100p d-flex">
                         <div class="content m-auto">
                             <h1 class="head-title fw-bold">
+                                {{-- <span class="tl1"> --}}
                                 TPC,<br>
                                 your Polyester<br>
                                 Destination
+                                {{-- </span> --}}
                             </h1>
                             <div class="head-desc">
                                 <p>
