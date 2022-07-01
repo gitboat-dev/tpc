@@ -37,6 +37,7 @@ body{
     box-shadow: 1px 3px 3px #555;
     border-color: var(--msBgDark);
     height: 40px;
+    color: var(--msBgLight);
 }
 #sec2 .col1 form .btn-regis{
     background: rgb(223,187,51);

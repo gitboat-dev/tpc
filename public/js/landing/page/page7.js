@@ -1,3 +1,7 @@
+let inqbg="TPC",
+	inqKey="13bcbc8d49ee223937c008c63bd235f3",
+	inqRequest="inquiry-request",
+	inqhas="xyz";
 $(document).ready(function(){
     $('#sec7').onScrolledTo(0,function(){
         slide_sec7();
