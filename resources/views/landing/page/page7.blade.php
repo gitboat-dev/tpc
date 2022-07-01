@@ -1,7 +1,7 @@
 @extends('landing.template')
 @section('style')
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-    <link rel="preload stylesheet" href="/css/landing/page/page7.css?v={{time()}}" as="style" crossorigin>
+    <link rel="preload stylesheet" href="/css/landing/page/page7.min.css?v={{time()}}" as="style" crossorigin>
     <link rel="preload stylesheet"  href="/lib/owlcarousel/assets/owl.carousel.min.css" as="style" crossorigin>
     <link rel="stylesheet" id="fancybox-css" href="{!!asset('/assets/custom/wp-content/plugins/radiantthemes-addons/assets/css/jquery.fancybox.min.css?ver=4.9.11')!!}" type="text/css" media="all">
 @endsection
@@ -876,7 +876,7 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="{!!url('/dope-dyed')!!}" title="Dope dyed">
+                                            <a href="{{route('product.dope-dyed')}}" title="Dope dyed">
                                                 - Dope dyed
                                             </a>
                                         </li>
@@ -1022,6 +1022,6 @@
 @section('script')
     <script src="/lib/jquery-on-scrolled-to/on-scrolled-to.min.js"></script>
     <script src="/lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="/js/landing/page/page7.js?v={{time()}}"></script>
+    <script src="/js/landing/page/page7.min.js?v={{time()}}"></script>
     <script src="/assets/custom/wp-content/plugins/radiantthemes-addons/assets/js/jquery.fancybox.min.js?v={{ time() }}"></script>
 @endsection
