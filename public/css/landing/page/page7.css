@@ -7,6 +7,20 @@ body{
     --sec8-padding:40px 0;
     --sec9-padding:40px 0;
 }
+.owl-dots{
+    text-align: center;
+}
+.owl-dots button.owl-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin: 0 6px;
+    background: var(--msBgDark) !important;
+    opacity: 0.2;
+}
+.owl-dots button.owl-dot.active {
+    opacity: 1;
+}
 
 /* end all setting */
 
