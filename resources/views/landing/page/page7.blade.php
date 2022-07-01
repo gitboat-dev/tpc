@@ -693,41 +693,39 @@
                     <div class="item text-center p-0">
                         <h1>Testimonial</h1>
                         <h2><span class="tl1 m-tl1">“Always get a promotional price on selected item”</span></h2>
-                        <p class="fw-bold">
+                        <p>
                             MR.AAMIR TARIQ (CEO)<br>
                             Noor Enterprises, Pakistan
                         </p>
                     </div>
                     <div class="item text-center p-0">
                         <h1>Testimonial</h1>
-                        <h2><span class="tl1 m-tl1">“Always get a promotional price on selected item”</span></h2>
-                        <p class="fw-bold">
-                            MR.AAMIR TARIQ (CEO)<br>
-                            Noor Enterprises, Pakistan
+                        <h2><span class="tl1 m-tl1">“Can’t believe that TPC also gave us a technical problem solving”</span></h2>
+                        <p>
+                            Mr. Gopal ,Purchasing Manager<br>
+                            Comilla spinning mills LTD (united Group)
                         </p>
                     </div>
                     <div class="item text-center p-0">
                         <h1>Testimonial</h1>
-                        <h2><span class="tl1 m-tl1">“Always get a promotional price on selected item”</span></h2>
-                        <p class="fw-bold">
-                            MR.AAMIR TARIQ (CEO)<br>
-                            Noor Enterprises, Pakistan
+                        <h2><span class="tl1 m-tl1">"A long-term supply with stable quality that we appreciate the most"</span></h2>
+                        <p>
+                            MNH GLOBAL CO., LTD, KOREA
                         </p>
                     </div>
                     <div class="item text-center p-0">
                         <h1>Testimonial</h1>
-                        <h2><span class="tl1 m-tl1">“Always get a promotional price on selected item”</span></h2>
-                        <p class="fw-bold">
-                            MR.AAMIR TARIQ (CEO)<br>
-                            Noor Enterprises, Pakistan
+                        <h2><span class="tl1 m-tl1">"A very quick response from enthusiastic salesperson"</span></h2>
+                        <p>
+                            Mirza Md. Shahadat Hossain , Rubel<br>
+                            CEO Shazman Trade International
                         </p>
                     </div>
                     <div class="item text-center p-0">
                         <h1>Testimonial</h1>
-                        <h2><span class="tl1 m-tl1">“Always get a promotional price on selected item”</span></h2>
-                        <p class="fw-bold">
-                            MR.AAMIR TARIQ (CEO)<br>
-                            Noor Enterprises, Pakistan
+                        <h2><span class="tl1 m-tl1">"High technology German machine is one of my favourite"</span></h2>
+                        <p>
+                            Mr. Rahman, SR-Tex BD LTD.
                         </p>
                     </div>
                 </div>
