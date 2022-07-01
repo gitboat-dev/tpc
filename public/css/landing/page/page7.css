@@ -111,7 +111,7 @@ body{
 }
 #sec4 .nav-tabs > li > a {
     border-radius: 25px;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 700;
     padding: 12px 16px;
     text-align: center;
@@ -350,10 +350,25 @@ footer::after {
 .copyright .container {
     margin: auto;
 }
+@media only screen and (min-width: 1900px){
+    #sec2 .sec2-title{
+        font-size: 48px !important;
+    }
+
+    /* end sec2 */
+}
 @media only screen and (min-width: 1400px){
     .container{
         width: 85% !important;
     }
+
+    /* end all setting */
+
+    #sec2 .sec2-title{
+        font-size: 43px;
+    }
+
+    /* end sec2 */
 }
 @media only screen and (min-width: 1351px){
     #sec1 .title-block .head-title{

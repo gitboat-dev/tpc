@@ -34,7 +34,7 @@
         <div class="container">
             <div class="row m-0">
                 <div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
-                    <h2 class="default text-center fw-bold">
+                    <h2 class="default text-center fw-bold sec2-title">
                         Thai Polyester limited company (TPC) - In the polyester industry,<br>
                         we are one of the best in Southeast Asia.
                     </h2>
