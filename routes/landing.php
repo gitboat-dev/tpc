@@ -9,7 +9,7 @@ Route::group(['namespace' => 'landing'], function () {
     Route::get('/high-quality-polyester-suppliers', 'landingPageController@page4');
     Route::get('/en/v3', 'landingPageController@page5');
     Route::get('/th/v3', 'landingPageController@page6');
-    Route::get('/landing3', 'landingPageController@page7');
+    Route::get('/polyester-yarn-spun-filament-fiber-thailand-manufacturers-suppliers-free-sample', 'landingPageController@page7');
     Route::get('/landing/test', 'landingPageController@page_test');
 
     /* end landing page */

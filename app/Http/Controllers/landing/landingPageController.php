@@ -91,9 +91,9 @@ class landingPageController extends Controller {
         $agent = new Agent();
         $data = [
             'chkie' => $chkie->chk(),
-            'title' => "",
-            'des' => "",
-            'key' => "",
+            'title' => "Polyester Yarn Spun Filament Fiber | Thailand Manufacturers Suppliers | FREE Sample",
+            'des' => "Professional suppliers with 80 years of experience. Using German machines, specializing in 100% Polyester Yarn, Spun, Filament, Fiber.",
+            'key' => "100% Polyester Yarn, Spun, Filament, Fiber",
             'chkmo' => $data['chkmobile'] = $agent->isMobile() ? $agent->isMobile() : ($agent->isTablet() ? $agent->isTablet() : false),
         ];
         return view('landing.page.page7',$data);
