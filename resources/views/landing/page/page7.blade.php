@@ -20,7 +20,7 @@
                     </div>
                     <div class="pos-ab w-100p h-100p d-flex">
                         <div class="title-block d-flex mt-0 mr-0">
-                            <h1 class="head-title default theme-hl fw-bold text-center m-auto">
+                            <h1 class="head-title default theme-hl text-center m-auto">
                                 Thai Polyester<br>
                                 limited company
                             </h1>
@@ -79,7 +79,7 @@
                 <div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
                     <h2 class="text-center fw-bold">why you have to choose us?</h2>
                 </div>
-                <div class="col-xs-6 col-sm-6 col-md-3 card-block d-flex">
+                <div class="col-xs-6 col-sm-6 col-md-3 card-block">
                     <div class="card d-flex flex-c m-flex-c">
                         <div class="card-title text-center">
                             <h3 class="fw-bold">Good</h3>
@@ -87,7 +87,7 @@
                         <div class="card-desc text-center d-flex">
                             <p class="m-auto">High Quality</p>
                         </div>
-                        <div class="card-img">
+                        <div class="card-img w-100p">
                             <div class="img_block w-100p">
                                 <picture>
                                     <source srcset="/assets/images/landing/page7/mobile/good-Landing-page-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
@@ -97,7 +97,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-6 col-sm-6 col-md-3 card-block d-flex">
+                <div class="col-xs-6 col-sm-6 col-md-3 card-block">
                     <div class="card d-flex flex-c m-flex-c">
                         <div class="card-title text-center">
                             <h3 class="fw-bold">New</h3>
@@ -105,7 +105,7 @@
                         <div class="card-desc text-center d-flex">
                             <p class="m-auto">New Technology</p>
                         </div>
-                        <div class="card-img">
+                        <div class="card-img w-100p">
                             <div class="img_block w-100p">
                                 <picture>
                                     <source srcset="/assets/images/landing/page7/mobile/New-Landing-page-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
@@ -115,7 +115,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-6 col-sm-6 col-md-3 card-block d-flex">
+                <div class="col-xs-6 col-sm-6 col-md-3 card-block">
                     <div class="card d-flex flex-c m-flex-c">
                         <div class="card-title text-center">
                             <h3 class="fw-bold">Fast</h3>
@@ -127,7 +127,7 @@
                                 Fast Transpotation
                             </p>
                         </div>
-                        <div class="card-img">
+                        <div class="card-img w-100p">
                             <div class="img_block w-100p">
                                 <picture>
                                     <source srcset="/assets/images/landing/page7/mobile/Fast-Landing-page-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
@@ -137,7 +137,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-6 col-sm-6 col-md-3 card-block d-flex">
+                <div class="col-xs-6 col-sm-6 col-md-3 card-block">
                     <div class="card d-flex flex-c m-flex-c">
                         <div class="card-title text-center">
                             <h3 class="fw-bold">Exactly</h3>
@@ -145,7 +145,7 @@
                         <div class="card-desc text-center d-flex">
                             <p class="m-auto">Amount Quantity</p>
                         </div>
-                        <div class="card-img">
+                        <div class="card-img w-100p">
                             <div class="img_block w-100p">
                                 <picture>
                                     <source srcset="/assets/images/landing/page7/mobile/Exactly-Landing-page-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
@@ -179,7 +179,7 @@
                             <a class="nav-link" aria-current="page" data-toggle="tab" href="#tab-4">Spun Yarn</a>
                         </li>
                         <li class="nav-item m-0">
-                            <a class="nav-link" aria-current="page" data-toggle="tab" href="#tab-5">Recycled Polyester Spun Yarn</a>
+                            <a class="nav-link" aria-current="page" data-toggle="tab" href="#tab-5">Recycled Polyester</a>
                         </li>
                     </ul>
                     <div class="tab-content">
@@ -426,30 +426,83 @@
                                         </div>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                        <div id="tab-3" class="tab-pane" style="overflow-x:auto;">
+                            <div class="row prod-row m-0">
                                 <div class="col-xs-4 col-sm-4 col-md-3 d-flex prod-block">
                                     <div class="card">
                                         <div class="card-img">
                                             <div class="img_block w-100p">
                                                 <picture>
-                                                    <source srcset="/assets/images/landing/page7/mobile/Recycled-PSF-landing-page-V3-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                                                    <img src="/assets/images/landing/page7/desktop/Recycled-PSF-landing-page-V3-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Recycled PSF Thaipolyester" loading="lazy">
+                                                    <source srcset="/assets/images/landing/page7/mobile/POY-landing-page-V3-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                                    <img src="/assets/images/landing/page7/desktop/POY-landing-page-V3-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="good Landing page Thaipolyester" loading="lazy">
+                                                </picture>
+                                            </div>
+                                        </div>
+                                        <div class="card-title text-center">
+                                            <h2 class="fw-bold default"><span class="tl0 m-tl3">POY</span></h2>
+                                        </div>
+                                        <div class="card-desc text-center">
+                                            <p><span class="tl0 m-tl2">Partially Oriented Yarn</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-4 col-sm-4 col-md-3 d-flex prod-block">
+                                    <div class="card">
+                                        <div class="card-img">
+                                            <div class="img_block w-100p">
+                                                <picture>
+                                                    <source srcset="/assets/images/landing/page7/mobile/FDY-landing-page-V3-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                                    <img src="/assets/images/landing/page7/desktop/FDY-landing-page-V3-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="good Landing page Thaipolyester" loading="lazy">
+                                                </picture>
+                                            </div>
+                                        </div>
+                                        <div class="card-title text-center">
+                                            <h2 class="fw-bold default"><span class="tl0 m-tl3">FDY</span></h2>
+                                        </div>
+                                        <div class="card-desc text-center">
+                                            <p><span class="tl0 m-tl2">Fully Drawn Yarn</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-4 col-sm-4 col-md-3 d-flex prod-block">
+                                    <div class="card">
+                                        <div class="card-img">
+                                            <div class="img_block w-100p">
+                                                <picture>
+                                                    <source srcset="/assets/images/landing/page7/mobile/DTY-landing-page-V3-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                                    <img src="/assets/images/landing/page7/desktop/DTY-landing-page-V3-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="good Landing page Thaipolyester" loading="lazy">
+                                                </picture>
+                                            </div>
+                                        </div>
+                                        <div class="card-title text-center">
+                                            <h2 class="fw-bold default"><span class="tl0 m-tl3">DTY</span></h2>
+                                        </div>
+                                        <div class="card-desc text-center">
+                                            <p><span class="tl0 m-tl2">Draw Textured Yarn</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-4 col-sm-4 col-md-3 d-flex prod-block">
+                                    <div class="card">
+                                        <div class="card-img">
+                                            <div class="img_block w-100p">
+                                                <picture>
+                                                    <source srcset="/assets/images/landing/page7/mobile/Twisted-yarn-landing-page-V3-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                                    <img src="/assets/images/landing/page7/desktop/Twisted-yarn-landing-page-V3-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="good Landing page Thaipolyester" loading="lazy">
                                                 </picture>
                                             </div>
                                         </div>
                                         <div class="card-title text-center">
                                             <h2 class="fw-bold default">
                                                 <span class="tl0 m-tl3">
-                                                    Recycled Polyester
-                                                    Staple Fiber (PSF)
+                                                    Twisted yarn
                                                 </span>
                                             </h2>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div id="tab-3" class="tab-pane" style="overflow-x:auto;">
-                            <div class="row prod-row m-0">
                                 <div class="col-xs-4 col-sm-4 col-md-3 d-flex prod-block">
                                     <div class="card">
                                         <div class="card-img">
@@ -474,16 +527,15 @@
                                         <div class="card-img">
                                             <div class="img_block w-100p">
                                                 <picture>
-                                                    <source srcset="/assets/images/landing/page7/mobile/Recycled-Filament-Yarn-landing-page-V3-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                                                    <img src="/assets/images/landing/page7/desktop/Recycled-Filament-Yarn-landing-page-V3-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Recycled Filament Yarn Thaipolyester" loading="lazy">
+                                                    <source srcset="/assets/images/landing/page7/mobile/Dope-Dyed-Black-landing-page-V3-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                                    <img src="/assets/images/landing/page7/desktop/Dope-Dyed-Black-landing-page-V3-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="good Landing page Thaipolyester" loading="lazy">
                                                 </picture>
                                             </div>
                                         </div>
                                         <div class="card-title text-center">
                                             <h2 class="fw-bold default">
                                                 <span class="tl0 m-tl3">
-                                                    Recycled Polyester
-                                                    Filament Yarn
+                                                    Dope Dyed Black
                                                 </span>
                                             </h2>
                                         </div>
@@ -498,18 +550,28 @@
                                         <div class="card-img">
                                             <div class="img_block w-100p">
                                                 <picture>
-                                                    <source srcset="/assets/images/landing/page7/mobile/Recycled-Spun-Yarn-landing-page-V3-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                                                    <img src="/assets/images/landing/page7/desktop/Recycled-Spun-Yarn-landing-page-V3-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Recycled Spun Yarn Thaipolyester" loading="lazy">
+                                                    <source srcset="/assets/images/landing/page7/mobile/Ring-Spun-landing-page-V3-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                                    <img src="/assets/images/landing/page7/desktop/Ring-Spun-landing-page-V3-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Ring Spun Thaipolyester" loading="lazy">
                                                 </picture>
                                             </div>
                                         </div>
                                         <div class="card-title text-center">
-                                            <h2 class="fw-bold default">
-                                                <span class="tl0 m-tl3">
-                                                    Recycled Polyester
-                                                    Spun Yarn
-                                                </span>
-                                            </h2>
+                                            <h2 class="fw-bold default"><span class="tl0 m-tl3">Ring spun</span></h2>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-4 col-sm-4 col-md-3 d-flex prod-block">
+                                    <div class="card">
+                                        <div class="card-img">
+                                            <div class="img_block w-100p">
+                                                <picture>
+                                                    <source srcset="/assets/images/landing/page7/mobile/OE-landing-page-V3-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                                    <img src="/assets/images/landing/page7/desktop/OE-landing-page-V3-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="OE Thaipolyester" loading="lazy">
+                                                </picture>
+                                            </div>
+                                        </div>
+                                        <div class="card-title text-center">
+                                            <h2 class="fw-bold default"><span class="tl0 m-tl3">OE spun</span></h2>
                                         </div>
                                     </div>
                                 </div>
