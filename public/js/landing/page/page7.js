@@ -108,7 +108,7 @@ function slide_sec7(){
         margin:0,
         nav:false,
 		navText : ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
-        dots:false,
+        dots:true,
         items:1,
     });
 }
