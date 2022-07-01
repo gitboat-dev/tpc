@@ -57,7 +57,7 @@ $(document).ready(function(){
         event.preventDefault();
 		var f = $('#contact-form2'),
 	    	token = inqHex(inqRandom()),
-    		v = cForm(f);
+    		v = cForm2(f);
 		if(checkData(f).success){
 			$.ajax({
                 type: "get",
@@ -170,6 +170,19 @@ function cForm(f){
 		"phone":jQuery.trim(f.find('input[name="phone"]').val()),
 		"message":message,
         "privacy":jQuery.trim(privacy),
+	}
+}
+function cForm2(f){
+    let message = "----";
+    if(f.find('textarea[name="message"]').val() && f.find('textarea[name="message"]').val() != ""){
+        message = jQuery.trim(f.find('textarea[name="message"]').val());
+    }
+	return {
+		"name":jQuery.trim(f.find('input[name="name"]').val()),
+		"email":jQuery.trim(f.find('input[name="email"]').val()),
+		"company":jQuery.trim(f.find('#company').val()),
+		"phone":jQuery.trim(f.find('input[name="phone"]').val()),
+		"message":message,
 	}
 }
 function inqHex(a) {
