@@ -1,8 +1,15 @@
+body{
+    --sec2-padding:40px 0;
+}
+
+/* end all setting */
+
 #sec1 .wrapper{
     overflow: hidden;
 }
 #sec1 .col-h1{
-    background-color: #0000002b
+    background-color: #00000045;
+    height: calc(100% - 0.6%) !important;
 }
 #sec1 .head-btn{
     margin-top: 30px;
@@ -28,6 +35,23 @@
 #sec1 .head-content .content > *{
     color: #fff;
 }
+
+/* end sec1 */
+
+#sec2{
+    padding: var(--sec2-padding);
+}
+#sec2 .sec2-title{
+    margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 991px){
+    #sec1 .col-h1{
+        height: 100% !important;
+    }
+
+    /* end sec1 */
+}
 @media only screen and (max-width: 768px){
     #sec1{
         width: 100vw;
@@ -48,6 +72,7 @@
     #sec1 .head-content .content{
         max-width: 95%;
     }
+
     /* end sec1 */
 }
 @media only screen and (max-width: 640px){

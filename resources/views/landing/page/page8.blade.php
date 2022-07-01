@@ -41,26 +41,26 @@
             </div>
         </div>
     </section>
+    <section id="sec2" class="pos-r">
+        <div class="container">
+            <div class="row m-0">
+                <div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
+                    <h2 class="text-center fw-bold sec2-title">
+                        <span class="m-tl0">
+                            Here’s a thing you have been dealing with
+                        </span>
+                    </h2>
+                    <h3 class="text-center fw-bold theme-hl">Low Consistency?</h3>
+                    <h3 class="text-center fw-bold theme-hl">Low Yarn Quality?</h3>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 @endsection
 @section('script')
-{{-- <script>
-    $(document).ready(function(){
-        video_resize();
-        $(window).resize(function() {
-            video_resize();
-        });
-    });
-    function video_resize(){
-        var videoFile = '/assets/images/landing/test/Landing Page TPC4.mp4',
-            videoFile2 = '/assets/images/landing/page4/video/minify/TPC-Landing-Page2.mp4';
-        if($(window).width() <= 640){
-            $('#video1 source').attr('src', videoFile2);
-            $("#video1")[0].load();
-        }else{
-            $('#video1 source').attr('src', videoFile);
-            $("#video1")[0].load();
-        }
-    }
-</script> --}}
+<script src="/lib/jquery-on-scrolled-to/on-scrolled-to.min.js"></script>
+<script src="/lib/owlcarousel/owl.carousel.min.js"></script>
+{{-- <script src="/js/landing/page/page8.js?v={{time()}}"></script> --}}
+<script src="/assets/custom/wp-content/plugins/radiantthemes-addons/assets/js/jquery.fancybox.min.js?v={{time()}}"></script>
 @endsection
