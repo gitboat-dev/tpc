@@ -364,6 +364,13 @@ footer::after {
 
     /* end all setting */
 
+    #sec1 .head-title{
+        font-size: 69px !important;
+        line-height: 69px !important;
+    }
+
+    /* end sec1 */
+
     #sec2 .sec2-title{
         font-size: 43px;
     }
