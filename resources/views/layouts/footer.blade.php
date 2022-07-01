@@ -139,7 +139,7 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="{!!url('/dope-dyed')!!}" title="Dope dyed">
+                                        <a href="{{route('product.dope-dyed')}}" title="Dope dyed">
                                             - Dope dyed
                                         </a>
                                     </li>
