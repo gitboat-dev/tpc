@@ -1,62 +1,8 @@
 @extends('landing.template')
 @section('style')
-<style>
-    #sec1 .wrapper{
-        overflow: hidden;
-    }
-    #sec1 .col-h1{
-        background-color: #0000002b
-    }
-    #sec1 .head-btn{
-        margin-top: 30px;
-    }
-    #sec1 .head-btn > a{
-        font-size: 20px;
-        display: block;
-        width: fit-content;
-        background-color: var(--msBg);
-        color: #fff;
-        padding: 15px 15px;
-        border-radius: 30px;
-        transform: scale(0.9500);
-        transition: all 0.2s;
-    }
-    #sec1 .head-btn > a:hover{
-        transform: scale(1.1009);
-        transition: all 0.2s;
-    }
-    #sec1 .head-content .content{
-        max-width: 80%;
-    }
-    #sec1 .head-content .content > *{
-        color: #fff;
-    }
-    @media only screen and (max-width: 768px){
-        #sec1{
-            width: 100vw;
-            height: 90vh;
-            overflow: hidden;
-        }
-        #sec1 .wrapper #video1{
-            width: 100vw;
-            height: 90vh;
-            object-fit: cover;
-            position: absolute;
-            left: 0;
-            right: 0;
-            top: 0;
-            bottom: 0;
-            z-index: -1;
-        }
-        #sec1 .head-content .content{
-            max-width: 95%;
-        }
-        /* end sec1 */
-    }
-    @media only screen and (max-width: 640px){
-
-    }
-</style>
+    <link rel="preload stylesheet" href="/css/landing/page/page8.css?v={{time()}}" as="style" crossorigin>
+    <link rel="preload stylesheet"  href="/lib/owlcarousel/assets/owl.carousel.min.css" as="style" crossorigin>
+    <link rel="stylesheet" id="fancybox-css" href="{!!asset('/assets/custom/wp-content/plugins/radiantthemes-addons/assets/css/jquery.fancybox.min.css?ver=4.9.11')!!}" type="text/css" media="all">
 @endsection
 @section('content')
 <div id="landing">
@@ -72,11 +18,9 @@
                     <div class="head-content h-100p d-flex">
                         <div class="content m-auto">
                             <h1 class="head-title fw-bold">
-                                {{-- <span class="tl1"> --}}
                                 TPC,<br>
                                 your Polyester<br>
                                 Destination
-                                {{-- </span> --}}
                             </h1>
                             <div class="head-desc">
                                 <p>

@@ -10,7 +10,7 @@ Route::group(['namespace' => 'landing'], function () {
     Route::get('/en/v3', 'landingPageController@page5');
     Route::get('/th/v3', 'landingPageController@page6');
     Route::get('/polyester-yarn-spun-filament-fiber-thailand-manufacturers-suppliers-free-sample', 'landingPageController@page7');
-    Route::get('/landing/test', 'landingPageController@page_test');
+    Route::get('/landing4', 'landingPageController@page8');
 
     /* end landing page */
 

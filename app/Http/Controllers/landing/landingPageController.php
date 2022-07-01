@@ -98,7 +98,7 @@ class landingPageController extends Controller {
         ];
         return view('landing.page.page7',$data);
     }
-    public function page_test(){
+    public function page8(){
         $chkie = new Func_controller;
         $agent = new Agent();
         $data = [
@@ -108,7 +108,7 @@ class landingPageController extends Controller {
             'key' => "",
             'chkmo' => $data['chkmobile'] = $agent->isMobile() ? $agent->isMobile() : ($agent->isTablet() ? $agent->isTablet() : false),
         ];
-        return view('landing.page.test',$data);
+        return view('landing.page.page8',$data);
     }
 
     public function thank_you1(){
