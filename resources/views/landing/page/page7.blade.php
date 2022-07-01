@@ -688,17 +688,23 @@
     </section>
     <section id="sec7" class="d-flex">
         <div class="container m-auto">
-            <div class="row m-0 d-flex m-flex-c m-auto">
-                <div class="col-xs-12 col-sm-12 col-md-12 m-auto">
-                    <div class="content d-flex">
-                        <div class="content_group m-auto text-center">
-                            <h1>Testimonial</h1>
-                            <h2><span class="tl1 m-tl1">“Always get a promotional price on selected item”</span></h2>
-                            <p class="fw-bold">
-                                MR.AAMIR TARIQ (CEO)<br>
-                                Noor Enterprises, Pakistan
-                            </p>
-                        </div>
+            <div class="slide">
+                <div class="owl-carousel owl-theme">
+                    <div class="item text-center p-0">
+                        <h1>Testimonial</h1>
+                        <h2><span class="tl1 m-tl1">“Always get a promotional price on selected item”</span></h2>
+                        <p class="fw-bold">
+                            MR.AAMIR TARIQ (CEO)<br>
+                            Noor Enterprises, Pakistan
+                        </p>
+                    </div>
+                    <div class="item text-center p-0">
+                        <h1>Testimonial</h1>
+                        <h2><span class="tl1 m-tl1">“Always get a promotional price on selected item”</span></h2>
+                        <p class="fw-bold">
+                            MR.AAMIR TARIQ (CEO)<br>
+                            Noor Enterprises, Pakistan
+                        </p>
                     </div>
                 </div>
             </div>
@@ -750,6 +756,6 @@
 @section('script')
     <script src="/lib/jquery-on-scrolled-to/on-scrolled-to.min.js"></script>
     <script src="/lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="/js/landing/page/page-7.js?v={{time()}}"></script>
+    <script src="/js/landing/page/page7.js?v={{time()}}"></script>
     <script src="/assets/custom/wp-content/plugins/radiantthemes-addons/assets/js/jquery.fancybox.min.js?v={{ time() }}"></script>
 @endsection
