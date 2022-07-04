@@ -1,0 +1,6 @@
+[2022-07-04 02:19:26] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-04 02:19:26] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-04 02:19:26] local.DEBUG: -> error string  
+[2022-07-04 02:19:26] local.DEBUG: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ (SQL: select * from `platform`)  
+[2022-07-04 02:19:26] local.DEBUG: -> end  
