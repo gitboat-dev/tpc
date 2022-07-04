@@ -7,6 +7,10 @@ $(document).ready(function(){
 	});
 });
 function slide_sec5(){
+    let next = "<picture>"+
+    "<source srcset='/assets/images/psf/mobile/Icon-3.webp' media='(max-width: 640px)'>"+
+    "<img src='/assets/images/psf/desktop/Icon-3.webp' alt='next' width='900' height='350' class='img-fluid'>"+
+    "</picture>";
     $('#sec5 .slide .owl-carousel').owlCarousel({
         lazyLoad:true,
         loop:false,
@@ -15,10 +19,28 @@ function slide_sec5(){
         autoplayHoverPause:true,
         margin:0,
         rewind:true,
-        nav:false,
-		navText : ["", "<i class='fa fa-angle-right'></i>"],
+        nav:true,
+        navText : ["", next],
+        animateOut: 'fadeOut',
         dots:false,
         items:1,
+        onChanged: function (e) {
+            let index = e.item.index + 1,
+                btn_next = $('#sec5 .slide .owl-carousel .owl-nav > .owl-next'),
+                next_icon = "";
+            if(index == 1){
+                next_icon = "<picture>"+
+                            "<source srcset='/assets/images/psf/mobile/Icon-3.webp' media='(max-width: 640px)'>"+
+                            "<img src='/assets/images/psf/desktop/Icon-3.webp' alt='next' width='900' height='350' class='img-fluid'>"+
+                            "</picture>";
+            }else{
+                next_icon = "<picture>"+
+                            "<source srcset='/assets/images/psf/mobile/Icon-2.webp' media='(max-width: 640px)'>"+
+                            "<img src='/assets/images/psf/desktop/Icon-2.webp' alt='next' width='900' height='350' class='img-fluid'>"+
+                            "</picture>";
+            }
+            btn_next.html(next_icon);
+        },
     });
 }
 function slide_sec6(){

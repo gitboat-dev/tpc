@@ -56,6 +56,24 @@ body{
 #sec5 .owl-item{
     margin: auto !important;
 }
+#sec5 .owl-nav > .owl-next {
+    position: absolute;
+    top: calc(50% - 2em);
+    right: 6%;
+    width: 100%;
+    max-width: 150px;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+#sec5 .owl-nav > .owl-next:hover {
+    max-width: 160px;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
 
 /* end sec5 */
 
