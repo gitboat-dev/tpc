@@ -1,5 +1,7 @@
 body{
     --sec2-padding:40px 0;
+    --sec7-padding:40px 0;
+    --sec10-padding:0px 0 20px;
 }
 
 /* end all setting */
@@ -45,12 +47,202 @@ body{
     margin-bottom: 40px;
 }
 
+/* end sec2 */
+
+#sec7{
+    padding: var(--sec7-padding);
+}
+#sec7 .r2{
+    margin-top: 30px !important;
+}
+
+/* end sec7 */
+
+#sec8{
+    padding: 60px 125px;
+}
+#sec8 .r1 .content_block .content_group{
+    max-width: 768px;
+    border: 3px solid var(--msBgLight);
+    padding: 40px;
+}
+#sec8 .r1 .content_block .content_group h2{
+    font-size: 55px;
+    line-height: 65px;
+    margin-bottom: 40px;
+}
+#sec8 .r1 .content_block .content_group form{
+    max-width: 580px;
+}
+#sec8 .r1 .content_block .content_group form input,
+#sec8 .r1 .content_block .content_group form textarea{
+    background-color: var(--msBgDark);
+    border-top: 2px solid var(--msBgDark);
+    border-left: 2px solid var(--msBgDark);
+    border-right: 2px solid var(--msBgDark);
+    border-bottom: 2px solid var(--msBgLight);
+    color: var(--msBg);
+    font-size: 16px;
+    line-height: 20px;
+}
+#sec8 .r1 .content_block .content_group form input{
+    min-height: 50px;
+}
+#sec8 .r1 .content_block .content_group form textarea{
+    resize: vertical;
+}
+#sec8 .r1 .content_block .content_group form input::placeholder,
+#sec8 .r1 .content_block .content_group form textarea::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: var(--msBg);
+    opacity: 1; /* Firefox */
+}
+#sec8 .r1 .content_block .content_group form input:-ms-input-placeholder,
+#sec8 .r1 .content_block .content_group form textarea:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: var(--msBg);
+    opacity: 1;
+}
+#sec8 .r1 .content_block .content_group form input::-ms-input-placeholder,
+#sec8 .r1 .content_block .content_group form textarea::-ms-input-placeholder { /* Microsoft Edge */
+    color: var(--msBg);
+    opacity: 1;
+}
+#sec8 .r1 .content_block .content_group form .bt-contact{
+    font-size: 25px;
+    line-height: 35px;
+    color: var(--msBgDark);
+    background-color: var(--msBg);
+    border: none;
+    margin-top: 20px;
+    padding: 10px 25%;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+#sec8 .r1 .content_block .content_group form .bt-contact:hover{
+    color: var(--msBgLight);
+    box-shadow: 0px 0px 3px var(--msBgLight);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+/* end sec8 */
+
+#sec9 .r1 .col1 .content_block{
+    padding: 60px 125px;
+}
+#sec9 .r2 .content_block,
+#sec9 .r3 .content_block{
+    padding: 20px;
+}
+#sec9 .r4 .col1 .content_block{
+    padding: 20px 125px 10px;
+}
+#sec9 .r1 .col1 .content_block h2{
+    font-size: 40px;
+    line-height: 35px;
+}
+#sec9 .r2 .content_block .img_block,
+#sec9 .r3 .content_block .img_block{
+    width: 100%;
+    max-width: 100px;
+}
+#sec9 .r2 .content_block h3,
+#sec9 .r3 .content_block h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+#sec9 .r2 .content_block a{
+    font-size: 16px;
+    color: var(--msBgDark);
+    font-weight: 600;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+#sec9 .r2 .content_block a:hover{
+    color: var(--msBg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+#sec9 .r2 .content_block p,
+#sec9 .r3 .content_block p{
+    font-size: 16px;
+}
+#sec9 .r3 .content_block p{
+    margin-bottom: 20px;
+}
+#sec9 .r4 .col1 .content_block p.p1{
+    font-size: 20px;
+}
+#sec9 .r3 div[class^="col-"]:not(:last-child){
+    border-right: 2px solid var(--msBgDark);
+}
+#sec9 .r3 .content_block a.a-map{
+    margin-top: 20px;
+    background-color: var(--msBg);
+    color: var(--msBgDark);
+    padding: 2.5px 10px;
+    font-size: 14px;
+    font-weight: 700;
+    border-top: 0.5px solid #ccc;
+    border-left: 0.5px solid #999;
+    border-right: none;
+    border-bottom: none;
+}
+
+/* end sec9 */
+
+#sec10 {
+    padding: var(--sec10-padding);
+}
+
+/* end sec10 */
+
 @media only screen and (max-width: 991px){
     #sec1 .col-h1{
         height: 100% !important;
     }
 
     /* end sec1 */
+
+    #sec7 .r2{
+        flex-wrap: wrap;
+    }
+    #sec7 .r2 > .col1{
+        order: 1;
+    }
+    #sec7 .r2 > .col2{
+        order: 3;
+    }
+    #sec7 .r2 > .col3{
+        order: 2;
+    }
+    #sec7 .flex-c {
+        flex-direction: inherit;
+    }
+
+    /* end sec7 */
+
+    #sec8{
+        padding: 30px 50px;
+    }
+
+    /* end sec8 */
+
+    #sec9 .r1 .col1 .content_block {
+        padding: 60px 75px;
+    }
+    #sec9 .r3 div[class^="col-"]:not(:last-child){
+        border-right: unset;
+    }
+
+    /* end sec9 */
 }
 @media only screen and (max-width: 768px){
     #sec1{
@@ -74,6 +266,61 @@ body{
     }
 
     /* end sec1 */
+
+    #sec8{
+        padding: 20px;
+    }
+    #sec8 .r1 .content_block .content_group{
+        padding: 0px;
+    }
+    #sec8 .r1 .content_block .content_group h2{
+        font-size: 30px;
+        line-height: 32px;
+    }
+    #sec8 .r1 .content_block .content_group form input,
+    #sec8 .r1 .content_block .content_group form textarea{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    #sec8 .r1 .content_block .content_group form input{
+        min-height: 35px;
+    }
+    #sec8 .r1 .content_block .content_group form .bt-contact{
+        font-size: 16px;
+        line-height: 35px;
+        padding: 5px 25%;
+    }
+
+    /* end sec8 */
+
+    #sec9 .r1 .col1 .content_block{
+        padding: 20px;
+    }
+    #sec9 .r4 .col1 .content_block{
+        padding: 10px;
+    }
+    #sec9 .r1 .col1 .content_block h2{
+        font-size: 35px;
+    }
+    #sec9 .r4 .col1 .content_block p.p1{
+        font-size: 11px;
+    }
+
+    /* end sec9 */
+
+}
+@media only screen and (max-width: 767px){
+    #sec9 .r3 div[class^="col-"]:not(:last-child)::after{
+        content: " ";
+        position: absolute;
+        bottom: 0;
+        left: 30%;
+        width: 40%;
+        height: 2px;
+        background-color: var(--msBgDark);
+    }
+
+    /* end sec9 */
 }
 @media only screen and (max-width: 640px){
 
