@@ -191,7 +191,7 @@
                                             <div class="img_block w-100p">
                                                 <picture>
                                                     <source srcset="/assets/images/landing/page7/mobile/PSF-landing-page-V3-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                                                    <img src="/assets/images/landing/page7/desktop/PSF-landing-page-V3-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="good Landing page Thaipolyester" loading="lazy">
+                                                    <img src="/assets/images/landing/page7/desktop/PSF-landing-page-V3-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="PSF Thaipolyester" loading="lazy">
                                                 </picture>
                                             </div>
                                         </div>
@@ -209,7 +209,7 @@
                                             <div class="img_block w-100p">
                                                 <picture>
                                                     <source srcset="/assets/images/landing/page7/mobile/POY-landing-page-V3-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                                                    <img src="/assets/images/landing/page7/desktop/POY-landing-page-V3-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="good Landing page Thaipolyester" loading="lazy">
+                                                    <img src="/assets/images/landing/page7/desktop/POY-landing-page-V3-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="POY Thaipolyester" loading="lazy">
                                                 </picture>
                                             </div>
                                         </div>
@@ -227,7 +227,7 @@
                                             <div class="img_block w-100p">
                                                 <picture>
                                                     <source srcset="/assets/images/landing/page7/mobile/FDY-landing-page-V3-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                                                    <img src="/assets/images/landing/page7/desktop/FDY-landing-page-V3-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="good Landing page Thaipolyester" loading="lazy">
+                                                    <img src="/assets/images/landing/page7/desktop/FDY-landing-page-V3-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="FDY Thaipolyester" loading="lazy">
                                                 </picture>
                                             </div>
                                         </div>
@@ -245,7 +245,7 @@
                                             <div class="img_block w-100p">
                                                 <picture>
                                                     <source srcset="/assets/images/landing/page7/mobile/DTY-landing-page-V3-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                                                    <img src="/assets/images/landing/page7/desktop/DTY-landing-page-V3-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="good Landing page Thaipolyester" loading="lazy">
+                                                    <img src="/assets/images/landing/page7/desktop/DTY-landing-page-V3-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="DTY Thaipolyester" loading="lazy">
                                                 </picture>
                                             </div>
                                         </div>
@@ -263,7 +263,7 @@
                                             <div class="img_block w-100p">
                                                 <picture>
                                                     <source srcset="/assets/images/landing/page7/mobile/Twisted-yarn-landing-page-V3-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                                                    <img src="/assets/images/landing/page7/desktop/Twisted-yarn-landing-page-V3-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="good Landing page Thaipolyester" loading="lazy">
+                                                    <img src="/assets/images/landing/page7/desktop/Twisted-yarn-landing-page-V3-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Twisted yarn Thaipolyester" loading="lazy">
                                                 </picture>
                                             </div>
                                         </div>
@@ -282,7 +282,7 @@
                                             <div class="img_block w-100p">
                                                 <picture>
                                                     <source srcset="/assets/images/landing/page7/desktop/Mono-Filament-Yarns-landing-page-V3-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                                                    <img src="/assets/images/landing/page7/desktop/Mono-Filament-Yarns-landing-page-V3-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="good Landing page Thaipolyester" loading="lazy">
+                                                    <img src="/assets/images/landing/page7/desktop/Mono-Filament-Yarns-landing-page-V3-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Mono Filament Yarns Thaipolyester" loading="lazy">
                                                 </picture>
                                             </div>
                                         </div>
@@ -301,7 +301,7 @@
                                             <div class="img_block w-100p">
                                                 <picture>
                                                     <source srcset="/assets/images/landing/page7/mobile/Dope-Dyed-Black-landing-page-V3-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                                                    <img src="/assets/images/landing/page7/desktop/Dope-Dyed-Black-landing-page-V3-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="good Landing page Thaipolyester" loading="lazy">
+                                                    <img src="/assets/images/landing/page7/desktop/Dope-Dyed-Black-landing-page-V3-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Dope Dyed Black Thaipolyester" loading="lazy">
                                                 </picture>
                                             </div>
                                         </div>
@@ -414,7 +414,7 @@
                                             <div class="img_block w-100p">
                                                 <picture>
                                                     <source srcset="/assets/images/landing/page7/mobile/PSF-landing-page-V3-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                                                    <img src="/assets/images/landing/page7/desktop/PSF-landing-page-V3-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="good Landing page Thaipolyester" loading="lazy">
+                                                    <img src="/assets/images/landing/page7/desktop/PSF-landing-page-V3-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="PSF Thaipolyester" loading="lazy">
                                                 </picture>
                                             </div>
                                         </div>
@@ -436,7 +436,7 @@
                                             <div class="img_block w-100p">
                                                 <picture>
                                                     <source srcset="/assets/images/landing/page7/mobile/POY-landing-page-V3-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                                                    <img src="/assets/images/landing/page7/desktop/POY-landing-page-V3-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="good Landing page Thaipolyester" loading="lazy">
+                                                    <img src="/assets/images/landing/page7/desktop/POY-landing-page-V3-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="POY Thaipolyester" loading="lazy">
                                                 </picture>
                                             </div>
                                         </div>
@@ -454,7 +454,7 @@
                                             <div class="img_block w-100p">
                                                 <picture>
                                                     <source srcset="/assets/images/landing/page7/mobile/FDY-landing-page-V3-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                                                    <img src="/assets/images/landing/page7/desktop/FDY-landing-page-V3-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="good Landing page Thaipolyester" loading="lazy">
+                                                    <img src="/assets/images/landing/page7/desktop/FDY-landing-page-V3-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="FDY Thaipolyester" loading="lazy">
                                                 </picture>
                                             </div>
                                         </div>
@@ -472,7 +472,7 @@
                                             <div class="img_block w-100p">
                                                 <picture>
                                                     <source srcset="/assets/images/landing/page7/mobile/DTY-landing-page-V3-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                                                    <img src="/assets/images/landing/page7/desktop/DTY-landing-page-V3-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="good Landing page Thaipolyester" loading="lazy">
+                                                    <img src="/assets/images/landing/page7/desktop/DTY-landing-page-V3-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="DTY Thaipolyester" loading="lazy">
                                                 </picture>
                                             </div>
                                         </div>
@@ -490,7 +490,7 @@
                                             <div class="img_block w-100p">
                                                 <picture>
                                                     <source srcset="/assets/images/landing/page7/mobile/Twisted-yarn-landing-page-V3-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                                                    <img src="/assets/images/landing/page7/desktop/Twisted-yarn-landing-page-V3-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="good Landing page Thaipolyester" loading="lazy">
+                                                    <img src="/assets/images/landing/page7/desktop/Twisted-yarn-landing-page-V3-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Twisted yarn Thaipolyester" loading="lazy">
                                                 </picture>
                                             </div>
                                         </div>
@@ -509,7 +509,7 @@
                                             <div class="img_block w-100p">
                                                 <picture>
                                                     <source srcset="/assets/images/landing/page7/desktop/Mono-Filament-Yarns-landing-page-V3-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                                                    <img src="/assets/images/landing/page7/desktop/Mono-Filament-Yarns-landing-page-V3-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="good Landing page Thaipolyester" loading="lazy">
+                                                    <img src="/assets/images/landing/page7/desktop/Mono-Filament-Yarns-landing-page-V3-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Mono Filament Yarns Thaipolyester" loading="lazy">
                                                 </picture>
                                             </div>
                                         </div>
@@ -528,7 +528,7 @@
                                             <div class="img_block w-100p">
                                                 <picture>
                                                     <source srcset="/assets/images/landing/page7/mobile/Dope-Dyed-Black-landing-page-V3-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                                                    <img src="/assets/images/landing/page7/desktop/Dope-Dyed-Black-landing-page-V3-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="good Landing page Thaipolyester" loading="lazy">
+                                                    <img src="/assets/images/landing/page7/desktop/Dope-Dyed-Black-landing-page-V3-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Dope Dyed Black Thaipolyester" loading="lazy">
                                                 </picture>
                                             </div>
                                         </div>
@@ -740,7 +740,7 @@
                         <div class="img_block w-100p">
                             <picture>
                                 <source srcset="/assets/images/landing/page7/mobile/Process-Polyester-Landing-page-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                                <img src="/assets/images/landing/page7/desktop/Process-Polyester-Landing-page-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="About US Landing page Thaipolyester" loading="lazy">
+                                <img src="/assets/images/landing/page7/desktop/Process-Polyester-Landing-page-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Process Polyester Thaipolyester" loading="lazy">
                             </picture>
                         </div>
                     </div>
@@ -1001,7 +1001,7 @@
                                 <div class="icon">
                                     <picture>
                                         <source srcset="/assets/images/footer/mobile/Email-Footer-TPC.webp" media="(max-width: 640px)">
-                                        <img src="/assets/images/footer/desktop/Email-Footer-TPC.webp" width="900" height="350" class="img-fluid" alt="Address">
+                                        <img src="/assets/images/footer/desktop/Email-Footer-TPC.webp" width="900" height="350" class="img-fluid" alt="Email">
                                     </picture>
                                 </div>
                                 <div class="title">
@@ -1017,7 +1017,7 @@
                                 <div class="icon">
                                     <picture>
                                         <source srcset="/assets/images/footer/mobile/PHONE-Footer-TPC.webp" media="(max-width: 640px)">
-                                        <img src="/assets/images/footer/desktop/PHONE-Footer-TPC.webp" width="900" height="350" class="img-fluid" alt="Address">
+                                        <img src="/assets/images/footer/desktop/PHONE-Footer-TPC.webp" width="900" height="350" class="img-fluid" alt="Phone">
                                     </picture>
                                 </div>
                                 <div class="title">
