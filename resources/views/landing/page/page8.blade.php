@@ -58,12 +58,46 @@
     </section>
     <section id="sec3" class="pos-r"></section>
     <section id="sec4" class="pos-r"></section>
-    <section id="sec5" class="pos-r"></section>
+    <section id="sec5" class="pos-r">
+        <div class="slide bg-black">
+            <div class="owl-carousel owl-theme d-flex">
+                <div class="item p-0">
+                    <div class="container">
+                        <div class="row m-0">
+                            <div class="col-xs-12 col-sm-12 col-md-12">
+                                <h2 class="text-center fw-bold sec5-title">
+                                    {{-- <span class="m-tl0"> --}}
+                                        We Guarantee!
+                                    {{-- </span> --}}
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item p-0">
+                    <div class="img_block w-100p">
+                        <picture>
+                            <source srcset="\assets\images\landing\page8\mobile\polyester-Spinning-mills-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                            <img src="\assets\images\landing\page8\desktop\polyester-Spinning-mills-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="polyester Spinning mills Thaipolyester">
+                        </picture>
+                    </div>
+                </div>
+                <div class="item p-0">
+                    <div class="img_block w-100p">
+                        <picture>
+                            <source srcset="\assets\images\landing\page8\mobile\polyester-Knitting-mills-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                            <img src="\assets\images\landing\page8\desktop\polyester-Knitting-mills-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="polyester Knitting mills Thaipolyester">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <section id="sec6" class="pos-r">
         <div class="container">
             <div class="row m-0">
                 <div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
-                    <h2 class="text-center fw-bold sec2-title">
+                    <h2 class="text-center fw-bold sec6-title">
                         <span class="m-tl0">
                             Our Customer Satisfaction
                         </span>
@@ -74,43 +108,163 @@
         <div class="slide">
             <div class="owl-carousel owl-theme">
                 <div class="item text-center p-0">
-
-                    {{-- <h1>Testimonial</h1>
-                    <h2><span class="tl1 m-tl1">“Always get a promotional price on selected item”</span></h2>
-                    <p>
-                        MR.AAMIR TARIQ (CEO)<br>
-                        Noor Enterprises, Pakistan
-                    </p> --}}
+                    <div class="img_block w-100p">
+                        <picture>
+                            <source srcset="\assets\images\landing\page8\mobile\landing-page-V4-1.webp?v={{time()}}" media="(max-width: 640px)">
+                            <img src="\assets\images\landing\page8\desktop\landing-page-V4-1.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
+                        </picture>
+                    </div>
+                    <div class="pos-ab d-flex w-100p h-100p top-0 left-0">
+                        <div class="row m-0 d-flex m-auto w-100p">
+                            <div class="col-xs-6 col-sm-6 col-md-6 p-0 m-auto">
+                                <div class="img_block d-flex w-100p">
+                                    <picture class="mr-0">
+                                        <source srcset="\assets\images\landing\page8\mobile\3.webp?v={{time()}}" media="(max-width: 640px)">
+                                        <img src="\assets\images\landing\page8\desktop\3.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-6 m-auto">
+                                <h2 class="theme-hl text-center item-title">
+                                    "A very quick<br>
+                                    response from<br>
+                                    enthusiastic<br>
+                                    salesperson"
+                                </h2>
+                                <p class="item-desc">
+                                    Mirza Md. Shahadat Hossain , Rubel<br>
+                                    CEO Shazman Trade International
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="item text-center p-0">
-                    <h1>Testimonial</h1>
-                    <h2><span class="tl1 m-tl1">“Can’t believe that TPC also gave us a technical problem solving”</span></h2>
-                    <p>
-                        Mr. Gopal ,Purchasing Manager<br>
-                        Comilla spinning mills LTD (united Group)
-                    </p>
+                    <div class="img_block w-100p">
+                        <picture>
+                            <source srcset="\assets\images\landing\page8\mobile\landing-page-V4-2.webp?v={{time()}}" media="(max-width: 640px)">
+                            <img src="\assets\images\landing\page8\desktop\landing-page-V4-2.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
+                        </picture>
+                    </div>
+                    <div class="pos-ab d-flex w-100p h-100p top-0 left-0">
+                        <div class="row m-0 d-flex m-auto w-100p">
+                            <div class="col-xs-6 col-sm-6 col-md-6 p-0 m-auto">
+                                <div class="img_block d-flex w-100p">
+                                    <picture class="mr-0">
+                                        <source srcset="\assets\images\landing\page8\mobile\1.webp?v={{time()}}" media="(max-width: 640px)">
+                                        <img src="\assets\images\landing\page8\desktop\1.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-6 m-auto">
+                                <h2 class="theme-hl text-center item-title">
+                                    “Can’t believe that<br>
+                                    TPC also gave us a<br>
+                                    technical problem<br>
+                                    solving”
+                                </h2>
+                                <p class="item-desc">
+                                    Mr. Gopal ,Purchasing Manager<br>
+                                    Comilla spinning mills LTD (united Group)
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="item text-center p-0">
-                    <h1>Testimonial</h1>
-                    <h2><span class="tl1 m-tl1">"A long-term supply with stable quality that we appreciate the most"</span></h2>
-                    <p>
-                        MNH GLOBAL CO., LTD, KOREA
-                    </p>
+                    <div class="img_block w-100p">
+                        <picture>
+                            <source srcset="\assets\images\landing\page8\mobile\landing-page-V4-3.webp?v={{time()}}" media="(max-width: 640px)">
+                            <img src="\assets\images\landing\page8\desktop\landing-page-V4-3.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
+                        </picture>
+                    </div>
+                    <div class="pos-ab d-flex w-100p h-100p top-0 left-0">
+                        <div class="row m-0 d-flex m-auto w-100p">
+                            <div class="col-xs-6 col-sm-6 col-md-6 p-0 m-auto">
+                                <div class="img_block d-flex w-100p">
+                                    <picture class="mr-0">
+                                        <source srcset="\assets\images\landing\page8\mobile\2.webp?v={{time()}}" media="(max-width: 640px)">
+                                        <img src="\assets\images\landing\page8\desktop\2.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-6 m-auto">
+                                <h2 class="theme-hl text-center item-title">
+                                    "A long-term<br>
+                                    supply with stable<br>
+                                    quality that we<br>
+                                    appreciate the<br>
+                                    most"
+                                </h2>
+                                <p class="item-desc">
+                                    MNH GLOBAL CO., LTD, KOREA
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="item text-center p-0">
-                    <h1>Testimonial</h1>
-                    <h2><span class="tl1 m-tl1">"A very quick response from enthusiastic salesperson"</span></h2>
-                    <p>
-                        Mirza Md. Shahadat Hossain , Rubel<br>
-                        CEO Shazman Trade International
-                    </p>
+                    <div class="img_block w-100p">
+                        <picture>
+                            <source srcset="\assets\images\landing\page8\mobile\landing-page-V4-4.webp?v={{time()}}" media="(max-width: 640px)">
+                            <img src="\assets\images\landing\page8\desktop\landing-page-V4-4.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
+                        </picture>
+                    </div>
+                    <div class="pos-ab d-flex w-100p h-100p top-0 left-0">
+                        <div class="row m-0 d-flex m-auto w-100p">
+                            <div class="col-xs-6 col-sm-6 col-md-6 p-0 m-auto">
+                                <div class="img_block d-flex w-100p">
+                                    <picture class="mr-0">
+                                        <source srcset="\assets\images\landing\page8\mobile\4.webp?v={{time()}}" media="(max-width: 640px)">
+                                        <img src="\assets\images\landing\page8\desktop\4.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-6 m-auto">
+                                <h2 class="theme-hl text-center item-title">
+                                    "High technology<br>
+                                    German<br>
+                                    machine is one of<br>
+                                    my favourite"<br>
+                                </h2>
+                                <p class="item-desc">
+                                    Mr. Rahman, SR-Tex BD LTD.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="item text-center p-0">
-                    <h1>Testimonial</h1>
-                    <h2><span class="tl1 m-tl1">"High technology German machine is one of my favourite"</span></h2>
-                    <p>
-                        Mr. Rahman, SR-Tex BD LTD.
-                    </p>
+                    <div class="img_block w-100p">
+                        <picture>
+                            <source srcset="\assets\images\landing\page8\mobile\landing-page-V4-5.webp?v={{time()}}" media="(max-width: 640px)">
+                            <img src="\assets\images\landing\page8\desktop\landing-page-V4-5.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
+                        </picture>
+                    </div>
+                    <div class="pos-ab d-flex w-100p h-100p top-0 left-0">
+                        <div class="row m-0 d-flex m-auto w-100p">
+                            <div class="col-xs-6 col-sm-6 col-md-6 p-0 m-auto">
+                                <div class="img_block d-flex w-100p">
+                                    <picture class="mr-0">
+                                        <source srcset="\assets\images\landing\page8\mobile\5.webp?v={{time()}}" media="(max-width: 640px)">
+                                        <img src="\assets\images\landing\page8\desktop\5.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-6 m-auto">
+                                <h2 class="theme-hl text-center item-title">
+                                    “Always get a<br>
+                                    promotional<br>
+                                    price on selected<br>
+                                    item”
+                                </h2>
+                                <p class="item-desc">
+                                    MR.AAMIR TARIQ (CEO)
+                                    Noor Enterprises, Pakistan
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

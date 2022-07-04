@@ -1,6 +1,7 @@
 body{
     --sec2-padding:40px 0;
-    --sec7-padding:40px 0;
+    --sec6-padding:20px 0;
+    --sec7-padding:20px 0 40px;
     --sec10-padding:0px 0 20px;
 }
 
@@ -48,6 +49,33 @@ body{
 }
 
 /* end sec2 */
+
+#sec5 .owl-stage{
+    display: flex;
+}
+#sec5 .owl-item{
+    margin: auto !important;
+}
+
+/* end sec5 */
+
+#sec6{
+    padding: var(--sec6-padding);
+}
+#sec6 .sec6-title{
+    margin-bottom: 40px;
+}
+#sec6 .slide .owl-carousel .item-title{
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+#sec6 .slide .owl-carousel .item-desc{
+    font-size: 14px;
+    line-height: 14px;
+}
+
+/* end sec6 */
 
 #sec7{
     padding: var(--sec7-padding);
@@ -204,12 +232,39 @@ body{
 
 /* end sec10 */
 
+@media only screen and (min-width: 1024px){
+    #sec5 .sec5-title{
+        font-size: 100px !important;
+    }
+}
+@media only screen and (min-width: 1400px){
+    #sec5 .sec5-title{
+        font-size: 120px !important;
+    }
+}
+@media only screen and (min-width: 1600px){
+    #sec5 .sec5-title{
+        font-size: 140px !important;
+    }
+}
 @media only screen and (max-width: 991px){
     #sec1 .col-h1{
         height: 100% !important;
     }
 
     /* end sec1 */
+
+    #sec6 .slide .owl-carousel .item-title{
+        font-size: 26px;
+        line-height: 26px;
+        margin-bottom: 13px;
+    }
+    #sec6 .slide .owl-carousel .item-desc{
+        font-size: 9.3px;
+        line-height: 9.3px;
+    }
+
+    /* end sec6 */
 
     #sec7 .r2{
         flex-wrap: wrap;
@@ -245,6 +300,15 @@ body{
     /* end sec9 */
 }
 @media only screen and (max-width: 768px){
+    body{
+        --sec2-padding:15px 0;
+        --sec6-padding:7.5px 0;
+        --sec7-padding:7.5px 0 15px;
+        --sec10-padding:0px 0 15px;
+    }
+
+    /* end all setting */
+
     #sec1{
         width: 100vw;
         height: 90vh;
@@ -266,6 +330,27 @@ body{
     }
 
     /* end sec1 */
+
+    #sec2 .sec2-title{
+        margin-bottom: 20px;
+    }
+
+    /* end sec2 */
+
+    #sec6 .sec6-title{
+        margin-bottom: 20px;
+    }
+    #sec6 .slide .owl-carousel .item-title{
+        font-size: 12px;
+        line-height: 12px;
+        margin-bottom: 10px;
+    }
+    #sec6 .slide .owl-carousel .item-desc{
+        font-size: 7px;
+        line-height: 7px;
+    }
+
+    /* end sec6 */
 
     #sec8{
         padding: 20px;
@@ -307,7 +392,6 @@ body{
     }
 
     /* end sec9 */
-
 }
 @media only screen and (max-width: 767px){
     #sec9 .r3 div[class^="col-"]:not(:last-child)::after{
@@ -322,6 +406,14 @@ body{
 
     /* end sec9 */
 }
-@media only screen and (max-width: 640px){
-
+@media only screen and (max-width: 300px){
+    #sec6 .slide .owl-carousel .item-title{
+        font-size: 9px;
+        line-height: 9px;
+        margin-bottom: 5px;
+    }
+    #sec6 .slide .owl-carousel .item-desc{
+        font-size: 5.5px;
+        line-height: 5.5px;
+    }
 }
