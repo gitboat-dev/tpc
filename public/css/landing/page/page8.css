@@ -50,9 +50,18 @@ body{
 
 /* end sec2 */
 
-/* #sec5 .sec5-title{
-    margin-bottom: 40px;
-} */
+#sec3 .owl-nav > .owl-prev {
+    display: flex;
+    position: absolute;
+    top: calc(50% - 0.5em);
+    left: 50px;
+    color: var(--msBg);
+    font-weight: 600;
+    font-size: 50px;
+}
+
+/* end sec3 */
+
 #sec5 .owl-stage{
     display: flex;
 }
@@ -449,6 +458,12 @@ body{
     /* end sec9 */
 }
 @media only screen and (max-width: 640px){
+    #sec3 .owl-nav > .owl-prev {
+        left: 25px;
+        font-size: 25px;
+    }
+
+    /* end sec3 */
     #sec5 .sec5-title{
         font-size: 26px !important;
         line-height: 26px !important;

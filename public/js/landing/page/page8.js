@@ -1,4 +1,7 @@
 $(document).ready(function(){
+    $('#sec3').onScrolledTo(0,function(){
+        slide_sec3();
+	});
     $('#sec5').onScrolledTo(0,function(){
         slide_sec5();
 	});
@@ -6,6 +9,35 @@ $(document).ready(function(){
         slide_sec6();
 	});
 });
+function slide_sec3(){
+    $('#sec3 .slide .owl-carousel').owlCarousel({
+        lazyLoad:true,
+        loop:false,
+        autoplay:true,
+        autoplayTimeout:5000,
+        autoplayHoverPause:true,
+        margin:10,
+        rewind:true,
+        nav:true,
+		navText : ["<i class='fa fa-angle-left'></i>", ""],
+        dots:false,
+        items:2,
+        responsive:{
+            280:{
+                items:1,
+                stagePadding: 50,
+            },
+            640:{
+                items:1,
+                stagePadding: 50,
+            },
+            1410:{
+                items:2,
+                stagePadding: 100,
+            }
+        }
+    });
+}
 function slide_sec5(){
     let next = "<picture>"+
     "<source srcset='/assets/images/landing/page8/mobile/Icon-6.webp' media='(max-width: 640px)'>"+

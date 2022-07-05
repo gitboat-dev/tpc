@@ -102,6 +102,10 @@ body {
 	background-color: var(--msBgDark);
 	color: var(--msBgLight);
 }
+.bg-black-opa{
+    background-color: #202731cb;
+    color: var(--msBgLight);
+}
 .bg-green{
 	background-color: var(--msBg);
 	color: var(--msBgLight);
