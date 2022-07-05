@@ -66,28 +66,63 @@
                         <div class="row m-0">
                             <div class="col-xs-12 col-sm-12 col-md-12">
                                 <h2 class="text-center fw-bold sec5-title">
-                                    {{-- <span class="m-tl0"> --}}
-                                        We Guarantee!
-                                    {{-- </span> --}}
+                                    We Guarantee!
                                 </h2>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="item p-0">
+                <div class="item p-0 pos-r">
                     <div class="img_block w-100p">
                         <picture>
                             <source srcset="\assets\images\landing\page8\mobile\polyester-Spinning-mills-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
                             <img src="\assets\images\landing\page8\desktop\polyester-Spinning-mills-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="polyester Spinning mills Thaipolyester">
                         </picture>
                     </div>
+                    <div class="d-flex pos-ab top-0 left-0 w-100p h-100p">
+                        <div class="container m-auto">
+                            <div class="row m-0 d-flex">
+                                <div class="col-xs-12 col-sm-9 col-md-10 p-0 d-flex m-auto">
+                                    <div class="content ml-0">
+                                        <div class="content_group">
+                                            <h2 class="fw-bold sec5-title">Spinning mills</h2>
+                                            <h3 class="sec5-sub-title">
+                                                - High efficiency<br>
+                                                - Yarn strength<br>
+                                                - Low Oligomer
+                                            </h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="item p-0">
+                <div class="item p-0 pos-r">
                     <div class="img_block w-100p">
                         <picture>
                             <source srcset="\assets\images\landing\page8\mobile\polyester-Knitting-mills-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
                             <img src="\assets\images\landing\page8\desktop\polyester-Knitting-mills-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="polyester Knitting mills Thaipolyester">
                         </picture>
+                    </div>
+                    <div class="d-flex pos-ab top-0 left-0 w-100p h-100p">
+                        <div class="container m-auto">
+                            <div class="row m-0 d-flex">
+                                <div class="col-xs-12 col-sm-9 col-md-10 p-0 d-flex m-auto">
+                                    <div class="content ml-0">
+                                        <div class="content_group">
+                                            <h2 class="fw-bold sec5-title">Knitting mills</h2>
+                                            <h3 class="sec5-sub-title">
+                                                - Dying consistency<br>
+                                                - Dyeing ability<br>
+                                                - Stable moisture<br>
+                                                - Stable OPU
+                                            </h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
