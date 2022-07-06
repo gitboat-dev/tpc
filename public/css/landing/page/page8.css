@@ -1,9 +1,13 @@
 body{
     --sec2-padding:40px 0;
-    --sec3-padding:20px 0 40px;
+    --sec3-padding:20px 0;
+    --sec4-padding:20px 0 40px;
     --sec6-padding:20px 0;
     --sec7-padding:20px 0 40px;
     --sec10-padding:0px 0 20px;
+}
+.wins{
+    --wins-background:#ffffffc8 !important;
 }
 
 /* end all setting */
@@ -87,6 +91,68 @@ body{
 }
 
 /* end sec3 */
+
+#sec4{
+    padding: var(--sec4-padding);
+}
+#sec4 .sec4-desc{
+    font-size: 43px !important;
+    line-height: 64px !important;
+}
+#sec4 .sec4-title{
+    font-size: 64px !important;
+    line-height: 77px !important;
+}
+#sec4 .btn {
+    margin-top: 60px;
+}
+#sec4 .btn > a {
+    border: none;
+    border-radius: 30px;
+    padding: 15px 20px;
+    font-size: 1.8em;
+    text-decoration: none;
+    color: var(--msBgLight);
+    background-color: var(--msBgDark);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+#sec4 .btn > a:hover {
+    color: var(--msBgLight);
+    background-color: var(--msBg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+#sec4 .wins.poy{
+    --wins-header-border-bottom:2px solid var(--msBg);
+}
+#sec4 .wins.fdy{
+    --wins-header-border-bottom:2px solid var(--msBgRed);
+}
+#sec4 .wins.dty{
+    --wins-header-border-bottom:2px solid var(--msBgNavy);
+}
+#sec4 .wins.ty{
+    --wins-header-border-bottom:2px solid var(--msBgGreen2);
+}
+#sec4 .wins.ddb{
+    --wins-header-border-bottom:2px solid var(--msBgOrange);
+}
+#sec4 .wins.psf{
+    --wins-header-border-bottom:2px solid var(--msBgDark);
+}
+#sec4 .wins.ring{
+    --wins-header-border-bottom:2px solid var(--msBgPurple);
+}
+#sec4 .wins.oe{
+    --wins-header-border-bottom:2px solid var(--msBgSeaGreen);
+}
+
+/* end sec4 */
 
 #sec5 .owl-stage{
     display: flex;
@@ -400,7 +466,8 @@ body{
 @media only screen and (max-width: 768px){
     body{
         --sec2-padding:15px 0;
-        --sec3-padding:15px 0 30px;
+        --sec3-padding:15px 0;
+        --sec4-padding:15px 0 30px;
         --sec6-padding:7.5px 0;
         --sec7-padding:7.5px 0 15px;
         --sec10-padding:0px 0 15px;
@@ -435,6 +502,18 @@ body{
     }
 
     /* end sec2 */
+
+    #sec4 .sec4-desc{
+        font-size: 22px !important;
+        line-height: 29px !important;
+    }
+    #sec4 .sec4-title{
+        display: block;
+        font-size: 45px !important;
+        line-height: 41px !important;
+    }
+
+    /* end sec4 */
 
     #sec6 .sec6-title{
         margin-bottom: 20px;

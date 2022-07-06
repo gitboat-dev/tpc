@@ -8,6 +8,7 @@
     --wins-time:0.2s;
     --wins-delay:0.8s;
     --wins-header-font-size: 17px;
+    --wins-header-border-bottom: 2px solid #000000;
     --wins-content-font-size: 17px;
 }
 .wins{
@@ -45,7 +46,7 @@
 .wins > .wins_block > .wins_header{
     font-size: var(--wins-header-font-size);
     padding: 10px 7.5px;
-    border-bottom: var(--wins-border-width) solid #000000;
+    border-bottom: var(--wins-header-border-bottom);
 }
 .wins > .wins_block > .wins_content{
     font-size: var(--wins-content-font-size);
