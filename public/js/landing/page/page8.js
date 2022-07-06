@@ -1,7 +1,4 @@
 $(document).ready(function(){
-    $(window).resize(function() {
-
-    });
     $('#sec3').onScrolledTo(0,function(){
         text_slide('#sec3');
         slide_sec3();
@@ -14,33 +11,41 @@ $(document).ready(function(){
 	});
 });
 function text_slide(row){
-    let slide = $(row+" .text-slide-block"),
-        text = slide.find('.text-slide'),
-        pages = slide.attr('data-page'),
-        start = slide.attr('data-start'),
-        time = slide.attr('data-time'),
-        item_width = slide.outerWidth() / parseInt(pages),
-        text_width = (text.outerWidth() / 2) - parseInt(item_width);
-    if($(window).width() >= 991){
-        setInterval(() => {
-            if(slide.attr('data-direction') == 'right'){
-                text.animate({
-                    paddingLeft:"+="+text_width+"px"
+    let block = $(row+" .text-slide-block"),
+        message =  block.find('.text-slide'),
+        slide = block.attr('data-slide'),
+        current = block.attr('data-current'),
+        time = block.attr('data-time'),
+        message_width = message.outerWidth();
+        percent = 0;
+    setInterval(() => {
+        if($(window).width() > 991){
+            current = parseInt(block.attr('data-current')) + 1;
+            percent = (parseInt(block.attr('data-current')) * 2) * 10;
+            num = parseInt(block.attr('data-current')) - parseInt(slide);
+            num = - num;
+            num = num < 2 ? 1.5 : num;
+            message_width = block.find('.text-slide').outerWidth() / num;
+            console.log(message_width);
+            if(current > slide){
+                block.attr('data-current',1);
+                message.css({
+                    "margin-left":"0",
                 });
-                start = parseInt(slide.attr('data-move')) + 1;
-                slide.attr('data-move',start);
-                if(start == pages){
-                    slide.attr('data-direction','left')
+            }else{
+                block.attr('data-current',current);
+                if(percent > 0){
+                    message.css({
+                        "margin-left":"calc("+percent+"% - "+message_width+"px)",
+                    });
                 }
-            }else if(slide.attr('data-direction') == 'left'){
-                text.animate({
-                    paddingLeft:"0px"
-                });
-                slide.attr('data-move',slide.attr('data-start'));
-                slide.attr('data-direction','right')
             }
-        }, time);
-    }
+        }else{
+            message.css({
+                "margin":"auto",
+            });
+        }
+    }, time);
 }
 function slide_sec3(){
     $('#sec3 .slide .owl-carousel').owlCarousel({

@@ -58,7 +58,7 @@
     </section>
     <section id="sec3" class="pos-r">
         <div class="container">
-            <div class="text-slide-block pos-r" data-direction="right" data-start="0" data-move="0" data-page="5" data-time="5000">
+            <div class="text-slide-block pos-r d-flex" data-current="1" data-slide="5" data-time="5000">
                 <h1 class="sec3-title red-hl text-slide">No worries</h1>
             </div>
         </div>
