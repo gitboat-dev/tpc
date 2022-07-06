@@ -57,6 +57,11 @@
         </div>
     </section>
     <section id="sec3" class="pos-r">
+        <div class="container">
+            <div class="text-slide-block pos-r" data-direction="right" data-start="0" data-move="0" data-page="5" data-time="5000">
+                <h1 class="sec3-title red-hl text-slide">No worries</h1>
+            </div>
+        </div>
         <div class="slide">
             <div class="owl-carousel owl-theme">
                 <div class="item p-0 pos-r">
@@ -67,13 +72,17 @@
                         </picture>
                     </div>
                     <div class="d-flex pos-ab top-0 left-0 w-100p h-100p bg-black-opa">
-                        <div class="content m-auto">
-                            <div class="content_group">
-                                <h3 class="slide-title text-center">
-                                    Our Zimmer, Nuemag and<br>
-                                    Barmag machines serve stabilities<br>
-                                    (top machines in the world)
-                                </h3>
+                        <div class="row m-0 d-flex m-auto w-100p h-100p">
+                            <div class="col-xs-12 col-sm-12 col-md-12 d-flex m-auto">
+                                <div class="content m-auto">
+                                    <div class="content_group">
+                                        <h3 class="slide-title text-center">
+                                            Our Zimmer, Nuemag and<br>
+                                            Barmag machines serve stabilities<br>
+                                            (top machines in the world)
+                                        </h3>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -86,13 +95,17 @@
                         </picture>
                     </div>
                     <div class="d-flex pos-ab top-0 left-0 w-100p h-100p bg-black-opa">
-                        <div class="content m-auto">
-                            <div class="content_group">
-                                <h3 class="slide-title text-center">
-                                    For raw material<br>
-                                    testing, we have<br>
-                                    3 tanks of PTA silo
-                                </h3>
+                        <div class="row m-0 d-flex m-auto w-100p h-100p">
+                            <div class="col-xs-12 col-sm-12 col-md-12 d-flex m-auto">
+                                <div class="content m-auto">
+                                    <div class="content_group">
+                                        <h3 class="slide-title text-center">
+                                            For raw material<br>
+                                            testing, we have<br>
+                                            3 tanks of PTA silo
+                                        </h3>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -105,12 +118,16 @@
                         </picture>
                     </div>
                     <div class="d-flex pos-ab top-0 left-0 w-100p h-100p bg-black-opa">
-                        <div class="content m-auto">
-                            <div class="content_group">
-                                <h3 class="slide-title text-center">
-                                    A perfect PET flakes<br>
-                                    washing line
-                                </h3>
+                        <div class="row m-0 d-flex m-auto w-100p h-100p">
+                            <div class="col-xs-12 col-sm-12 col-md-12 d-flex m-auto">
+                                <div class="content m-auto">
+                                    <div class="content_group">
+                                        <h3 class="slide-title text-center">
+                                            A perfect PET flakes<br>
+                                            washing line
+                                        </h3>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -123,12 +140,16 @@
                         </picture>
                     </div>
                     <div class="d-flex pos-ab top-0 left-0 w-100p h-100p bg-black-opa">
-                        <div class="content m-auto">
-                            <div class="content_group">
-                                <h3 class="slide-title text-center">
-                                    Well-organised<br>
-                                    production process
-                                </h3>
+                        <div class="row m-0 d-flex m-auto w-100p h-100p">
+                            <div class="col-xs-12 col-sm-12 col-md-12 d-flex m-auto">
+                                <div class="content m-auto">
+                                    <div class="content_group">
+                                        <h3 class="slide-title text-center">
+                                            Well-organised<br>
+                                            production process
+                                        </h3>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -141,12 +162,16 @@
                         </picture>
                     </div>
                     <div class="d-flex pos-ab top-0 left-0 w-100p h-100p bg-black-opa">
-                        <div class="content m-auto">
-                            <div class="content_group">
-                                <h3 class="slide-title text-center">
-                                    And we own<br>
-                                    a Spinning mill too!
-                                </h3>
+                        <div class="row m-0 d-flex m-auto w-100p h-100p">
+                            <div class="col-xs-12 col-sm-12 col-md-12 d-flex m-auto">
+                                <div class="content m-auto">
+                                    <div class="content_group">
+                                        <h3 class="slide-title text-center">
+                                            And we own<br>
+                                            a Spinning mill too!
+                                        </h3>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

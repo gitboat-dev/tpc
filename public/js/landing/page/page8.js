@@ -1,5 +1,9 @@
 $(document).ready(function(){
+    $(window).resize(function() {
+
+    });
     $('#sec3').onScrolledTo(0,function(){
+        text_slide('#sec3');
         slide_sec3();
 	});
     $('#sec5').onScrolledTo(0,function(){
@@ -9,6 +13,35 @@ $(document).ready(function(){
         slide_sec6();
 	});
 });
+function text_slide(row){
+    let slide = $(row+" .text-slide-block"),
+        text = slide.find('.text-slide'),
+        pages = slide.attr('data-page'),
+        start = slide.attr('data-start'),
+        time = slide.attr('data-time'),
+        item_width = slide.outerWidth() / parseInt(pages),
+        text_width = (text.outerWidth() / 2) - parseInt(item_width);
+    if($(window).width() >= 991){
+        setInterval(() => {
+            if(slide.attr('data-direction') == 'right'){
+                text.animate({
+                    paddingLeft:"+="+text_width+"px"
+                });
+                start = parseInt(slide.attr('data-move')) + 1;
+                slide.attr('data-move',start);
+                if(start == pages){
+                    slide.attr('data-direction','left')
+                }
+            }else if(slide.attr('data-direction') == 'left'){
+                text.animate({
+                    paddingLeft:"0px"
+                });
+                slide.attr('data-move',slide.attr('data-start'));
+                slide.attr('data-direction','right')
+            }
+        }, time);
+    }
+}
 function slide_sec3(){
     $('#sec3 .slide .owl-carousel').owlCarousel({
         lazyLoad:true,
@@ -31,7 +64,7 @@ function slide_sec3(){
                 items:1,
                 stagePadding: 50,
             },
-            1410:{
+            1024:{
                 items:2,
                 stagePadding: 100,
             }

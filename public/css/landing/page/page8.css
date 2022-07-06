@@ -1,5 +1,6 @@
 body{
     --sec2-padding:40px 0;
+    --sec3-padding:20px 0 40px;
     --sec6-padding:20px 0;
     --sec7-padding:20px 0 40px;
     --sec10-padding:0px 0 20px;
@@ -50,6 +51,17 @@ body{
 
 /* end sec2 */
 
+#sec3{
+    padding: var(--sec3-padding);
+}
+#sec3 .sec3-title{
+    font-size: 100px !important;
+    line-height: 100% !important;
+    font-weight: 600 !important;
+    width: fit-content;
+    margin: auto;
+    margin-left: 0;
+}
 #sec3 .owl-nav > .owl-prev {
     display: flex;
     position: absolute;
@@ -58,6 +70,18 @@ body{
     color: var(--msBg);
     font-weight: 600;
     font-size: 50px;
+    transform: scale(0.9900);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+#sec3 .owl-nav > .owl-prev:hover{
+    transform: scale(1.1100);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
 }
 
 /* end sec3 */
@@ -263,6 +287,14 @@ body{
 /* end sec10 */
 
 @media only screen and (min-width: 1024px){
+
+    #sec3 .slide .slide-title{
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    /* end sec3 */
+
     #sec5 .sec5-title{
         font-size: 100px !important;
         line-height: 100px !important;
@@ -273,6 +305,16 @@ body{
     }
 }
 @media only screen and (min-width: 1400px){
+    #sec3 .sec3-title{
+        font-size: 190px !important;
+        line-height: 100% !important;
+        width: fit-content;
+        margin: auto;
+        margin-left: 0;
+    }
+
+    /* end sec3 */
+
     #sec5 .sec5-title{
         font-size: 120px !important;
         line-height: 120px !important;
@@ -353,6 +395,7 @@ body{
 @media only screen and (max-width: 768px){
     body{
         --sec2-padding:15px 0;
+        --sec3-padding:15px 0 30px;
         --sec6-padding:7.5px 0;
         --sec7-padding:7.5px 0 15px;
         --sec10-padding:0px 0 15px;
@@ -462,8 +505,20 @@ body{
         left: 25px;
         font-size: 25px;
     }
+    #sec3 .slide .slide-title{
+        font-size: 16px;
+        line-height: 16px;
+    }
+    #sec3 .sec3-title {
+        width: 100%;
+        text-align: center;
+        font-size: 55px !important;
+        line-height: 100% !important;
+        left: unset;
+    }
 
     /* end sec3 */
+
     #sec5 .sec5-title{
         font-size: 26px !important;
         line-height: 26px !important;
@@ -477,6 +532,17 @@ body{
     /* end sec5 */
 }
 @media only screen and (max-width: 340px){
+
+    #sec3 .slide .slide-title{
+        font-size: 12px;
+        line-height: 12px;
+    }
+    #sec3 .sec3-title {
+        font-size: 45px !important;
+    }
+
+    /* end sec3 */
+
     #sec5 .sec5-title{
         font-size: 24px !important;
         line-height: 24px !important;
