@@ -131,6 +131,24 @@ body{
 }
 #sec4 .r1 > div[class^="col-"]{
     min-height: var(--sec4-min-height);
+    border: 1px solid var(--msBgDark);
+}
+#sec4 .r1 > div[class^="col-"]:nth-child(1),
+#sec4 .r1 > div[class^="col-"]:nth-child(2),
+#sec4 .r1 > div[class^="col-"]:nth-child(3),
+#sec4 .r1 > div[class^="col-"]:nth-child(4) {
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: transparent;
+}
+#sec4 .r1 > div[class^="col-"]:nth-child(5),
+#sec4 .r1 > div[class^="col-"]:nth-child(6),
+#sec4 .r1 > div[class^="col-"]:nth-child(7),
+#sec4 .r1 > div[class^="col-"]:nth-child(8) {
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-top-color: transparent;
 }
 #sec4 .wins.poy{
     --wins-header-border-bottom:2px solid var(--msBg);
@@ -428,6 +446,17 @@ body{
         width: 100%;
         text-align: center;
     }
+
+    /* end sec3 */
+
+    #sec4 .r1 > div[class^="col-"]:nth-child(5),
+    #sec4 .r1 > div[class^="col-"]:nth-child(6),
+    #sec4 .r1 > div[class^="col-"]:nth-child(7),
+    #sec4 .r1 > div[class^="col-"]:nth-child(8) {
+        border-bottom-color: var(--msBgDark);
+    }
+
+    /* end sec4 */
 
     #sec5 .owl-nav > .owl-next {
         top: calc(50% - 0.5em);
