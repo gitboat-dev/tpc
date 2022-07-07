@@ -2,7 +2,7 @@
 @section('style')
     <link rel="preload stylesheet" href="/css/landing/page/page8.css?v={{time()}}" as="style" crossorigin>
     <link rel="preload stylesheet"  href="/lib/owlcarousel/assets/owl.carousel.min.css" as="style" crossorigin>
-    <link rel="preload stylesheet" href="/css/landing/spin_hover/spin.min.css?v={{time()}}" as="style" crossorigin>
+    <link rel="preload stylesheet" href="/css/landing/border_hover_animation/border_animation.css?v={{time()}}" as="style" crossorigin>
     <link rel="preload stylesheet" href="/css/landing/window_slide/wins.min.css?v={{time()}}" as="style" crossorigin>
     <link rel="stylesheet" id="fancybox-css" href="{!!asset('/assets/custom/wp-content/plugins/radiantthemes-addons/assets/css/jquery.fancybox.min.css?ver=4.9.11')!!}" type="text/css" media="all">
 @endsection
@@ -69,8 +69,8 @@
                 <div class="item p-0 pos-r">
                     <div class="img_block w-100p">
                         <picture>
-                            <source srcset="\assets\images\landing\page8\mobile\polyester-Yarn-process-Thaipolyester-1.webp?v={{time()}}" media="(max-width: 640px)">
-                            <img src="\assets\images\landing\page8\desktop\polyester-Yarn-process-Thaipolyester-1.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="polyester Yarn process Thaipolyester">
+                            <source srcset="/assets/images/landing/page8/mobile/polyester-Yarn-process-Thaipolyester-1.webp?v={{time()}}" media="(max-width: 640px)">
+                            <img src="/assets/images/landing/page8/desktop/polyester-Yarn-process-Thaipolyester-1.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="polyester Yarn process Thaipolyester">
                         </picture>
                     </div>
                     <div class="d-flex pos-ab top-0 left-0 w-100p h-100p bg-black-opa">
@@ -92,8 +92,8 @@
                 <div class="item p-0">
                     <div class="img_block w-100p">
                         <picture>
-                            <source srcset="\assets\images\landing\page8\mobile\polyester-Yarn-process-Thaipolyester-2.webp?v={{time()}}" media="(max-width: 640px)">
-                            <img src="\assets\images\landing\page8\desktop\polyester-Yarn-process-Thaipolyester-2.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="polyester Yarn process Thaipolyester">
+                            <source srcset="/assets/images/landing/page8/mobile/polyester-Yarn-process-Thaipolyester-2.webp?v={{time()}}" media="(max-width: 640px)">
+                            <img src="/assets/images/landing/page8/desktop/polyester-Yarn-process-Thaipolyester-2.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="polyester Yarn process Thaipolyester">
                         </picture>
                     </div>
                     <div class="d-flex pos-ab top-0 left-0 w-100p h-100p bg-black-opa">
@@ -115,8 +115,8 @@
                 <div class="item p-0">
                     <div class="img_block w-100p">
                         <picture>
-                            <source srcset="\assets\images\landing\page8\mobile\polyester-Yarn-process-Thaipolyester-3.webp?v={{time()}}" media="(max-width: 640px)">
-                            <img src="\assets\images\landing\page8\desktop\polyester-Yarn-process-Thaipolyester-3.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="polyester Yarn process Thaipolyester">
+                            <source srcset="/assets/images/landing/page8/mobile/polyester-Yarn-process-Thaipolyester-3.webp?v={{time()}}" media="(max-width: 640px)">
+                            <img src="/assets/images/landing/page8/desktop/polyester-Yarn-process-Thaipolyester-3.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="polyester Yarn process Thaipolyester">
                         </picture>
                     </div>
                     <div class="d-flex pos-ab top-0 left-0 w-100p h-100p bg-black-opa">
@@ -137,8 +137,8 @@
                 <div class="item p-0">
                     <div class="img_block w-100p">
                         <picture>
-                            <source srcset="\assets\images\landing\page8\mobile\polyester-Yarn-process-Thaipolyester-5.webp?v={{time()}}" media="(max-width: 640px)">
-                            <img src="\assets\images\landing\page8\desktop\polyester-Yarn-process-Thaipolyester-5.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="polyester Yarn process Thaipolyester">
+                            <source srcset="/assets/images/landing/page8/mobile/polyester-Yarn-process-Thaipolyester-5.webp?v={{time()}}" media="(max-width: 640px)">
+                            <img src="/assets/images/landing/page8/desktop/polyester-Yarn-process-Thaipolyester-5.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="polyester Yarn process Thaipolyester">
                         </picture>
                     </div>
                     <div class="d-flex pos-ab top-0 left-0 w-100p h-100p bg-black-opa">
@@ -159,8 +159,8 @@
                 <div class="item p-0">
                     <div class="img_block w-100p">
                         <picture>
-                            <source srcset="\assets\images\landing\page8\mobile\polyester-Yarn-process-Thaipolyester-7.webp?v={{time()}}" media="(max-width: 640px)">
-                            <img src="\assets\images\landing\page8\desktop\polyester-Yarn-process-Thaipolyester-7.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="polyester Yarn process Thaipolyester">
+                            <source srcset="/assets/images/landing/page8/mobile/polyester-Yarn-process-Thaipolyester-7.webp?v={{time()}}" media="(max-width: 640px)">
+                            <img src="/assets/images/landing/page8/desktop/polyester-Yarn-process-Thaipolyester-7.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="polyester Yarn process Thaipolyester">
                         </picture>
                     </div>
                     <div class="d-flex pos-ab top-0 left-0 w-100p h-100p bg-black-opa">
@@ -211,8 +211,8 @@
                     <div class="m-auto">
                         <div class="img_block d-flex w-100p">
                             <picture>
-                                <source srcset="\assets\images\landing\page8\mobile\polyester-Yarn-process-POY-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                                <img src="\assets\images\landing\page8\desktop\polyester-Yarn-process-POY-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
+                                <source srcset="/assets/images/landing/page8/mobile/polyester-Yarn-process-POY-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                <img src="/assets/images/landing/page8/desktop/polyester-Yarn-process-POY-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
                             </picture>
                         </div>
                         <div class="caption tl m-tl2 text-center fw-600" style="margin-top: 10px;">
@@ -245,8 +245,8 @@
                     <div class="m-auto">
                         <div class="img_block d-flex w-100p">
                             <picture>
-                                <source srcset="\assets\images\landing\page8\mobile\polyester-Yarn-process-FDY-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                                <img src="\assets\images\landing\page8\desktop\polyester-Yarn-process-FDY-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
+                                <source srcset="/assets/images/landing/page8/mobile/polyester-Yarn-process-FDY-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                <img src="/assets/images/landing/page8/desktop/polyester-Yarn-process-FDY-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
                             </picture>
                         </div>
                         <div class="caption tl m-tl2 text-center fw-600" style="margin-top: 10px;">
@@ -278,8 +278,8 @@
                     <div class="m-auto">
                         <div class="img_block d-flex w-100p">
                             <picture>
-                                <source srcset="\assets\images\landing\page8\mobile\polyester-Yarn-process-DTY-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                                <img src="\assets\images\landing\page8\desktop\polyester-Yarn-process-DTY-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
+                                <source srcset="/assets/images/landing/page8/mobile/polyester-Yarn-process-DTY-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                <img src="/assets/images/landing/page8/desktop/polyester-Yarn-process-DTY-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
                             </picture>
                         </div>
                         <div class="caption tl m-tl2 text-center fw-600" style="margin-top: 10px;">
@@ -307,8 +307,8 @@
                     <div class="m-auto">
                         <div class="img_block d-flex w-100p">
                             <picture>
-                                <source srcset="\assets\images\landing\page8\mobile\polyester-Yarn-process-Twisted-Yarn-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                                <img src="\assets\images\landing\page8\desktop\polyester-Yarn-process-Twisted-Yarn-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
+                                <source srcset="/assets/images/landing/page8/mobile/polyester-Yarn-process-Twisted-Yarn-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                <img src="/assets/images/landing/page8/desktop/polyester-Yarn-process-Twisted-Yarn-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
                             </picture>
                         </div>
                         <div class="caption tl m-tl2 text-center fw-600" style="margin-top: 10px;">
@@ -339,8 +339,8 @@
                     <div class="m-auto">
                         <div class="img_block d-flex w-100p">
                             <picture>
-                                <source srcset="\assets\images\landing\page8\mobile\polyester-Yarn-process-Dope-Dyed-Black-Thaipolyester-1.webp?v={{time()}}" media="(max-width: 640px)">
-                                <img src="\assets\images\landing\page8\desktop\polyester-Yarn-process-Dope-Dyed-Black-Thaipolyester-1.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
+                                <source srcset="/assets/images/landing/page8/mobile/polyester-Yarn-process-Dope-Dyed-Black-Thaipolyester-1.webp?v={{time()}}" media="(max-width: 640px)">
+                                <img src="/assets/images/landing/page8/desktop/polyester-Yarn-process-Dope-Dyed-Black-Thaipolyester-1.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
                             </picture>
                         </div>
                         <div class="caption tl m-tl2 text-center fw-600" style="margin-top: 10px;">
@@ -370,8 +370,8 @@
                     <div class="m-auto">
                         <div class="img_block d-flex w-100p">
                             <picture>
-                                <source srcset="\assets\images\landing\page8\mobile\polyester-Yarn-process-PSF-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                                <img src="\assets\images\landing\page8\desktop\polyester-Yarn-process-PSF-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
+                                <source srcset="/assets/images/landing/page8/mobile/polyester-Yarn-process-PSF-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                <img src="/assets/images/landing/page8/desktop/polyester-Yarn-process-PSF-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
                             </picture>
                         </div>
                         <div class="caption tl m-tl2 text-center fw-600" style="margin-top: 10px;">
@@ -399,8 +399,8 @@
                     <div class="m-auto">
                         <div class="img_block d-flex w-100p">
                             <picture>
-                                <source srcset="\assets\images\landing\page8\mobile\polyester-Yarn-process-Ring-Spun-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                                <img src="\assets\images\landing\page8\desktop\polyester-Yarn-process-Ring-Spun-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
+                                <source srcset="/assets/images/landing/page8/mobile/polyester-Yarn-process-Ring-Spun-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                <img src="/assets/images/landing/page8/desktop/polyester-Yarn-process-Ring-Spun-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
                             </picture>
                         </div>
                         <div class="caption tl m-tl2 text-center fw-600" style="margin-top: 10px;">
@@ -427,8 +427,8 @@
                     <div class="m-auto">
                         <div class="img_block d-flex w-100p">
                             <picture>
-                                <source srcset="\assets\images\landing\page8\mobile\polyester-Yarn-process-OE-Spun-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                                <img src="\assets\images\landing\page8\desktop\polyester-Yarn-process-OE-Spun-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
+                                <source srcset="/assets/images/landing/page8/mobile/polyester-Yarn-process-OE-Spun-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                <img src="/assets/images/landing/page8/desktop/polyester-Yarn-process-OE-Spun-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
                             </picture>
                         </div>
                         <div class="caption tl m-tl2 text-center fw-600" style="margin-top: 10px;">
@@ -461,8 +461,8 @@
                 <div class="item p-0 pos-r">
                     <div class="img_block w-100p">
                         <picture>
-                            <source srcset="\assets\images\landing\page8\mobile\polyester-Spinning-mills-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                            <img src="\assets\images\landing\page8\desktop\polyester-Spinning-mills-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="polyester Spinning mills Thaipolyester">
+                            <source srcset="/assets/images/landing/page8/mobile/polyester-Spinning-mills-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                            <img src="/assets/images/landing/page8/desktop/polyester-Spinning-mills-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="polyester Spinning mills Thaipolyester">
                         </picture>
                     </div>
                     <div class="d-flex pos-ab top-0 left-0 w-100p h-100p">
@@ -487,8 +487,8 @@
                 <div class="item p-0 pos-r">
                     <div class="img_block w-100p">
                         <picture>
-                            <source srcset="\assets\images\landing\page8\mobile\polyester-Knitting-mills-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                            <img src="\assets\images\landing\page8\desktop\polyester-Knitting-mills-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="polyester Knitting mills Thaipolyester">
+                            <source srcset="/assets/images/landing/page8/mobile/polyester-Knitting-mills-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                            <img src="/assets/images/landing/page8/desktop/polyester-Knitting-mills-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="polyester Knitting mills Thaipolyester">
                         </picture>
                     </div>
                     <div class="d-flex pos-ab top-0 left-0 w-100p h-100p">
@@ -531,8 +531,8 @@
                 <div class="item text-center p-0">
                     <div class="img_block w-100p">
                         <picture>
-                            <source srcset="\assets\images\landing\page8\mobile\landing-page-V4-1.webp?v={{time()}}" media="(max-width: 640px)">
-                            <img src="\assets\images\landing\page8\desktop\landing-page-V4-1.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
+                            <source srcset="/assets/images/landing/page8/mobile/landing-page-V4-1.webp?v={{time()}}" media="(max-width: 640px)">
+                            <img src="/assets/images/landing/page8/desktop/landing-page-V4-1.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
                         </picture>
                     </div>
                     <div class="pos-ab d-flex w-100p h-100p top-0 left-0">
@@ -540,8 +540,8 @@
                             <div class="col-xs-6 col-sm-6 col-md-6 p-0 m-auto">
                                 <div class="img_block d-flex w-100p">
                                     <picture class="mr-0">
-                                        <source srcset="\assets\images\landing\page8\mobile\3.webp?v={{time()}}" media="(max-width: 640px)">
-                                        <img src="\assets\images\landing\page8\desktop\3.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
+                                        <source srcset="/assets/images/landing/page8/mobile/3.webp?v={{time()}}" media="(max-width: 640px)">
+                                        <img src="/assets/images/landing/page8/desktop/3.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
                                     </picture>
                                 </div>
                             </div>
@@ -563,8 +563,8 @@
                 <div class="item text-center p-0">
                     <div class="img_block w-100p">
                         <picture>
-                            <source srcset="\assets\images\landing\page8\mobile\landing-page-V4-2.webp?v={{time()}}" media="(max-width: 640px)">
-                            <img src="\assets\images\landing\page8\desktop\landing-page-V4-2.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
+                            <source srcset="/assets/images/landing/page8/mobile/landing-page-V4-2.webp?v={{time()}}" media="(max-width: 640px)">
+                            <img src="/assets/images/landing/page8/desktop/landing-page-V4-2.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
                         </picture>
                     </div>
                     <div class="pos-ab d-flex w-100p h-100p top-0 left-0">
@@ -572,8 +572,8 @@
                             <div class="col-xs-6 col-sm-6 col-md-6 p-0 m-auto">
                                 <div class="img_block d-flex w-100p">
                                     <picture class="mr-0">
-                                        <source srcset="\assets\images\landing\page8\mobile\1.webp?v={{time()}}" media="(max-width: 640px)">
-                                        <img src="\assets\images\landing\page8\desktop\1.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
+                                        <source srcset="/assets/images/landing/page8/mobile/1.webp?v={{time()}}" media="(max-width: 640px)">
+                                        <img src="/assets/images/landing/page8/desktop/1.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
                                     </picture>
                                 </div>
                             </div>
@@ -595,8 +595,8 @@
                 <div class="item text-center p-0">
                     <div class="img_block w-100p">
                         <picture>
-                            <source srcset="\assets\images\landing\page8\mobile\landing-page-V4-3.webp?v={{time()}}" media="(max-width: 640px)">
-                            <img src="\assets\images\landing\page8\desktop\landing-page-V4-3.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
+                            <source srcset="/assets/images/landing/page8/mobile/landing-page-V4-3.webp?v={{time()}}" media="(max-width: 640px)">
+                            <img src="/assets/images/landing/page8/desktop/landing-page-V4-3.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
                         </picture>
                     </div>
                     <div class="pos-ab d-flex w-100p h-100p top-0 left-0">
@@ -604,8 +604,8 @@
                             <div class="col-xs-6 col-sm-6 col-md-6 p-0 m-auto">
                                 <div class="img_block d-flex w-100p">
                                     <picture class="mr-0">
-                                        <source srcset="\assets\images\landing\page8\mobile\2.webp?v={{time()}}" media="(max-width: 640px)">
-                                        <img src="\assets\images\landing\page8\desktop\2.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
+                                        <source srcset="/assets/images/landing/page8/mobile/2.webp?v={{time()}}" media="(max-width: 640px)">
+                                        <img src="/assets/images/landing/page8/desktop/2.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
                                     </picture>
                                 </div>
                             </div>
@@ -627,8 +627,8 @@
                 <div class="item text-center p-0">
                     <div class="img_block w-100p">
                         <picture>
-                            <source srcset="\assets\images\landing\page8\mobile\landing-page-V4-4.webp?v={{time()}}" media="(max-width: 640px)">
-                            <img src="\assets\images\landing\page8\desktop\landing-page-V4-4.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
+                            <source srcset="/assets/images/landing/page8/mobile/landing-page-V4-4.webp?v={{time()}}" media="(max-width: 640px)">
+                            <img src="/assets/images/landing/page8/desktop/landing-page-V4-4.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
                         </picture>
                     </div>
                     <div class="pos-ab d-flex w-100p h-100p top-0 left-0">
@@ -636,8 +636,8 @@
                             <div class="col-xs-6 col-sm-6 col-md-6 p-0 m-auto">
                                 <div class="img_block d-flex w-100p">
                                     <picture class="mr-0">
-                                        <source srcset="\assets\images\landing\page8\mobile\4.webp?v={{time()}}" media="(max-width: 640px)">
-                                        <img src="\assets\images\landing\page8\desktop\4.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
+                                        <source srcset="/assets/images/landing/page8/mobile/4.webp?v={{time()}}" media="(max-width: 640px)">
+                                        <img src="/assets/images/landing/page8/desktop/4.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
                                     </picture>
                                 </div>
                             </div>
@@ -658,8 +658,8 @@
                 <div class="item text-center p-0">
                     <div class="img_block w-100p">
                         <picture>
-                            <source srcset="\assets\images\landing\page8\mobile\landing-page-V4-5.webp?v={{time()}}" media="(max-width: 640px)">
-                            <img src="\assets\images\landing\page8\desktop\landing-page-V4-5.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
+                            <source srcset="/assets/images/landing/page8/mobile/landing-page-V4-5.webp?v={{time()}}" media="(max-width: 640px)">
+                            <img src="/assets/images/landing/page8/desktop/landing-page-V4-5.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
                         </picture>
                     </div>
                     <div class="pos-ab d-flex w-100p h-100p top-0 left-0">
@@ -667,8 +667,8 @@
                             <div class="col-xs-6 col-sm-6 col-md-6 p-0 m-auto">
                                 <div class="img_block d-flex w-100p">
                                     <picture class="mr-0">
-                                        <source srcset="\assets\images\landing\page8\mobile\5.webp?v={{time()}}" media="(max-width: 640px)">
-                                        <img src="\assets\images\landing\page8\desktop\5.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
+                                        <source srcset="/assets/images/landing/page8/mobile/5.webp?v={{time()}}" media="(max-width: 640px)">
+                                        <img src="/assets/images/landing/page8/desktop/5.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
                                     </picture>
                                 </div>
                             </div>
