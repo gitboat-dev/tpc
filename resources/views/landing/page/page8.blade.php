@@ -188,251 +188,331 @@
                 <span class="fw-bold sec4-title">we have it ALL</span> – both Virgin and Recycled version
             </h2>
             <div class="row r1 m-0">
-                <div class="col-xs-6 col-sm-6 col-md-3 d-flex wins poy">
-                    <div class="wins_block">
-                        <div class="wins_header">
-                            <label class="m-0 fw-n">
-                                <span class="m-tl1">Partially Oriented Yarn – POY</span>
-                            </label>
-                        </div>
-                        <div class="wins_content">
-                            <p class="m-tl2">
-                                It’s produced by melting and
-                                extruding a polyester chip or
-                                flake, making directly from
-                                PTA and MEG by spinning
-                                and take-up, and it's
-                                primarily used in texturizing
-                                to create textured yarn
-                                (DTY).
-                            </p>
-                        </div>
-                    </div>
-                    <div class="m-auto">
-                        <div class="img_block d-flex w-100p">
+                <div class="col-xs-6 col-sm-6 col-md-3 p-0 d-flex border_animation border_animation_left poy">
+                    <div class="border_animation_icon">
+                        <div class="border_icon">
                             <picture>
-                                <source srcset="/assets/images/landing/page8/mobile/polyester-Yarn-process-POY-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                                <img src="/assets/images/landing/page8/desktop/polyester-Yarn-process-POY-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
+                                <source srcset="\assets\images\landing\page8\mobile\ICON-1.webp" media="(max-width: 640px)">
+                                <img src="\assets\images\landing\page8\desktop\ICON-1.webp" alt="POY" width="900" height="350" class="img-fluid" loading="lazy">
                             </picture>
                         </div>
-                        <div class="caption tl m-tl2 text-center fw-600" style="margin-top: 10px;">
-                            Partially Oriented Yarn - POY
+                    </div>
+                    <div class="wins d-flex w-100p">
+                        <div class="wins_block">
+                            <div class="wins_header">
+                                <label class="m-0 fw-n">
+                                    <span class="m-tl1">Partially Oriented Yarn – POY</span>
+                                </label>
+                            </div>
+                            <div class="wins_content">
+                                <p class="m-tl2">
+                                    It’s produced by melting and
+                                    extruding a polyester chip or
+                                    flake, making directly from
+                                    PTA and MEG by spinning
+                                    and take-up, and it's
+                                    primarily used in texturizing
+                                    to create textured yarn
+                                    (DTY).
+                                </p>
+                            </div>
+                        </div>
+                        <div class="m-auto">
+                            <div class="img_block d-flex w-100p">
+                                <picture>
+                                    <source srcset="/assets/images/landing/page8/mobile/polyester-Yarn-process-POY-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                    <img src="/assets/images/landing/page8/desktop/polyester-Yarn-process-POY-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
+                                </picture>
+                            </div>
+                            <div class="caption tl m-tl2 text-center fw-600" style="margin-top: 10px;">
+                                Partially Oriented Yarn - POY
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-6 col-sm-6 col-md-3 d-flex wins fdy">
-                    <div class="wins_block">
-                        <div class="wins_header">
-                            <label class="m-0 fw-n">
-                                <span class="m-tl1">Fully Drawn Yarn – FDY</span>
-                            </label>
-                        </div>
-                        <div class="wins_content">
-                            <p class="m-tl2">
-                                It’s a highly drawn and
-                                capable of producing
-                                high-strength fabrics and
-                                also known as Polyester
-                                Filament Yarn (PFY) or Spin
-                                Draw Yarn (SDY). FDY is
-                                commonly used as a weft
-                                and weave fabric, it can also
-                                be knitted and woven with
-                                other filament yarn.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="m-auto">
-                        <div class="img_block d-flex w-100p">
+                <div class="col-xs-6 col-sm-6 col-md-3 p-0 d-flex border_animation border_animation_left fdy">
+                    <div class="border_animation_icon">
+                        <div class="border_icon">
                             <picture>
-                                <source srcset="/assets/images/landing/page8/mobile/polyester-Yarn-process-FDY-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                                <img src="/assets/images/landing/page8/desktop/polyester-Yarn-process-FDY-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
+                                <source srcset="\assets\images\landing\page8\mobile\ICON-1.webp" media="(max-width: 640px)">
+                                <img src="\assets\images\landing\page8\desktop\ICON-1.webp" alt="FDY" width="900" height="350" class="img-fluid" loading="lazy">
                             </picture>
                         </div>
-                        <div class="caption tl m-tl2 text-center fw-600" style="margin-top: 10px;">
-                            Fully Drawn Yarn – FDY
+                    </div>
+                    <div class="wins d-flex w-100p">
+                        <div class="wins_block">
+                            <div class="wins_header">
+                                <label class="m-0 fw-n">
+                                    <span class="m-tl1">Fully Drawn Yarn – FDY</span>
+                                </label>
+                            </div>
+                            <div class="wins_content">
+                                <p class="m-tl2">
+                                    It’s a highly drawn and
+                                    capable of producing
+                                    high-strength fabrics and
+                                    also known as Polyester
+                                    Filament Yarn (PFY) or Spin
+                                    Draw Yarn (SDY). FDY is
+                                    commonly used as a weft
+                                    and weave fabric, it can also
+                                    be knitted and woven with
+                                    other filament yarn.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="m-auto">
+                            <div class="img_block d-flex w-100p">
+                                <picture>
+                                    <source srcset="/assets/images/landing/page8/mobile/polyester-Yarn-process-FDY-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                    <img src="/assets/images/landing/page8/desktop/polyester-Yarn-process-FDY-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
+                                </picture>
+                            </div>
+                            <div class="caption tl m-tl2 text-center fw-600" style="margin-top: 10px;">
+                                Fully Drawn Yarn – FDY
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-6 col-sm-6 col-md-3 d-flex wins dty">
-                    <div class="wins_block">
-                        <div class="wins_header">
-                            <label class="m-0 fw-n">
-                                <span class="m-tl1">Draw Textured Yarn – DTY</span>
-                            </label>
-                        </div>
-                        <div class="wins_content">
-                            <p class="m-tl2">
-                                Is a filament yarn with a
-                                soft crimp, a high bulky
-                                textured with a soft
-                                cottony feel, and high
-                                durability. Draw Textured
-                                Yarn (DTY) yarn is
-                                obtained when Polyester
-                                POY is simultaneously
-                                twisted & drawn.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="m-auto">
-                        <div class="img_block d-flex w-100p">
+                <div class="col-xs-6 col-sm-6 col-md-3 p-0 d-flex border_animation border_animation_left border_animation_left_m_converse dty">
+                    <div class="border_animation_icon">
+                        <div class="border_icon">
                             <picture>
-                                <source srcset="/assets/images/landing/page8/mobile/polyester-Yarn-process-DTY-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                                <img src="/assets/images/landing/page8/desktop/polyester-Yarn-process-DTY-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
+                                <source srcset="\assets\images\landing\page8\mobile\ICON-2.webp" media="(max-width: 640px)">
+                                <img src="\assets\images\landing\page8\desktop\ICON-2.webp" alt="DTY" width="900" height="350" class="img-fluid" loading="lazy">
                             </picture>
                         </div>
-                        <div class="caption tl m-tl2 text-center fw-600" style="margin-top: 10px;">
-                            Draw Textured Yarn – DTY
+                    </div>
+                    <div class="wins d-flex w-100p">
+                        <div class="wins_block">
+                            <div class="wins_header">
+                                <label class="m-0 fw-n">
+                                    <span class="m-tl1">Draw Textured Yarn – DTY</span>
+                                </label>
+                            </div>
+                            <div class="wins_content">
+                                <p class="m-tl2">
+                                    Is a filament yarn with a
+                                    soft crimp, a high bulky
+                                    textured with a soft
+                                    cottony feel, and high
+                                    durability. Draw Textured
+                                    Yarn (DTY) yarn is
+                                    obtained when Polyester
+                                    POY is simultaneously
+                                    twisted & drawn.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="m-auto">
+                            <div class="img_block d-flex w-100p">
+                                <picture>
+                                    <source srcset="/assets/images/landing/page8/mobile/polyester-Yarn-process-DTY-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                    <img src="/assets/images/landing/page8/desktop/polyester-Yarn-process-DTY-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
+                                </picture>
+                            </div>
+                            <div class="caption tl m-tl2 text-center fw-600" style="margin-top: 10px;">
+                                Draw Textured Yarn – DTY
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-6 col-sm-6 col-md-3 d-flex wins ty">
-                    <div class="wins_block">
-                        <div class="wins_header">
-                            <label class="m-0 fw-n">
-                                <span class="m-tl1">Twisted yarn</span>
-                            </label>
-                        </div>
-                        <div class="wins_content">
-                            <p class="m-tl2">
-                                The process by which fibers
-                                are arranged around the
-                                axis of yarn is called yarn
-                                twist. It imparts strength to
-                                the yarn.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="m-auto">
-                        <div class="img_block d-flex w-100p">
+                <div class="col-xs-6 col-sm-6 col-md-3 p-0 d-flex border_animation border_animation_left border_animation_left_m_converse ty">
+                    <div class="border_animation_icon">
+                        <div class="border_icon">
                             <picture>
-                                <source srcset="/assets/images/landing/page8/mobile/polyester-Yarn-process-Twisted-Yarn-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                                <img src="/assets/images/landing/page8/desktop/polyester-Yarn-process-Twisted-Yarn-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
+                                <source srcset="\assets\images\landing\page8\mobile\ICON-4.webp" media="(max-width: 640px)">
+                                <img src="\assets\images\landing\page8\desktop\ICON-4.webp" alt="Twisted yarn" width="900" height="350" class="img-fluid" loading="lazy">
                             </picture>
                         </div>
-                        <div class="caption tl m-tl2 text-center fw-600" style="margin-top: 10px;">
-                            Twisted yarn
+                    </div>
+                    <div class="wins d-flex w-100p">
+                        <div class="wins_block">
+                            <div class="wins_header">
+                                <label class="m-0 fw-n">
+                                    <span class="m-tl1">Twisted yarn</span>
+                                </label>
+                            </div>
+                            <div class="wins_content">
+                                <p class="m-tl2">
+                                    The process by which fibers
+                                    are arranged around the
+                                    axis of yarn is called yarn
+                                    twist. It imparts strength to
+                                    the yarn.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="m-auto">
+                            <div class="img_block d-flex w-100p">
+                                <picture>
+                                    <source srcset="/assets/images/landing/page8/mobile/polyester-Yarn-process-Twisted-Yarn-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                    <img src="/assets/images/landing/page8/desktop/polyester-Yarn-process-Twisted-Yarn-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
+                                </picture>
+                            </div>
+                            <div class="caption tl m-tl2 text-center fw-600" style="margin-top: 10px;">
+                                Twisted yarn
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-6 col-sm-6 col-md-3 d-flex wins ddb">
-                    <div class="wins_block">
-                        <div class="wins_header">
-                            <label class="m-0 fw-n">
-                                <span class="m-tl1">Dope Dyed Black</span>
-                            </label>
-                        </div>
-                        <div class="wins_content">
-                            <p class="m-tl2">
-                                Is made by incorporating a
-                                masterbatch colorant into
-                                the polymer melt during the
-                                spinning or extrusion
-                                process. As a result, fully
-                                pigmented fibers and
-                                filaments emerge from the
-                                spinnerets in a single step.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="m-auto">
-                        <div class="img_block d-flex w-100p">
+                <div class="col-xs-6 col-sm-6 col-md-3 p-0 d-flex border_animation border_animation_left ddb">
+                    <div class="border_animation_icon">
+                        <div class="border_icon">
                             <picture>
-                                <source srcset="/assets/images/landing/page8/mobile/polyester-Yarn-process-Dope-Dyed-Black-Thaipolyester-1.webp?v={{time()}}" media="(max-width: 640px)">
-                                <img src="/assets/images/landing/page8/desktop/polyester-Yarn-process-Dope-Dyed-Black-Thaipolyester-1.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
+                                <source srcset="\assets\images\landing\page8\mobile\ICON-1.webp" media="(max-width: 640px)">
+                                <img src="\assets\images\landing\page8\desktop\ICON-1.webp" alt="Dope Dyed Black" width="900" height="350" class="img-fluid" loading="lazy">
                             </picture>
                         </div>
-                        <div class="caption tl m-tl2 text-center fw-600" style="margin-top: 10px;">
-                            Dope Dyed Black
+                    </div>
+                    <div class="wins d-flex w-100p">
+                        <div class="wins_block">
+                            <div class="wins_header">
+                                <label class="m-0 fw-n">
+                                    <span class="m-tl1">Dope Dyed Black</span>
+                                </label>
+                            </div>
+                            <div class="wins_content">
+                                <p class="m-tl2">
+                                    Is made by incorporating a
+                                    masterbatch colorant into
+                                    the polymer melt during the
+                                    spinning or extrusion
+                                    process. As a result, fully
+                                    pigmented fibers and
+                                    filaments emerge from the
+                                    spinnerets in a single step.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="m-auto">
+                            <div class="img_block d-flex w-100p">
+                                <picture>
+                                    <source srcset="/assets/images/landing/page8/mobile/polyester-Yarn-process-Dope-Dyed-Black-Thaipolyester-1.webp?v={{time()}}" media="(max-width: 640px)">
+                                    <img src="/assets/images/landing/page8/desktop/polyester-Yarn-process-Dope-Dyed-Black-Thaipolyester-1.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
+                                </picture>
+                            </div>
+                            <div class="caption tl m-tl2 text-center fw-600" style="margin-top: 10px;">
+                                Dope Dyed Black
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-6 col-sm-6 col-md-3 d-flex wins psf">
-                    <div class="wins_block">
-                        <div class="wins_header">
-                            <label class="m-0 fw-n">
-                                <span class="m-tl1">Polyester Staple Fiber – PSF</span>
-                            </label>
-                        </div>
-                        <div class="wins_content">
-                            <p class="m-tl2">
-                                directly from PTA & MEG or
-                                PET, with various uses in the
-                                textile, automotive and
-                                furniture industries. "Staple
-                                Fiber" often refers to natural
-                                fiber such as cotton or wool.
-                                Product table charge
-                            </p>
-                        </div>
-                    </div>
-                    <div class="m-auto">
-                        <div class="img_block d-flex w-100p">
+                <div class="col-xs-6 col-sm-6 col-md-3 p-0 d-flex border_animation border_animation_left psf">
+                    <div class="border_animation_icon">
+                        <div class="border_icon">
                             <picture>
-                                <source srcset="/assets/images/landing/page8/mobile/polyester-Yarn-process-PSF-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                                <img src="/assets/images/landing/page8/desktop/polyester-Yarn-process-PSF-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
+                                <source srcset="\assets\images\landing\page8\mobile\ICON-5.webp" media="(max-width: 640px)">
+                                <img src="\assets\images\landing\page8\desktop\ICON-5.webp" alt="PSF" width="900" height="350" class="img-fluid" loading="lazy">
                             </picture>
                         </div>
-                        <div class="caption tl m-tl2 text-center fw-600" style="margin-top: 10px;">
-                            Polyester Staple Fiber – PSF
+                    </div>
+                    <div class="wins d-flex w-100p">
+                        <div class="wins_block">
+                            <div class="wins_header">
+                                <label class="m-0 fw-n">
+                                    <span class="m-tl1">Polyester Staple Fiber – PSF</span>
+                                </label>
+                            </div>
+                            <div class="wins_content">
+                                <p class="m-tl2">
+                                    directly from PTA & MEG or
+                                    PET, with various uses in the
+                                    textile, automotive and
+                                    furniture industries. "Staple
+                                    Fiber" often refers to natural
+                                    fiber such as cotton or wool.
+                                    Product table charge
+                                </p>
+                            </div>
+                        </div>
+                        <div class="m-auto">
+                            <div class="img_block d-flex w-100p">
+                                <picture>
+                                    <source srcset="/assets/images/landing/page8/mobile/polyester-Yarn-process-PSF-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                    <img src="/assets/images/landing/page8/desktop/polyester-Yarn-process-PSF-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
+                                </picture>
+                            </div>
+                            <div class="caption tl m-tl2 text-center fw-600" style="margin-top: 10px;">
+                                Polyester Staple Fiber – PSF
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-6 col-sm-6 col-md-3 d-flex wins ring">
-                    <div class="wins_block">
-                        <div class="wins_header">
-                            <label class="m-0 fw-n">
-                                <span class="m-tl1">Ring spun</span>
-                            </label>
-                        </div>
-                        <div class="wins_content">
-                            <p class="m-tl2">
-                                Ring spinning is a method of
-                                spinning textile fibers to
-                                make a yarn. This
-                                process provides a soft
-                                desirable fabric.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="m-auto">
-                        <div class="img_block d-flex w-100p">
+                <div class="col-xs-6 col-sm-6 col-md-3 p-0 d-flex border_animation border_animation_left border_animation_left_m_converse ring">
+                    <div class="border_animation_icon">
+                        <div class="border_icon">
                             <picture>
-                                <source srcset="/assets/images/landing/page8/mobile/polyester-Yarn-process-Ring-Spun-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                                <img src="/assets/images/landing/page8/desktop/polyester-Yarn-process-Ring-Spun-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
+                                <source srcset="\assets\images\landing\page8\mobile\ICON-3.webp" media="(max-width: 640px)">
+                                <img src="\assets\images\landing\page8\desktop\ICON-3.webp" alt="PSF" width="900" height="350" class="img-fluid" loading="lazy">
                             </picture>
                         </div>
-                        <div class="caption tl m-tl2 text-center fw-600" style="margin-top: 10px;">
-                            Ring spun
+                    </div>
+                    <div class="wins d-flex w-100p">
+                        <div class="wins_block">
+                            <div class="wins_header">
+                                <label class="m-0 fw-n">
+                                    <span class="m-tl1">Ring spun</span>
+                                </label>
+                            </div>
+                            <div class="wins_content">
+                                <p class="m-tl2">
+                                    Ring spinning is a method of
+                                    spinning textile fibers to
+                                    make a yarn. This
+                                    process provides a soft
+                                    desirable fabric.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="m-auto">
+                            <div class="img_block d-flex w-100p">
+                                <picture>
+                                    <source srcset="/assets/images/landing/page8/mobile/polyester-Yarn-process-Ring-Spun-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                    <img src="/assets/images/landing/page8/desktop/polyester-Yarn-process-Ring-Spun-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
+                                </picture>
+                            </div>
+                            <div class="caption tl m-tl2 text-center fw-600" style="margin-top: 10px;">
+                                Ring spun
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-6 col-sm-6 col-md-3 d-flex wins oe">
-                    <div class="wins_block">
-                        <div class="wins_header">
-                            <label class="m-0 fw-n">
-                                <span class="m-tl1">OE spun</span>
-                            </label>
-                        </div>
-                        <div class="wins_content">
-                            <p class="m-tl2">
-                                Open-end spinning is a
-                                technology for creating yarn
-                                without using a
-                                spindle.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="m-auto">
-                        <div class="img_block d-flex w-100p">
+                <div class="col-xs-6 col-sm-6 col-md-3 p-0 d-flex border_animation border_animation_left border_animation_left_m_converse oe">
+                    <div class="border_animation_icon">
+                        <div class="border_icon">
                             <picture>
-                                <source srcset="/assets/images/landing/page8/mobile/polyester-Yarn-process-OE-Spun-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                                <img src="/assets/images/landing/page8/desktop/polyester-Yarn-process-OE-Spun-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
+                                <source srcset="\assets\images\landing\page8\mobile\ICON-3.webp" media="(max-width: 640px)">
+                                <img src="\assets\images\landing\page8\desktop\ICON-3.webp" alt="OE spun" width="900" height="350" class="img-fluid" loading="lazy">
                             </picture>
                         </div>
-                        <div class="caption tl m-tl2 text-center fw-600" style="margin-top: 10px;">
-                            OE spun
+                    </div>
+                    <div class="wins d-flex w-100p">
+                        <div class="wins_block">
+                            <div class="wins_header">
+                                <label class="m-0 fw-n">
+                                    <span class="m-tl1">OE spun</span>
+                                </label>
+                            </div>
+                            <div class="wins_content">
+                                <p class="m-tl2">
+                                    Open-end spinning is a
+                                    technology for creating yarn
+                                    without using a
+                                    spindle.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="m-auto">
+                            <div class="img_block d-flex w-100p">
+                                <picture>
+                                    <source srcset="/assets/images/landing/page8/mobile/polyester-Yarn-process-OE-Spun-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                    <img src="/assets/images/landing/page8/desktop/polyester-Yarn-process-OE-Spun-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
+                                </picture>
+                            </div>
+                            <div class="caption tl m-tl2 text-center fw-600" style="margin-top: 10px;">
+                                OE spun
+                            </div>
                         </div>
                     </div>
                 </div>

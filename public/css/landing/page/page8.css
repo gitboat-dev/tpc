@@ -150,29 +150,61 @@ body{
     border-bottom-color: transparent;
     border-top-color: transparent;
 }
-#sec4 .wins.poy{
-    --wins-header-border-bottom:2px solid var(--msBg);
+#sec4 .poy .wins{
+    --wins-header-border-bottom:3px solid var(--msBg);
 }
-#sec4 .wins.fdy{
-    --wins-header-border-bottom:2px solid var(--msBgRed);
+#sec4 .fdy .wins{
+    --wins-header-border-bottom:3px solid var(--msBgRed);
 }
-#sec4 .wins.dty{
-    --wins-header-border-bottom:2px solid var(--msBgNavy);
+#sec4 .dty .wins{
+    --wins-header-border-bottom:3px solid var(--msBgNavy);
 }
-#sec4 .wins.ty{
-    --wins-header-border-bottom:2px solid var(--msBgGreen2);
+#sec4 .ty .wins{
+    --wins-header-border-bottom:3px solid var(--msBgGreen2);
 }
-#sec4 .wins.ddb{
-    --wins-header-border-bottom:2px solid var(--msBgOrange);
+#sec4 .ddb .wins{
+    --wins-header-border-bottom:3px solid var(--msBgOrange);
 }
-#sec4 .wins.psf{
-    --wins-header-border-bottom:2px solid var(--msBgDark);
+#sec4 .psf .wins{
+    --wins-header-border-bottom:3px solid var(--msBgDark);
 }
-#sec4 .wins.ring{
-    --wins-header-border-bottom:2px solid var(--msBgPurple);
+#sec4 .ring .wins{
+    --wins-header-border-bottom:3px solid var(--msBgPurple);
 }
-#sec4 .wins.oe{
-    --wins-header-border-bottom:2px solid var(--msBgSeaGreen);
+#sec4 .oe .wins{
+    --wins-header-border-bottom:3px solid var(--msBgSeaGreen);
+}
+#sec4 .border_animation.poy{
+    --border-width-left: 3px;
+    --border-color-left: var(--msBg);
+}
+#sec4 .border_animation.fdy{
+    --border-width-left: 3px;
+    --border-color-left: var(--msBgRed);
+}
+#sec4 .border_animation.dty{
+    --border-width-left: 3px;
+    --border-color-left: var(--msBgNavy);
+}
+#sec4 .border_animation.ty{
+    --border-width-left: 3px;
+    --border-color-left: var(--msBgGreen2);
+}
+#sec4 .border_animation.ddb{
+    --border-width-left: 3px;
+    --border-color-left: var(--msBgOrange);
+}
+#sec4 .border_animation.psf{
+    --border-width-left: 3px;
+    --border-color-left: var(--msBgDark);
+}
+#sec4 .border_animation.ring{
+    --border-width-left: 3px;
+    --border-color-left: var(--msBgPurple);
+}
+#sec4 .border_animation.oe{
+    --border-width-left: 3px;
+    --border-color-left: var(--msBgSeaGreen);
 }
 
 /* end sec4 */
@@ -450,11 +482,62 @@ body{
     /* end sec3 */
 
     #sec4 .r1 > div[class^="col-"]:nth-child(5),
-    #sec4 .r1 > div[class^="col-"]:nth-child(6),
-    #sec4 .r1 > div[class^="col-"]:nth-child(7),
-    #sec4 .r1 > div[class^="col-"]:nth-child(8) {
+    #sec4 .r1 > div[class^="col-"]:nth-child(6) {
         border-bottom-color: var(--msBgDark);
     }
+    #sec4 .r1 > div[class^="col-"]:nth-child(7),
+    #sec4 .r1 > div[class^="col-"]:nth-child(8){
+        border-bottom-color: transparent;
+    }
+    #sec4 .poy .wins{
+        --wins-header-border-bottom:2px solid var(--msBg);
+    }
+    #sec4 .fdy .wins{
+        --wins-header-border-bottom:2px solid var(--msBgRed);
+    }
+    #sec4 .dty .wins{
+        --wins-header-border-bottom:2px solid var(--msBgNavy);
+    }
+    #sec4 .ty .wins{
+        --wins-header-border-bottom:2px solid var(--msBgGreen2);
+    }
+    #sec4 .ddb .wins{
+        --wins-header-border-bottom:2px solid var(--msBgOrange);
+    }
+    #sec4 .psf .wins{
+        --wins-header-border-bottom:2px solid var(--msBgDark);
+    }
+    #sec4 .ring .wins{
+        --wins-header-border-bottom:2px solid var(--msBgPurple);
+    }
+    #sec4 .oe .wins{
+        --wins-header-border-bottom:2px solid var(--msBgSeaGreen);
+    }
+    #sec4 .border_animation.poy{
+        --border-width-left: 2px;
+    }
+    #sec4 .border_animation.fdy{
+        --border-width-left: 2px;
+    }
+    #sec4 .border_animation.dty{
+        --border-width-left: 2px;
+    }
+    #sec4 .border_animation.ty{
+        --border-width-left: 2px;
+    }
+    #sec4 .border_animation.ddb{
+        --border-width-left: 2px;
+    }
+    #sec4 .border_animation.psf{
+        --border-width-left: 2px;
+    }
+    #sec4 .border_animation.ring{
+        --border-width-left: 2px;
+    }
+    #sec4 .border_animation.oe{
+        --border-width-left: 2px;
+    }
+
 
     /* end sec4 */
 

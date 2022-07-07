@@ -1,0 +1,82 @@
+.border_animation{
+    --border-left: 0;
+    --border-right: 0;
+    --border-width-left: 2px;
+    --border-width-right: 2px;
+    --border-color-left: var(--msBg);
+    --border-color-right: var(--msBg);
+    --border_animation_icon_max_width: 50px;
+}
+.border_animation{
+    position: relative;
+}
+.border_animation_right.border_animation_right_converse::before,
+.border_animation_left::before{
+    content: " ";
+    position: absolute;
+    left: var(--border-left);
+    right: unset;
+    bottom: 0;
+    height: 100%;
+    width: var(--border-width-left);
+    background-color: var(--border-color-left);
+    z-index: 100;
+}
+.border_animation_left.border_animation_left_converse::before,
+.border_animation_right::before{
+    content: " ";
+    position: absolute;
+    right: var(--border-right);
+    left: unset;
+    bottom: 0;
+    height: 100%;
+    width: var(--border-width-left);
+    background-color: var(--border-color-left);
+    z-index: 100;
+}
+.border_animation_right.border_animation_right_converse .border_animation_icon,
+.border_animation_left .border_animation_icon{
+    display: flex;
+    max-width: var(--border_animation_icon_max_width);
+    width: 100%;
+    position: absolute;
+    right: unset;
+    left: calc(var(--border_animation_icon_max_width) / -2);
+    bottom: 50%;
+    z-index: 101;
+}
+.border_animation_left.border_animation_left_converse .border_animation_icon,
+.border_animation_right .border_animation_icon{
+    display: flex;
+    max-width: var(--border_animation_icon_max_width);
+    width: 100%;
+    position: absolute;
+    left: unset;
+    right: calc(var(--border_animation_icon_max_width) / -2);
+    bottom: 50%;
+    z-index: 101;
+}
+@media only screen and (max-width: 991px){
+.border_animation_right.border_animation_right_m_converse::before{
+    content: " ";
+    position: absolute;
+    left: var(--border-left);
+    right: unset;
+    bottom: 0;
+    height: 100%;
+    width: var(--border-width-left);
+    background-color: var(--border-color-left);
+    z-index: 100;
+}
+.border_animation_left.border_animation_left_m_converse::before{
+    content: " ";
+    position: absolute;
+    right: var(--border-right);
+    left: unset;
+    bottom: 0;
+    height: 100%;
+    width: var(--border-width-left);
+    background-color: var(--border-color-left);
+    z-index: 100;
+}
+}
