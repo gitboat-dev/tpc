@@ -26,7 +26,6 @@ function text_slide(row){
             num = - num;
             num = num < 2 ? 1.5 : num;
             message_width = block.find('.text-slide').outerWidth() / num;
-            console.log(message_width);
             if(current > slide){
                 block.attr('data-current',1);
                 message.css({

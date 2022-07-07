@@ -2,6 +2,7 @@ body{
     --sec2-padding:40px 0;
     --sec3-padding:20px 0;
     --sec4-padding:20px 0 40px;
+    --sec4-min-height:350px;
     --sec6-padding:20px 0;
     --sec7-padding:20px 0 40px;
     --sec10-padding:0px 0 20px;
@@ -98,6 +99,7 @@ body{
 #sec4 .sec4-desc{
     font-size: 43px !important;
     line-height: 64px !important;
+    margin-bottom: 30px;
 }
 #sec4 .sec4-title{
     font-size: 64px !important;
@@ -126,6 +128,9 @@ body{
     -moz-transition: all 0.2s;
     -o-transition: all 0.2s;
     transition: all 0.2s;
+}
+#sec4 .r1 > div[class^="col-"]{
+    min-height: var(--sec4-min-height);
 }
 #sec4 .wins.poy{
     --wins-header-border-bottom:2px solid var(--msBg);
@@ -373,6 +378,12 @@ body{
     }
 }
 @media only screen and (min-width: 1400px){
+    body{
+        --sec4-min-height:400px;
+    }
+
+    /* end all setting */
+
     #sec3 .sec3-title{
         font-size: 190px !important;
         line-height: 100% !important;
@@ -401,6 +412,12 @@ body{
     }
 }
 @media only screen and (max-width: 991px){
+    body{
+        --sec4-min-height:225px;
+    }
+
+    /* end all setting */
+
     #sec1 .col-h1{
         height: 100% !important;
     }
@@ -503,6 +520,12 @@ body{
 
     /* end sec2 */
 
+    #sec4 .btn{
+        margin-top: 30px;
+    }
+    #sec4 .btn > a {
+        font-size: 1em;
+    }
     #sec4 .sec4-desc{
         font-size: 22px !important;
         line-height: 29px !important;
@@ -511,6 +534,13 @@ body{
         display: block;
         font-size: 45px !important;
         line-height: 41px !important;
+    }
+    #sec4 .m-tl1 {
+        font-size: 63%;
+        line-height: 0em;
+    }
+    #sec4 .m-tl2 {
+        line-height: 1.5em;
     }
 
     /* end sec4 */
@@ -613,6 +643,11 @@ body{
     /* end sec5 */
 }
 @media only screen and (max-width: 340px){
+    body{
+        --sec4-min-height:200px;
+    }
+
+    /* end all setting */
 
     #sec3 .slide .slide-title{
         font-size: 12px;
@@ -623,6 +658,20 @@ body{
     }
 
     /* end sec3 */
+
+    #sec4 .container{
+        padding: 0 5px;
+    }
+    #sec4 .m-tl1 {
+        font-size: 60%;
+        line-height: 0em;
+    }
+    #sec4 .m-tl2 {
+        font-size: 50%;
+        line-height: 1.5em;
+    }
+
+    /* end sec4 */
 
     #sec5 .sec5-title{
         font-size: 24px !important;
