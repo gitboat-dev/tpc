@@ -191,6 +191,14 @@
         background-color: var(--border-color-left);
         z-index: 100;
     }
+    .border_animation_left_m_converse .border_animation_tb::before{
+        right: calc(var(--border-width-left) / -2);
+        left: unset;
+    }
+    .border_animation_left_m_converse .border_animation_tb::after{
+        left: calc(var(--border-width-left) / -2);
+        right: unset;
+    }
     .border_animation_left_m_converse::after{
         content: " ";
         position: absolute;
@@ -200,7 +208,7 @@
         height: 0;
         width: var(--border-width-left);
         background-color: var(--border-color-left);
-        z-index: 99;
+        z-index: 101;
     }
     .border_animation_left_m_converse:hover::after{
         transition: height 0.5s linear 0.8s;
