@@ -222,7 +222,7 @@
                         <div class="m-auto">
                             <div class="img_block d-flex w-100p">
                                 <picture>
-                                    <source srcset="/assets/images/landing/page8/mobile/polyester-Yarn-process-POY-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                    <source srcset="/assets/images/landing/page8/mobile/polyester-Yarn-process-POY-Thaipolyester.webp?v={{time()}}" media="(max-width: 991px)">
                                     <img src="/assets/images/landing/page8/desktop/polyester-Yarn-process-POY-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
                                 </picture>
                             </div>
@@ -268,7 +268,7 @@
                         <div class="m-auto">
                             <div class="img_block d-flex w-100p">
                                 <picture>
-                                    <source srcset="/assets/images/landing/page8/mobile/polyester-Yarn-process-FDY-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                    <source srcset="/assets/images/landing/page8/mobile/polyester-Yarn-process-FDY-Thaipolyester.webp?v={{time()}}" media="(max-width: 991px)">
                                     <img src="/assets/images/landing/page8/desktop/polyester-Yarn-process-FDY-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
                                 </picture>
                             </div>
@@ -313,7 +313,7 @@
                         <div class="m-auto">
                             <div class="img_block d-flex w-100p">
                                 <picture>
-                                    <source srcset="/assets/images/landing/page8/mobile/polyester-Yarn-process-DTY-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                    <source srcset="/assets/images/landing/page8/mobile/polyester-Yarn-process-DTY-Thaipolyester.webp?v={{time()}}" media="(max-width: 991px)">
                                     <img src="/assets/images/landing/page8/desktop/polyester-Yarn-process-DTY-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
                                 </picture>
                             </div>
@@ -333,33 +333,33 @@
                                 </picture>
                             </div>
                         </div>
-                        <div class="wins d-flex w-100p">
-                            <div class="wins_block">
-                                <div class="wins_header">
-                                    <label class="m-0 fw-n">
-                                        <span class="m-tl1">Twisted yarn</span>
-                                    </label>
-                                </div>
-                                <div class="wins_content">
-                                    <p class="m-tl2">
-                                        The process by which fibers
-                                        are arranged around the
-                                        axis of yarn is called yarn
-                                        twist. It imparts strength to
-                                        the yarn.
-                                    </p>
-                                </div>
+                    </div>
+                    <div class="wins d-flex w-100p">
+                        <div class="wins_block">
+                            <div class="wins_header">
+                                <label class="m-0 fw-n">
+                                    <span class="m-tl1">Twisted yarn</span>
+                                </label>
                             </div>
-                            <div class="m-auto">
-                                <div class="img_block d-flex w-100p">
-                                    <picture>
-                                        <source srcset="/assets/images/landing/page8/mobile/polyester-Yarn-process-Twisted-Yarn-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                                        <img src="/assets/images/landing/page8/desktop/polyester-Yarn-process-Twisted-Yarn-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
-                                    </picture>
-                                </div>
-                                <div class="caption tl m-tl2 text-center fw-600" style="margin-top: 10px;">
-                                    Twisted yarn
-                                </div>
+                            <div class="wins_content">
+                                <p class="m-tl2">
+                                    The process by which fibers
+                                    are arranged around the
+                                    axis of yarn is called yarn
+                                    twist. It imparts strength to
+                                    the yarn.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="m-auto">
+                            <div class="img_block d-flex w-100p">
+                                <picture>
+                                    <source srcset="/assets/images/landing/page8/mobile/polyester-Yarn-process-Twisted-Yarn-Thaipolyester.webp?v={{time()}}" media="(max-width: 991px)">
+                                    <img src="/assets/images/landing/page8/desktop/polyester-Yarn-process-Twisted-Yarn-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
+                                </picture>
+                            </div>
+                            <div class="caption tl m-tl2 text-center fw-600" style="margin-top: 10px;">
+                                Twisted yarn
                             </div>
                         </div>
                     </div>
@@ -398,7 +398,7 @@
                         <div class="m-auto">
                             <div class="img_block d-flex w-100p">
                                 <picture>
-                                    <source srcset="/assets/images/landing/page8/mobile/polyester-Yarn-process-Dope-Dyed-Black-Thaipolyester-1.webp?v={{time()}}" media="(max-width: 640px)">
+                                    <source srcset="/assets/images/landing/page8/mobile/polyester-Yarn-process-Dope-Dyed-Black-Thaipolyester-1.webp?v={{time()}}" media="(max-width: 991px)">
                                     <img src="/assets/images/landing/page8/desktop/polyester-Yarn-process-Dope-Dyed-Black-Thaipolyester-1.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
                                 </picture>
                             </div>
@@ -441,7 +441,7 @@
                         <div class="m-auto">
                             <div class="img_block d-flex w-100p">
                                 <picture>
-                                    <source srcset="/assets/images/landing/page8/mobile/polyester-Yarn-process-PSF-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                    <source srcset="/assets/images/landing/page8/mobile/polyester-Yarn-process-PSF-Thaipolyester.webp?v={{time()}}" media="(max-width: 991px)">
                                     <img src="/assets/images/landing/page8/desktop/polyester-Yarn-process-PSF-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
                                 </picture>
                             </div>
@@ -482,7 +482,7 @@
                         <div class="m-auto">
                             <div class="img_block d-flex w-100p">
                                 <picture>
-                                    <source srcset="/assets/images/landing/page8/mobile/polyester-Yarn-process-Ring-Spun-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                    <source srcset="/assets/images/landing/page8/mobile/polyester-Yarn-process-Ring-Spun-Thaipolyester.webp?v={{time()}}" media="(max-width: 991px)">
                                     <img src="/assets/images/landing/page8/desktop/polyester-Yarn-process-Ring-Spun-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
                                 </picture>
                             </div>
@@ -522,7 +522,7 @@
                         <div class="m-auto">
                             <div class="img_block d-flex w-100p">
                                 <picture>
-                                    <source srcset="/assets/images/landing/page8/mobile/polyester-Yarn-process-OE-Spun-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                    <source srcset="/assets/images/landing/page8/mobile/polyester-Yarn-process-OE-Spun-Thaipolyester.webp?v={{time()}}" media="(max-width: 991px)">
                                     <img src="/assets/images/landing/page8/desktop/polyester-Yarn-process-OE-Spun-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
                                 </picture>
                             </div>
