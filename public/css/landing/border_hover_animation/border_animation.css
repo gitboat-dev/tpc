@@ -2,15 +2,23 @@
     --border-left: 2px;
     --border-right: 2px;
     --border-width-left: 2px;
+    --border-width-top: 2px;
     --border-width-right: 2px;
+    --border-width-bottom: 2px;
     --border-color-left: var(--msBg);
+    --border-color-top: var(--msBg);
     --border-color-right: var(--msBg);
+    --border-color-bottom: var(--msBg);
     --border_animation_icon_max_width: 50px;
 }
 .border_animation{
     position: relative;
 }
-.border_animation_right_converse::before,
+.border_animation_tb{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
 .border_animation_left_m_converse::before,
 .border_animation_left::before{
     content: " ";
@@ -23,7 +31,6 @@
     background-color: var(--border-color-left);
     z-index: 100;
 }
-.border_animation_left_converse::before,
 .border_animation_right_m_converse::before,
 .border_animation_right::before{
     content: " ";
@@ -36,8 +43,70 @@
     background-color: var(--border-color-left);
     z-index: 100;
 }
-
-.border_animation_right_converse .border_animation_icon,
+.border_animation_left_m_converse .border_animation_tb::before,
+.border_animation_left .border_animation_tb::before{
+    content: " ";
+    position: absolute;
+    top: calc(var(--border-width-top) / -1);
+    left: calc(var(--border-width-left) / -2);
+    height: var(--border-width-top);
+    width: 0;
+    background-color: var(--border-color-top);
+    transition: width 0.8s linear 0.4s;
+}
+.border_animation_left_m_converse .border_animation_tb::after,
+.border_animation_left .border_animation_tb::after{
+    content: " ";
+    position: absolute;
+    bottom: calc(var(--border-width-top) / -1);
+    right: calc(var(--border-width-right) / -2);
+    height: var(--border-width-top);
+    width: 0;
+    background-color: var(--border-color-top);
+    transition: width 0.8s linear 0.4s;
+}
+.border_animation_right_m_converse .border_animation_icon::before,
+.border_animation_right .border_animation_icon::before{
+    content: " ";
+    position: absolute;
+    top: calc(var(--border-width-top) / -1);
+    right: calc(var(--border-width-left) / -2);
+    height: var(--border-width-top);
+    width: 0;
+    background-color: var(--border-color-top);
+    transition: width 0.8s linear 0.4s;
+}
+.border_animation_right_m_converse .border_animation_icon::after,
+.border_animation_right .border_animation_icon::after{
+    content: " ";
+    position: absolute;
+    bottom: calc(var(--border-width-top) / -1);
+    left: calc(var(--border-width-right) / -2);
+    height: var(--border-width-top);
+    width: 0;
+    background-color: var(--border-color-top);
+    transition: width 0.8s linear 0.4s;
+}
+.border_animation_left_m_converse:hover .border_animation_tb::before,
+.border_animation_left:hover .border_animation_tb::before{
+    width: calc(100% + var(--border-width-right));
+    transition: width 0.8s linear 0.2s;
+}
+.border_animation_left_m_converse:hover .border_animation_tb::after,
+.border_animation_left:hover .border_animation_tb::after{
+    width: calc(100% + var(--border-width-right));
+    transition: width 0.8s linear 0.6s;
+}
+.border_animation_rigth_m_converse:hover .border_animation_tb::before,
+.border_animation_rigth:hover .border_animation_tb::before{
+    width: calc(100% + var(--border-width-right));
+    transition: width 0.8s linear 0.2s;
+}
+.border_animation_rigth_m_converse:hover .border_animation_tb::after,
+.border_animation_rigth:hover .border_animation_tb::after{
+    width: calc(100% + var(--border-width-right));
+    transition: width 0.8s linear 0.6s;
+}
 .border_animation_left_m_converse .border_animation_icon,
 .border_animation_left .border_animation_icon{
     display: flex;
@@ -49,7 +118,6 @@
     bottom: 50%;
     z-index: 101;
 }
-.border_animation_left_converse .border_animation_icon,
 .border_animation_right_m_converse .border_animation_icon,
 .border_animation_right .border_animation_icon{
     display: flex;
@@ -62,69 +130,21 @@
     z-index: 101;
 }
 @media only screen and (min-width: 992px){
-    .border_animation_right_converse .border_animation_icon,
     .border_animation_left_m_converse .border_animation_icon,
     .border_animation_left .border_animation_icon{
-        -webkit-animation-name: icon_move_right_converse;
-        -moz-animation-name: icon_move_right_converse;
-        -o-animation-name: icon_move_right_converse;
-        animation-name: icon_move_right_converse;
-        -webkit-animation-duration: 1.8s;
-        -moz-animation-duration: 1.8s;
-        -o-animation-duration: 1.8s;
-        animation-duration: 1.8s;
-        -webkit-animation-fill-mode: forwards;
-        -moz-animation-fill-mode: forwards;
-        -o-animation-fill-mode: forwards;
-        animation-fill-mode: forwards;
+        animation: icon_move_right_converse 1.8s linear 0s 1 normal forwards;
     }
-    .border_animation_left_converse .border_animation_icon,
     .border_animation_right_m_converse .border_animation_icon,
     .border_animation_right .border_animation_icon{
-        -webkit-animation-name: icon_move_left_converse;
-        -moz-animation-name: icon_move_left_converse;
-        -o-animation-name: icon_move_left_converse;
-        animation-name: icon_move_left_converse;
-        -webkit-animation-duration: 1.8s;
-        -moz-animation-duration: 1.8s;
-        -o-animation-duration: 1.8s;
-        animation-duration: 1.8s;
-        -webkit-animation-fill-mode: forwards;
-        -moz-animation-fill-mode: forwards;
-        -o-animation-fill-mode: forwards;
-        animation-fill-mode: forwards;
+        animation: icon_move_left_converse 1.8s linear 0s 1 normal forwards;
     }
-    .border_animation_right_converse:hover .border_animation_icon,
     .border_animation_left_m_converse:hover .border_animation_icon,
     .border_animation_left:hover .border_animation_icon{
-        -webkit-animation-name: icon_move_right;
-        -moz-animation-name: icon_move_right;
-        -o-animation-name: icon_move_right;
-        animation-name: icon_move_right;
-        -webkit-animation-duration: 1.8s;
-        -moz-animation-duration: 1.8s;
-        -o-animation-duration: 1.8s;
-        animation-duration: 1.8s;
-        -webkit-animation-fill-mode: forwards;
-        -moz-animation-fill-mode: forwards;
-        -o-animation-fill-mode: forwards;
-        animation-fill-mode: forwards;
+        animation: icon_move_right 2.2s linear 0s 1 normal forwards;
     }
-    .border_animation_left_converse:hover .border_animation_icon,
     .border_animation_right_m_converse:hover .border_animation_icon,
     .border_animation_right:hover .border_animation_icon{
-        -webkit-animation-name: icon_move_left;
-        -moz-animation-name: icon_move_left;
-        -o-animation-name: icon_move_left;
-        animation-name: icon_move_left;
-        -webkit-animation-duration: 1.8s;
-        -moz-animation-duration: 1.8s;
-        -o-animation-duration: 1.8s;
-        animation-duration: 1.8s;
-        -webkit-animation-fill-mode: forwards;
-        -moz-animation-fill-mode: forwards;
-        -o-animation-fill-mode: forwards;
-        animation-fill-mode: forwards;
+        animation: icon_move_left 2.2s linear 0s 1 normal forwards;
     }
 }
 @media only screen and (max-width: 991px){
@@ -150,65 +170,17 @@
         background-color: var(--border-color-left);
         z-index: 100;
     }
-    .border_animation_right_converse .border_animation_icon,
     .border_animation_left .border_animation_icon{
-        -webkit-animation-name: icon_move_right_converse;
-        -moz-animation-name: icon_move_right_converse;
-        -o-animation-name: icon_move_right_converse;
-        animation-name: icon_move_right_converse;
-        -webkit-animation-duration: 1.8s;
-        -moz-animation-duration: 1.8s;
-        -o-animation-duration: 1.8s;
-        animation-duration: 1.8s;
-        -webkit-animation-fill-mode: forwards;
-        -moz-animation-fill-mode: forwards;
-        -o-animation-fill-mode: forwards;
-        animation-fill-mode: forwards;
+        animation: icon_move_right_converse 1.8s linear 0s 1 normal forwards;
     }
-    .border_animation_right_converse:hover .border_animation_icon,
     .border_animation_left:hover .border_animation_icon{
-        -webkit-animation-name: icon_move_right;
-        -moz-animation-name: icon_move_right;
-        -o-animation-name: icon_move_right;
-        animation-name: icon_move_right;
-        -webkit-animation-duration: 1.8s;
-        -moz-animation-duration: 1.8s;
-        -o-animation-duration: 1.8s;
-        animation-duration: 1.8s;
-        -webkit-animation-fill-mode: forwards;
-        -moz-animation-fill-mode: forwards;
-        -o-animation-fill-mode: forwards;
-        animation-fill-mode: forwards;
+        animation: icon_move_right 1.8s linear 0s 1 normal forwards;
     }
-    .border_animation_left_converse .border_animation_icon,
     .border_animation_right .border_animation_icon{
-        -webkit-animation-name: icon_move_left_converse;
-        -moz-animation-name: icon_move_left_converse;
-        -o-animation-name: icon_move_left_converse;
-        animation-name: icon_move_left_converse;
-        -webkit-animation-duration: 1.8s;
-        -moz-animation-duration: 1.8s;
-        -o-animation-duration: 1.8s;
-        animation-duration: 1.8s;
-        -webkit-animation-fill-mode: forwards;
-        -moz-animation-fill-mode: forwards;
-        -o-animation-fill-mode: forwards;
-        animation-fill-mode: forwards;
+        animation: icon_move_left_converse 1.8s linear 0s 1 normal forwards;
     }
-    .border_animation_left_converse:hover .border_animation_icon,
     .border_animation_right:hover .border_animation_icon{
-        -webkit-animation-name: icon_move_left;
-        -moz-animation-name: icon_move_left;
-        -o-animation-name: icon_move_left;
-        animation-name: icon_move_left;
-        -webkit-animation-duration: 1.8s;
-        -moz-animation-duration: 1.8s;
-        -o-animation-duration: 1.8s;
-        animation-duration: 1.8s;
-        -webkit-animation-fill-mode: forwards;
-        -moz-animation-fill-mode: forwards;
-        -o-animation-fill-mode: forwards;
-        animation-fill-mode: forwards;
+        animation: icon_move_left 1.8s linear 0s 1 normal forwards;
     }
     .border_animation_right_m_converse .border_animation_icon{
         display: flex;
@@ -219,32 +191,10 @@
         left: calc(var(--border_animation_icon_max_width) / -2);
         bottom: 50%;
         z-index: 101;
-        -webkit-animation-name: icon_move_right_converse;
-        -moz-animation-name: icon_move_right_converse;
-        -o-animation-name: icon_move_right_converse;
-        animation-name: icon_move_right_converse;
-        -webkit-animation-duration: 1.8s;
-        -moz-animation-duration: 1.8s;
-        -o-animation-duration: 1.8s;
-        animation-duration: 1.8s;
-        -webkit-animation-fill-mode: forwards;
-        -moz-animation-fill-mode: forwards;
-        -o-animation-fill-mode: forwards;
-        animation-fill-mode: forwards;
+        animation: icon_move_right_converse 1.8s ease 0s 1 normal forwards;
     }
     .border_animation_right_m_converse:hover .border_animation_icon{
-        -webkit-animation-name: icon_move_right;
-        -moz-animation-name: icon_move_right;
-        -o-animation-name: icon_move_right;
-        animation-name: icon_move_right;
-        -webkit-animation-duration: 1.8s;
-        -moz-animation-duration: 1.8s;
-        -o-animation-duration: 1.8s;
-        animation-duration: 1.8s;
-        -webkit-animation-fill-mode: forwards;
-        -moz-animation-fill-mode: forwards;
-        -o-animation-fill-mode: forwards;
-        animation-fill-mode: forwards;
+        animation: icon_move_right 1.8s ease 0s 1 normal forwards;
     }
     .border_animation_left_m_converse .border_animation_icon{
         display: flex;
@@ -255,32 +205,10 @@
         right: calc(var(--border_animation_icon_max_width) / -2);
         bottom: 50%;
         z-index: 101;
-        -webkit-animation-name: icon_move_left_converse;
-        -moz-animation-name: icon_move_left_converse;
-        -o-animation-name: icon_move_left_converse;
-        animation-name: icon_move_left_converse;
-        -webkit-animation-duration: 1.8s;
-        -moz-animation-duration: 1.8s;
-        -o-animation-duration: 1.8s;
-        animation-duration: 1.8s;
-        -webkit-animation-fill-mode: forwards;
-        -moz-animation-fill-mode: forwards;
-        -o-animation-fill-mode: forwards;
-        animation-fill-mode: forwards;
+        animation: icon_move_left_converse 1.8s ease 0s 1 normal forwards;
     }
     .border_animation_left_m_converse:hover .border_animation_icon{
-        -webkit-animation-name: icon_move_left;
-        -moz-animation-name: icon_move_left;
-        -o-animation-name: icon_move_left;
-        animation-name: icon_move_left;
-        -webkit-animation-duration: 1.8s;
-        -moz-animation-duration: 1.8s;
-        -o-animation-duration: 1.8s;
-        animation-duration: 1.8s;
-        -webkit-animation-fill-mode: forwards;
-        -moz-animation-fill-mode: forwards;
-        -o-animation-fill-mode: forwards;
-        animation-fill-mode: forwards;
+        animation: icon_move_left 1.8s ease 0s 1 normal forwards;
     }
 }
 @keyframes icon_move_right {

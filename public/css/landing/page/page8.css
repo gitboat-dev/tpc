@@ -176,35 +176,83 @@ body{
 }
 #sec4 .border_animation.poy{
     --border-width-left: 3px;
+    --border-width-top: 3px;
+    --border-width-right: 3px;
+    --border-width-bottom: 3px;
+    --border-color-top: var(--msBg);
+    --border-color-bottom: var(--msBg);
     --border-color-left: var(--msBg);
+    --border-color-right: var(--msBg);
 }
 #sec4 .border_animation.fdy{
     --border-width-left: 3px;
+    --border-width-top: 3px;
+    --border-width-right: 3px;
+    --border-width-bottom: 3px;
+    --border-color-top: var(--msBgRed);
+    --border-color-bottom: var(--msBgRed);
     --border-color-left: var(--msBgRed);
+    --border-color-right: var(--msBgRed);
 }
 #sec4 .border_animation.dty{
     --border-width-left: 3px;
+    --border-width-top: 3px;
+    --border-width-right: 3px;
+    --border-width-bottom: 3px;
+    --border-color-top: var(--msBgNavy);
+    --border-color-bottom: var(--msBgNavy);
     --border-color-left: var(--msBgNavy);
+    --border-color-right: var(--msBgNavy);
 }
 #sec4 .border_animation.ty{
     --border-width-left: 3px;
+    --border-width-top: 3px;
+    --border-width-right: 3px;
+    --border-width-bottom: 3px;
+    --border-color-top: var(--msBgGreen2);
+    --border-color-bottom: var(--msBgGreen2);
     --border-color-left: var(--msBgGreen2);
+    --border-color-right: var(--msBgGreen2);
 }
 #sec4 .border_animation.ddb{
     --border-width-left: 3px;
+    --border-width-top: 3px;
+    --border-width-right: 3px;
+    --border-width-bottom: 3px;
+    --border-color-top: var(--msBgOrange);
+    --border-color-bottom: var(--msBgOrange);
     --border-color-left: var(--msBgOrange);
+    --border-color-right: var(--msBgOrange);
 }
 #sec4 .border_animation.psf{
     --border-width-left: 3px;
+    --border-width-top: 3px;
+    --border-width-right: 3px;
+    --border-width-bottom: 3px;
+    --border-color-top: var(--msBgDark);
+    --border-color-bottom: var(--msBgDark);
     --border-color-left: var(--msBgDark);
+    --border-color-right: var(--msBgDark);
 }
 #sec4 .border_animation.ring{
     --border-width-left: 3px;
+    --border-width-top: 3px;
+    --border-width-right: 3px;
+    --border-width-bottom: 3px;
+    --border-color-top: var(--msBgPurple);
+    --border-color-bottom: var(--msBgPurple);
     --border-color-left: var(--msBgPurple);
+    --border-color-right: var(--msBgPurple);
 }
 #sec4 .border_animation.oe{
     --border-width-left: 3px;
+    --border-width-top: 3px;
+    --border-width-right: 3px;
+    --border-width-bottom: 3px;
+    --border-color-top: var(--msBgSeaGreen);
+    --border-color-bottom: var(--msBgSeaGreen);
     --border-color-left: var(--msBgSeaGreen);
+    --border-color-right: var(--msBgSeaGreen);
 }
 
 /* end sec4 */
@@ -515,29 +563,52 @@ body{
     }
     #sec4 .border_animation.poy{
         --border-width-left: 2px;
+        --border-width-top: 2px;
+        --border-width-right: 2px;
+        --border-width-bottom: 2px;
     }
     #sec4 .border_animation.fdy{
         --border-width-left: 2px;
+        --border-width-top: 2px;
+        --border-width-right: 2px;
+        --border-width-bottom: 2px;
     }
     #sec4 .border_animation.dty{
         --border-width-left: 2px;
+        --border-width-top: 2px;
+        --border-width-right: 2px;
+        --border-width-bottom: 2px;
     }
     #sec4 .border_animation.ty{
         --border-width-left: 2px;
+        --border-width-top: 2px;
+        --border-width-right: 2px;
+        --border-width-bottom: 2px;
     }
     #sec4 .border_animation.ddb{
         --border-width-left: 2px;
+        --border-width-top: 2px;
+        --border-width-right: 2px;
+        --border-width-bottom: 2px;
     }
     #sec4 .border_animation.psf{
         --border-width-left: 2px;
+        --border-width-top: 2px;
+        --border-width-right: 2px;
+        --border-width-bottom: 2px;
     }
     #sec4 .border_animation.ring{
         --border-width-left: 2px;
+        --border-width-top: 2px;
+        --border-width-right: 2px;
+        --border-width-bottom: 2px;
     }
     #sec4 .border_animation.oe{
         --border-width-left: 2px;
+        --border-width-top: 2px;
+        --border-width-right: 2px;
+        --border-width-bottom: 2px;
     }
-
 
     /* end sec4 */
 

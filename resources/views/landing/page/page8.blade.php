@@ -189,12 +189,14 @@
             </h2>
             <div class="row r1 m-0">
                 <div class="col-xs-6 col-sm-6 col-md-3 p-0 d-flex border_animation border_animation_left poy">
-                    <div class="border_animation_icon">
-                        <div class="border_icon">
-                            <picture>
-                                <source srcset="\assets\images\landing\page8\mobile\ICON-1.webp" media="(max-width: 640px)">
-                                <img src="\assets\images\landing\page8\desktop\ICON-1.webp" alt="POY" width="900" height="350" class="img-fluid" loading="lazy">
-                            </picture>
+                    <div class="border_animation_tb">
+                        <div class="border_animation_icon">
+                            <div class="border_icon">
+                                <picture>
+                                    <source srcset="\assets\images\landing\page8\mobile\ICON-1.webp" media="(max-width: 640px)">
+                                    <img src="\assets\images\landing\page8\desktop\ICON-1.webp" alt="POY" width="900" height="350" class="img-fluid" loading="lazy">
+                                </picture>
+                            </div>
                         </div>
                     </div>
                     <div class="wins d-flex w-100p">
@@ -231,12 +233,14 @@
                     </div>
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-3 p-0 d-flex border_animation border_animation_left fdy">
-                    <div class="border_animation_icon">
-                        <div class="border_icon">
-                            <picture>
-                                <source srcset="\assets\images\landing\page8\mobile\ICON-1.webp" media="(max-width: 640px)">
-                                <img src="\assets\images\landing\page8\desktop\ICON-1.webp" alt="FDY" width="900" height="350" class="img-fluid" loading="lazy">
-                            </picture>
+                    <div class="border_animation_tb">
+                        <div class="border_animation_icon">
+                            <div class="border_icon">
+                                <picture>
+                                    <source srcset="\assets\images\landing\page8\mobile\ICON-1.webp" media="(max-width: 640px)">
+                                    <img src="\assets\images\landing\page8\desktop\ICON-1.webp" alt="FDY" width="900" height="350" class="img-fluid" loading="lazy">
+                                </picture>
+                            </div>
                         </div>
                     </div>
                     <div class="wins d-flex w-100p">
@@ -275,12 +279,14 @@
                     </div>
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-3 p-0 d-flex border_animation border_animation_left_m_converse dty">
-                    <div class="border_animation_icon">
-                        <div class="border_icon">
-                            <picture>
-                                <source srcset="\assets\images\landing\page8\mobile\ICON-2.webp" media="(max-width: 640px)">
-                                <img src="\assets\images\landing\page8\desktop\ICON-2.webp" alt="DTY" width="900" height="350" class="img-fluid" loading="lazy">
-                            </picture>
+                    <div class="border_animation_tb">
+                        <div class="border_animation_icon">
+                            <div class="border_icon">
+                                <picture>
+                                    <source srcset="\assets\images\landing\page8\mobile\ICON-2.webp" media="(max-width: 640px)">
+                                    <img src="\assets\images\landing\page8\desktop\ICON-2.webp" alt="DTY" width="900" height="350" class="img-fluid" loading="lazy">
+                                </picture>
+                            </div>
                         </div>
                     </div>
                     <div class="wins d-flex w-100p">
@@ -318,51 +324,55 @@
                     </div>
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-3 p-0 d-flex border_animation border_animation_left_m_converse ty">
-                    <div class="border_animation_icon">
-                        <div class="border_icon">
-                            <picture>
-                                <source srcset="\assets\images\landing\page8\mobile\ICON-4.webp" media="(max-width: 640px)">
-                                <img src="\assets\images\landing\page8\desktop\ICON-4.webp" alt="Twisted yarn" width="900" height="350" class="img-fluid" loading="lazy">
-                            </picture>
-                        </div>
-                    </div>
-                    <div class="wins d-flex w-100p">
-                        <div class="wins_block">
-                            <div class="wins_header">
-                                <label class="m-0 fw-n">
-                                    <span class="m-tl1">Twisted yarn</span>
-                                </label>
-                            </div>
-                            <div class="wins_content">
-                                <p class="m-tl2">
-                                    The process by which fibers
-                                    are arranged around the
-                                    axis of yarn is called yarn
-                                    twist. It imparts strength to
-                                    the yarn.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="m-auto">
-                            <div class="img_block d-flex w-100p">
+                    <div class="border_animation_tb">
+                        <div class="border_animation_icon">
+                            <div class="border_icon">
                                 <picture>
-                                    <source srcset="/assets/images/landing/page8/mobile/polyester-Yarn-process-Twisted-Yarn-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                                    <img src="/assets/images/landing/page8/desktop/polyester-Yarn-process-Twisted-Yarn-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
+                                    <source srcset="\assets\images\landing\page8\mobile\ICON-4.webp" media="(max-width: 640px)">
+                                    <img src="\assets\images\landing\page8\desktop\ICON-4.webp" alt="Twisted yarn" width="900" height="350" class="img-fluid" loading="lazy">
                                 </picture>
                             </div>
-                            <div class="caption tl m-tl2 text-center fw-600" style="margin-top: 10px;">
-                                Twisted yarn
+                        </div>
+                        <div class="wins d-flex w-100p">
+                            <div class="wins_block">
+                                <div class="wins_header">
+                                    <label class="m-0 fw-n">
+                                        <span class="m-tl1">Twisted yarn</span>
+                                    </label>
+                                </div>
+                                <div class="wins_content">
+                                    <p class="m-tl2">
+                                        The process by which fibers
+                                        are arranged around the
+                                        axis of yarn is called yarn
+                                        twist. It imparts strength to
+                                        the yarn.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="m-auto">
+                                <div class="img_block d-flex w-100p">
+                                    <picture>
+                                        <source srcset="/assets/images/landing/page8/mobile/polyester-Yarn-process-Twisted-Yarn-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                        <img src="/assets/images/landing/page8/desktop/polyester-Yarn-process-Twisted-Yarn-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester">
+                                    </picture>
+                                </div>
+                                <div class="caption tl m-tl2 text-center fw-600" style="margin-top: 10px;">
+                                    Twisted yarn
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-3 p-0 d-flex border_animation border_animation_left ddb">
-                    <div class="border_animation_icon">
-                        <div class="border_icon">
-                            <picture>
-                                <source srcset="\assets\images\landing\page8\mobile\ICON-1.webp" media="(max-width: 640px)">
-                                <img src="\assets\images\landing\page8\desktop\ICON-1.webp" alt="Dope Dyed Black" width="900" height="350" class="img-fluid" loading="lazy">
-                            </picture>
+                    <div class="border_animation_tb">
+                        <div class="border_animation_icon">
+                            <div class="border_icon">
+                                <picture>
+                                    <source srcset="\assets\images\landing\page8\mobile\ICON-1.webp" media="(max-width: 640px)">
+                                    <img src="\assets\images\landing\page8\desktop\ICON-1.webp" alt="Dope Dyed Black" width="900" height="350" class="img-fluid" loading="lazy">
+                                </picture>
+                            </div>
                         </div>
                     </div>
                     <div class="wins d-flex w-100p">
@@ -399,12 +409,14 @@
                     </div>
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-3 p-0 d-flex border_animation border_animation_left psf">
-                    <div class="border_animation_icon">
-                        <div class="border_icon">
-                            <picture>
-                                <source srcset="\assets\images\landing\page8\mobile\ICON-5.webp" media="(max-width: 640px)">
-                                <img src="\assets\images\landing\page8\desktop\ICON-5.webp" alt="PSF" width="900" height="350" class="img-fluid" loading="lazy">
-                            </picture>
+                    <div class="border_animation_tb">
+                        <div class="border_animation_icon">
+                            <div class="border_icon">
+                                <picture>
+                                    <source srcset="\assets\images\landing\page8\mobile\ICON-5.webp" media="(max-width: 640px)">
+                                    <img src="\assets\images\landing\page8\desktop\ICON-5.webp" alt="PSF" width="900" height="350" class="img-fluid" loading="lazy">
+                                </picture>
+                            </div>
                         </div>
                     </div>
                     <div class="wins d-flex w-100p">
@@ -440,12 +452,14 @@
                     </div>
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-3 p-0 d-flex border_animation border_animation_left_m_converse ring">
-                    <div class="border_animation_icon">
-                        <div class="border_icon">
-                            <picture>
-                                <source srcset="\assets\images\landing\page8\mobile\ICON-3.webp" media="(max-width: 640px)">
-                                <img src="\assets\images\landing\page8\desktop\ICON-3.webp" alt="PSF" width="900" height="350" class="img-fluid" loading="lazy">
-                            </picture>
+                    <div class="border_animation_tb">
+                        <div class="border_animation_icon">
+                            <div class="border_icon">
+                                <picture>
+                                    <source srcset="\assets\images\landing\page8\mobile\ICON-3.webp" media="(max-width: 640px)">
+                                    <img src="\assets\images\landing\page8\desktop\ICON-3.webp" alt="PSF" width="900" height="350" class="img-fluid" loading="lazy">
+                                </picture>
+                            </div>
                         </div>
                     </div>
                     <div class="wins d-flex w-100p">
@@ -479,12 +493,14 @@
                     </div>
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-3 p-0 d-flex border_animation border_animation_left_m_converse oe">
-                    <div class="border_animation_icon">
-                        <div class="border_icon">
-                            <picture>
-                                <source srcset="\assets\images\landing\page8\mobile\ICON-3.webp" media="(max-width: 640px)">
-                                <img src="\assets\images\landing\page8\desktop\ICON-3.webp" alt="OE spun" width="900" height="350" class="img-fluid" loading="lazy">
-                            </picture>
+                    <div class="border_animation_tb">
+                        <div class="border_animation_icon">
+                            <div class="border_icon">
+                                <picture>
+                                    <source srcset="\assets\images\landing\page8\mobile\ICON-3.webp" media="(max-width: 640px)">
+                                    <img src="\assets\images\landing\page8\desktop\ICON-3.webp" alt="OE spun" width="900" height="350" class="img-fluid" loading="lazy">
+                                </picture>
+                            </div>
                         </div>
                     </div>
                     <div class="wins d-flex w-100p">
