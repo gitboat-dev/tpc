@@ -10,7 +10,8 @@
 .border_animation{
     position: relative;
 }
-.border_animation_right.border_animation_right_converse::before,
+.border_animation_right_converse::before,
+.border_animation_left_m_converse::before,
 .border_animation_left::before{
     content: " ";
     position: absolute;
@@ -22,7 +23,8 @@
     background-color: var(--border-color-left);
     z-index: 100;
 }
-.border_animation_left.border_animation_left_converse::before,
+.border_animation_left_converse::before,
+.border_animation_right_m_converse::before,
 .border_animation_right::before{
     content: " ";
     position: absolute;
@@ -35,7 +37,8 @@
     z-index: 100;
 }
 
-.border_animation_right.border_animation_right_converse .border_animation_icon,
+.border_animation_right_converse .border_animation_icon,
+.border_animation_left_m_converse .border_animation_icon,
 .border_animation_left .border_animation_icon{
     display: flex;
     max-width: var(--border_animation_icon_max_width);
@@ -45,35 +48,9 @@
     left: calc(var(--border_animation_icon_max_width) / -2);
     bottom: 50%;
     z-index: 101;
-    -webkit-animation-name: icon_move_right_converse;
-    -moz-animation-name: icon_move_right_converse;
-    -o-animation-name: icon_move_right_converse;
-    animation-name: icon_move_right_converse;
-    -webkit-animation-duration: 1.8s;
-    -moz-animation-duration: 1.8s;
-    -o-animation-duration: 1.8s;
-    animation-duration: 1.8s;
-    -webkit-animation-fill-mode: forwards;
-    -moz-animation-fill-mode: forwards;
-    -o-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
 }
-.border_animation_right.border_animation_right_converse:hover .border_animation_icon,
-.border_animation_left:hover .border_animation_icon{
-    -webkit-animation-name: icon_move_right;
-    -moz-animation-name: icon_move_right;
-    -o-animation-name: icon_move_right;
-    animation-name: icon_move_right;
-    -webkit-animation-duration: 1.8s;
-    -moz-animation-duration: 1.8s;
-    -o-animation-duration: 1.8s;
-    animation-duration: 1.8s;
-    -webkit-animation-fill-mode: forwards;
-    -moz-animation-fill-mode: forwards;
-    -o-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-}
-.border_animation_left.border_animation_left_converse .border_animation_icon,
+.border_animation_left_converse .border_animation_icon,
+.border_animation_right_m_converse .border_animation_icon,
 .border_animation_right .border_animation_icon{
     display: flex;
     max-width: var(--border_animation_icon_max_width);
@@ -84,8 +61,74 @@
     bottom: 50%;
     z-index: 101;
 }
+@media only screen and (min-width: 992px){
+    .border_animation_right_converse .border_animation_icon,
+    .border_animation_left_m_converse .border_animation_icon,
+    .border_animation_left .border_animation_icon{
+        -webkit-animation-name: icon_move_right_converse;
+        -moz-animation-name: icon_move_right_converse;
+        -o-animation-name: icon_move_right_converse;
+        animation-name: icon_move_right_converse;
+        -webkit-animation-duration: 1.8s;
+        -moz-animation-duration: 1.8s;
+        -o-animation-duration: 1.8s;
+        animation-duration: 1.8s;
+        -webkit-animation-fill-mode: forwards;
+        -moz-animation-fill-mode: forwards;
+        -o-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+    }
+    .border_animation_left_converse .border_animation_icon,
+    .border_animation_right_m_converse .border_animation_icon,
+    .border_animation_right .border_animation_icon{
+        -webkit-animation-name: icon_move_left_converse;
+        -moz-animation-name: icon_move_left_converse;
+        -o-animation-name: icon_move_left_converse;
+        animation-name: icon_move_left_converse;
+        -webkit-animation-duration: 1.8s;
+        -moz-animation-duration: 1.8s;
+        -o-animation-duration: 1.8s;
+        animation-duration: 1.8s;
+        -webkit-animation-fill-mode: forwards;
+        -moz-animation-fill-mode: forwards;
+        -o-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+    }
+    .border_animation_right_converse:hover .border_animation_icon,
+    .border_animation_left_m_converse:hover .border_animation_icon,
+    .border_animation_left:hover .border_animation_icon{
+        -webkit-animation-name: icon_move_right;
+        -moz-animation-name: icon_move_right;
+        -o-animation-name: icon_move_right;
+        animation-name: icon_move_right;
+        -webkit-animation-duration: 1.8s;
+        -moz-animation-duration: 1.8s;
+        -o-animation-duration: 1.8s;
+        animation-duration: 1.8s;
+        -webkit-animation-fill-mode: forwards;
+        -moz-animation-fill-mode: forwards;
+        -o-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+    }
+    .border_animation_left_converse:hover .border_animation_icon,
+    .border_animation_right_m_converse:hover .border_animation_icon,
+    .border_animation_right:hover .border_animation_icon{
+        -webkit-animation-name: icon_move_left;
+        -moz-animation-name: icon_move_left;
+        -o-animation-name: icon_move_left;
+        animation-name: icon_move_left;
+        -webkit-animation-duration: 1.8s;
+        -moz-animation-duration: 1.8s;
+        -o-animation-duration: 1.8s;
+        animation-duration: 1.8s;
+        -webkit-animation-fill-mode: forwards;
+        -moz-animation-fill-mode: forwards;
+        -o-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+    }
+}
 @media only screen and (max-width: 991px){
-    .border_animation_right.border_animation_right_m_converse::before{
+    .border_animation_right_m_converse::before{
         content: " ";
         position: absolute;
         left: calc(var(--border-left) / -1);
@@ -96,7 +139,7 @@
         background-color: var(--border-color-left);
         z-index: 100;
     }
-    .border_animation_left.border_animation_left_m_converse::before{
+    .border_animation_left_m_converse::before{
         content: " ";
         position: absolute;
         right: calc(var(--border-right) / -1);
@@ -107,7 +150,67 @@
         background-color: var(--border-color-left);
         z-index: 100;
     }
-    .border_animation_right.border_animation_right_m_converse .border_animation_icon{
+    .border_animation_right_converse .border_animation_icon,
+    .border_animation_left .border_animation_icon{
+        -webkit-animation-name: icon_move_right_converse;
+        -moz-animation-name: icon_move_right_converse;
+        -o-animation-name: icon_move_right_converse;
+        animation-name: icon_move_right_converse;
+        -webkit-animation-duration: 1.8s;
+        -moz-animation-duration: 1.8s;
+        -o-animation-duration: 1.8s;
+        animation-duration: 1.8s;
+        -webkit-animation-fill-mode: forwards;
+        -moz-animation-fill-mode: forwards;
+        -o-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+    }
+    .border_animation_right_converse:hover .border_animation_icon,
+    .border_animation_left:hover .border_animation_icon{
+        -webkit-animation-name: icon_move_right;
+        -moz-animation-name: icon_move_right;
+        -o-animation-name: icon_move_right;
+        animation-name: icon_move_right;
+        -webkit-animation-duration: 1.8s;
+        -moz-animation-duration: 1.8s;
+        -o-animation-duration: 1.8s;
+        animation-duration: 1.8s;
+        -webkit-animation-fill-mode: forwards;
+        -moz-animation-fill-mode: forwards;
+        -o-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+    }
+    .border_animation_left_converse .border_animation_icon,
+    .border_animation_right .border_animation_icon{
+        -webkit-animation-name: icon_move_left_converse;
+        -moz-animation-name: icon_move_left_converse;
+        -o-animation-name: icon_move_left_converse;
+        animation-name: icon_move_left_converse;
+        -webkit-animation-duration: 1.8s;
+        -moz-animation-duration: 1.8s;
+        -o-animation-duration: 1.8s;
+        animation-duration: 1.8s;
+        -webkit-animation-fill-mode: forwards;
+        -moz-animation-fill-mode: forwards;
+        -o-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+    }
+    .border_animation_left_converse:hover .border_animation_icon,
+    .border_animation_right:hover .border_animation_icon{
+        -webkit-animation-name: icon_move_left;
+        -moz-animation-name: icon_move_left;
+        -o-animation-name: icon_move_left;
+        animation-name: icon_move_left;
+        -webkit-animation-duration: 1.8s;
+        -moz-animation-duration: 1.8s;
+        -o-animation-duration: 1.8s;
+        animation-duration: 1.8s;
+        -webkit-animation-fill-mode: forwards;
+        -moz-animation-fill-mode: forwards;
+        -o-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+    }
+    .border_animation_right_m_converse .border_animation_icon{
         display: flex;
         max-width: var(--border_animation_icon_max_width);
         width: 100%;
@@ -116,8 +219,34 @@
         left: calc(var(--border_animation_icon_max_width) / -2);
         bottom: 50%;
         z-index: 101;
+        -webkit-animation-name: icon_move_right_converse;
+        -moz-animation-name: icon_move_right_converse;
+        -o-animation-name: icon_move_right_converse;
+        animation-name: icon_move_right_converse;
+        -webkit-animation-duration: 1.8s;
+        -moz-animation-duration: 1.8s;
+        -o-animation-duration: 1.8s;
+        animation-duration: 1.8s;
+        -webkit-animation-fill-mode: forwards;
+        -moz-animation-fill-mode: forwards;
+        -o-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
     }
-    .border_animation_left.border_animation_left_m_converse .border_animation_icon{
+    .border_animation_right_m_converse:hover .border_animation_icon{
+        -webkit-animation-name: icon_move_right;
+        -moz-animation-name: icon_move_right;
+        -o-animation-name: icon_move_right;
+        animation-name: icon_move_right;
+        -webkit-animation-duration: 1.8s;
+        -moz-animation-duration: 1.8s;
+        -o-animation-duration: 1.8s;
+        animation-duration: 1.8s;
+        -webkit-animation-fill-mode: forwards;
+        -moz-animation-fill-mode: forwards;
+        -o-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+    }
+    .border_animation_left_m_converse .border_animation_icon{
         display: flex;
         max-width: var(--border_animation_icon_max_width);
         width: 100%;
@@ -126,6 +255,32 @@
         right: calc(var(--border_animation_icon_max_width) / -2);
         bottom: 50%;
         z-index: 101;
+        -webkit-animation-name: icon_move_left_converse;
+        -moz-animation-name: icon_move_left_converse;
+        -o-animation-name: icon_move_left_converse;
+        animation-name: icon_move_left_converse;
+        -webkit-animation-duration: 1.8s;
+        -moz-animation-duration: 1.8s;
+        -o-animation-duration: 1.8s;
+        animation-duration: 1.8s;
+        -webkit-animation-fill-mode: forwards;
+        -moz-animation-fill-mode: forwards;
+        -o-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+    }
+    .border_animation_left_m_converse:hover .border_animation_icon{
+        -webkit-animation-name: icon_move_left;
+        -moz-animation-name: icon_move_left;
+        -o-animation-name: icon_move_left;
+        animation-name: icon_move_left;
+        -webkit-animation-duration: 1.8s;
+        -moz-animation-duration: 1.8s;
+        -o-animation-duration: 1.8s;
+        animation-duration: 1.8s;
+        -webkit-animation-fill-mode: forwards;
+        -moz-animation-fill-mode: forwards;
+        -o-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
     }
 }
 @keyframes icon_move_right {
@@ -170,6 +325,50 @@
     100% {
         left: calc(var(--border_animation_icon_max_width) / -2);
         bottom: 50%;
+    }
+}
+@keyframes icon_move_left_converse {
+    0% {
+        bottom: 50%;
+        right: calc(100% + var(--border_animation_icon_max_width) / -2);
+    }
+    25% {
+        bottom: calc(100% + var(--border_animation_icon_max_width) / -4);
+        right: calc(100% + var(--border_animation_icon_max_width) / -2);
+    }
+    50% {
+        bottom: calc(100% + var(--border_animation_icon_max_width) / -4);
+        right: calc(var(--border_animation_icon_max_width) / -2);
+    }
+    75% {
+        right: calc(var(--border_animation_icon_max_width) / -2);
+        bottom: 50%;
+    }
+    100% {
+        right: calc(var(--border_animation_icon_max_width) / -2);
+        bottom: 50%;
+    }
+}
+@keyframes icon_move_left {
+    0% {
+        right: calc(var(--border_animation_icon_max_width) / -2);
+        bottom: 50%;
+    }
+    25% {
+        bottom: calc(100% + var(--border_animation_icon_max_width) / -4);
+        right: calc(var(--border_animation_icon_max_width) / -2);
+    }
+    50% {
+        bottom: calc(100% + var(--border_animation_icon_max_width) / -4);
+        right: calc(100% + var(--border_animation_icon_max_width) / -2);
+    }
+    75% {
+        bottom: 50%;
+        right: calc(100% + var(--border_animation_icon_max_width) / -2);
+    }
+    100% {
+        bottom: 50%;
+        right: calc(100% + var(--border_animation_icon_max_width) / -2);
     }
 }
 

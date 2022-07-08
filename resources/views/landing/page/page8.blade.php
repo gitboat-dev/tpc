@@ -274,7 +274,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-6 col-sm-6 col-md-3 p-0 d-flex border_animation border_animation_left border_animation_left_m_converse dty">
+                <div class="col-xs-6 col-sm-6 col-md-3 p-0 d-flex border_animation border_animation_left_m_converse dty">
                     <div class="border_animation_icon">
                         <div class="border_icon">
                             <picture>
@@ -317,7 +317,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-6 col-sm-6 col-md-3 p-0 d-flex border_animation border_animation_left border_animation_left_m_converse ty">
+                <div class="col-xs-6 col-sm-6 col-md-3 p-0 d-flex border_animation border_animation_left_m_converse ty">
                     <div class="border_animation_icon">
                         <div class="border_icon">
                             <picture>
@@ -439,7 +439,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-6 col-sm-6 col-md-3 p-0 d-flex border_animation border_animation_left border_animation_left_m_converse ring">
+                <div class="col-xs-6 col-sm-6 col-md-3 p-0 d-flex border_animation border_animation_left_m_converse ring">
                     <div class="border_animation_icon">
                         <div class="border_icon">
                             <picture>
@@ -478,7 +478,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-6 col-sm-6 col-md-3 p-0 d-flex border_animation border_animation_left border_animation_left_m_converse oe">
+                <div class="col-xs-6 col-sm-6 col-md-3 p-0 d-flex border_animation border_animation_left_m_converse oe">
                     <div class="border_animation_icon">
                         <div class="border_icon">
                             <picture>
