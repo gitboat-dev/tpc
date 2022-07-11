@@ -10,6 +10,9 @@ body{
 .wins{
     --wins-background:#ffffffc8 !important;
 }
+#landing{
+    overflow: hidden;
+}
 
 /* end all setting */
 
