@@ -6,6 +6,7 @@
     <link rel="preload stylesheet" href="/css/landing/window_slide/wins.min.css?v={{time()}}" as="style" crossorigin>
     <link rel="stylesheet" id="fancybox-css" href="{!!asset('/assets/custom/wp-content/plugins/radiantthemes-addons/assets/css/jquery.fancybox.min.css?ver=4.9.11')!!}" type="text/css" media="all">
 @endsection
+@section('og-image','/assets/images/landing/page8/desktop/polyester-Knitting-mills-Thaipolyester.webp')
 @section('content')
 <div id="landing">
     <section id="sec1" class="pos-r">
@@ -193,8 +194,8 @@
                         <div class="border_animation_icon">
                             <div class="border_icon">
                                 <picture>
-                                    <source srcset="\assets\images\landing\page8\mobile\ICON-1.webp" media="(max-width: 640px)">
-                                    <img src="\assets\images\landing\page8\desktop\ICON-1.webp" alt="POY" width="900" height="350" class="img-fluid" loading="lazy">
+                                    <source srcset="/assets/images/landing/page8/mobile/ICON-1.webp" media="(max-width: 640px)">
+                                    <img src="/assets/images/landing/page8/desktop/ICON-1.webp" alt="POY" width="900" height="350" class="img-fluid" loading="lazy">
                                 </picture>
                             </div>
                         </div>
@@ -237,8 +238,8 @@
                         <div class="border_animation_icon">
                             <div class="border_icon">
                                 <picture>
-                                    <source srcset="\assets\images\landing\page8\mobile\ICON-1.webp" media="(max-width: 640px)">
-                                    <img src="\assets\images\landing\page8\desktop\ICON-1.webp" alt="FDY" width="900" height="350" class="img-fluid" loading="lazy">
+                                    <source srcset="/assets/images/landing/page8/mobile/ICON-1.webp" media="(max-width: 640px)">
+                                    <img src="/assets/images/landing/page8/desktop/ICON-1.webp" alt="FDY" width="900" height="350" class="img-fluid" loading="lazy">
                                 </picture>
                             </div>
                         </div>
@@ -283,8 +284,8 @@
                         <div class="border_animation_icon">
                             <div class="border_icon">
                                 <picture>
-                                    <source srcset="\assets\images\landing\page8\mobile\ICON-2.webp" media="(max-width: 640px)">
-                                    <img src="\assets\images\landing\page8\desktop\ICON-2.webp" alt="DTY" width="900" height="350" class="img-fluid" loading="lazy">
+                                    <source srcset="/assets/images/landing/page8/mobile/ICON-2.webp" media="(max-width: 640px)">
+                                    <img src="/assets/images/landing/page8/desktop/ICON-2.webp" alt="DTY" width="900" height="350" class="img-fluid" loading="lazy">
                                 </picture>
                             </div>
                         </div>
@@ -328,8 +329,8 @@
                         <div class="border_animation_icon">
                             <div class="border_icon">
                                 <picture>
-                                    <source srcset="\assets\images\landing\page8\mobile\ICON-4.webp" media="(max-width: 640px)">
-                                    <img src="\assets\images\landing\page8\desktop\ICON-4.webp" alt="Twisted yarn" width="900" height="350" class="img-fluid" loading="lazy">
+                                    <source srcset="/assets/images/landing/page8/mobile/ICON-4.webp" media="(max-width: 640px)">
+                                    <img src="/assets/images/landing/page8/desktop/ICON-4.webp" alt="Twisted yarn" width="900" height="350" class="img-fluid" loading="lazy">
                                 </picture>
                             </div>
                         </div>
@@ -369,8 +370,8 @@
                         <div class="border_animation_icon">
                             <div class="border_icon">
                                 <picture>
-                                    <source srcset="\assets\images\landing\page8\mobile\ICON-1.webp" media="(max-width: 640px)">
-                                    <img src="\assets\images\landing\page8\desktop\ICON-1.webp" alt="Dope Dyed Black" width="900" height="350" class="img-fluid" loading="lazy">
+                                    <source srcset="/assets/images/landing/page8/mobile/ICON-1.webp" media="(max-width: 640px)">
+                                    <img src="/assets/images/landing/page8/desktop/ICON-1.webp" alt="Dope Dyed Black" width="900" height="350" class="img-fluid" loading="lazy">
                                 </picture>
                             </div>
                         </div>
@@ -413,8 +414,8 @@
                         <div class="border_animation_icon">
                             <div class="border_icon">
                                 <picture>
-                                    <source srcset="\assets\images\landing\page8\mobile\ICON-5.webp" media="(max-width: 640px)">
-                                    <img src="\assets\images\landing\page8\desktop\ICON-5.webp" alt="PSF" width="900" height="350" class="img-fluid" loading="lazy">
+                                    <source srcset="/assets/images/landing/page8/mobile/ICON-5.webp" media="(max-width: 640px)">
+                                    <img src="/assets/images/landing/page8/desktop/ICON-5.webp" alt="PSF" width="900" height="350" class="img-fluid" loading="lazy">
                                 </picture>
                             </div>
                         </div>
@@ -456,8 +457,8 @@
                         <div class="border_animation_icon">
                             <div class="border_icon">
                                 <picture>
-                                    <source srcset="\assets\images\landing\page8\mobile\ICON-3.webp" media="(max-width: 640px)">
-                                    <img src="\assets\images\landing\page8\desktop\ICON-3.webp" alt="PSF" width="900" height="350" class="img-fluid" loading="lazy">
+                                    <source srcset="/assets/images/landing/page8/mobile/ICON-3.webp" media="(max-width: 640px)">
+                                    <img src="/assets/images/landing/page8/desktop/ICON-3.webp" alt="PSF" width="900" height="350" class="img-fluid" loading="lazy">
                                 </picture>
                             </div>
                         </div>
@@ -497,8 +498,8 @@
                         <div class="border_animation_icon">
                             <div class="border_icon">
                                 <picture>
-                                    <source srcset="\assets\images\landing\page8\mobile\ICON-3.webp" media="(max-width: 640px)">
-                                    <img src="\assets\images\landing\page8\desktop\ICON-3.webp" alt="OE spun" width="900" height="350" class="img-fluid" loading="lazy">
+                                    <source srcset="/assets/images/landing/page8/mobile/ICON-3.webp" media="(max-width: 640px)">
+                                    <img src="/assets/images/landing/page8/desktop/ICON-3.webp" alt="OE spun" width="900" height="350" class="img-fluid" loading="lazy">
                                 </picture>
                             </div>
                         </div>
