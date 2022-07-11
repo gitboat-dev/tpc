@@ -1,6 +1,6 @@
 @extends('landing.template')
 @section('style')
-    <link rel="preload stylesheet" href="/css/landing/page/page8.min.css?v={{time()}}" as="style" crossorigin>
+    <link rel="preload stylesheet" href="/css/landing/page/page8.css?v={{time()}}" as="style" crossorigin>
     <link rel="preload stylesheet"  href="/lib/owlcarousel/assets/owl.carousel.min.css" as="style" crossorigin>
     <link rel="preload stylesheet" href="/css/landing/border_hover_animation/border_animation.min.css?v={{time()}}" as="style" crossorigin>
     <link rel="preload stylesheet" href="/css/landing/window_slide/wins.min.css?v={{time()}}" as="style" crossorigin>
@@ -548,7 +548,7 @@
                     <div class="container">
                         <div class="row m-0">
                             <div class="col-xs-12 col-sm-12 col-md-12">
-                                <h2 class="text-center fw-bold sec5-title">
+                                <h2 class="text-center sec5-title">
                                     We Guarantee!
                                 </h2>
                             </div>
@@ -568,7 +568,7 @@
                                 <div class="col-xs-12 col-sm-9 col-md-10 p-0 d-flex m-auto">
                                     <div class="content ml-0">
                                         <div class="content_group">
-                                            <h2 class="fw-bold sec5-title">Spinning mills</h2>
+                                            <h2 class="sec5-title">Spinning mills</h2>
                                             <h3 class="sec5-sub-title">
                                                 - High efficiency<br>
                                                 - Yarn strength<br>
@@ -594,7 +594,7 @@
                                 <div class="col-xs-12 col-sm-9 col-md-10 p-0 d-flex m-auto">
                                     <div class="content ml-0">
                                         <div class="content_group">
-                                            <h2 class="fw-bold sec5-title">Knitting mills</h2>
+                                            <h2 class="sec5-title">Knitting mills</h2>
                                             <h3 class="sec5-sub-title">
                                                 - Dying consistency<br>
                                                 - Dyeing ability<br>
