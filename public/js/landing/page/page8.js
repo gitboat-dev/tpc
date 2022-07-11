@@ -49,7 +49,7 @@ $(document).ready(function(){
                                         msg = '<div class="alert alert-success"><strong>Thank you!</strong> '+ea.message+' <span class="c"></span></div>';
                                         res.html(msg);
                                         f.resetForm();
-                                        c(15,res.find('.alert'));
+                                        // c(15,res.find('.alert'));
                                         thank_you();
                                     }else if(ea.status == 'error'){
                                         msg = '<div class="alert alert-danger"><strong>Error!</strong> '+ea.message+'</div>';
