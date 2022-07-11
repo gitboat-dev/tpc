@@ -414,8 +414,8 @@
                         <div class="border_animation_icon">
                             <div class="border_icon">
                                 <picture>
-                                    <source srcset="/assets/images/landing/page8/mobile/ICON-5.webp" media="(max-width: 640px)">
-                                    <img src="/assets/images/landing/page8/desktop/ICON-5.webp" alt="PSF" width="900" height="350" class="img-fluid" loading="lazy">
+                                    <source srcset="/assets/images/landing/page8/mobile/Icon-5.webp" media="(max-width: 640px)">
+                                    <img src="/assets/images/landing/page8/desktop/Icon-5.webp" alt="PSF" width="900" height="350" class="img-fluid" loading="lazy">
                                 </picture>
                             </div>
                         </div>
