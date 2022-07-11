@@ -1,8 +1,8 @@
 @extends('landing.template')
 @section('style')
-    <link rel="preload stylesheet" href="/css/landing/page/page8.css?v={{time()}}" as="style" crossorigin>
+    <link rel="preload stylesheet" href="/css/landing/page/page8.min.css?v={{time()}}" as="style" crossorigin>
     <link rel="preload stylesheet"  href="/lib/owlcarousel/assets/owl.carousel.min.css" as="style" crossorigin>
-    <link rel="preload stylesheet" href="/css/landing/border_hover_animation/border_animation.css?v={{time()}}" as="style" crossorigin>
+    <link rel="preload stylesheet" href="/css/landing/border_hover_animation/border_animation.min.css?v={{time()}}" as="style" crossorigin>
     <link rel="preload stylesheet" href="/css/landing/window_slide/wins.min.css?v={{time()}}" as="style" crossorigin>
     <link rel="stylesheet" id="fancybox-css" href="{!!asset('/assets/custom/wp-content/plugins/radiantthemes-addons/assets/css/jquery.fancybox.min.css?ver=4.9.11')!!}" type="text/css" media="all">
 @endsection
@@ -1059,6 +1059,6 @@
 @section('script')
 <script src="/lib/jquery-on-scrolled-to/on-scrolled-to.min.js"></script>
 <script src="/lib/owlcarousel/owl.carousel.min.js"></script>
-<script src="/js/landing/page/page8.js?v={{time()}}"></script>
+<script src="/js/landing/page/page8.min.js?v={{time()}}"></script>
 <script src="/assets/custom/wp-content/plugins/radiantthemes-addons/assets/js/jquery.fancybox.min.js?v={{time()}}"></script>
 @endsection
