@@ -9,6 +9,13 @@ $(document).ready(function(){
     $('#sec6').onScrolledTo(0,function(){
         slide_sec6();
 	});
+    $('.border_animation').mouseenter(function(){
+        $(this).addClass('border_animation_active');
+    }).mouseleave(function(){
+        setTimeout(() => {
+            $(this).removeClass('border_animation_active');
+        }, 1500);
+    });
 });
 function text_slide(row){
     let block = $(row+" .text-slide-block"),

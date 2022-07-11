@@ -44,8 +44,8 @@
     z-index: 101;
     transition: height 0.5s linear 0.8s;
 }
-.border_animation_left_m_converse:hover::after,
-.border_animation_left:hover::after {
+.border_animation_left_m_converse.border_animation_active::after,
+.border_animation_left.border_animation_active::after {
     height: calc(100% + var(--border-width-top));
     transition: height 0.5s linear 0.8s;
 }
@@ -71,13 +71,13 @@
     background-color: var(--border-color-top);
     transition: width 0.5s linear 0.3s;
 }
-.border_animation_left_m_converse:hover .border_animation_tb::before,
-.border_animation_left:hover .border_animation_tb::before{
+.border_animation_left_m_converse.border_animation_active .border_animation_tb::before,
+.border_animation_left.border_animation_active .border_animation_tb::before{
     width: calc(100% + var(--border-width-right));
     transition: width 0.5s linear 0.4s;
 }
-.border_animation_left_m_converse:hover .border_animation_tb::after,
-.border_animation_left:hover .border_animation_tb::after{
+.border_animation_left_m_converse.border_animation_active .border_animation_tb::after,
+.border_animation_left.border_animation_active .border_animation_tb::after{
     width: calc(100% + var(--border-width-right));
     transition: width 0.5s linear 1.4s;
 }
@@ -117,8 +117,8 @@
     z-index: 101;
     transition: height 0.5s linear 0.8s;
 }
-.border_animation_right_m_converse:hover::after,
-.border_animation_right:hover::after {
+.border_animation_right_m_converse.border_animation_active::after,
+.border_animation_right.border_animation_active::after {
     height: calc(100% + var(--border-width-top));
     transition: height 0.5s linear 0.8s;
 }
@@ -144,13 +144,13 @@
     background-color: var(--border-color-top);
     transition: width 0.5s linear 0.4s;
 }
-.border_animation_right_m_converse:hover .border_animation_tb::before,
-.border_animation_right:hover .border_animation_tb::before{
+.border_animation_right_m_converse.border_animation_active .border_animation_tb::before,
+.border_animation_right.border_animation_active .border_animation_tb::before{
     width: calc(100% + var(--border-width-right));
     transition: width 0.5s linear 0.4s;
 }
-.border_animation_right_m_converse:hover .border_animation_tb::after,
-.border_animation_right:hover .border_animation_tb::after{
+.border_animation_right_m_converse.border_animation_active .border_animation_tb::after,
+.border_animation_right.border_animation_active .border_animation_tb::after{
     width: calc(100% + var(--border-width-right));
     transition: width 0.5s linear 1.4s;
 }
@@ -170,16 +170,16 @@
     .border_animation_left .border_animation_icon{
         animation: icon_move_right_converse 1.8s linear 0s 1 normal forwards;
     }
-    .border_animation_left_m_converse:hover .border_animation_icon,
-    .border_animation_left:hover .border_animation_icon{
+    .border_animation_left_m_converse.border_animation_active .border_animation_icon,
+    .border_animation_left.border_animation_active .border_animation_icon{
         animation: icon_move_right 2.2s linear 0s 1 normal forwards;
     }
     .border_animation_right_m_converse .border_animation_icon,
     .border_animation_right .border_animation_icon{
         animation: icon_move_left_converse 1.8s linear 0s 1 normal forwards;
     }
-    .border_animation_right_m_converse:hover .border_animation_icon,
-    .border_animation_right:hover .border_animation_icon{
+    .border_animation_right_m_converse.border_animation_active .border_animation_icon,
+    .border_animation_right.border_animation_active .border_animation_icon{
         animation: icon_move_left 2.2s linear 0s 1 normal forwards;
     }
 }
@@ -201,7 +201,7 @@
         left: calc(var(--border-width-left) / -2);
         right: unset;
     }
-    .border_animation_left_m_converse:hover::after{
+    .border_animation_left_m_converse.border_animation_active::after{
         transition: height 0.5s linear 0.8s;
     }
     .border_animation_left_m_converse .border_animation_icon{
@@ -210,14 +210,14 @@
         z-index: 102;
         animation: icon_move_left_converse 1.8s ease 0s 1 normal forwards;
     }
-    .border_animation_left_m_converse:hover .border_animation_icon{
+    .border_animation_left_m_converse.border_animation_active .border_animation_icon{
         animation: icon_move_left 1.8s ease 0s 1 normal forwards;
     }
 
     .border_animation_left .border_animation_icon{
         animation: icon_move_right_converse 1.8s linear 0s 1 normal forwards;
     }
-    .border_animation_left:hover .border_animation_icon{
+    .border_animation_left.border_animation_active .border_animation_icon{
         animation: icon_move_right 1.8s linear 0s 1 normal forwards;
     }
     .border_animation_right_m_converse::before{
@@ -243,13 +243,13 @@
         z-index: 102;
         animation: icon_move_right_converse 1.8s ease 0s 1 normal forwards;
     }
-    .border_animation_right_m_converse:hover .border_animation_icon{
+    .border_animation_right_m_converse.border_animation_active .border_animation_icon{
         animation: icon_move_right 1.8s ease 0s 1 normal forwards;
     }
     .border_animation_right .border_animation_icon{
         animation: icon_move_left_converse 1.8s linear 0s 1 normal forwards;
     }
-    .border_animation_right:hover .border_animation_icon{
+    .border_animation_right.border_animation_active .border_animation_icon{
         animation: icon_move_left 1.8s linear 0s 1 normal forwards;
     }
 }
