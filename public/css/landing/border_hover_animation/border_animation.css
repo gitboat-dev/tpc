@@ -92,7 +92,6 @@
     bottom: 50%;
     z-index: 102;
 }
-
 .border_animation_right_m_converse::before,
 .border_animation_right::before{
     content: " ";
@@ -101,12 +100,30 @@
     left: unset;
     bottom: 0;
     height: 100%;
-    width: var(--border-width-left);
-    background-color: var(--border-color-left);
+    width: var(--border-width-right);
+    background-color: var(--border-color-right);
     z-index: 100;
 }
-.border_animation_right_m_converse .border_animation_icon::before,
-.border_animation_right .border_animation_icon::before{
+.border_animation_right_m_converse::after,
+.border_animation_right::after{
+    content: " ";
+    position: absolute;
+    left: calc(var(--border-left) / -1);
+    right: unset;
+    top: 0;
+    height: 0;
+    width: var(--border-width-left);
+    background-color: var(--border-color-left);
+    z-index: 101;
+    transition: height 0.5s linear 0.8s;
+}
+.border_animation_right_m_converse:hover::after,
+.border_animation_right:hover::after {
+    height: calc(100% + var(--border-width-top));
+    transition: height 0.5s linear 0.8s;
+}
+.border_animation_right_m_converse .border_animation_tb::before,
+.border_animation_right .border_animation_tb::before{
     content: " ";
     position: absolute;
     top: calc(var(--border-width-top) / -1);
@@ -114,10 +131,10 @@
     height: var(--border-width-top);
     width: 0;
     background-color: var(--border-color-top);
-    transition: width 0.8s linear 0.8s;
+    transition: width 0.5s linear 1.4s;
 }
-.border_animation_right_m_converse .border_animation_icon::after,
-.border_animation_right .border_animation_icon::after{
+.border_animation_right_m_converse .border_animation_tb::after,
+.border_animation_right .border_animation_tb::after{
     content: " ";
     position: absolute;
     bottom: calc(var(--border-width-top) / -1);
@@ -125,22 +142,18 @@
     height: var(--border-width-top);
     width: 0;
     background-color: var(--border-color-top);
-    transition: width 0.8s linear 2.4s;
+    transition: width 0.5s linear 0.4s;
 }
-
-
-
-.border_animation_rigth_m_converse:hover .border_animation_tb::before,
-.border_animation_rigth:hover .border_animation_tb::before{
+.border_animation_right_m_converse:hover .border_animation_tb::before,
+.border_animation_right:hover .border_animation_tb::before{
     width: calc(100% + var(--border-width-right));
-    transition: width 0.8s linear 0.2s;
+    transition: width 0.5s linear 0.4s;
 }
-.border_animation_rigth_m_converse:hover .border_animation_tb::after,
-.border_animation_rigth:hover .border_animation_tb::after{
+.border_animation_right_m_converse:hover .border_animation_tb::after,
+.border_animation_right:hover .border_animation_tb::after{
     width: calc(100% + var(--border-width-right));
-    transition: width 0.8s linear 0.6s;
+    transition: width 0.5s linear 1.4s;
 }
-
 .border_animation_right_m_converse .border_animation_icon,
 .border_animation_right .border_animation_icon{
     display: flex;
@@ -179,14 +192,14 @@
         right: calc(var(--border-width-left) / -2);
         left: unset;
     }
-    .border_animation_left_m_converse .border_animation_tb::after{
-        left: calc(var(--border-width-left) / -2);
-        right: unset;
-    }
     .border_animation_left_m_converse::after{
         left: calc(var(--border-left) / -1) ;
         right: unset;
         bottom: 0;
+    }
+    .border_animation_left_m_converse .border_animation_tb::after{
+        left: calc(var(--border-width-left) / -2);
+        right: unset;
     }
     .border_animation_left_m_converse:hover::after{
         transition: height 0.5s linear 0.8s;
@@ -200,32 +213,44 @@
     .border_animation_left_m_converse:hover .border_animation_icon{
         animation: icon_move_left 1.8s ease 0s 1 normal forwards;
     }
+
     .border_animation_left .border_animation_icon{
         animation: icon_move_right_converse 1.8s linear 0s 1 normal forwards;
     }
     .border_animation_left:hover .border_animation_icon{
         animation: icon_move_right 1.8s linear 0s 1 normal forwards;
     }
-
-
     .border_animation_right_m_converse::before{
         left: calc(var(--border-left) / -1);
         right: unset;
+    }
+    .border_animation_right_m_converse .border_animation_tb::before{
+        left: calc(var(--border-width-left) / -2);
+        right: unset;
+    }
+    .border_animation_right_m_converse::after{
+        right: calc(var(--border-left) / -1) ;
+        left: unset;
+        bottom: 0;
+    }
+    .border_animation_right_m_converse .border_animation_tb::after{
+        right: calc(var(--border-width-left) / -2);
+        left: unset;
+    }
+    .border_animation_right_m_converse .border_animation_icon{
+        right: unset;
+        left: calc(var(--border_animation_icon_max_width) / -2);
+        z-index: 102;
+        animation: icon_move_right_converse 1.8s ease 0s 1 normal forwards;
+    }
+    .border_animation_right_m_converse:hover .border_animation_icon{
+        animation: icon_move_right 1.8s ease 0s 1 normal forwards;
     }
     .border_animation_right .border_animation_icon{
         animation: icon_move_left_converse 1.8s linear 0s 1 normal forwards;
     }
     .border_animation_right:hover .border_animation_icon{
         animation: icon_move_left 1.8s linear 0s 1 normal forwards;
-    }
-    .border_animation_right_m_converse .border_animation_icon{
-        right: unset;
-        left: calc(var(--border_animation_icon_max_width) / -2);
-        z-index: 101;
-        animation: icon_move_right_converse 1.8s ease 0s 1 normal forwards;
-    }
-    .border_animation_right_m_converse:hover .border_animation_icon{
-        animation: icon_move_right 1.8s ease 0s 1 normal forwards;
     }
 }
 @keyframes icon_move_right {
