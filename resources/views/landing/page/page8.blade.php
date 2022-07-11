@@ -53,8 +53,8 @@
                             Here’s a thing you have been dealing with
                         </span>
                     </h2>
-                    <h3 class="text-center fw-bold theme-hl">Low Consistency?</h3>
-                    <h3 class="text-center fw-bold theme-hl">Low Yarn Quality?</h3>
+                    <h3 class="text-center fw-bold theme-hl sec2-sub-title">Low Consistency?</h3>
+                    <h3 class="text-center fw-bold theme-hl sec2-sub-title">Low Yarn Quality?</h3>
                 </div>
             </div>
         </div>
