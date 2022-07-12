@@ -199,48 +199,56 @@ body{
     --sliding-border-color-bottom: var(--msBg);
     --sliding-border-color-left: var(--msBg);
     --sliding-border-color-right: var(--msBg);
+    --sliding-head-line-color: var(--msBg);
 }
 #sec4 .sliding_door.fdy{
     --sliding-border-color-top: var(--msBgRed);
     --sliding-border-color-bottom: var(--msBgRed);
     --sliding-border-color-left: var(--msBgRed);
     --sliding-border-color-right: var(--msBgRed);
+    --sliding-head-line-color: var(--msBgRed);
 }
 #sec4 .sliding_door.dty{
     --sliding-border-color-top: var(--msBgNavy);
     --sliding-border-color-bottom: var(--msBgNavy);
     --sliding-border-color-left: var(--msBgNavy);
     --sliding-border-color-right: var(--msBgNavy);
+    --sliding-head-line-color: var(--msBgNavy);
 }
 #sec4 .sliding_door.ty{
     --sliding-border-color-top: var(--msBgGreen2);
     --sliding-border-color-bottom: var(--msBgGreen2);
     --sliding-border-color-left: var(--msBgGreen2);
     --sliding-border-color-right: var(--msBgGreen2);
+    --sliding-head-line-color: var(--msBgGreen2);
 }
 #sec4 .sliding_door.ddb{
     --sliding-border-color-top: var(--msBgOrange);
     --sliding-border-color-bottom: var(--msBgOrange);
     --sliding-border-color-left: var(--msBgOrange);
     --sliding-border-color-right: var(--msBgOrange);
+    --sliding-head-line-color: var(--msBgOrange);
 }
 #sec4 .sliding_door.psf{
     --sliding-border-color-top: var(--msBgDark);
     --sliding-border-color-bottom: var(--msBgDark);
     --sliding-border-color-left: var(--msBgDark);
     --sliding-border-color-right: var(--msBgDark);
+    --sliding-head-line-color: var(--msBgDark);
 }
 #sec4 .sliding_door.ring{
     --sliding-border-color-top: var(--msBgPurple);
     --sliding-border-color-bottom: var(--msBgPurple);
     --sliding-border-color-left: var(--msBgPurple);
     --sliding-border-color-right: var(--msBgPurple);
+    --sliding-head-line-color: var(--msBgPurple);
 }
 #sec4 .sliding_door.oe{
     --sliding-border-color-top: var(--msBgSeaGreen);
     --sliding-border-color-bottom: var(--msBgSeaGreen);
     --sliding-border-color-left: var(--msBgSeaGreen);
     --sliding-border-color-right: var(--msBgSeaGreen);
+    --sliding-head-line-color: var(--msBgSeaGreen);
 }
 
 /* end sec4 */

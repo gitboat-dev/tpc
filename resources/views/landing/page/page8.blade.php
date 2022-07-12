@@ -2,8 +2,7 @@
 @section('style')
     <link rel="preload stylesheet" href="/css/landing/page/page8.min.css?v={{time()}}" as="style" crossorigin>
     <link rel="preload stylesheet"  href="/lib/owlcarousel/assets/owl.carousel.min.css" as="style" crossorigin>
-    <link rel="preload stylesheet" href="/css/landing/sliding_door/sliding_door.css?v={{time()}}" as="style" crossorigin>
-    {{-- <link rel="preload stylesheet" href="/css/landing/window_slide/wins.min.css?v={{time()}}" as="style" crossorigin> --}}
+    <link rel="preload stylesheet" href="/css/landing/sliding_door/sliding_door.min.css?v={{time()}}" as="style" crossorigin>
     <link rel="stylesheet" id="fancybox-css" href="{!!asset('/assets/custom/wp-content/plugins/radiantthemes-addons/assets/css/jquery.fancybox.min.css?ver=4.9.11')!!}" type="text/css" media="all">
 @endsection
 @section('og-image','/assets/images/landing/page8/desktop/polyester-Knitting-mills-Thaipolyester.webp')
