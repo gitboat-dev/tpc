@@ -1,5 +1,5 @@
 body{
-    --sec2-padding:40px 0;
+    --sec2-padding:40px 0 20px;
     --sec3-padding:20px 0;
     --sec4-padding:20px 0 40px;
     --sec4-min-height:350px;
@@ -84,10 +84,10 @@ body{
     line-height: 100% !important;
     font-weight: 600 !important;
     width: fit-content;
-    -webkit-transition: all 1s;
-    -moz-transition: all 1s;
-    -o-transition: all 1s;
-    transition: all 1s;
+    -webkit-transition: all 0.25s;
+    -moz-transition: all 0.25s;
+    -o-transition: all 0.25s;
+    transition: all 0.25s;
 }
 #sec3 .owl-nav > .owl-prev {
     display: flex;
@@ -491,8 +491,8 @@ body{
         line-height: 100px !important;
     }
     #sec5 .sec5-sub-title{
-        font-size: 50px !important;
-        line-height: 50px !important;
+        font-size: 45px !important;
+        line-height: 45px !important;
     }
 }
 @media only screen and (min-width: 1400px){
@@ -521,7 +521,7 @@ body{
     /* end sec2 */
 
     #sec3 .sec3-title{
-        font-size: 95px !important;
+        font-size: 120px !important;
         line-height: 100% !important;
         width: fit-content;
     }
@@ -533,8 +533,8 @@ body{
         line-height: 120px !important;
     }
     #sec5 .sec5-sub-title{
-        font-size: 60px !important;
-        line-height: 60px !important;
+        font-size: 55px !important;
+        line-height: 55px !important;
     }
 }
 @media only screen and (min-width: 1600px){
@@ -561,8 +561,8 @@ body{
         line-height: 140px !important;
     }
     #sec5 .sec5-sub-title{
-        font-size: 70px !important;
-        line-height: 70px !important;
+        font-size: 65px !important;
+        line-height: 65px !important;
     }
 }
 @media only screen and (max-width: 991px){

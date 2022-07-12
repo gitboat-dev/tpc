@@ -4,7 +4,6 @@ let inqbg="TPC",
 	inqhas="xyz";
 $(document).ready(function(){
     $('#sec3').onScrolledTo(0,function(){
-        text_slide('#sec3');
         slide_sec3();
 	});
     $('#sec5').onScrolledTo(0,function(){
@@ -72,7 +71,7 @@ function text_slide(row){
         time = block.attr('data-time'),
         message_width = message.outerWidth();
         percent = 0;
-    setInterval(() => {
+    // setInterval(() => {
         if($(window).width() > 991){
             current = parseInt(block.attr('data-current')) + 1;
             percent = (parseInt(block.attr('data-current')) * 2) * 10;
@@ -98,7 +97,7 @@ function text_slide(row){
                 "margin":"auto",
             });
         }
-    }, time);
+    // }, time);
 }
 function slide_sec3(){
     $('#sec3 .slide .owl-carousel').owlCarousel({
@@ -128,10 +127,22 @@ function slide_sec3(){
             }
         },
         onInitialized: counter,
-        onTranslated: counter,
+        onTranslated: counter2,
     });
 }
 function counter(event){
+    var slide = $('#sec3 .slide .owl-carousel');
+    slide.each(function() {
+        $(this).find('.owl-item').find('.slide-content').removeClass('active');
+        $(this).find('.owl-item.active').each(function(index) {
+            if (index === 0) {
+                $(this).find('.slide-content').addClass('active');
+            }
+        });
+    });
+}
+function counter2(event){
+    text_slide('#sec3');
     var slide = $('#sec3 .slide .owl-carousel');
     slide.each(function() {
         $(this).find('.owl-item').find('.slide-content').removeClass('active');
