@@ -71,6 +71,14 @@ body{
 #sec3{
     padding: var(--sec3-padding);
 }
+#sec3 .slide .slide-content{
+    opacity: 0;
+    transition: all 0.8s;
+}
+#sec3 .slide .slide-content.active{
+    opacity: 1;
+    transition: all 0.8s;
+}
 #sec3 .sec3-title{
     font-size: 100px !important;
     line-height: 100% !important;

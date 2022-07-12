@@ -103,7 +103,7 @@ function text_slide(row){
 function slide_sec3(){
     $('#sec3 .slide .owl-carousel').owlCarousel({
         lazyLoad:true,
-        loop:false,
+        loop:true,
         autoplay:true,
         autoplayTimeout:5000,
         autoplayHoverPause:true,
@@ -126,7 +126,20 @@ function slide_sec3(){
                 items:2,
                 stagePadding: 100,
             }
-        }
+        },
+        onInitialized: counter,
+        onTranslated: counter,
+    });
+}
+function counter(event){
+    var slide = $('#sec3 .slide .owl-carousel');
+    slide.each(function() {
+        $(this).find('.owl-item').find('.slide-content').removeClass('active');
+        $(this).find('.owl-item.active').each(function(index) {
+            if (index === 0) {
+                $(this).find('.slide-content').addClass('active');
+            }
+        });
     });
 }
 function slide_sec5(){
