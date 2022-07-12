@@ -170,29 +170,8 @@ body{
     border-bottom-color: transparent;
     border-top-color: transparent;
 }
-#sec4 .poy .wins{
-    --wins-header-border-bottom:3px solid var(--msBg);
-}
-#sec4 .fdy .wins{
-    --wins-header-border-bottom:3px solid var(--msBgRed);
-}
-#sec4 .dty .wins{
-    --wins-header-border-bottom:3px solid var(--msBgNavy);
-}
-#sec4 .ty .wins{
-    --wins-header-border-bottom:3px solid var(--msBgGreen2);
-}
-#sec4 .ddb .wins{
-    --wins-header-border-bottom:3px solid var(--msBgOrange);
-}
-#sec4 .psf .wins{
-    --wins-header-border-bottom:3px solid var(--msBgDark);
-}
-#sec4 .ring .wins{
-    --wins-header-border-bottom:3px solid var(--msBgPurple);
-}
-#sec4 .oe .wins{
-    --wins-header-border-bottom:3px solid var(--msBgSeaGreen);
+#sec4 .sliding_door:hover .caption{
+    color: transparent;
 }
 #sec4 .sliding_door.poy{
     --sliding-border-color-top: var(--msBg);
