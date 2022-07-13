@@ -198,7 +198,7 @@
                         </div>
                     </div>
                     <div class="sliding_door_container d-flex w-100p">
-                        <div class="sliding_block_right">
+                        <div class="sliding_block_right sliding_border_right_0 sliding_border_right_m_0">
                             <div class="sliding_header">
                                 <label class="m-0 fw-n">
                                     <span class="m-tl1">Partially Oriented Yarn – POY</span>
@@ -240,7 +240,7 @@
                         </div>
                     </div>
                     <div class="sliding_door_container d-flex w-100p">
-                        <div class="sliding_block_right">
+                        <div class="sliding_block_right sliding_border_right_0">
                             <div class="sliding_header">
                                 <label class="m-0 fw-n">
                                     <span class="m-tl1">Fully Drawn Yarn – FDY</span>
@@ -284,7 +284,7 @@
                         </div>
                     </div>
                     <div class="sliding_door_container d-flex w-100p">
-                        <div class="sliding_block_right_m_converse">
+                        <div class="sliding_block_right_m_converse sliding_border_right_0">
                             <div class="sliding_header">
                                 <label class="m-0 fw-n">
                                     <span class="m-tl1">Draw Textured Yarn – DTY</span>
@@ -327,7 +327,7 @@
                         </div>
                     </div>
                     <div class="sliding_door_container d-flex w-100p">
-                        <div class="sliding_block_right_m_converse">
+                        <div class="sliding_block_right_m_converse sliding_border_left_m_0">
                             <div class="sliding_header">
                                 <label class="m-0 fw-n">
                                     <span class="m-tl1">Twisted yarn</span>
@@ -366,7 +366,7 @@
                         </div>
                     </div>
                     <div class="sliding_door_container d-flex w-100p">
-                        <div class="sliding_block_right">
+                        <div class="sliding_block_right sliding_border_right_0 sliding_border_right_m_0">
                             <div class="sliding_header">
                                 <label class="m-0 fw-n">
                                     <span class="m-tl1">Dope Dyed Black</span>
@@ -408,7 +408,7 @@
                         </div>
                     </div>
                     <div class="sliding_door_container d-flex w-100p">
-                        <div class="sliding_block_right">
+                        <div class="sliding_block_right sliding_border_right_0">
                             <div class="sliding_header">
                                 <label class="m-0 fw-n">
                                     <span class="m-tl1">Polyester Staple Fiber – PSF</span>
@@ -492,7 +492,7 @@
                         </div>
                     </div>
                     <div class="sliding_door_container d-flex w-100p">
-                        <div class="sliding_block_right_m_converse">
+                        <div class="sliding_block_right_m_converse sliding_border_right_0">
                             <div class="sliding_header">
                                 <label class="m-0 fw-n">
                                     <span class="m-tl1">Ring spun</span>
@@ -531,7 +531,7 @@
                         </div>
                     </div>
                     <div class="sliding_door_container d-flex w-100p">
-                        <div class="sliding_block_right_m_converse">
+                        <div class="sliding_block_right_m_converse sliding_border_left_m_0">
                             <div class="sliding_header">
                                 <label class="m-0 fw-n">
                                     <span class="m-tl1">OE spun</span>
