@@ -161,6 +161,7 @@
         -o-transition: all var(--sliding-block-time);
         transition: all var(--sliding-block-time);
     }
+
     .sliding_door > .sliding_door_container > .sliding_block_right_m_converse{
         left: calc(100% - var(--sliding-left-dif));
         -webkit-transition: left var(--sliding-block-time);
@@ -169,7 +170,7 @@
         transition: left var(--sliding-block-time);
     }
     .sliding_door:hover > .sliding_door_container > .sliding_block_right_m_converse{
-        left: 0;
+        left: calc(var(--sliding-left-dif) * -1);
         -webkit-transition: left var(--sliding-block-time);
         -moz-transition: left var(--sliding-block-time);
         -o-transition: left var(--sliding-block-time);
