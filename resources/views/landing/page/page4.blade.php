@@ -896,7 +896,7 @@
                                     <span class="text-danger name mb-font12"></span>
                                 </div>
                                 <div class="form-group col-xs-12 col-sm-12 col-md-12">
-                                    <input type="text" class="form-control" name="company" id="company" placeholder="COMPANY">
+                                    <input type="text" class="form-control" name="company" id="company" placeholder="COMPANY*">
                                     <span class="text-danger company mb-font12"></span>
                                 </div>
                                 <div class="form-group col-xs-6 col-sm-6 col-md-6">
