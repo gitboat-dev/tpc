@@ -1,6 +1,6 @@
 @extends('layouts.template')
 @section('style')
-<link rel="preload stylesheet" href="/css/index2.css?v={{ time() }}" as="style" crossorigin>
+<link rel="preload stylesheet" href="/css/index2.css?v={{time()}}" as="style" crossorigin>
 @endsection
 @section('og-image','')
 @section('content')
