@@ -27,6 +27,7 @@
 }
 .sliding_door .sliding_header{
     margin-bottom: 10px;
+    padding: 5px 0 10px;
     border-bottom: var(--sliding-head-line-width) solid var(--sliding-head-line-color);
 }
 .sliding_door > .sliding_door_container > .sliding_block_right,
@@ -210,5 +211,8 @@
         --sliding-icon-max-width: 25px;
         --sliding-head-line-width: 2px;
         --sliding-head-line-color: var(--msBg);
+    }
+    .sliding_door .sliding_header{
+        padding: 0 0 5px;
     }
 }
