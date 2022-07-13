@@ -1,3 +1,7 @@
+body{
+    --sec2-padding:40px 0;
+    --sec3-padding:40px 0;
+}
 #tpc_bg{
     overflow: hidden;
 }
@@ -29,6 +33,58 @@
 }
 
 /* end sec1 */
+
+#sec2{
+    padding: var(--sec2-padding);
+    background-image: url('/assets/images/home v2/desktop/background-Catalog-company-profile-ThaiPolyester.webp');
+    background-position: center center;
+    background-size: cover;
+}
+#sec2 .download-btn{
+    margin-top: 30px;
+}
+#sec2 .download-btn > a{
+    font-size: 30px;
+    font-weight: 600;
+    display: block;
+    width: fit-content;
+    background-color: var(--msBg);
+    color: var(--msBgDark);
+    padding: 25px 45px;
+    border-radius: 30px;
+    transform: scale(0.9500);
+    transition: all 0.2s;
+}
+#sec2 .download-btn > a:hover{
+    transform: scale(1.1009);
+    transition: all 0.2s;
+}
+
+/* end sec3 */
+
+#sec3 .col1{
+    padding: var(--sec3-padding) !important;
+    max-width: 1140px;
+}
+#sec3 .about-btn{
+    margin-top: 30px;
+}
+#sec3 .about-btn > a{
+    font-size: 30px;
+    font-weight: 600;
+    display: block;
+    width: fit-content;
+    background-color: var(--msBg);
+    color: var(--msBgDark);
+    padding: 25px 45px;
+    border-radius: 30px;
+    transform: scale(0.9500);
+    transition: all 0.2s;
+}
+#sec3 .about-btn > a:hover{
+    transform: scale(1.1009);
+    transition: all 0.2s;
+}
 
 @media only screen and (min-width: 1400px){
     #sec1 .head-title{
@@ -84,11 +140,8 @@
         right: 0;
         top: 0;
         bottom: 0;
-        /* z-index: -1; */
     }
     #sec1 .head-title{
-        /* font-size: 40px !important; */
-        /* line-height: 46px !important; */
         text-align: left;
     }
     #sec1 .head-desc{

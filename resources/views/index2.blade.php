@@ -31,6 +31,58 @@
                     </div>
                 </div>
             </section>
+            <section id="sec2" class="pos-r">
+                <div class="container">
+                    <div class="row m-0 d-flex m-flex-c">
+                        <div class="col-xs-12 col-sm-12 col-md-6 p-0 m-auto">
+                            <div class="img_block w-100p pos-r">
+                                <picture>
+                                    <source srcset="\assets\images\home v2\mobile\Catalog-company-profile-ThaiPolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                    <img src="\assets\images\home v2\desktop\Catalog-company-profile-ThaiPolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Catalog company profile ThaiPolyester" loading="lazy">
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-6 p-0 m-auto">
+                            <h2 class="text-center fw-600">Our Company</h2>
+                            <h3 class="text-center">
+                                Thai Polyester Company has been established in 2001.
+                                We are full integration of fiber polyester manufacturer
+                                with total capacity 316,800 tons a years achieved
+                                thereby of the innovative technology in globe.
+                            </h3>
+                            <div class="download-btn d-flex">
+                                <a href="" title="Download" class="m-auto">
+                                    Download
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="sec3" class="pos-r">
+                <div class="img_block w-100p pos-r">
+                    <picture>
+                        <source srcset="\assets\images\home v2\mobile\HOME-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                        <img src="\assets\images\home v2\desktop\HOME-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Catalog company profile ThaiPolyester" loading="lazy">
+                    </picture>
+                </div>
+                <div class="container">
+                    <div class="row m-0 d-flex m-flex-c">
+                        <div class="col-xs-12 col-sm-12 col-md-12 p-0 m-auto col1">
+                            <p class="text-center">
+                                Thai polyester is a registered company specializing in polyester yarn both fiber and filament. We export polyester yarn to many countries.
+                                An engineering plant of our production phases has successive through Zimmer AG Germany. Regard to filament and textured yarn is developed with the
+                                latest generation of application on German operation, Barmag take-up. TPC, we landed on 3.2 Million Sq.m at Ban Bung, Chonburi, far from
+                                Laemchabang Port within 2 hours.
+                            </p>
+                            <div class="about-btn d-flex">
+                                <a href="" title="About Us" class="m-auto">
+                                    ABOUT US
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+            </section>
         </div>
     </div>
 @endsection
