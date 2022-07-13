@@ -33,7 +33,7 @@
                                 </p>
                             </div>
                             <div class="head-btn">
-                                <a href="#" title="contact us" class="ml-0">
+                                <a href="#sec8" title="contact us" class="ml-0">
                                     Contact Us
                                 </a>
                             </div>
