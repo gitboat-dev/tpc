@@ -564,6 +564,19 @@ body{
         border-bottom-color: transparent;
     }
 
+    #sec4 .sliding_door.poy{
+        margin-left: -2px;
+    }
+    #sec4 .sliding_door.fdy{
+        margin-left: -2px;
+    }
+    #sec4 .sliding_door.ddb{
+        margin-left: -2px;
+    }
+    #sec4 .sliding_door.psf{
+        margin-left: -2px;
+    }
+
     /* end sec4 */
 
     #sec5 .owl-nav > .owl-next {
