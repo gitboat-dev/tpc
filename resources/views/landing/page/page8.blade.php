@@ -185,7 +185,7 @@
         <div class="container">
             <h2 class="text-center sec4-desc">
                 No matter what kind of POLYESTER,<br>
-                <span class="fw-bold sec4-title">we have it ALL</span> – both Virgin and Recycled version
+                <span class="fw-bold sec4-title">we have it ALL</span> – both Virgin and <span class="theme-hl">Recycled</span> version
             </h2>
             <div class="row r1 m-0">
                 <div class="col-xs-6 col-sm-6 col-md-3 p-0 d-flex sliding_door poy">
@@ -662,7 +662,7 @@
                                         <div class="content_group">
                                             <h2 class="sec5-title">Knitting mills</h2>
                                             <h3 class="sec5-sub-title">
-                                                - Dying consistency<br>
+                                                - Dyeing consistency<br>
                                                 - Dyeing ability<br>
                                                 - Stable moisture<br>
                                                 - Stable OPU
@@ -921,7 +921,7 @@
                                 <span class="text-danger name mb-font12"></span>
                             </div>
                             <div class="form-group col-xs-12 col-sm-12 col-md-12">
-                                <input type="text" class="form-control" name="company" id="company" placeholder="COMPANY">
+                                <input type="text" class="form-control" name="company" id="company" placeholder="COMPANY*">
                                 <span class="text-danger company mb-font12"></span>
                             </div>
                             <div class="form-group col-xs-6 col-sm-6 col-md-6">

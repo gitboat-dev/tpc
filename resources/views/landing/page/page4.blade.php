@@ -658,7 +658,7 @@
                                     <div class="col-xs-5 col-sm-6 col-md-12 d-flex m-auto">
                                         <p class="sec6-details">
                                             <span class="m-tl2">
-                                                - Dying consistency<br>
+                                                - Dyeing consistency<br>
                                                 - Dyeing ability<br>
                                                 - Stable moisture<br>
                                                 - Stable OPU
