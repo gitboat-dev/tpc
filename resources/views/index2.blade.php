@@ -37,8 +37,8 @@
                         <div class="col-xs-12 col-sm-12 col-md-6 p-0 m-auto">
                             <div class="img_block w-100p pos-r">
                                 <picture>
-                                    <source srcset="\assets\images\home-v2\mobile\Catalog-company-profile-ThaiPolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                                    <img src="\assets\images\home-v2\desktop\Catalog-company-profile-ThaiPolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Catalog company profile ThaiPolyester" loading="lazy">
+                                    <source srcset="/assets/images/home-v2/mobile/Catalog-company-profile-ThaiPolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                    <img src="/assets/images/home-v2/desktop/Catalog-company-profile-ThaiPolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Catalog company profile ThaiPolyester" loading="lazy">
                                 </picture>
                             </div>
                         </div>
@@ -62,8 +62,8 @@
             <section id="sec3" class="pos-r">
                 <div class="img_block w-100p pos-r">
                     <picture>
-                        <source srcset="\assets\images\home-v2\mobile\HOME-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                        <img src="\assets\images\home-v2\desktop\HOME-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Catalog company profile ThaiPolyester" loading="lazy">
+                        <source srcset="/assets/images/home-v2/mobile/HOME-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                        <img src="/assets/images/home-v2/desktop/HOME-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Catalog company profile ThaiPolyester" loading="lazy">
                     </picture>
                 </div>
                 <div class="container">
@@ -91,8 +91,8 @@
                         <div class="col-xs-12 col-sm-12 col-md-4 p-0">
                             <div class="img_block w-100p pos-r">
                                 <picture>
-                                    <source srcset="\assets\images\home-v2\mobile\Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                                    <img src="\assets\images\home-v2\desktop\Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester" loading="lazy">
+                                    <source srcset="/assets/images/home-v2/mobile/Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                    <img src="/assets/images/home-v2/desktop/Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester" loading="lazy">
                                 </picture>
                             </div>
                             <div class="d-flex pos-ab top-0 left-0 w-100p h-100p content">
@@ -113,8 +113,8 @@
                         <div class="col-xs-12 col-sm-12 col-md-4 p-0">
                             <div class="img_block w-100p pos-r">
                                 <picture>
-                                    <source srcset="\assets\images\home-v2\mobile\Jongstit.webp?v={{time()}}" media="(max-width: 640px)">
-                                    <img src="\assets\images\home-v2\desktop\Jongstit.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Jongstit" loading="lazy">
+                                    <source srcset="/assets/images/home-v2/mobile/Jongstit.webp?v={{time()}}" media="(max-width: 640px)">
+                                    <img src="/assets/images/home-v2/desktop/Jongstit.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Jongstit" loading="lazy">
                                 </picture>
                             </div>
                             <div class="d-flex pos-ab top-0 left-0 w-100p h-100p content">
@@ -135,8 +135,8 @@
                         <div class="col-xs-12 col-sm-12 col-md-4 p-0">
                             <div class="img_block w-100p pos-r">
                                 <picture>
-                                    <source srcset="\assets\images\home-v2\mobile\FashionHometex.webp?v={{time()}}" media="(max-width: 640px)">
-                                    <img src="\assets\images\home-v2\desktop\FashionHometex.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="FashionHometex" loading="lazy">
+                                    <source srcset="/assets/images/home-v2/mobile/FashionHometex.webp?v={{time()}}" media="(max-width: 640px)">
+                                    <img src="/assets/images/home-v2/desktop/FashionHometex.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="FashionHometex" loading="lazy">
                                 </picture>
                             </div>
                             <div class="d-flex pos-ab top-0 left-0 w-100p h-100p content">
@@ -171,14 +171,14 @@
                                 <div class="recycled-img-block step1 recycled-col2">
                                     <div class="recycled-img">
                                         <picture>
-                                            <source srcset="\assets\images\home-v2\mobile\PET-Plastic-Bottles-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                                            <img src="\assets\images\home-v2\desktop\PET-Plastic-Bottles-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="PET Plastic Bottles Thaipolyester" loading="lazy">
+                                            <source srcset="/assets/images/home-v2/mobile/PET-Plastic-Bottles-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                            <img src="/assets/images/home-v2/desktop/PET-Plastic-Bottles-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="PET Plastic Bottles Thaipolyester" loading="lazy">
                                         </picture>
                                     </div>
                                     <div class="recycled-img-icon">
                                         <picture>
-                                            <source srcset="\assets\images\home-v2\mobile\icon.webp?v={{time()}}" media="(max-width: 640px)">
-                                            <img src="\assets\images\home-v2\desktop\icon.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Next Step ThaiPolyester" loading="lazy">
+                                            <source srcset="/assets/images/home-v2/mobile/icon.webp?v={{time()}}" media="(max-width: 640px)">
+                                            <img src="/assets/images/home-v2/desktop/icon.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Next Step ThaiPolyester" loading="lazy">
                                         </picture>
                                     </div>
                                 </div>
@@ -201,14 +201,14 @@
                                 <div class="recycled-img-block step2 recycled-col2">
                                     <div class="recycled-img">
                                         <picture>
-                                            <source srcset="\assets\images\home-v2\mobile\Flake-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                                            <img src="\assets\images\home-v2\desktop\Flake-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Flake Thaipolyester" loading="lazy">
+                                            <source srcset="/assets/images/home-v2/mobile/Flake-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                            <img src="/assets/images/home-v2/desktop/Flake-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Flake Thaipolyester" loading="lazy">
                                         </picture>
                                     </div>
                                     <div class="recycled-img-icon">
                                         <picture>
-                                            <source srcset="\assets\images\home-v2\mobile\icon.webp?v={{time()}}" media="(max-width: 640px)">
-                                            <img src="\assets\images\home-v2\desktop\icon.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Next Step ThaiPolyester" loading="lazy">
+                                            <source srcset="/assets/images/home-v2/mobile/icon.webp?v={{time()}}" media="(max-width: 640px)">
+                                            <img src="/assets/images/home-v2/desktop/icon.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Next Step ThaiPolyester" loading="lazy">
                                         </picture>
                                     </div>
                                 </div>
@@ -230,14 +230,14 @@
                                 <div class="recycled-img-block step3 recycled-col2">
                                     <div class="recycled-img">
                                         <picture>
-                                            <source srcset="\assets\images\home-v2\mobile\Fiber-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                                            <img src="\assets\images\home-v2\desktop\Fiber-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Fiber Thaipolyester" loading="lazy">
+                                            <source srcset="/assets/images/home-v2/mobile/Fiber-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                            <img src="/assets/images/home-v2/desktop/Fiber-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Fiber Thaipolyester" loading="lazy">
                                         </picture>
                                     </div>
                                     <div class="recycled-img-icon">
                                         <picture>
-                                            <source srcset="\assets\images\home-v2\mobile\icon.webp?v={{time()}}" media="(max-width: 640px)">
-                                            <img src="\assets\images\home-v2\desktop\icon.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Next Step ThaiPolyester" loading="lazy">
+                                            <source srcset="/assets/images/home-v2/mobile/icon.webp?v={{time()}}" media="(max-width: 640px)">
+                                            <img src="/assets/images/home-v2/desktop/icon.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Next Step ThaiPolyester" loading="lazy">
                                         </picture>
                                     </div>
                                 </div>
@@ -262,14 +262,14 @@
                                 <div class="recycled-img-block step4 recycled-col2">
                                     <div class="recycled-img">
                                         <picture>
-                                            <source srcset="\assets\images\home-v2\mobile\Yarn-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                                            <img src="\assets\images\home-v2\desktop\Yarn-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Yarn Thaipolyester" loading="lazy">
+                                            <source srcset="/assets/images/home-v2/mobile/Yarn-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                            <img src="/assets/images/home-v2/desktop/Yarn-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Yarn Thaipolyester" loading="lazy">
                                         </picture>
                                     </div>
                                     <div class="recycled-img-icon">
                                         <picture>
-                                            <source srcset="\assets\images\home-v2\mobile\icon.webp?v={{time()}}" media="(max-width: 640px)">
-                                            <img src="\assets\images\home-v2\desktop\icon.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Next Step ThaiPolyester" loading="lazy">
+                                            <source srcset="/assets/images/home-v2/mobile/icon.webp?v={{time()}}" media="(max-width: 640px)">
+                                            <img src="/assets/images/home-v2/desktop/icon.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Next Step ThaiPolyester" loading="lazy">
                                         </picture>
                                     </div>
                                 </div>
@@ -291,8 +291,8 @@
                                 <div class="recycled-img-block step5 recycled-col2">
                                     <div class="recycled-img">
                                         <picture>
-                                            <source srcset="\assets\images\home-v2\mobile\Fabric-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                                            <img src="\assets\images\home-v2\desktop\Fabric-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Fabric Thaipolyester" loading="lazy">
+                                            <source srcset="/assets/images/home-v2/mobile/Fabric-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                            <img src="/assets/images/home-v2/desktop/Fabric-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Fabric Thaipolyester" loading="lazy">
                                         </picture>
                                     </div>
                                     <div class="recycled-img-icon">
@@ -332,8 +332,8 @@
             <section id="sec6" class="pos-r">
                 <div class="img_block w-100p pos-r">
                     <picture>
-                        <source srcset="\assets\images\home-v2\mobile\Filament-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                        <img src="\assets\images\home-v2\desktop\Filament-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Filament Thaipolyester" loading="lazy">
+                        <source srcset="/assets/images/home-v2/mobile/Filament-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                        <img src="/assets/images/home-v2/desktop/Filament-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Filament Thaipolyester" loading="lazy">
                     </picture>
                 </div>
                 <div class="d-flex content">
@@ -361,8 +361,8 @@
             <section id="sec7" class="pos-r">
                 <div class="img_block w-100p pos-r">
                     <picture>
-                        <source srcset="\assets\images\home-v2\mobile\Spun-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                        <img src="\assets\images\home-v2\desktop\Spun-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Spun Thaipolyester" loading="lazy">
+                        <source srcset="/assets/images/home-v2/mobile/Spun-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                        <img src="/assets/images/home-v2/desktop/Spun-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Spun Thaipolyester" loading="lazy">
                     </picture>
                 </div>
                 <div class="d-flex pos-ab top-0 left-0 w-100p h-100p content">
@@ -401,10 +401,10 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-12 p-0 col2">
-                        <a title="Map Our Custumers Thaipolyester" href="\assets\images\home-v2\desktop\Map-Our-Custumers-Thaipolyester.webp?v={{time()}}" data-fancybox="gallery" data-thumbnail-src="\assets\images\home-v2\desktop\Map-Our-Custumers-Thaipolyester.webp?v={{time()}}">
+                        <a title="Map Our Custumers Thaipolyester" href="/assets/images/home-v2/desktop/Map-Our-Custumers-Thaipolyester.webp?v={{time()}}" data-fancybox="gallery" data-thumbnail-src="/assets/images/home-v2/desktop/Map-Our-Custumers-Thaipolyester.webp?v={{time()}}">
 							<picture>
-								<source srcset="\assets\images\home-v2\mobile\Map-Our-Custumers-Thaipolyester.webp?v={{time()}}" alt="map Thaipolyester customer" loading="lazy" media="(max-width: 640px)">
-								<img src="\assets\images\home-v2\desktop\Map-Our-Custumers-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid ab-img" alt="Map Our Custumers Thaipolyester" loading="lazy">
+								<source srcset="/assets/images/home-v2/mobile/Map-Our-Custumers-Thaipolyester.webp?v={{time()}}" alt="map Thaipolyester customer" loading="lazy" media="(max-width: 640px)">
+								<img src="/assets/images/home-v2/desktop/Map-Our-Custumers-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid ab-img" alt="Map Our Custumers Thaipolyester" loading="lazy">
 							</picture>
 						</a>
                     </div>
@@ -444,38 +444,38 @@
                     <div class="row r2 m-0 d-flex">
                         <div class="col-xs-6 col-sm-6 col-md-4 p-0 col1">
                             <div class="img_block w-100p">
-                                <a title="Green industry Activty Thaipolyester" href="\assets\images\home-v2\desktop\Green-industry-Activty-Thaipolyester.webp?v={{time()}}" data-fancybox="gallery" data-thumbnail-src="\assets\images\home-v2\desktop\Green-industry-Activty-Thaipolyester.webp?v={{time()}}">
+                                <a title="Green industry Activty Thaipolyester" href="/assets/images/home-v2/desktop/Green-industry-Activty-Thaipolyester.webp?v={{time()}}" data-fancybox="gallery" data-thumbnail-src="/assets/images/home-v2/desktop/Green-industry-Activty-Thaipolyester.webp?v={{time()}}">
                                     <picture>
-                                        <source srcset="\assets\images\home-v2\mobile\Green-industry-Activty-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                                        <img src="\assets\images\home-v2\desktop\Green-industry-Activty-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Green industry Activty Thaipolyester" loading="lazy">
+                                        <source srcset="/assets/images/home-v2/mobile/Green-industry-Activty-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                        <img src="/assets/images/home-v2/desktop/Green-industry-Activty-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Green industry Activty Thaipolyester" loading="lazy">
                                     </picture>
                                 </a>
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-4 p-0 col2 d-flex flex-c">
                             <div class="img_block w-100p m-auto">
-                                <a title="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" href="\assets\images\home-v2\desktop\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp?v={{time()}}" data-fancybox="gallery" data-thumbnail-src="\assets\images\home-v2\desktop\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp?v={{time()}}">
+                                <a title="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" href="/assets/images/home-v2/desktop/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp?v={{time()}}" data-fancybox="gallery" data-thumbnail-src="/assets/images/home-v2/desktop/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp?v={{time()}}">
                                     <picture>
-                                        <source srcset="\assets\images\home-v2\mobile\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                                        <img src="\assets\images\home-v2\desktop\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" loading="lazy">
+                                        <source srcset="/assets/images/home-v2/mobile/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                        <img src="/assets/images/home-v2/desktop/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" loading="lazy">
                                     </picture>
                                 </a>
                             </div>
                             <div class="img_block w-100p m-auto">
-                                <a title="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" href="\assets\images\home-v2\desktop\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp?v={{time()}}" data-fancybox="gallery" data-thumbnail-src="\assets\images\home-v2\desktop\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp?v={{time()}}">
+                                <a title="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" href="/assets/images/home-v2/desktop/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp?v={{time()}}" data-fancybox="gallery" data-thumbnail-src="/assets/images/home-v2/desktop/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp?v={{time()}}">
                                     <picture>
-                                        <source srcset="\assets\images\home-v2\mobile\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp?v={{time()}}" media="(max-width: 640px)">
-                                        <img src="\assets\images\home-v2\desktop\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" loading="lazy">
+                                        <source srcset="/assets/images/home-v2/mobile/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp?v={{time()}}" media="(max-width: 640px)">
+                                        <img src="/assets/images/home-v2/desktop/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" loading="lazy">
                                     </picture>
                                 </a>
                             </div>
                         </div>
                         <div class="col-xs-6 col-sm-6 col-md-4 p-0 col3">
                             <div class="img_block w-100p">
-                                <a title="intertek Certificate of Registration thaipolyester" href="\assets\images\home-v2\desktop\intertek-Certificate-of-Registration-thaipolyester.webp?v={{time()}}" data-fancybox="gallery" data-thumbnail-src="\assets\images\home-v2\desktop\intertek-Certificate-of-Registration-thaipolyester.webp?v={{time()}}">
+                                <a title="intertek Certificate of Registration thaipolyester" href="/assets/images/home-v2/desktop/intertek-Certificate-of-Registration-thaipolyester.webp?v={{time()}}" data-fancybox="gallery" data-thumbnail-src="/assets/images/home-v2/desktop/intertek-Certificate-of-Registration-thaipolyester.webp?v={{time()}}">
                                     <picture>
-                                        <source srcset="\assets\images\home-v2\mobile\intertek-Certificate-of-Registration-thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                                        <img src="\assets\images\home-v2\desktop\intertek-Certificate-of-Registration-thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="intertek Certificate of Registration thaipolyester" loading="lazy">
+                                        <source srcset="/assets/images/home-v2/mobile/intertek-Certificate-of-Registration-thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                        <img src="/assets/images/home-v2/desktop/intertek-Certificate-of-Registration-thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="intertek Certificate of Registration thaipolyester" loading="lazy">
                                     </picture>
                                 </a>
                             </div>
