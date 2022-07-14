@@ -1,6 +1,8 @@
 body{
     --sec2-padding:40px 0;
     --sec3-padding:40px 0;
+    --sec6-padding:40px 0;
+    --sec7-padding:40px 0;
 }
 #tpc_bg{
     overflow: hidden;
@@ -86,6 +88,60 @@ body{
     transition: all 0.2s;
 }
 
+/* end sec3 */
+
+#sec6 .content{
+    background-color: #202731c3;
+    color: #ffffff;
+    width: 100%;
+    max-width: 40%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#sec6 .content .content_group{
+    width: 100%;
+    max-width: 85%;
+    padding: var(--sec6-padding);
+}
+#sec6 .filament-btn{
+    margin-top: 30px;
+}
+#sec6 .filament-btn > a{
+    font-size: 20px;
+    color: var(--msBg);
+    transition: all 0.2s;
+}
+#sec6 .filament-btn > a:hover{
+    color: var(--msBgLight);
+    transition: all 0.2s;
+}
+
+/* end sec6 */
+
+#sec7 .content .content_group{
+    padding: var(--sec7-padding);
+    background-color: #202731c3;
+    color: #ffffff;
+    width: 100%;
+}
+#sec7 .content .content_group .container{
+    max-width: 1140px;
+}
+#sec7 .spun-btn{
+    margin-top: 30px;
+}
+#sec7 .spun-btn > a{
+    font-size: 20px;
+    color: var(--msBg);
+    transition: all 0.2s;
+}
+#sec7 .spun-btn > a:hover{
+    color: var(--msBgLight);
+    transition: all 0.2s;
+}
+
 @media only screen and (min-width: 1400px){
     #sec1 .head-title{
         font-size: 65px !important;
@@ -111,6 +167,13 @@ body{
     /* end sec1 */
 }
 @media only screen and (max-width: 991px){
+    body{
+        --sec6-padding:20px 15px;
+        --sec7-padding:15px;
+    }
+
+    /* end all setting */
+
     #sec1 .col-h1{
         height: 100% !important;
     }
@@ -124,6 +187,24 @@ body{
     }
 
     /* end sec1 */
+
+    #sec6 .content{
+        background-color: #202731;
+        color: #ffffff;
+        max-width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    #sec6 .content .content_group {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    /* end sec6 */
+
+    #sec7 .content .content_group .container {
+        padding: 0;
+    }
 }
 @media only screen and (max-width: 768px){
     #sec1{
