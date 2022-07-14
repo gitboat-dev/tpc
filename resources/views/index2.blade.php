@@ -82,6 +82,7 @@
                             </div>
                         </div>
                     </div>
+                </div>
             </section>
             <section id="sec4" class="pos-r">
 
@@ -143,9 +144,110 @@
                     </div>
                 </div>
             </section>
+            <section id="sec8" class="pos-r">
+                <div class="container">
+                    <div class="row m-0">
+                        <div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
+                            <div class="content d-flex">
+                                <div class="content_group m-auto">
+                                    <h2 class="text-center fw">
+                                        Our Custumers
+                                    </h2>
+                                    <p class="text-center">
+                                        our 20 years experience, as one stop service polyester yarn and fiber manufacturer in Thailand, we have supplied customers in variety industries who are
+                                        located more than 70 countries around the world.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 p-0 col2">
+                        <a title="Map Our Custumers Thaipolyester" href="\assets\images\home-v2\desktop\Map-Our-Custumers-Thaipolyester.webp?v={{time()}}" data-fancybox="gallery" data-thumbnail-src="\assets\images\home-v2\desktop\Map-Our-Custumers-Thaipolyester.webp?v={{time()}}">
+							<picture>
+								<source srcset="\assets\images\home-v2\mobile\Map-Our-Custumers-Thaipolyester.webp?v={{time()}}" alt="map Thaipolyester customer" loading="lazy" media="(max-width: 640px)">
+								<img src="\assets\images\home-v2\desktop\Map-Our-Custumers-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid ab-img" alt="Map Our Custumers Thaipolyester" loading="lazy">
+							</picture>
+						</a>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 p-0 col3">
+                        <h3 class="text-center fw-600 thailand">
+                            <picture>
+                                <source srcset="/assets/images/home/mobile/star.webp" alt="star" loading="lazy" media="(max-width: 640px)">
+                                <img src="/assets/images/home/desktop/star.webp" width="900" height="350" class="img-fluid star" alt="star" loading="lazy">
+                            </picture>
+                            Thailand
+                        </h3>
+                        <ul class="row custumer-lists">
+                            @if(isset($our_customers) && $our_customers)
+                                @foreach($our_customers as $c)
+                                    <li class="col-xs-6 col-sm-4 col-md-2-5">{{ $c }}</li>
+                                @endforeach
+                            @endif
+                        </ul>
+                        <div class="arrow-block">
+							<picture>
+								<source srcset="/assets/images/home/mobile/triangle.webp" alt="triangle" loading="lazy" media="(max-width: 640px)">
+								<img src="/assets/images/home/desktop/triangle.webp" width="900" height="350" class="img-fluid ab-img" alt="triangle" loading="lazy">
+							</picture>
+						</div>
+                    </div>
+                </div>
+            </section>
+            <section id="sec9" class="pos-r">
+                <div class="container">
+                    <div class="row r1 m-0">
+                        <div class="col-xs-12 col-sm-12 col-md-12">
+                            <h2 class="text-center fw">
+                                Certification
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="row r2 m-0 d-flex">
+                        <div class="col-xs-6 col-sm-6 col-md-4 p-0 col1">
+                            <div class="img_block w-100p">
+                                <a title="Green industry Activty Thaipolyester" href="\assets\images\home-v2\desktop\Green-industry-Activty-Thaipolyester.webp?v={{time()}}" data-fancybox="gallery" data-thumbnail-src="\assets\images\home-v2\desktop\Green-industry-Activty-Thaipolyester.webp?v={{time()}}">
+                                    <picture>
+                                        <source srcset="\assets\images\home-v2\mobile\Green-industry-Activty-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                        <img src="\assets\images\home-v2\desktop\Green-industry-Activty-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Green industry Activty Thaipolyester" loading="lazy">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-4 p-0 col2 d-flex flex-c">
+                            <div class="img_block w-100p m-auto">
+                                <a title="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" href="\assets\images\home-v2\desktop\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp?v={{time()}}" data-fancybox="gallery" data-thumbnail-src="\assets\images\home-v2\desktop\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp?v={{time()}}">
+                                    <picture>
+                                        <source srcset="\assets\images\home-v2\mobile\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                        <img src="\assets\images\home-v2\desktop\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" loading="lazy">
+                                    </picture>
+                                </a>
+                            </div>
+                            <div class="img_block w-100p m-auto">
+                                <a title="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" href="\assets\images\home-v2\desktop\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp?v={{time()}}" data-fancybox="gallery" data-thumbnail-src="\assets\images\home-v2\desktop\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp?v={{time()}}">
+                                    <picture>
+                                        <source srcset="\assets\images\home-v2\mobile\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp?v={{time()}}" media="(max-width: 640px)">
+                                        <img src="\assets\images\home-v2\desktop\OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" loading="lazy">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-6 col-md-4 p-0 col3">
+                            <div class="img_block w-100p">
+                                <a title="intertek Certificate of Registration thaipolyester" href="\assets\images\home-v2\desktop\intertek-Certificate-of-Registration-thaipolyester.webp?v={{time()}}" data-fancybox="gallery" data-thumbnail-src="\assets\images\home-v2\desktop\intertek-Certificate-of-Registration-thaipolyester.webp?v={{time()}}">
+                                    <picture>
+                                        <source srcset="\assets\images\home-v2\mobile\intertek-Certificate-of-Registration-thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                        <img src="\assets\images\home-v2\desktop\intertek-Certificate-of-Registration-thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="intertek Certificate of Registration thaipolyester" loading="lazy">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
     </div>
 @endsection
 @section('custom-script')
+<script src="/js/index2.js?v={{time()}}"></script>
 @endsection
 
