@@ -161,79 +161,151 @@
                     <h2 class="sec5-title text-center m-0 fw">Our Product</h2>
                     <h2 class="sec5-title text-center fw-600 theme-hl"><span class="tl0 m-tl">100% Recycled Polyester</span></h2>
                     <div class="row m-0 r1">
-                        <div class="col-xs-12 col-sm-12 col-md-2-5 p-0">
-                            <div class="recycled-img-block step1">
-                                <div class="recycled-img">
-                                    <picture>
-                                        <source srcset="\assets\images\home-v2\mobile\PET-Plastic-Bottles-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                                        <img src="\assets\images\home-v2\desktop\PET-Plastic-Bottles-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="PET Plastic Bottles Thaipolyester" loading="lazy">
-                                    </picture>
+                        <div class="col-xs-12 col-sm-12 col-md-2-5 p-0 col1">
+                            <div class="recycled-row">
+                                <div class="recycled-col1 text-center">
+                                    <div class="step-tag">
+                                        STEP 1
+                                    </div>
                                 </div>
-                                <div class="recycled-img-icon">
-                                    <picture>
-                                        <source srcset="\assets\images\home-v2\mobile\icon.webp?v={{time()}}" media="(max-width: 640px)">
-                                        <img src="\assets\images\home-v2\desktop\icon.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Next Step ThaiPolyester" loading="lazy">
-                                    </picture>
+                                <div class="recycled-img-block step1 recycled-col2">
+                                    <div class="recycled-img">
+                                        <picture>
+                                            <source srcset="\assets\images\home-v2\mobile\PET-Plastic-Bottles-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                            <img src="\assets\images\home-v2\desktop\PET-Plastic-Bottles-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="PET Plastic Bottles Thaipolyester" loading="lazy">
+                                        </picture>
+                                    </div>
+                                    <div class="recycled-img-icon">
+                                        <picture>
+                                            <source srcset="\assets\images\home-v2\mobile\icon.webp?v={{time()}}" media="(max-width: 640px)">
+                                            <img src="\assets\images\home-v2\desktop\icon.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Next Step ThaiPolyester" loading="lazy">
+                                        </picture>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-12 col-md-2-5 p-0">
-                            <div class="recycled-img-block step2">
-                                <div class="recycled-img">
-                                    <picture>
-                                        <source srcset="\assets\images\home-v2\mobile\Flake-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                                        <img src="\assets\images\home-v2\desktop\Flake-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Flake Thaipolyester" loading="lazy">
-                                    </picture>
-                                </div>
-                                <div class="recycled-img-icon">
-                                    <picture>
-                                        <source srcset="\assets\images\home-v2\mobile\icon.webp?v={{time()}}" media="(max-width: 640px)">
-                                        <img src="\assets\images\home-v2\desktop\icon.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Next Step ThaiPolyester" loading="lazy">
-                                    </picture>
+                                <div class="recycled-col3 text-center">
+                                    <h4 class="fw-600 m-0">PET Plastic Bottles</h4>
+                                    <small class="fw-600" style="line-height: 100%;">
+                                        <span class="tl0 m-tl">Post consumer bottles<br>
+                                        are collected and washed</span>
+                                    </small>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xs-12 col-sm-12 col-md-2-5 p-0">
-                            <div class="recycled-img-block step3">
-                                <div class="recycled-img">
-                                    <picture>
-                                        <source srcset="\assets\images\home-v2\mobile\Fiber-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                                        <img src="\assets\images\home-v2\desktop\Fiber-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Fiber Thaipolyester" loading="lazy">
-                                    </picture>
+                        <div class="col-xs-12 col-sm-12 col-md-2-5 p-0 col2">
+                            <div class="recycled-row">
+                                <div class="recycled-col1 text-center">
+                                    <div class="step-tag">
+                                        STEP 2
+                                    </div>
                                 </div>
-                                <div class="recycled-img-icon">
-                                    <picture>
-                                        <source srcset="\assets\images\home-v2\mobile\icon.webp?v={{time()}}" media="(max-width: 640px)">
-                                        <img src="\assets\images\home-v2\desktop\icon.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Next Step ThaiPolyester" loading="lazy">
-                                    </picture>
+                                <div class="recycled-img-block step2 recycled-col2">
+                                    <div class="recycled-img">
+                                        <picture>
+                                            <source srcset="\assets\images\home-v2\mobile\Flake-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                            <img src="\assets\images\home-v2\desktop\Flake-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Flake Thaipolyester" loading="lazy">
+                                        </picture>
+                                    </div>
+                                    <div class="recycled-img-icon">
+                                        <picture>
+                                            <source srcset="\assets\images\home-v2\mobile\icon.webp?v={{time()}}" media="(max-width: 640px)">
+                                            <img src="\assets\images\home-v2\desktop\icon.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Next Step ThaiPolyester" loading="lazy">
+                                        </picture>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-12 col-md-2-5 p-0">
-                            <div class="recycled-img-block step4">
-                                <div class="recycled-img">
-                                    <picture>
-                                        <source srcset="\assets\images\home-v2\mobile\Yarn-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                                        <img src="\assets\images\home-v2\desktop\Yarn-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Yarn Thaipolyester" loading="lazy">
-                                    </picture>
-                                </div>
-                                <div class="recycled-img-icon">
-                                    <picture>
-                                        <source srcset="\assets\images\home-v2\mobile\icon.webp?v={{time()}}" media="(max-width: 640px)">
-                                        <img src="\assets\images\home-v2\desktop\icon.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Next Step ThaiPolyester" loading="lazy">
-                                    </picture>
+                                <div class="recycled-col3 text-center">
+                                    <h4 class="fw-600 m-0">Flake</h4>
+                                    <small class="fw-600" style="line-height: 100%;">
+                                        <span class="tl0 m-tl">Bottles shredded into Flake</span>
+                                    </small>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xs-12 col-sm-12 col-md-2-5 p-0">
-                            <div class="recycled-img-block step5">
-                                <div class="recycled-img">
-                                    <picture>
-                                        <source srcset="\assets\images\home-v2\mobile\Fabric-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
-                                        <img src="\assets\images\home-v2\desktop\Fabric-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Fabric Thaipolyester" loading="lazy">
-                                    </picture>
+                        <div class="col-xs-12 col-sm-12 col-md-2-5 p-0 col3">
+                            <div class="recycled-row">
+                                <div class="recycled-col1 text-center">
+                                    <div class="step-tag">
+                                        STEP 3
+                                    </div>
                                 </div>
-                                <div class="recycled-img-icon">
+                                <div class="recycled-img-block step3 recycled-col2">
+                                    <div class="recycled-img">
+                                        <picture>
+                                            <source srcset="\assets\images\home-v2\mobile\Fiber-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                            <img src="\assets\images\home-v2\desktop\Fiber-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Fiber Thaipolyester" loading="lazy">
+                                        </picture>
+                                    </div>
+                                    <div class="recycled-img-icon">
+                                        <picture>
+                                            <source srcset="\assets\images\home-v2\mobile\icon.webp?v={{time()}}" media="(max-width: 640px)">
+                                            <img src="\assets\images\home-v2\desktop\icon.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Next Step ThaiPolyester" loading="lazy">
+                                        </picture>
+                                    </div>
+                                </div>
+                                <div class="recycled-col3 text-center">
+                                    <h4 class="fw-600 m-0">Fiber</h4>
+                                    <small class="fw-600" style="line-height: 100%;">
+                                        <span class="tl0 m-tl">
+                                            Flake are melted and<br>
+                                            extruded into fiber
+                                        </span>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-2-5 p-0 col4">
+                            <div class="recycled-row">
+                                <div class="recycled-col1 text-center">
+                                    <div class="step-tag">
+                                        STEP 4
+                                    </div>
+                                </div>
+                                <div class="recycled-img-block step4 recycled-col2">
+                                    <div class="recycled-img">
+                                        <picture>
+                                            <source srcset="\assets\images\home-v2\mobile\Yarn-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                            <img src="\assets\images\home-v2\desktop\Yarn-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Yarn Thaipolyester" loading="lazy">
+                                        </picture>
+                                    </div>
+                                    <div class="recycled-img-icon">
+                                        <picture>
+                                            <source srcset="\assets\images\home-v2\mobile\icon.webp?v={{time()}}" media="(max-width: 640px)">
+                                            <img src="\assets\images\home-v2\desktop\icon.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Next Step ThaiPolyester" loading="lazy">
+                                        </picture>
+                                    </div>
+                                </div>
+                                <div class="recycled-col3 text-center">
+                                    <h4 class="fw-600 m-0">Yarn</h4>
+                                    <small class="fw-600" style="line-height: 100%;">
+                                        <span class="tl0 m-tl">Fibre are spun into Polyester Yarn</span>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-2-5 p-0 col5">
+                            <div class="recycled-row">
+                                <div class="recycled-col1 text-center">
+                                    <div class="step-tag">
+                                        STEP 5
+                                    </div>
+                                </div>
+                                <div class="recycled-img-block step5 recycled-col2">
+                                    <div class="recycled-img">
+                                        <picture>
+                                            <source srcset="\assets\images\home-v2\mobile\Fabric-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                            <img src="\assets\images\home-v2\desktop\Fabric-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Fabric Thaipolyester" loading="lazy">
+                                        </picture>
+                                    </div>
+                                    <div class="recycled-img-icon">
+                                    </div>
+                                </div>
+                                <div class="recycled-col3 text-center">
+                                    <h4 class="fw-600 m-0">Fabric</h4>
+                                    <small class="fw-600" style="line-height: 100%;">
+                                        <span class="tl0 m-tl">
+                                            yarn are knitted or<br>
+                                            woven into fabric
+                                        </span>
+                                    </small>
                                 </div>
                             </div>
                         </div>
