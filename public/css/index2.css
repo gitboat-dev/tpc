@@ -1,6 +1,7 @@
 body{
     --sec2-padding:40px 0;
     --sec3-padding:40px 0;
+    --sec4-padding:40px 0;
     --sec6-padding:40px 0;
     --sec7-padding:40px 0;
     --sec8-padding:40px 0;
@@ -92,6 +93,49 @@ body{
 
 /* end sec3 */
 
+#sec4{
+    padding: var(--sec4-padding);
+}
+#sec4 .sec2-title{
+    margin: 30px 0;
+}
+#sec4 .fw{
+    font-weight: 800;
+}
+#sec4 .container{
+    width: 100%;
+    max-width: calc(100% - 40px);
+}
+#sec4 .content{
+    cursor: pointer;
+    background-color: #20273186;
+    transition: all .5s ease-in-out;
+}
+#sec4 .content:hover{
+    background-color: #202731d2;
+    transition: all .5s ease-in-out;
+}
+#sec4 .content .content_group > .content-desc{
+    overflow: hidden;
+    height: 0;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+}
+
+#sec4 .content:hover .content_group > .content-desc{
+    height: 116px;
+    opacity: 1;
+    transition: all .5s ease-in-out;
+}
+#sec4 .content .content_group{
+    padding: 15px;
+}
+
+/* end sec4 */
+
+#sec6{
+    margin-bottom: 15px;
+}
 #sec6 .content{
     background-color: #202731c3;
     color: #ffffff;
@@ -238,6 +282,7 @@ body{
 }
 @media only screen and (max-width: 991px){
     body{
+        --sec4-padding:20px 0;
         --sec6-padding:20px 15px;
         --sec7-padding:15px;
         --sec8-padding:20px 0;
@@ -260,6 +305,9 @@ body{
 
     /* end sec1 */
 
+    #sec6{
+        margin-bottom: unset;
+    }
     #sec6 .content{
         background-color: #202731;
         color: #ffffff;
@@ -326,6 +374,13 @@ body{
 
     /* end sec1 */
 
+    #sec4 .container{
+        padding: 0;
+        max-width: calc(100% - 40px);
+    }
+
+    /* end sec4 */
+
     #sec8 .container{
         padding: 0;
     }
@@ -333,6 +388,15 @@ body{
     /* end sec8 */
 }
 @media only screen and (max-width: 640px){
+    #sec4 .content .content_group > .content-desc{
+        font-size: 11.6px;
+    }
+    #sec4 .content:hover .content_group > .content-desc{
+        height: 120px;
+    }
+
+    /* end sec4 */
+
     #sec8 ul.custumer-lists > li{
         text-indent: 0;
     }

@@ -84,8 +84,77 @@
                     </div>
                 </div>
             </section>
-            <section id="sec4" class="pos-r">
-
+            <section id="sec4" class="pos-r bg-black">
+                <h2 class="sec2-title text-center theme-hl fw">Our Textile Business</h2>
+                <div class="container">
+                    <div class="row m-0">
+                        <div class="col-xs-12 col-sm-12 col-md-4 p-0">
+                            <div class="img_block w-100p pos-r">
+                                <picture>
+                                    <source srcset="\assets\images\home-v2\mobile\Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                    <img src="\assets\images\home-v2\desktop\Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester" loading="lazy">
+                                </picture>
+                            </div>
+                            <div class="d-flex pos-ab top-0 left-0 w-100p h-100p content">
+                                <div class="content_group m-auto">
+                                    <h2 class="text-center fw-600"><span class="tl2 m-tl1">THAI POLYESTER</span></h2>
+                                    <div class="content-desc">
+                                        <p class="text-center">
+                                            TPC is a Fully Integrated Polyester
+                                            manufacturer with total capacity 316,800
+                                            tons per annual. Our high-quality
+                                            Polymer process is guaranteed by
+                                            modern German technology.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-4 p-0">
+                            <div class="img_block w-100p pos-r">
+                                <picture>
+                                    <source srcset="\assets\images\home-v2\mobile\Jongstit.webp?v={{time()}}" media="(max-width: 640px)">
+                                    <img src="\assets\images\home-v2\desktop\Jongstit.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Jongstit" loading="lazy">
+                                </picture>
+                            </div>
+                            <div class="d-flex pos-ab top-0 left-0 w-100p h-100p content">
+                                <div class="content_group m-auto">
+                                    <h2 class="text-center fw-600"><span class="tl2 m-tl1">JONG STIT</span></h2>
+                                    <div class="content-desc">
+                                        <p class="text-center">
+                                            Jong Stit Co.,Ltd. is leading textile
+                                            entrepreneur based in Thailand. JS group
+                                            corperate in vertival intergration of
+                                            textile manufacturer leveraging 100%
+                                            polyester.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-4 p-0">
+                            <div class="img_block w-100p pos-r">
+                                <picture>
+                                    <source srcset="\assets\images\home-v2\mobile\FashionHometex.webp?v={{time()}}" media="(max-width: 640px)">
+                                    <img src="\assets\images\home-v2\desktop\FashionHometex.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="FashionHometex" loading="lazy">
+                                </picture>
+                            </div>
+                            <div class="d-flex pos-ab top-0 left-0 w-100p h-100p content">
+                                <div class="content_group m-auto">
+                                    <h2 class="text-center fw-600"><span class="tl2 m-tl1">FASHION HOMETEX</span></h2>
+                                    <div class="content-desc">
+                                        <p class="text-center">
+                                            We are the largest home textile supplier
+                                            in thailand an affiliate of Jong Stit
+                                            Co.,Ltd. Distributing innovative products
+                                            to bring your comforts meet our quality.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
             <section id="sec5" class="pos-r">
 
