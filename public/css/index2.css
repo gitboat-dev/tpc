@@ -240,6 +240,7 @@ body{
     body{
         --sec6-padding:20px 15px;
         --sec7-padding:15px;
+        --sec8-padding:20px 0;
         --sec9-padding:20px 0;
     }
 
@@ -324,6 +325,12 @@ body{
     }
 
     /* end sec1 */
+
+    #sec8 .container{
+        padding: 0;
+    }
+
+    /* end sec8 */
 }
 @media only screen and (max-width: 640px){
     #sec8 ul.custumer-lists > li{

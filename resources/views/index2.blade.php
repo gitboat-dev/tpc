@@ -147,7 +147,7 @@
             <section id="sec8" class="pos-r">
                 <div class="container">
                     <div class="row m-0">
-                        <div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col1">
                             <div class="content d-flex">
                                 <div class="content_group m-auto">
                                     <h2 class="text-center fw">
