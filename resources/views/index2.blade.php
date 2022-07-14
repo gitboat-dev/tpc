@@ -85,7 +85,7 @@
                 </div>
             </section>
             <section id="sec4" class="pos-r bg-black">
-                <h2 class="sec2-title text-center theme-hl fw">Our Textile Business</h2>
+                <h2 class="sec4-title text-center theme-hl fw">Our Textile Business</h2>
                 <div class="container">
                     <div class="row m-0">
                         <div class="col-xs-12 col-sm-12 col-md-4 p-0">
@@ -157,7 +157,105 @@
                 </div>
             </section>
             <section id="sec5" class="pos-r">
-
+                <div class="container">
+                    <h2 class="sec5-title text-center m-0 fw">Our Product</h2>
+                    <h2 class="sec5-title text-center fw-600 theme-hl"><span class="tl0 m-tl">100% Recycled Polyester</span></h2>
+                    <div class="row m-0 r1">
+                        <div class="col-xs-12 col-sm-12 col-md-2-5 p-0">
+                            <div class="recycled-img-block step1">
+                                <div class="recycled-img">
+                                    <picture>
+                                        <source srcset="\assets\images\home-v2\mobile\PET-Plastic-Bottles-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                        <img src="\assets\images\home-v2\desktop\PET-Plastic-Bottles-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="PET Plastic Bottles Thaipolyester" loading="lazy">
+                                    </picture>
+                                </div>
+                                <div class="recycled-img-icon">
+                                    <picture>
+                                        <source srcset="\assets\images\home-v2\mobile\icon.webp?v={{time()}}" media="(max-width: 640px)">
+                                        <img src="\assets\images\home-v2\desktop\icon.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Next Step ThaiPolyester" loading="lazy">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-2-5 p-0">
+                            <div class="recycled-img-block step2">
+                                <div class="recycled-img">
+                                    <picture>
+                                        <source srcset="\assets\images\home-v2\mobile\Flake-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                        <img src="\assets\images\home-v2\desktop\Flake-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Flake Thaipolyester" loading="lazy">
+                                    </picture>
+                                </div>
+                                <div class="recycled-img-icon">
+                                    <picture>
+                                        <source srcset="\assets\images\home-v2\mobile\icon.webp?v={{time()}}" media="(max-width: 640px)">
+                                        <img src="\assets\images\home-v2\desktop\icon.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Next Step ThaiPolyester" loading="lazy">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-2-5 p-0">
+                            <div class="recycled-img-block step3">
+                                <div class="recycled-img">
+                                    <picture>
+                                        <source srcset="\assets\images\home-v2\mobile\Fiber-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                        <img src="\assets\images\home-v2\desktop\Fiber-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Fiber Thaipolyester" loading="lazy">
+                                    </picture>
+                                </div>
+                                <div class="recycled-img-icon">
+                                    <picture>
+                                        <source srcset="\assets\images\home-v2\mobile\icon.webp?v={{time()}}" media="(max-width: 640px)">
+                                        <img src="\assets\images\home-v2\desktop\icon.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Next Step ThaiPolyester" loading="lazy">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-2-5 p-0">
+                            <div class="recycled-img-block step4">
+                                <div class="recycled-img">
+                                    <picture>
+                                        <source srcset="\assets\images\home-v2\mobile\Yarn-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                        <img src="\assets\images\home-v2\desktop\Yarn-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Yarn Thaipolyester" loading="lazy">
+                                    </picture>
+                                </div>
+                                <div class="recycled-img-icon">
+                                    <picture>
+                                        <source srcset="\assets\images\home-v2\mobile\icon.webp?v={{time()}}" media="(max-width: 640px)">
+                                        <img src="\assets\images\home-v2\desktop\icon.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Next Step ThaiPolyester" loading="lazy">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-2-5 p-0">
+                            <div class="recycled-img-block step5">
+                                <div class="recycled-img">
+                                    <picture>
+                                        <source srcset="\assets\images\home-v2\mobile\Fabric-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                        <img src="\assets\images\home-v2\desktop\Fabric-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Fabric Thaipolyester" loading="lazy">
+                                    </picture>
+                                </div>
+                                <div class="recycled-img-icon">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row m-0 r2">
+                        <div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
+                            <div class="content d-flex">
+                                <div class="content_group m-auto">
+                                    <p class="text-center">
+                                        For this reason, Thai Polyester limited company (TPC), the <span class="theme-hl">leading recycled polyester yarn and fiber manufacturer</span> in Thailand, concerns seriously
+                                        about the environmental problems to protect the ecosystem and the environment for decades.
+                                    </p>
+                                    <div class="recycled-btn d-flex">
+                                        <a href="" title="100% Recycled Polyester" class="mr-0">
+                                            ...Continue reading
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
             <section id="sec6" class="pos-r">
                 <div class="img_block w-100p pos-r">
@@ -168,7 +266,7 @@
                 </div>
                 <div class="d-flex content">
                     <div class="content_group m-auto">
-                        <h2 class="theme-hl fw-600">Filament</h2>
+                        <h2 class="theme-hl fw">Filament</h2>
                         <p>
                             Thai polyester Co., Ltd., who is the leading
                             polyester yarn supplier based in Thailand, has with
