@@ -72,6 +72,11 @@
 										Polyester Products
 									</a>
 									<ul class="a_sub_menu">
+                                        <li class="sub_menu_m">
+                                            <a title="polyester products" href="{!!url('/polyester-products')!!}">
+												All Products
+											</a>
+                                        </li>
 										<li>
 											<a title="PSF(Polyester Staple Fiber)" href="{{ route('product.psf') }}">
 												PSF(Polyester Staple Fiber)
@@ -142,6 +147,11 @@
 								Columns & News
 							</a>
 							<ul class="a_sub_menu">
+                                <li class="sub_menu_m">
+                                    <a title="Columns & News" href="/blog">
+                                        Columns & News
+                                    </a>
+                                </li>
 								<li>
 									<a title="Columns" href="{{ route('blog.columns') }}">
 										Columns

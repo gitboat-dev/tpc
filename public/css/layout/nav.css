@@ -272,6 +272,14 @@ nav.nav_right ul.header-menu > li ul.a_sub_menu > li:not(.navrecycled){
 nav.nav_right ul.header-menu .has-children ul.a_sub_menu > li:not(.navrecycled){
 	background-color: #454554 !important;
 }
+@media only screen and (min-width: 992px){
+    .menu_m{
+        display: none;
+    }
+    .sub_menu_m{
+        display: none;
+    }
+}
 @media only screen and (max-width: 991px){
 	header .header-top{
 		display: none;
