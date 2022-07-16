@@ -147,8 +147,8 @@ ul.path > li.active{
         content: " ";
         position: absolute;
         bottom: 0;
-        left: 10%;
-        width: 80%;
+        left: 15px;
+        width: calc(100% - 30px);
         height: 2px;
         background-color: var(--msBgDark);
     }

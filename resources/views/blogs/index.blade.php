@@ -64,8 +64,8 @@
                                         </div>
                                     </div>
                                     <div class="col-xs-12 col-sm-7 col-md-7 d-flex">
-                                        <div class="content_block pos-r d-flex m-auto">
-                                            <div class="content_group ml-0">
+                                        <div class="content_block pos-r d-flex m-auto w-100p">
+                                            <div class="content_group m-auto w-100p">
                                                 <h3 class="a_tl">
                                                     <a href="/blog/{{$blog['article_slug']}}" title="{{$blog['article_title']}}">
                                                         {{$blog['article_title']}}
