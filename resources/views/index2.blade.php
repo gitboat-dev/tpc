@@ -51,7 +51,7 @@
                                 thereby of the innovative technology in globe.
                             </h3>
                             <div class="download-btn d-flex">
-                                <a href="" title="Download" class="m-auto">
+                                <a href="https://www.thaipolyester.com/book/en/tpc/company-profile-and-catalog-en" title="Download" class="m-auto">
                                     Download
                                 </a>
                             </div>
