@@ -1,6 +1,6 @@
 @extends('layouts.template')
 @section('style')
-<link rel="preload stylesheet" href="/css/index2.css?v={{time()}}" as="style" crossorigin>
+<link rel="preload stylesheet" href="/css/index2.min.css?v={{time()}}" as="style" crossorigin>
 @endsection
 @section('og-image','')
 @section('content')
@@ -177,8 +177,8 @@
                                     </div>
                                     <div class="recycled-img-icon">
                                         <picture>
-                                            <source srcset="/assets/images/home-v2/mobile/next_icon.webp?v={{time()}}" media="(max-width: 640px)">
-                                            <img src="/assets/images/home-v2/desktop/next_icon.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Next Step ThaiPolyester" loading="lazy">
+                                            <source srcset="/assets/images/home-v2/mobile/icon.webp?v={{time()}}" media="(max-width: 640px)">
+                                            <img src="/assets/images/home-v2/desktop/icon.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Next Step ThaiPolyester" loading="lazy">
                                         </picture>
                                     </div>
                                 </div>
@@ -207,8 +207,8 @@
                                     </div>
                                     <div class="recycled-img-icon">
                                         <picture>
-                                            <source srcset="/assets/images/home-v2/mobile/next_icon.webp?v={{time()}}" media="(max-width: 640px)">
-                                            <img src="/assets/images/home-v2/desktop/next_icon.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Next Step ThaiPolyester" loading="lazy">
+                                            <source srcset="/assets/images/home-v2/mobile/icon.webp?v={{time()}}" media="(max-width: 640px)">
+                                            <img src="/assets/images/home-v2/desktop/icon.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Next Step ThaiPolyester" loading="lazy">
                                         </picture>
                                     </div>
                                 </div>
@@ -236,8 +236,8 @@
                                     </div>
                                     <div class="recycled-img-icon">
                                         <picture>
-                                            <source srcset="/assets/images/home-v2/mobile/next_icon.webp?v={{time()}}" media="(max-width: 640px)">
-                                            <img src="/assets/images/home-v2/desktop/next_icon.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Next Step ThaiPolyester" loading="lazy">
+                                            <source srcset="/assets/images/home-v2/mobile/icon.webp?v={{time()}}" media="(max-width: 640px)">
+                                            <img src="/assets/images/home-v2/desktop/icon.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Next Step ThaiPolyester" loading="lazy">
                                         </picture>
                                     </div>
                                 </div>
@@ -268,8 +268,8 @@
                                     </div>
                                     <div class="recycled-img-icon">
                                         <picture>
-                                            <source srcset="/assets/images/home-v2/mobile/next_icon.webp?v={{time()}}" media="(max-width: 640px)">
-                                            <img src="/assets/images/home-v2/desktop/next_icon.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Next Step ThaiPolyester" loading="lazy">
+                                            <source srcset="/assets/images/home-v2/mobile/icon.webp?v={{time()}}" media="(max-width: 640px)">
+                                            <img src="/assets/images/home-v2/desktop/icon.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Next Step ThaiPolyester" loading="lazy">
                                         </picture>
                                     </div>
                                 </div>
@@ -487,6 +487,6 @@
     </div>
 @endsection
 @section('custom-script')
-<script src="/js/index2.js?v={{time()}}"></script>
+<script src="/js/index2.min.js?v={{time()}}"></script>
 @endsection
 

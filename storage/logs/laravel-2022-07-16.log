@@ -1,0 +1,72 @@
+[2022-07-16 01:48:38] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-16 01:48:38] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-16 01:48:38] local.DEBUG: -> error string  
+[2022-07-16 01:48:38] local.DEBUG: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ (SQL: select * from `platform`)  
+[2022-07-16 01:48:38] local.DEBUG: -> end  
+[2022-07-16 01:49:03] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-16 01:49:03] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-16 01:49:03] local.DEBUG: -> error string  
+[2022-07-16 01:49:03] local.DEBUG: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ (SQL: select * from `platform`)  
+[2022-07-16 01:49:03] local.DEBUG: -> end  
+[2022-07-16 01:49:07] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-16 01:49:07] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-16 01:49:07] local.DEBUG: -> error string  
+[2022-07-16 01:49:07] local.DEBUG: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ (SQL: select * from `platform`)  
+[2022-07-16 01:49:07] local.DEBUG: -> end  
+[2022-07-16 01:49:29] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-16 01:49:29] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-16 01:49:29] local.DEBUG: -> error string  
+[2022-07-16 01:49:29] local.DEBUG: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ (SQL: select * from `platform`)  
+[2022-07-16 01:49:29] local.DEBUG: -> end  
+[2022-07-16 01:49:33] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-16 01:49:33] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-16 01:49:33] local.DEBUG: -> error string  
+[2022-07-16 01:49:33] local.DEBUG: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ (SQL: select * from `platform`)  
+[2022-07-16 01:49:33] local.DEBUG: -> end  
+[2022-07-16 01:50:22] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-16 01:50:22] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-16 01:50:22] local.DEBUG: -> error string  
+[2022-07-16 01:50:22] local.DEBUG: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ (SQL: select * from `platform`)  
+[2022-07-16 01:50:22] local.DEBUG: -> end  
+[2022-07-16 01:51:16] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-16 01:51:16] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-16 01:51:16] local.DEBUG: -> error string  
+[2022-07-16 01:51:16] local.DEBUG: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ (SQL: select * from `platform`)  
+[2022-07-16 01:51:16] local.DEBUG: -> end  
+[2022-07-16 01:51:18] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-16 01:51:18] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-16 01:51:18] local.DEBUG: -> error string  
+[2022-07-16 01:51:18] local.DEBUG: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ (SQL: select * from `platform`)  
+[2022-07-16 01:51:18] local.DEBUG: -> end  
+[2022-07-16 01:51:20] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-16 01:51:20] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-16 01:51:20] local.DEBUG: -> error string  
+[2022-07-16 01:51:20] local.DEBUG: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ (SQL: select * from `platform`)  
+[2022-07-16 01:51:20] local.DEBUG: -> end  
+[2022-07-16 01:51:22] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-16 01:51:22] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-16 01:51:22] local.DEBUG: -> error string  
+[2022-07-16 01:51:22] local.DEBUG: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ (SQL: select * from `platform`)  
+[2022-07-16 01:51:22] local.DEBUG: -> end  
+[2022-07-16 01:51:24] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-16 01:51:24] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-16 01:51:24] local.DEBUG: -> error string  
+[2022-07-16 01:51:24] local.DEBUG: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ (SQL: select * from `platform`)  
+[2022-07-16 01:51:24] local.DEBUG: -> end  
+[2022-07-16 01:51:26] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-16 01:51:26] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-16 01:51:26] local.DEBUG: -> error string  
+[2022-07-16 01:51:26] local.DEBUG: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ (SQL: select * from `platform`)  
+[2022-07-16 01:51:26] local.DEBUG: -> end  
