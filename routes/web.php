@@ -38,18 +38,6 @@ Route::get('/home', function () {
 	$data['our_customers'] = ['Albania', 'Argentina', 'Australia', 'Bangladesh', 'Belarus', 'Belgium', 'Brazil', 'Cambodia', 'Chille', 'Colombia', 'Croatia', 'Cuba', 'Cyprus', 'Denmark', 'Ecuador', 'Egypt', 'El Salvador', 'Ethiopia', 'Fiji', 'Finland', 'France', 'Germany', 'Ghana', 'Greece', 'Guatemala', 'Honduras', 'India', 'Indonesia', 'Iraq', 'Israel', 'Italy', 'Jamaica', 'Japan', 'Jordan', 'Kenya', 'Korea', 'Lao', 'Malaysia', 'Mexico', 'Morocco', 'Myanmar', 'Nepal', 'New Zealand', 'Nigeria', 'Norway', 'Oman', 'Parkistan', 'Peru', 'Philippines', 'Poland', 'Portugal', 'Qatar', 'Romania', 'Russia', 'Saudi Arabia', 'South Africa', 'Spain', 'Sri Lanka', 'Sudan', 'Sweden', 'Switzerland', 'Taiwan', 'Tanzania', 'Tonga', 'Tunisia', 'Turkey', 'UAE', 'Ukraine', 'USA/Canada', 'Uzbekistan', 'Vietnam', 'Yemen'];
 	return view('index', $data);
 });
-Route::get('/home2', function () {
-	$chkie = new Func_controller;
-	$agent = new Agent();
-	$data['chkie'] = $chkie->chk();
-	$data['des'] = 'Thai Polyester Company. We are full integration of fiber polyester manufacturer with total capacity 316,800 tons a years achieved thereby of the innovative technology in globe.';
-	$data['key'] = 'thai polyester, Polyester Staple Fiber,yarn manufacturer in thailand, Cheap polyester fiber,Good quality polyester fiber,  Yarn manufacturers';
-	$data['title'] = 'Thai Polyester CO., LTD';
-	$data['active_home'] = 'activemenu';
-	$data['chkmobile'] = $agent->isMobile() ? $agent->isMobile() : ($agent->isTablet() ? $agent->isTablet() : false);
-	$data['our_customers'] = ['Albania', 'Argentina', 'Australia', 'Bangladesh', 'Belarus', 'Belgium', 'Brazil', 'Cambodia', 'Chille', 'Colombia', 'Croatia', 'Cuba', 'Cyprus', 'Denmark', 'Ecuador', 'Egypt', 'El Salvador', 'Ethiopia', 'Fiji', 'Finland', 'France', 'Germany', 'Ghana', 'Greece', 'Guatemala', 'Honduras', 'India', 'Indonesia', 'Iraq', 'Israel', 'Italy', 'Jamaica', 'Japan', 'Jordan', 'Kenya', 'Korea', 'Lao', 'Malaysia', 'Mexico', 'Morocco', 'Myanmar', 'Nepal', 'New Zealand', 'Nigeria', 'Norway', 'Oman', 'Parkistan', 'Peru', 'Philippines', 'Poland', 'Portugal', 'Qatar', 'Romania', 'Russia', 'Saudi Arabia', 'South Africa', 'Spain', 'Sri Lanka', 'Sudan', 'Sweden', 'Switzerland', 'Taiwan', 'Tanzania', 'Tonga', 'Tunisia', 'Turkey', 'UAE', 'Ukraine', 'USA/Canada', 'Uzbekistan', 'Vietnam', 'Yemen'];
-	return view('index2', $data);
-});
 Route::get('/about', function () {
 	$chkie = new Func_controller;
 	$agent = new Agent();
