@@ -1,387 +1,492 @@
 @extends('layouts.template')
 @section('style')
-	<link rel="preload stylesheet" href="/css/index.css?v={{ time() }}" as="style" crossorigin>
-	{{-- <link rel="preload stylesheet" id="fancybox-css" href="{!!asset('/assets/custom/wp-content/plugins/radiantthemes-addons/assets/css/jquery.fancybox.min.css?ver=4.9.11')!!}" type="text/css" as="style" media="all" crossorigin> --}}
+<link rel="preload stylesheet" href="/css/index.min.css?v={{time()}}" as="style" crossorigin>
 @endsection
+@section('og-image','/assets/images/home/desktop/Catalog-company-profile-ThaiPolyester.webp')
 @section('content')
-	<div id="home">
-		<div id="home_bg">
-			<div class="section-one">
-				<div class="row m-0 r1">
-					<div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
-						<div class="img_block1">
-							<picture>
-								<source srcset="/assets/images/home/mobile/Head-Home-Thaipolyester.webp?v={{time()}}" alt="Head Home Thaipolyester" media="(max-width: 640px)">
-								<img src="/assets/images/home/desktop/Head-Home-Thaipolyester-1.webp?v={{time()}}" width="900" height="350" class="img-fluid ab-img img1" alt="Head Home Thaipolyester">
-					        </picture>
-					        <picture>
-								<source srcset="/assets/images/home/mobile/Head-Home-Thaipolyester.webp?v={{time()}}" alt="Head Home Thaipolyester" media="(max-width: 640px)">
-								<img src="/assets/images/home/desktop/Head-Home-Thaipolyester-2.webp?v={{time()}}" width="900" height="350" class="img-fluid ab-img img2" alt="Head Home Thaipolyester">
-					        </picture>
-				    	</div>
-                        <div class="banner-title-block d-flex">
-                            <div class="title-group mr-0 d-flex">
-                                <div class="banner-title m-auto">
-                                    <h1>Thai Polyester <br>Company (TPC)</h1>
-                                    <h2>We are a leading polyester yarn<br> manufacturer in Thailand.</h2>
-                                </div>
-                            </div>
-                        </div>
-					</div>
-					<div class="col-xs-12 col-sm-12 col-md-12 p-0 col2">
-						<div class="content_1">
-							<h2>Our Company</h2>
-							<p class="p1">
-								Thai Polyester Company was established in 2001. We are full integration of fiber polyester manufacturer
-                                with a total capacity of 350,000 tons annually, achieved thereby of the innovative technology in the globe.
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="section-two">
-				<div class="row m-0 bg-black r1">
-					<div class="col-xs-12 col-sm-12 col-md-8 p-0 col1">
-						<div class="video-block">
-							<video muted loop id="video1" poster="{{ $chkmobile ? "/assets/images/home/mobile/video-Thaipolyester.webp" : "/assets/images/home/desktop/video-Thaipolyester.webp" }}">
-								<source src="/assets/images/home/video/Thaipolyester.mp4" type="video/mp4">
-							</video>
-							<figure>
-								<button class="button" id="btn-video1" name="play">
-									<picture>
-										<source srcset="/assets/images/home/mobile/play-video-Thaipolyester.webp" alt="play video Thaipolyester" loading="lazy" media="(max-width: 640px)">
-										<img src="/assets/images/home/desktop/play-video-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="play video Thaipolyester" loading="lazy">
-									</picture>
-								</button>
-							</figure>
-						</div>
-					</div>
-					<div class="col-xs-12 col-sm-12 col-md-4 p-0 col2">
-						<div class="content_1">
-							<p class="p1">
-                                Thai Polyester Company (TPC) is a registered company
-                                specializing in fiber and filament polyester yarn.
-                                We export polyester yarn to many countries.
-                                An engineering plant of our production phases has
-                                successive through Zimmer AG Germany.
-                                Concerning filament and the textured yarn is developed
-                                with the latest generation of application
-                                on German operation, Barmag take-up.
-                                TPC, we landed on 3.2 Million Sq.m. at Ban Bung, Chonburi,
-                                far from Laemchabang Port, within 2 hours.
-							</p>
-							<div class="btn-block">
-								<a href="{!!url('/about')!!}" title="About Us">
-									<button>ABOUT US</button>
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="section-three">
-				<div class="row m-0 bg-black r1">
-					<div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
-						<h2><span class="highlight">Our Textile Business</span></h2>
-					</div>
-					<div class="col-xs-12 col-sm-12 col-md-4 p-0 col2">
-						<div class="content_1">
-							<div class="logo_block1">
-								<img src="/assets/custom/images/home/Asset%2035.png" width="900" height="350" class="img-fluid ab-img" alt="THAI POLYESTER" loading="lazy">
-							</div>
-							<h4>THAI POLYESTER</h4>
-							<p class="p1">
-								TPC is a fully integrated polyester manufacturer with capacity of 350,000 tons annually.
-                                Our high-quality Polymer process is guaranteed by modern German technology.
-							</p>
-							<div class="img_block1">
-								<picture>
-									<source srcset="/assets/images/home/mobile/Drawn-Textured-Yarn-or-DTY-Product-Polyester-Thaipolyester.webp" alt="Drawn Textured Yarn or DTY Product Polyester Thaipolyester" loading="lazy" media="(max-width: 640px)">
-									<img src="/assets/images/home/desktop/Drawn-Textured-Yarn-or-DTY-Product-Polyester-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Drawn Textured Yarn or DTY Product Polyester Thaipolyester" loading="lazy">
-								</picture>
-							</div>
-						</div>
-					</div>
-					<div class="col-xs-12 col-sm-12 col-md-4 p-0 col3">
-						<div class="content_1">
-							<div class="logo_block1">
-								<img src="/assets/custom/images/home/Asset%2036.png" width="900" height="350" class="img-fluid ab-img" alt="JONG STIT" loading="lazy">
-							</div>
-							<h4>JONG STIT</h4>
-							<p class="p1">
-								Jong Stit Co.,Ltd. is a leading textile entrepreneur based in Thailand. JS group is corporate
-                                in vertical integration of textile manufacturers leveraging 100% polyester.
-							</p>
-							<div class="img_block1">
-								<picture>
-									<source srcset="/assets/images/home/mobile/product-jongstit-polyester-thaipolyester.webp" alt="product jongstit polyester thaipolyester" loading="lazy" media="(max-width: 640px)">
-									<img src="/assets/images/home/desktop/product-jongstit-polyester-thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="product jongstit polyester thaipolyester" loading="lazy">
-								</picture>
-							</div>
-						</div>
-					</div>
-					<div class="col-xs-12 col-sm-12 col-md-4 p-0 col4">
-						<div class="content_1">
-							<div class="logo_block1">
-								<img src="/assets/custom/images/home/Asset%2037.png" width="900" height="350" class="img-fluid ab-img" alt="JONG STIT" loading="lazy">
-							</div>
-							<h4>FASHION HOMETEX</h4>
-							<p class="p1">
-								We are the largest home textile supplier in Thailand, an affiliate of Jong Stit Co.,Ltd. We are
-                                distributing innovative products to bring your comforts to meet our quality.
-							</p>
-							<div class="img_block1">
-								<picture>
-									<source srcset="/assets/images/home/mobile/product-jongstit-polyester-thaipolyester-1.webp" alt="product jongstit polyester thaipolyester" loading="lazy" media="(max-width: 640px)">
-									<img src="/assets/images/home/desktop/product-jongstit-polyester-thaipolyester-1.webp" width="900" height="350" class="img-fluid ab-img" alt="product jongstit polyester thaipolyester" loading="lazy">
-								</picture>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="section-four">
-				<div class="row m-0 r1">
-					<div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
-						<h2><span>Our Product</span></h2>
-					</div>
-					<div class="col-xs-12 col-sm-12 col-md-12 p-0 col2">
-						<div class="content_1">
-							<h3 class="m-0">100% Recycled<br>Polyester</h3>
-							<div class="img_block1">
-								<picture>
-									<source srcset="/assets/images/home/mobile/Recycled-Polyester-Yarn-Process-Thaipolyester.webp" alt="Recycled Polyester Yarn Process Thaipolyester" loading="lazy" media="(max-width: 640px)">
-									<img src="/assets/images/home/desktop/Recycled-Polyester-Yarn-Process-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img img1" alt="Recycled Polyester Yarn Process Thaipolyester" loading="lazy">
-						        </picture>
-							</div>
-						</div>
-					</div>
-					<div class="col-xs-12 col-sm-12 col-md-12 p-0 col3">
-						<div class="content_1">
-							<p class="p1">
-                                For this reason, Thai Polyester limited company (TPC), the <span class="highlight">leading recycled polyester yarn
-                                and fiber manufacturer</span> in Thailand, seriously concerned about the environmental problems
-                                to protect the ecosystem and the environment for decades.
-							</p>
-							<a href="{!!url('/recycled-products')!!}" title="Recycled Products">...Continue reading</a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="section-five">
-				<div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_custom_1509517411682 vc_row-no-padding" >
-                    <div class="wpb_column vc_column_container vc_col-sm-12">
-                        <div class="vc_column-inner vc_custom_1508395818862">
-                            <div class="wpb_wrapper">
-                                <div class="wpb_text_column wpb_content_element  vc_custom_1518850991393">
-                                    <div class="wpb_wrapper">
-
-                                        <div id="carousel-example-generic" class="carousel slide mb-height" data-ride="carousel">
-                                            <!-- Indicators -->
-                                            <ol class="carousel-indicators">
-                                              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                                              <li data-target="#carousel-example-generic" data-slide-to="1" class="item1"></li>
-                                              <li data-target="#carousel-example-generic" data-slide-to="2" class="item2"></li>
-                                            </ol>
-
-                                            <!-- Wrapper for slides -->
-                                            <div class="carousel-inner" role="listbox" >
-                                              	<div class="item active" id="seesilde1" closeplay="false">
-	                                                <picture>
-														<source srcset="/assets/images/home/mobile/Polyester-filament-yarn-Thaipolyester-2.webp" alt="Polyester filament yarn Thaipolyester" loading="lazy" media="(max-width: 640px)">
-														<img src="/assets/images/home/desktop/Polyester-filament-yarn-Thaipolyester-2-1.webp" width="900" height="350" class="img-fluid ab-img img1" alt="Polyester filament yarn Thaipolyester" loading="lazy">
-											        </picture>
-                                              	</div>
-                                              	<div class="item" id="seesilde2" closeplay="false">
-	                                                <picture>
-														<source srcset="/assets/images/home/mobile/Polyester-filament-yarn-Thaipolyester-1.webp" alt="Polyester filament yarn Thaipolyester" loading="lazy" media="(max-width: 640px)">
-														<img src="/assets/images/home/desktop/Polyester-filament-yarn-Thaipolyester-1-1.webp" width="900" height="350" class="img-fluid ab-img img1" alt="Polyester filament yarn Thaipolyester" loading="lazy">
-											        </picture>
-                                              	</div>
-                                              	<div class="item" id="seesilde3" closeplay="false">
-	                                                <picture>
-														<source srcset="/assets/images/home/mobile/Polyester-filament-yarn-Thaipolyester-3.webp" alt="Polyester filament yarn Thaipolyester" loading="lazy" media="(max-width: 640px)">
-														<img src="/assets/images/home/desktop/Polyester-filament-yarn-Thaipolyester-3-1.webp" width="900" height="350" class="img-fluid ab-img img1" alt="Polyester filament yarn Thaipolyester" loading="lazy">
-											        </picture>
-                                              	</div>
-                                            </div>
-                                        </div>
+    <div id="tpc">
+        <div id="tpc_bg">
+            <section id="sec1" class="pos-r">
+                <div class="sec1_wrapper">
+                    <video autoplay muted loop playsinline id="video1" poster="">
+                        <source src="/assets/images/landing/page8/video/Landing Page TPC4.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="pos-ab w-100p h-100p top-0 left-0 d-flex">
+                    <div class="row m-0 w-100p h-100p">
+                        <div class="col-xs-12 col-sm-12 col-md-12 d-flex h-100p col-h1">
+                            <div class="head-content w-100p h-100p d-flex">
+                                <div class="content m-auto">
+                                    <h1 class="head-title fw-bold">
+                                        Thai Polyester Company (TPC)
+                                    </h1>
+                                    <div class="head-desc">
+                                        <p>
+                                            we are leading polyester yarn recycling Manufacturer
+                                        </p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="content_1">
-    				<div class="content1_1">
-    					<h2>Filament</h2>
-	                	<p class="p1">
-                            Thai polyester Co., Ltd., the leading polyester yarn supplier based in Thailand, has 84,000
-                            tons of polyester filament production yearly. TPC manufactures four categories of polyester
-                            filament yarn which are;<br>
-							• Pre-Oriented Yarn (POY)<br>
-							• Fully Drawn Yarn (FDY)<br>
-							• Drawn Textured Yarn (DTY)<br>
-							• Twisted yarn
-	                	</p>
-	                	<a href="{{ route('product.filament') }}" title="Filament">...Continue reading</a>
-    				</div>
-    			</div>
-			</div>
-			<div class="section-six">
-				<div class="row m-0 r1">
-					<div class="top-line"></div>
-					<div class="col-xs-12 col-sm-12 col-md-4 p-0 col1">
-						<div class="content_1">
-							<h2>Spun yarn</h2>
-							<p class="p1">
-                                Thai Polyester Co., Ltd. is a professional <span class="highlight">100% polyester fibers and yarns manufacturer</span> in
-                                Thailand. We are also the biggest 100% polyester spun yarn manufacturer in Thailand.
-                                Thai Polyester provides considerable quantities of <span class="highlight">polyester ring-spun yarn</span> and
-                                <span class="highlight">polyester OE spun yarn</span> to the local customers and exports to thread suppliers, knitting, and
-                                weaving manufacturers worldwide every year.
-							</p>
-							<a href="{{ route('product.spun-yarn') }}" title="Spun yarn">...Continue reading</a>
-						</div>
-					</div>
-					<div class="col-xs-6 col-sm-6 col-md-4 p-0 col2">
-						<div class="img_block1">
+            </section>
+            <section id="sec2" class="pos-r">
+                <div class="container">
+                    <div class="row m-0 d-flex m-flex-c">
+                        <div class="col-xs-12 col-sm-12 col-md-6 p-0 m-auto">
+                            <div class="img_block w-100p pos-r">
+                                <picture>
+                                    <source srcset="/assets/images/home/mobile/Catalog-company-profile-ThaiPolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                    <img src="/assets/images/home/desktop/Catalog-company-profile-ThaiPolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Catalog company profile ThaiPolyester" loading="lazy">
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-6 p-0 m-auto">
+                            <h2 class="text-center fw-600">Our Company</h2>
+                            <h3 class="text-center">
+                                Thai Polyester Company has been established in 2001.
+                                We are full integration of fiber polyester manufacturer
+                                with total capacity 316,800 tons a years achieved
+                                thereby of the innovative technology in globe.
+                            </h3>
+                            <div class="download-btn d-flex">
+                                <a href="https://www.thaipolyester.com/book/en/tpc/company-profile-and-catalog-en" title="Download" class="m-auto" target="_blank">
+                                    Download
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="sec3" class="pos-r">
+                <div class="img_block w-100p pos-r">
+                    <picture>
+                        <source srcset="/assets/images/home/mobile/HOME-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                        <img src="/assets/images/home/desktop/HOME-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Catalog company profile ThaiPolyester" loading="lazy">
+                    </picture>
+                </div>
+                <div class="container">
+                    <div class="row m-0 d-flex m-flex-c">
+                        <div class="col-xs-12 col-sm-12 col-md-12 p-0 m-auto col1">
+                            <p class="text-center">
+                                Thai polyester is a registered company specializing in polyester yarn both fiber and filament. We export polyester yarn to many countries.
+                                An engineering plant of our production phases has successive through Zimmer AG Germany. Regard to filament and textured yarn is developed with the
+                                latest generation of application on German operation, Barmag take-up. TPC, we landed on 3.2 Million Sq.m at Ban Bung, Chonburi, far from
+                                Laemchabang Port within 2 hours.
+                            </p>
+                            <div class="about-btn d-flex">
+                                <a href="{!!url('/about')!!}" title="About Us" class="m-auto">
+                                    ABOUT US
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="sec4" class="pos-r bg-black">
+                <h2 class="sec4-title text-center theme-hl fw">Our Textile Business</h2>
+                <div class="container">
+                    <div class="row m-0">
+                        <div class="col-xs-12 col-sm-12 col-md-4 p-0">
+                            <div class="img_block w-100p pos-r">
+                                <picture>
+                                    <source srcset="/assets/images/home/mobile/Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                    <img src="/assets/images/home/desktop/Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Thaipolyester" loading="lazy">
+                                </picture>
+                            </div>
+                            <div class="d-flex pos-ab top-0 left-0 w-100p h-100p content">
+                                <div class="content_group m-auto">
+                                    <h2 class="text-center fw-600"><span class="tl2 m-tl1">THAI POLYESTER</span></h2>
+                                    <div class="content-desc">
+                                        <p class="text-center">
+                                            TPC is a Fully Integrated Polyester
+                                            manufacturer with total capacity 316,800
+                                            tons per annual. Our high-quality
+                                            Polymer process is guaranteed by
+                                            modern German technology.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-4 p-0">
+                            <div class="img_block w-100p pos-r">
+                                <picture>
+                                    <source srcset="/assets/images/home/mobile/Jongstit.webp?v={{time()}}" media="(max-width: 640px)">
+                                    <img src="/assets/images/home/desktop/Jongstit.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Jongstit" loading="lazy">
+                                </picture>
+                            </div>
+                            <div class="d-flex pos-ab top-0 left-0 w-100p h-100p content">
+                                <div class="content_group m-auto">
+                                    <h2 class="text-center fw-600"><span class="tl2 m-tl1">JONG STIT</span></h2>
+                                    <div class="content-desc">
+                                        <p class="text-center">
+                                            Jong Stit Co.,Ltd. is leading textile
+                                            entrepreneur based in Thailand. JS group
+                                            corperate in vertival intergration of
+                                            textile manufacturer leveraging 100%
+                                            polyester.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-4 p-0">
+                            <div class="img_block w-100p pos-r">
+                                <picture>
+                                    <source srcset="/assets/images/home/mobile/FashionHometex.webp?v={{time()}}" media="(max-width: 640px)">
+                                    <img src="/assets/images/home/desktop/FashionHometex.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="FashionHometex" loading="lazy">
+                                </picture>
+                            </div>
+                            <div class="d-flex pos-ab top-0 left-0 w-100p h-100p content">
+                                <div class="content_group m-auto">
+                                    <h2 class="text-center fw-600"><span class="tl2 m-tl1">FASHION HOMETEX</span></h2>
+                                    <div class="content-desc">
+                                        <p class="text-center">
+                                            We are the largest home textile supplier
+                                            in thailand an affiliate of Jong Stit
+                                            Co.,Ltd. Distributing innovative products
+                                            to bring your comforts meet our quality.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="sec5" class="pos-r">
+                <div class="container">
+                    <h2 class="sec5-title text-center m-0 fw">Our Product</h2>
+                    <h2 class="sec5-title text-center fw-600 theme-hl"><span class="tl0 m-tl">100% Recycled Polyester</span></h2>
+                    <div class="row m-0 r1">
+                        <div class="col-xs-12 col-sm-12 col-md-2-5 p-0 col1">
+                            <div class="recycled-row">
+                                <div class="recycled-col1 text-center">
+                                    <div class="step-tag">
+                                        STEP 1
+                                    </div>
+                                </div>
+                                <div class="recycled-img-block step1 recycled-col2">
+                                    <div class="recycled-img">
+                                        <picture>
+                                            <source srcset="/assets/images/home/mobile/PET-Plastic-Bottles-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                            <img src="/assets/images/home/desktop/PET-Plastic-Bottles-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="PET Plastic Bottles Thaipolyester" loading="lazy">
+                                        </picture>
+                                    </div>
+                                    <div class="recycled-img-icon">
+                                        <picture>
+                                            <source srcset="/assets/images/home/mobile/icon.webp?v={{time()}}" media="(max-width: 640px)">
+                                            <img src="/assets/images/home/desktop/icon.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Next Step ThaiPolyester" loading="lazy">
+                                        </picture>
+                                    </div>
+                                </div>
+                                <div class="recycled-col3 text-center">
+                                    <h4 class="fw-600 m-0">PET Plastic Bottles</h4>
+                                    <small class="fw-600" style="line-height: 100%;">
+                                        <span class="tl0 m-tl">Post consumer bottles<br>
+                                        are collected and washed</span>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-2-5 p-0 col2">
+                            <div class="recycled-row">
+                                <div class="recycled-col1 text-center">
+                                    <div class="step-tag">
+                                        STEP 2
+                                    </div>
+                                </div>
+                                <div class="recycled-img-block step2 recycled-col2">
+                                    <div class="recycled-img">
+                                        <picture>
+                                            <source srcset="/assets/images/home/mobile/Flake-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                            <img src="/assets/images/home/desktop/Flake-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Flake Thaipolyester" loading="lazy">
+                                        </picture>
+                                    </div>
+                                    <div class="recycled-img-icon">
+                                        <picture>
+                                            <source srcset="/assets/images/home/mobile/icon.webp?v={{time()}}" media="(max-width: 640px)">
+                                            <img src="/assets/images/home/desktop/icon.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Next Step ThaiPolyester" loading="lazy">
+                                        </picture>
+                                    </div>
+                                </div>
+                                <div class="recycled-col3 text-center">
+                                    <h4 class="fw-600 m-0">Flake</h4>
+                                    <small class="fw-600" style="line-height: 100%;">
+                                        <span class="tl0 m-tl">Bottles shredded into Flake</span>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-2-5 p-0 col3">
+                            <div class="recycled-row">
+                                <div class="recycled-col1 text-center">
+                                    <div class="step-tag">
+                                        STEP 3
+                                    </div>
+                                </div>
+                                <div class="recycled-img-block step3 recycled-col2">
+                                    <div class="recycled-img">
+                                        <picture>
+                                            <source srcset="/assets/images/home/mobile/Fiber-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                            <img src="/assets/images/home/desktop/Fiber-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Fiber Thaipolyester" loading="lazy">
+                                        </picture>
+                                    </div>
+                                    <div class="recycled-img-icon">
+                                        <picture>
+                                            <source srcset="/assets/images/home/mobile/icon.webp?v={{time()}}" media="(max-width: 640px)">
+                                            <img src="/assets/images/home/desktop/icon.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Next Step ThaiPolyester" loading="lazy">
+                                        </picture>
+                                    </div>
+                                </div>
+                                <div class="recycled-col3 text-center">
+                                    <h4 class="fw-600 m-0">Fiber</h4>
+                                    <small class="fw-600" style="line-height: 100%;">
+                                        <span class="tl0 m-tl">
+                                            Flake are melted and<br>
+                                            extruded into fiber
+                                        </span>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-2-5 p-0 col4">
+                            <div class="recycled-row">
+                                <div class="recycled-col1 text-center">
+                                    <div class="step-tag">
+                                        STEP 4
+                                    </div>
+                                </div>
+                                <div class="recycled-img-block step4 recycled-col2">
+                                    <div class="recycled-img">
+                                        <picture>
+                                            <source srcset="/assets/images/home/mobile/Yarn-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                            <img src="/assets/images/home/desktop/Yarn-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Yarn Thaipolyester" loading="lazy">
+                                        </picture>
+                                    </div>
+                                    <div class="recycled-img-icon">
+                                        <picture>
+                                            <source srcset="/assets/images/home/mobile/icon.webp?v={{time()}}" media="(max-width: 640px)">
+                                            <img src="/assets/images/home/desktop/icon.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Next Step ThaiPolyester" loading="lazy">
+                                        </picture>
+                                    </div>
+                                </div>
+                                <div class="recycled-col3 text-center">
+                                    <h4 class="fw-600 m-0">Yarn</h4>
+                                    <small class="fw-600" style="line-height: 100%;">
+                                        <span class="tl0 m-tl">Fibre are spun into Polyester Yarn</span>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-2-5 p-0 col5">
+                            <div class="recycled-row">
+                                <div class="recycled-col1 text-center">
+                                    <div class="step-tag">
+                                        STEP 5
+                                    </div>
+                                </div>
+                                <div class="recycled-img-block step5 recycled-col2">
+                                    <div class="recycled-img">
+                                        <picture>
+                                            <source srcset="/assets/images/home/mobile/Fabric-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                            <img src="/assets/images/home/desktop/Fabric-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Fabric Thaipolyester" loading="lazy">
+                                        </picture>
+                                    </div>
+                                    <div class="recycled-img-icon">
+                                    </div>
+                                </div>
+                                <div class="recycled-col3 text-center">
+                                    <h4 class="fw-600 m-0">Fabric</h4>
+                                    <small class="fw-600" style="line-height: 100%;">
+                                        <span class="tl0 m-tl">
+                                            yarn are knitted or<br>
+                                            woven into fabric
+                                        </span>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row m-0 r2">
+                        <div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
+                            <div class="content d-flex">
+                                <div class="content_group m-auto">
+                                    <p class="text-center">
+                                        For this reason, Thai Polyester limited company (TPC), the <span class="theme-hl">leading recycled polyester yarn and fiber manufacturer</span> in Thailand, concerns seriously
+                                        about the environmental problems to protect the ecosystem and the environment for decades.
+                                    </p>
+                                    <div class="recycled-btn d-flex">
+                                        <a href="{!!url('/recycled-products')!!}" title="100% Recycled Polyester" class="mr-0">
+                                            ...Continue reading
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="sec6" class="pos-r">
+                <div class="img_block w-100p pos-r">
+                    <picture>
+                        <source srcset="/assets/images/home/mobile/Filament-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                        <img src="/assets/images/home/desktop/Filament-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Filament Thaipolyester" loading="lazy">
+                    </picture>
+                </div>
+                <div class="d-flex content">
+                    <div class="content_group m-auto">
+                        <h2 class="theme-hl fw">Filament</h2>
+                        <p>
+                            Thai polyester Co., Ltd., who is the leading
+                            polyester yarn supplier based in Thailand, has with
+                            84,000 ton capacity of polyester filament production
+                            yearly. TPC manufactures four<br>
+                            categories of polyester filament yarn which are;<br>
+                            • Pre-Oriented Yarn (POY)<br>
+                            • Fully Drawn Yarn (FDY)<br>
+                            • Drawn Textured Yarn (DTY)<br>
+                            • Twisted yarn
+                        </p>
+                        <div class="filament-btn d-flex">
+                            <a href="{{route('product.filament')}}" title="Filament" class="mr-0">
+                                ...Continue reading
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="sec7" class="pos-r">
+                <div class="img_block w-100p pos-r">
+                    <picture>
+                        <source srcset="/assets/images/home/mobile/Spun-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                        <img src="/assets/images/home/desktop/Spun-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Spun Thaipolyester" loading="lazy">
+                    </picture>
+                </div>
+                <div class="d-flex pos-ab top-0 left-0 w-100p h-100p content">
+                    <div class="content_group m-auto">
+                        <div class="container">
+                            <h2 class="white-hl fw-600 text-center">Spun yarn</h2>
+                            <p class="text-center">
+                                Thai Polyester Co., Ltd. is the professional 100% polyester fibers and yarns manufacturer in Thailand, we are also recognize as the biggest
+                                <span class="theme-hl">100% polyester spun yarn manufacturer</span> in Thailand. Thai Polyester provides numerous quantities of <span class="theme-hl">polyester ring spun yarn</span> and <span class="theme-hl">polyester OE spun yarn</span>
+                                to the local customers and export to thread suppliers, knitting and weaving manufacturers around the world every year.
+                            </p>
+                            <div class="spun-btn d-flex">
+                                <a href="{{route('product.spun-yarn')}}" title="Spun yarn" class="mr-0">
+                                    ...Continue reading
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="sec8" class="pos-r">
+                <div class="container">
+                    <div class="row m-0">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col1">
+                            <div class="content d-flex">
+                                <div class="content_group m-auto">
+                                    <h2 class="text-center fw">
+                                        Our Custumers
+                                    </h2>
+                                    <p class="text-center">
+                                        our 20 years experience, as one stop service polyester yarn and fiber manufacturer in Thailand, we have supplied customers in variety industries who are
+                                        located more than 70 countries around the world.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 p-0 col2">
+                        <a title="Map Our Custumers Thaipolyester" href="/assets/images/home/desktop/Map-Our-Custumers-Thaipolyester.webp?v={{time()}}" data-fancybox="gallery" data-thumbnail-src="/assets/images/home/desktop/Map-Our-Custumers-Thaipolyester.webp?v={{time()}}">
 							<picture>
-								<source srcset="/assets/images/home/mobile/Ring-Spinning-Spun-yarn-Thaipolyester.webp" alt="Ring Spinning Spun yarn Thaipolyester" loading="lazy" media="(max-width: 640px)">
-								<img src="/assets/images/home/desktop/Ring-Spinning-Spun-yarn-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Ring Spinning Spun yarn Thaipolyester" loading="lazy">
-							</picture>
-						</div>
-					</div>
-					<div class="col-xs-6 col-sm-6 col-md-4 p-0 col3">
-						<div class="img_block1">
-							<picture>
-								<source srcset="/assets/images/home/mobile/Rotor-or-Open-End-%28OE%29-Spinning-Spun-yarn-Thaipolyester.webp" alt="Rotor or Open End (OE) Spinning Spun yarn Thaipolyester" loading="lazy" media="(max-width: 640px)">
-								<img src="/assets/images/home/desktop/Rotor-or-Open-End-%28OE%29-Spinning-Spun-yarn-Thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="Rotor or Open End (OE) Spinning Spun yarn Thaipolyester" loading="lazy">
-							</picture>
-						</div>
-					</div>
-					<div class="bottom-line"></div>
-				</div>
-			</div>
-			<div class="section-seven">
-				<div class="row m-0 r1">
-					<div class="col-xs-12 col-sm-12 col-md-4 p-0 bg-black col1">
-						<h2>Our Customers</h2>
-					</div>
-					<div class="col-xs-12 col-sm-12 col-md-8 p-0 bg-green col2">
-						<div class="content_1">
-							<p class="p1 m-0">
-                                With our 20 years of experience as a one-stop service polyester yarn and fiber manufacturer
-                                in Thailand, we have supplied customers in various industries located in more than 70
-                                countries around the world.
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="row m-0 r2">
-					<div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
-						<a title="map office thai polyester" href="/assets/images/home/desktop/Web-Home-Map-thaipolyester.webp" data-fancybox="gallery" data-thumbnail-src="/assets/images/home/desktop/Web-Home-Map-thaipolyester.webp">
-							<picture>
-								<source srcset="/assets/images/home/desktop/Web-Home-Map-thaipolyester.webp" alt="map Thaipolyester customer" loading="lazy" media="(max-width: 640px)">
-								<img src="/assets/images/home/desktop/Web-Home-Map-thaipolyester.webp" width="900" height="350" class="img-fluid ab-img" alt="map Thaipolyester customer" loading="lazy">
+								<source srcset="/assets/images/home/mobile/Map-Our-Custumers-Thaipolyester.webp?v={{time()}}" alt="map Thaipolyester customer" loading="lazy" media="(max-width: 640px)">
+								<img src="/assets/images/home/desktop/Map-Our-Custumers-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid ab-img" alt="Map Our Custumers Thaipolyester" loading="lazy">
 							</picture>
 						</a>
-					</div>
-				</div>
-				<div class="row m-0 r3">
-					<div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
-						<div class="content_1">
-							<h3 class="m-0">
-								<picture>
-									<source srcset="/assets/images/home/mobile/star.webp" alt="star" loading="lazy" media="(max-width: 640px)">
-									<img src="/assets/images/home/desktop/star.webp" width="900" height="350" class="img-fluid ab-img" alt="star" loading="lazy">
-								</picture>
-								Thailand
-							</h3>
-							<div class="col-xs-12 col-sm-12 col-md-12 p-0 col1_1">
-								<ul class="row">
-									@if(isset($our_customers) && $our_customers)
-										@foreach($our_customers as $c)
-											<li class="col-xs-6 col-sm-4 col-md-2-5">{{ $c }}</li>
-										@endforeach
-									@endif
-								</ul>
-							</div>
-						</div>
-						<div class="arrow-block">
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 p-0 col3">
+                        <h3 class="text-center fw-600 thailand">
+                            <picture>
+                                <source srcset="/assets/images/home/mobile/star.webp" alt="star" loading="lazy" media="(max-width: 640px)">
+                                <img src="/assets/images/home/desktop/star.webp" width="900" height="350" class="img-fluid star" alt="star" loading="lazy">
+                            </picture>
+                            Thailand
+                        </h3>
+                        <ul class="row custumer-lists">
+                            @if(isset($our_customers) && $our_customers)
+                                @foreach($our_customers as $c)
+                                    <li class="col-xs-6 col-sm-4 col-md-2-5">{{ $c }}</li>
+                                @endforeach
+                            @endif
+                        </ul>
+                        <div class="arrow-block">
 							<picture>
 								<source srcset="/assets/images/home/mobile/triangle.webp" alt="triangle" loading="lazy" media="(max-width: 640px)">
 								<img src="/assets/images/home/desktop/triangle.webp" width="900" height="350" class="img-fluid ab-img" alt="triangle" loading="lazy">
 							</picture>
 						</div>
-					</div>
-				</div>
-			</div>
-			<div class="section-eight">
-				<h2><span>Certifications</span></h2>
-				<div class="row m-0 r1">
-					<div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
-						<div class="content_1">
-							<div class="col-xs-6 col-sm-6 col-md-4 col1_1">
-								{{-- <div class="col-xs-12 col-sm-12 col-md-12 p-0">
-									<a href="/assets/images/home/desktop/Global-Recycled-standard-100-Recycled-Polyester-Thaipolyester.webp?v={{ time() }}" data-fancybox="gallery" data-thumbnail-src="/assets/images/home/desktop/Global-Recycled-standard-100-Recycled-Polyester-Thaipolyester.webp?v={{ time() }}">
-										<div class="img_block1">
-											<picture>
-												<source srcset="/assets/images/home/mobile/Global-Recycled-standard-100-Recycled-Polyester-Thaipolyester.webp?v={{ time() }}" alt="Global Recycled standard 100% Recycled Polyester Thaipolyester" loading="lazy" media="(max-width: 640px)">
-												<img src="/assets/images/home/desktop/Global-Recycled-standard-100-Recycled-Polyester-Thaipolyester.webp?v={{ time() }}" width="900" height="350" class="img-fluid ab-img img1" alt="Global Recycled standard 100% Recycled Polyester Thaipolyester" loading="lazy">
-									        </picture>
-										</div>
-									</a>
-								</div> --}}
-								<div class="col-xs-12 col-sm-12 col-md-12 p-0">
-									<a href="/assets/images/home/desktop/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp?v={{ time() }}" data-fancybox="gallery" data-thumbnail-src="/assets/images/home/desktop/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp?v={{ time() }}">
-										<div class="img_block1">
-											<picture>
-												<source srcset="/assets/images/home/mobile/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp?v={{ time() }}" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" loading="lazy" media="(max-width: 640px)">
-												<img src="/assets/images/home/desktop/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp?v={{ time() }}" width="900" height="350" class="img-fluid ab-img img1" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" loading="lazy">
-									        </picture>
-										</div>
-									</a>
-								</div>
-								<div class="col-xs-12 col-sm-12 col-md-12 p-0">
-									<a href="/assets/images/home/desktop/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp?v={{ time() }}" data-fancybox="gallery" data-thumbnail-src="/assets/images/home/desktop/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp?v={{ time() }}">
-										<div class="img_block1">
-											<picture>
-												<source srcset="/assets/images/home/mobile/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp?v={{ time() }}" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" loading="lazy" media="(max-width: 640px)">
-												<img src="/assets/images/home/desktop/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp?v={{ time() }}" width="900" height="350" class="img-fluid ab-img img1" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" loading="lazy">
-									        </picture>
-										</div>
-									</a>
-								</div>
-							</div>
-							<div class="col-xs-6 col-sm-6 col-md-4 col1_2">
-								<a href="/assets/images/home/desktop/Green-industry-Activty-Thaipolyester.webp?v={{ time() }}" data-fancybox="gallery" data-thumbnail-src="/assets/images/home/desktop/Green-industry-Activty-Thaipolyester.webp?v={{ time() }}">
-									<div class="img_block1">
-										<picture>
-											<source srcset="/assets/images/home/mobile/Green-industry-Activty-Thaipolyester.webp?v={{ time() }}" alt="Green industry Activty Thaipolyester" loading="lazy" media="(max-width: 640px)">
-											<img src="/assets/images/home/desktop/Green-industry-Activty-Thaipolyester.webp?v={{ time() }}" width="900" height="350" class="img-fluid ab-img img1" alt="Green industry Activty Thaipolyester" loading="lazy">
-								        </picture>
-									</div>
-								</a>
-							</div>
-							<div class="col-xs-6 col-sm-6 col-md-4 col1_3">
-								<a href="/assets/images/home/desktop/intertek-Certificate-of-Registration-thaipolyester.webp?v={{ time() }}" data-fancybox="gallery" data-thumbnail-src="/assets/images/home/desktop/intertek-Certificate-of-Registration-thaipolyester.webp?v={{ time() }}">
-									<div class="img_block1">
-										<picture>
-											<source srcset="/assets/images/home/mobile/intertek-Certificate-of-Registration-thaipolyester.webp?v={{ time() }}" alt="intertek Certificate of Registration thaipolyester" loading="lazy" media="(max-width: 640px)">
-											<img src="/assets/images/home/desktop/intertek-Certificate-of-Registration-thaipolyester.webp?v={{ time() }}" width="900" height="350" class="img-fluid ab-img img1" alt="intertek Certificate of Registration thaipolyester" loading="lazy">
-								        </picture>
-									</div>
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+                    </div>
+                </div>
+            </section>
+            <section id="sec9" class="pos-r">
+                <div class="container">
+                    <div class="row r1 m-0">
+                        <div class="col-xs-12 col-sm-12 col-md-12">
+                            <h2 class="text-center fw">
+                                Certification
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="row r2 m-0 d-flex">
+                        <div class="col-xs-6 col-sm-6 col-md-4 p-0 col1">
+                            <div class="img_block w-100p">
+                                <a title="Green industry Activty Thaipolyester" href="/assets/images/home/desktop/Green-industry-Activty-Thaipolyester.webp?v={{time()}}" data-fancybox="gallery" data-thumbnail-src="/assets/images/home/desktop/Green-industry-Activty-Thaipolyester.webp?v={{time()}}">
+                                    <picture>
+                                        <source srcset="/assets/images/home/mobile/Green-industry-Activty-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                        <img src="/assets/images/home/desktop/Green-industry-Activty-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="Green industry Activty Thaipolyester" loading="lazy">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-4 p-0 col2 d-flex flex-c">
+                            <div class="img_block w-100p m-auto">
+                                <a title="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" href="/assets/images/home/desktop/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp?v={{time()}}" data-fancybox="gallery" data-thumbnail-src="/assets/images/home/desktop/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp?v={{time()}}">
+                                    <picture>
+                                        <source srcset="/assets/images/home/mobile/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                        <img src="/assets/images/home/desktop/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" loading="lazy">
+                                    </picture>
+                                </a>
+                            </div>
+                            <div class="img_block w-100p m-auto">
+                                <a title="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" href="/assets/images/home/desktop/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp?v={{time()}}" data-fancybox="gallery" data-thumbnail-src="/assets/images/home/desktop/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp?v={{time()}}">
+                                    <picture>
+                                        <source srcset="/assets/images/home/mobile/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp?v={{time()}}" media="(max-width: 640px)">
+                                        <img src="/assets/images/home/desktop/OEKO-TEX-Confidence-in-Textile-Standard-100-Thaipolyester-1.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="OEKO TEX Confidence in Textile Standard 100 Thaipolyester" loading="lazy">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-6 col-md-4 p-0 col3">
+                            <div class="img_block w-100p">
+                                <a title="intertek Certificate of Registration thaipolyester" href="/assets/images/home/desktop/intertek-Certificate-of-Registration-thaipolyester.webp?v={{time()}}" data-fancybox="gallery" data-thumbnail-src="/assets/images/home/desktop/intertek-Certificate-of-Registration-thaipolyester.webp?v={{time()}}">
+                                    <picture>
+                                        <source srcset="/assets/images/home/mobile/intertek-Certificate-of-Registration-thaipolyester.webp?v={{time()}}" media="(max-width: 640px)">
+                                        <img src="/assets/images/home/desktop/intertek-Certificate-of-Registration-thaipolyester.webp?v={{time()}}" width="900" height="350" class="img-fluid" alt="intertek Certificate of Registration thaipolyester" loading="lazy">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
 @endsection
 @section('custom-script')
-	<script src="/js/index.js?v={{ time() }}"></script>
-	{{-- <script src="/assets/custom/wp-content/plugins/radiantthemes-addons/assets/js/jquery.fancybox.min.js?v={{ time() }}"></script> --}}
+<script src="/js/index.min.js?v={{time()}}"></script>
 @endsection
+
