@@ -2,7 +2,7 @@
 @section('style')
 <link rel="preload stylesheet" href="/css/index2.min.css?v={{time()}}" as="style" crossorigin>
 @endsection
-@section('og-image','')
+@section('og-image','/assets/images/home-v2/desktop/Catalog-company-profile-ThaiPolyester.webp')
 @section('content')
     <div id="tpc">
         <div id="tpc_bg">
