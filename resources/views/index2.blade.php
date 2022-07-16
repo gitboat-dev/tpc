@@ -76,7 +76,7 @@
                                 Laemchabang Port within 2 hours.
                             </p>
                             <div class="about-btn d-flex">
-                                <a href="" title="About Us" class="m-auto">
+                                <a href="{!!url('/about')!!}" title="About Us" class="m-auto">
                                     ABOUT US
                                 </a>
                             </div>
@@ -319,7 +319,7 @@
                                         about the environmental problems to protect the ecosystem and the environment for decades.
                                     </p>
                                     <div class="recycled-btn d-flex">
-                                        <a href="" title="100% Recycled Polyester" class="mr-0">
+                                        <a href="{!!url('/recycled-products')!!}" title="100% Recycled Polyester" class="mr-0">
                                             ...Continue reading
                                         </a>
                                     </div>
@@ -351,7 +351,7 @@
                             • Twisted yarn
                         </p>
                         <div class="filament-btn d-flex">
-                            <a href="" title="Filament" class="mr-0">
+                            <a href="{{route('product.filament')}}" title="Filament" class="mr-0">
                                 ...Continue reading
                             </a>
                         </div>
@@ -375,7 +375,7 @@
                                 to the local customers and export to thread suppliers, knitting and weaving manufacturers around the world every year.
                             </p>
                             <div class="spun-btn d-flex">
-                                <a href="" title="Spun yarn" class="mr-0">
+                                <a href="{{route('product.spun-yarn')}}" title="Spun yarn" class="mr-0">
                                     ...Continue reading
                                 </a>
                             </div>
