@@ -132,7 +132,9 @@ class blogController extends Controller {
 				$data['blogs_columns'] = $blogs_columns;
 				if ($blog->article_type > 1 && $blog->article_columns) {
 					return view('blogs.' . $blog->article_columns, $data);
-				}
+				}else{
+                    return view('blogs.new',data);
+                }
 			}
 		}
 		return view('page404');
