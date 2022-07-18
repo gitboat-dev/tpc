@@ -2111,3 +2111,298 @@ ew.blade.php) at D:\\Panya.l\\MyProject\\xampp\\htdocs\\Project\\TPC_New\\fronte
 [2022-07-18 06:40:36] local.DEBUG: -> error string  
 [2022-07-18 06:40:36] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
 [2022-07-18 06:40:36] local.DEBUG: -> end  
+[2022-07-18 06:47:32] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-18 06:47:32] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-18 06:47:32] local.DEBUG: -> error string  
+[2022-07-18 06:47:32] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
+[2022-07-18 06:47:32] local.DEBUG: -> end  
+[2022-07-18 06:47:35] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-18 06:47:35] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-18 06:47:35] local.DEBUG: -> error string  
+[2022-07-18 06:47:35] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
+[2022-07-18 06:47:35] local.DEBUG: -> end  
+[2022-07-18 06:48:56] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-18 06:48:56] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-18 06:48:56] local.DEBUG: -> error string  
+[2022-07-18 06:48:56] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
+[2022-07-18 06:48:56] local.DEBUG: -> end  
+[2022-07-18 06:48:57] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-18 06:48:57] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-18 06:48:57] local.DEBUG: -> error string  
+[2022-07-18 06:48:57] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
+[2022-07-18 06:48:57] local.DEBUG: -> end  
+[2022-07-18 06:50:21] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-18 06:50:21] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-18 06:50:21] local.DEBUG: -> error string  
+[2022-07-18 06:50:21] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
+[2022-07-18 06:50:21] local.DEBUG: -> end  
+[2022-07-18 06:50:22] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-18 06:50:22] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-18 06:50:22] local.DEBUG: -> error string  
+[2022-07-18 06:50:22] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
+[2022-07-18 06:50:22] local.DEBUG: -> end  
+[2022-07-18 06:52:29] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-18 06:52:29] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-18 06:52:29] local.DEBUG: -> error string  
+[2022-07-18 06:52:29] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
+[2022-07-18 06:52:29] local.DEBUG: -> end  
+[2022-07-18 06:52:30] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-18 06:52:30] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-18 06:52:30] local.DEBUG: -> error string  
+[2022-07-18 06:52:30] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
+[2022-07-18 06:52:30] local.DEBUG: -> end  
+[2022-07-18 06:53:08] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-18 06:53:08] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-18 06:53:08] local.DEBUG: -> error string  
+[2022-07-18 06:53:08] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
+[2022-07-18 06:53:08] local.DEBUG: -> end  
+[2022-07-18 06:53:09] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-18 06:53:09] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-18 06:53:09] local.DEBUG: -> error string  
+[2022-07-18 06:53:09] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
+[2022-07-18 06:53:09] local.DEBUG: -> end  
+[2022-07-18 06:54:14] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-18 06:54:14] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-18 06:54:14] local.DEBUG: -> error string  
+[2022-07-18 06:54:14] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
+[2022-07-18 06:54:14] local.DEBUG: -> end  
+[2022-07-18 06:54:15] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-18 06:54:15] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-18 06:54:15] local.DEBUG: -> error string  
+[2022-07-18 06:54:15] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
+[2022-07-18 06:54:15] local.DEBUG: -> end  
+[2022-07-18 06:55:07] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-18 06:55:07] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-18 06:55:07] local.DEBUG: -> error string  
+[2022-07-18 06:55:07] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
+[2022-07-18 06:55:07] local.DEBUG: -> end  
+[2022-07-18 06:55:08] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-18 06:55:08] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-18 06:55:08] local.DEBUG: -> error string  
+[2022-07-18 06:55:08] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
+[2022-07-18 06:55:08] local.DEBUG: -> end  
+[2022-07-18 06:55:35] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-18 06:55:35] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-18 06:55:35] local.DEBUG: -> error string  
+[2022-07-18 06:55:35] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
+[2022-07-18 06:55:35] local.DEBUG: -> end  
+[2022-07-18 06:55:35] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-18 06:55:35] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-18 06:55:35] local.DEBUG: -> error string  
+[2022-07-18 06:55:35] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
+[2022-07-18 06:55:35] local.DEBUG: -> end  
+[2022-07-18 06:56:01] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-18 06:56:01] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-18 06:56:01] local.DEBUG: -> error string  
+[2022-07-18 06:56:01] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
+[2022-07-18 06:56:01] local.DEBUG: -> end  
+[2022-07-18 06:56:02] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-18 06:56:02] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-18 06:56:02] local.DEBUG: -> error string  
+[2022-07-18 06:56:02] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
+[2022-07-18 06:56:02] local.DEBUG: -> end  
+[2022-07-18 06:58:24] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-18 06:58:24] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-18 06:58:24] local.DEBUG: -> error string  
+[2022-07-18 06:58:24] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
+[2022-07-18 06:58:24] local.DEBUG: -> end  
+[2022-07-18 06:58:25] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-18 06:58:25] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-18 06:58:25] local.DEBUG: -> error string  
+[2022-07-18 06:58:25] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
+[2022-07-18 06:58:25] local.DEBUG: -> end  
+[2022-07-18 06:59:25] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-18 06:59:25] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-18 06:59:25] local.DEBUG: -> error string  
+[2022-07-18 06:59:25] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
+[2022-07-18 06:59:25] local.DEBUG: -> end  
+[2022-07-18 06:59:26] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-18 06:59:26] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-18 06:59:26] local.DEBUG: -> error string  
+[2022-07-18 06:59:26] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
+[2022-07-18 06:59:26] local.DEBUG: -> end  
+[2022-07-18 07:01:01] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-18 07:01:01] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-18 07:01:01] local.DEBUG: -> error string  
+[2022-07-18 07:01:01] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
+[2022-07-18 07:01:01] local.DEBUG: -> end  
+[2022-07-18 07:01:01] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-18 07:01:01] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-18 07:01:01] local.DEBUG: -> error string  
+[2022-07-18 07:01:01] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
+[2022-07-18 07:01:01] local.DEBUG: -> end  
+[2022-07-18 07:02:07] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-18 07:02:07] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-18 07:02:07] local.DEBUG: -> error string  
+[2022-07-18 07:02:07] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
+[2022-07-18 07:02:07] local.DEBUG: -> end  
+[2022-07-18 07:02:07] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-18 07:02:07] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-18 07:02:07] local.DEBUG: -> error string  
+[2022-07-18 07:02:07] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
+[2022-07-18 07:02:07] local.DEBUG: -> end  
+[2022-07-18 07:02:24] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-18 07:02:24] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-18 07:02:24] local.DEBUG: -> error string  
+[2022-07-18 07:02:24] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
+[2022-07-18 07:02:24] local.DEBUG: -> end  
+[2022-07-18 07:02:25] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-18 07:02:25] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-18 07:02:25] local.DEBUG: -> error string  
+[2022-07-18 07:02:25] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
+[2022-07-18 07:02:25] local.DEBUG: -> end  
+[2022-07-18 07:03:05] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-18 07:03:05] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-18 07:03:05] local.DEBUG: -> error string  
+[2022-07-18 07:03:05] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
+[2022-07-18 07:03:05] local.DEBUG: -> end  
+[2022-07-18 07:03:06] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-18 07:03:06] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-18 07:03:06] local.DEBUG: -> error string  
+[2022-07-18 07:03:06] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
+[2022-07-18 07:03:06] local.DEBUG: -> end  
+[2022-07-18 07:04:36] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-18 07:04:36] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-18 07:04:36] local.DEBUG: -> error string  
+[2022-07-18 07:04:36] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
+[2022-07-18 07:04:36] local.DEBUG: -> end  
+[2022-07-18 07:04:37] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-18 07:04:37] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-18 07:04:37] local.DEBUG: -> error string  
+[2022-07-18 07:04:37] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
+[2022-07-18 07:04:37] local.DEBUG: -> end  
+[2022-07-18 07:06:55] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-18 07:06:55] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-18 07:06:55] local.DEBUG: -> error string  
+[2022-07-18 07:06:55] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
+[2022-07-18 07:06:55] local.DEBUG: -> end  
+[2022-07-18 07:06:56] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-18 07:06:56] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-18 07:06:56] local.DEBUG: -> error string  
+[2022-07-18 07:06:56] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
+[2022-07-18 07:06:56] local.DEBUG: -> end  
+[2022-07-18 07:07:11] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-18 07:07:11] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-18 07:07:11] local.DEBUG: -> error string  
+[2022-07-18 07:07:11] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
+[2022-07-18 07:07:11] local.DEBUG: -> end  
+[2022-07-18 07:07:12] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-18 07:07:12] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-18 07:07:12] local.DEBUG: -> error string  
+[2022-07-18 07:07:12] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
+[2022-07-18 07:07:12] local.DEBUG: -> end  
+[2022-07-18 07:09:01] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-18 07:09:01] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-18 07:09:01] local.DEBUG: -> error string  
+[2022-07-18 07:09:01] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
+[2022-07-18 07:09:01] local.DEBUG: -> end  
+[2022-07-18 07:09:03] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-18 07:09:03] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-18 07:09:03] local.DEBUG: -> error string  
+[2022-07-18 07:09:03] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
+[2022-07-18 07:09:03] local.DEBUG: -> end  
+[2022-07-18 07:09:15] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-18 07:09:15] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-18 07:09:15] local.DEBUG: -> error string  
+[2022-07-18 07:09:15] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
+[2022-07-18 07:09:15] local.DEBUG: -> end  
+[2022-07-18 07:09:16] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-18 07:09:16] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-18 07:09:16] local.DEBUG: -> error string  
+[2022-07-18 07:09:16] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
+[2022-07-18 07:09:16] local.DEBUG: -> end  
+[2022-07-18 07:14:25] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-18 07:14:25] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-18 07:14:25] local.DEBUG: -> error string  
+[2022-07-18 07:14:25] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
+[2022-07-18 07:14:25] local.DEBUG: -> end  
+[2022-07-18 07:14:25] local.ERROR: Undefined offset: 10 {"exception":"[object] (ErrorException(code: 0): Undefined offset: 10 at D:\\Panya.l\\MyProject\\xampp\\htdocs\\Project\\TPC_New\\frontend\\app\\Http\\Controllers\\frontend\\blog\\blogController.php:26)
+[stacktrace]
+#0 D:\\Panya.l\\MyProject\\xampp\\htdocs\\Project\\TPC_New\\frontend\\app\\Http\\Controllers\\frontend\\blog\\blogController.php(26): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined offse...', 'D:\\\\Panya.l\\\\MyPr...', 26, Array)
+#1 D:\\Panya.l\\MyProject\\xampp\\htdocs\\Project\\TPC_New\\frontend\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\frontend\\blog\\blogController->index()
+#2 D:\\Panya.l\\MyProject\\xampp\\htdocs\\Project\\TPC_New\\frontend\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(45): Illuminate\\Routing\\Controller->callAction('index', Array)
+#3 D:\\Panya.l\\MyProject\\xampp\\htdocs\\Project\\TPC_New\\frontend\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(219): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\frontend\\blog\\blogController), 'index')
+#4 D:\\Panya.l\\MyProject\\xampp\\htdocs\\Project\\TPC_New\\frontend\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(176): Illuminate\\Routing\\Route->runController()
+#5 D:\\Panya.l\\MyProject\\xampp\\htdocs\\Project\\TPC_New\\frontend\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(681): Illuminate\\Routing\\Route->run()
+#6 D:\\Panya.l\\MyProject\\xampp\\htdocs\\Project\\TPC_New\\frontend\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(130): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#7 D:\\Panya.l\\MyProject\\xampp\\htdocs\\Project\\TPC_New\\frontend\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(41): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#8 D:\\Panya.l\\MyProject\\xampp\\htdocs\\Project\\TPC_New\\frontend\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(171): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#9 D:\\Panya.l\\MyProject\\xampp\\htdocs\\Project\\TPC_New\\frontend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#10 D:\\Panya.l\\MyProject\\xampp\\htdocs\\Project\\TPC_New\\frontend\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(171): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#11 D:\\Panya.l\\MyProject\\xampp\\htdocs\\Project\\TPC_New\\frontend\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#12 D:\\Panya.l\\MyProject\\xampp\\htdocs\\Project\\TPC_New\\frontend\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(171): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#13 D:\\Panya.l\\MyProject\\xampp\\htdocs\\Project\\TPC_New\\frontend\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(56): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#14 D:\\Panya.l\\MyProject\\xampp\\htdocs\\Project\\TPC_New\\frontend\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(171): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#15 D:\\Panya.l\\MyProject\\xampp\\htdocs\\Project\\TPC_New\\frontend\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#16 D:\\Panya.l\\MyProject\\xampp\\htdocs\\Project\\TPC_New\\frontend\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(171): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#17 D:\\Panya.l\\MyProject\\xampp\\htdocs\\Project\\TPC_New\\frontend\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#18 D:\\Panya.l\\MyProject\\xampp\\htdocs\\Project\\TPC_New\\frontend\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(171): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#19 D:\\Panya.l\\MyProject\\xampp\\htdocs\\Project\\TPC_New\\frontend\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(105): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#20 D:\\Panya.l\\MyProject\\xampp\\htdocs\\Project\\TPC_New\\frontend\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(683): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#21 D:\\Panya.l\\MyProject\\xampp\\htdocs\\Project\\TPC_New\\frontend\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(658): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#22 D:\\Panya.l\\MyProject\\xampp\\htdocs\\Project\\TPC_New\\frontend\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(624): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#23 D:\\Panya.l\\MyProject\\xampp\\htdocs\\Project\\TPC_New\\frontend\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(613): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#24 D:\\Panya.l\\MyProject\\xampp\\htdocs\\Project\\TPC_New\\frontend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(170): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#25 D:\\Panya.l\\MyProject\\xampp\\htdocs\\Project\\TPC_New\\frontend\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(130): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#26 D:\\Panya.l\\MyProject\\xampp\\htdocs\\Project\\TPC_New\\frontend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#27 D:\\Panya.l\\MyProject\\xampp\\htdocs\\Project\\TPC_New\\frontend\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(171): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#28 D:\\Panya.l\\MyProject\\xampp\\htdocs\\Project\\TPC_New\\frontend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#29 D:\\Panya.l\\MyProject\\xampp\\htdocs\\Project\\TPC_New\\frontend\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(171): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#30 D:\\Panya.l\\MyProject\\xampp\\htdocs\\Project\\TPC_New\\frontend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#31 D:\\Panya.l\\MyProject\\xampp\\htdocs\\Project\\TPC_New\\frontend\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(171): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#32 D:\\Panya.l\\MyProject\\xampp\\htdocs\\Project\\TPC_New\\frontend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode.php(63): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#33 D:\\Panya.l\\MyProject\\xampp\\htdocs\\Project\\TPC_New\\frontend\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(171): Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#34 D:\\Panya.l\\MyProject\\xampp\\htdocs\\Project\\TPC_New\\frontend\\vendor\\fideloper\\proxy\\src\\TrustProxies.php(57): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#35 D:\\Panya.l\\MyProject\\xampp\\htdocs\\Project\\TPC_New\\frontend\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(171): Fideloper\\Proxy\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#36 D:\\Panya.l\\MyProject\\xampp\\htdocs\\Project\\TPC_New\\frontend\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(105): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#37 D:\\Panya.l\\MyProject\\xampp\\htdocs\\Project\\TPC_New\\frontend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(145): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#38 D:\\Panya.l\\MyProject\\xampp\\htdocs\\Project\\TPC_New\\frontend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#39 D:\\Panya.l\\MyProject\\xampp\\htdocs\\Project\\TPC_New\\frontend\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#40 D:\\Panya.l\\MyProject\\xampp\\htdocs\\Project\\TPC_New\\frontend\\server.php(21): require_once('D:\\\\Panya.l\\\\MyPr...')
+#41 {main}
+"} 
+[2022-07-18 07:14:34] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-18 07:14:34] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-18 07:14:34] local.DEBUG: -> error string  
+[2022-07-18 07:14:34] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
+[2022-07-18 07:14:34] local.DEBUG: -> end  
+[2022-07-18 07:14:50] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-18 07:14:50] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-18 07:14:50] local.DEBUG: -> error string  
+[2022-07-18 07:14:50] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
+[2022-07-18 07:14:50] local.DEBUG: -> end  
+[2022-07-18 07:14:51] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-18 07:14:51] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-18 07:14:51] local.DEBUG: -> error string  
+[2022-07-18 07:14:51] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
+[2022-07-18 07:14:51] local.DEBUG: -> end  
+[2022-07-18 07:14:52] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-18 07:14:52] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-18 07:14:52] local.DEBUG: -> error string  
+[2022-07-18 07:14:52] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
+[2022-07-18 07:14:52] local.DEBUG: -> end  
+[2022-07-18 07:14:52] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-18 07:14:52] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-18 07:14:52] local.DEBUG: -> error string  
+[2022-07-18 07:14:52] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
+[2022-07-18 07:14:52] local.DEBUG: -> end  
+[2022-07-18 07:14:53] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-18 07:14:53] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-18 07:14:53] local.DEBUG: -> error string  
+[2022-07-18 07:14:53] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
+[2022-07-18 07:14:53] local.DEBUG: -> end  
+[2022-07-18 07:14:53] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-18 07:14:53] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-18 07:14:53] local.DEBUG: -> error string  
+[2022-07-18 07:14:53] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
+[2022-07-18 07:14:53] local.DEBUG: -> end  
+[2022-07-18 07:14:54] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-18 07:14:54] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-18 07:14:54] local.DEBUG: -> error string  
+[2022-07-18 07:14:54] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
+[2022-07-18 07:14:54] local.DEBUG: -> end  
+[2022-07-18 07:14:54] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-18 07:14:54] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-18 07:14:54] local.DEBUG: -> error string  
+[2022-07-18 07:14:54] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
+[2022-07-18 07:14:54] local.DEBUG: -> end  

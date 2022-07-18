@@ -50,6 +50,35 @@
                         <div class="col-xs-12 col-sm-12 col-md-8 p-0">
                             <div class="title-block">
                                 <h1 class="mt-0 fw-600 default">{{$blog->article_title}}</h1>
+                                <span class="gray-hl fw-600 d-block">
+                                    <i class="fa fa-calendar" aria-hidden="true" style="margin-right: 5px;"></i>
+                                    {{$blog->article_date_start}}
+                                </span>
+                                <ul class="path d-inline">
+                                    <li>
+                                        <a href="/" title="home">
+                                            Home
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/blog" title="Columns & News">
+                                            Columns & News
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/blog/columns&news/news" title="News">
+                                            News
+                                        </a>
+                                    </li>
+                                    {{-- @if(isset($before_page))
+                                        <li>
+                                            <a href="/blog" title="home">
+                                                {{$before_page}}
+                                            </a>
+                                        </li>
+                                    @endif --}}
+                                    <li class="active">{{$blog->article_title}}</li>
+                                </ul>
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-4 p-0">

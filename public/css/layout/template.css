@@ -78,6 +78,10 @@ body {
     color: hsl(56deg 91% 65%);
     word-wrap: break-word;
 }
+.gray-hl{
+    color: #989898;
+    word-wrap: break-word;
+}
 .bg-white{
 	background-color: var(--msBgLight);
     color: var(--msBgDark);

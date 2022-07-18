@@ -21,7 +21,7 @@ class blogController extends Controller {
 		if ($blog) {
             $cover = $this->get_cover();
 			foreach ($blog as $a) {
-                $a->article_date_start = date("Y-m-d", strtotime($a->article_date_start));
+                $a->article_date_start = date("D, M d, Y H:i A", strtotime($a->article_date_start));
 				$a->banner = $this->get_banners($a['id']);
                 $a->cover = $cover[$a['id']];
 			}
@@ -122,6 +122,7 @@ class blogController extends Controller {
 				}
 				$blog->banner = $this->get_banners($blog->id);
 				$blog->cover = $this->get_cover($blog->id);
+                $blog->article_date_start = date("D, M d, Y H:i A", strtotime($blog->article_date_start));
 				$data['blog'] = $blog;
 				$data['chkie'] = $chkie->chk();
 				$data['chkmobile'] = $agent->isMobile() ? $agent->isMobile() : ($agent->isTablet() ? $agent->isTablet() : false);
