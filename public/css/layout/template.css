@@ -117,12 +117,14 @@ body {
 #tpc .mobile{
     display: none !important;
 }
-#tpc h1,#tpc .h1{
+#tpc h1:not(.default),
+#tpc .h1:not(.default){
 	font-size: 60px;
     font-weight: normal;
     line-height: 70px;
 }
-#tpc h2,#tpc .h2{
+#tpc h2:not(.default),
+#tpc .h2:not(.default){
 	font-size: 50px;
     font-weight: normal;
     line-height: 60px;
@@ -238,12 +240,14 @@ body {
     #tpc .m-tl4{
         font-size: 20%;
     }
-    #tpc h1{
+    #tpc h1:not(.default),
+    #tpc .h1:not(.default){
         font-size: 40px;
         font-weight: normal;
         line-height: 46px;
     }
-    #tpc h2{
+    #tpc h2:not(.default),
+    #tpc .h2:not(.default){
         font-size: 30px;
         line-height: 36px;
     }
