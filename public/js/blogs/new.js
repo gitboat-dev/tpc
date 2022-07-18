@@ -19,7 +19,7 @@ function slide_sec1(reload = 0){
         autoplayHoverPause:true,
         margin:10,
         rewind:true,
-        nav:true,
+        nav:false,
 		navText : ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
         dots:false,
         items:1,

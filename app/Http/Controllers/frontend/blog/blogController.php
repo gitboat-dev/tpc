@@ -100,24 +100,15 @@ class blogController extends Controller {
 		if ($slug) {
 			$blog = article::where('article_slug', $slug)->first();
 			if ($blog) {
-				$blogs_news = article::where('id', '!=', $blog->id)
-					->where('article_type', 1)
+				$blogs = article::where('id', '!=', $blog->id)
 					->orderBy('created_at', 'asc')
 					->take(5)
 					->get();
-				$blogs_columns = article::where('id', '!=', $blog->id)
-					->where('article_type', 2)
-					->orderBy('created_at', 'asc')
-					->take(5)
-					->get();
-				if ($blogs_news) {
-					foreach ($blogs_news as $news) {
-						$news->banner = $this->get_banners($news['id']);
-					}
-				}
-				if ($blogs_columns) {
-					foreach ($blogs_columns as $columns) {
-						$columns->banner = $this->get_banners($columns['id']);
+				if ($blogs) {
+					foreach ($blogs as $b) {
+						$b->banner = $this->get_banners($b['id']);
+                        $b->cover = $this->get_cover($b['id']);
+                        $b->article_date_start = date("D, M d, Y", strtotime($b['article_date_start']));
 					}
 				}
 				$blog->banner = $this->get_banners($blog->id);
@@ -130,8 +121,7 @@ class blogController extends Controller {
 				$data['title'] = isset($blog->seo_title) && $blog->seo_title ? $clean->clean(trim($blog->seo_title)) : "";
 				$data['des'] = isset($blog->seo_description) && $blog->seo_description ? $clean->clean(trim($blog->seo_description)) : "";
 				$data['key'] = isset($blog->seo_keywords) && $blog->seo_keywords ? $clean->clean(trim($blog->seo_keywords)) : "";
-				$data['blogs_news'] = $blogs_news;
-				$data['blogs_columns'] = $blogs_columns;
+				$data['blogs'] = $blogs;
 				if ($blog->article_type > 1 && $blog->article_columns) {
 					return view('blogs.' . $blog->article_columns, $data);
 				}else{
