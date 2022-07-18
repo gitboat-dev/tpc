@@ -1,0 +1,40 @@
+#sec1 .owl-nav > .owl-next {
+    display: flex;
+    position: absolute;
+    top: calc(50% - 0.5em);
+    right: 1%;
+    font-size: 2em;
+    transform: scale(0.9900);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+#sec1 .owl-nav > .owl-prev {
+    display: flex;
+    position: absolute;
+    top: calc(50% - 0.5em);
+    left: 1%;
+    font-size: 2em;
+    transform: scale(0.9900);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+#sec1 .owl-nav > .owl-prev:hover,
+#sec1 .owl-nav > .owl-next:hover {
+    color: var(--msBgDark);
+    transform: scale(1.1100);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+@media only screen and (min-width: 1600px){
+    #sec1 .owl-nav > .owl-next,
+    #sec1 .owl-nav > .owl-prev{
+        font-size: 4em;
+    }
+}

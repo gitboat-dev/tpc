@@ -121,6 +121,7 @@ class blogController extends Controller {
 					}
 				}
 				$blog->banner = $this->get_banners($blog->id);
+				$blog->cover = $this->get_cover($blog->id);
 				$data['blog'] = $blog;
 				$data['chkie'] = $chkie->chk();
 				$data['chkmobile'] = $agent->isMobile() ? $agent->isMobile() : ($agent->isTablet() ? $agent->isTablet() : false);
@@ -133,7 +134,8 @@ class blogController extends Controller {
 				if ($blog->article_type > 1 && $blog->article_columns) {
 					return view('blogs.' . $blog->article_columns, $data);
 				}else{
-                    return view('blogs.new',data);
+                    // dd($data);
+                    return view('blogs.new',$data);
                 }
 			}
 		}
