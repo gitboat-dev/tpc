@@ -128,6 +128,27 @@ ul.path > li:not(:last-child)::after {
     width: 100%;
     background-color: var(--msBgDarkOpacity);
 }
+#sec2 .col2 .sidebar-body a{
+    color: var(--msBgDark);
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+#sec2 .col2 .sidebar-body a:hover{
+    color: var(--msBg);
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+#sec2 .col2 .sidebar-body figure{
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+}
+#sec2 .col2 .sidebar-body figure:not(:last-child){
+    border-bottom: 1px solid #ccc;
+}
 /* #sec2 .col2 .sidebar .sidebar-body::before{
     content: " ";
     position: absolute;
