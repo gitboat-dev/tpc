@@ -21,7 +21,6 @@ function sticky_sidebar(start,obj,dif){
         let _start = $(start).offset().top,
             _headder_height = $('header .header-body').outerHeight(),
             _end = ($(start).outerHeight() - ($(obj).outerHeight() / 2)) ;
-            console.log(document.documentElement.scrollTop+"<"+_end);
         if(document.documentElement.scrollTop > (_start - dif) && document.documentElement.scrollTop < _end){
             _start = document.documentElement.scrollTop - _start + _headder_height + dif;
             $(obj).css({
