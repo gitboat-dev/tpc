@@ -11,6 +11,7 @@
 @section('content')
     <div id="tpc">
         <div id="tpc_bg">
+            {{-- <a href="https://www.linkedin.com/shareArticle?mini=true&url={{url()->current()}}&title={{$title}}&summary={{$des}}&source=thaipolyester">linkedin</a> --}}
             <section id="sec1" class="pos-r bg-white">
                 @if(isset($blog) && $blog)
                     @if(count($blog->banner) > 1)
