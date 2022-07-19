@@ -77,16 +77,16 @@ jQuery(document).ready(function($){
             });
 		}
 	});
-    $('div.burger-menu').on('click',function(){
-        if($(this).hasClass('change')){
-            setTimeout(function(){
-                sec4_slide(1);
-                sec7_slide(1);
-                sec11_slide(1);
-                sec12_slide(1);
-            },1000);
-        }
-    });
+    // $('div.burger-menu').on('click',function(){
+    //     if($(this).hasClass('change')){
+    //         setTimeout(function(){
+    //             sec4_slide(1);
+    //             sec7_slide(1);
+    //             sec11_slide(1);
+    //             sec12_slide(1);
+    //         },1000);
+    //     }
+    // });
 });
 function sec4_slide(reload = 0){
     let next = "<picture>"+

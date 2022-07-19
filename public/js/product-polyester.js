@@ -1,13 +1,13 @@
 jQuery(document).ready(function($){
     sec1_slide();
     row3();
-    $('div.burger-menu').on('click',function(){
-        if($(this).hasClass('change')){
-            setTimeout(function(){
-                sec1_slide(1);
-            },1000);
-        }
-    });
+    // $('div.burger-menu').on('click',function(){
+    //     if($(this).hasClass('change')){
+    //         setTimeout(function(){
+    //             sec1_slide(1);
+    //         },1000);
+    //     }
+    // });
     $(window).resize(function() {
         row3();
     });

@@ -37,8 +37,8 @@ function sticky_sidebar(start,obj,dif){
         $(obj).removeAttr('style');
     }
 }
-function slide_sec1(){
-    $('#sec1 .slide .owl-carousel').owlCarousel({
+function slide_sec1(reload = 0){
+    let owl = $('#sec1 .slide .owl-carousel').owlCarousel({
         lazyLoad:true,
         loop:false,
         autoplay:true,
@@ -52,4 +52,7 @@ function slide_sec1(){
         items:1,
         animateOut: 'fadeOut',
     });
+    if(reload > 0){
+        owl.trigger('refresh.owl.carousel');
+    }
 }
