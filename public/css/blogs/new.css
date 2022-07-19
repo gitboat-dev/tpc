@@ -68,13 +68,13 @@ ul.path > li:not(:last-child)::after {
 #sec2{
     padding: var(--sec2-padding);
 }
-#sec2 .col1 ul.path {
+/* #sec2 .col1 ul.path {
     padding: 0px;
     display: block !important;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-}
+} */
 #sec2 .col1{
     margin-top: -120px;
     padding: 25px 30px 20px!important;
@@ -148,6 +148,33 @@ ul.path > li:not(:last-child)::after {
 }
 #sec2 .col2 .sidebar-body figure:not(:last-child){
     border-bottom: 1px solid #ccc;
+}
+#sec2 .col2 .sidebar-footer{
+    margin-top: 20px;
+    position: relative;
+}
+#sec2 .col2 .sidebar-footer::before{
+    content: " ";
+    position: absolute;
+    top: -20px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+}
+#sec2 .col2 .sidebar-footer .btn-allnews a{
+    font-size: 18px;
+    display: block;
+    width: fit-content;
+    background-color: var(--msBg);
+    color: #fff;
+    padding: 10px 10px;
+    transform: scale(0.9500);
+    transition: all 0.2s;
+}
+#sec2 .col2 .sidebar-footer .btn-allnews a:hover{
+    transform: scale(1.1009);
+    transition: all 0.2s;
 }
 
 /* end sec2 */

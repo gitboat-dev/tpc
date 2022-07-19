@@ -108,6 +108,11 @@
                                         </div>
                                     @endif
                                 </div>
+                                <div class="sidebar-footer">
+                                    <div class="btn-allnews">
+                                        <a href="/blog" title="All News">All News</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
