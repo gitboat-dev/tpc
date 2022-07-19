@@ -65,10 +65,10 @@ ul.path > li:not(:last-child)::after {
 
 /* end sec1 */
 
-/* #sec2{
+#sec2{
     padding: var(--sec2-padding);
 }
-#sec2 ul.path {
+#sec2 .col1 ul.path {
     padding: 0px;
     display: block !important;
     overflow: hidden;
@@ -148,7 +148,7 @@ ul.path > li:not(:last-child)::after {
 }
 #sec2 .col2 .sidebar-body figure:not(:last-child){
     border-bottom: 1px solid #ccc;
-} */
+}
 
 /* end sec2 */
 
@@ -171,7 +171,7 @@ ul.path > li:not(:last-child)::after {
     /* end sec1 */
 }
 @media only screen and (max-width: 991px){
-    /* #sec2 .col1{
+    #sec2 .col1{
         margin-top: unset;
     }
     #sec2 .col2{
@@ -180,7 +180,7 @@ ul.path > li:not(:last-child)::after {
     #sec2 .col2 .sidebar{
         margin-right: unset;
         max-width: 100%;
-    } */
+    }
 
     /* end sec2 */
 }
@@ -199,9 +199,9 @@ ul.path > li:not(:last-child)::after {
 
     /* end all setting */
 
-    /* #sec2 .col1{
+    #sec2 .col1{
         padding: 12.5px 15px 10px!important;
-    } */
+    }
 
     /* end sec2 */
 }
