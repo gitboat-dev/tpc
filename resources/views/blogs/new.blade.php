@@ -99,7 +99,7 @@
                                                     </a>
                                                     <figcaption class="col-xs-6 col-sm-6 col-md-6 col-lg-8 m-auto">
                                                         <a href="/blog/{{$bs['article_slug']}}" title="{{$bs['article_title']}}">
-                                                            <h4 class="fw-600">{{$bs['article_title']}}</h4>
+                                                            <h5 class="fw-600">{{$bs['article_title']}}</h5>
                                                         </a>
                                                         <small class="gray-hl">{{$bs['article_date_start']}}</small>
                                                     </figcaption>

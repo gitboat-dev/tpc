@@ -292,7 +292,7 @@ nav.nav_right ul.header-menu .has-children ul.a_sub_menu > li:not(.navrecycled){
 		position: relative;
 	}
 	header .header-body .header_main .logo img{
-		margin: 4% 0;
+		margin: 4% 2%;
         max-width: calc(100% - 150px);
 	}
 	header .header-body .header_main .header-nav-menu{
@@ -300,9 +300,10 @@ nav.nav_right ul.header-menu .has-children ul.a_sub_menu > li:not(.navrecycled){
 	}
 
 	header .header-body .logo .m-menu-block{
+        float: right;
 		display: inline-block;
-		position: absolute;
-		right: 0;
+		position: unset;
+		right: unset;
 	}
 	header .header-body .logo .m-menu-block .m-menu{
 		position: relative;
