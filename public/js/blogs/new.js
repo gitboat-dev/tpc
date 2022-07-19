@@ -10,26 +10,25 @@ $(document).ready(function(){
         }
     });
     $(window).scroll(function(){
-        sticky_sidebar($('#sec2'),$('#sec2 .col2'),180);
+        sticky_sidebar($('#sec2'),$('#sec2 .col2'),100);
     });
     $(window).resize(function() {
-        sticky_sidebar($('#sec2'),$('#sec2 .col2'),180);
+        sticky_sidebar($('#sec2'),$('#sec2 .col2'),100);
     });
 });
 function sticky_sidebar(start,obj,dif){
     if($(window).width() > 991){
-        let top = $(start).offset().top - dif,
-        bottom = $(start).height() - dif,
-        obj_height = 0;
-        if(document.documentElement.scrollTop > top && document.documentElement.scrollTop < bottom){
-            obj_height = (document.documentElement.scrollTop - $(obj).height()) + dif;
-            console.log(obj_height);
-            obj_height = obj_height < 0 ? 0 : obj_height;
+        let _start = $(start).offset().top,
+            _headder_height = $('header .header-body').outerHeight(),
+            _end = $(start).outerHeight() - dif ;
+            console.log(document.documentElement.scrollTop+"<"+_end);
+        if(document.documentElement.scrollTop > (_start - dif) && document.documentElement.scrollTop < _end){
+            _start = document.documentElement.scrollTop - _start + _headder_height + dif;
             $(obj).css({
                 'position':'relative',
-                'top':obj_height+'px',
+                'top':_start+'px',
             });
-        }else if(document.documentElement.scrollTop < top){
+        }else if(document.documentElement.scrollTop < _start){
             $(obj).css({
                 'position':'relative',
                 'top':'0px',

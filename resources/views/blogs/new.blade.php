@@ -44,7 +44,7 @@
                     @endif
                 @endif
             </section>
-            <section id="sec2" class="pos-r bg-black">
+            <section id="sec2" class="pos-r bg-gray">
                 <div class="container">
                     <div class="row m-0">
                         <div class="col-xs-12 col-sm-12 col-md-8 col1 bg-white">
