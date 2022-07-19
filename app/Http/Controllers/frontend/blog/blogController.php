@@ -21,7 +21,7 @@ class blogController extends Controller {
 		if ($blog) {
             $cover = $this->get_cover();
 			foreach ($blog as $a) {
-                $a->article_date_start = date("D, M d, Y H:i A", strtotime($a->article_date_start));
+                $a->article_date_start = date("D, M d, Y", strtotime($a->article_date_start));
 				$a->banner = $this->get_banners($a['id']);
                 $a->cover = $cover[$a['id']];
 			}
@@ -47,7 +47,7 @@ class blogController extends Controller {
 		if ($blog) {
             $cover = $this->get_cover();
 			foreach ($blog as $a) {
-                $a->article_date_start = date("Y-m-d", strtotime($a->article_date_start));
+                $a->article_date_start = date("D, M d, Y", strtotime($a->article_date_start));
 				$a->banner = $this->get_banners($a['id']);
                 $a->cover = $cover[$a['id']];
 			}
@@ -74,7 +74,7 @@ class blogController extends Controller {
 		if ($blog) {
             $cover = $this->get_cover();
 			foreach ($blog as $a) {
-                $a->article_date_start = date("Y-m-d", strtotime($a->article_date_start));
+                $a->article_date_start = date("D, M d, Y", strtotime($a->article_date_start));
 				$a->banner = $this->get_banners($a['id']);
                 $a->cover = $cover[$a['id']];
 			}
@@ -125,7 +125,6 @@ class blogController extends Controller {
 				if ($blog->article_type > 1 && $blog->article_columns) {
 					return view('blogs.' . $blog->article_columns, $data);
 				}else{
-                    // dd($data);
                     return view('blogs.new',$data);
                 }
 			}
