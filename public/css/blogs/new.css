@@ -68,13 +68,13 @@ ul.path > li:not(:last-child)::after {
 #sec2{
     padding: var(--sec2-padding);
 }
-/* #sec2 .col1 ul.path {
+#sec2 .col1 ul.path {
     padding: 0px;
     display: block !important;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-} */
+}
 #sec2 .col1{
     margin-top: -100px;
     padding: 25px 30px 20px!important;

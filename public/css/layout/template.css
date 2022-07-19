@@ -58,6 +58,9 @@ body {
   -moz-transition: opacity .24s ease-in-out;
   transition: opacity .24s ease-in-out;
 }
+body > .wrapper.open{
+    overflow: hidden;
+}
 .theme-hl{
     color: var(--msBg);
 	word-wrap: break-word;

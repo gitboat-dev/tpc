@@ -2,13 +2,13 @@ $(document).ready(function(){
     $('#sec1').onScrolledTo(0,function(){
         slide_sec1();
 	});
-    $('div.burger-menu').on('click',function(){
-        if($(this).hasClass('change')){
-            setTimeout(function(){
-                slide_sec1(1);
-            },1000);
-        }
-    });
+    // $('div.burger-menu').on('click',function(){
+    //     if($(this).hasClass('change')){
+    //         setTimeout(function(){
+    //             slide_sec1(1);
+    //         },1000);
+    //     }
+    // });
     $(window).scroll(function(){
         sticky_sidebar($('#sec2'),$('#sec2 .col2'),100);
     });

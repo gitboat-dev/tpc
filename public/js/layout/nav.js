@@ -27,7 +27,7 @@ jQuery(document).ready(function($){
 		wrapper.toggleClass('open');
 		if(jQuery( window ).width() <= 991){
 			if($('.burger-menu.change').length > 0){
-				wrapper.css({'position':'absolute'});
+				wrapper.css({'position':'relative'});
 				wrapper.animate({
 					right: "+=250px",
 				},250);

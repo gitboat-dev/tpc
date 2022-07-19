@@ -1,9 +1,9 @@
 :root {
     --maxWidth:1920px;
 }
-.wrapper.open .slide .owl-carousel {
+/* .wrapper.open .slide .owl-carousel {
     display: none;
-}
+} */
 .navrecycled {
     background-color: #04bf8f;
 }
