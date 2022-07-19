@@ -9,6 +9,11 @@ $(document).ready(function(){
             },1000);
         }
     });
+    $(window).scroll(function(){
+        // console.log($('#sec2').offset().top);
+        // console.log($('#sec2').offset());
+        // console.log($('#sec2').height());
+    });
 });
 function slide_sec1(reload = 0){
     let owl = $('#sec1 .slide .owl-carousel').owlCarousel({

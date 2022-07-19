@@ -170,7 +170,7 @@ class blogController extends Controller {
 
 	private function banners($ref_id = 0) {
 		$id = (int) $ref_id;
-		return cache()->remember('blog_banner', now()->addMinutes(60), function () use ($id) {
+		return cache()->remember('blog_banner_'.$id, now()->addMinutes(60), function () use ($id) {
 			$a = [];
 			if ($id > 0) {
 				$banners = article_banner::where('ref_article_id', $id)
@@ -192,7 +192,7 @@ class blogController extends Controller {
 	}
     private function cover($id = 0) {
 		$id = (int) $id;
-		return cache()->remember('blog_cover', now()->addMinutes(60), function () use ($id) {
+		return cache()->remember('blog_cover_'.$id, now()->addMinutes(60), function () use ($id) {
 			$a = [];
 			if ($id > 0) {
 				$cover = article::where('id', $id)
