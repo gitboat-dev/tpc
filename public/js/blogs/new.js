@@ -10,11 +10,35 @@ $(document).ready(function(){
         }
     });
     $(window).scroll(function(){
-        // console.log($('#sec2').offset().top);
-        // console.log($('#sec2').offset());
-        // console.log($('#sec2').height());
+        sticky_sidebar($('#sec2'),$('#sec2 .col2'),180);
+    });
+    $(window).resize(function() {
+        sticky_sidebar($('#sec2'),$('#sec2 .col2'),180);
     });
 });
+function sticky_sidebar(start,obj,dif){
+    if($(window).width() > 991){
+        let top = $(start).offset().top - dif,
+        bottom = $(start).height() - dif,
+        obj_height = 0;
+        if(document.documentElement.scrollTop > top && document.documentElement.scrollTop < bottom){
+            obj_height = (document.documentElement.scrollTop - $(obj).height()) + dif;
+            console.log(obj_height);
+            obj_height = obj_height < 0 ? 0 : obj_height;
+            $(obj).css({
+                'position':'relative',
+                'top':obj_height+'px',
+            });
+        }else if(document.documentElement.scrollTop < top){
+            $(obj).css({
+                'position':'relative',
+                'top':'0px',
+            });
+        }
+    }else{
+        $(obj).removeAttr('style');
+    }
+}
 function slide_sec1(reload = 0){
     let owl = $('#sec1 .slide .owl-carousel').owlCarousel({
         lazyLoad:true,
