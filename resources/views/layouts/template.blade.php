@@ -14,7 +14,8 @@
     <meta name="keywords" content="@if(isset($key)){{$key}}@endif">
     <meta name="author" content="TCP">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.thaipolyester.com">
+    <meta property="og:url" content="{{url()->current()}}">
+    <meta property="og:site_name" content="Thai Polyester" />
     <meta property="og:title" content="@if(isset($title)){{$title}}@endif">
     <meta property="og:image" content="@yield('og-image')">
     <meta property="og:image:type" content="image/webp">
