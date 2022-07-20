@@ -77,17 +77,17 @@
                                     <span class="fw-600">Share This: </span>
                                     <ul class="share d-inline">
                                         <li>
-                                            <a href="" class="s-facebook" title="facebook">
+                                            <a href="https://www.facebook.com/sharer.php?u={{url()->current()}}" class="s-facebook" title="facebook" target="_blank">
                                                 <i class="fa fa-facebook" aria-hidden="true"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="" class="s-twitter" title="twitter">
+                                            <a href="https://twitter.com/share?text={{$blog->article_title}}&url={{url()->current()}}" class="s-twitter" title="twitter" target="_blank">
                                                 <i class="fa fa-twitter" aria-hidden="true"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="" class="s-linkedin" title="linkedin">
+                                            <a href="https://www.linkedin.com/shareArticle?mini=true&url={{url()->current()}}&title={{$blog->article_title}}&summary={{$blog->article_title}}&source=thaipolyester" class="s-linkedin" title="linkedin" target="_blank">
                                                 <i class="fa fa-linkedin" aria-hidden="true"></i>
                                             </a>
                                         </li>
