@@ -207,6 +207,8 @@ class blogController extends Controller {
 			article::whereIn('id', $article_inactive)->update(['active' => 1]);
 			article::whereIn('id', $article_active)->update(['active' => 0]);
 			DB::commit();
+            $clear = new func;
+            $clear->clearcache();
 			$data['success'] = true;
 		} catch (\Throwable $e) {
 			DB::rollback();
