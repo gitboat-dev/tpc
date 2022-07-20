@@ -136,13 +136,13 @@ class blogController extends Controller {
 			$article->updated_at = date('Y-m-d H:i:s');
 			$article->save();
 			DB::commit();
+            $clear = new func;
+            $clear->clearcache();
 			$data['success'] = true;
 			$data['slug'] = $article->article_slug;
 			$data['url'] = request()->root() . '/blog/' . $article->article_slug;
 		} catch (\Throwable $e) {
 			DB::rollback();
-            $clear = new func;
-            $clear->clearcache();
 			Log::debug('blogController[save] : ' . $e->getMessage());
 		}
 		return $data;
