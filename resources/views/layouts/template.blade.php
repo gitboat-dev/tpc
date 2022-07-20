@@ -21,6 +21,10 @@
     <meta property="og:image:type" content="image/webp">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="@if(isset($title)){{$title}}@endif">
+    <meta name="twitter:description" content="@if(isset($des)){{$des}}@endif">
+    <meta name="twitter:image" content="@yield('og-image')">
     <link rel="shortcut icon" href="{{ asset('assets/custom/images/home/Logo-01.webp')}}">
 @include('layouts.tags.header')
 @include('layouts.style')
