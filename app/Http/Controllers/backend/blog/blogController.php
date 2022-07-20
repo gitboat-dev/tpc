@@ -5,6 +5,7 @@ namespace App\Http\Controllers\backend\blog;
 use App\Http\Controllers\Controller;
 use App\Models\backend\article;
 use App\Models\backend\article_banner;
+use App\Http\Controllers\backend\Func as func;
 use DB;
 use File;
 use Illuminate\Http\Request;
@@ -140,6 +141,8 @@ class blogController extends Controller {
 			$data['url'] = request()->root() . '/blog/' . $article->article_slug;
 		} catch (\Throwable $e) {
 			DB::rollback();
+            $clear = new func;
+            $clear->clearcache();
 			Log::debug('blogController[save] : ' . $e->getMessage());
 		}
 		return $data;
