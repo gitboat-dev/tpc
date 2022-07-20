@@ -87,7 +87,7 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.linkedin.com/shareArticle?mini=true&url={{url()->current()}}&title={{$blog->article_title}}&summary={{$blog->article_title}}&source=thaipolyester" class="s-linkedin" title="linkedin" target="_blank">
+                                            <a href="https://www.linkedin.com/shareArticle?mini=true&url={{url()->current()}}&title={{$blog->article_title}}&source=thaipolyester" class="s-linkedin" title="linkedin" target="_blank">
                                                 <i class="fa fa-linkedin" aria-hidden="true"></i>
                                             </a>
                                         </li>
