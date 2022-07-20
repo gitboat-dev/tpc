@@ -174,6 +174,8 @@ class blogController extends Controller {
 				article::whereIn('id', $request->blog_ids)->delete();
 			}
 			DB::commit();
+            $clear = new func;
+            $clear->clearcache();
 			$data['success'] = true;
 		} catch (\Throwable $e) {
 			DB::rollback();
