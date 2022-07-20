@@ -93,6 +93,44 @@ ul.path > li:not(:last-child)::after {
     font-size: 14px;
     line-height: 14px;
 }
+#sec2 .col1 .share-block .share > li > a{
+    display: inline-flex;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    text-align: center;
+    background-color: var(--msBgOpacity);
+    color: var(--msBgLight);
+    border-radius: 50%;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+#sec2 .col1 .share-block .share > li > a > *{
+    margin: auto;
+}
+#sec2 .col1 .share-block .share > li > a.s-facebook:hover{
+    background-color: #4060a5;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+#sec2 .col1 .share-block .share > li > a.s-twitter:hover{
+    background-color: #00abe3;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+#sec2 .col1 .share-block .share > li > a.s-linkedin:hover{
+    background-color: #0094bc;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
 #sec2 .col2{
     margin-top: -100px;
     z-index: 1;

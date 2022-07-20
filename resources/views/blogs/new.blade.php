@@ -73,6 +73,26 @@
                                     </li>
                                     <li class="active">{{$blog->article_title}}</li>
                                 </ul>
+                                <div class="share-block text-left">
+                                    <span class="fw-600">Share This: </span>
+                                    <ul class="share d-inline">
+                                        <li>
+                                            <a href="" class="s-facebook" title="facebook">
+                                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="s-twitter" title="twitter">
+                                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="s-linkedin" title="linkedin">
+                                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                             @if($blog->article_details)
                                 <div class="detail-block">
