@@ -1,6 +1,6 @@
 @extends('layouts.template')
 @section('style')
-    <link rel="preload stylesheet" href="/css/blogs/new.css?v={{time()}}" as="style" crossorigin>
+    <link rel="preload stylesheet" href="/css/blogs/new.min.css?v={{time()}}" as="style" crossorigin>
     <link rel="preload stylesheet"  href="/lib/owlcarousel/assets/owl.carousel.min.css" as="style" crossorigin>
 @endsection
 @if($blog && isset($blog))
@@ -125,5 +125,5 @@
 @section('custom-script')
     <script src="/lib/jquery-on-scrolled-to/on-scrolled-to.min.js"></script>
     <script src="/lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="/js/blogs/new.js?v={{time()}}"></script>
+    <script src="/js/blogs/new.min.js?v={{time()}}"></script>
 @endsection

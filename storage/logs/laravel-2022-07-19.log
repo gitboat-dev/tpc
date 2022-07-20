@@ -10472,3 +10472,33 @@
 [2022-07-19 09:31:36] local.DEBUG: -> error string  
 [2022-07-19 09:31:36] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
 [2022-07-19 09:31:36] local.DEBUG: -> end  
+[2022-07-19 09:44:41] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-19 09:44:41] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-19 09:44:41] local.DEBUG: -> error string  
+[2022-07-19 09:44:41] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
+[2022-07-19 09:44:41] local.DEBUG: -> end  
+[2022-07-19 09:45:54] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-19 09:45:54] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-19 09:45:54] local.DEBUG: -> error string  
+[2022-07-19 09:45:54] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
+[2022-07-19 09:45:54] local.DEBUG: -> end  
+[2022-07-19 09:45:56] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-19 09:45:56] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-19 09:45:56] local.DEBUG: -> error string  
+[2022-07-19 09:45:56] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
+[2022-07-19 09:45:56] local.DEBUG: -> end  
+[2022-07-19 09:45:57] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-19 09:45:57] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-19 09:45:57] local.DEBUG: -> error string  
+[2022-07-19 09:45:57] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
+[2022-07-19 09:45:57] local.DEBUG: -> end  
+[2022-07-19 09:58:07] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-19 09:58:07] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-19 09:58:07] local.DEBUG: -> error string  
+[2022-07-19 09:58:07] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
+[2022-07-19 09:58:07] local.DEBUG: -> end  
+[2022-07-19 09:58:08] local.DEBUG: error exception | AgentController -> get()  
+[2022-07-19 09:58:08] local.DEBUG: user agent : Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36  
+[2022-07-19 09:58:08] local.DEBUG: -> error string  
+[2022-07-19 09:58:08] local.DEBUG: SQLSTATE[HY000] [1044] Access denied for user 'tpc'@'localhost' to database 'master_agent' (SQL: select * from `platform`)  
+[2022-07-19 09:58:08] local.DEBUG: -> end  
