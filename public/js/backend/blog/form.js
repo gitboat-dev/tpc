@@ -139,11 +139,11 @@ $(document).ready(function(){
 function blog_content(){
     var form = $("#article_content"),
         formseo = $("#article_seo"),
-        active = form.find('#active:checked').length > 0 ? 
+        active = form.find('#active:checked').length > 0 ?
                 $.trim(form.find('#active:checked').val().replace(/(<([^>]+)>)/gi, "")) : 0,
-        details = form.find('#type').val() == 1 ? 
+        details = form.find('#type').val() == 1 ?
                 $.trim(form.find('#details').val()) : "",
-        columns = form.find('#type').val() == 2 ? 
+        columns = form.find('#type').val() == 2 ?
                 $.trim(form.find('#columns').val().replace(/(<([^>]+)>)/gi, "")) : "";
     return {
         'id':$.trim($('meta[name="token-id"]').attr('content')),
