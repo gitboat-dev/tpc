@@ -90,7 +90,7 @@
                                         <div class="row m-0">
                                             @foreach($blogs as $bs)
                                                 <figure class="col-md-12 d-flex">
-                                                    <a href="/blog/{{$bs['article_slug']}}" class="col-xs-6 col-sm-6 col-md-6 col-lg-4 p-0 m-auto" title="{{$bs['article_title']}}">
+                                                    <a href="/blog/{{$bs['article_slug']}}" class="col-xs-5 col-sm-5 col-md-6 col-lg-4 p-0 m-auto" title="{{$bs['article_title']}}">
                                                         <div class="img_block w-100p">
                                                             <picture>
                                                                 <source srcset="{{$bs['cover']['url']}}" media="(max-width: 640px)">
@@ -98,7 +98,7 @@
                                                             </picture>
                                                         </div>
                                                     </a>
-                                                    <figcaption class="col-xs-6 col-sm-6 col-md-6 col-lg-8 m-auto">
+                                                    <figcaption class="col-xs-7 col-sm-7 col-md-6 col-lg-8 m-auto">
                                                         <a href="/blog/{{$bs['article_slug']}}" title="{{$bs['article_title']}}">
                                                             <h5 class="fw-600">{{$bs['article_title']}}</h5>
                                                         </a>
