@@ -46,8 +46,6 @@ jQuery(document).ready(function($){
 	});
     $('#submitcontract').on('click',function(){
 		var f = $('#contact-form'),
-	    	res = f.find('#res'),
-	    	btn = $(this),
 	    	token = inqHex(inqRandom()),
     		v = cForm(f);
 		if(checkData(f).success){
@@ -70,22 +68,16 @@ jQuery(document).ready(function($){
                             success: function(ea) {
                             	setTimeout(function() {
                             		var f = $('#contact-form'),
-								    	res = f.find('#res'),
-								    	btn = $('#submitcontract2'),
-								    	btnMsg = "SUBMIT";
+								    	res = f.find('#res');
                             		if(ea.status == 'success'){
                                         msg = '<div class="alert alert-success"><strong>Thank you!</strong> '+ea.message+' <span class="c"></span></div>';
                                         res.html(msg);
                                         f.resetForm();
-                                        btn.html(btnMsg);
-                                        c(15,res.find('.alert'));
+                                        // c(15,res.find('.alert'));
                                         thank_you();
                                     }else if(ea.status == 'error'){
                                         msg = '<div class="alert alert-danger"><strong>Error!</strong> '+ea.message+'</div>';
                                         res.html(msg);
-                                        btn.html('<i class="fa fa-refresh"></i> Try Again');
-                                    }else{
-                                        btn.html(btnMsg);
                                     }
                             	},200);
                             }
