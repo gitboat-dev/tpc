@@ -4,8 +4,10 @@
 @endsection
 @section('og-image','/assets/images/blogs/columns/difference-fdy-and-dty/desktop/How-difference-between-FDY-and-DTY-Yarn-Head-Thaipolyester.webp')
 @section('content')
+@include('blogs.blog_update.update')
 <div id="tpc">
     <div id="tpc_bg">
+        {{-- @include('blogs.blog_update.update') --}}
         <section id="sec1">
             <div class="row m-0">
                 <div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
