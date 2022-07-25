@@ -100,7 +100,7 @@ class blogController extends Controller {
 		if ($slug) {
 			$blog = article::where('article_slug', $slug)->first();
 			if ($blog) {
-				$blogs = article::where('id', '!=', $blog->id)
+				$blogs = article::where('article_type',$blog->article_type)
 					->orderBy('created_at', 'asc')
 					->take(5)
 					->get();
