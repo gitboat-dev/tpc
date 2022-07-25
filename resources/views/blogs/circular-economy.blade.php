@@ -1,9 +1,11 @@
 @extends('layouts.template')
 @section('style')
 	<link rel="preload stylesheet" href="/css/blogs/circular-economy.css?v={{ time() }}" as="style" crossorigin>
+    <link rel="preload stylesheet" href="/css/blogs/blog_update/update.min.css?v={{time()}}" as="style" crossorigin>
 @endsection
     @section('og-image','/assets/images/blogs/columns/circular-economy/desktop/The-Complete-Guide-to-the-Circular-Economy-for-Textiles-Thaipolyester.webp')
 @section('content')
+    @include('blogs.blog_update.update')
 	<h1 style="display: none;">The Complete Guide to the Circular Economy for Textiles.</h1>
 	<div id="cce">
 		<div id="cce_bg" class="bg-black">
@@ -263,4 +265,5 @@
 @endsection
 @section('custom-script')
 	<script src="/js/blogs/circular-economy.js?v={{ time() }}"></script>
+    <script src="/js/blogs/blog_update/update.min.js?v={{time()}}"></script>
 @endsection

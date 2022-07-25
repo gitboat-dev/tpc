@@ -6,7 +6,8 @@
     width: 30%;
     max-width: 832.5px;
 }
-/* .blog_update .d-flex{
+
+.blog_update .d-flex{
     display: flex;
 }
 .blog_update .m-0{
@@ -23,7 +24,8 @@
 }
 .blog_update .fw-600{
     font-weight: 600;
-} */
+}
+
 .blog_update .update_blog{
     position: relative;
     display: inline-block;
