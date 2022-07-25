@@ -195,4 +195,5 @@
 </div>
 @endsection
 @section('custom-script')
+    <script src="/js/blogs/blog_update/update.min.js?v={{time()}}"></script>
 @endsection
