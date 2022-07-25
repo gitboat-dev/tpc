@@ -1,11 +1,13 @@
 @extends('layouts.template')
 @section('style')
     <link rel="preload stylesheet" href="/css/blogs/dope-dyed-polyester-yarn.min.css?v={{time()}}" as="style" crossorigin>
+    <link rel="preload stylesheet" href="/css/blogs/blog_update/update.min.css?v={{time()}}" as="style" crossorigin>
 @endsection
 @section('og-image','/assets/images/blogs/columns/dope-dyed-polyester-yarn/desktop/DOPE-DYED-POLYESTER-YARN-thaipolyester.webp')
 @section('content')
 <div id="tpc">
     <div id="tpc_bg">
+        @include('blogs.blog_update.update')
         <section id="sec1" class="bg-black">
             <div class="row m-0">
                 <div class="col-xs-12 col-sm-12 col-md-12 p-0 col1">
@@ -177,4 +179,5 @@
 </div>
 @endsection
 @section('custom-script')
+    <script src="/js/blogs/blog_update/update.min.js?v={{time()}}"></script>
 @endsection

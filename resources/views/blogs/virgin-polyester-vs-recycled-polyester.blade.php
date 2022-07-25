@@ -2,11 +2,13 @@
 @section('style')
     <link rel="preload stylesheet" href="/css/blogs/vp-vs-rp.min.css?v={{time()}}" as="style" crossorigin>
     {{-- <link rel="stylesheet" id="fancybox-css" href="{!!asset('/assets/custom/wp-content/plugins/radiantthemes-addons/assets/css/jquery.fancybox.min.css?ver=4.9.11')!!}" type="text/css" media="all"> --}}
+    <link rel="preload stylesheet" href="/css/blogs/blog_update/update.min.css?v={{time()}}" as="style" crossorigin>
 @endsection
 @section('og-image','/assets/images/blogs/columns/vp-vs-rp/desktop/Head-Virgin-Polyester-VS-Recycled-Polyester-Thaipolyester.webp')
 @section('content')
     <div id="tpc">
         <div id="tpc_bg">
+            @include('blogs.blog_update.update')
             <section id="sec1">
                 <div class="row m-0">
                     <div class="col-xs-12 col-sm-12 col-md-12 p-0">
@@ -376,5 +378,6 @@
     </div>
 @endsection
 @section('custom-script')
-{{-- <script src="/assets/custom/wp-content/plugins/radiantthemes-addons/assets/js/jquery.fancybox.min.js?v={{time()}}"></script> --}}
+    <script src="/js/blogs/blog_update/update.min.js?v={{time()}}"></script>
+    {{-- <script src="/assets/custom/wp-content/plugins/radiantthemes-addons/assets/js/jquery.fancybox.min.js?v={{time()}}"></script> --}}
 @endsection
